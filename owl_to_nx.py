@@ -86,9 +86,10 @@ g = nx.DiGraph(g)
 #g_slim = g.subgraph(networkx.descendants(g, rg_id))
 #g_slim = networkx.compose(list(g.subgraph(networkx.descendants(g,rg_id)), g.subgraph(networkx.ancestors(g, rg_id))))                                           
 
-# Add partOf to the graph
+# Add partOf and equivalentClass to the graph
 part_of = rdflib.term.URIRef("http://purl.obolibrary.org/obo/BFO_0000050")
 some_values_from = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#someValuesFrom')
+equivalent_class = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#equivalentClass')
 subclassof_rdf = rdflib.term.URIRef('http://www.w3.org/2000/01/rdf-schema#subClassOf')
 for onto_class in o.all_classes:
     # Find more complex subClassOf objects that rdflib identifies through BNode elements
@@ -105,6 +106,9 @@ for onto_class in o.all_classes:
                 
                 #g.add_edge(onto_class.locale, ontospy.core.utils.inferURILocalSymbol(part_of_node.toPython())[0], type='PartOf')
                 g.add_edge(ontospy.core.utils.inferURILocalSymbol(part_of_node.toPython())[0], onto_class.locale, type=partof_string)
+    # Handle equivalentClass 
+    equivalentClass_list = list(onto_class.rdflib_graph.objects(predicate=equivalent_class))
+    
 
 # Add weights to the graph
 for edge in g.edges:
@@ -131,6 +135,7 @@ for node in max_g_slim:
 # Turn graph back into ontology
 o_slim = ontospy.Ontospy()
 o_slim_rdf_graph = rdflib.Graph()
+onClass = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#onClass')
 for node in max_g_slim:
     # Find the appropriate class from the original ontology
     new_o_class = o.get_class(node)[0]
@@ -143,6 +148,14 @@ for node in max_g_slim:
         #new_o_class.rdflib_graph.add((ps_sub[1], subclassof_rdf, ps_sub[0]))
         new_o_class.rdflib_graph.add((new_o_class.uri, subclassof_rdf, superclass_rdf))
         #new_o_class.triples = o_slim.sparqlHelper.entityTriples(new_o_class.uri)
+    # Remove any equivalentClasses (for now)
+    equivalentClass_list = list(new_o_class.rdflib_graph.subject_objects(equivalent_class))
+    for equivalentClass_tuple in equivalentClass_list:
+        new_o_class.rdflib_graph.remove((equivalentClass_tuple[0], equivalent_class, equivalentClass_tuple[1]))
+    # Fixing errors with restrictions
+    onClass_list = list(new_o_class.rdflib_graph.subject_objects(onClass))
+    for onClass_tuple in onClass_list:
+        new_o_class.rdflib_graph.remove((onClass_tuple[0], onClass, onClass_tuple[1]))
     # Now add the class to the ontology
     o_slim.all_classes += [new_o_class]
 o_slim.all_classes = sorted(o_slim.all_classes, key=lambda x: x.qname)
