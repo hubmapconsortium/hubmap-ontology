@@ -59,6 +59,8 @@ o.load_rdf("ext.owl")
 o.build_all()
 
 # Use a sample element
+kidney_id = "UBERON_0002113"
+kidney_class = o.get_class(kidney_id)[0]
 rg_id = "UBERON_0000074"
 renal_glomerulus = o.get_class(rg_id)
 
@@ -121,8 +123,13 @@ for edge in g.edges:
         edge_weight = 2
     g.get_edge_data(*edge)['weight'] = edge_weight
 
+#Start at kidney and compute shortest path, least cost route to desired node (e.g. renal glomerulus)
+#root_node_simple_paths = list(nx.all_simple_paths(g,kidney_id,rg_id))
+#rg_ancestors = set(nx.algorithms.shortest_paths.generic.shortest_path(g,kidney_id,rg_id,weight='weight'))
+
 # Make a slim version of the graph
 rg_tree_set = nx.descendants(g,rg_id) | nx.ancestors(g,rg_id)
+#rg_tree_set = nx.descendants(g,rg_id) | rg_ancestors
 rg_tree_set.add(rg_id)
 g_slim = g.subgraph(rg_tree_set)
 
