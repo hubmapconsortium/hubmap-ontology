@@ -127,6 +127,8 @@ g_slim = g.subgraph(rg_tree_set)
 
 # Make a maximum branching
 max_g_slim = nx.maximum_branching(g_slim)
+#g_slim - max_g_slim
+removed_edges = nx.difference(g_slim, max_g_slim)
 
 # create labels, nominally for plotting
 for node in max_g_slim:                  
@@ -148,6 +150,13 @@ for node in max_g_slim:
         #new_o_class.rdflib_graph.add((ps_sub[1], subclassof_rdf, ps_sub[0]))
         new_o_class.rdflib_graph.add((new_o_class.uri, subclassof_rdf, superclass_rdf))
         #new_o_class.triples = o_slim.sparqlHelper.entityTriples(new_o_class.uri)
+    # remove those edges from max_g_slim
+    # Needs to be in_edges because of how subClassOf works
+    #for edge in removed_edges:
+    for removed_edge in removed_edges.in_edges(node):
+        # Remove the RDF lib term
+        superclass_rdf = rdflib.term.URIRef("http://purl.obolibrary.org/obo/"+removed_edge[0])
+        new_o_class.rdflib_graph.remove((new_o_class.uri,subclassof_rdf,superclass_rdf))
     # Remove any equivalentClasses (for now)
     equivalentClass_list = list(new_o_class.rdflib_graph.subject_objects(equivalent_class))
     for equivalentClass_tuple in equivalentClass_list:
