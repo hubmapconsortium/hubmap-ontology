@@ -52,8 +52,6 @@ def partof_subclassof_list(onto_class):
     return ps_list
 
 
-# Create the graph
-g = nx.DiGraph(IRI="ext.owl")
 # Load the ontology
 o = ontospy.Ontospy()
 o.load_rdf("ext.owl")
@@ -63,6 +61,8 @@ o.build_all()
 rg_id = "UBERON_0000074"
 renal_glomerulus = o.get_class(rg_id)
 
+# Create the graph
+g = nx.DiGraph(IRI="ext.owl")
 # Create graph from the ontology
 subclassof_string = 'SubClassOf'
 partof_string = 'PartOf'
@@ -80,7 +80,8 @@ for onto_class in o.all_classes:
 
 # Check later if reversal is still necessary
 g = g.reverse(copy=False)
-g_orig = copy.copy(g)
+g_orig = nx.DiGraph(g)
+g = nx.DiGraph(g)
 # Make a DAG only involving one node, but with all its ancestors and descendants
 #g_slim = g.subgraph(networkx.descendants(g, rg_id))
 #g_slim = networkx.compose(list(g.subgraph(networkx.descendants(g,rg_id)), g.subgraph(networkx.ancestors(g, rg_id))))                                           
