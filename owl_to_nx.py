@@ -135,6 +135,12 @@ g_slim = g.subgraph(rg_tree_set)
 
 # Make a maximum branching
 max_g_slim = nx.maximum_branching(g_slim)
+#max_g_slim = nx.DiGraph(g_slim)
+
+# Remove everything coming into the kidney
+in_edges_list = list(max_g_slim.in_edges(kidney_id):)
+max_g_slim.remove_edges_from(in_edges_list)
+
 #g_slim - max_g_slim
 removed_edges = nx.difference(g_slim, max_g_slim)
 
