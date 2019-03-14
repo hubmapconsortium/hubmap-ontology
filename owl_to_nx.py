@@ -15,6 +15,7 @@ import networkx as nx
 import ontospy
 from urllib.parse import urldefrag
 import rdflib
+from rdflib.extras.external_graph_libs import rdflib_to_networkx_digraph, rdflib_to_networkx_multidigraph
 
 # Take ontology class and get its label
 def class_label(onto_class):
