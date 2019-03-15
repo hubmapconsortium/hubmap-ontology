@@ -56,7 +56,8 @@ def partof_subclassof_list(onto_class):
 # Load the ontology
 o = ontospy.Ontospy()
 o.load_rdf("ext.owl")
-o.build_all()
+#o.build_all()
+o.build_classes() # We only use the classes, so no need to build everything
 
 # Use a sample element
 kidney_id = "UBERON_0002113"
