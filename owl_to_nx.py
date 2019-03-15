@@ -151,6 +151,7 @@ max_g_slim.remove_edges_from(in_edges_list)
 removed_edges = nx.difference(g_slim, max_g_slim)
 
 # create labels, nominally for plotting
+g_slim_labels = {}
 for node in max_g_slim:                  
     g_slim_labels[node] = id_label(o,node)
 
