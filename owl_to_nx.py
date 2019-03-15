@@ -17,6 +17,7 @@ from urllib.parse import urldefrag
 import rdflib
 from rdflib.extras.external_graph_libs import rdflib_to_networkx_digraph, rdflib_to_networkx_multidigraph
 import copy
+import pandas as pd
 
 # Take ontology class and get its label
 def class_label(onto_class):
@@ -66,7 +67,11 @@ kidney_class = o.get_class(kidney_id)[0]
 rg_id = "UBERON_0000074"
 renal_glomerulus = o.get_class(rg_id)
 node_ids = ['UBERON_0002015', 'UBERON_0004200', 'UBERON_0001284', 'UBERON_0006171', 'UBERON_0001224', 'UBERON_0001226', 'UBERON_0001227', 'UBERON_0008716', 'UBERON_0001225', 'UBERON_0000362', 'UBERON_0001228', 'UBERON_0001285', 'UBERON_0001288', 'UBERON_0004134', 'UBERON_0004135', 'UBERON_0002335']
-
+ccf_df = pd.read_csv("ccf_input_terms.csv")
+ccf_df = ccf_df[ccf_df['Ontology ID'].notnull()] # Filter out nulls
+ccf_df = ccf_df[~ccf_df['Ontology ID'].str.startswith("fma")] # Filter out fma only terms
+node_ids = list(ccf_df['Ontology ID'])
+root_nodes = set(ccf_df['Parent ID'])
 
 # Create the graph
 g = nx.DiGraph(IRI="ext.owl")
