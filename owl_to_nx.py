@@ -16,6 +16,7 @@ import ontospy
 from urllib.parse import urldefrag
 import rdflib
 from rdflib.extras.external_graph_libs import rdflib_to_networkx_digraph, rdflib_to_networkx_multidigraph
+import copy
 
 # Take ontology class and get its label
 def class_label(onto_class):
@@ -33,23 +34,23 @@ def class_label(onto_class):
 def id_label(o, ont_id):
     return class_label(o.get_class(ont_id)[0])
 
-def partof_subclassof_list(onto_class):
+def partof_subclassof_list(onto_class_rdflib_graph, onto_class_locale):
     part_of = rdflib.term.URIRef("http://purl.obolibrary.org/obo/BFO_0000050")
     some_values_from = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#someValuesFrom')
     subclassof_rdf = rdflib.term.URIRef('http://www.w3.org/2000/01/rdf-schema#subClassOf')
 
-    subclassof_list = list(onto_class.rdflib_graph.objects(predicate=(subclassof_rdf)))
+    subclassof_list = list(onto_class_rdflib_graph.objects(predicate=(subclassof_rdf)))
     ps_list = [] #partof_subclassof_list
     for subclassof in subclassof_list:
         if type(subclassof) == rdflib.term.BNode:
-            bnode_objects = list(onto_class.rdflib_graph.objects(subclassof))
-            bnode_predicates = list(onto_class.rdflib_graph.predicates(subclassof))
+            bnode_objects = list(onto_class_rdflib_graph.objects(subclassof))
+            bnode_predicates = list(onto_class_rdflib_graph.predicates(subclassof))
             #print(bnode_predicates)
             if part_of in bnode_objects:
-                part_of_node = rdflib.term.URIRef(list(onto_class.rdflib_graph.objects(subclassof,some_values_from))[0])
+                part_of_node = rdflib.term.URIRef(list(onto_class_rdflib_graph.objects(subclassof,some_values_from))[0])
                 
                 #g.add_edge(onto_class.locale, ontospy.core.utils.inferURILocalSymbol(part_of_node.toPython())[0], type='PartOf')
-                ps_list.append((ontospy.core.utils.inferURILocalSymbol(part_of_node.toPython())[0], onto_class.locale))
+                ps_list.append((ontospy.core.utils.inferURILocalSymbol(part_of_node.toPython())[0], onto_class_locale))
     return ps_list
 
 
@@ -144,32 +145,35 @@ max_g_slim = nx.maximum_branching(g_slim)
 #max_g_slim = nx.DiGraph(g_slim)
 
 # Remove everything coming into the kidney
-in_edges_list = list(max_g_slim.in_edges(kidney_id))
+in_edges_list = []
+for root_node in root_nodes:
+    in_edges_list.extend(list(max_g_slim.in_edges(root_node)))
 max_g_slim.remove_edges_from(in_edges_list)
 
 #g_slim - max_g_slim
 removed_edges = nx.difference(g_slim, max_g_slim)
 
-# create labels, nominally for plotting
-g_slim_labels = {}
-for node in max_g_slim:                  
-    g_slim_labels[node] = id_label(o,node)
+## create labels, nominally for plotting
+#g_slim_labels = {}
+#for node in max_g_slim:                  
+#    g_slim_labels[node] = id_label(o,node)
 
 # Turn graph back into ontology
-o_slim = ontospy.Ontospy()
+#o_slim = ontospy.Ontospy()
 o_slim_rdf_graph = rdflib.Graph()
 onClass = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#onClass')
 for node in max_g_slim:
     # Find the appropriate class from the original ontology
-    new_o_class = o.get_class(node)[0]
+    new_o_class_rdflib_graph = copy.deepcopy(o.get_class(node)[0].rdflib_graph)
     # Substitue out the triple that was the partof that was problematic
     # First, find pairs that should be added
-    ps_list = partof_subclassof_list(new_o_class)
+    ps_list = partof_subclassof_list(new_o_class_rdflib_graph, node)
     # Then add in the new subclassof relationship
     for ps_sub in ps_list:
         superclass_rdf = rdflib.term.URIRef("http://purl.obolibrary.org/obo/"+ps_sub[0])
+        subclass_rdf = rdflib.term.URIRef("http://purl.obolibrary.org/obo/"+ps_sub[1])
         #new_o_class.rdflib_graph.add((ps_sub[1], subclassof_rdf, ps_sub[0]))
-        new_o_class.rdflib_graph.add((new_o_class.uri, subclassof_rdf, superclass_rdf))
+        new_o_class_rdflib_graph.add((subclass_rdf, subclassof_rdf, superclass_rdf))
         #new_o_class.triples = o_slim.sparqlHelper.entityTriples(new_o_class.uri)
     # remove those edges from max_g_slim
     # Needs to be in_edges because of how subClassOf works
@@ -177,26 +181,28 @@ for node in max_g_slim:
     for removed_edge in removed_edges.in_edges(node):
         # Remove the RDF lib term
         superclass_rdf = rdflib.term.URIRef("http://purl.obolibrary.org/obo/"+removed_edge[0])
-        new_o_class.rdflib_graph.remove((new_o_class.uri,subclassof_rdf,superclass_rdf))
+        subclass_rdf = rdflib.term.URIRef("http://purl.obolibrary.org/obo/"+removed_edge[1])
+        new_o_class_rdflib_graph.remove((subclass_rdf,subclassof_rdf,superclass_rdf))
     # Remove any equivalentClasses (for now)
-    equivalentClass_list = list(new_o_class.rdflib_graph.subject_objects(equivalent_class))
+    equivalentClass_list = list(new_o_class_rdflib_graph.subject_objects(equivalent_class))
     for equivalentClass_tuple in equivalentClass_list:
-        new_o_class.rdflib_graph.remove((equivalentClass_tuple[0], equivalent_class, equivalentClass_tuple[1]))
+        new_o_class_rdflib_graph.remove((equivalentClass_tuple[0], equivalent_class, equivalentClass_tuple[1]))
     # Fixing errors with restrictions
-    onClass_list = list(new_o_class.rdflib_graph.subject_objects(onClass))
+    onClass_list = list(new_o_class_rdflib_graph.subject_objects(onClass))
     for onClass_tuple in onClass_list:
-        new_o_class.rdflib_graph.remove((onClass_tuple[0], onClass, onClass_tuple[1]))
+        new_o_class_rdflib_graph.remove((onClass_tuple[0], onClass, onClass_tuple[1]))
     # Now add the class to the ontology
-    o_slim.all_classes += [new_o_class]
-o_slim.all_classes = sorted(o_slim.all_classes, key=lambda x: x.qname)
+    #o_slim.all_classes += [new_o_class]
+    o_slim_rdf_graph += new_o_class_rdflib_graph
+#o_slim.all_classes = sorted(o_slim.all_classes, key=lambda x: x.qname)
 
 
 # Now generate the string for serialization
 s_slim = ""
-for o_slim_class in o_slim.all_classes:
-    s_slim +=o_slim_class.rdf_source()
-for new_o_class in o_slim.all_classes:
-    o_slim_rdf_graph += new_o_class.rdflib_graph
+#for o_slim_class in o_slim.all_classes:
+#    s_slim +=o_slim_class.rdf_source()
+#for new_o_class in o_slim.all_classes:
+#    o_slim_rdf_graph += new_o_class.rdflib_graph
 osrg = o_slim_rdf_graph.serialize(format="turtle")
 if isinstance(osrg, bytes):
     osrg = osrg.decode('utf-8')
