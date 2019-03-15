@@ -63,6 +63,8 @@ kidney_id = "UBERON_0002113"
 kidney_class = o.get_class(kidney_id)[0]
 rg_id = "UBERON_0000074"
 renal_glomerulus = o.get_class(rg_id)
+node_ids = ['UBERON_0002015', 'UBERON_0004200', 'UBERON_0001284', 'UBERON_0006171', 'UBERON_0001224', 'UBERON_0001226', 'UBERON_0001227', 'UBERON_0008716', 'UBERON_0001225', 'UBERON_0000362', 'UBERON_0001228', 'UBERON_0001285', 'UBERON_0001288', 'UBERON_0004134', 'UBERON_0004135', 'UBERON_0002335']
+
 
 # Create the graph
 g = nx.DiGraph(IRI="ext.owl")
@@ -131,6 +133,9 @@ for edge in g.edges:
 rg_tree_set = nx.descendants(g,rg_id) | nx.ancestors(g,rg_id)
 #rg_tree_set = nx.descendants(g,rg_id) | rg_ancestors
 rg_tree_set.add(rg_id)
+for node_id in node_ids:
+    rg_tree_set |= nx.descendants(g,node_id) | nx.ancestors(g,node_id)
+    rg_tree_set.add(node_id)
 g_slim = g.subgraph(rg_tree_set)
 
 # Make a maximum branching
