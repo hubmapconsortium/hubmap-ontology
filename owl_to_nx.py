@@ -131,6 +131,20 @@ for edge in g.edges:
     elif edge_type == partof_string:
         edge_weight = 2
     g.get_edge_data(*edge)['weight'] = edge_weight
+# Boost weights to nodes
+for root_node in root_nodes:
+    for edge in g.out_edges(root_node):
+        g.get_edge_data(*edge)['weight'] += 100
+    for node in node_ids:
+        if root_node == node:
+            continue
+        root_node_simple_paths = list(nx.all_simple_paths(g,root_node,node))
+        #if root_node == kidney_id and node == rg_id:
+        #    print("Hello")
+        #    print(root_node_simple_paths)
+        for path in root_node_simple_paths:
+            for i in range(len(path)-1):
+                g.get_edge_data(path[i],path[i+1])['weight'] += 500
 
 #Start at kidney and compute shortest path, least cost route to desired node (e.g. renal glomerulus)
 #root_node_simple_paths = list(nx.all_simple_paths(g,kidney_id,rg_id))
