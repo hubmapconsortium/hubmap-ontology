@@ -17,6 +17,7 @@ Currently, the code requires the following Python packges:
 * RDFLib
 * pandas
 * pydot
+* PyYAML
 
 ## Running the code
 

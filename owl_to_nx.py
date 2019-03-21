@@ -19,6 +19,7 @@ from rdflib.extras.external_graph_libs import rdflib_to_networkx_digraph, rdflib
 import copy
 import pandas as pd
 import pydot
+import yaml
 
 # Take ontology class and get its label
 def class_label(onto_class):
@@ -68,6 +69,9 @@ kidney_class = o.get_class(kidney_id)[0]
 rg_id = "UBERON_0000074"
 renal_glomerulus = o.get_class(rg_id)
 node_ids = ['UBERON_0002015', 'UBERON_0004200', 'UBERON_0001284', 'UBERON_0006171', 'UBERON_0001224', 'UBERON_0001226', 'UBERON_0001227', 'UBERON_0008716', 'UBERON_0001225', 'UBERON_0000362', 'UBERON_0001228', 'UBERON_0001285', 'UBERON_0001288', 'UBERON_0004134', 'UBERON_0004135', 'UBERON_0002335']
+# Load nodes and root nodes
+owl_settings = open("owl_settings.yml","r").read()
+owl_settings_dict = yaml.load(owl_settings)
 ccf_df = pd.read_csv("ccf_input_terms.csv")
 ccf_df = ccf_df[ccf_df['Ontology ID'].notnull()] # Filter out nulls
 ccf_df = ccf_df[~ccf_df['Ontology ID'].str.startswith("fma")] # Filter out fma only terms
@@ -234,12 +238,22 @@ s_slim = ""
 #    s_slim +=o_slim_class.rdf_source()
 #for new_o_class in o_slim.all_classes:
 #    o_slim_rdf_graph += new_o_class.rdflib_graph
-osrg = o_slim_rdf_graph.serialize(format="turtle")
+owl_filetype = "owl_filetype"
+if owl_filetype in owl_settings_dict:
+    serialization_format = owl_settings_dict[owl_filetype]
+else:
+    serialization_format = "turtle"
+osrg = o_slim_rdf_graph.serialize(format=serialization_format)
 if isinstance(osrg, bytes):
     osrg = osrg.decode('utf-8')
 s_slim = osrg
 # Write the string to a file
-slim_file = open("slim.ttl","w")
+owl_filename = "owl_filename"
+if owl_filename in owl_settings_dict:
+    slim_filename = owl_settings_dict[owl_filename]
+else:
+    slim_filename = "slim.ttl"
+slim_file = open(slim_filename,"w")
 slim_file.write(s_slim)
 slim_file.close()
 
