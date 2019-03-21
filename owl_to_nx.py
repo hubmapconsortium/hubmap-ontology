@@ -18,6 +18,7 @@ import rdflib
 from rdflib.extras.external_graph_libs import rdflib_to_networkx_digraph, rdflib_to_networkx_multidigraph
 import copy
 import pandas as pd
+import pydot
 
 # Take ontology class and get its label
 def class_label(onto_class):
@@ -172,10 +173,21 @@ max_g_slim.remove_edges_from(in_edges_list)
 #g_slim - max_g_slim
 removed_edges = nx.difference(g_slim, max_g_slim)
 
-## create labels, nominally for plotting
-#g_slim_labels = {}
-#for node in max_g_slim:                  
-#    g_slim_labels[node] = id_label(o,node)
+#Remove nodes without edges
+#list_of_isolates = nx.algorithms
+
+# create labels, nominally for plotting
+g_slim_labels = {}
+for node in max_g_slim:                  
+    g_slim_labels[node] = id_label(o,node)
+
+max_g_slim_relabeled = nx.relabel_nodes(max_g_slim,g_slim_labels,copy=True)
+list_of_components = list(max_g_slim_relabeled.subgraph(c) for c in nx.weakly_connected_components(max_g_slim_relabeled))
+# find the kidney component
+kidney_index = np.where(np.array(["kidney" in list(list_of_components[i]) for i in range(len(list_of_components))]))[0][0]
+kidney_graph = list_of_components[kidney_index]
+# Writing dot files
+nx.drawing.nx_pydot.write_dot(kidney_graph,"kidney_filtered_partof.dot")
 
 # Turn graph back into ontology
 #o_slim = ontospy.Ontospy()
