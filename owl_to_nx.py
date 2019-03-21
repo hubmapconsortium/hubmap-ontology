@@ -20,6 +20,7 @@ import copy
 import pandas as pd
 import pydot
 import yaml
+import re
 
 # Take ontology class and get its label
 def class_label(onto_class):
@@ -187,11 +188,31 @@ for node in max_g_slim:
 
 max_g_slim_relabeled = nx.relabel_nodes(max_g_slim,g_slim_labels,copy=True)
 list_of_components = list(max_g_slim_relabeled.subgraph(c) for c in nx.weakly_connected_components(max_g_slim_relabeled))
-# find the kidney component
-kidney_index = np.where(np.array(["kidney" in list(list_of_components[i]) for i in range(len(list_of_components))]))[0][0]
-kidney_graph = list_of_components[kidney_index]
+dot_files = "dot_files"
+re_whitespace = re.compile("\s+")
 # Writing dot files
-nx.drawing.nx_pydot.write_dot(kidney_graph,"kidney_filtered_partof.dot")
+if dot_files in owl_settings_dict:
+    dot_files_dict = owl_settings_dict[dot_files]
+    if "entire_ontology" in dot_files_dict and dot_files_dict["entire_ontology"]:
+        nx.drawing.nx_pydot.write_dot(max_g_slim_relabeled,"dot/slim.dot")
+    # find the kidney component
+    if "root_nodes" in dot_files_dict and dot_files_dict["root_nodes"]:
+        list2_of_components = [list(list_of_components[i]) for i in range(len(list_of_components))]
+        for root_node in root_nodes:
+            root_node_name = id_label(o,root_node)
+            root_node_name_finds = np.where(np.array([root_node_name in component for component in list2_of_components]))[0]
+            if len(root_node_name_finds) > 0:
+                root_node_index = root_node_name_finds[0]
+                root_node_graph = list_of_components[root_node_index]
+                root_node_name_snakecase = re_whitespace.sub("_",root_node_name)
+                nx.drawing.nx_pydot.write_dot(root_node_graph,"dot/roots/"+root_node_name_snakecase+".dot")
+    if "non_leaf_nodes" in dot_files_dict and dot_files_dict["non_leaf_nodes"]:
+        for node in list(max_g_slim_relabeled.nodes):
+            node_out_edges = max_g_slim_relabeled.out_edges(node)
+            if len(node_out_edges) > 0:
+                node_graph = max_g_slim_relabeled.edge_subgraph(node_out_edges)
+                node_name_snakecase = re_whitespace.sub("_",node)
+                nx.drawing.nx_pydot.write_dot(node_graph,"dot/non_leafs/"+node_name_snakecase+".dot")
 
 # Turn graph back into ontology
 #o_slim = ontospy.Ontospy()
