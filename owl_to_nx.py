@@ -130,7 +130,7 @@ for edge in g.edges:
     if edge_type == subclassof_string:
         edge_weight = 1
     elif edge_type == partof_string:
-        edge_weight = 2
+        edge_weight = 20
     g.get_edge_data(*edge)['weight'] = edge_weight
 # Boost weights to nodes
 for root_node in root_nodes:
