@@ -9,6 +9,15 @@ Currently, code is licensed under the MIT License and the data is CC-BY 4.0. Eve
 
 [Documentation can be found here](https://docs.google.com/document/d/1X21O5DgGkq9ngPOsBZa-qy1-6Y2MiohJD7Bt-JFyysY/edit#)
 
+## Dependencies
+
+Currently, the code requires the following Python packges:
+* Ontospy
+* Networkx
+* RDFLib
+* pandas
+* pydot
+
 ## Running the code
 
 To run the code:
