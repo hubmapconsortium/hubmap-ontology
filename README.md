@@ -5,6 +5,8 @@ To create these ontologies, we need code as well as original data. Code and data
 
 Currently, code is licensed under the MIT License and the data is CC-BY 4.0. Eventually, there should be a curated ontology/release version of the ontology that is CC-BY-ND (No derivatives) that will ensure that there are fixed reference forms of the ontology, which should exist side-by-side with an almost identical one so as to permit the ontology to be remixed and reused as need be.
 
+These license policies will be revised in coordination with the appropriate HuBMAP working groups as needed. 
+
 ## Release 0.1.0 overview 
 The CCF ontology bundles the initial CCF ontology, requested ontology terms, and software necessary to generate the ontology. 
 
