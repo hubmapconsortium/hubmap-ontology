@@ -5,6 +5,16 @@ To create these ontologies, we need code as well as original data. Code and data
 
 Currently, code is licensed under the MIT License and the data is CC-BY 4.0. Eventually, there should be a curated ontology/release version of the ontology that is CC-BY-ND (No derivatives) that will ensure that there are fixed reference forms of the ontology, which should exist side-by-side with an almost identical one so as to permit the ontology to be remixed and reused as need be.
 
+## Release 0.1.0 overview 
+The CCF ontology bundles the initial CCF ontology, requested ontology terms, and software necessary to generate the ontology. 
+
+In Release 0.1.0, ... 
+
+Sam, please revise this!
+
+## CCF Development roadmap
+We maintain a development and release roadmap for the CCF Ontology and supporting software, available at [https://docs.google.com/document/d/1Sso27-7YI4993LC5a_HTBBMOK6QN83pcgXEg0ggrsWc/edit] (last edited: March 24, 2019).  
+
 ## Documentation
 
 [Documentation can be found here](https://docs.google.com/document/d/1X21O5DgGkq9ngPOsBZa-qy1-6Y2MiohJD7Bt-JFyysY/edit#)
