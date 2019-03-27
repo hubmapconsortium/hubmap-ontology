@@ -18,6 +18,9 @@ import rdflib
 from rdflib.extras.external_graph_libs import rdflib_to_networkx_digraph, rdflib_to_networkx_multidigraph
 import copy
 import pandas as pd
+import pydot
+import yaml
+import re
 
 # Take ontology class and get its label
 def class_label(onto_class):
@@ -67,6 +70,9 @@ kidney_class = o.get_class(kidney_id)[0]
 rg_id = "UBERON_0000074"
 renal_glomerulus = o.get_class(rg_id)
 node_ids = ['UBERON_0002015', 'UBERON_0004200', 'UBERON_0001284', 'UBERON_0006171', 'UBERON_0001224', 'UBERON_0001226', 'UBERON_0001227', 'UBERON_0008716', 'UBERON_0001225', 'UBERON_0000362', 'UBERON_0001228', 'UBERON_0001285', 'UBERON_0001288', 'UBERON_0004134', 'UBERON_0004135', 'UBERON_0002335']
+# Load nodes and root nodes
+owl_settings = open("owl_settings.yml","r").read()
+owl_settings_dict = yaml.load(owl_settings)
 ccf_df = pd.read_csv("ccf_input_terms.csv")
 ccf_df = ccf_df[ccf_df['Ontology ID'].notnull()] # Filter out nulls
 ccf_df = ccf_df[~ccf_df['Ontology ID'].str.startswith("fma")] # Filter out fma only terms
@@ -129,7 +135,7 @@ for edge in g.edges:
     if edge_type == subclassof_string:
         edge_weight = 1
     elif edge_type == partof_string:
-        edge_weight = 2
+        edge_weight = 20
     g.get_edge_data(*edge)['weight'] = edge_weight
 # Boost weights to nodes
 for root_node in root_nodes:
@@ -172,10 +178,41 @@ max_g_slim.remove_edges_from(in_edges_list)
 #g_slim - max_g_slim
 removed_edges = nx.difference(g_slim, max_g_slim)
 
-## create labels, nominally for plotting
-#g_slim_labels = {}
-#for node in max_g_slim:                  
-#    g_slim_labels[node] = id_label(o,node)
+#Remove nodes without edges
+#list_of_isolates = nx.algorithms
+
+# create labels, nominally for plotting
+g_slim_labels = {}
+for node in max_g_slim:                  
+    g_slim_labels[node] = id_label(o,node)
+
+max_g_slim_relabeled = nx.relabel_nodes(max_g_slim,g_slim_labels,copy=True)
+list_of_components = list(max_g_slim_relabeled.subgraph(c) for c in nx.weakly_connected_components(max_g_slim_relabeled))
+dot_files = "dot_files"
+re_whitespace = re.compile("\s+")
+# Writing dot files
+if dot_files in owl_settings_dict:
+    dot_files_dict = owl_settings_dict[dot_files]
+    if "entire_ontology" in dot_files_dict and dot_files_dict["entire_ontology"]:
+        nx.drawing.nx_pydot.write_dot(max_g_slim_relabeled,"dot/slim.dot")
+    # find the kidney component
+    if "root_nodes" in dot_files_dict and dot_files_dict["root_nodes"]:
+        list2_of_components = [list(list_of_components[i]) for i in range(len(list_of_components))]
+        for root_node in root_nodes:
+            root_node_name = id_label(o,root_node)
+            root_node_name_finds = np.where(np.array([root_node_name in component for component in list2_of_components]))[0]
+            if len(root_node_name_finds) > 0:
+                root_node_index = root_node_name_finds[0]
+                root_node_graph = list_of_components[root_node_index]
+                root_node_name_snakecase = re_whitespace.sub("_",root_node_name)
+                nx.drawing.nx_pydot.write_dot(root_node_graph,"dot/roots/"+root_node_name_snakecase+".dot")
+    if "non_leaf_nodes" in dot_files_dict and dot_files_dict["non_leaf_nodes"]:
+        for node in list(max_g_slim_relabeled.nodes):
+            node_out_edges = max_g_slim_relabeled.out_edges(node)
+            if len(node_out_edges) > 0:
+                node_graph = max_g_slim_relabeled.edge_subgraph(node_out_edges)
+                node_name_snakecase = re_whitespace.sub("_",node)
+                nx.drawing.nx_pydot.write_dot(node_graph,"dot/non_leafs/"+node_name_snakecase+".dot")
 
 # Turn graph back into ontology
 #o_slim = ontospy.Ontospy()
@@ -222,12 +259,22 @@ s_slim = ""
 #    s_slim +=o_slim_class.rdf_source()
 #for new_o_class in o_slim.all_classes:
 #    o_slim_rdf_graph += new_o_class.rdflib_graph
-osrg = o_slim_rdf_graph.serialize(format="turtle")
+owl_filetype = "owl_filetype"
+if owl_filetype in owl_settings_dict:
+    serialization_format = owl_settings_dict[owl_filetype]
+else:
+    serialization_format = "turtle"
+osrg = o_slim_rdf_graph.serialize(format=serialization_format)
 if isinstance(osrg, bytes):
     osrg = osrg.decode('utf-8')
 s_slim = osrg
 # Write the string to a file
-slim_file = open("slim.ttl","w")
+owl_filename = "owl_filename"
+if owl_filename in owl_settings_dict:
+    slim_filename = owl_settings_dict[owl_filename]
+else:
+    slim_filename = "slim.ttl"
+slim_file = open(slim_filename,"w")
 slim_file.write(s_slim)
 slim_file.close()
 

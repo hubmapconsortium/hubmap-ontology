@@ -1,0 +1,6 @@
+owl_filename: slim.ttl
+owl_filetype: turtle
+dot_files:
+    entire_ontology: True
+    root_nodes: True
+    non_leaf_nodes: True

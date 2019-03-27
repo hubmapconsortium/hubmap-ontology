@@ -23,6 +23,16 @@ We maintain a development and release roadmap for the CCF Ontology and supportin
 
 [Documentation can be found here](https://docs.google.com/document/d/1X21O5DgGkq9ngPOsBZa-qy1-6Y2MiohJD7Bt-JFyysY/edit#)
 
+## Dependencies
+
+Currently, the code requires the following Python packges:
+* Ontospy
+* Networkx
+* RDFLib
+* pandas
+* pydot
+* PyYAML
+
 ## Running the code
 
 To run the code:
