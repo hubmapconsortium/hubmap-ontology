@@ -33,7 +33,7 @@ where users can enter in relevant metadata and have the correct ontological term
 For v0.1.0, the ontological terms are in hidden rows, 2-5.
 
 ## CCF Development roadmap
-We maintain a development and release roadmap for the CCF Ontology and supporting software, available at [https://docs.google.com/document/d/1Sso27-7YI4993LC5a_HTBBMOK6QN83pcgXEg0ggrsWc/edit] (last updated: March 27, 2019).
+We maintain a development and release roadmap for the CCF Ontology and supporting software, available [here] (https://docs.google.com/document/d/1Sso27-7YI4993LC5a_HTBBMOK6QN83pcgXEg0ggrsWc/edit) (last updated: March 27, 2019).
 
 ## Documentation
 
