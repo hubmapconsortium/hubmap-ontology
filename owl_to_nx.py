@@ -21,6 +21,7 @@ import pandas as pd
 import pydot
 import yaml
 import re
+import numpy as np
 
 # Take ontology class and get its label
 def class_label(onto_class):
@@ -70,6 +71,9 @@ kidney_class = o.get_class(kidney_id)[0]
 rg_id = "UBERON_0000074"
 renal_glomerulus = o.get_class(rg_id)
 node_ids = ['UBERON_0002015', 'UBERON_0004200', 'UBERON_0001284', 'UBERON_0006171', 'UBERON_0001224', 'UBERON_0001226', 'UBERON_0001227', 'UBERON_0008716', 'UBERON_0001225', 'UBERON_0000362', 'UBERON_0001228', 'UBERON_0001285', 'UBERON_0001288', 'UBERON_0004134', 'UBERON_0004135', 'UBERON_0002335']
+anatomical_system_id = "UBERON_0000467"
+renal_system_id = "UBERON_0001008"
+cardiovascular_system_id = "UBERON_0004535"
 # Load nodes and root nodes
 owl_settings = open("owl_settings.yml","r").read()
 owl_settings_dict = yaml.load(owl_settings)
@@ -151,7 +155,21 @@ for root_node in root_nodes:
         for path in root_node_simple_paths:
             for i in range(len(path)-1):
                 g.get_edge_data(path[i],path[i+1])['weight'] += 500
+    # Boost weights from anatomical system to root nodes
+    # Find the shortest path between the root node and anatomical system
+    root_node_simple_paths = list(nx.all_simple_paths(g,anatomical_system_id,root_node))
+    if len(root_node_simple_paths) > 0: # Only do this if there's a path to anatomical system
+        lengths_of_simple_paths = [len(path) for path in root_node_simple_paths]
+        shortest_path_index = np.argmin(lengths_of_simple_paths)
+        path = root_node_simple_paths[shortest_path_index]
+        # Weight that path heavily (this should become a function call)
+        for i in range(len(path)-1):
+            g.get_edge_data(path[i],path[i+1])['weight'] += 5000
 
+    
+    
+
+                
 #Start at kidney and compute shortest path, least cost route to desired node (e.g. renal glomerulus)
 #root_node_simple_paths = list(nx.all_simple_paths(g,kidney_id,rg_id))
 #rg_ancestors = set(nx.algorithms.shortest_paths.generic.shortest_path(g,kidney_id,rg_id,weight='weight'))
@@ -171,8 +189,14 @@ max_g_slim = nx.maximum_branching(g_slim)
 
 # Remove everything coming into the kidney
 in_edges_list = []
-for root_node in root_nodes:
-    in_edges_list.extend(list(max_g_slim.in_edges(root_node)))
+cutting_nodes = []
+root_node_cut = False # This needs to become a settings parameter
+if root_node_cut == True:
+    cutting_nodes = root_nodes
+else:
+    cutting_nodes = [anatomical_system_id]
+for cut_node in cutting_nodes:
+    in_edges_list.extend(list(max_g_slim.in_edges(cut_node)))
 max_g_slim.remove_edges_from(in_edges_list)
 
 #g_slim - max_g_slim
