@@ -81,6 +81,8 @@ ccf_df = pd.read_csv("ccf_input_terms.csv")
 ccf_df = ccf_df[ccf_df['Ontology ID'].notnull()] # Filter out nulls
 ccf_df = ccf_df[~ccf_df['Ontology ID'].str.startswith("fma")] # Filter out fma only terms
 node_ids = list(ccf_df['Ontology ID'])
+ancestor_nodes = list(ccf_df['Parent ID'])
+descendants = list(ccf_df['Descendants'])
 root_nodes = set(ccf_df['Parent ID'])
 
 # Create the graph
@@ -145,16 +147,20 @@ for edge in g.edges:
 for root_node in root_nodes:
     for edge in g.out_edges(root_node):
         g.get_edge_data(*edge)['weight'] += 100
-    for node in node_ids:
-        if root_node == node:
-            continue
-        root_node_simple_paths = list(nx.all_simple_paths(g,root_node,node))
-        #if root_node == kidney_id and node == rg_id:
-        #    print("Hello")
-        #    print(root_node_simple_paths)
-        for path in root_node_simple_paths:
-            for i in range(len(path)-1):
-                g.get_edge_data(path[i],path[i+1])['weight'] += 500
+node_ancestor_pairs = list(zip(ancestor_nodes,node_ids))
+for root_node, node in node_ancestor_pairs:
+    if root_node == node:
+        continue
+    root_node_simple_paths = list(nx.all_simple_paths(g,root_node,node))
+    if len(root_node_simple_paths) == 0: # Error reporting from CSV file
+        print(root_node, node, id_label(o,root_node), id_label(o,node))
+    #if root_node == kidney_id and node == rg_id:
+    #    print("Hello")
+    #    print(root_node_simple_paths)
+    for path in root_node_simple_paths:
+        for i in range(len(path)-1):
+            g.get_edge_data(path[i],path[i+1])['weight'] += 500
+for root_node in root_nodes:                
     # Boost weights from anatomical system to root nodes
     # Find the shortest path between the root node and anatomical system
     root_node_simple_paths = list(nx.all_simple_paths(g,anatomical_system_id,root_node))
@@ -178,8 +184,11 @@ for root_node in root_nodes:
 rg_tree_set = nx.descendants(g,rg_id) | nx.ancestors(g,rg_id)
 #rg_tree_set = nx.descendants(g,rg_id) | rg_ancestors
 rg_tree_set.add(rg_id)
-for node_id in node_ids:
-    rg_tree_set |= nx.descendants(g,node_id) | nx.ancestors(g,node_id)
+for node_id, check_descendants in zip(node_ids,descendants):
+    # Only add descendants if desired
+    if check_descendants:
+        rg_tree_set |= nx.descendants(g,node_id)
+    rg_tree_set |= nx.ancestors(g,node_id)
     rg_tree_set.add(node_id)
 g_slim = g.subgraph(rg_tree_set)
 
