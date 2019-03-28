@@ -17,6 +17,7 @@ As part of this effort, 0.1.0 developed the software framework to add new terms 
 
 Lastly, 0.1.0 includes a prototype data ontology and data framework.
 The entire ontology is released as an OWL (W3C Web Ontology Language) file, which can be found in the data subdirectory.
+We note that we have had some problems with the Turtle format of the ontology, but that the RDF/XML one has given us no problems (as of March 27, 2019).
 
 ### Metadata Framework
 
@@ -31,6 +32,10 @@ We maintain a development and release roadmap for the CCF Ontology and supportin
 ## Documentation
 
 [Documentation can be found here](https://docs.google.com/document/d/1X21O5DgGkq9ngPOsBZa-qy1-6Y2MiohJD7Bt-JFyysY/edit#)
+
+## New terms/Bug Reports
+
+If you wish to have new terms be added to the ontology or have other bugs in the software to report, please [fill out a ticket](https://github.com/hubmapconsortium/hubmap-ontology/issues).
 
 ## Dependencies
 
@@ -55,4 +60,10 @@ o = ontospy.Ontospy()
 o.load_rdf("ext.owl")
 o.build_classes()
 ```
-where ext.owl is the ontology file to be loaded. At the moment, the loading and building of the classes takes an extremely long time (~10-30 minutes). Then the rest of the code can be run quickly to generate the ontology.
+where ext.owl is the ontology file to be loaded.
+To use UBERON as this ontology, please download [the UBERON ontology](http://purl.obolibrary.org/obo/uberon/ext.owl) and place it in the same directory as the Python code.
+This will eventually go into the settings file, owl_settings.yml.
+At the moment, the loading and building of the classes takes an extremely long time (~10-30 minutes). Then the rest of the code can be run quickly to generate the ontology.
+
+To change other parameters in the Python code, please adjust owl_settings.yml.
+If there's not a setting in the file, please create a ticket for this and we can add it.
