@@ -193,7 +193,7 @@ for node_id, check_descendants in zip(node_ids,descendants):
 g_slim = g.subgraph(rg_tree_set)
 
 # Make a maximum branching
-max_g_slim = nx.maximum_branching(g_slim)
+max_g_slim_large = nx.maximum_branching(g_slim)
 #max_g_slim = nx.DiGraph(g_slim)
 
 # Remove everything coming into the kidney
@@ -205,10 +205,28 @@ if root_node_cut == True:
 else:
     cutting_nodes = [anatomical_system_id]
 for cut_node in cutting_nodes:
-    in_edges_list.extend(list(max_g_slim.in_edges(cut_node)))
-max_g_slim.remove_edges_from(in_edges_list)
+    in_edges_list.extend(list(max_g_slim_large.in_edges(cut_node)))
+max_g_slim_large.remove_edges_from(in_edges_list)
+
+# Remove nodes and edges that do not contribute to supporting the input nodes
+# The input nodes support all their descandant nodes
+max_slim_nodes_support = set()
+for node_id, check_descendants in zip(node_ids,descendants):
+    if check_descendants:
+        max_slim_nodes_support |= nx.descendants(max_g_slim_large, node_id)
+    max_slim_nodes_support |= nx.ancestors(max_g_slim_large, node_id)
+    max_slim_nodes_support |= set([node_id])
+# Find the nodes that are not supported
+max_g_slim_large_nodes = set(max_g_slim_large.nodes())
+unsupported_max_g_slim_large_nodes = max_g_slim_large_nodes - max_slim_nodes_support
+# Remove edges from unsupported nodes
+unsupported_edges = set(max_g_slim_large.out_edges(unsupported_max_g_slim_large_nodes)) | set(max_g_slim_large.in_edges(unsupported_max_g_slim_large_nodes))
+#max_g_slim = max_g_slim_large.subgraph(max_slim_nodes_support)
+max_g_slim_large.remove_edges_from(unsupported_edges)
+max_g_slim = max_g_slim_large
 
 #g_slim - max_g_slim
+#g_slim_supported = g.subgraph(max_slim_nodes_support)
 removed_edges = nx.difference(g_slim, max_g_slim)
 
 #Remove nodes without edges
