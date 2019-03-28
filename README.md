@@ -19,6 +19,12 @@ Lastly, 0.1.0 includes a prototype data ontology and data framework.
 The entire ontology is released as an OWL (W3C Web Ontology Language) file, which can be found in the data subdirectory.
 We note that we have had some problems with the Turtle format of the ontology, but that the RDF/XML one has given us no problems (as of March 27, 2019).
 
+### Data Framework
+
+For the alpha release, find the correct ontological term in the OWL file and use that term to annotate data. We recommend using [Protege](https://protege.stanford.edu/products.php#desktop-protege) to view and search the ontology.
+As this is an alpha-level release, we do not know how the terms will necessarily be incorporated into the data.
+Thus, we provide the list of terms. We recommend following the metadata framework (see below) with its spreadsheet as a good way to get started.
+
 ### Metadata Framework
 
 We have included a spreadsheet in
