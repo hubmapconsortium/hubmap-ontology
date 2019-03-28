@@ -45,14 +45,14 @@ If you wish to have new terms be added to the ontology or have other bugs in the
 
 ## Dependencies
 
-Currently, the code requires the following Python packges:
-* Ontospy
-* Networkx
-* RDFLib
-* pandas
-* pydot
-* PyYAML
-* NumPy
+Currently, the code requires the following Python (v3.7.2)  packges:
+* Ontospy (1.9.8.2)
+* Networkx (2.2)
+* RDFLib (4.2.2)
+* pandas (0.24.2)
+* pydot (1.4.1)
+* PyYAML (5.1)
+* NumPy (1.16.2)
 
 ## Running the code
 
@@ -66,8 +66,7 @@ o = ontospy.Ontospy()
 o.load_rdf("ext.owl")
 o.build_classes()
 ```
-where ext.owl is the ontology file to be loaded.
-To use UBERON as this ontology, please download [the UBERON ontology](http://purl.obolibrary.org/obo/uberon/ext.owl) and place it in the same directory as the Python code.
+where ext.owl is the ontology file to be loaded. We are using this version of UBERON:  [http://purl.obolibrary.org/obo/uberon/releases/2018-11-25/ext.owl].
 This will eventually go into the settings file, owl_settings.yml.
 At the moment, the loading and building of the classes takes an extremely long time (~10-30 minutes). Then the rest of the code can be run quickly to generate the ontology.
 
