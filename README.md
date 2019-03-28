@@ -41,6 +41,7 @@ Currently, the code requires the following Python packges:
 * pandas
 * pydot
 * PyYAML
+* NumPy
 
 ## Running the code
 
