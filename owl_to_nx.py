@@ -58,13 +58,19 @@ def partof_subclassof_list(onto_class_rdflib_graph, onto_class_locale):
                 ps_list.append((ontospy.core.utils.inferURILocalSymbol(part_of_node.toPython())[0], onto_class_locale))
     return ps_list
 
+def load_ontology(filename):
+    # Load the ontology
+    o = ontospy.Ontospy()
+    o.load_rdf(filename)
+    #o.build_all()
+    o.build_classes() # We only use the classes, so no need to build everything
+    return o
 
-# Load the ontology
-o = ontospy.Ontospy()
-o.load_rdf("ext.owl")
-#o.build_all()
-o.build_classes() # We only use the classes, so no need to build everything
+owl_settings = open("owl_settings.yml","r").read()
+owl_settings_dict = yaml.load(owl_settings)
+ontologies_string = "ontologies"
 
+o = load_ontology(owl_settings_dict["ontologies"]["UBERON_filename"])
 # Use a sample element
 kidney_id = "UBERON_0002113"
 kidney_class = o.get_class(kidney_id)[0]
@@ -75,8 +81,6 @@ anatomical_system_id = "UBERON_0000467"
 renal_system_id = "UBERON_0001008"
 cardiovascular_system_id = "UBERON_0004535"
 # Load nodes and root nodes
-owl_settings = open("owl_settings.yml","r").read()
-owl_settings_dict = yaml.load(owl_settings)
 ccf_df = pd.read_csv("ccf_input_terms.csv")
 ccf_df = ccf_df[ccf_df['Ontology ID'].notnull()] # Filter out nulls
 ccf_df = ccf_df[~ccf_df['Ontology ID'].str.startswith("fma")] # Filter out fma only terms
