@@ -72,14 +72,7 @@ ontologies_string = "ontologies"
 
 o = load_ontology(owl_settings_dict["ontologies"]["UBERON_filename"])
 # Use a sample element
-kidney_id = "UBERON_0002113"
-kidney_class = o.get_class(kidney_id)[0]
-rg_id = "UBERON_0000074"
-renal_glomerulus = o.get_class(rg_id)
-node_ids = ['UBERON_0002015', 'UBERON_0004200', 'UBERON_0001284', 'UBERON_0006171', 'UBERON_0001224', 'UBERON_0001226', 'UBERON_0001227', 'UBERON_0008716', 'UBERON_0001225', 'UBERON_0000362', 'UBERON_0001228', 'UBERON_0001285', 'UBERON_0001288', 'UBERON_0004134', 'UBERON_0004135', 'UBERON_0002335']
 anatomical_system_id = "UBERON_0000467"
-renal_system_id = "UBERON_0001008"
-cardiovascular_system_id = "UBERON_0004535"
 # Load nodes and root nodes
 ccf_df = pd.read_csv("ccf_input_terms.csv")
 ccf_df = ccf_df[ccf_df['Ontology ID'].notnull()] # Filter out nulls
@@ -158,9 +151,6 @@ for root_node, node in node_ancestor_pairs:
     root_node_simple_paths = list(nx.all_simple_paths(g,root_node,node))
     if len(root_node_simple_paths) == 0: # Error reporting from CSV file
         print(root_node, node, id_label(o,root_node), id_label(o,node))
-    #if root_node == kidney_id and node == rg_id:
-    #    print("Hello")
-    #    print(root_node_simple_paths)
     for path in root_node_simple_paths:
         for i in range(len(path)-1):
             g.get_edge_data(path[i],path[i+1])['weight'] += 500
@@ -180,21 +170,19 @@ for root_node in root_nodes:
     
 
                 
-#Start at kidney and compute shortest path, least cost route to desired node (e.g. renal glomerulus)
+#Start at key/root node (e.g. kidney) and compute shortest path, least cost route to desired node (e.g. renal glomerulus)
 #root_node_simple_paths = list(nx.all_simple_paths(g,kidney_id,rg_id))
 #rg_ancestors = set(nx.algorithms.shortest_paths.generic.shortest_path(g,kidney_id,rg_id,weight='weight'))
 
 # Make a slim version of the graph
-rg_tree_set = nx.descendants(g,rg_id) | nx.ancestors(g,rg_id)
-#rg_tree_set = nx.descendants(g,rg_id) | rg_ancestors
-rg_tree_set.add(rg_id)
+node_tree_set = set()
 for node_id, check_descendants in zip(node_ids,descendants):
     # Only add descendants if desired
     if check_descendants:
-        rg_tree_set |= nx.descendants(g,node_id)
-    rg_tree_set |= nx.ancestors(g,node_id)
-    rg_tree_set.add(node_id)
-g_slim = g.subgraph(rg_tree_set)
+        node_tree_set |= nx.descendants(g,node_id)
+    node_tree_set |= nx.ancestors(g,node_id)
+    node_tree_set.add(node_id)
+g_slim = g.subgraph(node_tree_set)
 
 # Make a maximum branching
 max_g_slim_large = nx.maximum_branching(g_slim)
