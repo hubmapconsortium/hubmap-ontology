@@ -90,7 +90,7 @@ descendants = list(ccf_df['Descendants'])
 root_nodes = set(ccf_df['Parent ID'])
 
 # Create the graph
-g = nx.DiGraph(IRI="ext.owl")
+g = nx.DiGraph(IRI="hubmap.owl")
 # Create graph from the ontology
 subclassof_string = 'SubClassOf'
 partof_string = 'PartOf'
