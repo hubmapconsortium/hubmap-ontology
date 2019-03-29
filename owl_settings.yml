@@ -4,3 +4,7 @@ dot_files:
     entire_ontology: True
     root_nodes: True
     non_leaf_nodes: True
+ontologies:
+    UBERON_filename: ext.owl
+    CL_filename: cl.owl
+    
