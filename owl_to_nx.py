@@ -83,11 +83,16 @@ descendants = list(ccf_df['Descendants'])
 root_nodes = set(ccf_df['Parent ID'])
 
 # Create the graph
-g = nx.DiGraph(IRI="hubmap.owl")
-# Create graph from the ontology
 subclassof_string = 'SubClassOf'
 partof_string = 'PartOf'
 classassertion_string = 'ClassAssertion'
+part_of = rdflib.term.URIRef("http://purl.obolibrary.org/obo/BFO_0000050")
+some_values_from = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#someValuesFrom')
+equivalent_class = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#equivalentClass')
+subclassof_rdf = rdflib.term.URIRef('http://www.w3.org/2000/01/rdf-schema#subClassOf')
+
+# Create graph from the ontology
+g = nx.DiGraph(IRI="hubmap.owl")
 for onto_class in o.all_classes:
     g.add_node(onto_class.locale, type='Class')
 
@@ -103,18 +108,10 @@ for onto_class in o.all_classes:
 g = g.reverse(copy=False)
 g_orig = nx.DiGraph(g)
 g = nx.DiGraph(g)
-# Make a DAG only involving one node, but with all its ancestors and descendants
-#g_slim = g.subgraph(networkx.descendants(g, rg_id))
-#g_slim = networkx.compose(list(g.subgraph(networkx.descendants(g,rg_id)), g.subgraph(networkx.ancestors(g, rg_id))))                                           
 
 # Add partOf and equivalentClass to the graph
-part_of = rdflib.term.URIRef("http://purl.obolibrary.org/obo/BFO_0000050")
-some_values_from = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#someValuesFrom')
-equivalent_class = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#equivalentClass')
-subclassof_rdf = rdflib.term.URIRef('http://www.w3.org/2000/01/rdf-schema#subClassOf')
 for onto_class in o.all_classes:
     # Find more complex subClassOf objects that rdflib identifies through BNode elements
-    #onto_class.rdflib_graph.subect_objects(predicate=
     subclassof_list = list(onto_class.rdflib_graph.objects(predicate=(subclassof_rdf)))
     # Below needs to be replaced by function that is already defined
     for subclassof in subclassof_list:
@@ -124,8 +121,6 @@ for onto_class in o.all_classes:
             #print(bnode_predicates)
             if part_of in bnode_objects:
                 part_of_node = rdflib.term.URIRef(list(onto_class.rdflib_graph.objects(subclassof,some_values_from))[0])
-                
-                #g.add_edge(onto_class.locale, ontospy.core.utils.inferURILocalSymbol(part_of_node.toPython())[0], type='PartOf')
                 g.add_edge(ontospy.core.utils.inferURILocalSymbol(part_of_node.toPython())[0], onto_class.locale, type=partof_string)
     # Handle equivalentClass 
     equivalentClass_list = list(onto_class.rdflib_graph.objects(predicate=equivalent_class))
@@ -166,10 +161,6 @@ for root_node in root_nodes:
         for i in range(len(path)-1):
             g.get_edge_data(path[i],path[i+1])['weight'] += 5000
 
-    
-    
-
-                
 #Start at key/root node (e.g. kidney) and compute shortest path, least cost route to desired node (e.g. renal glomerulus)
 #root_node_simple_paths = list(nx.all_simple_paths(g,kidney_id,rg_id))
 #rg_ancestors = set(nx.algorithms.shortest_paths.generic.shortest_path(g,kidney_id,rg_id,weight='weight'))
@@ -186,7 +177,6 @@ g_slim = g.subgraph(node_tree_set)
 
 # Make a maximum branching
 max_g_slim_large = nx.maximum_branching(g_slim)
-#max_g_slim = nx.DiGraph(g_slim)
 
 # Remove everything coming into the kidney
 in_edges_list = []
@@ -213,16 +203,13 @@ max_g_slim_large_nodes = set(max_g_slim_large.nodes())
 unsupported_max_g_slim_large_nodes = max_g_slim_large_nodes - max_slim_nodes_support
 # Remove edges from unsupported nodes
 unsupported_edges = set(max_g_slim_large.out_edges(unsupported_max_g_slim_large_nodes)) | set(max_g_slim_large.in_edges(unsupported_max_g_slim_large_nodes))
-#max_g_slim = max_g_slim_large.subgraph(max_slim_nodes_support)
 max_g_slim_large.remove_edges_from(unsupported_edges)
 max_g_slim = max_g_slim_large
 
 #g_slim - max_g_slim
-#g_slim_supported = g.subgraph(max_slim_nodes_support)
 removed_edges = nx.difference(g_slim, max_g_slim)
 
 #Remove nodes without edges
-#list_of_isolates = nx.algorithms
 
 # create labels, nominally for plotting
 g_slim_labels = {}
@@ -271,9 +258,7 @@ for node in max_g_slim:
     for ps_sub in ps_list:
         superclass_rdf = rdflib.term.URIRef("http://purl.obolibrary.org/obo/"+ps_sub[0])
         subclass_rdf = rdflib.term.URIRef("http://purl.obolibrary.org/obo/"+ps_sub[1])
-        #new_o_class.rdflib_graph.add((ps_sub[1], subclassof_rdf, ps_sub[0]))
         new_o_class_rdflib_graph.add((subclass_rdf, subclassof_rdf, superclass_rdf))
-        #new_o_class.triples = o_slim.sparqlHelper.entityTriples(new_o_class.uri)
     # remove those edges from max_g_slim
     # Needs to be in_edges because of how subClassOf works
     #for edge in removed_edges:
@@ -291,17 +276,10 @@ for node in max_g_slim:
     for onClass_tuple in onClass_list:
         new_o_class_rdflib_graph.remove((onClass_tuple[0], onClass, onClass_tuple[1]))
     # Now add the class to the ontology
-    #o_slim.all_classes += [new_o_class]
     o_slim_rdf_graph += new_o_class_rdflib_graph
-#o_slim.all_classes = sorted(o_slim.all_classes, key=lambda x: x.qname)
-
 
 # Now generate the string for serialization
 s_slim = ""
-#for o_slim_class in o_slim.all_classes:
-#    s_slim +=o_slim_class.rdf_source()
-#for new_o_class in o_slim.all_classes:
-#    o_slim_rdf_graph += new_o_class.rdflib_graph
 owl_filetype = "owl_filetype"
 if owl_filetype in owl_settings_dict:
     serialization_format = owl_settings_dict[owl_filetype]
