@@ -1,4 +1,7 @@
 # hubmap-ontology
+
+[![Shipping faster with ZenHub](https://img.shields.io/badge/Shipping_faster_with-ZenHub-5e60ba.svg?style=flat-square)](https://app.zenhub.com/workspaces/ccf-ontology-5cb5dc061be1263b113a17b3/board)
+
 Repository for creating ontologies for HuBMAP
 
 To create these ontologies, we need code as well as original data. Code and data should have an open-source licenses, e.g. MIT for code and CC-BY for data.
