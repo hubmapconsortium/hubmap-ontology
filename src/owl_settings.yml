@@ -7,6 +7,6 @@ dot_files:
     root_nodes: True
     non_leaf_nodes: True
 ontologies:
-    UBERON_filename: ext.owl
+    UBERON_filename: input_data/ext.owl
     CL_filename: cl.owl
     
