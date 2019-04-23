@@ -8,32 +8,51 @@ Currently, code is licensed under the MIT License and the data is CC-BY 4.0. Eve
 These license policies will be revised in coordination with the appropriate HuBMAP working groups as needed. 
 
 ## Release 0.1.0 overview 
-SAM PLEASE READ AND REVISE 
-
 The CCF ontology bundles the initial CCF ontology, requested ontology terms, and software necessary to generate the ontology. 
 
-Release 0.1.0 introduces the basic scaffolding (inherited from existing ontologies, particularly Uberon) browsing from the whole-body scale to the single-organ scale, including "insertion points" for organ-specific ontologies. 
+Release 0.1.0 introduces the basic scaffolding (inherited from existing ontologies, particularly UBERON) browsing from the whole-body scale to the single-organ scale, including "insertion points" for organ-specific ontologies. 
 
-It also introduces alpha-level ontologies for kidney and heart, based on terms requested by TMCs and in discussions, to prototype technologies to construct slim ontologies from terms selected from multiple existent ontologies. As part of this effort, 0.1.0 developed the software framework to add new terms ot hte ontology via spreadsheet. 
+It also introduces alpha-level ontologies for kidney and heart, based on terms requested by TMCs and in discussions, to prototype technologies to construct slim ontologies from terms selected from multiple existent ontologies.
+As part of this effort, 0.1.0 developed the software framework to add new terms ot the ontology via spreadsheet. 
 
-Lastly, 0.1.0 includes a prototype data ontology and data framework. The entire ontology is released as an OWL (W3C Web Ontology Language) file. 
+Lastly, 0.1.0 includes a prototype data ontology and data framework.
+The entire ontology is released as an OWL (W3C Web Ontology Language) file, which can be found in the data subdirectory.
+We note that we have had some problems with the Turtle format of the ontology, but that the RDF/XML one has given us no problems (as of March 27, 2019).
+
+### Data Framework
+
+For the alpha release, find the correct ontological term in the OWL file and use that term to annotate data. We recommend using [Protege](https://protege.stanford.edu/products.php#desktop-protege) to view and search the ontology.
+As this is an alpha-level release, we do not know how the terms will necessarily be incorporated into the data.
+Thus, we provide the list of terms. We recommend following the metadata framework (see below) with its spreadsheet as a good way to get started.
+
+### Metadata Framework
+
+We have included a spreadsheet in
+```framework/metadata_framework.xslx```
+where users can enter in relevant metadata and have the correct ontological term be associated with the metadata.
+For v0.1.0, the ontological terms are in hidden rows, 2-5.
 
 ## CCF Development roadmap
-We maintain a development and release roadmap for the CCF Ontology and supporting software, available at [https://docs.google.com/document/d/1Sso27-7YI4993LC5a_HTBBMOK6QN83pcgXEg0ggrsWc/edit] (last edited: March 26, 2019).  
+We maintain a development and release roadmap for the CCF Ontology and supporting software, available [here] (https://docs.google.com/document/d/1Sso27-7YI4993LC5a_HTBBMOK6QN83pcgXEg0ggrsWc/edit) (last updated: March 27, 2019).
 
 ## Documentation
 
 [Documentation can be found here](https://docs.google.com/document/d/1X21O5DgGkq9ngPOsBZa-qy1-6Y2MiohJD7Bt-JFyysY/edit#)
 
+## New terms/Bug Reports
+
+If you wish to have new terms be added to the ontology or have other bugs in the software to report, please [fill out a ticket](https://github.com/hubmapconsortium/hubmap-ontology/issues).
+
 ## Dependencies
 
-Currently, the code requires the following Python packges:
-* Ontospy
-* Networkx
-* RDFLib
-* pandas
-* pydot
-* PyYAML
+Currently, the code requires the following Python (v3.7.2)  packges:
+* Ontospy (1.9.8.2)
+* Networkx (2.2)
+* RDFLib (4.2.2)
+* pandas (0.24.2)
+* pydot (1.4.1)
+* PyYAML (5.1)
+* NumPy (1.16.2)
 
 ## Running the code
 
@@ -47,4 +66,9 @@ o = ontospy.Ontospy()
 o.load_rdf("ext.owl")
 o.build_classes()
 ```
-where ext.owl is the ontology file to be loaded. At the moment, the loading and building of the classes takes an extremely long time (~10-30 minutes). Then the rest of the code can be run quickly to generate the ontology.
+where ext.owl is the ontology file to be loaded. We are using this version of UBERON:  [http://purl.obolibrary.org/obo/uberon/releases/2018-11-25/ext.owl].
+This will eventually go into the settings file, owl_settings.yml.
+At the moment, the loading and building of the classes takes an extremely long time (~10-30 minutes). Then the rest of the code can be run quickly to generate the ontology.
+
+To change other parameters in the Python code, please adjust owl_settings.yml.
+If there's not a setting in the file, please create a ticket for this and we can add it.
