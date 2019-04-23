@@ -71,6 +71,7 @@ owl_settings_dict = yaml.load(owl_settings)
 ontologies_string = "ontologies"
 
 o = load_ontology(owl_settings_dict["ontologies"]["UBERON_filename"])
+#o_cl = load_ontology(owl_settings_dict["ontologies"]["CL_filename"]) # Load CL
 # Use a sample element
 anatomical_system_id = "UBERON_0000467"
 # Load nodes and root nodes
@@ -213,8 +214,12 @@ removed_edges = nx.difference(g_slim, max_g_slim)
 
 # create labels, nominally for plotting
 g_slim_labels = {}
-for node in max_g_slim:                  
-    g_slim_labels[node] = id_label(o,node)
+for node in max_g_slim:
+    # Check for uberon
+    if re.match(node,"UBERON") != None :
+        g_slim_labels[node] = id_label(o,node)
+    else: # Must be in CL
+        g_slim_labels[node] = id_label(o_cl,node)
 
 max_g_slim_relabeled = nx.relabel_nodes(max_g_slim,g_slim_labels,copy=True)
 list_of_components = list(max_g_slim_relabeled.subgraph(c) for c in nx.weakly_connected_components(max_g_slim_relabeled))
