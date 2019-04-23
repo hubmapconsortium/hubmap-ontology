@@ -64,6 +64,7 @@ def load_ontology(filename):
     o.load_rdf(filename)
     #o.build_all()
     o.build_classes() # We only use the classes, so no need to build everything
+    o.build_properties() # We need this to export property names
     return o
 
 owl_settings = open("owl_settings.yml","r").read()
@@ -293,6 +294,12 @@ for node in max_g_slim:
     #new_o_class_rdflib_graph.subject_predicates(rdflib.term.URIRef("http://purl.obolibrary.org/obo/UBERON_"))
     # Now add the class to the ontology
     o_slim_rdf_graph += new_o_class_rdflib_graph
+
+#o_slim.all_classes = sorted(o_slim.all_classes, key=lambda x: x.qname)
+
+# Add print out of the properties as well
+for o_property in o.all_properties:
+    o_slim_rdf_graph += o_property.rdflib_graph
 
 # Now generate the string for serialization
 s_slim = ""
