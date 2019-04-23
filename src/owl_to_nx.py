@@ -261,6 +261,7 @@ if dot_files in owl_settings_dict:
 #o_slim = ontospy.Ontospy()
 o_slim_rdf_graph = rdflib.Graph()
 onClass = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#onClass')
+partonomy = True
 for node in max_g_slim:
     # Find the appropriate class from the original ontology
     new_o_class_rdflib_graph = copy.deepcopy(o.get_class(node)[0].rdflib_graph)
@@ -271,7 +272,10 @@ for node in max_g_slim:
     for ps_sub in ps_list:
         superclass_rdf = rdflib.term.URIRef("http://purl.obolibrary.org/obo/"+ps_sub[0])
         subclass_rdf = rdflib.term.URIRef("http://purl.obolibrary.org/obo/"+ps_sub[1])
-        new_o_class_rdflib_graph.add((subclass_rdf, subclassof_rdf, superclass_rdf))
+        if partonomy == False:
+            new_o_class_rdflib_graph.add((subclass_rdf, subclassof_rdf, superclass_rdf))
+        else: # Partonomy is true
+            new_o_class_rdflib_graph.add((subclass_rdf, part_of, superclass_rdf))
     # remove those edges from max_g_slim
     # Needs to be in_edges because of how subClassOf works
     #for edge in removed_edges:
@@ -280,6 +284,8 @@ for node in max_g_slim:
         superclass_rdf = rdflib.term.URIRef("http://purl.obolibrary.org/obo/"+removed_edge[0])
         subclass_rdf = rdflib.term.URIRef("http://purl.obolibrary.org/obo/"+removed_edge[1])
         new_o_class_rdflib_graph.remove((subclass_rdf,subclassof_rdf,superclass_rdf))
+        if partonomy: # Also remove any edges that might need to be removed as well
+            new_o_class_rdflib_graph.remove((subclass_rdf,part_of,superclass_rdf))
     # Remove any equivalentClasses (for now)
     equivalentClass_list = list(new_o_class_rdflib_graph.subject_objects(equivalent_class))
     for equivalentClass_tuple in equivalentClass_list:
