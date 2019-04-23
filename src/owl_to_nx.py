@@ -25,7 +25,8 @@ import numpy as np
 
 # Take ontology class and get its label
 def class_label(onto_class):
-    label_info = list(onto_class.rdflib_graph.subject_objects(predicate=rdflib.term.URIRef('http://www.w3.org/2000/01/rdf-schema#label')))
+    label_rdf = rdflib.term.URIRef('http://www.w3.org/2000/01/rdf-schema#label')
+    label_info = list(onto_class.rdflib_graph.subject_objects(predicate=label_rdf))
     #print(onto_class.locale)
     if len(label_info) != 0:
         #print(label_info, )
