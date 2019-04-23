@@ -60,7 +60,7 @@ def partof_subclassof_list(onto_class_rdflib_graph, onto_class_locale):
 
 # Load the ontology
 o = ontospy.Ontospy()
-o.load_rdf("ext.owl")
+o.load_rdf("input_data/ext.owl")
 #o.build_all()
 o.build_classes() # We only use the classes, so no need to build everything
 o.build_properties() # We need this to export property names
