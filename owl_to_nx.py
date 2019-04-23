@@ -63,6 +63,8 @@ o = ontospy.Ontospy()
 o.load_rdf("ext.owl")
 #o.build_all()
 o.build_classes() # We only use the classes, so no need to build everything
+o.build_properties() # We need this to export property names
+
 
 # Use a sample element
 kidney_id = "UBERON_0002113"
@@ -252,6 +254,9 @@ for node in max_g_slim:
     o_slim_rdf_graph += new_o_class_rdflib_graph
 #o_slim.all_classes = sorted(o_slim.all_classes, key=lambda x: x.qname)
 
+# Add print out of the properties as well
+for o_property in o.all_properties:
+    o_slim_rdf_graph += o_property.rdflib_graph
 
 # Now generate the string for serialization
 s_slim = ""
