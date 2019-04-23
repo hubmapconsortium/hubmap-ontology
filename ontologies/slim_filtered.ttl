@@ -18,76 +18,992 @@
 #    Annotation properties
 #################################################################
 
+###  http://purl.obolibrary.org/obo/IAO_0000112
+ns3:IAO_0000112 rdf:type owl:AnnotationProperty ;
+                ns1:hasDbXref "IAO:0000112"^^xsd:string ;
+                ns1:hasOBONamespace "uberon"^^xsd:string ;
+                ns1:id "example_of_usage"^^xsd:string ;
+                ns1:is_metadata_tag "true"^^xsd:boolean ;
+                ns1:shorthand "example_of_usage"^^xsd:string ;
+                rdfs:label "example of usage"^^xsd:string .
+
+
 ###  http://purl.obolibrary.org/obo/IAO_0000115
-ns3:IAO_0000115 rdf:type owl:AnnotationProperty .
+ns3:IAO_0000115 rdf:type owl:AnnotationProperty ;
+                rdfs:label "definition"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000116
-ns3:IAO_0000116 rdf:type owl:AnnotationProperty .
+ns3:IAO_0000116 rdf:type owl:AnnotationProperty ;
+                ns1:hasDbXref "IAO:0000116"^^xsd:string ;
+                ns1:hasOBONamespace "uberon"^^xsd:string ;
+                ns1:id "editor_note"^^xsd:string ;
+                ns1:is_metadata_tag "true"^^xsd:boolean ;
+                ns1:shorthand "editor_note"^^xsd:string ;
+                rdfs:label "editor note"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000231
+ns3:IAO_0000231 rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000232
-ns3:IAO_0000232 rdf:type owl:AnnotationProperty .
+ns3:IAO_0000232 rdf:type owl:AnnotationProperty ;
+                ns1:hasDbXref "IAO:0000232"^^xsd:string ;
+                ns1:hasOBONamespace "uberon"^^xsd:string ;
+                ns1:id "curator_notes"^^xsd:string ;
+                ns1:is_metadata_tag "true"^^xsd:boolean ;
+                ns1:shorthand "curator_notes"^^xsd:string ;
+                rdfs:label "curator notes"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000424
+ns3:IAO_0000424 rdf:type owl:AnnotationProperty ;
+                rdfs:label "expand expression to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000425
+ns3:IAO_0000425 rdf:type owl:AnnotationProperty ;
+                rdfs:label "expand assertion to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0100001
+ns3:IAO_0100001 rdf:type owl:AnnotationProperty ;
+                rdfs:label "term replaced by"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/IAO_isReversiblePropertyChain
+ns3:IAO_isReversiblePropertyChain rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002161
+ns3:RO_0002161 rdf:type owl:AnnotationProperty ;
+               ns3:IAO_0000115 "S never_in_taxon T iff: S SubClassOf in_taxon only not T"^^xsd:string ;
+               ns3:IAO_0000425 "Class: <http://www.w3.org/2002/07/owl#Nothing> EquivalentTo: ?X and (RO_0002162 some ?Y)"^^xsd:string ;
+               ns1:hasDbXref "RO:0002161"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "never_in_taxon"^^xsd:string ;
+               ns1:is_class_level "true"^^xsd:boolean ;
+               ns1:is_metadata_tag "true"^^xsd:boolean ;
+               ns1:shorthand "never_in_taxon"^^xsd:string ;
+               rdfs:label "never_in_taxon"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002171
+ns3:RO_0002171 rdf:type owl:AnnotationProperty ;
+               ns3:IAO_0000425 "Class: <http://www.w3.org/2002/07/owl#Nothing> EquivalentTo: (BFO_0000050 some ?X) and (BFO_0000050 some ?Y)"^^xsd:string ;
+               ns1:hasDbXref "RO:0002171"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "mutually_spatially_disjoint_with"^^xsd:string ;
+               ns1:is_class_level "true"^^xsd:boolean ;
+               ns1:is_metadata_tag "true"^^xsd:boolean ;
+               ns1:shorthand "mutually_spatially_disjoint_with"^^xsd:string ;
+               rdfs:label "mutually_spatially_disjoint_with"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002173
+ns3:RO_0002173 rdf:type owl:AnnotationProperty ;
+               ns3:IAO_0000115 "S ambiguous_for_taxon T if the class S does not have a clear referent in taxon T. An example would be the class 'manual digit 1', which encompasses a homology hypotheses that is accepted for some species (e.g. human and mouse), but does not have a clear referent in Aves - the referent is dependent on the hypothesis embraced, and also on the ontogenetic stage."^^xsd:string ;
+               ns1:hasDbXref "RO:0002173"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "ambiguous_for_taxon"^^xsd:string ;
+               ns1:is_class_level "true"^^xsd:boolean ;
+               ns1:is_metadata_tag "true"^^xsd:boolean ;
+               ns1:shorthand "ambiguous_for_taxon"^^xsd:string ;
+               rdfs:label "ambiguous_for_taxon"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002174
-ns3:RO_0002174 rdf:type owl:AnnotationProperty .
+ns3:RO_0002174 rdf:type owl:AnnotationProperty ;
+               ns3:IAO_0000115 "S dubious_for_taxon T if it is probably the case that no instances of S can be found in any instance of T."^^xsd:string ;
+               ns1:hasDbXref "RO:0002174"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "dubious_for_taxon"^^xsd:string ;
+               ns1:is_class_level "true"^^xsd:boolean ;
+               ns1:is_metadata_tag "true"^^xsd:boolean ;
+               ns1:shorthand "dubious_for_taxon"^^xsd:string ;
+               rdfs:comment "this relation lacks a strong logical interpretation, but can be used in place of never_in_taxon where it is desirable to state that the definition of the class is too strict for the taxon under consideration, but placing a never_in_taxon link would result in a chain of inconsistencies that will take time to resolve. Example: metencephalon in teleost"^^xsd:string ;
+               rdfs:label "dubious_for_taxon"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002175
-ns3:RO_0002175 rdf:type owl:AnnotationProperty .
+ns3:RO_0002175 rdf:type owl:AnnotationProperty ;
+               ns3:IAO_0000115 "S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S"^^xsd:string ;
+               ns1:hasDbXref "RO:0002175"^^xsd:string ;
+               ns1:hasExactSynonym "applicable for taxon"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "present_in_taxon"^^xsd:string ;
+               ns1:is_class_level "true"^^xsd:boolean ;
+               ns1:is_metadata_tag "true"^^xsd:boolean ;
+               ns1:shorthand "present_in_taxon"^^xsd:string ;
+               rdfs:label "present_in_taxon"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002475
+ns3:RO_0002475 rdf:type owl:AnnotationProperty ;
+               ns3:IAO_0000115 "A is has_no_connections_with B if there are no parts of A or B that have a connection with the other."^^xsd:string ;
+               ns3:IAO_0000425 "Class: <http://www.w3.org/2002/07/owl#Nothing> EquivalentTo: (BFO_0000050 some ?X) and (RO_0002170 some (BFO_0000050 some ?Y))"^^xsd:string ;
+               ns1:hasDbXref "RO:0002475"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "has_no_connections_with"^^xsd:string ;
+               ns1:is_class_level "true"^^xsd:boolean ;
+               ns1:is_metadata_tag "true"^^xsd:boolean ;
+               ns1:shorthand "has_no_connections_with"^^xsd:string ;
+               rdfs:label "has_no_connections_with"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/UBPROP_0000001
-ns3:UBPROP_0000001 rdf:type owl:AnnotationProperty .
+ns3:UBPROP_0000001 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "An alternate textual definition for a class taken unmodified from an external source. This definition may have been used to derive a generalized definition for the new class."^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000001"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "external_definition"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "external_definition"^^xsd:string ;
+                   rdfs:comment "This annotation property may be replaced with an annotation property from an external ontology such as IAO"^^xsd:string ;
+                   rdfs:label "external_definition"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/UBPROP_0000002
-ns3:UBPROP_0000002 rdf:type owl:AnnotationProperty .
+ns3:UBPROP_0000002 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "A textual description of an axiom loss in this ontology compared to an external ontology."^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000002"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "axiom_lost_from_external_ontology"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "axiom_lost_from_external_ontology"^^xsd:string ;
+                   rdfs:comment "This annotation property may be replaced with an annotation property from an external ontology such as IAO"^^xsd:string ;
+                   rdfs:label "axiom_lost_from_external_ontology"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/UBPROP_0000003
-ns3:UBPROP_0000003 rdf:type owl:AnnotationProperty .
+ns3:UBPROP_0000003 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "Notes on the homology status of this class."^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000003"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "homology_notes"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "homology_notes"^^xsd:string ;
+                   rdfs:comment "This annotation property may be replaced with an annotation property from an external ontology such as IAO"^^xsd:string ;
+                   rdfs:label "homology_notes"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000005
+ns3:UBPROP_0000005 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "An alternate comment for a class taken unmodified from an external source. Note that obo format only allows a single comment for a class, and does not provide a structured means of adding provenance info."^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000005"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "external_comment"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "external_comment"^^xsd:string ;
+                   rdfs:comment "This annotation property may be replaced with an annotation property from an external ontology such as IAO"^^xsd:string ;
+                   rdfs:label "external_comment"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/UBPROP_0000006
-ns3:UBPROP_0000006 rdf:type owl:AnnotationProperty .
+ns3:UBPROP_0000006 rdf:type owl:AnnotationProperty ;
+                   ns1:hasDbXref "UBPROP:0000006"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "implements_design_pattern"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "implements_design_pattern"^^xsd:string ;
+                   rdfs:label "implements_design_pattern"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/UBPROP_0000007
-ns3:UBPROP_0000007 rdf:type owl:AnnotationProperty .
+ns3:UBPROP_0000007 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000232 "Used to connect a class to an adjectival form of its label. For example, a class with label 'intestine' may have a relational adjective 'intestinal'."^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000007"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "has_relational_adjective"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "has_relational_adjective"^^xsd:string ;
+                   rdfs:label "has_relational_adjective"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/UBPROP_0000008
-ns3:UBPROP_0000008 rdf:type owl:AnnotationProperty .
+ns3:UBPROP_0000008 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "Notes on the how instances of this class vary across species."^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000008"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "taxon_notes"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "taxon_notes"^^xsd:string ;
+                   rdfs:label "taxon_notes"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/UBPROP_0000009
-ns3:UBPROP_0000009 rdf:type owl:AnnotationProperty .
+ns3:UBPROP_0000009 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "Notes on the evolved function of instances of this class."^^xsd:string ;
+                   ns3:IAO_0000116 "This annotation property may be replaced with an annotation property from an external ontology such as IAO"^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000009"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "function_notes"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "function_notes"^^xsd:string ;
+                   rdfs:label "function_notes"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/UBPROP_0000010
-ns3:UBPROP_0000010 rdf:type owl:AnnotationProperty .
+ns3:UBPROP_0000010 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "Notes on the structure, composition or histology of instances of this class."^^xsd:string ;
+                   ns3:IAO_0000116 "This annotation property may be replaced with an annotation property from an external ontology such as IAO"^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000010"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "structure_notes"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "structure_notes"^^xsd:string ;
+                   rdfs:label "structure_notes"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/UBPROP_0000011
-ns3:UBPROP_0000011 rdf:type owl:AnnotationProperty .
+ns3:UBPROP_0000011 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "Notes on the ontogenic development of instances of this class."^^xsd:string ;
+                   ns3:IAO_0000116 "This annotation property may be replaced with an annotation property from an external ontology such as IAO"^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000011"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "development_notes"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "development_notes"^^xsd:string ;
+                   rdfs:label "development_notes"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/UBPROP_0000012
-ns3:UBPROP_0000012 rdf:type owl:AnnotationProperty .
+ns3:UBPROP_0000012 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "Notes on how similar or equivalent classes are represented in other ontologies."^^xsd:string ;
+                   ns3:IAO_0000116 "This annotation property may be replaced with an annotation property from an external ontology such as IAO"^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000012"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "external_ontology_notes"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "external_ontology_notes"^^xsd:string ;
+                   rdfs:label "external_ontology_notes"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/UBPROP_0000013
-ns3:UBPROP_0000013 rdf:type owl:AnnotationProperty .
+ns3:UBPROP_0000013 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "Notes on how lexical conventions regarding this class, in particular any issues that may arise due to homonyny or synonymy."^^xsd:string ;
+                   ns3:IAO_0000116 "This annotation property may be replaced with an annotation property from an external ontology such as IAO"^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000013"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "terminology_notes"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "terminology_notes"^^xsd:string ;
+                   rdfs:label "terminology_notes"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000014
+ns3:UBPROP_0000014 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "Notes on how instances of this class functon biomechanically."^^xsd:string ;
+                   ns3:IAO_0000116 "This annotation property may be replaced with an annotation property from an external ontology such as IAO"^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000014"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "action_notes"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "action_notes"^^xsd:string ;
+                   rdfs:label "actions_notes"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000015
+ns3:UBPROP_0000015 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "Notes on the location, position or part-parents of instances of this class."^^xsd:string ;
+                   ns3:IAO_0000116 "This annotation property may be replaced with an annotation property from an external ontology such as IAO"^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000015"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "location_notes"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "location_notes"^^xsd:string ;
+                   rdfs:label "location_notes"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000100
+ns3:UBPROP_0000100 rdf:type owl:AnnotationProperty ;
+                   ns1:hasDbXref "UBPROP:0000100"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "is_count_of"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "is_count_of"^^xsd:string ;
+                   rdfs:label "is count of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000101
+ns3:UBPROP_0000101 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "A property used in conjunction with repeated_element_number to indicate an axis and directionality along that axis. If P preceding_element_is R, and P is_count_of S, and X P N, and X' P N+1, then it follows that every X R some X', and the class expression [S and R some X' and inv(R) some X] is empty (i.e. X is followed by X', with no intermediates)"^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000101"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "preceding_element_is"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "preceding_element_is"^^xsd:string ;
+                   rdfs:label "preceding element is"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000102
+ns3:UBPROP_0000102 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "A property used to indicate the position of an element where that element is of a type that is serially repeated linearly along some axis for which a total ordering exists. The ordering may represent an ancestral condition"^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000102"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "repeated_element_number"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "repeated_element_number"^^xsd:string ;
+                   rdfs:comment "The range is currently non-negative integer"^^xsd:string ;
+                   rdfs:label "repeated element number"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000103
+ns3:UBPROP_0000103 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "x pharyngeal_arch_number N if and only if (i) x is a pharyngeal arch, and (ii) x is ancestrally pharyngeal arch number N in a series of pharyngeal arches repeated along a antero-posterior axis, with arch_number 1 being the mandibular arch."^^xsd:string ;
+                   ns3:UBPROP_0000013 "gill arch N = PA N-2. the term branchial_arch is ambiguous."^^xsd:string ;
+                   ns3:UBPROP_0000100 ns3:UBERON_0002539 ;
+                   ns3:UBPROP_0000101 ns3:BSPO_0000096 ;
+                   ns1:hasDbXref "UBPROP:0000103"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "pharyngeal_arch_number"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "pharyngeal_arch_number"^^xsd:string ;
+                   rdfs:label "pharyngeal arch number"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000104
+ns3:UBPROP_0000104 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "x ray_number N if and only if (i) x is a ray, and (ii) x is ancestrally associated with ray number N in a series of phalanges repeated along a radio-ulnar or equivalent axis, with ray_number 1 being the anteriormost ray."^^xsd:string ;
+                   ns3:UBPROP_0000100 ns3:UBERON_0002544 ;
+                   ns3:UBPROP_0000101 ns3:BSPO_1000000 ;
+                   ns1:hasDbXref "UBPROP:0000104"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "ray_number"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "ray_number"^^xsd:string ;
+                   rdfs:comment "The correct terminology is yet to be established; in tetrapods 'ray' might mean the mereological sum of the phalanges of a manual digit plus a metatarsal bone (or equivalent for hindlimb)"^^xsd:string ;
+                   rdfs:label "ray number"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000105
+ns3:UBPROP_0000105 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "x phalanx_number N if and only if (i) x is a phalanx, and (ii) x is phalanx number N in a series of phalanges repeated along an prixomo-distal axis, with phalanx_number 1 being the proximalmost phalanx. Note that in humans, the distalmost phalanx has phlanax_number 3, except in ray_number 1, where the distalmost has phalanx_number 2"^^xsd:string ;
+                   ns3:UBPROP_0000100 ns3:UBERON_0003221 ;
+                   ns3:UBPROP_0000101 ns3:BSPO_0000100 ;
+                   ns1:hasDbXref "UBPROP:0000105"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "phalanx_number"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "phalanx_number"^^xsd:string ;
+                   rdfs:comment "Most land mammals including humans have a 2-3-3-3-3 formula in both the hands (or paws) and feet. Primitive reptiles typically had the formula 2-3-4-4-5, and this pattern, with some modification, remained in many later reptiles and in the mammal-like reptiles. The phalangeal formula in the flippers of cetaceans (marine mammals) is 2-12-8-1"^^xsd:string ;
+                   rdfs:label "phalanx number"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000106
+ns3:UBPROP_0000106 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "x rib_number N if and only if (i) x is a rib, and (ii) x is rib number N in a series of ribs repeated along an anterior-posterior axis, with rib_number 1 being the anteriormost rib. Note that this property counts ribs, *not* the adjoining vertebrae."^^xsd:string ;
+                   ns3:UBPROP_0000008 "In the early tetrapods, every vertebra bore a pair of ribs, although those on the thoracic vertebrae are typically the longest. In most subsequent forms, many of these early ribs have been lost, and in living amphibians and reptiles, there is great variation in rib structure and number. For example, turtles have only eight pairs of ribs, which are developed into a bony or cartilagenous carapace and plastron, while snakes have numerous ribs running along the full length of their trunk. Frogs typically have no ribs, aside from a sacral pair, which form part of the pelvis. Mammals usually also only have distinct ribs on the thoracic vertebra, although fixed cervical ribs are also present in monotremes. In marsupials and placental mammals, the cervical and lumbar ribs are found only as tiny remnants fused to the vertebrae, where they are referred to as transverse processes. In general, the structure and number of the true ribs in humans is similar to that in other mammals. Unlike reptiles, caudal ribs are never found in mammals."^^xsd:string ;
+                   ns3:UBPROP_0000012 "Note that in TAO, ribs are numbered by *vertebrae*"^^xsd:string ;
+                   ns3:UBPROP_0000100 ns3:UBERON_0002228 ;
+                   ns3:UBPROP_0000101 ns3:BSPO_0000096 ;
+                   ns1:hasDbXref "UBPROP:0000106"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "rib_number"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "rib_number"^^xsd:string ;
+                   rdfs:label "rib number"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000107
+ns3:UBPROP_0000107 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "x vertebra_number N if and only if (i) x is a vertebra, and (ii) x is vertebra number N in a series of vertebras repeated along an anterior-posterior axis, with vertebra_number 1 being the anteriormost vertebra (also known as the atlas)."^^xsd:string ;
+                   ns3:UBPROP_0000100 ns3:UBERON_0002412 ;
+                   ns3:UBPROP_0000101 ns3:BSPO_0000096 ;
+                   ns1:hasDbXref "UBPROP:0000107"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "vertebra_number"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "vertebra_number"^^xsd:string ;
+                   rdfs:label "vertebra number"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000108
+ns3:UBPROP_0000108 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "x somite_number N if and only if (i) x is a somite, and (ii) x is somite number N in a series of somites repeated along an anterior-posterior axis, with somite_number 1 being the anteriormost somite."^^xsd:string ;
+                   ns3:UBPROP_0000100 ns3:UBERON_0002329 ;
+                   ns3:UBPROP_0000101 ns3:BSPO_0000096 ;
+                   ns1:hasDbXref "UBPROP:0000108"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "somite_number"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "somite_number"^^xsd:string ;
+                   rdfs:label "somite number"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000109
+ns3:UBPROP_0000109 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "x paired_appendage_number N if and only if (i) x is a paired_appendage, and (ii) x is paired_appendage number N in a series of paired_appendages repeated along an anterior-posterior axis, with paired_appendage_number 1 being the anteriormost paired_appendage. In vertebrates, this is the pectoral appendage"^^xsd:string ;
+                   ns3:UBPROP_0000100 ns3:UBERON_0000026 ;
+                   ns3:UBPROP_0000101 ns3:BSPO_0000096 ;
+                   ns1:hasDbXref "UBPROP:0000109"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "paired_appendage_number"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "paired_appendage_number"^^xsd:string ;
+                   rdfs:label "paired_appendage number"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000110
+ns3:UBPROP_0000110 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "x appendage_segment_number N if and only if (i) x is a appendage_segment, and (ii) x is appendage_segment number N in a series of appendage_segments repeated along an proximo-distal axis, with appendage_segment_number 1 being the proximalmost appendage_segment (in tetrapods this would be the stylopod, as we do not classify girdles as appendage segments)."^^xsd:string ;
+                   ns3:UBPROP_0000100 ns3:UBERON_0010758 ;
+                   ns3:UBPROP_0000101 ns3:BSPO_0000100 ;
+                   ns1:hasDbXref "UBPROP:0000110"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "appendage_segment_number"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "appendage_segment_number"^^xsd:string ;
+                   rdfs:comment "Examples: in dropsphila coxa=1, trochanter=2, femur=3, tibia=4, tarsal segments 1-5=5-9, pretarsus=10"^^xsd:string ;
+                   rdfs:label "appendage segment number"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000111
+ns3:UBPROP_0000111 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "x rhombomere_number N if and only if (i) x is a rhombomere, and (ii) x is rhombomere number N in a series of rhombomeres repeated along an anterior-posterior axis, with rhombomere_number 1 being the anteriormost rhombomere."^^xsd:string ;
+                   ns3:UBPROP_0000100 ns3:UBERON_0001892 ;
+                   ns3:UBPROP_0000101 ns3:BSPO_0000096 ;
+                   ns1:hasDbXref "UBPROP:0000111"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "rhombomere_number"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "rhombomere_number"^^xsd:string ;
+                   rdfs:label "rhombomere number"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000112
+ns3:UBPROP_0000112 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "x tooth_number N if and only if (i) x is a tooth, and (ii) x is ancestrally tooth number N in a series of teeth repeated along an anterior-posterior axis, typically on the lateral side of a structure such as a jaw, with tooth_number 1 being the anteriormost. Note that this count refers to the total number of teeth starting from the first, regardless of the type of tooth. If sub-systems are required for numbering within a series of teeth of the same type, consider a subproperty. For example, in a human, maxillary canine = tooth 3 of upper jaw = canine_tooth 1 of upper jaw"^^xsd:string ;
+                   ns3:UBPROP_0000100 ns3:UBERON_0001091 ;
+                   ns3:UBPROP_0000101 ns3:BSPO_0000096 ;
+                   ns1:hasDbXref "UBPROP:0000112"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "tooth_number"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "tooth_number"^^xsd:string ;
+                   rdfs:label "tooth number"^^xsd:string ;
+                   rdfs:seeAlso ns3:UBPROP_0000113 .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000113
+ns3:UBPROP_0000113 rdf:type owl:AnnotationProperty ;
+                   ns3:IAO_0000115 "Syntax: upper/lower = I.C.P.M / I.C.P.M. When used with generic tooth class applies to both deciduous and primary. Should also be used with a taxon property."^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000113"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "dental_formula"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "dental_formula"^^xsd:string ;
+                   rdfs:label "dental formula"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000201
+ns3:UBPROP_0000201 rdf:type owl:AnnotationProperty ;
+                   ns1:hasDbXref "UBPROP:0000201"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "source_atlas"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "source_atlas"^^xsd:string ;
+                   rdfs:label "source atlas"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/UBPROP_0000202
-ns3:UBPROP_0000202 rdf:type owl:AnnotationProperty .
+ns3:UBPROP_0000202 rdf:type owl:AnnotationProperty ;
+                   ns3:UBPROP_0000012 "FMA has terms like 'set of X'. In general we do not include set-of terms in uberon, but provide a mapping between the singular form and the FMA set term"^^xsd:string ;
+                   ns1:hasDbXref "UBPROP:0000202"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "fma_set_term"^^xsd:string ;
+                   ns1:is_metadata_tag "true"^^xsd:boolean ;
+                   ns1:shorthand "fma_set_term"^^xsd:string ;
+                   rdfs:label "fma_set_term"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/core#provenance_notes
 ns4:provenance_notes rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/core#somite_number
+ns4:somite_number rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/core#source
+ns4:source rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/core#tooth_number
+ns4:tooth_number rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/core#vertebra_number
+ns4:vertebra_number rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION
+<http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION> rdf:type owl:AnnotationProperty ;
+                                                          rdfs:label "abbreviation"^^xsd:string ;
+                                                          rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#COMPARATIVE_PREFERRED
+<http://purl.obolibrary.org/obo/uberon/core#COMPARATIVE_PREFERRED> rdf:type owl:AnnotationProperty ;
+                                                                   rdfs:label "preferred term in the context of comparative anatomy"^^xsd:string ;
+                                                                   rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#DEPRECATED
+<http://purl.obolibrary.org/obo/uberon/core#DEPRECATED> rdf:type owl:AnnotationProperty ;
+                                                        rdfs:label "A historic synonym, no longer encouraged"^^xsd:string ;
+                                                        rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#DEVELOPMENTAL
+<http://purl.obolibrary.org/obo/uberon/core#DEVELOPMENTAL> rdf:type owl:AnnotationProperty ;
+                                                           rdfs:label "developmental term"^^xsd:string ;
+                                                           rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#DUBIOUS
+<http://purl.obolibrary.org/obo/uberon/core#DUBIOUS> rdf:type owl:AnnotationProperty ;
+                                                     rdfs:label "dubious or contested synonym"^^xsd:string ;
+                                                     rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#EXACT_PREFERRED
+<http://purl.obolibrary.org/obo/uberon/core#EXACT_PREFERRED> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#HOMOLOGY
+<http://purl.obolibrary.org/obo/uberon/core#HOMOLOGY> rdf:type owl:AnnotationProperty ;
+                                                      rdfs:label "a synonym made on the basis of a possibly homologous structure in another species"^^xsd:string ;
+                                                      rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#HUMAN_PREFERRED
+<http://purl.obolibrary.org/obo/uberon/core#HUMAN_PREFERRED> rdf:type owl:AnnotationProperty ;
+                                                             rdfs:label "preferred term when talking about an instance of this class in Homo sapiens"^^xsd:string ;
+                                                             rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT
+<http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT> rdf:type owl:AnnotationProperty ;
+                                                          rdfs:label "indicates that a synonym is used in an inconsistent or confusing way, typically between species"^^xsd:string ;
+                                                          rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#LATIN
+<http://purl.obolibrary.org/obo/uberon/core#LATIN> rdf:type owl:AnnotationProperty ;
+                                                   rdfs:label "latin term"^^xsd:string ;
+                                                   rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#MISSPELLING
+<http://purl.obolibrary.org/obo/uberon/core#MISSPELLING> rdf:type owl:AnnotationProperty ;
+                                                         rdfs:label "a mis-spelling that is in common use and thus recorded"^^xsd:string ;
+                                                         rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#NON_AMNIOTE
+<http://purl.obolibrary.org/obo/uberon/core#NON_AMNIOTE> rdf:type owl:AnnotationProperty ;
+                                                         rdfs:label "synonym that is inappropriate for amniotes"^^xsd:string ;
+                                                         rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#NON_MAMMAL
+<http://purl.obolibrary.org/obo/uberon/core#NON_MAMMAL> rdf:type owl:AnnotationProperty ;
+                                                        rdfs:label "synonym that is inappropriate for mammals"^^xsd:string ;
+                                                        rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#PENDING_REVIEW
+<http://purl.obolibrary.org/obo/uberon/core#PENDING_REVIEW> rdf:type owl:AnnotationProperty ;
+                                                            rdfs:label "expert consultation and attribution required"^^xsd:string ;
+                                                            rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#PLURAL
+<http://purl.obolibrary.org/obo/uberon/core#PLURAL> rdf:type owl:AnnotationProperty ;
+                                                    rdfs:label "plural term"^^xsd:string ;
+                                                    rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#RLATED
+<http://purl.obolibrary.org/obo/uberon/core#RLATED> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#SENSU
+<http://purl.obolibrary.org/obo/uberon/core#SENSU> rdf:type owl:AnnotationProperty ;
+                                                   rdfs:label "taxonomic disambiguation"^^xsd:string ;
+                                                   rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#SYSTEMATIC
+<http://purl.obolibrary.org/obo/uberon/core#SYSTEMATIC> rdf:type owl:AnnotationProperty ;
+                                                        rdfs:label "a systematic synonym used as the base name for design patterns"^^xsd:string ;
+                                                        rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#cumbo
+<http://purl.obolibrary.org/obo/uberon/core#cumbo> rdf:type owl:AnnotationProperty ;
+                                                   rdfs:comment "CUMBO"^^xsd:string ;
+                                                   rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#cyclostome_subset
+<http://purl.obolibrary.org/obo/uberon/core#cyclostome_subset> rdf:type owl:AnnotationProperty ;
+                                                               rdfs:comment "cyclostome structures"^^xsd:string ;
+                                                               rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#defined_by_cytoarchitecture
+<http://purl.obolibrary.org/obo/uberon/core#defined_by_cytoarchitecture> rdf:type owl:AnnotationProperty ;
+                                                                         rdfs:comment "brain region defined by cyto-architecture"^^xsd:string ;
+                                                                         rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#defined_by_ordinal_series
+<http://purl.obolibrary.org/obo/uberon/core#defined_by_ordinal_series> rdf:type owl:AnnotationProperty ;
+                                                                       rdfs:comment "classes that are defined by relative position counting from first in a series of elements along an axis in an individual organism rather than by strict homology"^^xsd:string ;
+                                                                       rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#developmental_classification
+<http://purl.obolibrary.org/obo/uberon/core#developmental_classification> rdf:type owl:AnnotationProperty ;
+                                                                          rdfs:comment "developmental_classification"^^xsd:string ;
+                                                                          rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#dubious_grouping
+<http://purl.obolibrary.org/obo/uberon/core#dubious_grouping> rdf:type owl:AnnotationProperty ;
+                                                              rdfs:comment "Indicates that subclasses in AOs may be inappropriately linked"^^xsd:string ;
+                                                              rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#early_development
+<http://purl.obolibrary.org/obo/uberon/core#early_development> rdf:type owl:AnnotationProperty ;
+                                                               rdfs:comment "A class that represents an early developmental structure, like a blastocyst. This part of the ontology is undergoing review to remove inappropriate grouping classes."^^xsd:string ;
+                                                               rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#efo_slim
+<http://purl.obolibrary.org/obo/uberon/core#efo_slim> rdf:type owl:AnnotationProperty ;
+                                                      rdfs:comment "EFO slim"^^xsd:string ;
+                                                      rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#emapa_ehdaa2
+<http://purl.obolibrary.org/obo/uberon/core#emapa_ehdaa2> rdf:type owl:AnnotationProperty ;
+                                                          rdfs:comment "derived from the union of EHDAA2 and EMAPA - still to be checked"^^xsd:string ;
+                                                          rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#feed_aligned
+<http://purl.obolibrary.org/obo/uberon/core#feed_aligned> rdf:type owl:AnnotationProperty ;
+                                                          rdfs:comment "subset of classes that have logical defs text defs and synonyms aligned with FEED"^^xsd:string ;
+                                                          rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#functional_classification
+<http://purl.obolibrary.org/obo/uberon/core#functional_classification> rdf:type owl:AnnotationProperty ;
+                                                                       rdfs:comment "functional_classification"^^xsd:string ;
+                                                                       rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#grouping_class
+<http://purl.obolibrary.org/obo/uberon/core#grouping_class> rdf:type owl:AnnotationProperty ;
+                                                            rdfs:comment "Subset consisting of classes creating for grouping purposes"^^xsd:string ;
+                                                            rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#homologous_in
+<http://purl.obolibrary.org/obo/uberon/core#homologous_in> rdf:type owl:AnnotationProperty ;
+                                                           ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                           ns1:id "homologous_in"^^xsd:string ;
+                                                           ns1:is_metadata_tag "true"^^xsd:boolean ;
+                                                           rdfs:comment "Status: experimental"^^xsd:string ;
+                                                           rdfs:label "homologous_in"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#homology_grouping
+<http://purl.obolibrary.org/obo/uberon/core#homology_grouping> rdf:type owl:AnnotationProperty ;
+                                                               rdfs:comment "A grouping class that depends on an assumption of homology between subclasses"^^xsd:string ;
+                                                               rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#inconsistent_with_fma
+<http://purl.obolibrary.org/obo/uberon/core#inconsistent_with_fma> rdf:type owl:AnnotationProperty ;
+                                                                   rdfs:comment "classes that have some inconsistency with FMA"^^xsd:string ;
+                                                                   rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#major_organ
+<http://purl.obolibrary.org/obo/uberon/core#major_organ> rdf:type owl:AnnotationProperty ;
+                                                         rdfs:comment "somewhat fuzzy grouping for analysis purposes, currently composed of something like: liver, heart, skeletal, kidney, bladder, brain, skin, mouth, esophagus, stomach, small intestine, large intestines, trachea nose, lungs, brain, spinal cord,  peripheral nerves, kidneys, ureters, bladder, urethra, gonads"^^xsd:string ;
+                                                         rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#metazoa_core
+<http://purl.obolibrary.org/obo/uberon/core#metazoa_core> rdf:type owl:AnnotationProperty ;
+                                                          rdfs:comment "core classes typically found across metazoa. one purpose is to create a rough set of terms that could be used to start a new metazoan AO. Note this subset is not yet fully fleshed out"^^xsd:string ;
+                                                          rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#non_informative
+<http://purl.obolibrary.org/obo/uberon/core#non_informative> rdf:type owl:AnnotationProperty ;
+                                                             rdfs:comment "abstract class brought in to group ontology classes but not informative"^^xsd:string ;
+                                                             rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#organ_slim
+<http://purl.obolibrary.org/obo/uberon/core#organ_slim> rdf:type owl:AnnotationProperty ;
+                                                        rdfs:comment "organs, excluding individual muscles and skeletal elements"^^xsd:string ;
+                                                        rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#pheno_slim
+<http://purl.obolibrary.org/obo/uberon/core#pheno_slim> rdf:type owl:AnnotationProperty ;
+                                                        rdfs:comment "Phenotype slim"^^xsd:string ;
+                                                        rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#phenotype_rcn
+<http://purl.obolibrary.org/obo/uberon/core#phenotype_rcn> rdf:type owl:AnnotationProperty ;
+                                                           rdfs:comment "A subset specifically created for the 2012 Phenotype RCN meeting. Includes some human-specific terms that may eventually be removed when they are adequately represented with part of relationships in FMA"^^xsd:string ;
+                                                           rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#uberon_slim
+<http://purl.obolibrary.org/obo/uberon/core#uberon_slim> rdf:type owl:AnnotationProperty ;
+                                                         rdfs:comment "Uberon slim - subset that excludes obscure terms and deep compositional terms"^^xsd:string ;
+                                                         rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#unverified_taxonomic_grouping
+<http://purl.obolibrary.org/obo/uberon/core#unverified_taxonomic_grouping> rdf:type owl:AnnotationProperty ;
+                                                                           rdfs:comment "Indicates that the class encompasses classes from other AOs that have not been verified"^^xsd:string ;
+                                                                           rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#upper_level
+<http://purl.obolibrary.org/obo/uberon/core#upper_level> rdf:type owl:AnnotationProperty ;
+                                                         rdfs:comment "abstract upper-level terms not directly useful for analysis"^^xsd:string ;
+                                                         rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#vertebrate_core
+<http://purl.obolibrary.org/obo/uberon/core#vertebrate_core> rdf:type owl:AnnotationProperty ;
+                                                             rdfs:comment "core classes typically found across vertebrates. one purpose is to create a rough set of terms that could be used to start a new vertebrate AO"^^xsd:string ;
+                                                             rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/insect-anatomy#BRAIN_NAME_ABV
+<http://purl.obolibrary.org/obo/uberon/insect-anatomy#BRAIN_NAME_ABV> rdf:type owl:AnnotationProperty ;
+                                                                      rdfs:label ""^^xsd:string ;
+                                                                      rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/insect-anatomy#PLURAL
+<http://purl.obolibrary.org/obo/uberon/insect-anatomy#PLURAL> rdf:type owl:AnnotationProperty ;
+                                                              rdfs:label "plurals"^^xsd:string ;
+                                                              rdfs:subPropertyOf ns1:SynonymTypeProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/insect-anatomy#efo_slim
+<http://purl.obolibrary.org/obo/uberon/insect-anatomy#efo_slim> rdf:type owl:AnnotationProperty ;
+                                                                rdfs:comment "EFO slim"^^xsd:string ;
+                                                                rdfs:subPropertyOf ns1:SubsetProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/insect-anatomy#taxon_notes
+<http://purl.obolibrary.org/obo/uberon/insect-anatomy#taxon_notes> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/contributor
+ns6:contributor rdf:type owl:AnnotationProperty ;
+                ns1:hasDbXref ns6:contributor ;
+                ns1:hasOBONamespace "uberon"^^xsd:string ;
+                ns1:id "dc-contributor"^^xsd:string ;
+                ns1:is_metadata_tag "true"^^xsd:boolean ;
+                ns1:shorthand "dc-contributor"^^xsd:string ;
+                rdfs:label "contributor"^^xsd:string .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+ns6:creator rdf:type owl:AnnotationProperty ;
+            ns1:hasDbXref ns6:creator ;
+            ns1:hasOBONamespace "uberon"^^xsd:string ;
+            ns1:id "dc-creator"^^xsd:string ;
+            ns1:is_metadata_tag "true"^^xsd:boolean ;
+            ns1:shorthand "dc-creator"^^xsd:string ;
+            rdfs:label "creator"^^xsd:string .
+
+
+###  http://purl.org/dc/elements/1.1/description
+ns6:description rdf:type owl:AnnotationProperty ;
+                ns1:hasDbXref ns6:description ;
+                ns1:hasOBONamespace "uberon"^^xsd:string ;
+                ns1:id "dc-description"^^xsd:string ;
+                ns1:is_metadata_tag "true"^^xsd:boolean ;
+                ns1:shorthand "dc-description"^^xsd:string ;
+                rdfs:label "description"^^xsd:string .
+
+
+###  http://purl.org/dc/elements/1.1/publisher
+ns6:publisher rdf:type owl:AnnotationProperty ;
+              ns1:hasDbXref ns6:publisher ;
+              ns1:hasOBONamespace "uberon"^^xsd:string ;
+              ns1:id "dc-publisher"^^xsd:string ;
+              ns1:is_metadata_tag "true"^^xsd:boolean ;
+              ns1:shorthand "dc-publisher"^^xsd:string ;
+              rdfs:label "publisher"^^xsd:string .
+
+
+###  http://purl.org/dc/elements/1.1/rights
+ns6:rights rdf:type owl:AnnotationProperty ;
+           ns1:hasDbXref ns6:rights ;
+           ns1:hasOBONamespace "uberon"^^xsd:string ;
+           ns1:id "dc-rights"^^xsd:string ;
+           ns1:is_metadata_tag "true"^^xsd:boolean ;
+           ns1:shorthand "dc-rights"^^xsd:string ;
+           rdfs:label "rights"^^xsd:string .
+
+
+###  http://purl.org/dc/elements/1.1/source
+ns6:source rdf:type owl:AnnotationProperty ;
+           ns1:hasDbXref ns6:source ;
+           ns1:hasOBONamespace "uberon"^^xsd:string ;
+           ns1:id "dc-source"^^xsd:string ;
+           ns1:is_metadata_tag "true"^^xsd:boolean ;
+           ns1:shorthand "dc-source"^^xsd:string ;
+           rdfs:label "derived from resource"^^xsd:string .
+
+
+###  http://purl.org/dc/elements/1.1/title
+ns6:title rdf:type owl:AnnotationProperty ;
+          ns1:hasDbXref ns6:title ;
+          ns1:hasOBONamespace "uberon"^^xsd:string ;
+          ns1:id "dc-title"^^xsd:string ;
+          ns1:is_metadata_tag "true"^^xsd:boolean ;
+          ns1:shorthand "dc-title"^^xsd:string ;
+          rdfs:label "title"^^xsd:string .
+
+
+###  http://purl.org/dc/terms/isReferencedBy
+<http://purl.org/dc/terms/isReferencedBy> rdf:type owl:AnnotationProperty ;
+                                          ns1:hasDbXref <http://purl.org/dc/terms/isReferencedBy> ;
+                                          ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                          ns1:id "dcterms-isReferencedBy"^^xsd:string ;
+                                          ns1:is_metadata_tag "true"^^xsd:boolean ;
+                                          ns1:shorthand "dcterms-isReferencedBy"^^xsd:string ;
+                                          rdfs:label "is referenced by"^^xsd:string .
+
+
+###  http://usefulinc.com/ns/doap#GitRepository
+<http://usefulinc.com/ns/doap#GitRepository> rdf:type owl:AnnotationProperty ;
+                                             ns1:hasDbXref <http://usefulinc.com/ns/doap#GitRepository> ;
+                                             ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                             ns1:id "doap-GitRepository"^^xsd:string ;
+                                             ns1:is_metadata_tag "true"^^xsd:boolean ;
+                                             ns1:shorthand "doap-GitRepository"^^xsd:string ;
+                                             rdfs:label "Git repository"^^xsd:string .
+
+
+###  http://usefulinc.com/ns/doap#SVNRepository
+<http://usefulinc.com/ns/doap#SVNRepository> rdf:type owl:AnnotationProperty ;
+                                             ns1:hasDbXref <http://usefulinc.com/ns/doap#SVNRepository> ;
+                                             ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                             ns1:id "doap-SVNRepository"^^xsd:string ;
+                                             ns1:is_metadata_tag "true"^^xsd:boolean ;
+                                             ns1:shorthand "doap-SVNRepository"^^xsd:string ;
+                                             rdfs:label "SVN repository"^^xsd:string .
+
+
+###  http://usefulinc.com/ns/doap#bug-database
+<http://usefulinc.com/ns/doap#bug-database> rdf:type owl:AnnotationProperty ;
+                                            ns1:hasDbXref <http://usefulinc.com/ns/doap#bug-database> ;
+                                            ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                            ns1:id "doap-bug-database"^^xsd:string ;
+                                            ns1:is_metadata_tag "true"^^xsd:boolean ;
+                                            ns1:shorthand "doap-bug-database"^^xsd:string ;
+                                            rdfs:label "bug database"^^xsd:string .
+
+
+###  http://usefulinc.com/ns/doap#mailing-list
+<http://usefulinc.com/ns/doap#mailing-list> rdf:type owl:AnnotationProperty ;
+                                            ns1:hasDbXref <http://usefulinc.com/ns/doap#mailing-list> ;
+                                            ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                            ns1:id "doap-mailing-list"^^xsd:string ;
+                                            ns1:is_metadata_tag "true"^^xsd:boolean ;
+                                            ns1:shorthand "doap-mailing-list"^^xsd:string ;
+                                            rdfs:label "mailing list"^^xsd:string .
+
+
+###  http://usefulinc.com/ns/doap#wiki
+<http://usefulinc.com/ns/doap#wiki> rdf:type owl:AnnotationProperty ;
+                                    ns1:hasDbXref <http://usefulinc.com/ns/doap#wiki> ;
+                                    ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                    ns1:id "doap-wiki"^^xsd:string ;
+                                    ns1:is_metadata_tag "true"^^xsd:boolean ;
+                                    ns1:shorthand "doap-wiki"^^xsd:string ;
+                                    rdfs:label "wiki"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#SubsetProperty
+ns1:SubsetProperty rdf:type owl:AnnotationProperty ;
+                   rdfs:label "subset_property"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty
+ns1:SynonymTypeProperty rdf:type owl:AnnotationProperty ;
+                        rdfs:label "synonym_type_property"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#cardonality
+ns1:cardonality rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#cases
+ns1:cases rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#component
+ns1:component rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#composition
+ns1:composition rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#conflicts
+ns1:conflicts rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#conflicts_with
+ns1:conflicts_with rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#connected_by
+ns1:connected_by rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#consider
+ns1:consider rdf:type owl:AnnotationProperty ;
+             rdfs:label "consider"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#consistent_with
+ns1:consistent_with rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#contradicted_by
+ns1:contradicted_by rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#contributor
+ns1:contributor rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#count
+ns1:count rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#created_by
@@ -98,32 +1014,114 @@ ns1:created_by rdf:type owl:AnnotationProperty .
 ns1:creation_date rdf:type owl:AnnotationProperty .
 
 
+###  http://www.geneontology.org/formats/oboInOwl#date
+ns1:date rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#date_retrieved
+ns1:date_retrieved rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#default-namespace
+ns1:default-namespace rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#different_relation_from
+ns1:different_relation_from rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#editor
+ns1:editor rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#editor_note
+ns1:editor_note rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#evidence
+ns1:evidence rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#exactly
+ns1:exactly rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#exception
+ns1:exception rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#exceptions
+ns1:exceptions rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#exceptions_url
+ns1:exceptions_url rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#external_class
+ns1:external_class rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#external_class_label
+ns1:external_class_label rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#external_ontology
+ns1:external_ontology rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#gene
+ns1:gene rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.geneontology.org/formats/oboInOwl#hasAlternativeId
-ns1:hasAlternativeId rdf:type owl:AnnotationProperty .
+ns1:hasAlternativeId rdf:type owl:AnnotationProperty ;
+                     rdfs:label "has_alternative_id"^^xsd:string .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym
-ns1:hasBroadSynonym rdf:type owl:AnnotationProperty .
+ns1:hasBroadSynonym rdf:type owl:AnnotationProperty ;
+                    rdfs:label "has_broad_synonym"^^xsd:string .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#hasDbXref
-ns1:hasDbXref rdf:type owl:AnnotationProperty .
+ns1:hasDbXref rdf:type owl:AnnotationProperty ;
+              rdfs:label "database_cross_reference"^^xsd:string .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-ns1:hasExactSynonym rdf:type owl:AnnotationProperty .
+ns1:hasExactSynonym rdf:type owl:AnnotationProperty ;
+                    rdfs:label "has_exact_synonym"^^xsd:string .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-ns1:hasNarrowSynonym rdf:type owl:AnnotationProperty .
+ns1:hasNarrowSynonym rdf:type owl:AnnotationProperty ;
+                     rdfs:label "has_narrow_synonym"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion
+ns1:hasOBOFormatVersion rdf:type owl:AnnotationProperty ;
+                        rdfs:label "has_obo_format_version"^^xsd:string .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
-ns1:hasOBONamespace rdf:type owl:AnnotationProperty .
+ns1:hasOBONamespace rdf:type owl:AnnotationProperty ;
+                    rdfs:label "has_obo_namespace"^^xsd:string .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
-ns1:hasRelatedSynonym rdf:type owl:AnnotationProperty .
+ns1:hasRelatedSynonym rdf:type owl:AnnotationProperty ;
+                      rdfs:label "has_related_synonym"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasScope
+ns1:hasScope rdf:type owl:AnnotationProperty ;
+             rdfs:label "has_scope"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasSynonymType
+ns1:hasSynonymType rdf:type owl:AnnotationProperty ;
+                   rdfs:label "has_synonym_type"^^xsd:string .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#id
@@ -131,7 +1129,213 @@ ns1:id rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#inSubset
-ns1:inSubset rdf:type owl:AnnotationProperty .
+ns1:inSubset rdf:type owl:AnnotationProperty ;
+             rdfs:label "in_subset"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#inconsistent_with
+ns1:inconsistent_with rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#inferred_by
+ns1:inferred_by rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#isAbout
+ns1:isAbout rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#is_about
+ns1:is_about rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#is_class_level
+ns1:is_class_level rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#is_entailed
+ns1:is_entailed rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#is_indirect
+ns1:is_indirect rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#is_inferred
+ns1:is_inferred rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#is_metadata_tag
+ns1:is_metadata_tag rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#is_redundant
+ns1:is_redundant rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#laterality
+ns1:laterality rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#min_cardinality
+ns1:min_cardinality rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#min_count
+ns1:min_count rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#missing_from
+ns1:missing_from rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#modified_from
+ns1:modified_from rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#never_in_taxon
+ns1:never_in_taxon rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#not_supported_by
+ns1:not_supported_by rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#note
+ns1:note rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#notes
+ns1:notes rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#ontology
+ns1:ontology rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#ontology_class
+ns1:ontology_class rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#order
+ns1:order rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#possible_exception
+ns1:possible_exception rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#proportion
+ns1:proportion rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#quote
+ns1:quote rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#reference
+ns1:reference rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#region
+ns1:region rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#saved-by
+ns1:saved-by rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#seeAlso
+ns1:seeAlso rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#shorthand
+ns1:shorthand rdf:type owl:AnnotationProperty ;
+              rdfs:label "shorthand"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#souce
+ns1:souce rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#source
+ns1:source rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#specialization_within
+ns1:specialization_within rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#src
+ns1:src rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#stage
+ns1:stage rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#status
+ns1:status rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#submitter
+ns1:submitter rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#taxon
+ns1:taxon rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#taxon_notes
+ns1:taxon_notes rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#todo
+ns1:todo rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent
+ns1:treat-xrefs-as-equivalent rdf:type owl:AnnotationProperty ;
+                              rdfs:label "treat-xrefs-as-equivalent"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-has-subclass
+ns1:treat-xrefs-as-has-subclass rdf:type owl:AnnotationProperty ;
+                                rdfs:label "treat-xrefs-as-has-subclass"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-is_a
+ns1:treat-xrefs-as-is_a rdf:type owl:AnnotationProperty ;
+                        rdfs:label "treat-xrefs-as-is_a"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia
+ns1:treat-xrefs-as-reverse-genus-differentia rdf:type owl:AnnotationProperty ;
+                                             rdfs:label "treat-xrefs-as-reverse-genus-differentia"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#url
+ns1:url rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#version
+ns1:version rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/UBPROP_0000006
+<http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/UBPROP_0000006> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#comment
+rdfs:comment rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#deprecated
+owl:deprecated rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2002/07/owl#maxQualifiedCardinality
@@ -146,108 +1350,1719 @@ owl:minQualifiedCardinality rdf:type owl:AnnotationProperty .
 ns5:depicted_by rdf:type owl:AnnotationProperty .
 
 
+###  http://xmlns.com/foaf/0.1/homepage
+ns5:homepage rdf:type owl:AnnotationProperty ;
+             ns1:hasDbXref ns5:homepage ;
+             ns1:hasOBONamespace "uberon"^^xsd:string ;
+             ns1:id "foaf-homepage"^^xsd:string ;
+             ns1:is_metadata_tag "true"^^xsd:boolean ;
+             ns1:shorthand "foaf-homepage"^^xsd:string ;
+             rdfs:label "homepage"^^xsd:string .
+
+
+###  http://xmlns.com/foaf/0.1/page
+ns5:page rdf:type owl:AnnotationProperty ;
+         ns1:hasDbXref ns5:page ;
+         ns1:hasOBONamespace "uberon"^^xsd:string ;
+         ns1:id "foaf-page"^^xsd:string ;
+         ns1:is_metadata_tag "true"^^xsd:boolean ;
+         ns1:shorthand "foaf-page"^^xsd:string ;
+         rdfs:label "page"^^xsd:string .
+
+
 #################################################################
 #    Object Properties
 #################################################################
 
 ###  http://purl.obolibrary.org/obo/BFO_0000050
-ns3:BFO_0000050 rdf:type owl:ObjectProperty .
+ns3:BFO_0000050 rdf:type owl:ObjectProperty ;
+                owl:inverseOf ns3:BFO_0000051 ;
+                rdf:type owl:TransitiveProperty ;
+                ns1:hasDbXref "BFO:0000050"^^xsd:string ;
+                ns1:hasOBONamespace "uberon"^^xsd:string ;
+                ns1:id "part_of"^^xsd:string ;
+                ns1:shorthand "part_of"^^xsd:string ;
+                rdfs:label "part of"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/BFO_0000051
-ns3:BFO_0000051 rdf:type owl:ObjectProperty .
+ns3:BFO_0000051 rdf:type owl:ObjectProperty ,
+                         owl:TransitiveProperty ;
+                ns1:hasDbXref "BFO:0000051"^^xsd:string ;
+                ns1:hasOBONamespace "uberon"^^xsd:string ;
+                ns1:id "has_part"^^xsd:string ;
+                ns1:shorthand "has_part"^^xsd:string ;
+                rdfs:label "has part"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000056
+ns3:BFO_0000056 rdf:type owl:ObjectProperty ;
+                ns1:hasDbXref "BFO:0000056"^^xsd:string ;
+                ns1:hasOBONamespace "uberon"^^xsd:string ;
+                ns1:id "participates_in"^^xsd:string ;
+                ns1:shorthand "participates_in"^^xsd:string ;
+                rdfs:label "participates in"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000062
+ns3:BFO_0000062 rdf:type owl:ObjectProperty ,
+                         owl:TransitiveProperty ;
+                ns3:IAO_0000115 "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)"^^xsd:string ;
+                ns1:hasDbXref "BFO:0000062"^^xsd:string ;
+                ns1:hasExactSynonym "is preceded by"^^xsd:string ,
+                                    "takes place after"^^xsd:string ;
+                ns1:hasOBONamespace "uberon"^^xsd:string ;
+                ns1:id "preceded_by"^^xsd:string ;
+                ns1:shorthand "preceded_by"^^xsd:string ;
+                rdfs:label "preceded_by"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000063
+ns3:BFO_0000063 rdf:type owl:ObjectProperty ,
+                         owl:TransitiveProperty ;
+                ns1:hasDbXref "BFO:0000063"^^xsd:string ;
+                ns1:hasOBONamespace "uberon"^^xsd:string ;
+                ns1:id "precedes"^^xsd:string ;
+                ns1:shorthand "precedes"^^xsd:string ;
+                rdfs:label "precedes"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000067
+ns3:BFO_0000067 rdf:type owl:ObjectProperty ;
+                ns1:hasDbXref "BFO:0000067"^^xsd:string ;
+                ns1:hasOBONamespace "uberon"^^xsd:string ;
+                ns1:id "contains_process"^^xsd:string ;
+                ns1:shorthand "contains_process"^^xsd:string ;
+                rdfs:label "contains process"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000068
+ns3:BFO_0000068 rdf:type owl:ObjectProperty ;
+                ns3:IAO_0000231 ns3:IAO_0000227 ;
+                ns3:IAO_0100001 ns3:RO_0002488 ;
+                owl:deprecated "true"^^xsd:boolean .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000069
+ns3:BFO_0000069 rdf:type owl:ObjectProperty ;
+                ns3:IAO_0000231 ns3:IAO_0000227 ;
+                ns3:IAO_0100001 ns3:RO_0002492 ;
+                owl:deprecated "true"^^xsd:boolean .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0000096
+ns3:BSPO_0000096 rdf:type owl:ObjectProperty ,
+                          owl:TransitiveProperty ;
+                 ns3:IAO_0000115 "x anterior_to y iff x is further along the antero-posterior axis than y, towards the head. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail: bearer"^^xsd:string ;
+                 ns1:created_by "cjm"^^xsd:string ;
+                 ns1:creation_date "2009-07-31T02:15:46Z"^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0000096"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "anterior_to"^^xsd:string ;
+                 ns1:shorthand "anterior_to"^^xsd:string ;
+                 rdfs:label "anterior_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0000097
+ns3:BSPO_0000097 rdf:type owl:ObjectProperty ;
+                 ns3:IAO_0000115 "x distal_to y iff x is further along the proximo-distal axis than y, towards the appendage tip. A proximo-distal axis extends from tip of an appendage (distal) to where it joins the body (proximal)."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0000097"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "distal_to"^^xsd:string ;
+                 ns1:shorthand "distal_to"^^xsd:string ;
+                 rdfs:label "distal_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0000098
+ns3:BSPO_0000098 rdf:type owl:ObjectProperty ;
+                 owl:inverseOf ns3:BSPO_0000102 ;
+                 rdf:type owl:TransitiveProperty ;
+                 ns3:IAO_0000115 "x dorsal_to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly)."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0000098"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "dorsal_to"^^xsd:string ;
+                 ns1:shorthand "dorsal_to"^^xsd:string ;
+                 rdfs:label "dorsal_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0000099
+ns3:BSPO_0000099 rdf:type owl:ObjectProperty ,
+                          owl:TransitiveProperty ;
+                 ns3:IAO_0000115 "x posterior_to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0000099"^^xsd:string ;
+                 ns1:hasNarrowSynonym "caudal_to"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "posterior_to"^^xsd:string ;
+                 ns1:shorthand "posterior_to"^^xsd:string ;
+                 rdfs:label "posterior_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0000100
+ns3:BSPO_0000100 rdf:type owl:ObjectProperty ;
+                 ns3:IAO_0000115 "x proximal_to y iff x is closer to the point of attachment with the body than y."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0000100"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "proximal_to"^^xsd:string ;
+                 ns1:shorthand "proximal_to"^^xsd:string ;
+                 rdfs:label "proximal_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0000102
+ns3:BSPO_0000102 rdf:type owl:ObjectProperty ,
+                          owl:TransitiveProperty ;
+                 ns3:IAO_0000115 "x ventral_to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly)."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0000102"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "ventral_to"^^xsd:string ;
+                 ns1:shorthand "ventral_to"^^xsd:string ;
+                 rdfs:label "ventral_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0000107
+ns3:BSPO_0000107 rdf:type owl:ObjectProperty ,
+                          owl:TransitiveProperty ;
+                 ns3:IAO_0000115 "Further away from the surface of the organism. Thus, the muscular layer is deep to the skin, but superficial to the intestines."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0000107"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "deep_to"^^xsd:string ;
+                 ns1:shorthand "deep_to"^^xsd:string ;
+                 rdfs:label "deep_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0000108
+ns3:BSPO_0000108 rdf:type owl:ObjectProperty ;
+                 ns3:IAO_0000115 "Near the outer surface of the organism. Thus, skin is superficial to the muscle layer."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0000108"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "superficial_to"^^xsd:string ;
+                 ns1:shorthand "superficial_to"^^xsd:string ;
+                 rdfs:label "superficial_to"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/BSPO_0000120
-ns3:BSPO_0000120 rdf:type owl:ObjectProperty .
+ns3:BSPO_0000120 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BSPO_0000126 ;
+                 ns3:IAO_0000115 "X in_left_side_of Y <=> if Y is subdivided into left and right portions, X is part_of the left portion."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0000120"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "in_left_side_of"^^xsd:string ;
+                 ns1:shorthand "in_left_side_of"^^xsd:string ;
+                 rdfs:label "in_left_side_of"^^xsd:string ;
+                 rdfs:seeAlso "https://github.com/obophenotype/uberon/wiki/Modeling-paired-structures-Design-Pattern"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/BSPO_0000121
-ns3:BSPO_0000121 rdf:type owl:ObjectProperty .
+ns3:BSPO_0000121 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BSPO_0000126 ;
+                 ns3:IAO_0000115 "X in_right_side_of Y <=> if Y is subdivided into left and right portions, X is part_of the right portion."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0000121"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "in_right_side_of"^^xsd:string ;
+                 ns1:shorthand "in_right_side_of"^^xsd:string ;
+                 rdfs:label "in_right_side_of"^^xsd:string ;
+                 rdfs:seeAlso "https://github.com/obophenotype/uberon/wiki/Modeling-paired-structures-Design-Pattern"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0000122
+ns3:BSPO_0000122 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BFO_0000050 ;
+                 ns3:IAO_0000115 "X posterior_side_of Y <=> if Y is subdivided into two anterior and posterior portions, X is part_of the posterior portion."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0000122"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "in_posterior_side_of"^^xsd:string ;
+                 ns1:shorthand "in_posterior_side_of"^^xsd:string ;
+                 rdfs:label "in_posterior_side_of"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/BSPO_0000123
-ns3:BSPO_0000123 rdf:type owl:ObjectProperty .
+ns3:BSPO_0000123 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BFO_0000050 ;
+                 ns3:IAO_0000115 "X anterior_side_of Y <=> if Y is subdivided into two anterior and posterior portions, X is part_of the anterior portion."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0000123"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "in_anterior_side_of"^^xsd:string ;
+                 ns1:shorthand "in_anterior_side_of"^^xsd:string ;
+                 rdfs:label "in_anterior_side_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0000124
+ns3:BSPO_0000124 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BFO_0000050 ;
+                 owl:inverseOf ns3:BSPO_0000125 ;
+                 ns3:IAO_0000115 "X proximal_side_of Y <=> if Y is subdivided into distal and proximal portions, X is part_of the proximal portion."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0000124"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "in_proximal_side_of"^^xsd:string ;
+                 ns1:shorthand "in_proximal_side_of"^^xsd:string ;
+                 rdfs:label "in_proximal_side_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0000125
+ns3:BSPO_0000125 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BFO_0000050 ;
+                 ns3:IAO_0000115 "X distal_side_of Y <=> if Y is subdivided into distal and proximal portions, X is part_of the distal portion."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0000125"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "in_distal_side_of"^^xsd:string ;
+                 ns1:shorthand "in_distal_side_of"^^xsd:string ;
+                 rdfs:label "in_distal_side_of"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/BSPO_0000126
-ns3:BSPO_0000126 rdf:type owl:ObjectProperty .
+ns3:BSPO_0000126 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BFO_0000050 ;
+                 owl:propertyDisjointWith <http://purl.obolibrary.org/obo/uberon/core#in_central_side_of> ;
+                 ns3:IAO_0000115 "X in_lateral_side_of Y <=> if X is in_left_side_of Y or X is in_right_side_of Y. X is often, but not always a paired structure"^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0000126"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "in_lateral_side_of"^^xsd:string ;
+                 ns1:shorthand "in_lateral_side_of"^^xsd:string ;
+                 rdfs:label "in_lateral_side_of"^^xsd:string ;
+                 rdfs:seeAlso "https://github.com/obophenotype/uberon/wiki/Modeling-paired-structures-Design-Pattern"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0001100
+ns3:BSPO_0001100 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BFO_0000050 ;
+                 ns3:IAO_0000115 "X superficial_part_of Y <=> if Y is subdivided into two superficial and deep portions, X is part_of the superficial portion."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0001100"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "in_superficial_part_of"^^xsd:string ;
+                 ns1:shorthand "in_superficial_part_of"^^xsd:string ;
+                 rdfs:label "in_superficial_part_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0001101
+ns3:BSPO_0001101 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BFO_0000050 ;
+                 ns3:IAO_0000115 "X superficial_part_of Y <=> if Y is subdivided into two superficial and deep portions, X is part_of the deep portion."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0001101"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "in_deep_part_of"^^xsd:string ;
+                 ns1:shorthand "in_deep_part_of"^^xsd:string ;
+                 rdfs:label "in_deep_part_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0001106
+ns3:BSPO_0001106 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BSPO_0000124 ;
+                 ns3:IAO_0000115 "X proximalmost_part_of Y <=> X is part_of Y and X is adjacent_to the proximal boundary of Y"^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0001106"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "proximalmost_part_of"^^xsd:string ;
+                 ns1:shorthand "proximalmost_part_of"^^xsd:string ;
+                 rdfs:label "proximalmost_part_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0001107
+ns3:BSPO_0001107 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BSPO_0000107 ,
+                                    ns3:RO_0002220 ;
+                 ns3:IAO_0000115 "This relation holds when both the deep_to and ajdacent_to relationship similarly hold."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0001107"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "immediately_deep_to"^^xsd:string ;
+                 ns1:shorthand "immediately_deep_to"^^xsd:string ;
+                 rdfs:label "immediately_deep_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0001108
+ns3:BSPO_0001108 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BSPO_0000125 ;
+                 ns3:IAO_0000115 "X distalmost_part_of Y <=> X is part_of Y and X is adjacent_to the distal boundary of Y"^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0001108"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "distalmost_part_of"^^xsd:string ;
+                 ns1:shorthand "distalmost_part_of"^^xsd:string ;
+                 rdfs:label "distalmost_part_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0001113
+ns3:BSPO_0001113 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BFO_0000050 ;
+                 ns1:hasDbXref "BSPO:0001113"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "preaxialmost_part_of"^^xsd:string ;
+                 ns1:shorthand "preaxialmost_part_of"^^xsd:string ;
+                 rdfs:label "preaxialmost_part_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0001114
+ns3:BSPO_0001114 rdf:type owl:ObjectProperty ,
+                          owl:TransitiveProperty ;
+                 ns3:IAO_0000115 "x preaxial_to y iff x is further along the preaxial-postaxial axis than y, towards the postaxial side."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0001114"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:hasRelatedSynonym "posterior_to (developmentally)"^^xsd:string ;
+                 ns1:id "postaxial_to"^^xsd:string ;
+                 ns1:shorthand "postaxial_to"^^xsd:string ;
+                 rdfs:label "postaxial_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0001115
+ns3:BSPO_0001115 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BFO_0000050 ;
+                 ns1:hasDbXref "BSPO:0001115"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "postaxialmost_part_of"^^xsd:string ;
+                 ns1:shorthand "postaxialmost_part_of"^^xsd:string ;
+                 rdfs:label "postaxialmost_part_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0005001
+ns3:BSPO_0005001 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BFO_0000050 ;
+                 ns3:IAO_0000115 "X intersects_median_plane of iff X crosses the midine plane of Y."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0005001"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "intersects_midsagittal_plane_of"^^xsd:string ;
+                 ns1:shorthand "intersects_midsagittal_plane_of"^^xsd:string ;
+                 rdfs:label "intersects_midsagittal_plane_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0015009
+ns3:BSPO_0015009 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BSPO_0000096 ,
+                                    ns3:RO_0002220 ;
+                 ns1:hasDbXref "BSPO:0015009"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "immediately_anterior_to"^^xsd:string ;
+                 ns1:shorthand "immediately_anterior_to"^^xsd:string ;
+                 rdfs:label "immediately_anterior_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0015012
+ns3:BSPO_0015012 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BSPO_0000099 ,
+                                    ns3:RO_0002220 ;
+                 ns1:hasDbXref "BSPO:0015012"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "immediately_posterior_to"^^xsd:string ;
+                 ns1:shorthand "immediately_posterior_to"^^xsd:string ;
+                 rdfs:label "immediately_posterior_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0015014
+ns3:BSPO_0015014 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BSPO_0000108 ,
+                                    ns3:RO_0002220 ;
+                 ns1:hasDbXref "BSPO:0015014"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "immediately_superficial_to"^^xsd:string ;
+                 ns1:shorthand "immediately_superficial_to"^^xsd:string ;
+                 rdfs:label "immediately_superficial_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0015101
+ns3:BSPO_0015101 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BFO_0000050 ;
+                 ns1:hasDbXref "BSPO:0015101"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "in_dorsal_side_of"^^xsd:string ;
+                 ns1:shorthand "in_dorsal_side_of"^^xsd:string ;
+                 rdfs:label "in_dorsal_side_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0015102
+ns3:BSPO_0015102 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ns3:BFO_0000050 ;
+                 ns1:hasDbXref "BSPO:0015102"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "in_ventral_side_of"^^xsd:string ;
+                 ns1:shorthand "in_ventral_side_of"^^xsd:string ;
+                 rdfs:label "in_ventral_side_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0015201
+ns3:BSPO_0015201 rdf:type owl:ObjectProperty ,
+                          owl:TransitiveProperty ;
+                 ns3:IAO_0000115 "nearer to the oral opening of the organism, on the oral-aboral axis."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0015201"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "oral_to"^^xsd:string ;
+                 ns1:shorthand "oral_to"^^xsd:string ;
+                 rdfs:label "oral_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_0015202
+ns3:BSPO_0015202 rdf:type owl:ObjectProperty ,
+                          owl:TransitiveProperty ;
+                 ns3:IAO_0000115 "nearer to the aboral opening of the organism, on the oral-aboral axis."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:0015202"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:id "aboral_to"^^xsd:string ;
+                 ns1:shorthand "aboral_to"^^xsd:string ;
+                 rdfs:label "aboral_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/BSPO_1000000
+ns3:BSPO_1000000 rdf:type owl:ObjectProperty ,
+                          owl:TransitiveProperty ;
+                 ns3:IAO_0000115 "x preaxial_to y iff x is further along the preaxial-postaxial axis than y, towards the front."^^xsd:string ;
+                 ns1:hasDbXref "BSPO:1000000"^^xsd:string ;
+                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                 ns1:hasRelatedSynonym "anterior_to (developmentally)"^^xsd:string ,
+                                       "lateral (radial) to"^^xsd:string ,
+                                       "medial (tibial) to"^^xsd:string ;
+                 ns1:id "preaxial_to"^^xsd:string ;
+                 ns1:shorthand "preaxial_to"^^xsd:string ;
+                 rdfs:label "preaxial_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000053
+ns3:RO_0000053 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0000053"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "bearer_of"^^xsd:string ;
+               ns1:shorthand "bearer_of"^^xsd:string ;
+               rdfs:label "bearer of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000086
+ns3:RO_0000086 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0000053 ;
+               ns1:hasDbXref "RO:0000086"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "has_quality"^^xsd:string ;
+               ns1:shorthand "has_quality"^^xsd:string ;
+               rdfs:label "has quality"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0001015
+ns3:RO_0001015 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0001015"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "location_of"^^xsd:string ;
+               ns1:shorthand "location_of"^^xsd:string ;
+               rdfs:label "location_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0001019
+ns3:RO_0001019 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0001019"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "contains"^^xsd:string ;
+               ns1:shorthand "contains"^^xsd:string ;
+               rdfs:label "contains"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0001025
-ns3:RO_0001025 rdf:type owl:ObjectProperty .
+ns3:RO_0001025 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0001025"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "located_in"^^xsd:string ;
+               ns1:shorthand "located_in"^^xsd:string ;
+               rdfs:label "located_in"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002000
+ns3:RO_0002000 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0002000"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "boundary_of"^^xsd:string ;
+               ns1:shorthand "boundary_of"^^xsd:string ;
+               rdfs:label "boundary of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002002
+ns3:RO_0002002 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0002002"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "has_boundary"^^xsd:string ;
+               ns1:shorthand "has_boundary"^^xsd:string ;
+               rdfs:label "has boundary"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002005
+ns3:RO_0002005 rdf:type owl:ObjectProperty ;
+               owl:inverseOf ns3:RO_0002134 ;
+               owl:propertyChainAxiom ( ns3:RO_0002005
+                                        ns3:RO_0002380
+                                      ) ;
+               ns1:hasDbXref "RO:0002005"^^xsd:string ;
+               ns1:hasExactSynonym "nerve supply"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "innervated_by"^^xsd:string ;
+               ns1:shorthand "innervated_by"^^xsd:string ;
+               rdfs:comment "http://code.google.com/p/obo-relations/issues/detail?id=6"^^xsd:string ;
+               rdfs:label "innervated_by"^^xsd:string ;
+               rdfs:seeAlso ns3:FMA_85999 ,
+                            ns3:dbprop_nerve .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002007
-ns3:RO_0002007 rdf:type owl:ObjectProperty .
+ns3:RO_0002007 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:BFO_0000050 ;
+               ns1:hasDbXref "RO:0002007"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "bounding_layer_of"^^xsd:string ;
+               ns1:shorthand "bounding_layer_of"^^xsd:string ;
+               rdfs:comment "A relationship that applies between a continuant and its outer, bounding layer. Examples include the relationship between a multicellular organism and its integument, between an animal cell and its plasma membrane, and between a membrane bound organelle and its outer/bounding membrane."^^xsd:string ;
+               rdfs:label "bounding layer of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002082
+ns3:RO_0002082 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002223 ,
+                                  ns3:RO_0002229 ;
+               ns3:IAO_0000115 "Relation between occurrents, shares start and end boundaries."^^xsd:string ;
+               ns1:hasDbXref "RO:0002082"^^xsd:string ;
+               ns1:hasExactSynonym "coincides_with"^^xsd:string ,
+                                   "is_equal_to"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "simultaneous_with"^^xsd:string ;
+               ns1:shorthand "simultaneous_with"^^xsd:string ;
+               rdfs:label "simultaneous_with"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002087
+ns3:RO_0002087 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:BFO_0000062 ;
+               ns3:IAO_0000115 "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)"^^xsd:string ;
+               ns3:UBPROP_0000001 "A non-transitive temporal relation in which one process immediately precedes another process, such that there is no interval of time between the two processes[SIO:000251]."^^xsd:string ;
+               ns1:hasDbXref "RO:0002087"^^xsd:string ;
+               ns1:hasExactSynonym "directly preceded by"^^xsd:string ,
+                                   "is directly preceded by"^^xsd:string ,
+                                   "is immediately preceded by"^^xsd:string ,
+                                   "starts_at_end_of"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "immediately_preceded_by"^^xsd:string ;
+               ns1:shorthand "immediately_preceded_by"^^xsd:string ;
+               rdfs:label "immediately_preceded_by"^^xsd:string ;
+               rdfs:seeAlso <http://semanticscience.org/resource/SIO_000251> .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002131
+ns3:RO_0002131 rdf:type owl:ObjectProperty ;
+               ns3:IAO_0000115 "A overlaps B if they share some part in common."^^xsd:string ;
+               ns3:IAO_0000424 "BFO_0000051 some (BFO_0000050 some ?Y)"^^xsd:string ;
+               ns1:hasDbXref "RO:0002131"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "overlaps"^^xsd:string ;
+               ns1:shorthand "overlaps"^^xsd:string ;
+               rdfs:label "overlaps"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002134
+ns3:RO_0002134 rdf:type owl:ObjectProperty ;
+               owl:propertyChainAxiom ( ns3:RO_0002134
+                                        ns3:BFO_0000050
+                                      ) ;
+               ns1:hasDbXref "RO:0002134"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "innervates"^^xsd:string ;
+               ns1:shorthand "innervates"^^xsd:string ;
+               rdfs:comment "http://code.google.com/p/obo-relations/issues/detail?id=6"^^xsd:string ;
+               rdfs:label "innervates"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002150
-ns3:RO_0002150 rdf:type owl:ObjectProperty .
+ns3:RO_0002150 rdf:type owl:ObjectProperty ,
+                        owl:SymmetricProperty ;
+               ns1:hasDbXref "RO:0002150"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "continuous_with"^^xsd:string ;
+               ns1:shorthand "continuous_with"^^xsd:string ;
+               rdfs:label "continuous_with"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002158
+ns3:RO_0002158 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0002158"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "homologous_to"^^xsd:string ;
+               ns1:shorthand "homologous_to"^^xsd:string ;
+               rdfs:label "homologous_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002159
+ns3:RO_0002159 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0002159"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "serially_homologous_to"^^xsd:string ;
+               ns1:shorthand "serially_homologous_to"^^xsd:string ;
+               rdfs:label "serially_homologous_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002160
+ns3:RO_0002160 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002162 ;
+               ns3:IAO_0000115 "S only_in_taxon T iff: S SubClassOf in_taxon only T"^^xsd:string ;
+               ns1:hasDbXref "RO:0002160"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "only_in_taxon"^^xsd:string ;
+               ns1:shorthand "only_in_taxon"^^xsd:string ;
+               rdfs:label "only_in_taxon"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002162
+ns3:RO_0002162 rdf:type owl:ObjectProperty ;
+               owl:propertyChainAxiom ( ns3:BFO_0000050
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( ns3:RO_0002005
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( ns3:RO_0002131
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( ns3:RO_0002150
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( ns3:RO_0002170
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( ns3:RO_0002176
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( ns3:RO_0002178
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( ns3:RO_0002202
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( ns3:RO_0002254
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( ns3:RO_0002256
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( ns3:RO_0002371
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( ns3:RO_0002387
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( ns3:RO_0002488
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( ns3:RO_0002492
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( ns3:RO_0003000
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( ns3:RO_0003001
+                                        ns3:RO_0002162
+                                      ) ,
+                                      ( <http://purl.obolibrary.org/obo/uberon/core#extends_fibers_into>
+                                        ns3:RO_0002162
+                                      ) ;
+               ns1:hasDbXref "RO:0002162"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "in_taxon"^^xsd:string ;
+               ns1:shorthand "in_taxon"^^xsd:string ;
+               rdfs:label "in taxon"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002170
-ns3:RO_0002170 rdf:type owl:ObjectProperty .
+ns3:RO_0002170 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf <http://purl.obolibrary.org/obo/uberon/core#transitively_connected_to> ;
+               ns3:IAO_0000115 "Binary relationship: x connected_to y if and only if there exists some z such that z connects x and y in a ternary connected_to(x,y,z) relationship."^^xsd:string ;
+               ns1:hasDbXref "RO:0002170"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "connected_to"^^xsd:string ;
+               ns1:shorthand "connected_to"^^xsd:string ;
+               rdfs:comment "Connection does not imply overlaps."^^xsd:string ;
+               rdfs:label "connected to"^^xsd:string ;
+               rdfs:seeAlso <http://semanticscience.org/resource/SIO_000652> .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002176
-ns3:RO_0002176 rdf:type owl:ObjectProperty .
+ns3:RO_0002176 rdf:type owl:ObjectProperty ;
+               ns3:IAO_0000115 "Binary relationship: z connects x if and only if there exists some y such that z connects x and y in a ternary connected_to(x,y,z) relationship."^^xsd:string ;
+               ns3:IAO_0000116 "this is currently used for both structural relationships (such as between a valve and the chamber it connects) and abstract relationships (anatomical lines and the entities they connect)"^^xsd:string ;
+               ns1:hasDbXref "RO:0002176"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "connects"^^xsd:string ;
+               ns1:shorthand "connects"^^xsd:string ;
+               rdfs:label "connects"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002177
+ns3:RO_0002177 rdf:type owl:ObjectProperty ;
+               owl:propertyChainAxiom ( ns3:RO_0002371
+                                        ns3:BFO_0000050
+                                      ) ;
+               ns1:hasDbXref "RO:0002177"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "attaches_to_part_of"^^xsd:string ;
+               ns1:shorthand "attaches_to_part_of"^^xsd:string ;
+               rdfs:label "attaches_to_part_of"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002178
-ns3:RO_0002178 rdf:type owl:ObjectProperty .
+ns3:RO_0002178 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002170 ;
+               ns3:IAO_0000115 "relation between an artery and the structure is supplies with blood."^^xsd:string ;
+               ns1:hasDbXref "RO:0002178"^^xsd:string ;
+               ns1:hasExactSynonym "arterial supply of"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "supplies"^^xsd:string ;
+               ns1:shorthand "supplies"^^xsd:string ;
+               rdfs:comment "source: FMA"^^xsd:string ;
+               rdfs:label "supplies"^^xsd:string ;
+               rdfs:seeAlso ns3:FMA_86003 .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002179
-ns3:RO_0002179 rdf:type owl:ObjectProperty .
+ns3:RO_0002179 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002170 ;
+               rdfs:domain ns3:UBERON_0001638 ;
+               ns1:hasDbXref "RO:0002179"^^xsd:string ;
+               ns1:hasExactSynonym "drains blood from"^^xsd:string ,
+                                   "drains from"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "drains"^^xsd:string ;
+               ns1:shorthand "drains"^^xsd:string ;
+               rdfs:comment "source: Wikipedia"^^xsd:string ;
+               rdfs:label "drains"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002180
+ns3:RO_0002180 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:BFO_0000051 ;
+               ns1:hasDbXref "RO:0002180"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "has_component"^^xsd:string ;
+               ns1:shorthand "has_component"^^xsd:string ;
+               rdfs:label "has component"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002202
-ns3:RO_0002202 rdf:type owl:ObjectProperty .
+ns3:RO_0002202 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002254 ;
+               owl:inverseOf ns3:RO_0002203 ;
+               rdf:type owl:TransitiveProperty ;
+               owl:propertyChainAxiom ( ns3:BFO_0000050
+                                        ns3:RO_0002202
+                                      ) ,
+                                      ( ns3:RO_0002202
+                                        ns3:BFO_0000050
+                                      ) ;
+               ns1:hasDbXref "RO:0002202"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "develops_from"^^xsd:string ;
+               ns1:shorthand "develops_from"^^xsd:string ;
+               rdfs:label "develops_from"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002203
+ns3:RO_0002203 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002387 ;
+               ns1:hasDbXref "RO:0002203"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "develops_into"^^xsd:string ;
+               ns1:shorthand "develops_into"^^xsd:string ;
+               rdfs:label "develops_into"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002207
+ns3:RO_0002207 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0002207"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "directly_develops_from"^^xsd:string ;
+               ns1:shorthand "directly_develops_from"^^xsd:string ;
+               rdfs:label "directly_develops_from"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002215
+ns3:RO_0002215 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002328 ;
+               ns1:hasDbXref "RO:0002215"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "capable_of"^^xsd:string ;
+               ns1:shorthand "capable_of"^^xsd:string ;
+               rdfs:label "capable of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002216
+ns3:RO_0002216 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002328 ;
+               ns1:hasDbXref "RO:0002216"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "capable_of_part_of"^^xsd:string ;
+               ns1:shorthand "capable_of_part_of"^^xsd:string ;
+               rdfs:label "capable of part of"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002219
-ns3:RO_0002219 rdf:type owl:ObjectProperty .
+ns3:RO_0002219 rdf:type owl:ObjectProperty ;
+               owl:inverseOf ns3:RO_0002221 ;
+               ns3:IAO_0000115 "x surrounded_by y iff: x is adjacent to y and for every region r adjacent to x, r overlaps y"^^xsd:string ;
+               ns1:hasDbXref "RO:0002219"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "surrounded_by"^^xsd:string ;
+               ns1:shorthand "surrounded_by"^^xsd:string ;
+               rdfs:label "surrounded_by"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002220
-ns3:RO_0002220 rdf:type owl:ObjectProperty .
+ns3:RO_0002220 rdf:type owl:ObjectProperty ,
+                        owl:SymmetricProperty ;
+               ns3:IAO_0000115 "x adjacent_to y iff: x and y share a boundary"^^xsd:string ;
+               ns1:hasDbXref "RO:0002220"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "adjacent_to"^^xsd:string ;
+               ns1:shorthand "adjacent_to"^^xsd:string ;
+               rdfs:label "adjacent_to"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002221
-ns3:RO_0002221 rdf:type owl:ObjectProperty .
+ns3:RO_0002221 rdf:type owl:ObjectProperty ;
+               ns3:IAO_0000115 "inverse of surrounded_by"^^xsd:string ;
+               ns1:hasDbXref "RO:0002221"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "surrounds"^^xsd:string ;
+               ns1:shorthand "surrounds"^^xsd:string ;
+               rdfs:label "surrounds"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002223
+ns3:RO_0002223 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:BFO_0000050 ;
+               owl:inverseOf ns3:RO_0002224 ;
+               ns3:IAO_0000115 "Relation between occurrents, shares a start boundary with."^^xsd:string ;
+               ns1:hasDbXref "RO:0002223"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "starts"^^xsd:string ;
+               ns1:shorthand "starts"^^xsd:string ;
+               rdfs:label "starts"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002224
+ns3:RO_0002224 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:BFO_0000051 ;
+               rdf:type owl:TransitiveProperty ;
+               ns1:hasDbXref "RO:0002224"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "starts_with"^^xsd:string ;
+               ns1:shorthand "starts_with"^^xsd:string ;
+               rdfs:label "starts with"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002225
+ns3:RO_0002225 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002202 ;
+               owl:propertyChainAxiom ( ns3:RO_0002207
+                                        ns3:BFO_0000050
+                                      ) ;
+               ns1:hasDbXref "RO:0002225"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "develops_from_part_of"^^xsd:string ;
+               ns1:shorthand "develops_from_part_of"^^xsd:string ;
+               rdfs:label "develops_from_part_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002226
+ns3:RO_0002226 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0002226"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "develops_in"^^xsd:string ;
+               ns1:shorthand "develops_in"^^xsd:string ;
+               rdfs:comment "This relation take from EHDAA2 - precise semantics yet to be defined"^^xsd:string ;
+               rdfs:label "develops_in"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002229
+ns3:RO_0002229 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:BFO_0000050 ;
+               ns3:IAO_0000115 "Relation between occurrents, shares an end boundary with."^^xsd:string ;
+               ns1:hasDbXref "RO:0002229"^^xsd:string ;
+               ns1:hasExactSynonym "finishes"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "ends"^^xsd:string ;
+               ns1:shorthand "ends"^^xsd:string ;
+               rdfs:label "ends"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002230
+ns3:RO_0002230 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:BFO_0000051 ;
+               rdf:type owl:TransitiveProperty ;
+               ns1:hasDbXref "RO:0002230"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "ends_with"^^xsd:string ;
+               ns1:shorthand "ends_with"^^xsd:string ;
+               rdfs:label "ends with"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002254
+ns3:RO_0002254 rdf:type owl:ObjectProperty ,
+                        owl:TransitiveProperty ;
+               owl:propertyChainAxiom ( ns3:BFO_0000051
+                                        ns3:RO_0002202
+                                      ) ;
+               ns1:hasDbXref "RO:0002254"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "has_developmental_contribution_from"^^xsd:string ;
+               ns1:shorthand "has_developmental_contribution_from"^^xsd:string ;
+               rdfs:label "has developmental contribution from"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002255
+ns3:RO_0002255 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002385 ;
+               owl:propertyChainAxiom ( ns3:RO_0002203
+                                        ns3:BFO_0000050
+                                      ) ;
+               ns1:hasDbXref "RO:0002255"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "developmentally_contributes_to"^^xsd:string ;
+               ns1:shorthand "developmentally_contributes_to"^^xsd:string ;
+               rdfs:label "developmentally_contributes_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002256
+ns3:RO_0002256 rdf:type owl:ObjectProperty ;
+               ns3:IAO_0000115 "t1 developmentally_induced_by t2 if there is a process of organ induction (GO:0001759) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor tissue type T to T', where T' develops_from T."^^xsd:string ;
+               ns1:hasDbXref "RO:0002256"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "developmentally_induced_by"^^xsd:string ;
+               ns1:shorthand "developmentally_induced_by"^^xsd:string ;
+               rdfs:comment "sources for developmentally_induced_by relationships in Uberon: Developmental Biology, Gilbert, 8th edition, figure 6.5(F)"^^xsd:string ;
+               rdfs:label "developmentally_induced_by"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002258
+ns3:RO_0002258 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0002258"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "developmentally_preceded_by"^^xsd:string ;
+               ns1:shorthand "developmentally_preceded_by"^^xsd:string ;
+               rdfs:label "developmentally preceded by"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002285
+ns3:RO_0002285 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0002285"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "developmentally_replaces"^^xsd:string ;
+               ns1:shorthand "developmentally_replaces"^^xsd:string ;
+               rdfs:label "developmentally_replaces"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002322
+ns3:RO_0002322 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0002322"^^xsd:string ;
+               ns1:hasNarrowSynonym "adapted_for"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "confers_advantage_in"^^xsd:string ;
+               ns1:shorthand "confers_advantage_in"^^xsd:string ;
+               rdfs:label "confers_advantage_in"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002328
+ns3:RO_0002328 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0002328"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "functionally_related_to"^^xsd:string ;
+               ns1:shorthand "functionally_related_to"^^xsd:string ;
+               rdfs:label "functionally related to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002329
+ns3:RO_0002329 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002328 ;
+               owl:propertyChainAxiom ( ns3:BFO_0000050
+                                        ns3:RO_0002215
+                                      ) ;
+               ns1:hasDbXref "RO:0002329"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "part_of_structure_that_is_capable_of"^^xsd:string ;
+               ns1:shorthand "part_of_structure_that_is_capable_of"^^xsd:string ;
+               rdfs:label "part of structure that is capable of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002350
+ns3:RO_0002350 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:BFO_0000050 ;
+               owl:inverseOf ns3:RO_0002351 ;
+               ns1:hasDbXref "RO:0002350"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "member_of"^^xsd:string ;
+               ns1:shorthand "member_of"^^xsd:string ;
+               rdfs:label "member of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002351
+ns3:RO_0002351 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:BFO_0000051 ;
+               ns1:hasDbXref "RO:0002351"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "has_member"^^xsd:string ;
+               ns1:shorthand "has_member"^^xsd:string ;
+               rdfs:label "has member"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002352
+ns3:RO_0002352 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002328 ;
+               ns1:hasDbXref "RO:0002352"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "input_of"^^xsd:string ;
+               ns1:shorthand "input_of"^^xsd:string ;
+               rdfs:label "input of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002353
+ns3:RO_0002353 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002328 ;
+               ns1:hasDbXref "RO:0002353"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "output_of"^^xsd:string ;
+               ns1:shorthand "output_of"^^xsd:string ;
+               rdfs:label "output of"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002371
-ns3:RO_0002371 rdf:type owl:ObjectProperty .
+ns3:RO_0002371 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002176 ,
+                                  ns3:RO_0002177 ;
+               ns1:hasDbXref "RO:0002371"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "attaches_to"^^xsd:string ;
+               ns1:shorthand "attaches_to"^^xsd:string ;
+               rdfs:label "attaches_to"^^xsd:string ;
+               rdfs:seeAlso ns3:FMA_85990 .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002372
+ns3:RO_0002372 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002371 ;
+               ns3:IAO_0000115 "m has_muscle_origin s iff m is attaches_to s, and it is the case that when m contracts, s does not move. The site of the origin tends to be more proximal and have greater mass than what the other end attaches to."^^xsd:string ;
+               ns1:hasDbXref "RO:0002372"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "has_muscle_origin"^^xsd:string ;
+               ns1:shorthand "has_muscle_origin"^^xsd:string ;
+               rdfs:comment "The origin is the end of a muscle that attaches to the more fixed part of the skeleton, which is the proximal end in limb muscles"^^xsd:string ;
+               rdfs:label "has_muscle_origin"^^xsd:string ;
+               rdfs:seeAlso ns3:dbpprop_origin .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002373
+ns3:RO_0002373 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002371 ;
+               ns3:IAO_0000115 "m has_muscle_insertion s iff m is attaches_to s, and it is the case that when m contracts, s moves. Insertions are usually connections of muscle via tendon to bone."^^xsd:string ;
+               ns1:hasDbXref "RO:0002373"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "has_muscle_insertion"^^xsd:string ;
+               ns1:shorthand "has_muscle_insertion"^^xsd:string ;
+               rdfs:comment "The insertion is the point of attachment of a muscle that moves the most when the muscle shortens, or the most distal end of limb muscles"^^xsd:string ;
+               rdfs:label "has_muscle_insertion"^^xsd:string ;
+               rdfs:seeAlso ns3:dbpprop_insertion .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002374
+ns3:RO_0002374 rdf:type owl:ObjectProperty ;
+               ns3:IAO_0000115 "x has_fused_element y iff: there exists some z : x has_part z, z homologous_to y, and y is a distinct element, the boundary between x and z is largely fiat"^^xsd:string ;
+               ns1:hasDbXref "RO:0002374"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "has_fused_element"^^xsd:string ;
+               ns1:shorthand "has_fused_element"^^xsd:string ;
+               rdfs:comment "A single bone in one species may correspond to the fusion of two or more bones found as distinct elements in another. For example, tibiofibula has_fused_element tibia. A has_fused_element B does not imply that A has_part some B, rather than A has_part some B', where B' is not a subtype of B (because B is a distinct element but B' is a regional part) but has some evolutionary relationship to B."^^xsd:string ;
+               rdfs:label "has_fused_element"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002376
-ns3:RO_0002376 rdf:type owl:ObjectProperty .
+ns3:RO_0002376 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0002376"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:hasRelatedSynonym "drains into"^^xsd:string ;
+               ns1:id "tributary_of"^^xsd:string ;
+               ns1:shorthand "tributary_of"^^xsd:string ;
+               rdfs:label "tributary_of"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002380
-ns3:RO_0002380 rdf:type owl:ObjectProperty .
+ns3:RO_0002380 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:BFO_0000050 ;
+               owl:inverseOf ns3:RO_0002569 ;
+               ns3:IAO_0000116 "we need to check if FMA branch_of implies part_of. the relation we intend to use here should - for example, see vestibulocochlear nerve"^^xsd:string ;
+               ns1:hasDbXref "RO:0002380"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "branching_part_of"^^xsd:string ;
+               ns1:shorthand "branching_part_of"^^xsd:string ;
+               rdfs:label "branching_part_of"^^xsd:string ;
+               rdfs:seeAlso ns3:FMA_85994 .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002385
+ns3:RO_0002385 rdf:type owl:ObjectProperty ;
+               ns3:IAO_0000115 "x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y"^^xsd:string ;
+               ns1:hasDbXref "RO:0002385"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "has_potential_to_developmentally_contribute_to"^^xsd:string ;
+               ns1:shorthand "has_potential_to_developmentally_contribute_to"^^xsd:string ;
+               rdfs:label "has potential to developmentally contribute to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002387
+ns3:RO_0002387 rdf:type owl:ObjectProperty ;
+               ns3:IAO_0000115 "x has the potential to develop into y iff x develops into y or if x is capable of developing into y"^^xsd:string ;
+               ns1:hasDbXref "RO:0002387"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "has_potential_to_develop_into"^^xsd:string ;
+               ns1:shorthand "has_potential_to_develop_into"^^xsd:string ;
+               rdfs:label "has potential to develop into"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002388
+ns3:RO_0002388 rdf:type owl:ObjectProperty ;
+               ns3:IAO_0000115 "x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y"^^xsd:string ;
+               ns1:hasDbXref "RO:0002388"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "has_potential_to_directly_develop_into"^^xsd:string ;
+               ns1:shorthand "has_potential_to_directly_develop_into"^^xsd:string ;
+               rdfs:label "has potential to directly develop into"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002433
-ns3:RO_0002433 rdf:type owl:ObjectProperty .
+ns3:RO_0002433 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0002433"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "contributes_to_morphology_of"^^xsd:string ;
+               ns1:shorthand "contributes_to_morphology_of"^^xsd:string ;
+               rdfs:label "contributes to morphology of"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002473
-ns3:RO_0002473 rdf:type owl:ObjectProperty .
+ns3:RO_0002473 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:BFO_0000051 ;
+               ns3:IAO_0000115 "x composed_primarily_of y iff: more than half of the mass of x is made from parts of y"^^xsd:string ;
+               ns1:hasDbXref "RO:0002473"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "composed_primarily_of"^^xsd:string ;
+               ns1:shorthand "composed_primarily_of"^^xsd:string ;
+               rdfs:label "composed primarily of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002476
+ns3:RO_0002476 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0002476"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "child_nucleus_of"^^xsd:string ;
+               ns1:shorthand "child_nucleus_of"^^xsd:string ;
+               rdfs:label "child nucleus of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002477
+ns3:RO_0002477 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0002477"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "child_nucleus_of_in_hermaphrodite"^^xsd:string ;
+               ns1:shorthand "child_nucleus_of_in_hermaphrodite"^^xsd:string ;
+               rdfs:label "child nucleus of in hermaphrodite"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002478
+ns3:RO_0002478 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0002478"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "child_nucleus_of_in_male"^^xsd:string ;
+               ns1:shorthand "child_nucleus_of_in_male"^^xsd:string ;
+               rdfs:label "child nucleus of in male"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002488
+ns3:RO_0002488 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002496 ;
+               owl:propertyChainAxiom ( ns3:RO_0002488
+                                        ns3:BFO_0000050
+                                      ) ;
+               ns3:IAO_0000115 "Relation between continuant c and occurrent s, such that every instance of c comes into existing during some s."^^xsd:string ;
+               ns1:hasDbXref "RO:0002488"^^xsd:string ;
+               ns1:hasExactSynonym "begins_to_exist_during"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "existence_starts_during"^^xsd:string ;
+               ns1:shorthand "existence_starts_during"^^xsd:string ;
+               rdfs:label "existence starts during"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002489
+ns3:RO_0002489 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002488 ;
+               ns3:IAO_0000115 "Relation between continuant and occurrent, such that c comes into existence at the start of p."^^xsd:string ;
+               ns1:hasDbXref "RO:0002489"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "existence_starts_with"^^xsd:string ;
+               ns1:shorthand "existence_starts_with"^^xsd:string ;
+               rdfs:label "existence starts with"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002492
+ns3:RO_0002492 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002497 ;
+               owl:propertyChainAxiom ( ns3:RO_0002492
+                                        ns3:BFO_0000050
+                                      ) ;
+               ns3:IAO_0000115 "Relation between continuant c and occurrent s, such that every instance of c ceases to exist during some s, if it does not die prematurely."^^xsd:string ;
+               ns1:hasDbXref "RO:0002492"^^xsd:string ;
+               ns1:hasExactSynonym "ceases_to_exist_during"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "existence_ends_during"^^xsd:string ;
+               ns1:shorthand "existence_ends_during"^^xsd:string ;
+               rdfs:label "existence ends during"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002493
+ns3:RO_0002493 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002492 ;
+               ns3:IAO_0000115 "Relation between continuant and occurrent, such that c ceases to exist at the end of p."^^xsd:string ;
+               ns1:hasDbXref "RO:0002493"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "existence_ends_with"^^xsd:string ;
+               ns1:shorthand "existence_ends_with"^^xsd:string ;
+               rdfs:label "existence ends with"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002494
+ns3:RO_0002494 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002202 ;
+               rdf:type owl:TransitiveProperty ;
+               ns1:hasDbXref "RO:0002494"^^xsd:string ;
+               ns1:hasExactSynonym "transforms from"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "transformation_of"^^xsd:string ;
+               ns1:shorthand "transformation_of"^^xsd:string ;
+               rdfs:label "transformation of"^^xsd:string ;
+               rdfs:seeAlso <http://semanticscience.org/resource/SIO_000657> .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002495
+ns3:RO_0002495 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:RO_0002494 ;
+               ns1:hasDbXref "RO:0002495"^^xsd:string ;
+               ns1:hasExactSynonym "direct_transformation_of"^^xsd:string ,
+                                   "immediately transforms from"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "immediate_transformation_of"^^xsd:string ;
+               ns1:shorthand "immediate_transformation_of"^^xsd:string ;
+               rdfs:label "immediate transformation of"^^xsd:string ;
+               rdfs:seeAlso <http://semanticscience.org/resource/SIO_000658> .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002496
+ns3:RO_0002496 rdf:type owl:ObjectProperty ;
+               owl:propertyChainAxiom ( ns3:BFO_0000050
+                                        ns3:RO_0002496
+                                      ) ,
+                                      ( ns3:RO_0002258
+                                        ns3:RO_0002496
+                                      ) ,
+                                      ( ns3:RO_0002496
+                                        ns3:BFO_0000050
+                                      ) ,
+                                      ( ns3:RO_0002496
+                                        ns3:BFO_0000062
+                                      ) ,
+                                      ( ns3:RO_0002496
+                                        ns3:RO_0002082
+                                      ) ;
+               ns1:hasDbXref "RO:0002496"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "existence_starts_during_or_after"^^xsd:string ;
+               ns1:shorthand "existence_starts_during_or_after"^^xsd:string ;
+               rdfs:label "existence starts during or after"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002497
+ns3:RO_0002497 rdf:type owl:ObjectProperty ;
+               owl:propertyChainAxiom ( ns3:BFO_0000050
+                                        ns3:RO_0002497
+                                      ) ,
+                                      ( ns3:RO_0002497
+                                        ns3:BFO_0000050
+                                      ) ,
+                                      ( ns3:RO_0002497
+                                        ns3:BFO_0000063
+                                      ) ,
+                                      ( ns3:RO_0002497
+                                        ns3:RO_0002082
+                                      ) ,
+                                      ( <http://purl.obolibrary.org/obo/uberon/core#developmentally_succeeded_by>
+                                        ns3:RO_0002497
+                                      ) ;
+               ns1:hasDbXref "RO:0002497"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "existence_ends_during_or_before"^^xsd:string ;
+               ns1:shorthand "existence_ends_during_or_before"^^xsd:string ;
+               rdfs:label "existence ends during or before"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002551
+ns3:RO_0002551 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:BFO_0000051 ;
+               owl:inverseOf ns3:RO_0002576 ;
+               ns3:IAO_0000115 "A relation between a subdivision of an organism and the single subdivision of skeleton that provides structural support for that subdivision."^^xsd:string ;
+               ns1:hasDbXref "RO:0002551"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:hasRelatedSynonym "has sekeletal support"^^xsd:string ,
+                                     "has supporting framework"^^xsd:string ;
+               ns1:id "has_skeleton"^^xsd:string ;
+               ns1:shorthand "has_skeleton"^^xsd:string ;
+               rdfs:label "has skeleton"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002568
+ns3:RO_0002568 rdf:type owl:ObjectProperty ;
+               ns3:IAO_0000115 "m1 has_muscle_antagonist m2 iff m1 acts in opposition to m2, and m2 is responsible for returning the structure to its initial position."^^xsd:string ;
+               ns1:hasDbXref "RO:0002568"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "has_muscle_antagonist"^^xsd:string ;
+               ns1:shorthand "has_muscle_antagonist"^^xsd:string ;
+               rdfs:label "has_muscle_antagonist"^^xsd:string ;
+               rdfs:seeAlso ns3:dbpprop_antagonist .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002569
+ns3:RO_0002569 rdf:type owl:ObjectProperty ,
+                        owl:TransitiveProperty ;
+               ns1:hasDbXref "RO:0002569"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "has_branching_part"^^xsd:string ;
+               ns1:shorthand "has_branching_part"^^xsd:string ;
+               rdfs:label "has branching part"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002571
+ns3:RO_0002571 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:BFO_0000050 ;
+               ns1:hasDbXref "RO:0002571"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "lumen_of"^^xsd:string ;
+               ns1:shorthand "lumen_of"^^xsd:string ;
+               rdfs:label "lumen of"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002572
-ns3:RO_0002572 rdf:type owl:ObjectProperty .
+ns3:RO_0002572 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:BFO_0000050 ;
+               ns1:hasDbXref "RO:0002572"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "luminal_space_of"^^xsd:string ;
+               ns1:shorthand "luminal_space_of"^^xsd:string ;
+               rdfs:label "luminal space of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002576
+ns3:RO_0002576 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ns3:BFO_0000050 ;
+               ns1:hasDbXref "RO:0002576"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "skeleton_of"^^xsd:string ;
+               ns1:shorthand "skeleton_of"^^xsd:string ;
+               rdfs:label "skeleton of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/RO_0003000
+ns3:RO_0003000 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0003000"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "produces"^^xsd:string ;
+               ns1:shorthand "produces"^^xsd:string ;
+               rdfs:label "produces"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0003001
-ns3:RO_0003001 rdf:type owl:ObjectProperty .
+ns3:RO_0003001 rdf:type owl:ObjectProperty ;
+               ns1:hasDbXref "RO:0003001"^^xsd:string ;
+               ns1:hasOBONamespace "uberon"^^xsd:string ;
+               ns1:id "produced_by"^^xsd:string ;
+               ns1:shorthand "produced_by"^^xsd:string ;
+               rdfs:label "produced_by"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/UBPROP_0000004
+ns3:UBPROP_0000004 rdf:type owl:ObjectProperty ;
+                   ns1:hasDbXref "UBPROP:0000004"^^xsd:string ;
+                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                   ns1:id "provenance_notes"^^xsd:string ;
+                   ns1:shorthand "provenance_notes"^^xsd:string ;
+                   rdfs:label "obsolete provenance_notes"^^xsd:string ;
+                   owl:deprecated "true"^^xsd:boolean .
+
+
+###  http://purl.obolibrary.org/obo/UBREL_0000002
+ns3:UBREL_0000002 rdf:type owl:ObjectProperty ;
+                  ns3:IAO_0000231 ns3:IAO_0000227 ;
+                  ns3:IAO_0100001 ns3:RO_0002473 ;
+                  owl:deprecated "true"^^xsd:boolean .
+
+
+###  http://purl.obolibrary.org/obo/core#connected_to
+ns4:connected_to rdf:type owl:ObjectProperty .
+
+
+###  http://purl.obolibrary.org/obo/core#distally_connected_to
+ns4:distally_connected_to rdf:type owl:ObjectProperty .
+
+
+###  http://purl.obolibrary.org/obo/core#innervated_by
+ns4:innervated_by rdf:type owl:ObjectProperty .
+
+
+###  http://purl.obolibrary.org/obo/core#subdivision_of
+ns4:subdivision_of rdf:type owl:ObjectProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#anastomoses_with
+<http://purl.obolibrary.org/obo/uberon/core#anastomoses_with> rdf:type owl:ObjectProperty ;
+                                                              ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                              ns1:id "anastomoses_with"^^xsd:string ;
+                                                              rdfs:label "anastomoses with"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#anteriorly_connected_to
+<http://purl.obolibrary.org/obo/uberon/core#anteriorly_connected_to> rdf:type owl:ObjectProperty ;
+                                                                     rdfs:subPropertyOf ns3:BSPO_0000099 ,
+                                                                                        ns3:RO_0002170 ,
+                                                                                        <http://purl.obolibrary.org/obo/uberon/core#transitively_anteriorly_connected_to> ;
+                                                                     ns3:IAO_0000115 "x anteriorly_connected_to y iff the anterior part of x is connected to y. i.e. x connected_to y and x posterior_to y."^^xsd:string ;
+                                                                     ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                                     ns1:id "anteriorly_connected_to"^^xsd:string ;
+                                                                     rdfs:label "anteriorly connected to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#channel_for
+<http://purl.obolibrary.org/obo/uberon/core#channel_for> rdf:type owl:ObjectProperty ;
+                                                         ns1:hasBroadSynonym "carries"^^xsd:string ;
+                                                         ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                         ns1:id "channel_for"^^xsd:string ;
+                                                         rdfs:label "channel for"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/uberon/core#channels_from
-<http://purl.obolibrary.org/obo/uberon/core#channels_from> rdf:type owl:ObjectProperty .
+<http://purl.obolibrary.org/obo/uberon/core#channels_from> rdf:type owl:ObjectProperty ,
+                                                                    owl:TransitiveProperty ;
+                                                           ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                           ns1:id "channels_from"^^xsd:string ;
+                                                           rdfs:label "channels_from"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#channels_into
+<http://purl.obolibrary.org/obo/uberon/core#channels_into> rdf:type owl:ObjectProperty ,
+                                                                    owl:TransitiveProperty ;
+                                                           ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                           ns1:id "channels_into"^^xsd:string ;
+                                                           rdfs:label "channels_into"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#conduit_for
+<http://purl.obolibrary.org/obo/uberon/core#conduit_for> rdf:type owl:ObjectProperty ;
+                                                         ns3:IAO_0000115 "x is a conduit for y iff y passes through the lumen of x."^^xsd:string ;
+                                                         ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                         ns1:id "conduit_for"^^xsd:string ;
+                                                         rdfs:label "conduit for"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#developmentally_succeeded_by
+<http://purl.obolibrary.org/obo/uberon/core#developmentally_succeeded_by> rdf:type owl:ObjectProperty .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#distally_connected_to
+<http://purl.obolibrary.org/obo/uberon/core#distally_connected_to> rdf:type owl:ObjectProperty ;
+                                                                   rdfs:subPropertyOf ns3:BSPO_0000100 ,
+                                                                                      ns3:RO_0002170 ,
+                                                                                      <http://purl.obolibrary.org/obo/uberon/core#transitively_distally_connected_to> ;
+                                                                   owl:inverseOf <http://purl.obolibrary.org/obo/uberon/core#proximally_connected_to> ;
+                                                                   ns3:IAO_0000115 "x distally_connected_to y iff the distal part of x is connected to y. i.e. x connected_to y and x proximal_to y."^^xsd:string ;
+                                                                   ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                                   ns1:id "distally_connected_to"^^xsd:string ;
+                                                                   rdfs:label "distally connected to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#existence_starts_and_ends_during
+<http://purl.obolibrary.org/obo/uberon/core#existence_starts_and_ends_during> rdf:type owl:ObjectProperty ;
+                                                                              rdfs:subPropertyOf ns3:RO_0002488 ,
+                                                                                                 ns3:RO_0002492 ;
+                                                                              ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                                              ns1:id "existence_starts_and_ends_during"^^xsd:string ;
+                                                                              rdfs:label "existence starts and ends during"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#extends_fibers_into
+<http://purl.obolibrary.org/obo/uberon/core#extends_fibers_into> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:subPropertyOf ns3:RO_0002170 ;
+                                                                 rdf:type owl:SymmetricProperty ;
+                                                                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                                 ns1:id "extends_fibers_into"^^xsd:string ;
+                                                                 rdfs:label "extends_fibers_into"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#filtered_through
+<http://purl.obolibrary.org/obo/uberon/core#filtered_through> rdf:type owl:ObjectProperty ;
+                                                              ns3:IAO_0000115 "Relationship between a fluid and a material entity, where the fluid is the output of a realization of a filtration role that inheres in the material entity."^^xsd:string ;
+                                                              ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                              ns1:id "filtered_through"^^xsd:string ;
+                                                              rdfs:comment "Relationship between a fluid and a filtration barrier, where the portion of fluid arises as a transformation of another portion of fluid on the other side of the barrier, with larger particles removed"^^xsd:string ;
+                                                              rdfs:label "filtered through"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#has_start
+<http://purl.obolibrary.org/obo/uberon/core#has_start> rdf:type owl:ObjectProperty ;
+                                                       ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                       ns1:id "has_start"^^xsd:string ;
+                                                       rdfs:label "has_start"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#in_central_side_of
+<http://purl.obolibrary.org/obo/uberon/core#in_central_side_of> rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf ns3:BFO_0000050 ;
+                                                                ns3:IAO_0000115 "X in_central_side Y <=> if Y is subdivided into left and right portions around some median divisor, all parts of X are closer to the median divisor than the outermost lateral sides."^^xsd:string ;
+                                                                ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                                ns1:id "in_central_side_of"^^xsd:string ;
+                                                                rdfs:label "in_central_side_of"^^xsd:string ;
+                                                                rdfs:seeAlso ns3:BSPO_0000059 ,
+                                                                             "https://github.com/obophenotype/uberon/wiki/Modeling-paired-structures-Design-Pattern"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#in_innermost_side_of
+<http://purl.obolibrary.org/obo/uberon/core#in_innermost_side_of> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf ns3:BSPO_0000126 ;
+                                                                  ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                                  ns1:id "in_innermost_side_of"^^xsd:string ;
+                                                                  rdfs:label "in_innermost_side_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#in_outermost_side_of
+<http://purl.obolibrary.org/obo/uberon/core#in_outermost_side_of> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf ns3:BSPO_0000126 ;
+                                                                  ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                                  ns1:id "in_outermost_side_of"^^xsd:string ;
+                                                                  rdfs:label "in_outermost_side_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#indirectly_supplies
+<http://purl.obolibrary.org/obo/uberon/core#indirectly_supplies> rdf:type owl:ObjectProperty ,
+                                                                          owl:TransitiveProperty ;
+                                                                 owl:propertyChainAxiom ( ns3:RO_0002569
+                                                                                          ns3:RO_0002178
+                                                                                        ) ,
+                                                                                        ( ns3:RO_0002569
+                                                                                          <http://purl.obolibrary.org/obo/uberon/core#indirectly_supplies>
+                                                                                        ) ;
+                                                                 ns3:IAO_0000115 "a indirectly_supplies s iff a has a branch and the branch supplies or indirectly supplies s"^^xsd:string ;
+                                                                 ns3:IAO_0000116 "add to RO"^^xsd:string ;
+                                                                 ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                                 ns1:id "indirectly_supplies"^^xsd:string ;
+                                                                 rdfs:label "indirectly_supplies"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#layer_part_of
+<http://purl.obolibrary.org/obo/uberon/core#layer_part_of> rdf:type owl:ObjectProperty ;
+                                                           rdfs:subPropertyOf ns3:BFO_0000050 ;
+                                                           ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                           ns1:id "layer_part_of"^^xsd:string ;
+                                                           rdfs:label "layer part of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#posteriorly_connected_to
+<http://purl.obolibrary.org/obo/uberon/core#posteriorly_connected_to> rdf:type owl:ObjectProperty ;
+                                                                      rdfs:subPropertyOf ns3:BSPO_0000096 ,
+                                                                                         ns3:RO_0002170 ;
+                                                                      ns3:IAO_0000115 "x posteriorly_connected_to y iff the posterior part of x is connected to y. i.e. x connected_to y and x anterior_to y."^^xsd:string ;
+                                                                      ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                                      ns1:id "posteriorly_connected_to"^^xsd:string ;
+                                                                      rdfs:label "posteriorly connected to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#protects
+<http://purl.obolibrary.org/obo/uberon/core#protects> rdf:type owl:ObjectProperty ;
+                                                      ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                      ns1:id "protects"^^xsd:string ;
+                                                      rdfs:label "protects"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#proximally_connected_to
+<http://purl.obolibrary.org/obo/uberon/core#proximally_connected_to> rdf:type owl:ObjectProperty ;
+                                                                     rdfs:subPropertyOf ns3:BSPO_0000097 ,
+                                                                                        ns3:RO_0002170 ,
+                                                                                        <http://purl.obolibrary.org/obo/uberon/core#transitively_proximally_connected_to> ;
+                                                                     ns3:IAO_0000115 "x proximally_connected_to y iff the proximal part of x is connected to y. i.e. x connected_to y and x distal_to y."^^xsd:string ;
+                                                                     ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                                     ns1:id "proximally_connected_to"^^xsd:string ;
+                                                                     rdfs:label "proximally connected to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#sexually_homologous_to
+<http://purl.obolibrary.org/obo/uberon/core#sexually_homologous_to> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:subPropertyOf ns3:RO_0002158 ;
+                                                                    ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                                    ns1:id "sexually_homologous_to"^^xsd:string ;
+                                                                    rdfs:label "sexually_homologous_to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#site_of
+<http://purl.obolibrary.org/obo/uberon/core#site_of> rdf:type owl:ObjectProperty ;
+                                                     ns3:IAO_0000115 "c site_of p if c is the bearer of a disposition that is realized by a process that has p as part"^^xsd:string ;
+                                                     ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                     ns1:hasRelatedSynonym "capable_of_has_part"^^xsd:string ;
+                                                     ns1:id "site_of"^^xsd:string ;
+                                                     rdfs:label "site_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#subdivision_of
+<http://purl.obolibrary.org/obo/uberon/core#subdivision_of> rdf:type owl:ObjectProperty ;
+                                                            ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                            ns1:id "subdivision_of"^^xsd:string ;
+                                                            rdfs:comment "placeholder relation. X = 'subdivision of A' and subdivision_of some B means that X is the mereological sum of A and B"^^xsd:string ;
+                                                            rdfs:label "subdivision of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#synapsed_by
+<http://purl.obolibrary.org/obo/uberon/core#synapsed_by> rdf:type owl:ObjectProperty ;
+                                                         ns3:IAO_0000115 "Relation between an anatomical structure (including cells) and a neuron that chemically synapses to it."^^xsd:string ;
+                                                         ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                         ns1:id "synapsed_by"^^xsd:string ;
+                                                         rdfs:label "synapsed by"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#transitively_anteriorly_connected_to
+<http://purl.obolibrary.org/obo/uberon/core#transitively_anteriorly_connected_to> rdf:type owl:ObjectProperty ,
+                                                                                           owl:TransitiveProperty ;
+                                                                                  ns3:IAO_0000115 "."^^xsd:string ;
+                                                                                  ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                                                  ns1:id "transitively_anteriorly_connected_to"^^xsd:string ;
+                                                                                  rdfs:label "transitively anteriorly connected to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#transitively_connected_to
+<http://purl.obolibrary.org/obo/uberon/core#transitively_connected_to> rdf:type owl:ObjectProperty ,
+                                                                                owl:TransitiveProperty ;
+                                                                       ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                                       ns1:id "transitively_connected_to"^^xsd:string ;
+                                                                       rdfs:label "transitively_connected to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#transitively_distally_connected_to
+<http://purl.obolibrary.org/obo/uberon/core#transitively_distally_connected_to> rdf:type owl:ObjectProperty ,
+                                                                                         owl:TransitiveProperty ;
+                                                                                ns3:IAO_0000115 "."^^xsd:string ;
+                                                                                ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                                                ns1:id "transitively_distally_connected_to"^^xsd:string ;
+                                                                                rdfs:label "transitively distally connected to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#transitively_proximally_connected_to
+<http://purl.obolibrary.org/obo/uberon/core#transitively_proximally_connected_to> rdf:type owl:ObjectProperty ,
+                                                                                           owl:TransitiveProperty ;
+                                                                                  ns3:IAO_0000115 "."^^xsd:string ;
+                                                                                  ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                                                  ns1:id "transitively_proximally_connected_to"^^xsd:string ;
+                                                                                  rdfs:label "transitively proximally connected to"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/core#trunk_part_of
+<http://purl.obolibrary.org/obo/uberon/core#trunk_part_of> rdf:type owl:ObjectProperty ;
+                                                           rdfs:subPropertyOf ns3:BFO_0000050 ;
+                                                           ns1:hasOBONamespace "uberon"^^xsd:string ;
+                                                           ns1:id "trunk_part_of"^^xsd:string ;
+                                                           rdfs:label "trunk_part_of"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/uberon/insect-anatomy#composed_primarily_of
+<http://purl.obolibrary.org/obo/uberon/insect-anatomy#composed_primarily_of> rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -9688,25 +12503,16 @@ ns3:UBERON_3011121 rdf:type owl:Class ;
                    rdfs:label "late distal segment"^^xsd:string .
 
 
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+[ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
 ] .
 
-[ owl:maxQualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
