@@ -1,0 +1,13 @@
+owl_filename: slim.ttl
+owl_filetype: turtle
+ccf_input_filename: ccf_input_terms.csv
+cell_type_input_filename: cell_type_input_terms.csv
+ignore_terms: input_data/ignore.csv
+dot_files:
+    entire_ontology: True
+    root_nodes: True
+    non_leaf_nodes: True
+ontologies:
+    UBERON_filename: input_data/ext.owl
+    CL_filename: cl.owl
+    
