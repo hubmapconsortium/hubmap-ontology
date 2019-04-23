@@ -1,5 +1,7 @@
 owl_filename: slim.ttl
 owl_filetype: turtle
+ccf_input_filename: ccf_input_terms.csv
+cell_type_input_filename: cell_type_input_terms.csv
 dot_files:
     entire_ontology: True
     root_nodes: True
