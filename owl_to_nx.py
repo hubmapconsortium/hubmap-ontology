@@ -205,11 +205,18 @@ unsupported_max_g_slim_large_nodes = max_g_slim_large_nodes - max_slim_nodes_sup
 # Remove edges from unsupported nodes
 unsupported_edges = set(max_g_slim_large.out_edges(unsupported_max_g_slim_large_nodes)) | set(max_g_slim_large.in_edges(unsupported_max_g_slim_large_nodes))
 max_g_slim_large.remove_edges_from(unsupported_edges)
-max_g_slim = max_g_slim_large
+
+# Only work with components that have at least one edge:
+list_of_components = list(max_g_slim_large.subgraph(c) for c in nx.weakly_connected_components(max_g_slim_large))
+num_component_edges = np.array([len(component.edges()) for component in list_of_components])
+max_g_slim_tree_indices = np.where(num_component_edges > 0)[0]
+actual_trees_list = [list_of_components[i] for i in max_g_slim_tree_indices]
+max_g_slim = nx.compose_all(actual_trees_list)
 
 #g_slim - max_g_slim
-removed_edges = nx.difference(g_slim, max_g_slim)
-
+removed_edges_list = list(set(g_slim.in_edges()) - set(max_g_slim.in_edges()))
+removed_edges_dict = dict(removed_edges_list)
+removed_edges = nx.difference(g_slim, max_g_slim_large)
 #Remove nodes without edges
 
 # create labels, nominally for plotting
