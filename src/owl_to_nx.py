@@ -85,6 +85,11 @@ ancestor_nodes = list(ccf_df['Parent ID'])
 descendants = list(ccf_df['Descendants'])
 root_nodes = set(ccf_df['Parent ID'])
 
+# terms to ignore
+ignore_df = pd.read_csv(owl_settings_dict["ignore_terms"])
+ignore_node_list = list(ignore_df[ignore_df['Node Type'] == "node"]["Name"])
+ignore_property_list = list(ignore_df[ignore_df['Node Type'] == "property"]["Name"])
+
 # Create the graph
 subclassof_string = 'SubClassOf'
 partof_string = 'PartOf'
@@ -181,6 +186,14 @@ g_slim = g.subgraph(node_tree_set)
 # Make a maximum branching
 max_g_slim_large = nx.maximum_branching(g_slim)
 
+# Remove those nodes that should be ignore
+ignore_edges = []
+for ignore_node in ignore_node_list:
+    ignore_edges.extend(max_g_slim_large.in_edges(ignore_node))
+    ignore_edges.extend(max_g_slim_large.out_edges(ignore_node))
+max_g_slim_large.remove_edges_from(ignore_edges)
+
+
 # Remove everything coming into the kidney
 in_edges_list = []
 cutting_nodes = []
@@ -274,8 +287,8 @@ for node in max_g_slim:
     # Only user UBERON terms for now
     # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     ################################
-    #if re.match(node,"UBERON") == None :
-    #    continue
+    if re.match("UBERON",node) == None :
+        continue
     
     # Find the appropriate class from the original ontology
     new_o_class_rdflib_graph = copy.deepcopy(o.get_class(node)[0].rdflib_graph)
@@ -379,12 +392,12 @@ for o_property in o.all_properties:
             match_object = re.match("http://purl.obolibrary.org/obo/",str(triple_part.encode())[2:-1])
             if match_object:
                 check_label = match_object.string[match_object.end():]
-                if re.match("UBERON",check_label):
-                    if check_label not in max_g_slim:
+                if (re.match("UBERON",check_label) and check_label not in max_g_slim) or check_label in ignore_property_list: # Remove any terms that are on the ignore list
                         removal_property_list.extend([o_property_triple])
     for removal_property in removal_property_list:
         o_property_graph.remove(removal_property)
     o_slim_rdf_graph += o_property_graph
+
 
 # Now generate the string for serialization
 s_slim = ""
@@ -408,14 +421,14 @@ slim_file.write(s_slim)
 slim_file.close()
 
 if partonomy:
-    partonomy = o_partonomy_rdf_graph.serialize(format=serialization_format)
+    partonomy_ttl = o_partonomy_rdf_graph.serialize(format=serialization_format)
     partonomy_json = o_partonomy_rdf_graph.serialize(format='json-ld')
     if isinstance(partonomy_json, bytes):
         partonomy_json = partonomy_json.decode('utf-8')
-    if isinstance(partonomy, bytes):
-        partonomy = partonomy.decode('utf-8')
+    if isinstance(partonomy_ttl, bytes):
+        partonomy_ttl = partonomy_ttl.decode('utf-8')
     p_file = open("ontologies/partonomy/partonomy.ttl","w")
-    p_file.write(partonomy)
+    p_file.write(partonomy_ttl)
     p_file.close()
     p_file = open("ontologies/partonomy/reifications/partonomy.jsonld.owl","w")
     p_file.write(partonomy_json)
