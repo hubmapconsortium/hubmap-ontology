@@ -21,6 +21,7 @@ import pandas as pd
 import pydot
 import yaml
 import re
+import numpy as np
 
 # Take ontology class and get its label
 def class_label(onto_class):
@@ -57,36 +58,43 @@ def partof_subclassof_list(onto_class_rdflib_graph, onto_class_locale):
                 ps_list.append((ontospy.core.utils.inferURILocalSymbol(part_of_node.toPython())[0], onto_class_locale))
     return ps_list
 
+def load_ontology(filename):
+    # Load the ontology
+    o = ontospy.Ontospy()
+    o.load_rdf(filename)
+    #o.build_all()
+    o.build_classes() # We only use the classes, so no need to build everything
+    o.build_properties() # We need this to export property names
+    return o
 
-# Load the ontology
-o = ontospy.Ontospy()
-o.load_rdf("input_data/ext.owl")
-#o.build_all()
-o.build_classes() # We only use the classes, so no need to build everything
-o.build_properties() # We need this to export property names
-
-
-# Use a sample element
-kidney_id = "UBERON_0002113"
-kidney_class = o.get_class(kidney_id)[0]
-rg_id = "UBERON_0000074"
-renal_glomerulus = o.get_class(rg_id)
-node_ids = ['UBERON_0002015', 'UBERON_0004200', 'UBERON_0001284', 'UBERON_0006171', 'UBERON_0001224', 'UBERON_0001226', 'UBERON_0001227', 'UBERON_0008716', 'UBERON_0001225', 'UBERON_0000362', 'UBERON_0001228', 'UBERON_0001285', 'UBERON_0001288', 'UBERON_0004134', 'UBERON_0004135', 'UBERON_0002335']
-# Load nodes and root nodes
 owl_settings = open("owl_settings.yml","r").read()
 owl_settings_dict = yaml.load(owl_settings)
+ontologies_string = "ontologies"
+
+o = load_ontology(owl_settings_dict["ontologies"]["UBERON_filename"])
+#o_cl = load_ontology(owl_settings_dict["ontologies"]["CL_filename"]) # Load CL
+# Use a sample element
+anatomical_system_id = "UBERON_0000467"
+# Load nodes and root nodes
 ccf_df = pd.read_csv("ccf_input_terms.csv")
 ccf_df = ccf_df[ccf_df['Ontology ID'].notnull()] # Filter out nulls
 ccf_df = ccf_df[~ccf_df['Ontology ID'].str.startswith("fma")] # Filter out fma only terms
 node_ids = list(ccf_df['Ontology ID'])
+ancestor_nodes = list(ccf_df['Parent ID'])
+descendants = list(ccf_df['Descendants'])
 root_nodes = set(ccf_df['Parent ID'])
 
 # Create the graph
-g = nx.DiGraph(IRI="ext.owl")
-# Create graph from the ontology
 subclassof_string = 'SubClassOf'
 partof_string = 'PartOf'
 classassertion_string = 'ClassAssertion'
+part_of = rdflib.term.URIRef("http://purl.obolibrary.org/obo/BFO_0000050")
+some_values_from = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#someValuesFrom')
+equivalent_class = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#equivalentClass')
+subclassof_rdf = rdflib.term.URIRef('http://www.w3.org/2000/01/rdf-schema#subClassOf')
+
+# Create graph from the ontology
+g = nx.DiGraph(IRI="hubmap.owl")
 for onto_class in o.all_classes:
     g.add_node(onto_class.locale, type='Class')
 
@@ -102,18 +110,10 @@ for onto_class in o.all_classes:
 g = g.reverse(copy=False)
 g_orig = nx.DiGraph(g)
 g = nx.DiGraph(g)
-# Make a DAG only involving one node, but with all its ancestors and descendants
-#g_slim = g.subgraph(networkx.descendants(g, rg_id))
-#g_slim = networkx.compose(list(g.subgraph(networkx.descendants(g,rg_id)), g.subgraph(networkx.ancestors(g, rg_id))))                                           
 
 # Add partOf and equivalentClass to the graph
-part_of = rdflib.term.URIRef("http://purl.obolibrary.org/obo/BFO_0000050")
-some_values_from = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#someValuesFrom')
-equivalent_class = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#equivalentClass')
-subclassof_rdf = rdflib.term.URIRef('http://www.w3.org/2000/01/rdf-schema#subClassOf')
 for onto_class in o.all_classes:
     # Find more complex subClassOf objects that rdflib identifies through BNode elements
-    #onto_class.rdflib_graph.subect_objects(predicate=
     subclassof_list = list(onto_class.rdflib_graph.objects(predicate=(subclassof_rdf)))
     # Below needs to be replaced by function that is already defined
     for subclassof in subclassof_list:
@@ -123,8 +123,6 @@ for onto_class in o.all_classes:
             #print(bnode_predicates)
             if part_of in bnode_objects:
                 part_of_node = rdflib.term.URIRef(list(onto_class.rdflib_graph.objects(subclassof,some_values_from))[0])
-                
-                #g.add_edge(onto_class.locale, ontospy.core.utils.inferURILocalSymbol(part_of_node.toPython())[0], type='PartOf')
                 g.add_edge(ontospy.core.utils.inferURILocalSymbol(part_of_node.toPython())[0], onto_class.locale, type=partof_string)
     # Handle equivalentClass 
     equivalentClass_list = list(onto_class.rdflib_graph.objects(predicate=equivalent_class))
@@ -143,50 +141,93 @@ for edge in g.edges:
 for root_node in root_nodes:
     for edge in g.out_edges(root_node):
         g.get_edge_data(*edge)['weight'] += 100
-    for node in node_ids:
-        if root_node == node:
-            continue
-        root_node_simple_paths = list(nx.all_simple_paths(g,root_node,node))
-        #if root_node == kidney_id and node == rg_id:
-        #    print("Hello")
-        #    print(root_node_simple_paths)
-        for path in root_node_simple_paths:
-            for i in range(len(path)-1):
-                g.get_edge_data(path[i],path[i+1])['weight'] += 500
+node_ancestor_pairs = list(zip(ancestor_nodes,node_ids))
+for root_node, node in node_ancestor_pairs:
+    if root_node == node:
+        continue
+    root_node_simple_paths = list(nx.all_simple_paths(g,root_node,node))
+    if len(root_node_simple_paths) == 0: # Error reporting from CSV file
+        print(root_node, node, id_label(o,root_node), id_label(o,node))
+    for path in root_node_simple_paths:
+        for i in range(len(path)-1):
+            g.get_edge_data(path[i],path[i+1])['weight'] += 500
+for root_node in root_nodes:                
+    # Boost weights from anatomical system to root nodes
+    # Find the shortest path between the root node and anatomical system
+    root_node_simple_paths = list(nx.all_simple_paths(g,anatomical_system_id,root_node))
+    if len(root_node_simple_paths) > 0: # Only do this if there's a path to anatomical system
+        lengths_of_simple_paths = [len(path) for path in root_node_simple_paths]
+        shortest_path_index = np.argmin(lengths_of_simple_paths)
+        path = root_node_simple_paths[shortest_path_index]
+        # Weight that path heavily (this should become a function call)
+        for i in range(len(path)-1):
+            g.get_edge_data(path[i],path[i+1])['weight'] += 5000
 
-#Start at kidney and compute shortest path, least cost route to desired node (e.g. renal glomerulus)
+#Start at key/root node (e.g. kidney) and compute shortest path, least cost route to desired node (e.g. renal glomerulus)
 #root_node_simple_paths = list(nx.all_simple_paths(g,kidney_id,rg_id))
 #rg_ancestors = set(nx.algorithms.shortest_paths.generic.shortest_path(g,kidney_id,rg_id,weight='weight'))
 
 # Make a slim version of the graph
-rg_tree_set = nx.descendants(g,rg_id) | nx.ancestors(g,rg_id)
-#rg_tree_set = nx.descendants(g,rg_id) | rg_ancestors
-rg_tree_set.add(rg_id)
-for node_id in node_ids:
-    rg_tree_set |= nx.descendants(g,node_id) | nx.ancestors(g,node_id)
-    rg_tree_set.add(node_id)
-g_slim = g.subgraph(rg_tree_set)
+node_tree_set = set()
+for node_id, check_descendants in zip(node_ids,descendants):
+    # Only add descendants if desired
+    if check_descendants:
+        node_tree_set |= nx.descendants(g,node_id)
+    node_tree_set |= nx.ancestors(g,node_id)
+    node_tree_set.add(node_id)
+g_slim = g.subgraph(node_tree_set)
 
 # Make a maximum branching
-max_g_slim = nx.maximum_branching(g_slim)
-#max_g_slim = nx.DiGraph(g_slim)
+max_g_slim_large = nx.maximum_branching(g_slim)
 
 # Remove everything coming into the kidney
 in_edges_list = []
-for root_node in root_nodes:
-    in_edges_list.extend(list(max_g_slim.in_edges(root_node)))
-max_g_slim.remove_edges_from(in_edges_list)
+cutting_nodes = []
+root_node_cut = False # This needs to become a settings parameter
+if root_node_cut == True:
+    cutting_nodes = root_nodes
+else:
+    cutting_nodes = [anatomical_system_id]
+for cut_node in cutting_nodes:
+    in_edges_list.extend(list(max_g_slim_large.in_edges(cut_node)))
+max_g_slim_large.remove_edges_from(in_edges_list)
+
+# Remove nodes and edges that do not contribute to supporting the input nodes
+# The input nodes support all their descandant nodes
+max_slim_nodes_support = set()
+for node_id, check_descendants in zip(node_ids,descendants):
+    if check_descendants:
+        max_slim_nodes_support |= nx.descendants(max_g_slim_large, node_id)
+    max_slim_nodes_support |= nx.ancestors(max_g_slim_large, node_id)
+    max_slim_nodes_support |= set([node_id])
+# Find the nodes that are not supported
+max_g_slim_large_nodes = set(max_g_slim_large.nodes())
+unsupported_max_g_slim_large_nodes = max_g_slim_large_nodes - max_slim_nodes_support
+# Remove edges from unsupported nodes
+unsupported_edges = set(max_g_slim_large.out_edges(unsupported_max_g_slim_large_nodes)) | set(max_g_slim_large.in_edges(unsupported_max_g_slim_large_nodes))
+max_g_slim_large.remove_edges_from(unsupported_edges)
+
+# Only work with components that have at least one edge:
+list_of_components = list(max_g_slim_large.subgraph(c) for c in nx.weakly_connected_components(max_g_slim_large))
+num_component_edges = np.array([len(component.edges()) for component in list_of_components])
+max_g_slim_tree_indices = np.where(num_component_edges > 0)[0]
+actual_trees_list = [list_of_components[i] for i in max_g_slim_tree_indices]
+max_g_slim = nx.compose_all(actual_trees_list)
 
 #g_slim - max_g_slim
-removed_edges = nx.difference(g_slim, max_g_slim)
-
+removed_edges_list = list(set(g_slim.in_edges()) - set(max_g_slim.in_edges()))
+removed_edges_dict = dict(removed_edges_list)
+removed_edges = nx.difference(g_slim, max_g_slim_large)
 #Remove nodes without edges
-#list_of_isolates = nx.algorithms
 
 # create labels, nominally for plotting
 g_slim_labels = {}
-for node in max_g_slim:                  
-    g_slim_labels[node] = id_label(o,node)
+for node in max_g_slim:
+    # Check for uberon
+    if re.match(node,"UBERON") != None :
+        g_slim_labels[node] = id_label(o,node)
+    else: # Must be in CL
+        g_slim_labels[node] = id_label(o_cl,node)
 
 max_g_slim_relabeled = nx.relabel_nodes(max_g_slim,g_slim_labels,copy=True)
 list_of_components = list(max_g_slim_relabeled.subgraph(c) for c in nx.weakly_connected_components(max_g_slim_relabeled))
@@ -230,9 +271,7 @@ for node in max_g_slim:
     for ps_sub in ps_list:
         superclass_rdf = rdflib.term.URIRef("http://purl.obolibrary.org/obo/"+ps_sub[0])
         subclass_rdf = rdflib.term.URIRef("http://purl.obolibrary.org/obo/"+ps_sub[1])
-        #new_o_class.rdflib_graph.add((ps_sub[1], subclassof_rdf, ps_sub[0]))
         new_o_class_rdflib_graph.add((subclass_rdf, subclassof_rdf, superclass_rdf))
-        #new_o_class.triples = o_slim.sparqlHelper.entityTriples(new_o_class.uri)
     # remove those edges from max_g_slim
     # Needs to be in_edges because of how subClassOf works
     #for edge in removed_edges:
@@ -249,9 +288,13 @@ for node in max_g_slim:
     onClass_list = list(new_o_class_rdflib_graph.subject_objects(onClass))
     for onClass_tuple in onClass_list:
         new_o_class_rdflib_graph.remove((onClass_tuple[0], onClass, onClass_tuple[1]))
+    # Removing triples that have a triple with a predicate referencing a term
+    # not present in the slim ontology
+    # Get the list of subject predicates for a wildcard match
+    #new_o_class_rdflib_graph.subject_predicates(rdflib.term.URIRef("http://purl.obolibrary.org/obo/UBERON_"))
     # Now add the class to the ontology
-    #o_slim.all_classes += [new_o_class]
     o_slim_rdf_graph += new_o_class_rdflib_graph
+
 #o_slim.all_classes = sorted(o_slim.all_classes, key=lambda x: x.qname)
 
 # Add print out of the properties as well
@@ -260,10 +303,6 @@ for o_property in o.all_properties:
 
 # Now generate the string for serialization
 s_slim = ""
-#for o_slim_class in o_slim.all_classes:
-#    s_slim +=o_slim_class.rdf_source()
-#for new_o_class in o_slim.all_classes:
-#    o_slim_rdf_graph += new_o_class.rdflib_graph
 owl_filetype = "owl_filetype"
 if owl_filetype in owl_settings_dict:
     serialization_format = owl_settings_dict[owl_filetype]
