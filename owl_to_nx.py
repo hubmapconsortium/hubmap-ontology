@@ -287,6 +287,10 @@ for node in max_g_slim:
     onClass_list = list(new_o_class_rdflib_graph.subject_objects(onClass))
     for onClass_tuple in onClass_list:
         new_o_class_rdflib_graph.remove((onClass_tuple[0], onClass, onClass_tuple[1]))
+    # Removing triples that have a triple with a predicate referencing a term
+    # not present in the slim ontology
+    # Get the list of subject predicates for a wildcard match
+    #new_o_class_rdflib_graph.subject_predicates(rdflib.term.URIRef("http://purl.obolibrary.org/obo/UBERON_"))
     # Now add the class to the ontology
     o_slim_rdf_graph += new_o_class_rdflib_graph
 
