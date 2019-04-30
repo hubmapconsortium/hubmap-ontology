@@ -10,4 +10,11 @@ dot_files:
 ontologies:
     UBERON_filename: input_data/ext.owl
     CL_filename: cl.owl
+partonomy:
+    path: ../ontologies/partonomy/
+    filename_base: partonomy
+    filename_suffix: .owl
+    filetype: pretty-xml
+    json_suffix: .jsonld
+    json_type: json-ld
     
