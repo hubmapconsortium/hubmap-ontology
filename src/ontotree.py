@@ -1,5 +1,18 @@
 #!/usr/bin/python3
 
+#######################################################################
+#
+# This code takes an ontospy object and makes a Networkx graph
+#
+# Copyright, Samuel Friedman, Opto-Knowledge Systems, Inc. (OKSI), 2019
+#
+# Licensed under the MIT License.
+#
+# This code is for the NIH HuBMAP Consortium.
+#
+#######################################################################
+
+
 import networkx as nx
 import ontospy
 from urllib.parse import urldefrag
