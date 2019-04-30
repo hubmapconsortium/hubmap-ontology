@@ -75,3 +75,7 @@ At the moment, the loading and building of the classes takes an extremely long t
 
 To change other parameters in the Python code, please adjust owl_settings.yml.
 If there's not a setting in the file, please create a ticket for this and we can add it.
+
+## Visualization
+
+Visualization of the partonomy tree can be found [here](https://vega.github.io/editor/#/gist/vega/bherr2/542482aea690cea2a299f5153aa212eb/90ac7717b3500f84b163ff16c8c2bb83f9d90ce1/hubmap-partonomy.vg.json/view)
