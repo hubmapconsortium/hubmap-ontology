@@ -34,15 +34,17 @@ class ontotree:
     subclassof_string = 'SubClassOf'
     partof_string = 'PartOf'
     classassertion_string = 'ClassAssertion'
-    part_of = rdflib.term.URIRef("http://purl.obolibrary.org/obo/BFO_0000050")
     some_values_from = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#someValuesFrom')
     equivalent_class = rdflib.term.URIRef('http://www.w3.org/2002/07/owl#equivalentClass')
     subclassof_rdf = rdflib.term.URIRef('http://www.w3.org/2000/01/rdf-schema#subClassOf')
+    part_of = rdflib.term.URIRef("http://purl.obolibrary.org/obo/BFO_0000050")
+    part_of_hubmap = rdflib.term.URIRef('http://hubmapconsortium.org/ont/HuBMAP_0000001')
     # Use a sample element
     anatomical_system_id = "UBERON_0000467"
 
     def __init__(self):
         """Constructor for ontotree"""
+        self.part_of_hubmap_triple_tuple = (self.part_of_hubmap, self.subclassof_rdf, self.part_of) 
 
     # Take ontology class and get its label
     def class_label(onto_class):
@@ -407,7 +409,17 @@ class ontotree:
                                 triple_list.extend([(non_bnode[0],self.part_of,non_bnode[2])])
                 for triple in triple_list:
                     o_partonomy_rdf_graph.add(triple)
-
+                if partonomy == 1: # Only add for the OWL form of the partonomy
+                    # Add in part of hubmap for HuBMAP partonomy
+                    triple_list_hubmap = []
+                    for triple in triple_list:
+                        if triple[1] == self.part_of:
+                            triple_list_hubmap.extend([(triple[0],self.part_of_hubmap,triple[2])])
+                    for triple in triple_list_hubmap:
+                        o_partonomy_rdf_graph.add(triple)
+                    # Add in tuple for part of hubmap triple
+                    o_partonomy_rdf_graph.add(self.part_of_hubmap_triple_tuple)
+                    
 
         #o_slim.all_classes = sorted(o_slim.all_classes, key=lambda x: x.qname)
 
