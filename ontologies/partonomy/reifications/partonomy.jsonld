@@ -3,22 +3,19 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003479",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "chest cavity vein"
+        "@value": "cavity of chest vein"
       },
       {
-        "@value": "pectoral cavity vein"
+        "@value": "vein of chest cavity"
       },
       {
         "@value": "vein of pectoral cavity"
       },
       {
+        "@value": "pectoral cavity vein"
+      },
+      {
         "@value": "vein of thoracic cavity"
-      },
-      {
-        "@value": "cavity of thorax vein"
-      },
-      {
-        "@value": "cavity of chest vein"
       },
       {
         "@value": "vein of cavity of thorax"
@@ -27,7 +24,10 @@
         "@value": "vein of cavity of chest"
       },
       {
-        "@value": "vein of chest cavity"
+        "@value": "cavity of thorax vein"
+      },
+      {
+        "@value": "chest cavity vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -76,31 +76,31 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001291",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "thick ascending limb of Henle's loop"
+        "@value": "tubulus rectus distalis"
       },
       {
-        "@value": "thick ascending limb"
-      },
-      {
-        "@value": "ascending thick limb"
+        "@value": "loop of Henle ascending limb thick segment"
       },
       {
         "@value": "thick ascending limb of distal tubule"
       },
       {
-        "@value": "distal straight tubule"
-      },
-      {
-        "@value": "tubulus rectus distalis"
+        "@value": "thick ascending limb"
       },
       {
         "@value": "straight portion of distal convoluted tubule"
       },
       {
+        "@value": "ascending thick limb"
+      },
+      {
+        "@value": "thick ascending limb of Henle's loop"
+      },
+      {
         "@value": "straight portion of distal convoluted renal tubule"
       },
       {
-        "@value": "loop of Henle ascending limb thick segment"
+        "@value": "distal straight tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -123,9 +123,6 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001230",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "Bowman's capsule"
-      },
-      {
         "@value": "capsula glomerularis"
       },
       {
@@ -133,6 +130,9 @@
       },
       {
         "@value": "renal glomerular capsule"
+      },
+      {
+        "@value": "Bowman's capsule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -155,10 +155,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0018116",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "pelvis of right kidney"
+        "@value": "pelvis of right ureter"
       },
       {
-        "@value": "pelvis of right ureter"
+        "@value": "pelvis of right kidney"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -181,10 +181,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0036286",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "pared del ventrC-culo derecho@es"
+        "@value": "right ventricular wall"
       },
       {
-        "@value": "right ventricular wall"
+        "@value": "pared del ventrC-culo derecho@es"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -243,10 +243,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0016513",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "left atrium lumen"
+        "@value": "left atrial cavity"
       },
       {
-        "@value": "left atrial cavity"
+        "@value": "left atrium lumen"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -269,13 +269,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005979",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "crista terminalis atrii dextri"
+        "@value": "crista terminalis of right atrium"
       },
       {
         "@value": "crista terminalis cordis"
       },
       {
-        "@value": "crista terminalis of right atrium"
+        "@value": "crista terminalis atrii dextri"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -334,10 +334,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001224",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "kidney pelvis"
+        "@value": "pelvis of ureter"
       },
       {
-        "@value": "pelvis of ureter"
+        "@value": "kidney pelvis"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -363,19 +363,19 @@
         "@value": "inner stripe of medulla of kidney"
       },
       {
-        "@value": "stria interna medullae renalis"
-      },
-      {
         "@value": "inner stripe"
       },
       {
         "@value": "outer medulla inner stripe"
       },
       {
-        "@value": "inner stripe of outer medulla"
+        "@value": "inner stripe of renal medulla"
       },
       {
-        "@value": "inner stripe of renal medulla"
+        "@value": "stria interna medullae renalis"
+      },
+      {
+        "@value": "inner stripe of outer medulla"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -416,10 +416,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001229",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "Malpighian corpuscle"
+        "@value": "corpusculum renale"
       },
       {
-        "@value": "corpusculum renale"
+        "@value": "Malpighian corpuscle"
       },
       {
         "@value": "Malphigian corpuscle"
@@ -471,13 +471,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002080",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "cardiac right ventricle"
-      },
-      {
         "@value": "right ventricle of heart"
       },
       {
         "@value": "right ventricle"
+      },
+      {
+        "@value": "cardiac right ventricle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -500,10 +500,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0009780",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "left atrium auricular region heart muscle"
+        "@value": "cardiac muscle of left auricular region"
       },
       {
-        "@value": "cardiac muscle of left auricular region"
+        "@value": "left atrium auricular region heart muscle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -526,13 +526,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002408",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "lamina parietalis pericardii"
-      },
-      {
         "@value": "parietal pericardium"
       },
       {
         "@value": "lamina parietalis (pericardii serosum)"
+      },
+      {
+        "@value": "lamina parietalis pericardii"
       },
       {
         "@value": "parietal layer of serous pericardium"
@@ -555,31 +555,13 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0011745",
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0011745"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "pulmonary valve leaflets"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0002146"
-      }
-    ]
-  },
-  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0006337",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "IT1"
+        "@value": "IT2"
       },
       {
-        "@value": "IT2"
+        "@value": "IT1"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -599,13 +581,31 @@
     ]
   },
   {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0011745",
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0011745"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "pulmonary valve leaflets"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002146"
+      }
+    ]
+  },
+  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002248",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "Thiele's canal"
+        "@value": "transverse sinus of pericardial cavity"
       },
       {
-        "@value": "transverse sinus of pericardial cavity"
+        "@value": "Thiele's canal"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -672,10 +672,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0015129",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "pericardial adipose tissue"
+        "@value": "epicardial adipose tissue"
       },
       {
-        "@value": "epicardial adipose tissue"
+        "@value": "pericardial adipose tissue"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -698,10 +698,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005270",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "kidney cortex interstitium"
+        "@value": "renal cortical interstitial tissue"
       },
       {
-        "@value": "renal cortical interstitial tissue"
+        "@value": "kidney cortex interstitium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -750,40 +750,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005008",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "mucosa of organ of minor calix"
-      },
-      {
-        "@value": "mucous membrane of minor calyx"
-      },
-      {
-        "@value": "organ mucosa of minor calix"
-      },
-      {
-        "@value": "mucosa of organ of minor calyx"
-      },
-      {
-        "@value": "minor calyx mucous membrane"
-      },
-      {
-        "@value": "mucous membrane of minor calix"
-      },
-      {
-        "@value": "minor calix mucous membrane"
-      },
-      {
-        "@value": "minor calyx mucosa"
-      },
-      {
-        "@value": "organ mucosa of minor calyx"
-      },
-      {
-        "@value": "minor calix mucosa of organ"
-      },
-      {
         "@value": "minor calix mucosa"
       },
       {
-        "@value": "minor calix organ mucosa"
+        "@value": "organ mucosa of minor calyx"
       },
       {
         "@value": "mucosa of minor calix"
@@ -792,7 +762,37 @@
         "@value": "minor calyx mucosa of organ"
       },
       {
+        "@value": "minor calyx mucosa"
+      },
+      {
+        "@value": "minor calix mucosa of organ"
+      },
+      {
         "@value": "minor calyx organ mucosa"
+      },
+      {
+        "@value": "minor calyx mucous membrane"
+      },
+      {
+        "@value": "mucous membrane of minor calyx"
+      },
+      {
+        "@value": "mucosa of organ of minor calyx"
+      },
+      {
+        "@value": "mucous membrane of minor calix"
+      },
+      {
+        "@value": "organ mucosa of minor calix"
+      },
+      {
+        "@value": "mucosa of organ of minor calix"
+      },
+      {
+        "@value": "minor calix organ mucosa"
+      },
+      {
+        "@value": "minor calix mucous membrane"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -838,13 +838,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0000170",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "set of lungs"
-      },
-      {
         "@value": "pulmones"
       },
       {
         "@value": "lungs"
+      },
+      {
+        "@value": "set of lungs"
       },
       {
         "@value": "lungs pair"
@@ -888,28 +888,28 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005986",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "left bundle branch of bundle of His"
-      },
-      {
-        "@value": "crus sinistrum (fasciculi atrioventricularis)"
-      },
-      {
-        "@value": "left posterior bundle"
-      },
-      {
-        "@value": "left crus of atrioventricular bundle"
-      },
-      {
         "@value": "left posterior branch"
       },
       {
         "@value": "left bundle branch"
       },
       {
-        "@value": "left bundle of atrioventricular bundle"
+        "@value": "left crus of atrioventricular bundle"
+      },
+      {
+        "@value": "left bundle branch of bundle of His"
+      },
+      {
+        "@value": "crus sinistrum (fasciculi atrioventricularis)"
       },
       {
         "@value": "crus sinistrum fasciculi atrioventricularis"
+      },
+      {
+        "@value": "left posterior bundle"
+      },
+      {
+        "@value": "left bundle of atrioventricular bundle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1004,10 +1004,10 @@
         "@value": "renal tubule basement membrane"
       },
       {
-        "@value": "kidney tubule basement membrane"
+        "@value": "renal tubular basement membrane"
       },
       {
-        "@value": "renal tubular basement membrane"
+        "@value": "kidney tubule basement membrane"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1112,22 +1112,22 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002352",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "Aschoff-Tawara node"
+        "@value": "AV nodal muscle tissue"
       },
       {
-        "@value": "AV node"
+        "@value": "Aschoff-Tawara node"
       },
       {
         "@value": "atrioventricular nodal muscle tissue"
       },
       {
-        "@value": "nodus atrioventricularis"
-      },
-      {
         "@value": "node of Tawara"
       },
       {
-        "@value": "AV nodal muscle tissue"
+        "@value": "nodus atrioventricularis"
+      },
+      {
+        "@value": "AV node"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1204,28 +1204,37 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005006",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
+        "@value": "kidney pelvis mucous membrane"
+      },
+      {
+        "@value": "mucous membrane of renal pelvis"
+      },
+      {
         "@value": "mucosa of organ of kidney pelvis"
       },
       {
-        "@value": "mucous membrane of kidney pelvis"
+        "@value": "mucosa of organ of pelvis of ureter"
       },
       {
-        "@value": "pelvis of ureter organ mucosa"
-      },
-      {
-        "@value": "organ mucosa of renal pelvis"
-      },
-      {
-        "@value": "renal pelvic mucosa"
+        "@value": "pelvis of ureter mucous membrane"
       },
       {
         "@value": "pelvis of ureter mucosa of organ"
       },
       {
-        "@value": "mucosa of organ of renal pelvis"
+        "@value": "pelvis of ureter organ mucosa"
       },
       {
-        "@value": "tunica mucosa pelvis renalis"
+        "@value": "organ mucosa of kidney pelvis"
+      },
+      {
+        "@value": "kidney pelvis organ mucosa"
+      },
+      {
+        "@value": "kidney pelvis mucosa"
+      },
+      {
+        "@value": "mucosa of pelvis of ureter"
       },
       {
         "@value": "mucosa of kidney pelvis"
@@ -1234,49 +1243,40 @@
         "@value": "renal pelvis organ mucosa"
       },
       {
-        "@value": "renal pelvis mucosa"
-      },
-      {
-        "@value": "kidney pelvis mucosa of organ"
-      },
-      {
-        "@value": "renal pelvis mucosa of organ"
-      },
-      {
-        "@value": "mucosa of organ of pelvis of ureter"
-      },
-      {
-        "@value": "mucous membrane of pelvis of ureter"
-      },
-      {
         "@value": "pelvis of ureter mucosa"
       },
       {
-        "@value": "mucous membrane of renal pelvis"
-      },
-      {
-        "@value": "pelvis of ureter mucous membrane"
-      },
-      {
-        "@value": "kidney pelvis mucous membrane"
+        "@value": "organ mucosa of renal pelvis"
       },
       {
         "@value": "renal pelvis mucous membrane"
       },
       {
-        "@value": "mucosa of pelvis of ureter"
+        "@value": "renal pelvis mucosa"
       },
       {
-        "@value": "organ mucosa of kidney pelvis"
+        "@value": "mucous membrane of pelvis of ureter"
       },
       {
-        "@value": "kidney pelvis mucosa"
+        "@value": "tunica mucosa pelvis renalis"
+      },
+      {
+        "@value": "renal pelvic mucosa"
+      },
+      {
+        "@value": "mucous membrane of kidney pelvis"
+      },
+      {
+        "@value": "kidney pelvis mucosa of organ"
+      },
+      {
+        "@value": "mucosa of organ of renal pelvis"
+      },
+      {
+        "@value": "renal pelvis mucosa of organ"
       },
       {
         "@value": "organ mucosa of pelvis of ureter"
-      },
-      {
-        "@value": "kidney pelvis organ mucosa"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1317,25 +1317,25 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001294",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "renal inner medulla"
-      },
-      {
-        "@value": "set of inner region of renal pyramids"
+        "@value": "inner zone of medulla of kidney"
       },
       {
         "@value": "inner renal medulla"
       },
       {
-        "@value": "zona interna medullae renalis"
+        "@value": "zona interna (medullaris renalis)"
+      },
+      {
+        "@value": "set of inner region of renal pyramids"
       },
       {
         "@value": "inner zone of renal medulla"
       },
       {
-        "@value": "zona interna (medullaris renalis)"
+        "@value": "renal inner medulla"
       },
       {
-        "@value": "inner zone of medulla of kidney"
+        "@value": "zona interna medullae renalis"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1520,10 +1520,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001231",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "tubulus renalis"
+        "@value": "kidney tubule"
       },
       {
-        "@value": "kidney tubule"
+        "@value": "tubulus renalis"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1546,13 +1546,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001072",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "posterior vena cava"
+        "@value": "inferior vena cava"
       },
       {
         "@value": "inferior caval vein"
       },
       {
-        "@value": "inferior vena cava"
+        "@value": "posterior vena cava"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1616,25 +1616,25 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003388",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "pericardial cavity mesothelium"
-      },
-      {
-        "@value": "meso-epithelium of pericardial cavity"
-      },
-      {
         "@value": "mesothelium of cavity of pericardial sac"
+      },
+      {
+        "@value": "pericardial cavity mesothelium"
       },
       {
         "@value": "cavity of pericardial sac mesothelium"
       },
       {
-        "@value": "pericardial cavity meso-epithelium"
-      },
-      {
         "@value": "cavity of pericardial sac meso-epithelium"
       },
       {
+        "@value": "meso-epithelium of pericardial cavity"
+      },
+      {
         "@value": "meso-epithelium of cavity of pericardial sac"
+      },
+      {
+        "@value": "pericardial cavity meso-epithelium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1757,10 +1757,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005214",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "kidney inner medulla interstitium"
+        "@value": "inner medullary interstitium"
       },
       {
-        "@value": "inner medullary interstitium"
+        "@value": "kidney inner medulla interstitium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1783,13 +1783,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005981",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "posterior right atrial cavity"
-      },
-      {
         "@value": "cavity of inflow part of right atrium"
       },
       {
         "@value": "sinus venarum cavarum"
+      },
+      {
+        "@value": "posterior right atrial cavity"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1830,31 +1830,31 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004775",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "vasa recta of outer renal medulla"
-      },
-      {
-        "@value": "outer medulla of kidney vasa recta"
-      },
-      {
         "@value": "kidney outer medulla vasa recta"
       },
       {
         "@value": "vasa recta of outer zone of renal medulla"
       },
       {
-        "@value": "vasa recta of outer medulla of kidney"
+        "@value": "outer zone of renal medulla vasa recta"
       },
       {
-        "@value": "kidney outer renal medulla vasa recta"
+        "@value": "outer medulla of kidney vasa recta"
+      },
+      {
+        "@value": "vasa recta of outer renal medulla"
+      },
+      {
+        "@value": "vasa recta of outer medulla of kidney"
       },
       {
         "@value": "outer zone of medulla of kidney vasa recta"
       },
       {
-        "@value": "outer zone of renal medulla vasa recta"
+        "@value": "vasa recta of outer zone of medulla of kidney"
       },
       {
-        "@value": "vasa recta of outer zone of medulla of kidney"
+        "@value": "kidney outer renal medulla vasa recta"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1918,13 +1918,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002015",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "capsula fibrosa renis"
+        "@value": "capsule of kidney"
       },
       {
         "@value": "fibrous capsule of kidney"
       },
       {
-        "@value": "capsule of kidney"
+        "@value": "capsula fibrosa renis"
       },
       {
         "@value": "renal capsule"
@@ -1947,51 +1947,25 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0005777",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "glomerular filtration membrane"
-      },
-      {
-        "@value": "glomerular capillary basement membrane"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0005777"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "glomerular basement membrane"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0004188"
-      }
-    ]
-  },
-  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001293",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "renal outer medulla"
+        "@value": "zona externa medullae renalis"
       },
       {
         "@value": "outer zone of medulla of kidney"
       },
       {
-        "@value": "outer zone of renal medulla"
+        "@value": "zona externa (medullaris renalis)"
       },
       {
         "@value": "outer renal medulla"
       },
       {
-        "@value": "zona externa (medullaris renalis)"
+        "@value": "outer zone of renal medulla"
       },
       {
-        "@value": "zona externa medullae renalis"
+        "@value": "renal outer medulla"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2007,41 +1981,6 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000362"
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0004640",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "kidney efferent arteriole"
-      },
-      {
-        "@value": "efferent glomerular arteriole of kidney"
-      },
-      {
-        "@value": "efferent arteriole"
-      },
-      {
-        "@value": "arteriola glomerularis efferens renis"
-      },
-      {
-        "@value": "efferent glomerular arteriole"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0004640"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "renal efferent arteriole"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0001229"
       }
     ]
   },
@@ -2065,6 +2004,67 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002137"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0004640",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "efferent glomerular arteriole"
+      },
+      {
+        "@value": "efferent arteriole"
+      },
+      {
+        "@value": "kidney efferent arteriole"
+      },
+      {
+        "@value": "arteriola glomerularis efferens renis"
+      },
+      {
+        "@value": "efferent glomerular arteriole of kidney"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0004640"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "renal efferent arteriole"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001229"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005777",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "glomerular capillary basement membrane"
+      },
+      {
+        "@value": "glomerular filtration membrane"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0005777"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "glomerular basement membrane"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0004188"
       }
     ]
   },
@@ -2095,10 +2095,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0009035",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "straight tubule"
+        "@value": "kidney straight tubule"
       },
       {
-        "@value": "kidney straight tubule"
+        "@value": "straight tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2121,10 +2121,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003920",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "segment of venous tree organ"
+        "@value": "venous tree organ segment"
       },
       {
-        "@value": "venous tree organ segment"
+        "@value": "segment of venous tree organ"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2268,13 +2268,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004197",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
+        "@value": "proximal tubule segment 2"
+      },
+      {
         "@value": "S2 portion of renal tubule"
       },
       {
         "@value": "segment 2 of proximal tubule"
-      },
-      {
-        "@value": "proximal tubule segment 2"
       },
       {
         "@value": "S2 portion of tubule"
@@ -2300,13 +2300,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002348",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "visceral serous pericardium proper"
+        "@value": "heart epicardium"
       },
       {
         "@value": "visceral serous pericardium of heart"
       },
       {
-        "@value": "heart epicardium"
+        "@value": "visceral serous pericardium proper"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2370,10 +2370,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0014401",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "venous blood vessel of kidney"
+        "@value": "kidney venous blood vessel"
       },
       {
-        "@value": "kidney venous blood vessel"
+        "@value": "venous blood vessel of kidney"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2396,10 +2396,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004135",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "renal distal tubule"
+        "@value": "kidney distal tubule"
       },
       {
-        "@value": "kidney distal tubule"
+        "@value": "renal distal tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2422,37 +2422,37 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005750",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "glomerular capsule parietal layer"
+        "@value": "Bowman's parietal epithelium"
       },
       {
         "@value": "outer layer of glomerular capsule"
       },
       {
+        "@value": "parietal layer of Bowman's capsule"
+      },
+      {
         "@value": "capsular epithelium"
-      },
-      {
-        "@value": "parietal epithelial layer"
-      },
-      {
-        "@value": "parietal capsular epithelium"
-      },
-      {
-        "@value": "Bowman's parietal epithelium"
-      },
-      {
-        "@value": "renal glomerular capsule epithelium"
       },
       {
         "@value": "parietal layer of glomerular capsule"
       },
       {
-        "@value": "parietal layer of Bowman's capsule"
+        "@value": "parietal epithelial layer"
+      },
+      {
+        "@value": "parietal epithelium of Bowman's capsule"
+      },
+      {
+        "@value": "parietal capsular epithelium"
+      },
+      {
+        "@value": "renal glomerular capsule epithelium"
       },
       {
         "@value": "parietal layer of Bowman capsule"
       },
       {
-        "@value": "parietal epithelium of Bowman's capsule"
+        "@value": "glomerular capsule parietal layer"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2493,16 +2493,16 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005995",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "mitral annulus"
+        "@value": "fibrous ring of mitral valve"
       },
       {
-        "@value": "anulus of mitral valve"
+        "@value": "mitral annulus"
       },
       {
         "@value": "mitral valvar anulus"
       },
       {
-        "@value": "fibrous ring of mitral valve"
+        "@value": "anulus of mitral valve"
       },
       {
         "@value": "mitral anulus"
@@ -2554,28 +2554,28 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002350",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "heart conduction system"
-      },
-      {
-        "@value": "complexus stimulans cordis"
-      },
-      {
-        "@value": "cardiac impulse conducting system"
-      },
-      {
-        "@value": "cardiac conducting system"
+        "@value": "impulse conducting system"
       },
       {
         "@value": "cardionector"
       },
       {
+        "@value": "complexus stimulans cordis"
+      },
+      {
+        "@value": "cardiac conducting system"
+      },
+      {
+        "@value": "cardiac impulse conducting system"
+      },
+      {
         "@value": "systema conducente cordis"
       },
       {
-        "@value": "cardiac conduction system"
+        "@value": "heart conduction system"
       },
       {
-        "@value": "impulse conducting system"
+        "@value": "cardiac conduction system"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2616,13 +2616,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005991",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "aortic anulus"
+        "@value": "aortic valvar anulus"
       },
       {
         "@value": "anulus of aortic valve"
       },
       {
-        "@value": "aortic valvar anulus"
+        "@value": "aortic anulus"
       },
       {
         "@value": "fibrous ring of aortic valve"
@@ -2689,13 +2689,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005271",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
+        "@value": "inner cortex of kidney"
+      },
+      {
         "@value": "juxtamedullary cortex of kidney"
       },
       {
         "@value": "inner renal cortex"
-      },
-      {
-        "@value": "inner cortex of kidney"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2754,10 +2754,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001074",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "cavity of pericardial sac"
+        "@value": "pericardial space"
       },
       {
-        "@value": "pericardial space"
+        "@value": "cavity of pericardial sac"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2891,13 +2891,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0009149",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "ostium primum"
+        "@value": "interatrial foramen primum"
       },
       {
         "@value": "primary interatrial foramen"
       },
       {
-        "@value": "interatrial foramen primum"
+        "@value": "ostium primum"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3075,10 +3075,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003382",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "left ventricular cardiac muscle tissue"
+        "@value": "cardiac muscle tissue of left ventricle"
       },
       {
-        "@value": "cardiac muscle tissue of left ventricle"
+        "@value": "left ventricular cardiac muscle tissue"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3145,9 +3145,6 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005987",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "right right crus of atrioventricular bundle"
-      },
-      {
         "@value": "right bundle"
       },
       {
@@ -3164,6 +3161,9 @@
       },
       {
         "@value": "crus dextrum (fasciculi atrioventricularis)"
+      },
+      {
+        "@value": "right right crus of atrioventricular bundle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3202,19 +3202,19 @@
         "@value": "arteriolae rectae renis"
       },
       {
-        "@value": "vasa recta of kidney"
-      },
-      {
-        "@value": "renal medullary capillary"
+        "@value": "kidney vasa recta"
       },
       {
         "@value": "vasa recta renis"
       },
       {
+        "@value": "renal medullary capillary"
+      },
+      {
         "@value": "set of straight arterioles of kidney"
       },
       {
-        "@value": "kidney vasa recta"
+        "@value": "vasa recta of kidney"
       },
       {
         "@value": "straight arterioles of kidney"
@@ -3367,34 +3367,16 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005007",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "major calyx mucosa"
+        "@value": "major calyx organ mucosa"
       },
       {
         "@value": "major calix organ mucosa"
       },
       {
-        "@value": "major calix mucosa of organ"
-      },
-      {
-        "@value": "major calix mucosa"
-      },
-      {
         "@value": "mucous membrane of major calix"
       },
       {
-        "@value": "mucosa of major calix"
-      },
-      {
-        "@value": "major calyx mucous membrane"
-      },
-      {
-        "@value": "organ mucosa of major calyx"
-      },
-      {
-        "@value": "mucous membrane of major calyx"
-      },
-      {
-        "@value": "organ mucosa of major calix"
+        "@value": "major calix mucous membrane"
       },
       {
         "@value": "major calyx mucosa of organ"
@@ -3403,13 +3385,31 @@
         "@value": "mucosa of organ of major calyx"
       },
       {
-        "@value": "major calyx organ mucosa"
+        "@value": "mucosa of major calix"
+      },
+      {
+        "@value": "organ mucosa of major calyx"
+      },
+      {
+        "@value": "major calix mucosa of organ"
+      },
+      {
+        "@value": "major calyx mucosa"
+      },
+      {
+        "@value": "major calyx mucous membrane"
       },
       {
         "@value": "mucosa of organ of major calix"
       },
       {
-        "@value": "major calix mucous membrane"
+        "@value": "major calix mucosa"
+      },
+      {
+        "@value": "mucous membrane of major calyx"
+      },
+      {
+        "@value": "organ mucosa of major calix"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3432,40 +3432,40 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002351",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "node of Keith-Flack"
-      },
-      {
-        "@value": "sinuatrial node"
-      },
-      {
         "@value": "sinus node of Keith and Flack"
+      },
+      {
+        "@value": "node of Keith-Flack"
       },
       {
         "@value": "SA node"
       },
       {
-        "@value": "sinu-atrial node"
-      },
-      {
-        "@value": "Koch's node"
+        "@value": "sinus node"
       },
       {
         "@value": "sinuatrial nodal muscle tissue"
       },
       {
-        "@value": "sinoatrial node"
+        "@value": "sinuatrial node"
       },
       {
         "@value": "cardiac pacemaker"
       },
       {
-        "@value": "nodus sinuatrialis"
-      },
-      {
-        "@value": "sinus node"
-      },
-      {
         "@value": "SA nodal muscle tissue"
+      },
+      {
+        "@value": "Koch's node"
+      },
+      {
+        "@value": "sinoatrial node"
+      },
+      {
+        "@value": "sinu-atrial node"
+      },
+      {
+        "@value": "nodus sinuatrialis"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3488,19 +3488,19 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001232",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "tubulus renalis colligens"
-      },
-      {
         "@value": "renal collecting tubule"
       },
       {
-        "@value": "collecting duct"
+        "@value": "tubulus renalis colligens"
+      },
+      {
+        "@value": "tubulus renalis arcuatus"
       },
       {
         "@value": "kidney collecting duct"
       },
       {
-        "@value": "tubulus renalis arcuatus"
+        "@value": "collecting duct"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3567,10 +3567,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005097",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "connecting tubule"
+        "@value": "kidney connecting tubule"
       },
       {
-        "@value": "kidney connecting tubule"
+        "@value": "connecting tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3611,18 +3611,6 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0010172",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "aorta bulb"
-      },
-      {
-        "@value": "supraaortic valve area"
-      },
-      {
-        "@value": "aortic root"
-      },
-      {
-        "@value": "bulb of ascending aorta"
-      },
-      {
         "@value": "root of aorta"
       },
       {
@@ -3630,6 +3618,18 @@
       },
       {
         "@value": "aortic bulb"
+      },
+      {
+        "@value": "supraaortic valve area"
+      },
+      {
+        "@value": "bulb of ascending aorta"
+      },
+      {
+        "@value": "aortic root"
+      },
+      {
+        "@value": "aorta bulb"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3678,19 +3678,19 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0006630",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "heart left atrial appendage"
-      },
-      {
-        "@value": "auricula sinistra"
+        "@value": "left auricula"
       },
       {
         "@value": "left auricular appendix"
       },
       {
-        "@value": "left auricula"
+        "@value": "auricula sinistra"
       },
       {
         "@value": "left auricle"
+      },
+      {
+        "@value": "heart left atrial appendage"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3713,10 +3713,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002303",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "complexus juxtaglomerularis"
+        "@value": "juxtaglomerular complex"
       },
       {
-        "@value": "juxtaglomerular complex"
+        "@value": "complexus juxtaglomerularis"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3759,6 +3759,29 @@
     ]
   },
   {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002359",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "fibrous portion of pericardium"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0002359"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "fibrous pericardium"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002407"
+      }
+    ]
+  },
+  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005102",
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
@@ -3795,33 +3818,10 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0002359",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "fibrous portion of pericardium"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0002359"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "fibrous pericardium"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0002407"
-      }
-    ]
-  },
-  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005997",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "anulus of tricuspid valve"
+        "@value": "tricuspid anulus"
       },
       {
         "@value": "fibrous ring of tricuspid valve"
@@ -3830,7 +3830,7 @@
         "@value": "tricuspid valvar anulus"
       },
       {
-        "@value": "tricuspid anulus"
+        "@value": "anulus of tricuspid valve"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3853,19 +3853,19 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003383",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "interventricular septum cardiac muscle"
+        "@value": "interventricular septum heart muscle"
       },
       {
         "@value": "interventricular septum myocardium"
+      },
+      {
+        "@value": "interventricular septum cardiac muscle"
       },
       {
         "@value": "cardiac muscle of interventricular septum"
       },
       {
         "@value": "cardiac muscle tissue of interventricular septum"
-      },
-      {
-        "@value": "interventricular septum heart muscle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3894,10 +3894,10 @@
         "@value": "pericardium parietal mesothelium"
       },
       {
-        "@value": "mesothelium of parietal pericardium"
+        "@value": "parietal serous pericardium mesothelium"
       },
       {
-        "@value": "parietal serous pericardium mesothelium"
+        "@value": "mesothelium of parietal pericardium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3920,13 +3920,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003930",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "AVC endocardium"
-      },
-      {
         "@value": "endocardium of atrioventricular canal"
       },
       {
         "@value": "AV canal endocardium"
+      },
+      {
+        "@value": "AVC endocardium"
       },
       {
         "@value": "endocardium of AV canal"
@@ -3988,43 +3988,43 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003380",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "textus muscularis of myocardium of left atrium"
-      },
-      {
-        "@value": "cardiac left atrium cardiac muscle tissue"
-      },
-      {
-        "@value": "textus muscularis of myocardium of left cardiac atrium"
+        "@value": "myocardium of left atrium"
       },
       {
         "@value": "cardiac left atrium cardiac muscle"
       },
       {
-        "@value": "textus muscularis of myocardium of left atrium of heart"
-      },
-      {
-        "@value": "textus muscularis of myocardium of heart left atrium"
-      },
-      {
-        "@value": "textus muscularis of myocardium of cardiac left atrium"
-      },
-      {
-        "@value": "cardiac muscle of cardiac left atrium"
-      },
-      {
-        "@value": "cardiac muscle of left atrium of heart"
+        "@value": "cardiac left atrium cardiac muscle tissue"
       },
       {
         "@value": "cardiac muscle of heart left atrium"
       },
       {
-        "@value": "myocardium of left atrium"
+        "@value": "textus muscularis of myocardium of left atrium of heart"
+      },
+      {
+        "@value": "textus muscularis of myocardium of left cardiac atrium"
+      },
+      {
+        "@value": "textus muscularis of myocardium of heart left atrium"
       },
       {
         "@value": "left atrium myocardium"
       },
       {
         "@value": "left atrium heart muscle"
+      },
+      {
+        "@value": "textus muscularis of myocardium of left atrium"
+      },
+      {
+        "@value": "cardiac muscle of left atrium of heart"
+      },
+      {
+        "@value": "cardiac muscle of cardiac left atrium"
+      },
+      {
+        "@value": "textus muscularis of myocardium of cardiac left atrium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4114,10 +4114,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0009713",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "left ventricle endocardium"
+        "@value": "left ventricular endocardium"
       },
       {
-        "@value": "left ventricular endocardium"
+        "@value": "left ventricle endocardium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4143,10 +4143,10 @@
         "@value": "lower chamber of heart"
       },
       {
-        "@value": "heart ventricle"
+        "@value": "ventricle of heart"
       },
       {
-        "@value": "ventricle of heart"
+        "@value": "heart ventricle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4187,16 +4187,16 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002099",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "cardiac septa"
-      },
-      {
-        "@value": "septum of heart"
-      },
-      {
         "@value": "heart septum"
       },
       {
+        "@value": "cardiac septa"
+      },
+      {
         "@value": "heart septa"
+      },
+      {
+        "@value": "septum of heart"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4212,32 +4212,6 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000948"
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0005213",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "outer medullary interstitium"
-      },
-      {
-        "@value": "kidney outer medulla interstitium"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0005213"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "outer renal medulla interstitium"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0001293"
       }
     ]
   },
@@ -4268,6 +4242,32 @@
     ]
   },
   {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005213",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "outer medullary interstitium"
+      },
+      {
+        "@value": "kidney outer medulla interstitium"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0005213"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "outer renal medulla interstitium"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001293"
+      }
+    ]
+  },
+  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002335",
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
@@ -4289,16 +4289,16 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005990",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "aortic semilunar valvule"
+        "@value": "aortic valvular cusp"
       },
       {
-        "@value": "aortic valvular cusp"
+        "@value": "cusp of aortic valve"
       },
       {
         "@value": "semilunar valvule of aortic valve"
       },
       {
-        "@value": "cusp of aortic valve"
+        "@value": "aortic semilunar valvule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4357,28 +4357,28 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001286",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
+        "@value": "pronephric capsular space"
+      },
+      {
         "@value": "glomerular urinary space"
-      },
-      {
-        "@value": "urinary space of renal corpuscle"
-      },
-      {
-        "@value": "glomerular capsule space"
-      },
-      {
-        "@value": "capsular space"
       },
       {
         "@value": "Bowman's space"
       },
       {
+        "@value": "glomerular capsule space"
+      },
+      {
         "@value": "renal capsular space"
       },
       {
-        "@value": "pronephric capsular space"
+        "@value": "urinary space"
       },
       {
-        "@value": "urinary space"
+        "@value": "urinary space of renal corpuscle"
+      },
+      {
+        "@value": "capsular space"
       },
       {
         "@value": "inter-glomerular space"
@@ -4407,10 +4407,10 @@
         "@value": "heart endocardium"
       },
       {
-        "@value": "endocardial tissue"
+        "@value": "endocardial lining"
       },
       {
-        "@value": "endocardial lining"
+        "@value": "endocardial tissue"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4451,19 +4451,19 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002425",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "visceral lamina of serous pericardium"
+        "@value": "visceral pericardium"
       },
       {
         "@value": "visceral layer of serous pericardium"
       },
       {
-        "@value": "visceral pericardium"
-      },
-      {
-        "@value": "lamina visceralis pericardii serosi"
+        "@value": "visceral lamina of serous pericardium"
       },
       {
         "@value": "serous visceral pericardium"
+      },
+      {
+        "@value": "lamina visceralis pericardii serosi"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4545,10 +4545,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0034997",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "loop of Henle, medullary portion"
+        "@value": "loop of Henle of renal medulla"
       },
       {
-        "@value": "loop of Henle of renal medulla"
+        "@value": "loop of Henle, medullary portion"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4594,6 +4594,35 @@
     ]
   },
   {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001140",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "kidney vein"
+      },
+      {
+        "@value": "renal venous tree"
+      },
+      {
+        "@value": "vein of kidney"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001140"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "renal vein"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001072"
+      }
+    ]
+  },
+  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0008716",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
@@ -4616,35 +4645,6 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002113"
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0001140",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "vein of kidney"
-      },
-      {
-        "@value": "renal venous tree"
-      },
-      {
-        "@value": "kidney vein"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0001140"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "renal vein"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0001072"
       }
     ]
   },
@@ -4678,54 +4678,10 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0004667",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "pars muscularis septi interventricularis"
-      },
-      {
-        "@value": "muscular part of interventricular septum"
-      },
-      {
-        "@value": "ventricular muscular septum"
-      },
-      {
-        "@value": "muscular interventricular septum"
-      },
-      {
-        "@value": "cardiac ventricular muscular septum"
-      },
-      {
-        "@value": "muscular part interventricular septum"
-      },
-      {
-        "@value": "pars muscularis (septi interventricularis)"
-      },
-      {
-        "@value": "septum membranaceum"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0004667"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "interventricular septum muscular part"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0002094"
-      }
-    ]
-  },
-  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005998",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "septal cusp of right atrioventricular valve"
+        "@value": "septal cusp of tricuspid valve"
       },
       {
         "@value": "septal tricuspid leaflet"
@@ -4734,16 +4690,16 @@
         "@value": "septal leaflet of tricuspid valve"
       },
       {
-        "@value": "septal leaflet of right-sided tricuspid valve"
-      },
-      {
-        "@value": "septal cusp of tricuspid valve"
-      },
-      {
         "@value": "cuspis septalis (valva tricuspidalis)"
       },
       {
+        "@value": "septal leaflet of right-sided tricuspid valve"
+      },
+      {
         "@value": "cuspis septalis valvae atrioventricularis dextrae"
+      },
+      {
+        "@value": "septal cusp of right atrioventricular valve"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4759,6 +4715,50 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005484"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0004667",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "muscular part of interventricular septum"
+      },
+      {
+        "@value": "cardiac ventricular muscular septum"
+      },
+      {
+        "@value": "pars muscularis (septi interventricularis)"
+      },
+      {
+        "@value": "pars muscularis septi interventricularis"
+      },
+      {
+        "@value": "septum membranaceum"
+      },
+      {
+        "@value": "muscular interventricular septum"
+      },
+      {
+        "@value": "ventricular muscular septum"
+      },
+      {
+        "@value": "muscular part interventricular septum"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0004667"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "interventricular septum muscular part"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002094"
       }
     ]
   },
@@ -4820,10 +4820,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002349",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "muscle of heart"
+        "@value": "heart myocardium"
       },
       {
-        "@value": "heart myocardium"
+        "@value": "muscle of heart"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4864,22 +4864,22 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001008",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "systema urinaria"
-      },
-      {
         "@value": "renal system"
-      },
-      {
-        "@value": "urinary system"
       },
       {
         "@value": "excretory system"
       },
       {
+        "@value": "urinary tract"
+      },
+      {
         "@value": "systema urinarium"
       },
       {
-        "@value": "urinary tract"
+        "@value": "urinary system"
+      },
+      {
+        "@value": "systema urinaria"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4902,22 +4902,22 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002079",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
+        "@value": "heart left atrium"
+      },
+      {
         "@value": "cardiac left atrium"
       },
       {
         "@value": "left atrium"
       },
       {
-        "@value": "heart left atrium"
+        "@value": "left atrium of heart"
       },
       {
         "@value": "atrium sinistrum"
       },
       {
         "@value": "left cardiac atrium"
-      },
-      {
-        "@value": "left atrium of heart"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4940,28 +4940,28 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0014855",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "posterior cusp of mitral valve"
-      },
-      {
         "@value": "posterior mitral leaflet"
       },
       {
-        "@value": "ventricular leaflet of mitral valve"
-      },
-      {
-        "@value": "mural leaflet of mitral valve"
-      },
-      {
-        "@value": "cuspis posterior valvae atrioventricularis sinistri"
+        "@value": "cuspis posterior (valva mitralis)"
       },
       {
         "@value": "smaller leaflet of mitral valve"
       },
       {
+        "@value": "mural leaflet of mitral valve"
+      },
+      {
         "@value": "posterolateral leaflet of mitral valve"
       },
       {
-        "@value": "cuspis posterior (valva mitralis)"
+        "@value": "ventricular leaflet of mitral valve"
+      },
+      {
+        "@value": "cuspis posterior valvae atrioventricularis sinistri"
+      },
+      {
+        "@value": "posterior cusp of mitral valve"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5025,10 +5025,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0000947",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "trunk of systemic arterial tree"
+        "@value": "trunk of aortic tree"
       },
       {
-        "@value": "trunk of aortic tree"
+        "@value": "trunk of systemic arterial tree"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5051,10 +5051,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003381",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "right ventricular cardiac muscle tissue"
+        "@value": "cardiac muscle tissue of right ventricle"
       },
       {
-        "@value": "cardiac muscle tissue of right ventricle"
+        "@value": "right ventricular cardiac muscle tissue"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5095,13 +5095,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004819",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "epithelial tissue of kidney"
+        "@value": "kidney epithelial tissue"
       },
       {
         "@value": "epithelium of kidney"
       },
       {
-        "@value": "kidney epithelial tissue"
+        "@value": "epithelial tissue of kidney"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5124,10 +5124,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001004",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "respiratory system"
+        "@value": "apparatus respiratorius"
       },
       {
-        "@value": "apparatus respiratorius"
+        "@value": "respiratory system"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5150,19 +5150,19 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001284",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "columna Bertini"
+        "@value": "column of Bertini"
       },
       {
         "@value": "renal cortical column"
       },
       {
-        "@value": "renal column of Bertini"
-      },
-      {
-        "@value": "column of Bertini"
-      },
-      {
         "@value": "kidney column"
+      },
+      {
+        "@value": "columna Bertini"
+      },
+      {
+        "@value": "renal column of Bertini"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5287,37 +5287,19 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0001142",
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0001142"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "left renal vein"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0001140"
-      }
-    ]
-  },
-  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003707",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "aortic sinus"
-      },
-      {
-        "@value": "Valsalva sinus"
+        "@value": "Petit sinus"
       },
       {
         "@value": "Petit's sinus"
       },
       {
-        "@value": "Petit sinus"
+        "@value": "aortic sinus"
+      },
+      {
+        "@value": "Valsalva sinus"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5333,6 +5315,24 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0010172"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001142",
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001142"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "left renal vein"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001140"
       }
     ]
   },
@@ -5413,7 +5413,7 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005751",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "Bowman's visceral epithelium"
+        "@value": "inner epithelial layer of Bowman's capsule"
       },
       {
         "@value": "podocyte layer of Bowman's capsule"
@@ -5425,13 +5425,13 @@
         "@value": "visceral layer of Bowman's capsule"
       },
       {
+        "@value": "glomerular capsule visceral layer"
+      },
+      {
         "@value": "visceral layer of glomerular capsule"
       },
       {
-        "@value": "inner epithelial layer of Bowman's capsule"
-      },
-      {
-        "@value": "glomerular capsule visceral layer"
+        "@value": "Bowman's visceral epithelium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5495,7 +5495,7 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004202",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "outer stripe of outer medulla"
+        "@value": "stria externa medullae renalis"
       },
       {
         "@value": "outer medulla outer stripe"
@@ -5504,7 +5504,7 @@
         "@value": "outer stripe"
       },
       {
-        "@value": "stria externa medullae renalis"
+        "@value": "outer stripe of outer medulla"
       },
       {
         "@value": "outer stripe of medulla of kidney"
@@ -5615,10 +5615,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0035422",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "ramus circumflexus (arteria coronaria sinistra)"
+        "@value": "left circumflex branch of left coronary artery"
       },
       {
-        "@value": "left circumflex branch of left coronary artery"
+        "@value": "ramus circumflexus (arteria coronaria sinistra)"
       },
       {
         "@value": "circumflex coronary artery"
@@ -5696,16 +5696,16 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0006631",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "auricula dextra"
+        "@value": "right auricula"
+      },
+      {
+        "@value": "right auricle"
       },
       {
         "@value": "right auriculur appendix"
       },
       {
-        "@value": "right auricula"
-      },
-      {
-        "@value": "right auricle"
+        "@value": "auricula dextra"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5725,78 +5725,25 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0003379",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "cardiac muscle of cardiac right atrium"
-      },
-      {
-        "@value": "cardiac muscle tissue of right atrium of heart"
-      },
-      {
-        "@value": "cardiac muscle tissue of right atrium"
-      },
-      {
-        "@value": "cardiac muscle of heart right atrium"
-      },
-      {
-        "@value": "myocardium of right atrium"
-      },
-      {
-        "@value": "cardiac muscle tissue of heart right atrium"
-      },
-      {
-        "@value": "textus muscularis of myocardium of right cardiac atrium"
-      },
-      {
-        "@value": "textus muscularis of myocardium of right atrium of heart"
-      },
-      {
-        "@value": "right atrium myocardium"
-      },
-      {
-        "@value": "right atrium heart muscle"
-      },
-      {
-        "@value": "textus muscularis of myocardium of right atrium"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0003379"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "cardiac muscle of right atrium"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0002078"
-      }
-    ]
-  },
-  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004212",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "capillary vessel of renal glomerulus"
-      },
-      {
         "@value": "renal glomerulus capillary vessel"
-      },
-      {
-        "@value": "blood capillary of renal glomerulus"
       },
       {
         "@value": "capillary of renal glomerulus"
       },
       {
-        "@value": "renal glomerulus capillary"
+        "@value": "renal glomerulus blood capillary"
       },
       {
-        "@value": "renal glomerulus blood capillary"
+        "@value": "blood capillary of renal glomerulus"
+      },
+      {
+        "@value": "capillary vessel of renal glomerulus"
+      },
+      {
+        "@value": "renal glomerulus capillary"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5816,45 +5763,13 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0006854",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "renal cortex thick ascending limb"
-      },
-      {
-        "@value": "cortical thick ascending limb of Henle's loop"
-      },
-      {
-        "@value": "kidney cortex loop of Henle ascending limb thick segment"
-      },
-      {
-        "@value": "renal cortex loop of Henle ascending limb thick segment"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0006854"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "distal straight tubule postmacula segment"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0001291"
-      }
-    ]
-  },
-  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0000362",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "renal pyramids"
+        "@value": "pyramides renales"
       },
       {
-        "@value": "medulla renalis"
+        "@value": "renal medullae set"
       },
       {
         "@value": "renal medullae"
@@ -5863,16 +5778,16 @@
         "@value": "kidney medulla"
       },
       {
+        "@value": "renal pyramids"
+      },
+      {
         "@value": "medulla of kidney"
       },
       {
-        "@value": "pyramides renales"
+        "@value": "medulla renalis"
       },
       {
         "@value": "renal pyramids set"
-      },
-      {
-        "@value": "renal medullae set"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5892,20 +5807,55 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0005101",
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0003379",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "cardiac muscle of heart right atrium"
+      },
+      {
+        "@value": "cardiac muscle tissue of right atrium"
+      },
+      {
+        "@value": "cardiac muscle tissue of right atrium of heart"
+      },
+      {
+        "@value": "textus muscularis of myocardium of right cardiac atrium"
+      },
+      {
+        "@value": "right atrium heart muscle"
+      },
+      {
+        "@value": "cardiac muscle tissue of heart right atrium"
+      },
+      {
+        "@value": "textus muscularis of myocardium of right atrium"
+      },
+      {
+        "@value": "myocardium of right atrium"
+      },
+      {
+        "@value": "textus muscularis of myocardium of right atrium of heart"
+      },
+      {
+        "@value": "right atrium myocardium"
+      },
+      {
+        "@value": "cardiac muscle of cardiac right atrium"
+      }
+    ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
-        "@value": "UBERON:0005101"
+        "@value": "UBERON:0003379"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "early distal convoluted tubule"
+        "@value": "cardiac muscle of right atrium"
       }
     ],
     "parent": [
       {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0001292"
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002078"
       }
     ]
   },
@@ -5913,22 +5863,22 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005953",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "infundibulum of right ventricle"
-      },
-      {
-        "@value": "right ventricular outflow tract"
-      },
-      {
-        "@value": "conus arteriosus (infundibulum)"
-      },
-      {
         "@value": "outflow tract of right ventricle"
       },
       {
         "@value": "right ventricle pulmonary outflow tract"
       },
       {
+        "@value": "right ventricular outflow tract"
+      },
+      {
+        "@value": "infundibulum of right ventricle"
+      },
+      {
         "@value": "RVOT"
+      },
+      {
+        "@value": "conus arteriosus (infundibulum)"
       },
       {
         "@value": "pulmonary conus"
@@ -5951,20 +5901,52 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0005319",
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0006854",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "renal cortex thick ascending limb"
+      },
+      {
+        "@value": "renal cortex loop of Henle ascending limb thick segment"
+      },
+      {
+        "@value": "kidney cortex loop of Henle ascending limb thick segment"
+      },
+      {
+        "@value": "cortical thick ascending limb of Henle's loop"
+      }
+    ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
-        "@value": "UBERON:0005319"
+        "@value": "UBERON:0006854"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "mesonephric collecting duct"
+        "@value": "distal straight tubule postmacula segment"
       }
     ],
     "parent": [
       {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0005322"
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001291"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005101",
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0005101"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "early distal convoluted tubule"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001292"
       }
     ]
   },
@@ -5972,13 +5954,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005167",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
+        "@value": "papillary duct"
+      },
+      {
         "@value": "renal papillary duct"
       },
       {
         "@value": "papillary duct of kidney"
-      },
-      {
-        "@value": "papillary duct"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5994,6 +5976,24 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001232"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005319",
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0005319"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "mesonephric collecting duct"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005322"
       }
     ]
   },
@@ -6119,10 +6119,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004155",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "septum secundum"
+        "@value": "interatrial septum secundum"
       },
       {
-        "@value": "interatrial septum secundum"
+        "@value": "septum secundum"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6148,10 +6148,10 @@
         "@value": "mitral valvular leaflet"
       },
       {
-        "@value": "mitral valve leaflet"
+        "@value": "leaflet of mitral valve"
       },
       {
-        "@value": "leaflet of mitral valve"
+        "@value": "mitral valve leaflet"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6167,44 +6167,6 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002135"
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0002353",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "His bundle"
-      },
-      {
-        "@value": "bundle of His"
-      },
-      {
-        "@value": "fasciculus atrioventricularis"
-      },
-      {
-        "@value": "atrioventricular fasciculus"
-      },
-      {
-        "@value": "atrioventricular bundle muscle tissue"
-      },
-      {
-        "@value": "AV bundle"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0002353"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "atrioventricular bundle"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0004146"
       }
     ]
   },
@@ -6238,10 +6200,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001289",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "loop of Henle descending limb"
+        "@value": "descending limb of Henle's loop"
       },
       {
-        "@value": "descending limb of Henle's loop"
+        "@value": "loop of Henle descending limb"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6261,37 +6223,40 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0002078",
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002353",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "right atrium of heart"
+        "@value": "atrioventricular fasciculus"
       },
       {
-        "@value": "cardiac right atrium"
+        "@value": "AV bundle"
       },
       {
-        "@value": "right cardiac atrium"
+        "@value": "His bundle"
       },
       {
-        "@value": "right atrium"
+        "@value": "fasciculus atrioventricularis"
       },
       {
-        "@value": "heart right atrium"
+        "@value": "bundle of His"
+      },
+      {
+        "@value": "atrioventricular bundle muscle tissue"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
-        "@value": "UBERON:0002078"
+        "@value": "UBERON:0002353"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "right cardiac atrium"
+        "@value": "atrioventricular bundle"
       }
     ],
     "parent": [
       {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0035554"
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0004146"
       }
     ]
   },
@@ -6314,60 +6279,37 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0005484",
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002078",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "leaflet of tricuspid valve"
+        "@value": "heart right atrium"
       },
       {
-        "@value": "tricuspid valve leaflet"
+        "@value": "cardiac right atrium"
       },
       {
-        "@value": "tricuspid valve leaflets"
+        "@value": "right cardiac atrium"
       },
       {
-        "@value": "tricuspid valvular leaflet"
+        "@value": "right atrium of heart"
+      },
+      {
+        "@value": "right atrium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
-        "@value": "UBERON:0005484"
+        "@value": "UBERON:0002078"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "tricuspid valve leaflet"
+        "@value": "right cardiac atrium"
       }
     ],
     "parent": [
       {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0002134"
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0036285",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "pared del ventrC-culo izquierdo@es"
-      },
-      {
-        "@value": "left ventricular wall"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0036285"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "wall of left ventricle"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0002084"
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0035554"
       }
     ]
   },
@@ -6391,6 +6333,64 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001231"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005484",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "tricuspid valve leaflet"
+      },
+      {
+        "@value": "leaflet of tricuspid valve"
+      },
+      {
+        "@value": "tricuspid valvular leaflet"
+      },
+      {
+        "@value": "tricuspid valve leaflets"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0005484"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "tricuspid valve leaflet"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002134"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0036285",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "left ventricular wall"
+      },
+      {
+        "@value": "pared del ventrC-culo izquierdo@es"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0036285"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "wall of left ventricle"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002084"
       }
     ]
   },
@@ -6488,13 +6488,13 @@
         "@value": "left ventricle of heart"
       },
       {
-        "@value": "cardiac left ventricle"
-      },
-      {
         "@value": "left cardiac ventricle"
       },
       {
         "@value": "left ventricle"
+      },
+      {
+        "@value": "cardiac left ventricle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6543,6 +6543,24 @@
     ]
   },
   {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005137",
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0005137"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "metanephric capsule"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002015"
+      }
+    ]
+  },
+  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004739",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
@@ -6566,34 +6584,16 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0005137",
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0005137"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "metanephric capsule"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0002015"
-      }
-    ]
-  },
-  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0014388",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "epithelium of renal collecting tubule"
-      },
       {
         "@value": "epithelium of collecting duct of renal tubule"
       },
       {
         "@value": "collecting duct of renal tubule epithelium"
+      },
+      {
+        "@value": "epithelium of renal collecting tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6634,10 +6634,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005164",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "ascending limb of Henle's loop"
+        "@value": "loop of Henle ascending limb"
       },
       {
-        "@value": "loop of Henle ascending limb"
+        "@value": "ascending limb of Henle's loop"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6683,16 +6683,16 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005993",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "fibrous ring of pulmonary valve"
-      },
-      {
-        "@value": "anulus of pulmonary valve"
+        "@value": "pulmonary valvar anulus"
       },
       {
         "@value": "pulmonary anulus"
       },
       {
-        "@value": "pulmonary valvar anulus"
+        "@value": "fibrous ring of pulmonary valve"
+      },
+      {
+        "@value": "anulus of pulmonary valve"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6715,19 +6715,19 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005992",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "cusp of pulmonary valve"
-      },
-      {
         "@value": "pulmonary semilunar valvule"
-      },
-      {
-        "@value": "semilunar cusp of pulmonary valve"
       },
       {
         "@value": "pulmonary valvular cusp"
       },
       {
         "@value": "semilunar valvule of pulmonary valve"
+      },
+      {
+        "@value": "cusp of pulmonary valve"
+      },
+      {
+        "@value": "semilunar cusp of pulmonary valve"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6791,6 +6791,24 @@
     ]
   },
   {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005111",
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0005111"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "metanephric pyramid"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0004200"
+      }
+    ]
+  },
+  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0018115",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
@@ -6813,24 +6831,6 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001224"
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0005111",
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0005111"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "metanephric pyramid"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0004200"
       }
     ]
   },
@@ -6910,10 +6910,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0034704",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "left ventricle proper"
+        "@value": "inflow part of left ventricle"
       },
       {
-        "@value": "inflow part of left ventricle"
+        "@value": "left ventricle proper"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7144,52 +7144,52 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004784",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "cardiac ventricle wall"
-      },
-      {
-        "@value": "wall of ventricle of heart"
-      },
-      {
-        "@value": "anatomical wall of heart ventricle"
-      },
-      {
-        "@value": "wall of heart ventricle"
-      },
-      {
-        "@value": "wall of lower chamber of heart"
-      },
-      {
         "@value": "ventricle of heart wall"
-      },
-      {
-        "@value": "lower chamber of heart wall"
-      },
-      {
-        "@value": "cardiac ventricle anatomical wall"
-      },
-      {
-        "@value": "ventricular wall"
-      },
-      {
-        "@value": "lower chamber of heart anatomical wall"
-      },
-      {
-        "@value": "anatomical wall of lower chamber of heart"
-      },
-      {
-        "@value": "wall of cardiac ventricle"
-      },
-      {
-        "@value": "heart ventricle anatomical wall"
       },
       {
         "@value": "anatomical wall of cardiac ventricle"
       },
       {
+        "@value": "lower chamber of heart anatomical wall"
+      },
+      {
         "@value": "ventricle of heart anatomical wall"
       },
       {
+        "@value": "cardiac ventricle wall"
+      },
+      {
+        "@value": "cardiac ventricle anatomical wall"
+      },
+      {
+        "@value": "anatomical wall of lower chamber of heart"
+      },
+      {
+        "@value": "anatomical wall of heart ventricle"
+      },
+      {
+        "@value": "heart ventricle anatomical wall"
+      },
+      {
+        "@value": "wall of heart ventricle"
+      },
+      {
+        "@value": "lower chamber of heart wall"
+      },
+      {
+        "@value": "wall of cardiac ventricle"
+      },
+      {
+        "@value": "wall of lower chamber of heart"
+      },
+      {
         "@value": "anatomical wall of ventricle of heart"
+      },
+      {
+        "@value": "wall of ventricle of heart"
+      },
+      {
+        "@value": "ventricular wall"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7212,10 +7212,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005623",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "semilunar valves"
+        "@value": "semilunar valve"
       },
       {
-        "@value": "semilunar valve"
+        "@value": "semilunar valves"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7238,10 +7238,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001227",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "calices renales minores"
+        "@value": "minor calix"
       },
       {
-        "@value": "minor calix"
+        "@value": "calices renales minores"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7367,13 +7367,13 @@
         "@value": "myofibra conducens cardiacus"
       },
       {
-        "@value": "cardiac Purkinje fiber"
+        "@value": "subendocardial branch"
       },
       {
         "@value": "Purkinje fiber"
       },
       {
-        "@value": "subendocardial branch"
+        "@value": "cardiac Purkinje fiber"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7409,16 +7409,16 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004491",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "interatrial septum muscle"
-      },
-      {
         "@value": "interatrial septum myocardium"
       },
       {
-        "@value": "interatrial septum heart muscle"
+        "@value": "interatrial septum muscle"
       },
       {
         "@value": "interatrial septum cardiac muscle tissue"
+      },
+      {
+        "@value": "interatrial septum heart muscle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7500,13 +7500,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004211",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "epithelium of nephron"
-      },
-      {
         "@value": "nephron epithelial tissue"
       },
       {
         "@value": "epithelial tissue of nephron"
+      },
+      {
+        "@value": "epithelium of nephron"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7593,64 +7593,6 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0006194",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "right renal sinus"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0006194"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "renal sinus of right kidney"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0006171"
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0004193",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "ascending thin limb"
-      },
-      {
-        "@value": "thin ascending limb"
-      },
-      {
-        "@value": "ascending limb thin segment of loop of Henle"
-      },
-      {
-        "@value": "thin ascending limb of loop of Henle"
-      },
-      {
-        "@value": "pars ascendens (tubulus attenuatus)"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0004193"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "loop of Henle ascending limb thin segment"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0003455"
-      }
-    ]
-  },
-  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002094",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
@@ -7677,6 +7619,64 @@
     ]
   },
   {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0004193",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "pars ascendens (tubulus attenuatus)"
+      },
+      {
+        "@value": "thin ascending limb of loop of Henle"
+      },
+      {
+        "@value": "ascending limb thin segment of loop of Henle"
+      },
+      {
+        "@value": "ascending thin limb"
+      },
+      {
+        "@value": "thin ascending limb"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0004193"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "loop of Henle ascending limb thin segment"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0003455"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0006194",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "right renal sinus"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0006194"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "renal sinus of right kidney"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0006171"
+      }
+    ]
+  },
+  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005146",
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
@@ -7698,28 +7698,28 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005956",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "LVOT"
+        "@value": "left ventricular outflow"
       },
       {
         "@value": "heart left ventricle outflow tract"
       },
       {
-        "@value": "Sibson vestibule"
-      },
-      {
-        "@value": "left ventricular outflow"
+        "@value": "LVOT"
       },
       {
         "@value": "outflow tract of left ventricle"
+      },
+      {
+        "@value": "Sibson vestibule"
+      },
+      {
+        "@value": "vestibulum aortae"
       },
       {
         "@value": "left ventricular outflow tract"
       },
       {
         "@value": "aortic vestibule"
-      },
-      {
-        "@value": "vestibulum aortae"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7765,13 +7765,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001225",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
+        "@value": "kidney cortex"
+      },
+      {
         "@value": "cortex renalis"
       },
       {
         "@value": "renal cortex"
-      },
-      {
-        "@value": "kidney cortex"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7787,6 +7787,29 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0008987"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0016514",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "left ventricular cavity"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0016514"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "cavity of left ventricle"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002084"
       }
     ]
   },
@@ -7813,29 +7836,6 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001294"
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0016514",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "left ventricular cavity"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0016514"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "cavity of left ventricle"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0002084"
       }
     ]
   },
@@ -7902,13 +7902,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0014854",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
+        "@value": "anterior mitral leaflet"
+      },
+      {
+        "@value": "greater leaflet of mitral valve"
+      },
+      {
         "@value": "anteromedial leaflet of mitral valve"
-      },
-      {
-        "@value": "aortic leaflet of mitral valve"
-      },
-      {
-        "@value": "septal leaflet of mitral valve"
       },
       {
         "@value": "cuspis anterior valvae atrioventricularis sinistri"
@@ -7917,13 +7917,13 @@
         "@value": "anterior cusp of mitral valve"
       },
       {
-        "@value": "greater leaflet of mitral valve"
+        "@value": "aortic leaflet of mitral valve"
+      },
+      {
+        "@value": "septal leaflet of mitral valve"
       },
       {
         "@value": "aortic leaflet of the left-sided mitral valve"
-      },
-      {
-        "@value": "anterior mitral leaflet"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7967,10 +7967,10 @@
         "@value": "right atrium auricular region heart muscle"
       },
       {
-        "@value": "right auricular region myocardium"
+        "@value": "cardiac muscle of right auricular region"
       },
       {
-        "@value": "cardiac muscle of right auricular region"
+        "@value": "right auricular region myocardium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8011,16 +8011,16 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004196",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "S1 portion of tubule"
-      },
-      {
         "@value": "S1 portion of renal tubule"
       },
       {
-        "@value": "proximal tubule segment 1"
+        "@value": "S1 portion of tubule"
       },
       {
         "@value": "segment 1 of proximal tubule"
+      },
+      {
+        "@value": "proximal tubule segment 1"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8061,10 +8061,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0009883",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "Ferrein's pyramid"
+        "@value": "renal medullary ray"
       },
       {
-        "@value": "renal medullary ray"
+        "@value": "Ferrein's pyramid"
       },
       {
         "@value": "kidney medullary ray"
@@ -8108,19 +8108,19 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004190",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "renal glomerulus vascular network"
+        "@value": "vascular network of renal glomerulus"
       },
       {
-        "@value": "vasculature of renal glomerulus"
+        "@value": "renal glomerulus vasculature"
+      },
+      {
+        "@value": "renal glomerulus vascular network"
       },
       {
         "@value": "glomerulus vasculature"
       },
       {
-        "@value": "vascular network of renal glomerulus"
-      },
-      {
-        "@value": "renal glomerulus vasculature"
+        "@value": "vasculature of renal glomerulus"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8143,13 +8143,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004154",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "interatrial septum primum"
-      },
-      {
         "@value": "septum primum"
       },
       {
         "@value": "atrial septum primum"
+      },
+      {
+        "@value": "interatrial septum primum"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8213,10 +8213,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005965",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "main part of right atrium"
+        "@value": "outflow tract of right atrium"
       },
       {
-        "@value": "outflow tract of right atrium"
+        "@value": "main part of right atrium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8236,24 +8236,6 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0006373",
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0006373"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "perihilar interstitium"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0001224"
-      }
-    ]
-  },
-  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005127",
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
@@ -8268,6 +8250,24 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001291"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0006373",
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0006373"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "perihilar interstitium"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001224"
       }
     ]
   },
@@ -8298,16 +8298,16 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0008404",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "proximale tubular epithelium"
-      },
-      {
-        "@value": "epithelium of proximal convoluted tubule"
-      },
-      {
         "@value": "epithelium of proximal renal tubule"
       },
       {
         "@value": "proximal renal tubule epithelium"
+      },
+      {
+        "@value": "proximale tubular epithelium"
+      },
+      {
+        "@value": "epithelium of proximal convoluted tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8350,35 +8350,6 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0034703",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "main part of right ventricle"
-      },
-      {
-        "@value": "inflow part of right ventricle"
-      },
-      {
-        "@value": "right ventricle proper"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0034703"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "inflow tract of right ventricle"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0002080"
-      }
-    ]
-  },
-  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001290",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
@@ -8408,13 +8379,42 @@
     ]
   },
   {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0034703",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "inflow part of right ventricle"
+      },
+      {
+        "@value": "right ventricle proper"
+      },
+      {
+        "@value": "main part of right ventricle"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0034703"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "inflow tract of right ventricle"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002080"
+      }
+    ]
+  },
+  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005485",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "inferior vena cava valve"
+        "@value": "eustachean valve"
       },
       {
-        "@value": "eustachean valve"
+        "@value": "inferior vena cava valve"
       },
       {
         "@value": "eustachian valve"
@@ -8463,10 +8463,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004146",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "His-Purkinji network"
+        "@value": "HPS"
       },
       {
-        "@value": "HPS"
+        "@value": "His-Purkinji network"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8489,13 +8489,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004134",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
+        "@value": "renal proximal tubule"
+      },
+      {
         "@value": "proximal kidney tubule"
       },
       {
         "@value": "kidney proximal tubule"
-      },
-      {
-        "@value": "renal proximal tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8518,19 +8518,19 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004639",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "afferent glomerular arteriole of kidney"
-      },
-      {
         "@value": "kidney afferent arteriole"
       },
       {
-        "@value": "arteriola glomerularis afferens renis"
+        "@value": "afferent glomerular arteriole"
+      },
+      {
+        "@value": "afferent glomerular arteriole of kidney"
       },
       {
         "@value": "afferent arteriole"
       },
       {
-        "@value": "afferent glomerular arteriole"
+        "@value": "arteriola glomerularis afferens renis"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8589,19 +8589,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004776",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "inner medulla of kidney vasa recta"
-      },
-      {
-        "@value": "set of inner region of renal pyramids vasa recta"
-      },
-      {
-        "@value": "vasa recta of inner medulla of kidney"
+        "@value": "vasa recta of inner zone of renal medulla"
       },
       {
         "@value": "vasa recta of inner renal medulla"
-      },
-      {
-        "@value": "inner zone of medulla of kidney vasa recta"
       },
       {
         "@value": "vasa recta of set of inner region of renal pyramids"
@@ -8610,10 +8601,19 @@
         "@value": "vasa recta of inner zone of medulla of kidney"
       },
       {
-        "@value": "vasa recta of inner zone of renal medulla"
+        "@value": "inner zone of medulla of kidney vasa recta"
+      },
+      {
+        "@value": "set of inner region of renal pyramids vasa recta"
       },
       {
         "@value": "inner zone of renal medulla vasa recta"
+      },
+      {
+        "@value": "inner medulla of kidney vasa recta"
+      },
+      {
+        "@value": "vasa recta of inner medulla of kidney"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8695,13 +8695,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0007182",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "muscle layer of infundibulum of fallopian tube"
+        "@value": "muscularis of infundibulum of uterine tube"
       },
       {
         "@value": "muscle layer of infundibulum of oviduct"
       },
       {
-        "@value": "muscularis of infundibulum of uterine tube"
+        "@value": "muscle layer of infundibulum of fallopian tube"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8778,10 +8778,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004200",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "Malpighian pyramid"
+        "@value": "renal pyramid"
       },
       {
-        "@value": "renal pyramid"
+        "@value": "Malpighian pyramid"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8931,19 +8931,19 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0006376",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "kidney medulla loop of Henle ascending limb thick segment"
+        "@value": "renal medulla loop of Henle ascending limb thick segment"
       },
       {
         "@value": "distal straight tubule premacula segment"
       },
       {
-        "@value": "medullary thick ascending limb of Henle's loop"
-      },
-      {
         "@value": "renal medulla thick ascending limb"
       },
       {
-        "@value": "renal medulla loop of Henle ascending limb thick segment"
+        "@value": "kidney medulla loop of Henle ascending limb thick segment"
+      },
+      {
+        "@value": "medullary thick ascending limb of Henle's loop"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8966,10 +8966,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0015128",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "subepicardial connective tissue"
+        "@value": "perimysial connective tissue of subepicardium"
       },
       {
-        "@value": "perimysial connective tissue of subepicardium"
+        "@value": "subepicardial connective tissue"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9036,10 +9036,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0006567",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "myocardium of right ventricle"
+        "@value": "right ventricular myocardium"
       },
       {
-        "@value": "right ventricular myocardium"
+        "@value": "myocardium of right ventricle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9101,10 +9101,10 @@
         "@value": "mesothelium of pericardium"
       },
       {
-        "@value": "pericardial mesothelium"
+        "@value": "serous pericardium mesothelium"
       },
       {
-        "@value": "serous pericardium mesothelium"
+        "@value": "pericardial mesothelium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9150,10 +9150,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005168",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "venae interlobulares renis"
+        "@value": "interlobular vein"
       },
       {
-        "@value": "interlobular vein"
+        "@value": "venae interlobulares renis"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9173,19 +9173,37 @@
     ]
   },
   {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0006192",
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0006192"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "mesonephric proximal tubule"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0004134"
+      }
+    ]
+  },
+  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004754",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "foramen ovale cordis"
-      },
-      {
-        "@value": "ostium secundum of Born"
+        "@value": "falx septi"
       },
       {
         "@value": "Bottalo's foramen"
       },
       {
-        "@value": "falx septi"
+        "@value": "ostium secundum of Born"
+      },
+      {
+        "@value": "foramen ovale cordis"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9201,24 +9219,6 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002085"
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0006192",
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0006192"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "mesonephric proximal tubule"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0004134"
       }
     ]
   },
@@ -9273,13 +9273,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004227",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "kidney pelvis smooth muscle"
-      },
-      {
         "@value": "smooth muscle tissue of renal pelvis"
       },
       {
         "@value": "renal pelvis smooth muscle"
+      },
+      {
+        "@value": "kidney pelvis smooth muscle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9320,19 +9320,25 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004788",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "pelvis of ureter uroepithelium"
+        "@value": "renal pelvis uroepithelium"
       },
       {
-        "@value": "transitional epithelium of kidney pelvis"
-      },
-      {
-        "@value": "renal pelvis transitional epithelium"
+        "@value": "urothelium of kidney pelvis"
       },
       {
         "@value": "kidney pelvis transitional epithelium"
       },
       {
-        "@value": "renal pelvis urothelium"
+        "@value": "transitional epithelium of kidney pelvis"
+      },
+      {
+        "@value": "transitional epithelium of renal pelvis"
+      },
+      {
+        "@value": "pelvis of ureter uroepithelium"
+      },
+      {
+        "@value": "urothelium of pelvis of ureter"
       },
       {
         "@value": "uroepithelium of renal pelvis"
@@ -9341,28 +9347,22 @@
         "@value": "pelvis of ureter urothelium"
       },
       {
-        "@value": "urothelium of kidney pelvis"
+        "@value": "uroepithelium of kidney pelvis"
+      },
+      {
+        "@value": "urothelium of renal pelvis"
       },
       {
         "@value": "uroepithelium of pelvis of ureter"
       },
       {
-        "@value": "transitional epithelium of renal pelvis"
+        "@value": "renal pelvis transitional epithelium"
       },
       {
-        "@value": "uroepithelium of kidney pelvis"
+        "@value": "renal pelvis urothelium"
       },
       {
         "@value": "kidney pelvis uroepithelium"
-      },
-      {
-        "@value": "urothelium of pelvis of ureter"
-      },
-      {
-        "@value": "renal pelvis uroepithelium"
-      },
-      {
-        "@value": "urothelium of renal pelvis"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9385,13 +9385,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0000467",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "organ system"
+        "@value": "connected anatomical system"
       },
       {
         "@value": "body system"
       },
       {
-        "@value": "connected anatomical system"
+        "@value": "organ system"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9435,10 +9435,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0016509",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "right ventricular cavity"
+        "@value": "right ventricle lumen"
       },
       {
-        "@value": "right ventricle lumen"
+        "@value": "right ventricular cavity"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9520,10 +9520,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001496",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "ascending thoracic aorta"
+        "@value": "pars ascendens aortae"
       },
       {
-        "@value": "pars ascendens aortae"
+        "@value": "ascending thoracic aorta"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9582,10 +9582,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005788",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "internal layer of glomerular basement membrane"
+        "@value": "lamina interna of glomerular basement membrane"
       },
       {
-        "@value": "lamina interna of glomerular basement membrane"
+        "@value": "internal layer of glomerular basement membrane"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9608,10 +9608,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0009095",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "papillary tips"
+        "@value": "papillary tip"
       },
       {
-        "@value": "papillary tip"
+        "@value": "papillary tips"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9640,10 +9640,10 @@
         "@value": "cardiac septum heart muscle"
       },
       {
-        "@value": "cardiac septum muscle"
+        "@value": "cardiac septum cardiac muscle tissue"
       },
       {
-        "@value": "cardiac septum cardiac muscle tissue"
+        "@value": "cardiac septum muscle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9659,6 +9659,24 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002099"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005063",
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0005063"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "left ventricular compact myocardium"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0006566"
       }
     ]
   },
@@ -9689,20 +9707,20 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0005063",
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005121",
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
-        "@value": "UBERON:0005063"
+        "@value": "UBERON:0005121"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "left ventricular compact myocardium"
+        "@value": "metanephric long descending thin limb bend"
       }
     ],
     "parent": [
       {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0006566"
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0004206"
       }
     ]
   },
@@ -9725,31 +9743,13 @@
     ]
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0005121",
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0005121"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "metanephric long descending thin limb bend"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0004206"
-      }
-    ]
-  },
-  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0000946",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "valve of heart"
+        "@value": "heart valve"
       },
       {
-        "@value": "heart valve"
+        "@value": "valve of heart"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9798,10 +9798,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002135",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "valva atrioventricularis sinistra"
+        "@value": "left atrioventricular valve"
       },
       {
-        "@value": "left atrioventricular valve"
+        "@value": "valva atrioventricularis sinistra"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9883,6 +9883,24 @@
     ]
   },
   {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0010189",
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0010189"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "right atrium venous valve"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005208"
+      }
+    ]
+  },
+  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001514",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
@@ -9902,24 +9920,6 @@
     "parent": [
       {
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005800"
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0010189",
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0010189"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "right atrium venous valve"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0005208"
       }
     ]
   },
@@ -9948,16 +9948,16 @@
         "@value": "descending thin limb of loop of Henle"
       },
       {
-        "@value": "thin descending limb"
-      },
-      {
-        "@value": "loop of Henle thin descending limb"
+        "@value": "loop of Henle descending thin limb"
       },
       {
         "@value": "pars descendens (tubulus attenuatus)"
       },
       {
-        "@value": "loop of Henle descending thin limb"
+        "@value": "loop of Henle thin descending limb"
+      },
+      {
+        "@value": "thin descending limb"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9998,25 +9998,25 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004666",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "pars membranacea (septi interventricularis)"
-      },
-      {
         "@value": "membranous part interventricular septum"
       },
       {
         "@value": "membranous portion of interventricular septum"
       },
       {
-        "@value": "cardiac ventricular membranous septum"
-      },
-      {
         "@value": "membranous interventricular septum"
       },
       {
-        "@value": "pars membranacea septi interventricularis"
+        "@value": "pars membranacea (septi interventricularis)"
+      },
+      {
+        "@value": "cardiac ventricular membranous septum"
       },
       {
         "@value": "membranous part of interventricular septum"
+      },
+      {
+        "@value": "pars membranacea septi interventricularis"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -10093,10 +10093,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0007181",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "serosa of infundibulum of oviduct"
+        "@value": "serosa of infundibulum of fallopian tube"
       },
       {
-        "@value": "serosa of infundibulum of fallopian tube"
+        "@value": "serosa of infundibulum of oviduct"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -10137,13 +10137,13 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005211",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "kidney medulla interstitium"
+        "@value": "renal medullary interstitium"
       },
       {
         "@value": "renal medullary interstitial tissue"
       },
       {
-        "@value": "renal medullary interstitium"
+        "@value": "kidney medulla interstitium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -10212,10 +10212,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004136",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "renal intermediate tubule"
+        "@value": "tubulus attenuatus"
       },
       {
-        "@value": "tubulus attenuatus"
+        "@value": "renal intermediate tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -10256,10 +10256,10 @@
     "@id": "http://purl.obolibrary.org/obo/UBERON_0009650",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "renal cortex proper"
+        "@value": "renal cortical arch"
       },
       {
-        "@value": "renal cortical arch"
+        "@value": "renal cortex proper"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
