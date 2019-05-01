@@ -78,4 +78,4 @@ If there's not a setting in the file, please create a ticket for this and we can
 
 ## Visualization
 
-Visualization of the partonomy tree can be found [here](https://vega.github.io/editor/#/gist/vega/bherr2/542482aea690cea2a299f5153aa212eb/90ac7717b3500f84b163ff16c8c2bb83f9d90ce1/hubmap-partonomy.vg.json/view)
+Visualization of the partonomy tree can be found [here](https://vega.github.io/editor/#/gist/vega/bherr2/542482aea690cea2a299f5153aa212eb/2e98dc9e351985112e9de8b7a15d5e47c3926001/hubmap-partonomy.vg.json/view)
