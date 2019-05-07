@@ -1,5 +1,5 @@
-owl_filename: slim.ttl
-owl_filetype: turtle
+owl_filename: ../ontologies/slim.owl
+owl_filetype: pretty-xml
 ccf_input_filename: input_data/ccf_input_terms.csv
 cell_type_input_filename: input_data/cell_type_input_terms.csv
 ignore_terms: input_data/ignore.csv
