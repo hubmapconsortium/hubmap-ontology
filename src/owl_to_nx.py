@@ -30,7 +30,7 @@ ontologies_string = "ontologies"
 
 o = load_ontology(owl_settings_dict["ontologies"]["UBERON_filename"])
 #o_cl = load_ontology(owl_settings_dict["ontologies"]["CL_filename"]) # Load CL
-o_graph = ontotree()
+o_graph = ontotree.ontotree()
 o_graph.load_terms(owl_settings_dict)
 o_graph.create_graph(o)
 o_graph.write_ont(o,owl_settings_dict, 0) # Write ontology
