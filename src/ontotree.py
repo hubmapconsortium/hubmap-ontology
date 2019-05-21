@@ -68,19 +68,21 @@ class ontotree:
     def load_terms(self, owl_settings_dict):
         """Load terms from the list of input terms and terms to ignore"""
         # Load nodes and root nodes
-        ccf_df = pd.read_csv("input_data/ccf_input_terms.csv")
-        ccf_df = ccf_df[ccf_df['Ontology ID'].notnull()] # Filter out nulls
-        ccf_df = ccf_df[~ccf_df['Ontology ID'].str.startswith("fma")] # Filter out fma only terms
-        self.node_ids = list(ccf_df['Ontology ID'])
-        self.ancestor_nodes = list(ccf_df['Parent ID'])
-        self.descendants = list(ccf_df['Descendants'])
-        self.root_nodes = set(ccf_df['Parent ID'])
-
+        self.ccf_df = pd.read_csv(owl_settings_dict["ccf_input_filename"])
+        self.ccf_df = self.ccf_df[self.ccf_df['Ontology ID'].notnull()] # Filter out nulls
+        self.ccf_df = self.ccf_df[~self.ccf_df['Ontology ID'].str.startswith("fma")] # Filter out fma only terms
+        self.load_node_genealogy()
         # terms to ignore
         ignore_df = pd.read_csv(owl_settings_dict["ignore_terms"])
         self.ignore_node_list = list(ignore_df[ignore_df['Node Type'] == "node"]["Name"])
         self.ignore_property_list = list(ignore_df[ignore_df['Node Type'] == "property"]["Name"])
-
+        
+    def load_node_genealogy(self):
+        """Loads terms from the list of input terms related to the nodes, ancestors, descendants, and root nodes"""
+        self.node_ids = list(self.ccf_df['Ontology ID'])
+        self.ancestor_nodes = list(self.ccf_df['Parent ID'])
+        self.descendants = list(self.ccf_df['Descendants'])
+        self.root_nodes = set(self.ccf_df['Parent ID'])
 
     def create_graph(self,o):
         """Create the graph of the ontology and its processed form.
@@ -128,6 +130,20 @@ class ontotree:
             equivalentClass_list = list(onto_class.rdflib_graph.objects(predicate=self.equivalent_class))
 
 
+        # Find nodes to be ignored because they are not in the graph
+        node_set_search = set()
+        node_set_search |= set(self.node_ids) # Add nodes
+        available_node_set = set(g.nodes())
+        unavailable_nodes = node_set_search - available_node_set
+        if len(unavailable_nodes) > 0:
+            print("Warning. The following terms requested to be in the ontology are not located in a parent ontology:",unavailable_nodes)
+            #unavailable_indices = list()
+            #for unavailable_node in unavailable_nodes:
+            #    unavailable_indices.append(self.node_ids.index(unavailable_node))
+            #self.ccf_df = self.ccf_df.drop(unavailable_indices)
+            self.ccf_df = self.ccf_df[~self.ccf_df['Ontology ID'].isin(unavailable_nodes)]
+            self.load_node_genealogy()
+            
         # Add weights to the graph
         for edge in g.edges:
             edge_type = g.get_edge_data(*edge)['type']
