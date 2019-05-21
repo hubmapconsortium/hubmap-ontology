@@ -163,7 +163,7 @@ class ontotree:
                 continue
             root_node_simple_paths = list(nx.all_simple_paths(g,root_node,node))
             if len(root_node_simple_paths) == 0: # Error reporting from CSV file
-                print(root_node, node, self.id_label(o,root_node), self.id_label(o,node))
+                print("No simple path between root node and descandant node",root_node, node, self.id_label(o,root_node), self.id_label(o,node))
             for path in root_node_simple_paths:
                 for i in range(len(path)-1):
                     g.get_edge_data(path[i],path[i+1])['weight'] += 500
