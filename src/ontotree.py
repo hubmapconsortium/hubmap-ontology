@@ -105,7 +105,7 @@ class ontotree:
                 g.add_edge(onto_class.locale, parent.locale, type=self.subclassof_string)
 
                 for instance in onto_class.instances:
-                    start_url, fragment = urldefrag(instance)
+                    start_url, fragment = urldefrag(instance.uri) #Possibly remove .uri
                     g.add_edge(fragment, onto_class.locale, type=self.classassertion_string)
 
         # Check later if reversal is still necessary
