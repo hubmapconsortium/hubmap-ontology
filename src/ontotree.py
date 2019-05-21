@@ -47,7 +47,7 @@ class ontotree:
         self.part_of_hubmap_triple_tuple = (self.part_of_hubmap, self.subclassof_rdf, self.part_of) 
 
     # Take ontology class and get its label
-    def class_label(onto_class):
+    def class_label(self, onto_class):
         """Take an Ontospy class and return its label"""
         label_rdf = rdflib.term.URIRef('http://www.w3.org/2000/01/rdf-schema#label')
         label_info = list(onto_class.rdflib_graph.subject_objects(predicate=label_rdf))
@@ -61,7 +61,7 @@ class ontotree:
     # Take the ontology ID and get its label
     #def node_label(g,o, id):
     #    return class_label(o.get_class(list(g.nodes)
-    def id_label(o, ont_id):
+    def id_label(self, o, ont_id):
         """Take the ontology ID and return its label"""
         return self.class_label(o.get_class(ont_id)[0])
 
