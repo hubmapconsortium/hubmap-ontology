@@ -1,0 +1,20 @@
+owl_filename: ../ontologies/slim_ktao.owl
+owl_filetype: pretty-xml
+ccf_input_filename: input_data/ktao_test_input_terms.csv
+cell_type_input_filename: input_data/cell_type_input_terms.csv
+ignore_terms: input_data/ignore_ktao.csv
+dot_files:
+    entire_ontology: True
+    root_nodes: True
+    non_leaf_nodes: True
+ontologies:
+    UBERON_filename: input_data/ktao-merged_201812.owl
+    CL_filename: cl.owl
+partonomy:
+    path: ../ontologies/partonomy/
+    filename_base: ktao_partonomy
+    filename_suffix: .owl
+    filetype: pretty-xml
+    json_suffix: .jsonld
+    json_type: json-ld
+    
