@@ -204,7 +204,7 @@ class ontotree:
         max_g_slim_large.remove_edges_from(ignore_edges)
 
 
-        # Remove everything coming into the kidney
+        # Remove everything coming into the root node
         in_edges_list = []
         cutting_nodes = []
         root_node_cut = False # This needs to become a settings parameter
