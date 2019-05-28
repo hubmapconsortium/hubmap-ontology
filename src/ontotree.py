@@ -439,45 +439,47 @@ class ontotree:
 
         #o_slim.all_classes = sorted(o_slim.all_classes, key=lambda x: x.qname)
 
-        # Add print out of the properties as well
-        for o_property in o.all_properties:
-            o_property_graph = copy.deepcopy(o_property.rdflib_graph)
-            # Check to see if any UBERON terms have been added
-            removal_property_list = []
-            for o_property_triple in o_property_graph:
-                for triple_part in o_property_triple:
-                    match_object = re.match("http://purl.obolibrary.org/obo/",str(triple_part.encode())[2:-1])
-                    if match_object:
-                        check_label = match_object.string[match_object.end():]
-                        if (re.match("UBERON",check_label) and check_label not in self.max_g_slim) or check_label in self.ignore_property_list: # Remove any terms that are on the ignore list
-                            removal_property_list.extend([o_property_triple])
-            for removal_property in removal_property_list:
-                o_property_graph.remove(removal_property)
-            o_slim_rdf_graph += o_property_graph
+        #If we are not working with the partonomy
+        if partonomy == 0:
+            # Add print out of the properties as well
+            for o_property in o.all_properties:
+                o_property_graph = copy.deepcopy(o_property.rdflib_graph)
+                # Check to see if any UBERON terms have been added
+                removal_property_list = []
+                for o_property_triple in o_property_graph:
+                    for triple_part in o_property_triple:
+                        match_object = re.match("http://purl.obolibrary.org/obo/",str(triple_part.encode())[2:-1])
+                        if match_object:
+                            check_label = match_object.string[match_object.end():]
+                            if (re.match("UBERON",check_label) and check_label not in self.max_g_slim) or check_label in self.ignore_property_list: # Remove any terms that are on the ignore list
+                                removal_property_list.extend([o_property_triple])
+                for removal_property in removal_property_list:
+                    o_property_graph.remove(removal_property)
+                o_slim_rdf_graph += o_property_graph
 
 
-        # Now generate the string for serialization
-        s_slim = ""
-        owl_filetype = "owl_filetype"
-        if owl_filetype in owl_settings_dict:
-            serialization_format = owl_settings_dict[owl_filetype]
-        else:
-            serialization_format = "turtle"
-        osrg = o_slim_rdf_graph.serialize(format=serialization_format)
-        if isinstance(osrg, bytes):
-            osrg = osrg.decode('utf-8')
-        s_slim = osrg
-        # Write the string to a file
-        owl_filename = "owl_filename"
-        if owl_filename in owl_settings_dict:
-            slim_filename = owl_settings_dict[owl_filename]
-        else:
-            slim_filename = "slim.ttl"
-        slim_file = open(slim_filename,"w")
-        slim_file.write(s_slim)
-        slim_file.close()
+            # Now generate the string for serialization
+            s_slim = ""
+            owl_filetype = "owl_filetype"
+            if owl_filetype in owl_settings_dict:
+                serialization_format = owl_settings_dict[owl_filetype]
+            else:
+                serialization_format = "turtle"
+            osrg = o_slim_rdf_graph.serialize(format=serialization_format)
+            if isinstance(osrg, bytes):
+                osrg = osrg.decode('utf-8')
+            s_slim = osrg
+            # Write the string to a file
+            owl_filename = "owl_filename"
+            if owl_filename in owl_settings_dict:
+                slim_filename = owl_settings_dict[owl_filename]
+            else:
+                slim_filename = "slim.ttl"
+            slim_file = open(slim_filename,"w")
+            slim_file.write(s_slim)
+            slim_file.close()
 
-        if partonomy >= 1:
+        else: # We are working with the partonomy
             if partonomy == 1:
                 partonomy_serialization_format = owl_settings_dict["partonomy"]["filetype"]
                 partonomy_ttl = o_partonomy_rdf_graph.serialize(format=partonomy_serialization_format)
