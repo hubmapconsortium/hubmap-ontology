@@ -47,7 +47,7 @@ class ontotree:
         self.part_of_hubmap_triple_tuple = (self.part_of_hubmap, self.subclassof_rdf, self.part_of) 
 
     # Take ontology class and get its label
-    def class_label(onto_class):
+    def class_label(self, onto_class):
         """Take an Ontospy class and return its label"""
         label_rdf = rdflib.term.URIRef('http://www.w3.org/2000/01/rdf-schema#label')
         label_info = list(onto_class.rdflib_graph.subject_objects(predicate=label_rdf))
@@ -61,26 +61,28 @@ class ontotree:
     # Take the ontology ID and get its label
     #def node_label(g,o, id):
     #    return class_label(o.get_class(list(g.nodes)
-    def id_label(o, ont_id):
+    def id_label(self, o, ont_id):
         """Take the ontology ID and return its label"""
         return self.class_label(o.get_class(ont_id)[0])
 
     def load_terms(self, owl_settings_dict):
         """Load terms from the list of input terms and terms to ignore"""
         # Load nodes and root nodes
-        ccf_df = pd.read_csv("input_data/ccf_input_terms.csv")
-        ccf_df = ccf_df[ccf_df['Ontology ID'].notnull()] # Filter out nulls
-        ccf_df = ccf_df[~ccf_df['Ontology ID'].str.startswith("fma")] # Filter out fma only terms
-        self.node_ids = list(ccf_df['Ontology ID'])
-        self.ancestor_nodes = list(ccf_df['Parent ID'])
-        self.descendants = list(ccf_df['Descendants'])
-        self.root_nodes = set(ccf_df['Parent ID'])
-
+        self.ccf_df = pd.read_csv(owl_settings_dict["ccf_input_filename"])
+        self.ccf_df = self.ccf_df[self.ccf_df['Ontology ID'].notnull()] # Filter out nulls
+        self.ccf_df = self.ccf_df[~self.ccf_df['Ontology ID'].str.startswith("fma")] # Filter out fma only terms
+        self.load_node_genealogy()
         # terms to ignore
         ignore_df = pd.read_csv(owl_settings_dict["ignore_terms"])
         self.ignore_node_list = list(ignore_df[ignore_df['Node Type'] == "node"]["Name"])
         self.ignore_property_list = list(ignore_df[ignore_df['Node Type'] == "property"]["Name"])
-
+        
+    def load_node_genealogy(self):
+        """Loads terms from the list of input terms related to the nodes, ancestors, descendants, and root nodes"""
+        self.node_ids = list(self.ccf_df['Ontology ID'])
+        self.ancestor_nodes = list(self.ccf_df['Parent ID'])
+        self.descendants = list(self.ccf_df['Descendants'])
+        self.root_nodes = set(self.ccf_df['Parent ID'])
 
     def create_graph(self,o):
         """Create the graph of the ontology and its processed form.
@@ -103,7 +105,7 @@ class ontotree:
                 g.add_edge(onto_class.locale, parent.locale, type=self.subclassof_string)
 
                 for instance in onto_class.instances:
-                    start_url, fragment = urldefrag(instance)
+                    start_url, fragment = urldefrag(instance.uri) #Possibly remove .uri
                     g.add_edge(fragment, onto_class.locale, type=self.classassertion_string)
 
         # Check later if reversal is still necessary
@@ -128,6 +130,20 @@ class ontotree:
             equivalentClass_list = list(onto_class.rdflib_graph.objects(predicate=self.equivalent_class))
 
 
+        # Find nodes to be ignored because they are not in the graph
+        node_set_search = set()
+        node_set_search |= set(self.node_ids) # Add nodes
+        available_node_set = set(g.nodes())
+        unavailable_nodes = node_set_search - available_node_set
+        if len(unavailable_nodes) > 0:
+            print("Warning. The following terms requested to be in the ontology are not located in a parent ontology:",unavailable_nodes)
+            #unavailable_indices = list()
+            #for unavailable_node in unavailable_nodes:
+            #    unavailable_indices.append(self.node_ids.index(unavailable_node))
+            #self.ccf_df = self.ccf_df.drop(unavailable_indices)
+            self.ccf_df = self.ccf_df[~self.ccf_df['Ontology ID'].isin(unavailable_nodes)]
+            self.load_node_genealogy()
+            
         # Add weights to the graph
         for edge in g.edges:
             edge_type = g.get_edge_data(*edge)['type']
@@ -147,7 +163,7 @@ class ontotree:
                 continue
             root_node_simple_paths = list(nx.all_simple_paths(g,root_node,node))
             if len(root_node_simple_paths) == 0: # Error reporting from CSV file
-                print(root_node, node, self.id_label(o,root_node), self.id_label(o,node))
+                print("No simple path between root node and descandant node",root_node, node, self.id_label(o,root_node), self.id_label(o,node))
             for path in root_node_simple_paths:
                 for i in range(len(path)-1):
                     g.get_edge_data(path[i],path[i+1])['weight'] += 500
@@ -188,7 +204,7 @@ class ontotree:
         max_g_slim_large.remove_edges_from(ignore_edges)
 
 
-        # Remove everything coming into the kidney
+        # Remove everything coming into the root node
         in_edges_list = []
         cutting_nodes = []
         root_node_cut = False # This needs to become a settings parameter
@@ -423,45 +439,47 @@ class ontotree:
 
         #o_slim.all_classes = sorted(o_slim.all_classes, key=lambda x: x.qname)
 
-        # Add print out of the properties as well
-        for o_property in o.all_properties:
-            o_property_graph = copy.deepcopy(o_property.rdflib_graph)
-            # Check to see if any UBERON terms have been added
-            removal_property_list = []
-            for o_property_triple in o_property_graph:
-                for triple_part in o_property_triple:
-                    match_object = re.match("http://purl.obolibrary.org/obo/",str(triple_part.encode())[2:-1])
-                    if match_object:
-                        check_label = match_object.string[match_object.end():]
-                        if (re.match("UBERON",check_label) and check_label not in self.max_g_slim) or check_label in self.ignore_property_list: # Remove any terms that are on the ignore list
-                            removal_property_list.extend([o_property_triple])
-            for removal_property in removal_property_list:
-                o_property_graph.remove(removal_property)
-            o_slim_rdf_graph += o_property_graph
+        #If we are not working with the partonomy
+        if partonomy == 0:
+            # Add print out of the properties as well
+            for o_property in o.all_properties:
+                o_property_graph = copy.deepcopy(o_property.rdflib_graph)
+                # Check to see if any UBERON terms have been added
+                removal_property_list = []
+                for o_property_triple in o_property_graph:
+                    for triple_part in o_property_triple:
+                        match_object = re.match("http://purl.obolibrary.org/obo/",str(triple_part.encode())[2:-1])
+                        if match_object:
+                            check_label = match_object.string[match_object.end():]
+                            if (re.match("UBERON",check_label) and check_label not in self.max_g_slim) or check_label in self.ignore_property_list: # Remove any terms that are on the ignore list
+                                removal_property_list.extend([o_property_triple])
+                for removal_property in removal_property_list:
+                    o_property_graph.remove(removal_property)
+                o_slim_rdf_graph += o_property_graph
 
 
-        # Now generate the string for serialization
-        s_slim = ""
-        owl_filetype = "owl_filetype"
-        if owl_filetype in owl_settings_dict:
-            serialization_format = owl_settings_dict[owl_filetype]
-        else:
-            serialization_format = "turtle"
-        osrg = o_slim_rdf_graph.serialize(format=serialization_format)
-        if isinstance(osrg, bytes):
-            osrg = osrg.decode('utf-8')
-        s_slim = osrg
-        # Write the string to a file
-        owl_filename = "owl_filename"
-        if owl_filename in owl_settings_dict:
-            slim_filename = owl_settings_dict[owl_filename]
-        else:
-            slim_filename = "slim.ttl"
-        slim_file = open(slim_filename,"w")
-        slim_file.write(s_slim)
-        slim_file.close()
+            # Now generate the string for serialization
+            s_slim = ""
+            owl_filetype = "owl_filetype"
+            if owl_filetype in owl_settings_dict:
+                serialization_format = owl_settings_dict[owl_filetype]
+            else:
+                serialization_format = "turtle"
+            osrg = o_slim_rdf_graph.serialize(format=serialization_format)
+            if isinstance(osrg, bytes):
+                osrg = osrg.decode('utf-8')
+            s_slim = osrg
+            # Write the string to a file
+            owl_filename = "owl_filename"
+            if owl_filename in owl_settings_dict:
+                slim_filename = owl_settings_dict[owl_filename]
+            else:
+                slim_filename = "slim.ttl"
+            slim_file = open(slim_filename,"w")
+            slim_file.write(s_slim)
+            slim_file.close()
 
-        if partonomy >= 1:
+        else: # We are working with the partonomy
             if partonomy == 1:
                 partonomy_serialization_format = owl_settings_dict["partonomy"]["filetype"]
                 partonomy_ttl = o_partonomy_rdf_graph.serialize(format=partonomy_serialization_format)
