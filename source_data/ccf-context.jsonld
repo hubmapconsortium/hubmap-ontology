@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "@base": "https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#",
+    "@vocab": "https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#",
+    "ccf": "https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#",
+    "rdf": "http://www.w3.org/2000/01/rdf-schema#",
+    "obo": "http://purl.obolibrary.org/obo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+
+    "label": "rdf:label",
+    "creator": "dc:creator",
+    "representation_of": {
+      "@id": "representation_of",
+      "@type": "@id"
+    },
+    "dimensions": {
+      "@id": "has_dimensions"
+    },
+    "transformation": {
+      "@id": "has_transformation"
+    },
+    "placement": {
+      "@id": "has_placement"
+    },
+    "placementee": {
+      "@id": "has_placementee",
+      "@type": "@id"
+    },
+    "x": { 
+      "@id": "has_x",
+      "@type": "rdf:float"
+    },
+    "y": { 
+      "@id": "has_y",
+      "@type": "rdf:float"
+    },
+    "z": { 
+      "@id": "has_z",
+      "@type": "rdf:float"
+    },
+    "units": {
+      "@id": "has_units"
+    }
+  }
+}

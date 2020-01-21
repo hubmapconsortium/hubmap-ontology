@@ -1,0 +1,50 @@
+[
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#VHMale",
+    "@type": ["SpatialEntity", "owl:NamedIndividual"],
+    "label": "Visual Human Male",
+    "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
+    "representation_of": "obo:UBERON_0005172",
+    
+    "dimensions": {
+      "@id": "#VHMaleDimension",
+      "@type": "SpatialDimension",
+      "x": 123, "y": 456, "z": 789, "units": "millimeter"
+    },
+    "placement": {
+      "@id": "#VHMalePlacement",
+      "@type": "SpatialPlacement",
+      
+      "transformation": {
+        "@id": "#VHMalePlacementTransformation",
+        "@type": "SpatialTransformation"
+      },
+      "placementee": "#VHFemale"
+    }
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#VHMale",
+    "@type": ["SpatialEntity", "owl:NamedIndividual"],
+    "label": "Visual Human Male",
+    "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
+    "representation_of": "obo:UBERON_0005172",
+    
+    "dimensions": {
+      "@id": "#VHMaleDimension",
+      "@type": "SpatialDimension",
+      "x": 123, "y": 456, "z": 789, "units": "millimeter"
+    },
+    "placement": {
+      "@id": "#VHMalePlacement",
+      "@type": "SpatialPlacement",
+      
+      "transformation": {
+        "@id": "#VHMalePlacementTransformation2",
+        "@type": "SpatialTransformation"
+      },
+      "placementee": "#VHFemale"
+    }
+  }
+]
