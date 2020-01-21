@@ -141,3 +141,6 @@ node_modules
 
 # Ontology cache for partonomy generation
 source_ontologies/cache.sqlite
+
+# Sadly FMA is too big to version, you must download directly
+source_ontologies/fma.owl
