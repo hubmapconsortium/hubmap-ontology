@@ -1,0 +1,39 @@
+[
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#ExampleKidneySlice",
+    "@type": ["SpatialEntity", "owl:NamedIndividual"],
+    "label": "Example Kidney Slice",
+    "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
+    "creation_date": "2020-01-01",
+    "ccf_annotations": [
+      "obo:UBERON_123",
+      "obo:UBERON_456"
+    ],
+
+    "dimensions": {
+      "@type": "SpatialDimension",
+      "x": 1, "y": 4, "z": 7, "units": "millimeter"
+    },
+    "placement": {
+      "@type": "SpatialPlacement",
+      "placement_date": "2020-01-01",
+      "transformation": {
+        "@type": "SpatialTransformation",
+        "rotation": {
+          "@type": "SpatialDimension",
+          "x": 1, "y": 3, "z": 5, "units": "degree"
+        },
+        "translation": {
+          "@type": "SpatialDimension",
+          "x": 0.6, "y": 2, "z": 2, "units": "millimeter"
+        },
+        "scaling": {
+          "@type": "SpatialDimension",
+          "x": 1, "y": 1, "z": 1, "units": "ratio"
+        }
+      },
+      "placementee": "#VHKidney"
+    }
+  }
+]

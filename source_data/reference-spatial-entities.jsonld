@@ -5,6 +5,7 @@
     "@type": ["SpatialEntity", "owl:NamedIndividual"],
     "label": "Visual Human Male",
     "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
+    "creation_date": "2020-01-01",
     "representation_of": "obo:UBERON_0005172",
     
     "dimensions": {
@@ -39,6 +40,7 @@
     "@type": ["SpatialEntity", "owl:NamedIndividual"],
     "label": "Visual Human Male Kidney",
     "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
+    "creation_date": "2020-01-01",
     "representation_of": "obo:UBERON_0002113",
     
     "dimensions": {

@@ -10,9 +10,17 @@
 
     "label": "rdf:label",
     "creator": "dc:creator",
+    "creation_date": {
+      "@id": "creation_date"
+    },
     "representation_of": {
       "@id": "representation_of",
       "@type": "@id"
+    },
+    "ccf_annotations": {
+      "@id": "ccf_annotation",
+      "@type": "@id",
+      "@container": "@set"
     },
     "dimensions": {
       "@id": "has_dimensions"
