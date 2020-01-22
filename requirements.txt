@@ -1,3 +1,4 @@
 rdflib
 rdflib-jsonld
 Owlready2
+github-pages-publish
