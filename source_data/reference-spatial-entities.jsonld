@@ -8,43 +8,83 @@
     "representation_of": "obo:UBERON_0005172",
     
     "dimensions": {
-      "@id": "#VHMaleDimension",
       "@type": "SpatialDimension",
       "x": 123, "y": 456, "z": 789, "units": "millimeter"
     },
-    "placement": {
-      "@id": "#VHMalePlacement",
-      "@type": "SpatialPlacement",
-      
-      "transformation": {
-        "@id": "#VHMalePlacementTransformation",
-        "@type": "SpatialTransformation"
-      },
-      "placementee": "#VHFemale"
+    "object": {
+      "@type": "SpatialObjectReference",
+      "file": "http://via.placeholder.com/640x360.png",
+      "file_format": "image/png",
+      "file_subpath": "/",
+      "file_transformation": {
+        "@type": "SpatialTransformation",
+        "rotation": {
+          "@type": "SpatialDimension",
+          "x": 1, "y": 3, "z": 5, "units": "degree"
+        },
+        "translation": {
+          "@type": "SpatialDimension",
+          "x": 1, "y": 3, "z": 5, "units": "millimeter"
+        },
+        "scaling": {
+          "@type": "SpatialDimension",
+          "x": 1, "y": 1, "z": 1, "units": "ratio"
+        }
+      }
     }
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-    "@id": "#VHMale",
+    "@id": "#VHKidney",
     "@type": ["SpatialEntity", "owl:NamedIndividual"],
-    "label": "Visual Human Male",
+    "label": "Visual Human Male Kidney",
     "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
-    "representation_of": "obo:UBERON_0005172",
+    "representation_of": "obo:UBERON_0002113",
     
     "dimensions": {
-      "@id": "#VHMaleDimension",
       "@type": "SpatialDimension",
-      "x": 123, "y": 456, "z": 789, "units": "millimeter"
+      "x": 12, "y": 45, "z": 78, "units": "millimeter"
+    },
+    "object": {
+      "@type": "SpatialObjectReference",
+      "file": "http://via.placeholder.com/64x36.png",
+      "file_format": "image/png",
+      "file_subpath": "/",
+      "file_transformation": {
+        "@type": "SpatialTransformation",
+        "rotation": {
+          "@type": "SpatialDimension",
+          "x": 10, "y": 30, "z": 50, "units": "degree"
+        },
+        "translation": {
+          "@type": "SpatialDimension",
+          "x": 10, "y": 30, "z": 50, "units": "millimeter"
+        },
+        "scaling": {
+          "@type": "SpatialDimension",
+          "x": 1, "y": 1, "z": 1, "units": "ratio"
+        }
+      }
     },
     "placement": {
-      "@id": "#VHMalePlacement",
       "@type": "SpatialPlacement",
-      
+      "placement_date": "2020-01-01",
       "transformation": {
-        "@id": "#VHMalePlacementTransformation2",
-        "@type": "SpatialTransformation"
+        "@type": "SpatialTransformation",
+        "rotation": {
+          "@type": "SpatialDimension",
+          "x": 1, "y": 3, "z": 5, "units": "degree"
+        },
+        "translation": {
+          "@type": "SpatialDimension",
+          "x": 1, "y": 3, "z": 5, "units": "millimeter"
+        },
+        "scaling": {
+          "@type": "SpatialDimension",
+          "x": 1, "y": 1, "z": 1, "units": "ratio"
+        }
       },
-      "placementee": "#VHFemale"
+      "placementee": "#VHMale"
     }
   }
 ]

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import datetime
 from owlready2 import *
 from constants import CCF_NAMESPACE, CCF_MODEL
@@ -68,7 +69,7 @@ with onto:
   class has_object_file_subpath(DataProperty, FunctionalProperty):
     domain = [SpatialObjectReference]
     range = [str] # format specific internal path
-  class has_object_transformation(ObjectProperty, FunctionalProperty):
+  class has_object_file_transformation(ObjectProperty, FunctionalProperty):
     domain = [SpatialObjectReference]
     range = [SpatialTransformation]
   

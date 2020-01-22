@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from rdflib import Graph
 from constants import CCF_FULL_ONTOLOGY, CCF_MODEL, CCF_PARTONOMY_RDF, CCF_REFERENCE_ENTITIES_RDF
 

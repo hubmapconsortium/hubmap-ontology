@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import bz2, glob
 from csv import DictReader
 from owlready2 import *

@@ -42,7 +42,7 @@
   <rdfs:range rdf:resource="#SpatialTransformation"/>
 </owl:ObjectProperty>
 
-<owl:ObjectProperty rdf:about="#has_object_transformation">
+<owl:ObjectProperty rdf:about="#has_object_file_transformation">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:domain rdf:resource="#SpatialObjectReference"/>
   <rdfs:range rdf:resource="#SpatialTransformation"/>

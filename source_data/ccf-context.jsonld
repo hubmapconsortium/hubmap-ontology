@@ -17,16 +17,6 @@
     "dimensions": {
       "@id": "has_dimensions"
     },
-    "transformation": {
-      "@id": "has_transformation"
-    },
-    "placement": {
-      "@id": "has_placement"
-    },
-    "placementee": {
-      "@id": "has_placementee",
-      "@type": "@id"
-    },
     "x": { 
       "@id": "has_x",
       "@type": "rdf:float"
@@ -41,6 +31,37 @@
     },
     "units": {
       "@id": "has_units"
+    },
+    "object": {
+      "@id": "has_object_reference"
+    },
+    "file": {
+      "@id": "has_object_file"
+    },
+    "file_format": {
+      "@id": "has_object_file_format"
+    },
+    "file_subpath": {
+      "@id": "has_object_file_subpath"
+    },
+    "file_transformation": {
+      "@id": "has_object_file_transformation"
+    },
+    "rotation": {
+      "@id": "has_rotation"
+    },
+    "translation": {
+      "@id": "has_translation"
+    },
+    "scaling": {
+      "@id": "has_scaling"
+    },  
+    "placement": {
+      "@id": "has_placement"
+    },
+    "placementee": {
+      "@id": "has_placementee",
+      "@type": "@id"
     }
   }
 }

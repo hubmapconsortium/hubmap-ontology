@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import json
 from rdflib import Graph
 from constants import CCF_CONTEXT, CCF_REFERENCE_ENTITIES, CCF_REFERENCE_ENTITIES_RDF
