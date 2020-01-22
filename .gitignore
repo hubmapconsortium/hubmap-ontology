@@ -142,5 +142,5 @@ node_modules
 # Ontology cache for partonomy generation
 source_ontologies/cache.sqlite
 
-# Sadly FMA is too big to version, you must download directly
-source_ontologies/fma.owl
+# Do not version uncompressed owl files. We use the bz2 compressed versions.
+#source_ontologies/*.owl

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ccf="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#VHMalePlacement">
+    <rdf:type rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#SpatialPlacement"/>
+    <ccf:has_transformation rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#VHMalePlacementTransformation"/>
+    <ccf:has_transformation rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#VHMalePlacementTransformation2"/>
+    <ccf:has_placementee rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#VHFemale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#VHMale">
+    <ccf:representation_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
+    <rdfs:label>Visual Human Male</rdfs:label>
+    <ccf:has_placement rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#VHMalePlacement"/>
+    <dc:creator>Bruce Herr - https://orcid.org/0000-0002-6703-7647</dc:creator>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ccf:has_dimensions rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#VHMaleDimension"/>
+    <rdf:type rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#SpatialEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#VHMalePlacementTransformation">
+    <rdf:type rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#SpatialTransformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#VHMaleDimension">
+    <ccf:has_units>millimeter</ccf:has_units>
+    <ccf:has_x rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">123</ccf:has_x>
+    <rdf:type rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#SpatialDimension"/>
+    <ccf:has_y rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">456</ccf:has_y>
+    <ccf:has_z rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">789</ccf:has_z>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#VHMalePlacementTransformation2">
+    <rdf:type rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#SpatialTransformation"/>
+  </rdf:Description>
+</rdf:RDF>
