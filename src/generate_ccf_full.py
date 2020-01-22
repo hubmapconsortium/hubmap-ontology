@@ -1,7 +1,5 @@
-from constants import CCF_FULL_ONTOLOGY, CCF_MODEL, CCF_PARTONOMY_RDF, CCF_REFERENCE_ENTITIES_RDF
-
 from rdflib import Graph
-import json
+from constants import CCF_FULL_ONTOLOGY, CCF_MODEL, CCF_PARTONOMY_RDF, CCF_REFERENCE_ENTITIES_RDF
 
 
 g = Graph()

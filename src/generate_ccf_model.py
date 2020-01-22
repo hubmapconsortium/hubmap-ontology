@@ -1,7 +1,6 @@
-from constants import CCF_NAMESPACE, CCF_MODEL
-
-from owlready2 import *
 import datetime
+from owlready2 import *
+from constants import CCF_NAMESPACE, CCF_MODEL
 
 
 onto = get_ontology(CCF_NAMESPACE)
@@ -94,4 +93,3 @@ with onto:
     domain = [SpatialEntity]
 
 onto.save(file=CCF_MODEL, format='rdfxml')
-

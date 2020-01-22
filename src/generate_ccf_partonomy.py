@@ -1,9 +1,8 @@
-from constants import CCF_NAMESPACE, CCF_PARTONOMY_TERMS, CCF_PARTONOMY_RDF
-
+import bz2, glob
+from csv import DictReader
 from owlready2 import *
 from rdflib import Graph, Namespace, URIRef
-from csv import DictReader
-import bz2, glob
+from constants import CCF_NAMESPACE, CCF_PARTONOMY_TERMS, CCF_PARTONOMY_RDF
 
 
 set_log_level(1)

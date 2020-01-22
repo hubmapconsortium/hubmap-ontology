@@ -1,7 +1,6 @@
-from constants import CCF_CONTEXT, CCF_REFERENCE_ENTITIES, CCF_REFERENCE_ENTITIES_RDF
-
-from rdflib import Graph
 import json
+from rdflib import Graph
+from constants import CCF_CONTEXT, CCF_REFERENCE_ENTITIES, CCF_REFERENCE_ENTITIES_RDF
 
 
 g = Graph()
