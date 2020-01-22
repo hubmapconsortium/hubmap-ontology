@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "@base": "https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#",
+    "@vocab": "https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#",
+    "ccf": "https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#",
+    "rdf": "http://www.w3.org/2000/01/rdf-schema#",
+    "obo": "http://purl.obolibrary.org/obo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+
+    "label": "rdf:label",
+    "creator": "dc:creator",
+    "creation_date": {
+      "@id": "creation_date"
+    },
+    "representation_of": {
+      "@id": "representation_of",
+      "@type": "@id"
+    },
+    "ccf_annotations": {
+      "@id": "ccf_annotation",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "dimensions": {
+      "@id": "has_dimensions"
+    },
+    "x": { 
+      "@id": "has_x",
+      "@type": "rdf:float"
+    },
+    "y": { 
+      "@id": "has_y",
+      "@type": "rdf:float"
+    },
+    "z": { 
+      "@id": "has_z",
+      "@type": "rdf:float"
+    },
+    "units": {
+      "@id": "has_units"
+    },
+    "object": {
+      "@id": "has_object_reference"
+    },
+    "file": {
+      "@id": "has_object_file"
+    },
+    "file_format": {
+      "@id": "has_object_file_format"
+    },
+    "file_subpath": {
+      "@id": "has_object_file_subpath"
+    },
+    "file_transformation": {
+      "@id": "has_object_file_transformation"
+    },
+    "rotation": {
+      "@id": "has_rotation"
+    },
+    "translation": {
+      "@id": "has_translation"
+    },
+    "scaling": {
+      "@id": "has_scaling"
+    },  
+    "placement": {
+      "@id": "has_placement"
+    },
+    "placementee": {
+      "@id": "has_placementee",
+      "@type": "@id"
+    }
+  }
+}
