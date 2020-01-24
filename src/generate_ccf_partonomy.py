@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import bz2, glob
+import bz2, glob, json
 from csv import DictReader
 from owlready2 import *
 from rdflib import Graph, Namespace, URIRef
@@ -26,11 +26,29 @@ def get_term(term_str):
 
   return term[0] if len(term) > 0 else None
 
+def get_term_data(id, label, term, parent = None):
+  return {
+    '@id': term.iri,
+    'http://www.geneontology.org/formats/oboInOwl#hasExactSynonym': [
+      { '@value': l } for l in term.hasExactSynonym
+    ],
+    'http://www.w3.org/2000/01/rdf-schema#label': [{
+        '@value': label
+    }],
+    'http://www.geneontology.org/formats/oboInOwl#id': [{
+        '@value': id
+      }],
+    'parent': [{'@id': parent.iri}] if parent else None
+  }
+
 with open(CCF_PARTONOMY_TERMS) as in_f:
   ccf_ns = Namespace(f'{CCF_NAMESPACE}#')
   ccf_part_of = ccf_ns.ccf_part_of
   g = Graph()
   g.namespace_manager.bind('ccf', ccf_ns, override=False)
+
+  body = get_term('UBERON:0005172')
+  terms = { body.iri: get_term_data('UBERON:0005172', 'Body', body, None) }
 
   for row in DictReader(in_f):
     parent = row['Parent ID']
@@ -42,7 +60,17 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
     if child_term and parent_term:
       g.add( (URIRef(child_term.iri), ccf_part_of, URIRef(parent_term.iri)) )
 
+      child_label = row['HuBMAP Preferred Name'].strip()
+      if not child_label:
+        child_label = child_term.label
+
+      terms[child_term.iri] = get_term_data(child, child_label, child_term, parent_term)
+      if parent_term.iri not in terms:
+        parent_label = parent_term.label
+        terms[parent_term.iri] = get_term_data(parent, parent_label, parent_term, body)
+
     elif len(parent+child.strip()) > 0:
       print(f'Parent: {parent}, Child: {child}')
 
+  json.dump(list(terms.values()), open('dist/ccf-partonomy.jsonld', 'w'), indent=2)
   g.serialize(CCF_PARTONOMY_RDF, format='xml')
