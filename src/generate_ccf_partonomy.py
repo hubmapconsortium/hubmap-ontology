@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import bz2, glob, json
 from csv import DictReader
+from operator import itemgetter
 from owlready2 import *
 from rdflib import Graph, Namespace, URIRef
 from constants import CCF_NAMESPACE, CCF_PARTONOMY_TERMS, CCF_PARTONOMY_RDF
@@ -26,7 +27,7 @@ def get_term(term_str):
 
   return term[0] if len(term) > 0 else None
 
-def get_term_data(id, label, term, parent = None):
+def get_term_data(id, label, term, order, parent = None):
   return {
     '@id': term.iri,
     'http://www.geneontology.org/formats/oboInOwl#hasExactSynonym': [
@@ -38,7 +39,8 @@ def get_term_data(id, label, term, parent = None):
     'http://www.geneontology.org/formats/oboInOwl#id': [{
         '@value': id
       }],
-    'parent': [{'@id': parent.iri}] if parent else None
+    'parent': [{'@id': parent.iri}] if parent else None,
+    'order': order
   }
 
 with open(CCF_PARTONOMY_TERMS) as in_f:
@@ -48,9 +50,9 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
   g.namespace_manager.bind('ccf', ccf_ns, override=False)
 
   body = get_term('UBERON:0005172')
-  terms = { body.iri: get_term_data('UBERON:0005172', 'Body', body, None) }
+  terms = { body.iri: get_term_data('UBERON:0005172', 'Body', body, 0, None) }
 
-  for row in DictReader(in_f):
+  for order, row in enumerate(DictReader(in_f)):
     parent = row['Parent ID']
     child = row['Ontology ID']
 
@@ -64,13 +66,14 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
       if not child_label:
         child_label = child_term.label
 
-      terms[child_term.iri] = get_term_data(child, child_label, child_term, parent_term)
+      terms[child_term.iri] = get_term_data(child, child_label, child_term, order, parent_term)
       if parent_term.iri not in terms:
         parent_label = parent_term.label
-        terms[parent_term.iri] = get_term_data(parent, parent_label, parent_term, body)
+        terms[parent_term.iri] = get_term_data(parent, parent_label, parent_term, order, body)
 
     elif len(parent+child.strip()) > 0:
       print(f'Parent: {parent}, Child: {child}')
 
-  json.dump(list(terms.values()), open('dist/ccf-partonomy.jsonld', 'w'), indent=2)
+  term_list = list(sorted(terms.values(), key=itemgetter('order')))
+  json.dump(term_list, open('dist/ccf-partonomy.jsonld', 'w'), indent=2)
   g.serialize(CCF_PARTONOMY_RDF, format='xml')
