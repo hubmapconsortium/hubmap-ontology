@@ -2,10 +2,13 @@
 import bz2, glob, json
 from csv import DictReader
 from operator import itemgetter
+from os import path
 from owlready2 import *
 from rdflib import Graph, Namespace, URIRef
 from constants import CCF_NAMESPACE, CCF_PARTONOMY_TERMS, CCF_PARTONOMY_RDF
 
+
+ONTO_CACHE='source_ontologies/cache.sqlite'
 
 set_log_level(1)
 
@@ -13,8 +16,13 @@ def load_ontology(bzFile):
   return get_ontology(f'file://{bzFile}'.replace('.bz2', '')).load(fileobj=bz2.open(bzFile, 'r'))
 
 def load_ontologies():
-  for bzFile in glob.glob('source_ontologies/*.owl.bz2'):
-    load_ontology(bzFile)
+  if not path.exists(ONTO_CACHE):
+    default_world.set_backend(filename=ONTO_CACHE)
+    for bzFile in glob.glob('source_ontologies/*.owl.bz2'):
+      load_ontology(bzFile)
+    default_world.save()
+  else:
+    default_world.set_backend(filename=ONTO_CACHE)
 
 load_ontologies()
 
