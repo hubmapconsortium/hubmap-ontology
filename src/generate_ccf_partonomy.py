@@ -60,17 +60,19 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
     parent_term = get_term(parent)
 
     if child_term and parent_term:
-      g.add( (URIRef(child_term.iri), ccf_part_of, URIRef(parent_term.iri)) )
+      if child_term.iri == parent_term.iri:
+        print(f'Removed self-link: ${child}: ${child_term.iri}')
+      else:
+        g.add( (URIRef(child_term.iri), ccf_part_of, URIRef(parent_term.iri)) )
 
-      child_label = row['HuBMAP Preferred Name'].strip()
-      if not child_label:
-        child_label = child_term.label
+        child_label = row['HuBMAP Preferred Name'].strip()
+        if not child_label:
+          child_label = child_term.label
 
-      terms[child_term.iri] = get_term_data(child, child_label, child_term, order, parent_term)
-      if parent_term.iri not in terms:
-        parent_label = parent_term.label
-        terms[parent_term.iri] = get_term_data(parent, parent_label, parent_term, order, body)
-
+        terms[child_term.iri] = get_term_data(child, child_label, child_term, order, parent_term)
+        if parent_term.iri not in terms:
+          parent_label = parent_term.label
+          terms[parent_term.iri] = get_term_data(parent, parent_label, parent_term, order, body)
     elif len(parent+child.strip()) > 0:
       print(f'Parent: {parent}, Child: {child}')
 
