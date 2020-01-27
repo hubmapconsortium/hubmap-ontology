@@ -3119,28 +3119,6 @@
     "order": 81
   },
   {
-    "@id": "http://purl.org/sig/ont/fma/fma3818",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": [
-          "Marginal branch of right coronary artery"
-        ]
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "FMAID: 3818"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.org/sig/ont/fma/fma3818"
-      }
-    ],
-    "order": 82
-  },
-  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0006958",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
