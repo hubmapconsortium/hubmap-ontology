@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -rf dist
 mkdir -p dist
 
 python3 src/generate_ccf_model.py
