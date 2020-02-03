@@ -20,11 +20,373 @@
     "order": 0
   },
   {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0000468",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "multi-cellular organism"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "body"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0000468"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0010000"
+      }
+    ],
+    "order": 0
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0010000",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "multicellular structure"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "multicellular anatomical structure"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0010000"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 0
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0003100",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "female body"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0003100"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0000468"
+      }
+    ],
+    "order": 1
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0003101",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "male body"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0003101"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0000468"
+      }
+    ],
+    "order": 2
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0013701",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "main body axis"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0013701"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0000475"
+      }
+    ],
+    "order": 3
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0000475",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "anatomic region"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "organism subdivision"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0000475"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 3
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0013702",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "body proper"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0013702"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0000475"
+      }
+    ],
+    "order": 4
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002100",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "thoracolumbar region"
+      },
+      {
+        "@value": "torso"
+      },
+      {
+        "@value": "trunk region"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "trunk"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0002100"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0011676"
+      }
+    ],
+    "order": 5
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0011676",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "axial subdivision of organism"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "subdivision of organism along main body axis"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0011676"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 5
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002224",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "cavitas thoracis"
+      },
+      {
+        "@value": "cavity of chest"
+      },
+      {
+        "@value": "cavity of thorax"
+      },
+      {
+        "@value": "chest cavity"
+      },
+      {
+        "@value": "pectoral cavity"
+      },
+      {
+        "@value": "space of thoracic compartment"
+      },
+      {
+        "@value": "thoracic lumen"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "chest cavity"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0002224"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0000464"
+      }
+    ],
+    "order": 6
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0000464",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "lumen space"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "anatomical space"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0000464"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 6
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0003684",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "cavity of abdominal compartment"
+      },
+      {
+        "@value": "cavity of compartment of abdomen"
+      },
+      {
+        "@value": "space of abdominal compartment"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "abdominal cavity"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0003684"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0000464"
+      }
+    ],
+    "order": 7
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0008203",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "space of pelvic compartment"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "pelvic cavity"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0008203"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002553"
+      }
+    ],
+    "order": 8
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002553",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "anatomical cavity"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0002553"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 8
+  },
+  {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002113",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Kidney"
+        "@value": "kidney"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -37,14 +399,14 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 1
+    "order": 9
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004539",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Right kidney"
+        "@value": "right kidney"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -57,14 +419,14 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002113"
       }
     ],
-    "order": 2
+    "order": 10
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004538",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Left Kidney"
+        "@value": "left kidney"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -77,7 +439,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002113"
       }
     ],
-    "order": 3
+    "order": 11
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0006517",
@@ -94,7 +456,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Kidney Calyx"
+        "@value": "kidney calyx"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -107,7 +469,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004120"
       }
     ],
-    "order": 4
+    "order": 12
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004120",
@@ -133,7 +495,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 4
+    "order": 12
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001226",
@@ -147,7 +509,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Major Calyx"
+        "@value": "major calyx"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -160,7 +522,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0006517"
       }
     ],
-    "order": 5
+    "order": 13
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001227",
@@ -174,7 +536,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Minor Calyx"
+        "@value": "minor calyx"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -187,7 +549,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0006517"
       }
     ],
-    "order": 6
+    "order": 14
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001224",
@@ -201,7 +563,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Renal Pelvis"
+        "@value": "renal pelvis"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -214,7 +576,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000064"
       }
     ],
-    "order": 7
+    "order": 15
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0000064",
@@ -240,7 +602,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 7
+    "order": 15
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0018115",
@@ -254,7 +616,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Left renal pelvis"
+        "@value": "left renal pelvis"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -267,7 +629,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001224"
       }
     ],
-    "order": 8
+    "order": 16
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0018116",
@@ -294,14 +656,14 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001224"
       }
     ],
-    "order": 9
+    "order": 17
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0000056",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Ureter"
+        "@value": "ureter"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -314,7 +676,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004120"
       }
     ],
-    "order": 10
+    "order": 18
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001223",
@@ -334,7 +696,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000056"
       }
     ],
-    "order": 11
+    "order": 19
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001222",
@@ -354,7 +716,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000056"
       }
     ],
-    "order": 12
+    "order": 20
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001294",
@@ -383,9 +745,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "inner medulla of kidney"
-        ]
+        "@value": "inner medulla"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -398,7 +758,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000064"
       }
     ],
-    "order": 13
+    "order": 21
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001293",
@@ -424,9 +784,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "outer medulla of kidney"
-        ]
+        "@value": "outer medulla"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -439,7 +797,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000064"
       }
     ],
-    "order": 14
+    "order": 22
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -471,9 +829,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal medulla"
-        ]
+        "@value": "renal medulla"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -486,7 +842,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000958"
       }
     ],
-    "order": 15
+    "order": 23
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0000958",
@@ -512,7 +868,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 15
+    "order": 23
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004200",
@@ -526,9 +882,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney pyramid"
-        ]
+        "@value": "renal pyramid"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -541,7 +895,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000064"
       }
     ],
-    "order": 16
+    "order": 24
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001228",
@@ -552,9 +906,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal papilla"
-        ]
+        "@value": "renal papilla"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -567,7 +919,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000064"
       }
     ],
-    "order": 17
+    "order": 25
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -584,9 +936,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "cortex of kidney"
-        ]
+        "@value": "cortex of kidney"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -599,7 +949,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001851"
       }
     ],
-    "order": 18
+    "order": 26
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001851",
@@ -628,7 +978,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 18
+    "order": 26
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002189",
@@ -642,9 +992,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "outer cortex of kidney"
-        ]
+        "@value": "outer cortex of kidney"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -657,7 +1005,2052 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001225"
       }
     ],
-    "order": 19
+    "order": 27
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001285",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "nephron"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001285"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0000064"
+      }
+    ],
+    "order": 28
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0004194",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "long nephron"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0004194"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001285"
+      }
+    ],
+    "order": 29
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0004195",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "short nephron"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0004195"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001285"
+      }
+    ],
+    "order": 30
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001229",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "Malphigian corpuscle"
+      },
+      {
+        "@value": "Malpighian corpuscle"
+      },
+      {
+        "@value": "corpusculum renale"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "renal corpuscle"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001229"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0000063"
+      }
+    ],
+    "order": 31
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0000063",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "organ subunit"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0000063"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 31
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001230",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "Bowman's capsule"
+      },
+      {
+        "@value": "Bowmans capsule"
+      },
+      {
+        "@value": "capsula glomerularis"
+      },
+      {
+        "@value": "renal glomerular capsule"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Bowman's capsule"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001230"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0000064"
+      }
+    ],
+    "order": 32
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000452",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "epithelial cell of parietal layer of glomerular capsule"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "parietal epithelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000452"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1000450"
+      }
+    ],
+    "order": 33
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000450",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "Bowmans capsule epithelial cell"
+      },
+      {
+        "@value": "epithelial cell of Bowman's capsule"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "epithelial cell of glomerular capsule"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000450"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 33
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0000074",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "renal glomeruli"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "glomerulus"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0000074"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0000064"
+      }
+    ],
+    "order": 34
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000653",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "glomerular podocyte"
+      },
+      {
+        "@value": "podocyte"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "podocyte"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000653"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1000451"
+      }
+    ],
+    "order": 35
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000451",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "epithelial cell of visceral layer of glomerular capsule"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000451"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 35
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0002144",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "capillary endothelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0002144"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0000071"
+      }
+    ],
+    "order": 36
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000071",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "cuboidal endothelial cell of vascular tree"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "blood vessel endothelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000071"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 36
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001005",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "glomerular capillary endothelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001005"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0002144"
+      }
+    ],
+    "order": 37
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000650",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "kidney mesangial cell"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "mesangial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000650"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0000669"
+      }
+    ],
+    "order": 38
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000669",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "ARC"
+      },
+      {
+        "@value": "adventitial reticular cell"
+      },
+      {
+        "@value": "cell of Rouget"
+      },
+      {
+        "@value": "pericyte"
+      },
+      {
+        "@value": "pericyte of Rouget"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "pericyte cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000669"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 38
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0002173",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "Goormaghtigh cell"
+      },
+      {
+        "@value": "polar cushion cells"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "extraglomerular mesangial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0002173"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1000746"
+      }
+    ],
+    "order": 39
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000746",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "glomerular cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000746"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 39
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000742",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "intraglomerular mesangial cell"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "glomerular mesangial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000742"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1000746"
+      }
+    ],
+    "order": 40
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0004134",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "kidney proximal tubule"
+      },
+      {
+        "@value": "proximal kidney tubule"
+      },
+      {
+        "@value": "renal proximal tubule"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "proximal tubule"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0004134"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0006853"
+      }
+    ],
+    "order": 41
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0006853",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "kidney cortex tubule"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "renal cortex tubule"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0006853"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 41
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0006534",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "convoluted tubule"
+      },
+      {
+        "@value": "kidney convoluted tubule"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "renal convoluted tubule"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0006534"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0007685"
+      }
+    ],
+    "order": 42
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0007685",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "renal tubule region"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "region of nephron tubule"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0007685"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 42
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001287",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "proximal convoluted renal tubule"
+      },
+      {
+        "@value": "tubulus contortus proximalis"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "proximal convoluted tubule"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001287"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0006534"
+      }
+    ],
+    "order": 43
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0004196",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "S1 portion of renal tubule"
+      },
+      {
+        "@value": "S1 portion of tubule"
+      },
+      {
+        "@value": "proximal tubule segment 1"
+      },
+      {
+        "@value": "segment 1 of proximal tubule"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "proximal convoluted tubule segment 1"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0004196"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0006555"
+      }
+    ],
+    "order": 44
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0006555",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "excretory tube"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0006555"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 44
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0004197",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "S2 portion of renal tubule"
+      },
+      {
+        "@value": "S2 portion of tubule"
+      },
+      {
+        "@value": "proximal tubule segment 2"
+      },
+      {
+        "@value": "segment 2 of proximal tubule"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "proximal convoluted tubule segment 2"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0004197"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0006555"
+      }
+    ],
+    "order": 45
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001290",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "S3"
+      },
+      {
+        "@value": "thick descending limb of proximal tubule"
+      },
+      {
+        "@value": "tubulus rectus proximalis"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "proximal straight tubule"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001290"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0009035"
+      }
+    ],
+    "order": 46
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0009035",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "kidney straight tubule"
+      },
+      {
+        "@value": "straight tubule"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "renal straight tubule"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0009035"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 46
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000839",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney proximal straight tubule epithelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000839"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1001021"
+      }
+    ],
+    "order": 47
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001021",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney loop of Henle descending limb epithelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001021"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 47
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0004193",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "ascending limb thin segment of loop of Henle"
+      },
+      {
+        "@value": "ascending thin limb"
+      },
+      {
+        "@value": "pars ascendens (tubulus attenuatus)"
+      },
+      {
+        "@value": "thin ascending limb"
+      },
+      {
+        "@value": "thin ascending limb of loop of Henle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "loop of Henle ascending limb thin segment"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0004193"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0007685"
+      }
+    ],
+    "order": 48
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001107",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney loop of Henle thin ascending limb epithelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001107"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1001106"
+      }
+    ],
+    "order": 49
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001106",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney loop of Henle thick ascending limb epithelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001106"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 49
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001289",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "descending limb of Henle's loop"
+      },
+      {
+        "@value": "loop of Henle descending limb"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "descending limb of loop of Henle"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001289"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0007685"
+      }
+    ],
+    "order": 50
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001111",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney loop of Henle thin descending limb epithelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001111"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1001021"
+      }
+    ],
+    "order": 51
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001288",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "Henle loop"
+      },
+      {
+        "@value": "Henle's loop"
+      },
+      {
+        "@value": "ansa nephroni"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "loop of Henle"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001288"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0007685"
+      }
+    ],
+    "order": 52
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001291",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "ascending thick limb"
+      },
+      {
+        "@value": "distal straight tubule"
+      },
+      {
+        "@value": "loop of Henle ascending limb thick segment"
+      },
+      {
+        "@value": "straight portion of distal convoluted renal tubule"
+      },
+      {
+        "@value": "straight portion of distal convoluted tubule"
+      },
+      {
+        "@value": "thick ascending limb"
+      },
+      {
+        "@value": "thick ascending limb of Henle's loop"
+      },
+      {
+        "@value": "thick ascending limb of distal tubule"
+      },
+      {
+        "@value": "tubulus rectus distalis"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "thick ascending limb of loop of Henle"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001291"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0009035"
+      }
+    ],
+    "order": 53
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001109",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney loop of Henle cortical thick ascending limb epithelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001109"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1001016"
+      }
+    ],
+    "order": 54
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001016",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney loop of Henle ascending limb epithelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001016"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 54
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001108",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney loop of Henle medullary thick ascending limb epithelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001108"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1001016"
+      }
+    ],
+    "order": 55
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000850",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "macula densa epithelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000850"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0002305"
+      }
+    ],
+    "order": 56
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0002305",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "kidney distal tubule epithelial cell"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "epithelial cell of distal tubule"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0002305"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 56
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001292",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "distal convoluted renal tubule"
+      },
+      {
+        "@value": "tubulus contortus distalis"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "distal convoluted tubule"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001292"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0006534"
+      }
+    ],
+    "order": 57
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000849",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney distal convoluted tubule epithelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000849"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0002305"
+      }
+    ],
+    "order": 58
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005097",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "connecting tubule"
+      },
+      {
+        "@value": "kidney connecting tubule"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "renal connecting tubule"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0005097"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0007685"
+      }
+    ],
+    "order": 59
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000768",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney connecting tubule epithelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000768"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1000494"
+      }
+    ],
+    "order": 60
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000494",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "kidney tubule epithelial cell"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "nephron tubule epithelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000494"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 60
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001232",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "collecting duct"
+      },
+      {
+        "@value": "kidney collecting duct"
+      },
+      {
+        "@value": "renal collecting tubule"
+      },
+      {
+        "@value": "tubulus renalis arcuatus"
+      },
+      {
+        "@value": "tubulus renalis colligens"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "collecting duct of renal tubule"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001232"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0006555"
+      }
+    ],
+    "order": 61
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001432",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney collecting duct intercalated cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001432"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0005010"
+      }
+    ],
+    "order": 62
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0005010",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "intercalated cell"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "renal intercalated cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0005010"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 62
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000715",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney cortex collecting duct intercalated cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000715"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0005010"
+      }
+    ],
+    "order": 63
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000719",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney inner medulla collecting duct intercalated cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000719"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0005010"
+      }
+    ],
+    "order": 64
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000717",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney outer medulla collecting duct intercalated cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000717"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0005010"
+      }
+    ],
+    "order": 65
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000720",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney papillary duct intercalated cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000720"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0005010"
+      }
+    ],
+    "order": 66
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0005011",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "renal alpha-intercalated cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0005011"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0005010"
+      }
+    ],
+    "order": 67
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0002201",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "renal beta-intercalated cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0002201"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0005010"
+      }
+    ],
+    "order": 68
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001431",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney collecting duct principal cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001431"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0005009"
+      }
+    ],
+    "order": 69
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0005009",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "renal principal cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0005009"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 69
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000714",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney cortex collecting duct principal cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000714"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0005009"
+      }
+    ],
+    "order": 70
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000718",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney inner medulla collecting duct principal cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000718"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0005009"
+      }
+    ],
+    "order": 71
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000716",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney outer medulla collecting duct principal cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000716"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0005009"
+      }
+    ],
+    "order": 72
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000721",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney papillary duct principal cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000721"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0005009"
+      }
+    ],
+    "order": 73
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000115",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "endotheliocyte"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "endothelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000115"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0000213"
+      }
+    ],
+    "order": 74
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000213",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "boundary cell"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "lining cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000213"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 74
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001096",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney afferent arteriole endothelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001096"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1000412"
+      }
+    ],
+    "order": 75
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000412",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "endothelial cell of arteriole"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000412"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 75
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001099",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney efferent arteriole endothelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001099"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1000412"
+      }
+    ],
+    "order": 76
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001033",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "peritubular capillary endothelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001033"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1000892"
+      }
+    ],
+    "order": 77
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000892",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney capillary endothelial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000892"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 77
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001036",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "vasa recta cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001036"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1000892"
+      }
+    ],
+    "order": 78
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001126",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "inner renal medulla vasa recta cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001126"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 79
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001127",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "outer renal medulla vasa recta cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001127"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 81
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001209",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "inner medulla vasa recta ascending limb cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001209"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1001131"
+      }
+    ],
+    "order": 83
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001131",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "vasa recta ascending limb cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001131"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 83
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001210",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "outer medulla vasa recta ascending limb cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001210"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1001131"
+      }
+    ],
+    "order": 84
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001286",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "inner medulla vasa recta descending limb cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001286"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1001285"
+      }
+    ],
+    "order": 85
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001285",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "vasa recta descending limb cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001285"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 85
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001287",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "outer medulla vasa recta descending limb cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001287"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1001285"
+      }
+    ],
+    "order": 86
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0002138",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "LEC"
+      },
+      {
+        "@value": "lymphatic endothelial cell"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "endothelial cell of lymphatic vessel"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0002138"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0002139"
+      }
+    ],
+    "order": 87
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0002139",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "vascular endothelial cell"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "endothelial cell of vascular tree"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0002139"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 87
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001284",
@@ -695,7 +3088,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000064"
       }
     ],
-    "order": 20
+    "order": 88
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0008716",
@@ -724,7 +3117,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004885"
       }
     ],
-    "order": 21
+    "order": 89
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004885",
@@ -750,7 +3143,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 21
+    "order": 89
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -785,7 +3178,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0003567"
       }
     ],
-    "order": 22
+    "order": 90
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003567",
@@ -823,7 +3216,603 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 22
+    "order": 90
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005215",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "interstitial tissue of kidney"
+      },
+      {
+        "@value": "renal interstitial tissue"
+      },
+      {
+        "@value": "renal interstitium"
+      },
+      {
+        "@value": "renal stroma"
+      },
+      {
+        "@value": "stroma of kidney"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney interstitium"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0005215"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005169"
+      }
+    ],
+    "order": 91
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005169",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "interstitium"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "interstitial tissue"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0005169"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 91
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0018113",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "left renal stroma"
+      },
+      {
+        "@value": "stroma of left kidney"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "left kidney interstitium"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0018113"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005215"
+      }
+    ],
+    "order": 92
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0018114",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "right renal stroma"
+      },
+      {
+        "@value": "stroma of right kidney"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "right kidney interstitium"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0018114"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005215"
+      }
+    ],
+    "order": 93
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0003891",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "stroma"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0003891"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0000064"
+      }
+    ],
+    "order": 94
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000359",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "VSMC"
+      },
+      {
+        "@value": "vascular smooth muscle cell"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "vascular associated smooth muscle cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000359"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0000192"
+      }
+    ],
+    "order": 95
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000192",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "SMCs"
+      },
+      {
+        "@value": "myocytes, smooth muscle"
+      },
+      {
+        "@value": "smooth muscle fiber"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "smooth muscle cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000192"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 95
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1001318",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "renal interstitial pericyte"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1001318"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0000669"
+      }
+    ],
+    "order": 96
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000691",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney interstitial myofibroblast"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000691"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0000186"
+      }
+    ],
+    "order": 97
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000186",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "MFB"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "myofibroblast cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000186"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 97
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000648",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "JG cell"
+      },
+      {
+        "@value": "renin secreting cell"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney granular cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000648"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0000192"
+      }
+    ],
+    "order": 98
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000698",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney resident macrophage"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000698"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_1000500"
+      }
+    ],
+    "order": 99
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000500",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney interstitial cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000500"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 99
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000235",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "histiocyte"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "macrophage"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000235"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0000234"
+      }
+    ],
+    "order": 100
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000234",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "phagocyte"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000234"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 100
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000623",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "NK cell"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "natural killer cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000623"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0001067"
+      }
+    ],
+    "order": 101
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0001067",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "group 1 innate lymphoid cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0001067"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 101
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_1000699",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "kidney resident dendritic cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:1000699"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0001007"
+      }
+    ],
+    "order": 102
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0001007",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "interstitial dendritic cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0001007"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 102
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000542",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "lymphocyte"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000542"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 103
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000910",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "cytotoxic T lymphocyte"
+      },
+      {
+        "@value": "cytotoxic T-cell"
+      },
+      {
+        "@value": "cytotoxic T-lymphocyte"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "cytotoxic T cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000910"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0000911"
+      }
+    ],
+    "order": 104
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000911",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "effector T lymphocyte"
+      },
+      {
+        "@value": "effector T-cell"
+      },
+      {
+        "@value": "effector T-lymphocyte"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "effector T cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000911"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 104
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000945",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "lymphocyte of B lineage"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000945"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 105
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001184",
@@ -849,7 +3838,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0012254"
       }
     ],
-    "order": 23
+    "order": 106
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0012254",
@@ -878,7 +3867,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 23
+    "order": 106
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001186",
@@ -904,7 +3893,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001184"
       }
     ],
-    "order": 24
+    "order": 107
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001185",
@@ -930,7 +3919,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001184"
       }
     ],
-    "order": 25
+    "order": 108
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001140",
@@ -962,7 +3951,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001638"
       }
     ],
-    "order": 26
+    "order": 109
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001638",
@@ -988,7 +3977,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 26
+    "order": 109
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001142",
@@ -1010,7 +3999,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001140"
       }
     ],
-    "order": 27
+    "order": 110
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001141",
@@ -1032,7 +4021,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001140"
       }
     ],
-    "order": 28
+    "order": 111
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004723",
@@ -1061,7 +4050,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0003644"
       }
     ],
-    "order": 29
+    "order": 112
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003644",
@@ -1083,7 +4072,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 29
+    "order": 112
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005168",
@@ -1112,7 +4101,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0013126"
       }
     ],
-    "order": 30
+    "order": 113
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0013126",
@@ -1138,7 +4127,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 30
+    "order": 113
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001552",
@@ -1164,7 +4153,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001637"
       }
     ],
-    "order": 31
+    "order": 114
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001637",
@@ -1196,7 +4185,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 31
+    "order": 114
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004719",
@@ -1231,7 +4220,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0013126"
       }
     ],
-    "order": 32
+    "order": 115
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0014464",
@@ -1253,7 +4242,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0003916"
       }
     ],
-    "order": 33
+    "order": 116
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003916",
@@ -1275,7 +4264,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 33
+    "order": 116
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002106",
@@ -1297,7 +4286,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004177"
       }
     ],
-    "order": 34
+    "order": 117
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004177",
@@ -1347,7 +4336,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 34
+    "order": 117
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004641",
@@ -1394,7 +4383,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004120"
       }
     ],
-    "order": 35
+    "order": 118
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001265",
@@ -1423,7 +4412,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000440"
       }
     ],
-    "order": 36
+    "order": 119
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0000440",
@@ -1445,7 +4434,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 36
+    "order": 119
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001959",
@@ -1480,7 +4469,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_1000023"
       }
     ],
-    "order": 37
+    "order": 120
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_1000023",
@@ -1512,7 +4501,96 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 37
+    "order": 120
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001960",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "PALS"
+      },
+      {
+        "@value": "T cell domain of the splenic white pulp"
+      },
+      {
+        "@value": "periarterial lymphoid sheath"
+      },
+      {
+        "@value": "periarteriolar sheath"
+      },
+      {
+        "@value": "spleen periarteriolar lymphatic sheath"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "periarterial lymphatic sheath"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001960"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0004177"
+      }
+    ],
+    "order": 121
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0010401",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "follicular arteriole"
+      },
+      {
+        "@value": "splenic central arteriole"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "spleen central arteriole"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0010401"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0022292"
+      }
+    ],
+    "order": 122
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0022292",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "splenic arteriole"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0022292"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 122
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001250",
@@ -1547,7 +4625,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_1000023"
       }
     ],
-    "order": 38
+    "order": 128
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003910",
@@ -1573,7 +4651,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0003497"
       }
     ],
-    "order": 39
+    "order": 129
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003497",
@@ -1599,36 +4677,583 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 39
+    "order": 129
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0001194",
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0009967",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "arteria splenica"
+        "@value": "sinus lienalis"
       },
       {
-        "@value": "lienal artery"
+        "@value": "sinus splenicus"
+      },
+      {
+        "@value": "splenic sinus"
+      },
+      {
+        "@value": "venous sinus of red pulp of spleen"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": [
-          "splenic artery"
+          "spleen venous sinus"
         ]
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
-        "@value": "UBERON:0001194"
+        "@value": "UBERON:0009967"
       }
     ],
     "parent": [
       {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0001637"
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0006615"
       }
     ],
-    "order": 40
+    "order": 130
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0006615",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "venous sinus"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0006615"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 130
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0013132",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "penicilli"
+      },
+      {
+        "@value": "penicillus"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "penicillar arteriole"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0013132"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0022292"
+      }
+    ],
+    "order": 131
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0010421",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "follicle mantle"
+      },
+      {
+        "@value": "spleen B cell corona"
+      },
+      {
+        "@value": "spleen B-cell corona"
+      },
+      {
+        "@value": "spleen lymphocytic corona"
+      },
+      {
+        "@value": "splenic B cell corona"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "spleen B cell corona"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0010421"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0010755"
+      }
+    ],
+    "order": 133
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0010755",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "dark zone of follicle"
+      },
+      {
+        "@value": "inactive zone of follicle"
+      },
+      {
+        "@value": "peripheral zone of follicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "secondary follicle corona"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0010755"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 133
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001266",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "cord of Billroth"
+      },
+      {
+        "@value": "cord of Bilroth"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "splenic cord"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001266"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0000064"
+      }
+    ],
+    "order": 142
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0004042",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "secondary spleen B cell follicle"
+      },
+      {
+        "@value": "splenic secondary B cell follicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "spleen secondary B follicle"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0004042"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001249"
+      }
+    ],
+    "order": 145
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001249",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "Malpighian body"
+      },
+      {
+        "@value": "lymphatic follicle of spleen"
+      },
+      {
+        "@value": "lymphoid follicle of spleen"
+      },
+      {
+        "@value": "lymphoid nodule of spleen"
+      },
+      {
+        "@value": "spleen B cell follicle"
+      },
+      {
+        "@value": "spleen lymphoid follicle"
+      },
+      {
+        "@value": "splenic B cell follicle"
+      },
+      {
+        "@value": "splenic lymphatic follicle"
+      },
+      {
+        "@value": "splenic lymphoid follicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "spleen lymphoid follicle"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001249"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 145
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005196",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "germinal center of spleen"
+      },
+      {
+        "@value": "spleen GC"
+      },
+      {
+        "@value": "spleen follicle center"
+      },
+      {
+        "@value": "splenic germinal center"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "spleen germinal center"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0005196"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0010754"
+      }
+    ],
+    "order": 146
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0010754",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "central zone of follice"
+      },
+      {
+        "@value": "light zone of follicle"
+      },
+      {
+        "@value": "reaction center of follicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "germinal center"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0010754"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 146
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0010756",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "spleen FDC network"
+      },
+      {
+        "@value": "splenic follicular dendritic cell network"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "spleen follicular dendritic cell network"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0010756"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001744"
+      }
+    ],
+    "order": 147
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001744",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "lymphatic tissue"
+      },
+      {
+        "@value": "lymphocytic tissue"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "lymphoid tissue"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001744"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 147
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000442",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "follicular dendritic cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000442"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0000473"
+      }
+    ],
+    "order": 148
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000473",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "defensive cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000473"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 148
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000236",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "B lymphocyte"
+      },
+      {
+        "@value": "B-cell"
+      },
+      {
+        "@value": "B-lymphocyte"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "B cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000236"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0000945"
+      }
+    ],
+    "order": 149
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000786",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "plasma B cell"
+      },
+      {
+        "@value": "plasma B-cell"
+      },
+      {
+        "@value": "plasmacyte"
+      },
+      {
+        "@value": "plasmocyte"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "plasma cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000786"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0000946"
+      }
+    ],
+    "order": 150
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000946",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "antibody secreting cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000946"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 150
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000980",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "plasmablast"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000980"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0000946"
+      }
+    ],
+    "order": 151
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/CL_0000084",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "T lymphocyte"
+      },
+      {
+        "@value": "T-cell"
+      },
+      {
+        "@value": "T-lymphocyte"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "T cell"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "CL:0000084"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/CL_0000542"
+      }
+    ],
+    "order": 152
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001248",
@@ -1663,7 +5288,84 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004885"
       }
     ],
-    "order": 42
+    "order": 159
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001194",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "arteria splenica"
+      },
+      {
+        "@value": "lienal artery"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "splenic artery"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001194"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001637"
+      }
+    ],
+    "order": 160
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001473",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "lymph vessel"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "lymphatic vessel"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001473"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0000055"
+      }
+    ],
+    "order": 162
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0000055",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": [
+          "vessel"
+        ]
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0000055"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
+      }
+    ],
+    "order": 162
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma15838",
@@ -1685,7 +5387,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma37330"
       }
     ],
-    "order": 43
+    "order": 164
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma37330",
@@ -1707,7 +5409,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 43
+    "order": 164
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma15837",
@@ -1729,7 +5431,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma37330"
       }
     ],
-    "order": 44
+    "order": 165
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma15828",
@@ -1751,7 +5453,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma37330"
       }
     ],
-    "order": 45
+    "order": 166
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma15829",
@@ -1773,7 +5475,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma37330"
       }
     ],
-    "order": 46
+    "order": 167
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma15839",
@@ -1795,7 +5497,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma37330"
       }
     ],
-    "order": 47
+    "order": 168
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma15840",
@@ -1817,7 +5519,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma37330"
       }
     ],
-    "order": 48
+    "order": 169
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma17557",
@@ -1839,7 +5541,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma37330"
       }
     ],
-    "order": 49
+    "order": 170
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0000948",
@@ -1868,7 +5570,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0007100"
       }
     ],
-    "order": 50
+    "order": 171
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0007100",
@@ -1890,7 +5592,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 50
+    "order": 171
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002080",
@@ -1922,7 +5624,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002082"
       }
     ],
-    "order": 51
+    "order": 172
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002082",
@@ -1954,7 +5656,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 51
+    "order": 172
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004523",
@@ -1976,7 +5678,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002494"
       }
     ],
-    "order": 52
+    "order": 173
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002494",
@@ -2011,7 +5713,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 52
+    "order": 173
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002333",
@@ -2040,7 +5742,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001637"
       }
     ],
-    "order": 53
+    "order": 174
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001652",
@@ -2069,7 +5771,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001637"
       }
     ],
-    "order": 54
+    "order": 175
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001651",
@@ -2098,7 +5800,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001637"
       }
     ],
-    "order": 55
+    "order": 176
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002084",
@@ -2133,7 +5835,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002082"
       }
     ],
-    "order": 56
+    "order": 177
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004524",
@@ -2155,7 +5857,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002494"
       }
     ],
-    "order": 57
+    "order": 178
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002078",
@@ -2193,7 +5895,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002081"
       }
     ],
-    "order": 58
+    "order": 179
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002081",
@@ -2231,7 +5933,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 58
+    "order": 179
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002079",
@@ -2272,7 +5974,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002081"
       }
     ],
-    "order": 59
+    "order": 180
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002016",
@@ -2298,7 +6000,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001638"
       }
     ],
-    "order": 60
+    "order": 181
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0009030",
@@ -2320,7 +6022,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002016"
       }
     ],
-    "order": 61
+    "order": 182
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0009032",
@@ -2342,7 +6044,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002016"
       }
     ],
-    "order": 62
+    "order": 183
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002094",
@@ -2371,7 +6073,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002099"
       }
     ],
-    "order": 63
+    "order": 184
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002099",
@@ -2406,7 +6108,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 63
+    "order": 184
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002135",
@@ -2435,7 +6137,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002133"
       }
     ],
-    "order": 64
+    "order": 185
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002133",
@@ -2461,7 +6163,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 64
+    "order": 185
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002134",
@@ -2490,7 +6192,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002133"
       }
     ],
-    "order": 65
+    "order": 186
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002146",
@@ -2516,7 +6218,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005623"
       }
     ],
-    "order": 66
+    "order": 187
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005623",
@@ -2545,7 +6247,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 66
+    "order": 187
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002137",
@@ -2567,7 +6269,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005623"
       }
     ],
-    "order": 67
+    "order": 188
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001508",
@@ -2593,7 +6295,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001515"
       }
     ],
-    "order": 68
+    "order": 189
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001515",
@@ -2622,7 +6324,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 68
+    "order": 189
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001514",
@@ -2648,7 +6350,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005800"
       }
     ],
-    "order": 69
+    "order": 190
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005800",
@@ -2674,7 +6376,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 69
+    "order": 190
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001536",
@@ -2703,7 +6405,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001530"
       }
     ],
-    "order": 70
+    "order": 191
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001530",
@@ -2735,7 +6437,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 70
+    "order": 191
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001531",
@@ -2764,7 +6466,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001530"
       }
     ],
-    "order": 71
+    "order": 192
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004087",
@@ -2786,7 +6488,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0013768"
       }
     ],
-    "order": 72
+    "order": 193
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0013768",
@@ -2812,7 +6514,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 72
+    "order": 193
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma4720",
@@ -2834,7 +6536,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma62512"
       }
     ],
-    "order": 73
+    "order": 194
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma62512",
@@ -2856,7 +6558,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 73
+    "order": 194
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001626",
@@ -2878,7 +6580,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001621"
       }
     ],
-    "order": 75
+    "order": 196
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001621",
@@ -2904,7 +6606,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 75
+    "order": 196
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma322904",
@@ -2926,7 +6628,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma66328"
       }
     ],
-    "order": 76
+    "order": 197
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma66328",
@@ -2948,7 +6650,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 76
+    "order": 197
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0035422",
@@ -2980,7 +6682,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0035395"
       }
     ],
-    "order": 77
+    "order": 198
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0035395",
@@ -3006,7 +6708,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 77
+    "order": 198
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma3902",
@@ -3028,7 +6730,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma12819"
       }
     ],
-    "order": 78
+    "order": 199
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma12819",
@@ -3050,7 +6752,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 78
+    "order": 199
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma3862",
@@ -3072,7 +6774,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma66328"
       }
     ],
-    "order": 79
+    "order": 200
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma3860",
@@ -3094,7 +6796,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma66328"
       }
     ],
-    "order": 80
+    "order": 201
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001625",
@@ -3116,7 +6818,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001621"
       }
     ],
-    "order": 81
+    "order": 202
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0006958",
@@ -3142,7 +6844,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004148"
       }
     ],
-    "order": 83
+    "order": 204
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004148",
@@ -3177,7 +6879,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 83
+    "order": 204
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005438",
@@ -3203,7 +6905,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0003498"
       }
     ],
-    "order": 84
+    "order": 205
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003498",
@@ -3229,7 +6931,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 84
+    "order": 205
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma4715",
@@ -3251,7 +6953,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma12846"
       }
     ],
-    "order": 85
+    "order": 206
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma12846",
@@ -3273,7 +6975,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 85
+    "order": 206
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma4712",
@@ -3295,7 +6997,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma12846"
       }
     ],
-    "order": 86
+    "order": 207
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0009687",
@@ -3324,7 +7026,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004148"
       }
     ],
-    "order": 87
+    "order": 208
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0035374",
@@ -3350,7 +7052,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004148"
       }
     ],
-    "order": 88
+    "order": 209
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma76767",
@@ -3372,7 +7074,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma12846"
       }
     ],
-    "order": 89
+    "order": 210
   },
   {
     "@id": "http://purl.obolibrary.org/obo/LMHA_00532",
@@ -3394,7 +7096,7 @@
         "@id": "http://purl.obolibrary.org/obo/LMHA_00199"
       }
     ],
-    "order": 93
+    "order": 214
   },
   {
     "@id": "http://purl.obolibrary.org/obo/LMHA_00199",
@@ -3416,7 +7118,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 93
+    "order": 214
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma7319",
@@ -3438,7 +7140,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma9658"
       }
     ],
-    "order": 109
+    "order": 230
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma9658",
@@ -3460,7 +7162,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 109
+    "order": 230
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma7381",
@@ -3482,7 +7184,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma7319"
       }
     ],
-    "order": 110
+    "order": 231
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma7369",
@@ -3504,7 +7206,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma7319"
       }
     ],
-    "order": 111
+    "order": 232
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma26287",
@@ -3526,7 +7228,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma26286"
       }
     ],
-    "order": 112
+    "order": 233
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma26286",
@@ -3548,7 +7250,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 112
+    "order": 233
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma13223",
@@ -3570,7 +7272,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma26286"
       }
     ],
-    "order": 113
+    "order": 234
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma292337",
@@ -3592,7 +7294,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma66260"
       }
     ],
-    "order": 114
+    "order": 235
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma66260",
@@ -3614,7 +7316,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 114
+    "order": 235
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma7328",
@@ -3636,7 +7338,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma66260"
       }
     ],
-    "order": 115
+    "order": 236
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma31017",
@@ -3658,7 +7360,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma31013"
       }
     ],
-    "order": 116
+    "order": 237
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma31013",
@@ -3680,7 +7382,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 116
+    "order": 237
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma31008",
@@ -3702,7 +7404,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma31006"
       }
     ],
-    "order": 117
+    "order": 238
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma31006",
@@ -3724,7 +7426,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 117
+    "order": 238
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma7440",
@@ -3746,7 +7448,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma7331"
       }
     ],
-    "order": 118
+    "order": 239
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma7439",
@@ -3768,7 +7470,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma7331"
       }
     ],
-    "order": 119
+    "order": 240
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma7331",
@@ -3790,7 +7492,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma14093"
       }
     ],
-    "order": 120
+    "order": 241
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma14093",
@@ -3812,7 +7514,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 120
+    "order": 241
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma7441",
@@ -3834,7 +7536,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma14093"
       }
     ],
-    "order": 121
+    "order": 242
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma13157",
@@ -3856,7 +7558,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma14100"
       }
     ],
-    "order": 122
+    "order": 243
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma14100",
@@ -3878,7 +7580,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 122
+    "order": 243
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma7246",
@@ -3900,7 +7602,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma7110"
       }
     ],
-    "order": 124
+    "order": 245
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma7110",
@@ -3922,7 +7624,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 124
+    "order": 245
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma50873",
@@ -3944,7 +7646,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma66326"
       }
     ],
-    "order": 125
+    "order": 246
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma66326",
@@ -3966,7 +7668,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 125
+    "order": 246
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma50872",
@@ -3988,7 +7690,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma66326"
       }
     ],
-    "order": 126
+    "order": 247
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma68743",
@@ -4010,7 +7712,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma66614"
       }
     ],
-    "order": 127
+    "order": 248
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma66614",
@@ -4032,7 +7734,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 127
+    "order": 248
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma68682",
@@ -4054,7 +7756,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma68675"
       }
     ],
-    "order": 128
+    "order": 249
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma68675",
@@ -4076,7 +7778,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 128
+    "order": 249
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma68750",
@@ -4098,7 +7800,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma66614"
       }
     ],
-    "order": 130
+    "order": 251
   },
   {
     "@id": "http://purl.obolibrary.org/obo/LMHA_00305",
@@ -4120,7 +7822,7 @@
         "@id": "http://purl.obolibrary.org/obo/LMHA_00315"
       }
     ],
-    "order": 139
+    "order": 260
   },
   {
     "@id": "http://purl.obolibrary.org/obo/LMHA_00315",
@@ -4142,7 +7844,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 139
+    "order": 260
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma8637",
@@ -4164,7 +7866,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma66614"
       }
     ],
-    "order": 141
+    "order": 262
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma8622",
@@ -4186,7 +7888,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma66614"
       }
     ],
-    "order": 142
+    "order": 263
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma8636",
@@ -4208,7 +7910,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma66614"
       }
     ],
-    "order": 143
+    "order": 264
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001155",
@@ -4234,7 +7936,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004921"
       }
     ],
-    "order": 154
+    "order": 275
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004921",
@@ -4256,7 +7958,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 154
+    "order": 275
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001156",
@@ -4282,7 +7984,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000168"
       }
     ],
-    "order": 155
+    "order": 276
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0000168",
@@ -4304,7 +8006,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 155
+    "order": 276
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001158",
@@ -4330,7 +8032,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000168"
       }
     ],
-    "order": 156
+    "order": 277
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001157",
@@ -4356,7 +8058,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000168"
       }
     ],
-    "order": 157
+    "order": 278
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001159",
@@ -4378,7 +8080,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000168"
       }
     ],
-    "order": 158
+    "order": 279
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001052",
@@ -4404,7 +8106,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004921"
       }
     ],
-    "order": 159
+    "order": 280
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001153",
@@ -4436,7 +8138,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0009854"
       }
     ],
-    "order": 160
+    "order": 281
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0009854",
@@ -4458,7 +8160,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 160
+    "order": 281
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001154",
@@ -4493,7 +8195,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0013765"
       }
     ],
-    "order": 161
+    "order": 282
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0013765",
@@ -4522,7 +8224,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 161
+    "order": 282
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003978",
@@ -4548,7 +8250,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 162
+    "order": 283
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0022277",
@@ -4583,7 +8285,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0022275"
       }
     ],
-    "order": 163
+    "order": 284
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0022275",
@@ -4609,7 +8311,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 163
+    "order": 284
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0022276",
@@ -4644,7 +8346,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0022275"
       }
     ],
-    "order": 164
+    "order": 285
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001182",
@@ -4670,7 +8372,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005616"
       }
     ],
-    "order": 165
+    "order": 286
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005616",
@@ -4692,7 +8394,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 165
+    "order": 286
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001183",
@@ -4718,7 +8420,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005616"
       }
     ],
-    "order": 166
+    "order": 287
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma14826",
@@ -4740,7 +8442,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma70483"
       }
     ],
-    "order": 167
+    "order": 288
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma70483",
@@ -4762,7 +8464,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 167
+    "order": 288
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma14811",
@@ -4784,7 +8486,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma70478"
       }
     ],
-    "order": 168
+    "order": 289
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma70478",
@@ -4806,7 +8508,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 168
+    "order": 289
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001196",
@@ -4828,7 +8530,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001637"
       }
     ],
-    "order": 169
+    "order": 290
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0035180",
@@ -4854,7 +8556,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004573"
       }
     ],
-    "order": 170
+    "order": 291
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004573",
@@ -4880,7 +8582,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 170
+    "order": 291
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma14831",
@@ -4902,7 +8604,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma70483"
       }
     ],
-    "order": 171
+    "order": 292
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001197",
@@ -4924,7 +8626,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001637"
       }
     ],
-    "order": 173
+    "order": 294
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002017",
@@ -4950,7 +8652,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001638"
       }
     ],
-    "order": 174
+    "order": 295
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0003713",
@@ -4976,7 +8678,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001638"
       }
     ],
-    "order": 175
+    "order": 296
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001215",
@@ -4998,7 +8700,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005617"
       }
     ],
-    "order": 176
+    "order": 297
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005617",
@@ -5020,7 +8722,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 176
+    "order": 297
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001138",
@@ -5042,7 +8744,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005617"
       }
     ],
-    "order": 177
+    "order": 298
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0011383",
@@ -5068,7 +8770,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004690"
       }
     ],
-    "order": 178
+    "order": 299
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004690",
@@ -5106,7 +8808,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 178
+    "order": 299
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma15394",
@@ -5128,7 +8830,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma15392"
       }
     ],
-    "order": 179
+    "order": 300
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma15392",
@@ -5150,7 +8852,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 179
+    "order": 300
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma15407",
@@ -5172,7 +8874,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma15396"
       }
     ],
-    "order": 180
+    "order": 301
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma15396",
@@ -5194,7 +8896,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 180
+    "order": 301
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001218",
@@ -5220,7 +8922,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002017"
       }
     ],
-    "order": 181
+    "order": 302
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001219",
@@ -5242,7 +8944,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001217"
       }
     ],
-    "order": 182
+    "order": 303
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001217",
@@ -5264,7 +8966,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 182
+    "order": 303
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma15395",
@@ -5286,7 +8988,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma15392"
       }
     ],
-    "order": 183
+    "order": 304
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma10951",
@@ -5308,7 +9010,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma62512"
       }
     ],
-    "order": 184
+    "order": 305
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001317",
@@ -5330,7 +9032,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005610"
       }
     ],
-    "order": 185
+    "order": 306
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005610",
@@ -5352,7 +9054,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 185
+    "order": 306
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma18893",
@@ -5374,7 +9076,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma18889"
       }
     ],
-    "order": 186
+    "order": 307
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma18889",
@@ -5396,7 +9098,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 186
+    "order": 307
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma21242",
@@ -5418,7 +9120,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma21240"
       }
     ],
-    "order": 187
+    "order": 308
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma21240",
@@ -5440,7 +9142,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 187
+    "order": 308
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma15393",
@@ -5462,7 +9164,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma15392"
       }
     ],
-    "order": 188
+    "order": 309
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0006687",
@@ -5484,7 +9186,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001638"
       }
     ],
-    "order": 189
+    "order": 310
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002108",
@@ -5513,7 +9215,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0013765"
       }
     ],
-    "order": 190
+    "order": 311
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002114",
@@ -5535,7 +9237,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004921"
       }
     ],
-    "order": 191
+    "order": 312
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002115",
@@ -5557,7 +9259,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004921"
       }
     ],
-    "order": 192
+    "order": 313
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002116",
@@ -5579,7 +9281,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004921"
       }
     ],
-    "order": 193
+    "order": 314
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma15957",
@@ -5601,7 +9303,7 @@
         "@id": "http://purl.org/sig/ont/fma/fma11337"
       }
     ],
-    "order": 194
+    "order": 315
   },
   {
     "@id": "http://purl.org/sig/ont/fma/fma11337",
@@ -5623,7 +9325,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 194
+    "order": 315
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001202",
@@ -5649,7 +9351,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0011185"
       }
     ],
-    "order": 195
+    "order": 316
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0011185",
@@ -5671,7 +9373,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 195
+    "order": 316
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0000569",
@@ -5697,7 +9399,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0011185"
       }
     ],
-    "order": 196
+    "order": 317
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001195",
@@ -5723,7 +9425,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0009658"
       }
     ],
-    "order": 200
+    "order": 321
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0009658",
@@ -5752,6 +9454,6 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0005172"
       }
     ],
-    "order": 200
+    "order": 321
   }
 ]

@@ -3,159 +3,279 @@
    xmlns:ccf="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001202">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011185"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001159">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000168"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma17557">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002078">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002081"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001514">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005800"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001141">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001140"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma292337">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66260"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001142">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001140"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma50872">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66326"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15840">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001184">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0012254"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003910">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003497"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002146">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005623"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005438">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003498"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002333">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0009032">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002016"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002115">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma13223">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma26286"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma68750">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66614"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0018116">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001224"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0022276">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0022275"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001224">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001183">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005616"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006687">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001638"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002113">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001196">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001156">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000168"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma76767">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma12846"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002114">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma8622">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66614"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002108">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma14831">
     <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma70483"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/LMHA_00532">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/LMHA_00199"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001287">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001285"/>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001127"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma4720">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma62512"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7319">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma9658"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001222">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000056"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/LMHA_00305">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/LMHA_00315"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma13157">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma14100"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001552">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005438">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003498"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001227">
     <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006517"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0009687">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004148"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001229">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000063"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma18893">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma18889"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001197">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001185">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001184"/>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma8622">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66614"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002108">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002144">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000071"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004200">
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005097">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007685"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001531">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001530"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003910">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003497"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000056">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001266">
     <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004538">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001286">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001126"/>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001222">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000056"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010401">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0022292"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001294">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma68682">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma68675"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004523">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002494"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma31017">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma31013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001158">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000168"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001224">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001285">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001186">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001184"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001005">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0002144"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0008203">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002553"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002114">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0018113">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005215"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001141">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001140"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001153">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009854"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000691">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000186"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15839">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001096">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000452">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000450"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000786">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000946"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002015">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003567"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001210">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001131"/>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001127"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15957">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma11337"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004197">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006555"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001293">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000698">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000500"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001248">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004885"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001226">
     <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006517"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001218">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002017"/>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma13157">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma14100"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000569">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003978"/>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011185"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001651">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15395">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma15392"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001230">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/LMHA_00305">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/LMHA_00315"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001140">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001638"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002173">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000746"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000235">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000234"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002138">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0002139"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001185">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001184"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma292337">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66260"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002113">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003100">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15828">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma4712">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma12846"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003101">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001625">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001621"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma68743">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66614"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004641">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001052">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001250">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_1000023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004042">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001249"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma8637">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66614"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002333">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004193">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007685"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001960">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004177"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001154">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma14811">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma70478"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000115">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000213"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0009032">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002016"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002116">
     <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15393">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma15392"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000569">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011185"/>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003978"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010756">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001744"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001514">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005800"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001290">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009035"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma18893">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma18889"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006687">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001638"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002115">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma26287">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma26286"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001202">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011185"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001288">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007685"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15829">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000442">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000473"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004134">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006853"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000721">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000839">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15840">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001225">
     <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001851"/>
@@ -163,304 +283,467 @@
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0022277">
     <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0022275"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001626">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001621"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002106">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004177"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7439">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma7331"/>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma8636">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66614"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001153">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009854"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7381">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma7319"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001154">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001138">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005617"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004087">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013768"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0018115">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001224"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma26287">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma26286"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001625">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001621"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001215">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005617"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001473">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000055"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0009030">
     <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002016"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002084">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002082"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma68682">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma68675"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001508">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001515"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004539">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15837">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma21242">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma21240"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002017">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001638"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001959">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_1000023"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7246">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma7110"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma322904">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66328"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000468">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma3902">
     <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma12819"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002015">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003567"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004200">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma31008">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma31006"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000720">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005010"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001194">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000718">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005009"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000056">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15837">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001186">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001184"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004538">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002080">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002082"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0005011">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005010"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma8637">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66614"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002016">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001638"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001431">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005009"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002134">
     <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002133"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma50873">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66326"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000362">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000958"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001293">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma31017">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma31013"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001250">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_1000023"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001157">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000168"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma10951">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma62512"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002106">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004177"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002094">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002099"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002189">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001225"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001531">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001530"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma3860">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66328"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7331">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma14093"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004723">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003644"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002137">
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002146">
     <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005623"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma3862">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66328"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0013701">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7369">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma7319"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001099">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000412"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000948">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007100"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004539">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7328">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66260"/>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7319">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma9658"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15838">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006517">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006958">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004148"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014464">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003916"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001197">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004523">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002494"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004524">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002494"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001155">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001218">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002017"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma4715">
     <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma12846"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001223">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000056"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001182">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005616"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001219">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001217"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001184">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0012254"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002079">
     <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002081"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001294">
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001109">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001016"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004196">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006555"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003684">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000464"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000623">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0001067"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001111">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001108">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001016"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000850">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0002305"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/LMHA_00532">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/LMHA_00199"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000650">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000669"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma68750">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66614"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001196">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001155">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006517">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000236">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000945"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001318">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000669"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma10951">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma62512"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035180">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001265">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000440"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001142">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001140"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004195">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005215">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005169"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001536">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001530"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma3862">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma50873">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66326"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006534">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007685"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005168">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013126"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001138">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005617"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001959">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_1000023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma17557">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7439">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma7331"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000715">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000910">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000911"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004524">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002494"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma322904">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001219">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001217"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000084">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000542"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002016">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001638"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma3860">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011383">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004690"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15394">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma15392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002017">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001638"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001287">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006534"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002189">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma76767">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma12846"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0018114">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005215"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000980">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000946"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001292">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006534"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000717">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7328">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66260"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004194">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15395">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma15392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001033">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000892"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002137">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005623"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001223">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000056"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001036">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000892"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7246">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma7110"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000359">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000192"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001183">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005616"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15393">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma15392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0009687">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004148"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma13223">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma26286"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002080">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002082"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000742">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000746"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000074">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000653">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000451"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001626">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001621"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7381">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma7319"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001552">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0013132">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0022292"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0013702">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002100">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011676"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035422">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035395"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma21242">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma21240"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001652">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15838">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0022276">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0022275"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003713">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001638"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001228">
     <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001284">
     <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035422">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035395"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001107">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001106"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001536">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001530"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002084">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002082"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001652">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15829">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15839">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7440">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma7331"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma8636">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66614"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001265">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000440"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001228">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001052">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035374">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004148"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005168">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013126"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15407">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma15396"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001317">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005610"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma4712">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma12846"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma14826">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma70483"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma14811">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma70478"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma68743">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66614"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001248">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004885"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011383">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004690"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004641">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15394">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma15392"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0008716">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004885"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15828">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001140">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001638"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7441">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma14093"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004719">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013126"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035180">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004573"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002135">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002133"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000716">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005009"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001195">
     <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009658"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003713">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001638"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001317">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005610"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001651">
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001432">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005196">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010754"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002135">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002133"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7369">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma7319"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0008716">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004885"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006958">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004148"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001291">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009035"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001215">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005617"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002224">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000464"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001289">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007685"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000948">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004087">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013768"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002201">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001157">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000168"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001159">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000168"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma50872">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66326"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000719">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma4720">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma62512"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0018115">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000362">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000958"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001209">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001126"/>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001131"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010421">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010755"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15407">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma15396"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000699">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0001007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001194">
     <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15957">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma11337"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035374">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004148"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001158">
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014464">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003916"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000648">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000192"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001508">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001515"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003891">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002078">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002081"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002094">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000849">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0002305"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7331">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma14093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma31008">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma31006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000714">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001156">
     <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000168"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000768">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000494"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004723">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003644"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004719">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013126"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0009967">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006615"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0018116">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7441">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma14093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001182">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005616"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001232">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006555"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma14826">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma70483"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7440">
+    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma7331"/>
   </rdf:Description>
 </rdf:RDF>
