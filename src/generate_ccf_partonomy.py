@@ -42,11 +42,11 @@ def get_term_data(id, label, term, order, parent = None):
       { '@value': l } for l in term.hasExactSynonym
     ],
     'http://www.w3.org/2000/01/rdf-schema#label': [{
-        '@value': label
+      '@value': label
     }],
     'http://www.geneontology.org/formats/oboInOwl#id': [{
-        '@value': id
-      }],
+      '@value': id
+    }],
     'parent': [{'@id': parent.iri}] if parent else None,
     'order': order
   }
@@ -87,8 +87,11 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
   for t in terms.values():
     term = URIRef(t['@id'])
     label = Literal(t['http://www.w3.org/2000/01/rdf-schema#label'][0]['@value'])
+    id = Literal(t['http://www.geneontology.org/formats/oboInOwl#id'][0]['@value'])
+
     g.add( (term, RDFS.label, label) )
     g.add( (term, ccf_ns.ccf_preferred_label, label) )
+    g.add( (term, URIRef('http://www.geneontology.org/formats/oboInOwl#id'), id) )
 
     for synonym in t['http://www.geneontology.org/formats/oboInOwl#hasExactSynonym']:
       g.add( (term, URIRef('http://www.geneontology.org/formats/oboInOwl#hasExactSynonym'), Literal(synonym['@value'])) )
