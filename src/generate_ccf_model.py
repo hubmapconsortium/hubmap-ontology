@@ -16,6 +16,8 @@ with onto:
   class ccf_same_as(ObjectProperty):
     pass
 
+  class ccf_preferred_label(AnnotationProperty, FunctionalProperty):
+    range = [str]
   class creator_orcid(AnnotationProperty, FunctionalProperty):
     range = [str]
   class creator_first_name(AnnotationProperty, FunctionalProperty):

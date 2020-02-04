@@ -4,7 +4,7 @@ from csv import DictReader
 from operator import itemgetter
 from os import path
 from owlready2 import *
-from rdflib import Graph, Namespace, URIRef
+from rdflib import Graph, Namespace, URIRef, RDFS, Literal
 from constants import CCF_NAMESPACE, CCF_PARTONOMY_TERMS, CCF_PARTONOMY_RDF
 
 
@@ -75,14 +75,23 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
 
         child_label = row['HuBMAP Preferred Name'].strip()
         if not child_label:
-          child_label = child_term.label
+          child_label = child_term.label[0]
 
         terms[child_term.iri] = get_term_data(child, child_label, child_term, order, parent_term)
         if parent_term.iri not in terms:
-          parent_label = parent_term.label
+          parent_label = parent_term.label[0]
           terms[parent_term.iri] = get_term_data(parent, parent_label, parent_term, order, body)
     elif len(parent+child.strip()) > 0:
       print(f'Parent: {parent}, Child: {child}')
+  
+  for t in terms.values():
+    term = URIRef(t['@id'])
+    label = Literal(t['http://www.w3.org/2000/01/rdf-schema#label'][0]['@value'])
+    g.add( (term, RDFS.label, label) )
+    g.add( (term, ccf_ns.ccf_preferred_label, label) )
+
+    for synonym in t['http://www.geneontology.org/formats/oboInOwl#hasExactSynonym']:
+      g.add( (term, URIRef('http://www.geneontology.org/formats/oboInOwl#hasExactSynonym'), Literal(synonym['@value'])) )
 
   term_list = list(sorted(terms.values(), key=itemgetter('order')))
   json.dump(term_list, open('dist/ccf-partonomy.jsonld', 'w'), indent=2)
