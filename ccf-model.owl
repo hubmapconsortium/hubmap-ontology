@@ -18,81 +18,98 @@
 
 <owl:ObjectProperty rdf:about="#ccf_same_as"/>
 
-<owl:ObjectProperty rdf:about="#has_rotation">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#SpatialTransformation"/>
-  <rdfs:range rdf:resource="#SpatialRotation"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#has_translation">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#SpatialTransformation"/>
-  <rdfs:range rdf:resource="#SpatialTranslation"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#has_scaling">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#SpatialTransformation"/>
-  <rdfs:range rdf:resource="#SpatialScaling"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#has_transformation">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#SpatialPlacement"/>
-  <rdfs:range rdf:resource="#SpatialTransformation"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#has_object_file_transformation">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#SpatialObjectReference"/>
-  <rdfs:range rdf:resource="#SpatialTransformation"/>
-</owl:ObjectProperty>
-
 <owl:ObjectProperty rdf:about="#has_object_reference">
   <rdfs:domain rdf:resource="#SpatialEntity"/>
   <rdfs:range rdf:resource="#SpatialObjectReference"/>
 </owl:ObjectProperty>
 
-<owl:ObjectProperty rdf:about="#has_dimensions">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#SpatialEntity"/>
-  <rdfs:range rdf:resource="#SpatialDimension"/>
-</owl:ObjectProperty>
-
 <owl:ObjectProperty rdf:about="#has_placement">
   <rdfs:domain rdf:resource="#SpatialEntity"/>
+  <rdfs:domain rdf:resource="#SpatialObjectReference"/>
   <rdfs:range rdf:resource="#SpatialPlacement"/>
 </owl:ObjectProperty>
 
-<owl:ObjectProperty rdf:about="#has_placementee">
-  <rdfs:domain rdf:resource="#SpatialEntity"/>
-  <rdfs:range rdf:resource="#SpatialPlacement"/>
+<owl:ObjectProperty rdf:about="#has_placement_target">
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="#SpatialEntity"/>
 </owl:ObjectProperty>
-
-<owl:DatatypeProperty rdf:about="#has_x">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#has_y">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#has_z">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#has_units">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-</owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#has_placement_date">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:domain rdf:resource="#SpatialPlacement"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_x_scaling">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_y_scaling">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_z_scaling">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_scaling_units">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_x_rotation">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_y_rotation">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_z_rotation">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_rotation_units">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_x_translation">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_y_translation">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_z_translation">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_translation_units">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#has_object_file">
@@ -113,44 +130,53 @@
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:DatatypeProperty>
 
-<owl:AnnotationProperty rdf:about="#has_creator_orcid">
+<owl:DatatypeProperty rdf:about="#has_x_dimension">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialEntity"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_y_dimension">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialEntity"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_z_dimension">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialEntity"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_dimension_units">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialEntity"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:AnnotationProperty rdf:about="#ccf_preferred_label">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:AnnotationProperty>
 
-<owl:AnnotationProperty rdf:about="#has_creator_first_name">
+<owl:AnnotationProperty rdf:about="#creator_orcid">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:AnnotationProperty>
 
-<owl:AnnotationProperty rdf:about="#has_creator_last_name">
+<owl:AnnotationProperty rdf:about="#creator_first_name">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:AnnotationProperty>
 
-<owl:AnnotationProperty rdf:about="#representation_of">
+<owl:AnnotationProperty rdf:about="#creator_last_name">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="#ccf_representation_of">
   <rdfs:domain rdf:resource="#SpatialEntity"/>
 </owl:AnnotationProperty>
-
-<owl:Class rdf:about="#SpatialTransformation">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial transformation</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#SpatialRotation">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial rotation</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#SpatialTranslation">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial translation</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#SpatialScaling">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial scaling</rdfs:label>
-</owl:Class>
 
 <owl:Class rdf:about="#SpatialPlacement">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
@@ -160,11 +186,6 @@
 <owl:Class rdf:about="#SpatialObjectReference">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial object reference</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="#SpatialDimension">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial dimension</rdfs:label>
 </owl:Class>
 
 <owl:Class rdf:about="#SpatialEntity">

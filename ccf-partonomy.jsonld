@@ -52,9 +52,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "multicellular anatomical structure"
-        ]
+        "@value": "multicellular anatomical structure"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -114,9 +112,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "main body axis"
-        ]
+        "@value": "main body axis"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -140,9 +136,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "organism subdivision"
-        ]
+        "@value": "organism subdivision"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -162,9 +156,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "body proper"
-        ]
+        "@value": "body proper"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -194,9 +186,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "trunk"
-        ]
+        "@value": "trunk"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -220,9 +210,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "subdivision of organism along main body axis"
-        ]
+        "@value": "subdivision of organism along main body axis"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -288,9 +276,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "anatomical space"
-        ]
+        "@value": "anatomical space"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -364,9 +350,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "anatomical cavity"
-        ]
+        "@value": "anatomical cavity"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -480,9 +464,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "mesoderm-derived structure"
-        ]
+        "@value": "mesoderm-derived structure"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -587,9 +569,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "organ part"
-        ]
+        "@value": "organ part"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -853,9 +833,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "medulla of organ"
-        ]
+        "@value": "medulla of organ"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -963,9 +941,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "cortex"
-        ]
+        "@value": "cortex"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1102,9 +1078,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "organ subunit"
-        ]
+        "@value": "organ subunit"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1161,9 +1135,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "parietal epithelial cell"
-        ]
+        "@value": "parietal epithelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1190,9 +1162,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "epithelial cell of glomerular capsule"
-        ]
+        "@value": "epithelial cell of glomerular capsule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1263,9 +1233,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "epithelial cell of visceral layer of glomerular capsule"
-        ]
+        "@value": "epithelial cell of visceral layer of glomerular capsule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1285,9 +1253,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "capillary endothelial cell"
-        ]
+        "@value": "capillary endothelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1311,9 +1277,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "blood vessel endothelial cell"
-        ]
+        "@value": "blood vessel endothelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1333,9 +1297,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "glomerular capillary endothelial cell"
-        ]
+        "@value": "glomerular capillary endothelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1359,9 +1321,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "mesangial cell"
-        ]
+        "@value": "mesangial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1397,9 +1357,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "pericyte cell"
-        ]
+        "@value": "pericyte cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1426,9 +1384,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "extraglomerular mesangial cell"
-        ]
+        "@value": "extraglomerular mesangial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1448,9 +1404,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "glomerular cell"
-        ]
+        "@value": "glomerular cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1474,9 +1428,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "glomerular mesangial cell"
-        ]
+        "@value": "glomerular mesangial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1506,9 +1458,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "proximal tubule"
-        ]
+        "@value": "proximal tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1532,9 +1482,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal cortex tubule"
-        ]
+        "@value": "renal cortex tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1561,9 +1509,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal convoluted tubule"
-        ]
+        "@value": "renal convoluted tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1587,9 +1533,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "region of nephron tubule"
-        ]
+        "@value": "region of nephron tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1616,9 +1560,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "proximal convoluted tubule"
-        ]
+        "@value": "proximal convoluted tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1651,9 +1593,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "proximal convoluted tubule segment 1"
-        ]
+        "@value": "proximal convoluted tubule segment 1"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1673,9 +1613,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "excretory tube"
-        ]
+        "@value": "excretory tube"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1708,9 +1646,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "proximal convoluted tubule segment 2"
-        ]
+        "@value": "proximal convoluted tubule segment 2"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1740,9 +1676,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "proximal straight tubule"
-        ]
+        "@value": "proximal straight tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1769,9 +1703,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal straight tubule"
-        ]
+        "@value": "renal straight tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1791,9 +1723,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney proximal straight tubule epithelial cell"
-        ]
+        "@value": "kidney proximal straight tubule epithelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1813,9 +1743,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney loop of Henle descending limb epithelial cell"
-        ]
+        "@value": "kidney loop of Henle descending limb epithelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1851,9 +1779,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "loop of Henle ascending limb thin segment"
-        ]
+        "@value": "loop of Henle ascending limb thin segment"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1873,9 +1799,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney loop of Henle thin ascending limb epithelial cell"
-        ]
+        "@value": "kidney loop of Henle thin ascending limb epithelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1895,9 +1819,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney loop of Henle thick ascending limb epithelial cell"
-        ]
+        "@value": "kidney loop of Henle thick ascending limb epithelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1924,9 +1846,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "descending limb of loop of Henle"
-        ]
+        "@value": "descending limb of loop of Henle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1946,9 +1866,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney loop of Henle thin descending limb epithelial cell"
-        ]
+        "@value": "kidney loop of Henle thin descending limb epithelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -1978,9 +1896,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "loop of Henle"
-        ]
+        "@value": "loop of Henle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2028,9 +1944,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "thick ascending limb of loop of Henle"
-        ]
+        "@value": "thick ascending limb of loop of Henle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2050,9 +1964,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney loop of Henle cortical thick ascending limb epithelial cell"
-        ]
+        "@value": "kidney loop of Henle cortical thick ascending limb epithelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2072,9 +1984,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney loop of Henle ascending limb epithelial cell"
-        ]
+        "@value": "kidney loop of Henle ascending limb epithelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2094,9 +2004,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney loop of Henle medullary thick ascending limb epithelial cell"
-        ]
+        "@value": "kidney loop of Henle medullary thick ascending limb epithelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2116,9 +2024,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "macula densa epithelial cell"
-        ]
+        "@value": "macula densa epithelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2142,9 +2048,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "epithelial cell of distal tubule"
-        ]
+        "@value": "epithelial cell of distal tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2171,9 +2075,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "distal convoluted tubule"
-        ]
+        "@value": "distal convoluted tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2193,9 +2095,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney distal convoluted tubule epithelial cell"
-        ]
+        "@value": "kidney distal convoluted tubule epithelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2222,9 +2122,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal connecting tubule"
-        ]
+        "@value": "renal connecting tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2244,9 +2142,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney connecting tubule epithelial cell"
-        ]
+        "@value": "kidney connecting tubule epithelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2270,9 +2166,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "nephron tubule epithelial cell"
-        ]
+        "@value": "nephron tubule epithelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2308,9 +2202,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "collecting duct of renal tubule"
-        ]
+        "@value": "collecting duct of renal tubule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2330,9 +2222,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney collecting duct intercalated cell"
-        ]
+        "@value": "kidney collecting duct intercalated cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2356,9 +2246,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal intercalated cell"
-        ]
+        "@value": "renal intercalated cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2378,9 +2266,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney cortex collecting duct intercalated cell"
-        ]
+        "@value": "kidney cortex collecting duct intercalated cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2400,9 +2286,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney inner medulla collecting duct intercalated cell"
-        ]
+        "@value": "kidney inner medulla collecting duct intercalated cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2422,9 +2306,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney outer medulla collecting duct intercalated cell"
-        ]
+        "@value": "kidney outer medulla collecting duct intercalated cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2444,9 +2326,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney papillary duct intercalated cell"
-        ]
+        "@value": "kidney papillary duct intercalated cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2466,9 +2346,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal alpha-intercalated cell"
-        ]
+        "@value": "renal alpha-intercalated cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2488,9 +2366,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal beta-intercalated cell"
-        ]
+        "@value": "renal beta-intercalated cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2510,9 +2386,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney collecting duct principal cell"
-        ]
+        "@value": "kidney collecting duct principal cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2532,9 +2406,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal principal cell"
-        ]
+        "@value": "renal principal cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2554,9 +2426,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney cortex collecting duct principal cell"
-        ]
+        "@value": "kidney cortex collecting duct principal cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2576,9 +2446,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney inner medulla collecting duct principal cell"
-        ]
+        "@value": "kidney inner medulla collecting duct principal cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2598,9 +2466,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney outer medulla collecting duct principal cell"
-        ]
+        "@value": "kidney outer medulla collecting duct principal cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2620,9 +2486,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney papillary duct principal cell"
-        ]
+        "@value": "kidney papillary duct principal cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2646,9 +2510,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "endothelial cell"
-        ]
+        "@value": "endothelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2672,9 +2534,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "lining cell"
-        ]
+        "@value": "lining cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2694,9 +2554,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney afferent arteriole endothelial cell"
-        ]
+        "@value": "kidney afferent arteriole endothelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2716,9 +2574,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "endothelial cell of arteriole"
-        ]
+        "@value": "endothelial cell of arteriole"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2738,9 +2594,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney efferent arteriole endothelial cell"
-        ]
+        "@value": "kidney efferent arteriole endothelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2760,9 +2614,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "peritubular capillary endothelial cell"
-        ]
+        "@value": "peritubular capillary endothelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2782,9 +2634,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney capillary endothelial cell"
-        ]
+        "@value": "kidney capillary endothelial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2804,9 +2654,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "vasa recta cell"
-        ]
+        "@value": "vasa recta cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2826,9 +2674,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "inner renal medulla vasa recta cell"
-        ]
+        "@value": "inner renal medulla vasa recta cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2848,9 +2694,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "outer renal medulla vasa recta cell"
-        ]
+        "@value": "outer renal medulla vasa recta cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2870,9 +2714,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "inner medulla vasa recta ascending limb cell"
-        ]
+        "@value": "inner medulla vasa recta ascending limb cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2892,9 +2734,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "vasa recta ascending limb cell"
-        ]
+        "@value": "vasa recta ascending limb cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2914,9 +2754,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "outer medulla vasa recta ascending limb cell"
-        ]
+        "@value": "outer medulla vasa recta ascending limb cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2936,9 +2774,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "inner medulla vasa recta descending limb cell"
-        ]
+        "@value": "inner medulla vasa recta descending limb cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2958,9 +2794,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "vasa recta descending limb cell"
-        ]
+        "@value": "vasa recta descending limb cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -2980,9 +2814,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "outer medulla vasa recta descending limb cell"
-        ]
+        "@value": "outer medulla vasa recta descending limb cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3009,9 +2841,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "endothelial cell of lymphatic vessel"
-        ]
+        "@value": "endothelial cell of lymphatic vessel"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3035,9 +2865,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "endothelial cell of vascular tree"
-        ]
+        "@value": "endothelial cell of vascular tree"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3073,9 +2901,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal column"
-        ]
+        "@value": "renal column"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3102,9 +2928,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "hilum of kidney"
-        ]
+        "@value": "hilum of kidney"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3128,9 +2952,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "hilum"
-        ]
+        "@value": "hilum"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3163,9 +2985,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney capsule"
-        ]
+        "@value": "kidney capsule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3201,9 +3021,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "abdomen connective tissue"
-        ]
+        "@value": "abdomen connective tissue"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3239,9 +3057,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney interstitium"
-        ]
+        "@value": "kidney interstitium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3265,9 +3081,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "interstitial tissue"
-        ]
+        "@value": "interstitial tissue"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3294,9 +3108,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "left kidney interstitium"
-        ]
+        "@value": "left kidney interstitium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3323,9 +3135,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "right kidney interstitium"
-        ]
+        "@value": "right kidney interstitium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3345,9 +3155,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "stroma"
-        ]
+        "@value": "stroma"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3374,9 +3182,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "vascular associated smooth muscle cell"
-        ]
+        "@value": "vascular associated smooth muscle cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3406,9 +3212,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "smooth muscle cell"
-        ]
+        "@value": "smooth muscle cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3428,9 +3232,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal interstitial pericyte"
-        ]
+        "@value": "renal interstitial pericyte"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3450,9 +3252,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney interstitial myofibroblast"
-        ]
+        "@value": "kidney interstitial myofibroblast"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3476,9 +3276,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "myofibroblast cell"
-        ]
+        "@value": "myofibroblast cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3505,9 +3303,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney granular cell"
-        ]
+        "@value": "kidney granular cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3527,9 +3323,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney resident macrophage"
-        ]
+        "@value": "kidney resident macrophage"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3549,9 +3343,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney interstitial cell"
-        ]
+        "@value": "kidney interstitial cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3575,9 +3367,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "macrophage"
-        ]
+        "@value": "macrophage"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3597,9 +3387,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "phagocyte"
-        ]
+        "@value": "phagocyte"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3623,9 +3411,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "natural killer cell"
-        ]
+        "@value": "natural killer cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3645,9 +3431,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "group 1 innate lymphoid cell"
-        ]
+        "@value": "group 1 innate lymphoid cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3667,9 +3451,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney resident dendritic cell"
-        ]
+        "@value": "kidney resident dendritic cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3689,9 +3471,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "interstitial dendritic cell"
-        ]
+        "@value": "interstitial dendritic cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3711,9 +3491,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "lymphocyte"
-        ]
+        "@value": "lymphocyte"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3743,9 +3521,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "cytotoxic T cell"
-        ]
+        "@value": "cytotoxic T cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3775,9 +3551,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "effector T cell"
-        ]
+        "@value": "effector T cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3797,9 +3571,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "lymphocyte of B lineage"
-        ]
+        "@value": "lymphocyte of B lineage"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3823,9 +3595,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal artery"
-        ]
+        "@value": "renal artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3852,9 +3622,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "abdominal aorta artery"
-        ]
+        "@value": "abdominal aorta artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3878,9 +3646,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "left renal artery"
-        ]
+        "@value": "left renal artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3904,9 +3670,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "right renal artery"
-        ]
+        "@value": "right renal artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3936,9 +3700,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal vein"
-        ]
+        "@value": "renal vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3962,9 +3724,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "vein"
-        ]
+        "@value": "vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -3984,9 +3744,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "left renal vein"
-        ]
+        "@value": "left renal vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4006,9 +3764,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "right renal vein"
-        ]
+        "@value": "right renal vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4035,9 +3791,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "interlobular artery"
-        ]
+        "@value": "interlobular artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4057,9 +3811,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney arterial blood vessel"
-        ]
+        "@value": "kidney arterial blood vessel"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4086,9 +3838,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal interlobular vein"
-        ]
+        "@value": "renal interlobular vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4112,9 +3862,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "vein of abdomen"
-        ]
+        "@value": "vein of abdomen"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4138,9 +3886,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney arcuate artery"
-        ]
+        "@value": "kidney arcuate artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4170,9 +3916,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "artery"
-        ]
+        "@value": "artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4205,9 +3949,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "kidney arcuate vein"
-        ]
+        "@value": "kidney arcuate vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4227,9 +3969,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "renal fat pad"
-        ]
+        "@value": "renal fat pad"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4249,9 +3989,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "fat pad"
-        ]
+        "@value": "fat pad"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4271,9 +4009,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "spleen"
-        ]
+        "@value": "spleen"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4321,9 +4057,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "hemopoietic organ"
-        ]
+        "@value": "hemopoietic organ"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4368,9 +4102,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "spleen capsule"
-        ]
+        "@value": "spleen capsule"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4397,9 +4129,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "trabecula of spleen"
-        ]
+        "@value": "trabecula of spleen"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4419,9 +4149,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "trabecula"
-        ]
+        "@value": "trabecula"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4454,9 +4182,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "white pulp of spleen"
-        ]
+        "@value": "white pulp of spleen"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4486,9 +4212,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "spleen pulp"
-        ]
+        "@value": "spleen pulp"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4524,9 +4248,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "periarterial lymphatic sheath"
-        ]
+        "@value": "periarterial lymphatic sheath"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4553,9 +4275,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "spleen central arteriole"
-        ]
+        "@value": "spleen central arteriole"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4575,9 +4295,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "splenic arteriole"
-        ]
+        "@value": "splenic arteriole"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4610,9 +4328,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "red pulp of spleen"
-        ]
+        "@value": "red pulp of spleen"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4636,9 +4352,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "splenic sinusoid"
-        ]
+        "@value": "splenic sinusoid"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4662,9 +4376,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "abdomen blood vessel"
-        ]
+        "@value": "abdomen blood vessel"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4697,9 +4409,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "spleen venous sinus"
-        ]
+        "@value": "spleen venous sinus"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4719,9 +4429,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "venous sinus"
-        ]
+        "@value": "venous sinus"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4748,9 +4456,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "penicillar arteriole"
-        ]
+        "@value": "penicillar arteriole"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4786,9 +4492,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "spleen B cell corona"
-        ]
+        "@value": "spleen B cell corona"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4818,9 +4522,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "secondary follicle corona"
-        ]
+        "@value": "secondary follicle corona"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4847,9 +4549,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "splenic cord"
-        ]
+        "@value": "splenic cord"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4876,9 +4576,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "spleen secondary B follicle"
-        ]
+        "@value": "spleen secondary B follicle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4926,9 +4624,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "spleen lymphoid follicle"
-        ]
+        "@value": "spleen lymphoid follicle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4961,9 +4657,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "spleen germinal center"
-        ]
+        "@value": "spleen germinal center"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -4993,9 +4687,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "germinal center"
-        ]
+        "@value": "germinal center"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5022,9 +4714,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "spleen follicular dendritic cell network"
-        ]
+        "@value": "spleen follicular dendritic cell network"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5051,9 +4741,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "lymphoid tissue"
-        ]
+        "@value": "lymphoid tissue"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5073,9 +4761,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "follicular dendritic cell"
-        ]
+        "@value": "follicular dendritic cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5095,9 +4781,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "defensive cell"
-        ]
+        "@value": "defensive cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5127,9 +4811,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "B cell"
-        ]
+        "@value": "B cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5162,9 +4844,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "plasma cell"
-        ]
+        "@value": "plasma cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5184,9 +4864,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "antibody secreting cell"
-        ]
+        "@value": "antibody secreting cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5206,9 +4884,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "plasmablast"
-        ]
+        "@value": "plasmablast"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5238,9 +4914,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "T cell"
-        ]
+        "@value": "T cell"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5273,9 +4947,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "hilum of spleen"
-        ]
+        "@value": "hilum of spleen"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5302,9 +4974,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "splenic artery"
-        ]
+        "@value": "splenic artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5328,9 +4998,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "lymphatic vessel"
-        ]
+        "@value": "lymphatic vessel"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5350,9 +5018,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "vessel"
-        ]
+        "@value": "vessel"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5372,9 +5038,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Colic impression of spleen"
-        ]
+        "@value": "Colic impression of spleen"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5394,9 +5058,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Region of surface of spleen"
-        ]
+        "@value": "Region of surface of spleen"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5416,9 +5078,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Gastric impression of spleen"
-        ]
+        "@value": "Gastric impression of spleen"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5438,9 +5098,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Diaphragmatic surface of spleen"
-        ]
+        "@value": "Diaphragmatic surface of spleen"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5460,9 +5118,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Visceral surface of spleen"
-        ]
+        "@value": "Visceral surface of spleen"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5482,9 +5138,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Renal impression of spleen"
-        ]
+        "@value": "Renal impression of spleen"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5504,9 +5158,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Pancreatic impression of spleen"
-        ]
+        "@value": "Pancreatic impression of spleen"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5526,9 +5178,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Notch of spleen"
-        ]
+        "@value": "Notch of spleen"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5555,9 +5205,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "heart"
-        ]
+        "@value": "heart"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5577,9 +5225,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "primary circulatory organ"
-        ]
+        "@value": "primary circulatory organ"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5609,9 +5255,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "heart right ventricle"
-        ]
+        "@value": "heart right ventricle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5641,9 +5285,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "cardiac ventricle"
-        ]
+        "@value": "cardiac ventricle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5663,9 +5305,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "papillary muscle of right ventricle"
-        ]
+        "@value": "papillary muscle of right ventricle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5698,9 +5338,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "papillary muscle of heart"
-        ]
+        "@value": "papillary muscle of heart"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5727,9 +5365,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "pulmonary trunk"
-        ]
+        "@value": "pulmonary trunk"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5756,9 +5392,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "left pulmonary artery"
-        ]
+        "@value": "left pulmonary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5785,9 +5419,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "right pulmonary artery"
-        ]
+        "@value": "right pulmonary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5820,9 +5452,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "heart left ventricle"
-        ]
+        "@value": "heart left ventricle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5842,9 +5472,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "papillary muscle of left ventricle"
-        ]
+        "@value": "papillary muscle of left ventricle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5880,9 +5508,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "right cardiac atrium"
-        ]
+        "@value": "right cardiac atrium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5918,9 +5544,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "cardiac atrium"
-        ]
+        "@value": "cardiac atrium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5959,9 +5583,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "left cardiac atrium"
-        ]
+        "@value": "left cardiac atrium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -5985,9 +5607,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "pulmonary vein"
-        ]
+        "@value": "pulmonary vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6007,9 +5627,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "left pulmonary vein"
-        ]
+        "@value": "left pulmonary vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6029,9 +5647,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "right pulmonary vein"
-        ]
+        "@value": "right pulmonary vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6058,9 +5674,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "interventricular septum"
-        ]
+        "@value": "interventricular septum"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6093,9 +5707,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "cardiac septum"
-        ]
+        "@value": "cardiac septum"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6122,9 +5734,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "mitral valve"
-        ]
+        "@value": "mitral valve"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6148,9 +5758,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "atrioventricular valve"
-        ]
+        "@value": "atrioventricular valve"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6177,9 +5785,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "tricuspid valve"
-        ]
+        "@value": "tricuspid valve"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6203,9 +5809,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "pulmonary valve"
-        ]
+        "@value": "pulmonary valve"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6232,9 +5836,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "semi-lunar valve"
-        ]
+        "@value": "semi-lunar valve"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6254,9 +5856,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "aortic valve"
-        ]
+        "@value": "aortic valve"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6280,9 +5880,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "arch of aorta"
-        ]
+        "@value": "arch of aorta"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6309,9 +5907,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "thoracic aorta"
-        ]
+        "@value": "thoracic aorta"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6335,9 +5931,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "descending aorta"
-        ]
+        "@value": "descending aorta"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6361,9 +5955,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "section of aorta"
-        ]
+        "@value": "section of aorta"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6390,9 +5982,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "left common carotid artery plus branches"
-        ]
+        "@value": "left common carotid artery plus branches"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6422,9 +6012,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "common carotid artery plus branches"
-        ]
+        "@value": "common carotid artery plus branches"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6451,9 +6039,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "right common carotid artery plus branches"
-        ]
+        "@value": "right common carotid artery plus branches"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6473,9 +6059,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "vena cava"
-        ]
+        "@value": "vena cava"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6499,9 +6083,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "great vessel of heart"
-        ]
+        "@value": "great vessel of heart"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6521,9 +6103,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Superior vena cava"
-        ]
+        "@value": "Superior vena cava"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6543,9 +6123,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Trunk of systemic vein"
-        ]
+        "@value": "Trunk of systemic vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6565,9 +6143,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "left coronary artery"
-        ]
+        "@value": "left coronary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6591,9 +6167,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "coronary artery"
-        ]
+        "@value": "coronary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6613,9 +6187,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Left posterior descending branch of circumflex branch of left coronary artery"
-        ]
+        "@value": "Left posterior descending branch of circumflex branch of left coronary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6635,9 +6207,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Branch of left coronary artery"
-        ]
+        "@value": "Branch of left coronary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6667,9 +6237,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "circumflex branch of left coronary artery"
-        ]
+        "@value": "circumflex branch of left coronary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6693,9 +6261,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "branch of left coronary artery"
-        ]
+        "@value": "branch of left coronary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6715,9 +6281,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Left marginal artery"
-        ]
+        "@value": "Left marginal artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6737,9 +6301,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Branch of circumflex coronary artery"
-        ]
+        "@value": "Branch of circumflex coronary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6759,9 +6321,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Anterior interventricular branch of left coronary artery"
-        ]
+        "@value": "Anterior interventricular branch of left coronary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6781,9 +6341,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Diagonal branch of anterior descending branch of left coronary artery"
-        ]
+        "@value": "Diagonal branch of anterior descending branch of left coronary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6803,9 +6361,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "right coronary artery"
-        ]
+        "@value": "right coronary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6829,9 +6385,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "great vein of heart"
-        ]
+        "@value": "great vein of heart"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6864,9 +6418,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "cardiac vein"
-        ]
+        "@value": "cardiac vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6890,9 +6442,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "coronary sinus"
-        ]
+        "@value": "coronary sinus"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6916,9 +6466,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "heart blood vessel"
-        ]
+        "@value": "heart blood vessel"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6938,9 +6486,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Oblique vein of left atrium"
-        ]
+        "@value": "Oblique vein of left atrium"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6960,9 +6506,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Cardiac vein"
-        ]
+        "@value": "Cardiac vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -6982,9 +6526,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Posterior vein of left ventricle"
-        ]
+        "@value": "Posterior vein of left ventricle"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7011,9 +6553,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "middle cardiac vein"
-        ]
+        "@value": "middle cardiac vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7037,9 +6577,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "small cardiac vein"
-        ]
+        "@value": "small cardiac vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7059,9 +6597,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Anterior cardiac vein"
-        ]
+        "@value": "Anterior cardiac vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7081,9 +6617,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "left lung upper lobe"
-        ]
+        "@value": "left lung upper lobe"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7103,9 +6637,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "left lung"
-        ]
+        "@value": "left lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7125,9 +6657,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Anatomical apex of lung"
-        ]
+        "@value": "Anatomical apex of lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7147,9 +6677,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Anatomical point"
-        ]
+        "@value": "Anatomical point"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7169,9 +6697,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Anatomical apex of left lung"
-        ]
+        "@value": "Anatomical apex of left lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7191,9 +6717,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Anatomical apex of right lung"
-        ]
+        "@value": "Anatomical apex of right lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7213,9 +6737,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Base of lobe of lung"
-        ]
+        "@value": "Base of lobe of lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7235,9 +6757,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Surface of region of lobe of lung"
-        ]
+        "@value": "Surface of region of lobe of lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7257,9 +6777,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Costal surface of lobe of lung"
-        ]
+        "@value": "Costal surface of lobe of lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7279,9 +6797,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Inferior margin of lobe of lung"
-        ]
+        "@value": "Inferior margin of lobe of lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7301,9 +6817,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Anatomical line of lung"
-        ]
+        "@value": "Anatomical line of lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7323,9 +6837,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Anterior margin of lung"
-        ]
+        "@value": "Anterior margin of lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7345,9 +6857,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Inferior margin of mediastinal surface of left lung"
-        ]
+        "@value": "Inferior margin of mediastinal surface of left lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7367,9 +6877,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Subdivision of inferior margin of left lung"
-        ]
+        "@value": "Subdivision of inferior margin of left lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7389,9 +6897,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Inferior margin of mediastinal surface of right lung"
-        ]
+        "@value": "Inferior margin of mediastinal surface of right lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7411,9 +6917,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Subdivision of inferior margin of right lung"
-        ]
+        "@value": "Subdivision of inferior margin of right lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7433,9 +6937,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Oblique fissure of left lung"
-        ]
+        "@value": "Oblique fissure of left lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7455,9 +6957,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Oblique fissure of right lung"
-        ]
+        "@value": "Oblique fissure of right lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7477,9 +6977,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Oblique fissure of lung"
-        ]
+        "@value": "Oblique fissure of lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7499,9 +6997,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Pulmonary fissure"
-        ]
+        "@value": "Pulmonary fissure"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7521,9 +7017,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Horizontal fissure of right lung"
-        ]
+        "@value": "Horizontal fissure of right lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7543,9 +7037,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Cardiac notch of left lung"
-        ]
+        "@value": "Cardiac notch of left lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7565,9 +7057,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Anterior margin of lobe of lung"
-        ]
+        "@value": "Anterior margin of lobe of lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7587,9 +7077,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Pulmonary valve"
-        ]
+        "@value": "Pulmonary valve"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7609,9 +7097,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Cardiac valve"
-        ]
+        "@value": "Cardiac valve"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7631,9 +7117,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Left pulmonary artery"
-        ]
+        "@value": "Left pulmonary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7653,9 +7137,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Pulmonary artery"
-        ]
+        "@value": "Pulmonary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7675,9 +7157,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Right pulmonary artery"
-        ]
+        "@value": "Right pulmonary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7697,9 +7177,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Branch of apical segmental artery"
-        ]
+        "@value": "Branch of apical segmental artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7719,9 +7197,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Subsegmental branch of pulmonary artery"
-        ]
+        "@value": "Subsegmental branch of pulmonary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7741,9 +7217,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Anterior branch of anterior segmental artery"
-        ]
+        "@value": "Anterior branch of anterior segmental artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7763,9 +7237,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Subsegmental part of anterior segmental artery"
-        ]
+        "@value": "Subsegmental part of anterior segmental artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7785,9 +7257,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Branch of superior segmental pulmonary artery"
-        ]
+        "@value": "Branch of superior segmental pulmonary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7807,9 +7277,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "pulmonary vein"
-        ]
+        "@value": "pulmonary vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7829,9 +7297,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "pulmonary blood vessel"
-        ]
+        "@value": "pulmonary blood vessel"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7851,9 +7317,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Anterior ascending branch of left pulmonary artery"
-        ]
+        "@value": "Anterior ascending branch of left pulmonary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7873,9 +7337,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Anterior ascending branch of right pulmonary artery"
-        ]
+        "@value": "Anterior ascending branch of right pulmonary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7895,9 +7357,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Anterior descending branch of left pulmonary artery"
-        ]
+        "@value": "Anterior descending branch of left pulmonary artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7921,9 +7381,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "colon"
-        ]
+        "@value": "colon"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7943,9 +7401,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "subdivision of digestive tract"
-        ]
+        "@value": "subdivision of digestive tract"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7969,9 +7425,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "ascending colon"
-        ]
+        "@value": "ascending colon"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -7991,9 +7445,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "proximal-distal subdivision of colon"
-        ]
+        "@value": "proximal-distal subdivision of colon"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8017,9 +7469,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "descending colon"
-        ]
+        "@value": "descending colon"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8043,9 +7493,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "transverse colon"
-        ]
+        "@value": "transverse colon"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8065,9 +7513,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "sigmoid colon"
-        ]
+        "@value": "sigmoid colon"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8091,9 +7537,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "rectum"
-        ]
+        "@value": "rectum"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8123,9 +7567,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "caecum"
-        ]
+        "@value": "caecum"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8145,9 +7587,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "digestive tract diverticulum"
-        ]
+        "@value": "digestive tract diverticulum"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8180,9 +7620,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "vermiform appendix"
-        ]
+        "@value": "vermiform appendix"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8209,9 +7647,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "digestive system element"
-        ]
+        "@value": "digestive system element"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8235,9 +7671,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "valve"
-        ]
+        "@value": "valve"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8270,9 +7704,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "hepatic flexure of colon"
-        ]
+        "@value": "hepatic flexure of colon"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8296,9 +7728,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "colic flexure"
-        ]
+        "@value": "colic flexure"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8331,9 +7761,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "splenic flexure of colon"
-        ]
+        "@value": "splenic flexure of colon"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8357,9 +7785,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "superior mesenteric artery"
-        ]
+        "@value": "superior mesenteric artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8379,9 +7805,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "mesenteric artery"
-        ]
+        "@value": "mesenteric artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8405,9 +7829,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "inferior mesenteric artery"
-        ]
+        "@value": "inferior mesenteric artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8427,9 +7849,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Left colic artery"
-        ]
+        "@value": "Left colic artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8449,9 +7869,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Branch of inferior mesenteric artery"
-        ]
+        "@value": "Branch of inferior mesenteric artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8471,9 +7889,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Right colic artery"
-        ]
+        "@value": "Right colic artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8493,9 +7909,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Branch of superior mesenteric artery"
-        ]
+        "@value": "Branch of superior mesenteric artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8515,9 +7929,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "middle colic artery"
-        ]
+        "@value": "middle colic artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8541,9 +7953,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "sigmoid artery"
-        ]
+        "@value": "sigmoid artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8567,9 +7977,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "systemic artery"
-        ]
+        "@value": "systemic artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8589,9 +7997,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Marginal artery of colon"
-        ]
+        "@value": "Marginal artery of colon"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8611,9 +8017,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "ileocolic artery"
-        ]
+        "@value": "ileocolic artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8637,9 +8041,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "portal vein"
-        ]
+        "@value": "portal vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8663,9 +8065,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "splenic vein"
-        ]
+        "@value": "splenic vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8685,9 +8085,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "inferior mesenteric vein"
-        ]
+        "@value": "inferior mesenteric vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8707,9 +8105,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "mesenteric vein"
-        ]
+        "@value": "mesenteric vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8729,9 +8125,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "superior mesenteric vein"
-        ]
+        "@value": "superior mesenteric vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8755,9 +8149,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "inferior pancreaticoduodenal vein"
-        ]
+        "@value": "inferior pancreaticoduodenal vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8793,9 +8185,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "pancreaticoduodenal vein"
-        ]
+        "@value": "pancreaticoduodenal vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8815,9 +8205,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Left colic vein"
-        ]
+        "@value": "Left colic vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8837,9 +8225,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Tributary of inferior mesenteric vein"
-        ]
+        "@value": "Tributary of inferior mesenteric vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8859,9 +8245,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Right colic vein"
-        ]
+        "@value": "Right colic vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8881,9 +8265,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Tributary of superior mesenteric vein"
-        ]
+        "@value": "Tributary of superior mesenteric vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8907,9 +8289,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "middle colic vein"
-        ]
+        "@value": "middle colic vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8929,9 +8309,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "ileocolic vein"
-        ]
+        "@value": "ileocolic vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8951,9 +8329,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "ileal vein"
-        ]
+        "@value": "ileal vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8973,9 +8349,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Sigmoid vein"
-        ]
+        "@value": "Sigmoid vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -8995,9 +8369,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Inferior vena cava"
-        ]
+        "@value": "Inferior vena cava"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9017,9 +8389,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "internal iliac vein"
-        ]
+        "@value": "internal iliac vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9039,9 +8409,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "iliac vein"
-        ]
+        "@value": "iliac vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9061,9 +8429,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Middle rectal vein"
-        ]
+        "@value": "Middle rectal vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9083,9 +8449,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Tributary of internal iliac vein"
-        ]
+        "@value": "Tributary of internal iliac vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9105,9 +8469,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Inferior rectal vein"
-        ]
+        "@value": "Inferior rectal vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9127,9 +8489,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Tributary of internal pudendal vein"
-        ]
+        "@value": "Tributary of internal pudendal vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9149,9 +8509,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Superior rectal vein"
-        ]
+        "@value": "Superior rectal vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9171,9 +8529,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "median sacral vein"
-        ]
+        "@value": "median sacral vein"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9200,9 +8556,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "small intestine"
-        ]
+        "@value": "small intestine"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9222,9 +8576,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "duodenum"
-        ]
+        "@value": "duodenum"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9244,9 +8596,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "jejunum"
-        ]
+        "@value": "jejunum"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9266,9 +8616,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "ileum"
-        ]
+        "@value": "ileum"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9288,9 +8636,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Duodenojejunal junction"
-        ]
+        "@value": "Duodenojejunal junction"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9310,9 +8656,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "Zone of continuity"
-        ]
+        "@value": "Zone of continuity"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9336,9 +8680,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "pyloric sphincter"
-        ]
+        "@value": "pyloric sphincter"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9358,9 +8700,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "gastrointestinal sphincter"
-        ]
+        "@value": "gastrointestinal sphincter"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9384,9 +8724,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "ileocecal valve"
-        ]
+        "@value": "ileocecal valve"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9410,9 +8748,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "inferior pancreaticoduodenal artery"
-        ]
+        "@value": "inferior pancreaticoduodenal artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -9439,9 +8775,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": [
-          "pancreaticoduodenal artery"
-        ]
+        "@value": "pancreaticoduodenal artery"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
