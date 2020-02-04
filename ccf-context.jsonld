@@ -7,6 +7,7 @@
     "obo": "http://purl.obolibrary.org/obo/",
     "owl": "http://www.w3.org/2002/07/owl#",
     "dc": "http://purl.org/dc/elements/1.1/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
 
     "label": "rdf:label",
     "creator": "dc:creator",
@@ -20,6 +21,11 @@
     "ccf_annotations": {
       "@id": "ccf_annotation",
       "@type": "@id",
+      "@container": "@set"
+    },
+    "freetext_annotations": {
+      "@id": "ccf_freetext_annotation",
+      "@type": "xsd:string",
       "@container": "@set"
     },
     "object": {
