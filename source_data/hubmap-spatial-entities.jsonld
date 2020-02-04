@@ -13,6 +13,9 @@
       "obo:UBERON_123",
       "obo:UBERON_456"
     ],
+    "freetext_annotations": [
+      "bob's kidney"
+    ],
     "x_dimension": 0.5, "y_dimension": 2, "z_dimension": 3, "dimension_units": "millimeter",
 
     "placement": {
