@@ -2,75 +2,54 @@
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#ExampleKidneySlice",
-    "@type": ["SpatialEntity", "owl:NamedIndividual"],
+    "@type": "SpatialEntity",
     "label": "Example Kidney Slice",
     "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
+    "creator_first_name": "Bruce",
+    "creator_last_name": "Herr",
+    "creator_orcid": "https://orcid.org/0000-0002-6703-7647",
     "creation_date": "2020-01-01",
     "ccf_annotations": [
       "obo:UBERON_123",
       "obo:UBERON_456"
     ],
+    "x_dimension": 0.5, "y_dimension": 2, "z_dimension": 3, "dimension_units": "millimeter",
 
-    "dimensions": {
-      "@type": "SpatialDimension",
-      "x": 1, "y": 4, "z": 7, "units": "millimeter"
-    },
     "placement": {
+      "@id": "#ExampleKidneySlicePlacement",
       "@type": "SpatialPlacement",
+      "target": "#VHKidney",
       "placement_date": "2020-01-01",
-      "transformation": {
-        "@type": "SpatialTransformation",
-        "rotation": {
-          "@type": "SpatialDimension",
-          "x": 1, "y": 3, "z": 5, "units": "degree"
-        },
-        "translation": {
-          "@type": "SpatialDimension",
-          "x": 0.6, "y": 2, "z": 2, "units": "millimeter"
-        },
-        "scaling": {
-          "@type": "SpatialDimension",
-          "x": 1, "y": 1, "z": 1, "units": "ratio"
-        }
-      },
-      "placementee": "#VHKidney"
+      "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
+      "x_rotation": 1, "y_rotation": 3, "z_rotation": 5, "rotation_units": "degree",
+      "x_translation": 0.6, "y_translation": 2, "z_translation": 2, "translation_units": "millimeter"
     }
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#ExampleKidneySection",
-    "@type": ["SpatialEntity", "owl:NamedIndividual"],
-    "label": "Example Kidney Slice",
+    "@type": "SpatialEntity",
+    "label": "Example Kidney Section",
     "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
+    "creator_first_name": "Bruce",
+    "creator_last_name": "Herr",
+    "creator_orcid": "https://orcid.org/0000-0002-6703-7647",
     "creation_date": "2020-01-01",
     "ccf_annotations": [
       "obo:UBERON_123",
       "obo:UBERON_456"
     ],
+    "x_dimension": 0.5, "y_dimension": 2, "z_dimension": 3, "dimension_units": "millimeter",
 
-    "dimensions": {
-      "@type": "SpatialDimension",
-      "x": 0.5, "y": 2, "z": 3, "units": "millimeter"
-    },
     "placement": {
+      "@id": "#ExampleKidneySectionPlacement",
       "@type": "SpatialPlacement",
+      "target": "#ExampleKidneySlice",
       "placement_date": "2020-01-01",
-      "transformation": {
-        "@type": "SpatialTransformation",
-        "rotation": {
-          "@type": "SpatialDimension",
-          "x": 1, "y": 3, "z": 5, "units": "degree"
-        },
-        "translation": {
-          "@type": "SpatialDimension",
-          "x": 0.6, "y": 2, "z": 2, "units": "millimeter"
-        },
-        "scaling": {
-          "@type": "SpatialDimension",
-          "x": 1, "y": 1, "z": 1, "units": "ratio"
-        }
-      },
-      "placementee": "#ExampleKidneySlice"
+
+      "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
+      "x_rotation": 1, "y_rotation": 3, "z_rotation": 5, "rotation_units": "degree",
+      "x_translation": 0.6, "y_translation": 2, "z_translation": 2, "translation_units": "millimeter"
     }
   }
 ]

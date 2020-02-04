@@ -14,31 +14,13 @@
       "@id": "creation_date"
     },
     "representation_of": {
-      "@id": "representation_of",
+      "@id": "ccf_representation_of",
       "@type": "@id"
     },
     "ccf_annotations": {
       "@id": "ccf_annotation",
       "@type": "@id",
       "@container": "@set"
-    },
-    "dimensions": {
-      "@id": "has_dimensions"
-    },
-    "x": { 
-      "@id": "has_x",
-      "@type": "rdf:float"
-    },
-    "y": { 
-      "@id": "has_y",
-      "@type": "rdf:float"
-    },
-    "z": { 
-      "@id": "has_z",
-      "@type": "rdf:float"
-    },
-    "units": {
-      "@id": "has_units"
     },
     "object": {
       "@id": "has_object_reference"
@@ -52,24 +34,86 @@
     "file_subpath": {
       "@id": "has_object_file_subpath"
     },
-    "file_transformation": {
-      "@id": "has_object_file_transformation"
-    },
-    "rotation": {
-      "@id": "has_rotation"
-    },
-    "translation": {
-      "@id": "has_translation"
-    },
-    "scaling": {
-      "@id": "has_scaling"
-    },  
     "placement": {
       "@id": "has_placement"
     },
-    "placementee": {
-      "@id": "has_placementee",
+    "target": {
+      "@id": "has_placement_target",
       "@type": "@id"
+    },
+
+    "dimensions": "@nest",
+    "x": {
+      "@id": "has_x_dimension"
+    },
+    "y": {
+      "@id": "has_y_dimension"
+    },
+    "z": {
+      "@id": "has_z_dimension"
+    },
+    "units": {
+      "@id": "has_dimension_units"
+    },
+    "x_scaling": { 
+      "@id": "has_x_scaling",
+      "@type": "rdf:float"
+    },
+    "y_scaling": { 
+      "@id": "has_y_scaling",
+      "@type": "rdf:float"
+    },
+    "z_scaling": { 
+      "@id": "has_z_scaling",
+      "@type": "rdf:float"
+    },
+    "scaling_units": {
+      "@id": "has_scaling_units"
+    },
+    "x_dimension": { 
+      "@id": "has_x_dimension",
+      "@type": "rdf:float"
+    },
+    "y_dimension": { 
+      "@id": "has_y_dimension",
+      "@type": "rdf:float"
+    },
+    "z_dimension": { 
+      "@id": "has_z_dimension",
+      "@type": "rdf:float"
+    },
+    "dimension_units": {
+      "@id": "has_dimension_units"
+    },
+    "x_rotation": { 
+      "@id": "has_x_rotation",
+      "@type": "rdf:float"
+    },
+    "y_rotation": { 
+      "@id": "has_y_rotation",
+      "@type": "rdf:float"
+    },
+    "z_rotation": { 
+      "@id": "has_z_rotation",
+      "@type": "rdf:float"
+    },
+    "rotation_units": {
+      "@id": "has_rotation_units"
+    },
+    "x_translation": { 
+      "@id": "has_x_translation",
+      "@type": "rdf:float"
+    },
+    "y_translation": { 
+      "@id": "has_y_translation",
+      "@type": "rdf:float"
+    },
+    "z_translation": { 
+      "@id": "has_z_translation",
+      "@type": "rdf:float"
+    },
+    "translation_units": {
+      "@id": "has_translation_units"
     }
   }
 }

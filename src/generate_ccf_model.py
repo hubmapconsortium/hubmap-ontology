@@ -16,47 +16,54 @@ with onto:
   class ccf_same_as(ObjectProperty):
     pass
 
-  class has_x(DataProperty, FunctionalProperty):
-    range = [float]
-  class has_y(DataProperty, FunctionalProperty):
-    range = [float]
-  class has_z(DataProperty, FunctionalProperty):
-    range = [float]
-  class has_units(DataProperty, FunctionalProperty):
+  class creator_orcid(AnnotationProperty, FunctionalProperty):
     range = [str]
-  class has_creator_orcid(AnnotationProperty, FunctionalProperty):
+  class creator_first_name(AnnotationProperty, FunctionalProperty):
     range = [str]
-  class has_creator_first_name(AnnotationProperty, FunctionalProperty):
+  class creator_last_name(AnnotationProperty, FunctionalProperty):
     range = [str]
-  class has_creator_last_name(AnnotationProperty, FunctionalProperty):
-    range = [str]
-
-  class SpatialTransformation(Thing):
-    label = 'spatial transformation'
-  class SpatialRotation(Thing):
-    label = 'spatial rotation'
-  class SpatialTranslation(Thing):
-    label = 'spatial translation'
-  class SpatialScaling(Thing):
-    label = 'spatial scaling'
-  class has_rotation(ObjectProperty, FunctionalProperty):
-    domain = [SpatialTransformation]
-    range = [SpatialRotation]
-  class has_translation(ObjectProperty, FunctionalProperty):
-    domain = [SpatialTransformation]
-    range = [SpatialTranslation]
-  class has_scaling(ObjectProperty, FunctionalProperty):
-    domain = [SpatialTransformation]
-    range = [SpatialScaling]
 
   class SpatialPlacement(Thing):
     label = 'spatial placement'
-  class has_transformation(ObjectProperty, FunctionalProperty):
-    domain = [SpatialPlacement]
-    range = [SpatialTransformation]
   class has_placement_date(DataProperty, FunctionalProperty):
     domain = [SpatialPlacement]
     range = [datetime.date]
+  class has_x_scaling(DataProperty, FunctionalProperty):
+    domain = [SpatialPlacement]
+    range = [float]
+  class has_y_scaling(DataProperty, FunctionalProperty):
+    domain = [SpatialPlacement]
+    range = [float]
+  class has_z_scaling(DataProperty, FunctionalProperty):
+    domain = [SpatialPlacement]
+    range = [float]
+  class has_scaling_units(DataProperty, FunctionalProperty):
+    domain = [SpatialPlacement]
+    range = [str]
+  class has_x_rotation(DataProperty, FunctionalProperty):
+    domain = [SpatialPlacement]
+    range = [float]
+  class has_y_rotation(DataProperty, FunctionalProperty):
+    domain = [SpatialPlacement]
+    range = [float]
+  class has_z_rotation(DataProperty, FunctionalProperty):
+    domain = [SpatialPlacement]
+    range = [float]
+  class has_rotation_units(DataProperty, FunctionalProperty):
+    domain = [SpatialPlacement]
+    range = [str]
+  class has_x_translation(DataProperty, FunctionalProperty):
+    domain = [SpatialPlacement]
+    range = [float]
+  class has_y_translation(DataProperty, FunctionalProperty):
+    domain = [SpatialPlacement]
+    range = [float]
+  class has_z_translation(DataProperty, FunctionalProperty):
+    domain = [SpatialPlacement]
+    range = [float]
+  class has_translation_units(DataProperty, FunctionalProperty):
+    domain = [SpatialPlacement]
+    range = [str]
 
   class SpatialObjectReference(Thing):
     label = 'spatial object reference'
@@ -69,28 +76,31 @@ with onto:
   class has_object_file_subpath(DataProperty, FunctionalProperty):
     domain = [SpatialObjectReference]
     range = [str] # format specific internal path
-  class has_object_file_transformation(ObjectProperty, FunctionalProperty):
-    domain = [SpatialObjectReference]
-    range = [SpatialTransformation]
   
-  class SpatialDimension(Thing):
-    label = 'spatial dimension'
-
   class SpatialEntity(Thing):
     label = 'spatial entity'
+  class has_x_dimension(DataProperty, FunctionalProperty):
+    domain = [SpatialEntity]
+    range = [float]
+  class has_y_dimension(DataProperty, FunctionalProperty):
+    domain = [SpatialEntity]
+    range = [float]
+  class has_z_dimension(DataProperty, FunctionalProperty):
+    domain = [SpatialEntity]
+    range = [float]
+  class has_dimension_units(DataProperty, FunctionalProperty):
+    domain = [SpatialEntity]
+    range = [str]
   class has_object_reference(ObjectProperty):
     domain = [SpatialEntity]
     range = [SpatialObjectReference]
-  class has_dimensions(ObjectProperty, FunctionalProperty):
-    domain = [SpatialEntity]
-    range = [SpatialDimension]
   class has_placement(ObjectProperty):
-    domain = [SpatialEntity]
+    domain = [SpatialEntity, SpatialObjectReference]
     range = [SpatialPlacement]
-  class has_placementee(ObjectProperty):
-    domain = [SpatialEntity]
-    range = [SpatialPlacement]
-  class representation_of(AnnotationProperty):
+  class has_placement_target(ObjectProperty):
+    domain = [SpatialPlacement]
+    range = [SpatialEntity]
+  class ccf_representation_of(AnnotationProperty):
     domain = [SpatialEntity]
 
 onto.save(file=CCF_MODEL, format='rdfxml')
