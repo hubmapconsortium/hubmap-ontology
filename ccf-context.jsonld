@@ -47,6 +47,9 @@
       "@id": "has_placement_target",
       "@type": "@id"
     },
+    "placement_date": {
+      "@id": "has_placement_date"
+    },
 
     "dimensions": "@nest",
     "x": {

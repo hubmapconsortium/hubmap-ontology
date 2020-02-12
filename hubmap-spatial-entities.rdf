@@ -5,71 +5,71 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#ExampleKidneySlice">
+  <rdf:Description rdf:about="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#ExampleKidneySlicePlacement">
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">1</ccf:has_x_rotation>
+    <ccf:has_placement_target rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#VHKidney"/>
+    <ccf:has_placement_date>2020-01-01</ccf:has_placement_date>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">5</ccf:has_z_rotation>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">0.6</ccf:has_x_translation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">2</ccf:has_y_translation>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">1</ccf:has_y_scaling>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">1</ccf:has_z_scaling>
+    <rdf:type rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#SpatialPlacement"/>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">3</ccf:has_y_rotation>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">1</ccf:has_x_scaling>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">2</ccf:has_z_translation>
+    <ccf:has_scaling_units>ratio</ccf:has_scaling_units>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#ExampleKidneySection">
+    <ccf:has_placement rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#ExampleKidneySectionPlacement"/>
     <dc:creator>Bruce Herr - https://orcid.org/0000-0002-6703-7647</dc:creator>
+    <ccf:creation_date>2020-01-01</ccf:creation_date>
+    <ccf:ccf_annotation rdf:resource="http://purl.obolibrary.org/obo/UBERON_456"/>
+    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">2</ccf:has_y_dimension>
+    <rdfs:label>Example Kidney Section</rdfs:label>
+    <ccf:creator_last_name>Herr</ccf:creator_last_name>
+    <ccf:ccf_annotation rdf:resource="http://purl.obolibrary.org/obo/UBERON_123"/>
+    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">3</ccf:has_z_dimension>
     <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
     <ccf:creator_first_name>Bruce</ccf:creator_first_name>
-    <ccf:has_placement rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#ExampleKidneySlicePlacement"/>
+    <ccf:creator_orcid>https://orcid.org/0000-0002-6703-7647</ccf:creator_orcid>
     <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">0.5</ccf:has_x_dimension>
-    <ccf:ccf_annotation rdf:resource="http://purl.obolibrary.org/obo/UBERON_123"/>
-    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">2</ccf:has_y_dimension>
+    <rdf:type rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#SpatialEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#ExampleKidneySlice">
+    <dc:creator>Bruce Herr - https://orcid.org/0000-0002-6703-7647</dc:creator>
     <ccf:creator_last_name>Herr</ccf:creator_last_name>
     <rdfs:label>Example Kidney Slice</rdfs:label>
     <ccf:creator_orcid>https://orcid.org/0000-0002-6703-7647</ccf:creator_orcid>
-    <ccf:creation_date>2020-01-01</ccf:creation_date>
+    <ccf:has_placement rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#ExampleKidneySlicePlacement"/>
     <ccf:ccf_freetext_annotation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bob's kidney</ccf:ccf_freetext_annotation>
-    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">3</ccf:has_z_dimension>
+    <ccf:creation_date>2020-01-01</ccf:creation_date>
     <rdf:type rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#SpatialEntity"/>
+    <ccf:ccf_annotation rdf:resource="http://purl.obolibrary.org/obo/UBERON_123"/>
+    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">2</ccf:has_y_dimension>
+    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
+    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">3</ccf:has_z_dimension>
+    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">0.5</ccf:has_x_dimension>
+    <ccf:creator_first_name>Bruce</ccf:creator_first_name>
     <ccf:ccf_annotation rdf:resource="http://purl.obolibrary.org/obo/UBERON_456"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#ExampleKidneySectionPlacement">
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">5</ccf:has_z_rotation>
-    <ccf:placement_date>2020-01-01</ccf:placement_date>
-    <ccf:has_scaling_units>ratio</ccf:has_scaling_units>
-    <rdf:type rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#SpatialPlacement"/>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">2</ccf:has_y_translation>
     <ccf:has_placement_target rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#ExampleKidneySlice"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">1</ccf:has_y_scaling>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">1</ccf:has_z_scaling>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">3</ccf:has_y_rotation>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">0.6</ccf:has_x_translation>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">1</ccf:has_x_rotation>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">1</ccf:has_x_scaling>
     <ccf:has_z_translation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">2</ccf:has_z_translation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">2</ccf:has_y_translation>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#ExampleKidneySection">
-    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">0.5</ccf:has_x_dimension>
-    <ccf:creator_first_name>Bruce</ccf:creator_first_name>
-    <ccf:creation_date>2020-01-01</ccf:creation_date>
-    <ccf:creator_last_name>Herr</ccf:creator_last_name>
-    <ccf:has_placement rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#ExampleKidneySectionPlacement"/>
-    <rdfs:label>Example Kidney Section</rdfs:label>
-    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">3</ccf:has_z_dimension>
-    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
-    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">2</ccf:has_y_dimension>
-    <rdf:type rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#SpatialEntity"/>
-    <ccf:ccf_annotation rdf:resource="http://purl.obolibrary.org/obo/UBERON_456"/>
-    <ccf:creator_orcid>https://orcid.org/0000-0002-6703-7647</ccf:creator_orcid>
-    <dc:creator>Bruce Herr - https://orcid.org/0000-0002-6703-7647</dc:creator>
-    <ccf:ccf_annotation rdf:resource="http://purl.obolibrary.org/obo/UBERON_123"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#ExampleKidneySlicePlacement">
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">1</ccf:has_z_scaling>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">0.6</ccf:has_x_translation>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">1</ccf:has_x_rotation>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">1</ccf:has_x_scaling>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">2</ccf:has_z_translation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">2</ccf:has_y_translation>
     <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">5</ccf:has_z_rotation>
-    <ccf:placement_date>2020-01-01</ccf:placement_date>
-    <ccf:has_scaling_units>ratio</ccf:has_scaling_units>
-    <rdf:type rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#SpatialPlacement"/>
     <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_scaling_units>ratio</ccf:has_scaling_units>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">1</ccf:has_x_rotation>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">1</ccf:has_z_scaling>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">0.6</ccf:has_x_translation>
+    <ccf:has_placement_date>2020-01-01</ccf:has_placement_date>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">1</ccf:has_x_scaling>
     <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">1</ccf:has_y_scaling>
-    <ccf:has_placement_target rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#VHKidney"/>
     <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2000/01/rdf-schema#float">3</ccf:has_y_rotation>
+    <rdf:type rdf:resource="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#SpatialPlacement"/>
   </rdf:Description>
 </rdf:RDF>

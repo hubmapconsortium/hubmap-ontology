@@ -24,8 +24,8 @@
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#has_placement">
-  <rdfs:domain rdf:resource="#SpatialEntity"/>
   <rdfs:domain rdf:resource="#SpatialObjectReference"/>
+  <rdfs:domain rdf:resource="#SpatialEntity"/>
   <rdfs:range rdf:resource="#SpatialPlacement"/>
 </owl:ObjectProperty>
 
@@ -77,6 +77,12 @@
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#has_z_rotation">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_theta_rotation">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:domain rdf:resource="#SpatialPlacement"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
@@ -172,6 +178,11 @@
 <owl:AnnotationProperty rdf:about="#creator_last_name">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="#creation_date">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
 </owl:AnnotationProperty>
 
 <owl:AnnotationProperty rdf:about="#ccf_representation_of">
