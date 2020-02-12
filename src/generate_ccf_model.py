@@ -24,6 +24,9 @@ with onto:
     range = [str]
   class creator_last_name(AnnotationProperty, FunctionalProperty):
     range = [str]
+  class creation_date(AnnotationProperty, FunctionalProperty):
+    range = [datetime.date]
+
 
   class SpatialPlacement(Thing):
     label = 'spatial placement'
@@ -49,6 +52,9 @@ with onto:
     domain = [SpatialPlacement]
     range = [float]
   class has_z_rotation(DataProperty, FunctionalProperty):
+    domain = [SpatialPlacement]
+    range = [float]
+  class has_theta_rotation(DataProperty, FunctionalProperty):
     domain = [SpatialPlacement]
     range = [float]
   class has_rotation_units(DataProperty, FunctionalProperty):

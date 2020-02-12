@@ -35,6 +35,12 @@ def get_term(term_str):
 
   return term[0] if len(term) > 0 else None
 
+def fix_term(term_str):
+  if term_str.startswith('FMAID'):
+    return term_str.replace(' ', '')
+  else:
+    return term_str
+
 def get_term_data(id, label, term, order, parent = None):
   return {
     '@id': term.iri,
@@ -61,8 +67,8 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
   terms = { body.iri: get_term_data('UBERON:0005172', 'Body', body, 0, None) }
 
   for order, row in enumerate(DictReader(in_f)):
-    parent = row['Parent ID']
-    child = row['Ontology ID']
+    parent = fix_term(row['Parent ID'])
+    child = fix_term(row['Ontology ID'])
 
     child_term = get_term(child)
     parent_term = get_term(parent)
