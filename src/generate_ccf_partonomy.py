@@ -63,10 +63,12 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
   g = Graph()
   g.namespace_manager.bind('ccf', ccf_ns, override=False)
 
-  body = get_term('UBERON:0005172')
-  terms = { body.iri: get_term_data('UBERON:0005172', 'Body', body, 0, None) }
+  body = get_term('UBERON:0013702')
+  terms = { body.iri: get_term_data('UBERON:0013702', 'Body', body, 0, None) }
 
   for order, row in enumerate(DictReader(in_f)):
+    if row['Cell-Type'] == 'Y':
+      continue
     parent = fix_term(row['Parent ID'])
     child = fix_term(row['Ontology ID'])
 
