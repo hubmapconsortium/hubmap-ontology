@@ -5,2517 +5,391 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007100">
-    <ccf:ccf_preferred_label>primary circulatory organ</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0007100</ns1:id>
-    <rdfs:label>primary circulatory organ</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001286">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001285"/>
-    <ns1:id>CL:1001286</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001126"/>
-    <rdfs:label>inner medulla vasa recta descending limb cell</rdfs:label>
-    <ccf:ccf_preferred_label>inner medulla vasa recta descending limb cell</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005610">
-    <rdfs:label>iliac vein</rdfs:label>
-    <ccf:ccf_preferred_label>iliac vein</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0005610</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15829">
-    <ns1:id>FMAID:15829</ns1:id>
-    <rdfs:label>Visceral surface of spleen</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
-    <ccf:ccf_preferred_label>Visceral surface of spleen</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001265">
-    <rdfs:label>trabecula of spleen</rdfs:label>
-    <ns1:hasExactSynonym>spleen trabeculum</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>trabecula of spleen</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0001265</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000440"/>
-    <ns1:hasExactSynonym>splenic trabecula</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003100">
-    <rdfs:label>female body</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
-    <ccf:ccf_preferred_label>female body</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0003100</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011383">
-    <ns1:hasExactSynonym>inferior pancreatico-duodenal vein</ns1:hasExactSynonym>
-    <rdfs:label>inferior pancreaticoduodenal vein</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004690"/>
-    <ns1:id>UBERON:0011383</ns1:id>
-    <ccf:ccf_preferred_label>inferior pancreaticoduodenal vein</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000768">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000494"/>
-    <rdfs:label>kidney connecting tubule epithelial cell</rdfs:label>
-    <ccf:ccf_preferred_label>kidney connecting tubule epithelial cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1000768</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001284">
-    <ns1:hasExactSynonym>renal cortical column</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>columna Bertini</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-    <ns1:hasExactSynonym>kidney column</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>column of Bertini</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001284</ns1:id>
-    <ccf:ccf_preferred_label>renal column</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>renal column of Bertini</ns1:hasExactSynonym>
-    <rdfs:label>renal column</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002173">
-    <rdfs:label>extraglomerular mesangial cell</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000746"/>
-    <ns1:id>CL:0002173</ns1:id>
-    <ccf:ccf_preferred_label>extraglomerular mesangial cell</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>Goormaghtigh cell</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>polar cushion cells</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma14093">
-    <ccf:ccf_preferred_label>Pulmonary fissure</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:14093</ns1:id>
-    <rdfs:label>Pulmonary fissure</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7319">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma9658"/>
-    <ns1:id>FMAID:7319</ns1:id>
-    <rdfs:label>Anatomical apex of lung</rdfs:label>
-    <ccf:ccf_preferred_label>Anatomical apex of lung</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001250">
-    <ns1:id>UBERON:0001250</ns1:id>
-    <ns1:hasExactSynonym>pulpa rubra</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>red pulp of spleen</ccf:ccf_preferred_label>
-    <rdfs:label>red pulp of spleen</rdfs:label>
-    <ns1:hasExactSynonym>splenic red pulp</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_1000023"/>
-    <ns1:hasExactSynonym>spleen red pulp</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>red pulp</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001127">
-    <ccf:ccf_preferred_label>outer renal medulla vasa recta cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1001127</ns1:id>
-    <rdfs:label>outer renal medulla vasa recta cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma17557">
-    <ccf:ccf_preferred_label>Notch of spleen</ccf:ccf_preferred_label>
-    <rdfs:label>Notch of spleen</rdfs:label>
-    <ns1:id>FMAID:17557</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7110">
-    <ccf:ccf_preferred_label>Cardiac valve</ccf:ccf_preferred_label>
-    <rdfs:label>Cardiac valve</rdfs:label>
-    <ns1:id>FMAID:7110</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014464">
-    <ns1:id>UBERON:0014464</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003916"/>
-    <rdfs:label>renal fat pad</rdfs:label>
-    <ccf:ccf_preferred_label>renal fat pad</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000948">
-    <rdfs:label>heart</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007100"/>
-    <ns1:hasExactSynonym>vertebrate heart</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0000948</ns1:id>
-    <ccf:ccf_preferred_label>heart</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>chambered heart</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000648">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000192"/>
-    <ns1:hasExactSynonym>JG cell</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>renin secreting cell</ns1:hasExactSynonym>
-    <ns1:id>CL:0000648</ns1:id>
-    <ccf:ccf_preferred_label>kidney granular cell</ccf:ccf_preferred_label>
-    <rdfs:label>kidney granular cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001109">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001016"/>
-    <rdfs:label>kidney loop of Henle cortical thick ascending limb epithelial cell</rdfs:label>
-    <ccf:ccf_preferred_label>kidney loop of Henle cortical thick ascending limb epithelial cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1001109</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001248">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004885"/>
-    <ns1:hasExactSynonym>spleen hilum</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>hilum splenicum</ns1:hasExactSynonym>
-    <rdfs:label>hilum of spleen</rdfs:label>
-    <ns1:hasExactSynonym>splenic hilum</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001248</ns1:id>
-    <ns1:hasExactSynonym>hilum lienale</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>hilum of spleen</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002116">
-    <ccf:ccf_preferred_label>ileum</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0002116</ns1:id>
-    <rdfs:label>ileum</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001744">
-    <rdfs:label>lymphoid tissue</rdfs:label>
-    <ns1:hasExactSynonym>lymphocytic tissue</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>lymphatic tissue</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>lymphoid tissue</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0001744</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001108">
-    <rdfs:label>kidney loop of Henle medullary thick ascending limb epithelial cell</rdfs:label>
-    <ns1:id>CL:1001108</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001016"/>
-    <ccf:ccf_preferred_label>kidney loop of Henle medullary thick ascending limb epithelial cell</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0018116">
-    <ns1:hasExactSynonym>pelvis of right ureter</ns1:hasExactSynonym>
-    <rdfs:label>right renal pelvis</rdfs:label>
-    <ns1:id>UBERON:0018116</ns1:id>
-    <ns1:hasExactSynonym>pelvis of right kidney</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>right renal pelvis</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001224"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000063">
-    <ns1:id>UBERON:0000063</ns1:id>
-    <ccf:ccf_preferred_label>organ subunit</ccf:ccf_preferred_label>
-    <rdfs:label>organ subunit</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002114">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
-    <rdfs:label>duodenum</rdfs:label>
-    <ccf:ccf_preferred_label>duodenum</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0002114</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0013132">
-    <rdfs:label>penicillar arteriole</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0022292"/>
-    <ns1:hasExactSynonym>penicilli</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0013132</ns1:id>
-    <ns1:hasExactSynonym>penicillus</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>penicillar arteriole</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001960">
-    <ns1:hasExactSynonym>T cell domain of the splenic white pulp</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>periarterial lymphoid sheath</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>periarterial lymphatic sheath</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>PALS</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>spleen periarteriolar lymphatic sheath</ns1:hasExactSynonym>
-    <rdfs:label>periarterial lymphatic sheath</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004177"/>
-    <ns1:hasExactSynonym>periarteriolar sheath</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001960</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15407">
-    <ccf:ccf_preferred_label>Right colic vein</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma15396"/>
-    <rdfs:label>Right colic vein</rdfs:label>
-    <ns1:id>FMAID:15407</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000716">
-    <rdfs:label>kidney outer medulla collecting duct principal cell</rdfs:label>
-    <ccf:ccf_preferred_label>kidney outer medulla collecting duct principal cell</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005009"/>
-    <ns1:id>CL:1000716</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001294">
-    <ns1:hasExactSynonym>zona interna (medullaris renalis)</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>inner medulla</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>renal inner medulla</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>inner renal medulla</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-    <ns1:hasExactSynonym>zona interna medullae renalis</ns1:hasExactSynonym>
-    <rdfs:label>inner medulla</rdfs:label>
-    <ns1:id>UBERON:0001294</ns1:id>
-    <ns1:hasExactSynonym>inner zone of renal medulla</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>set of inner region of renal pyramids</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>inner zone of medulla of kidney</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000698">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000500"/>
-    <ccf:ccf_preferred_label>kidney resident macrophage</ccf:ccf_preferred_label>
-    <rdfs:label>kidney resident macrophage</rdfs:label>
-    <ns1:id>CL:1000698</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_1000023">
-    <ccf:ccf_preferred_label>spleen pulp</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>pulp of spleen</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>Malpighian corpuscles</ns1:hasExactSynonym>
-    <ns1:id>UBERON:1000023</ns1:id>
-    <ns1:hasExactSynonym>splenic pulp</ns1:hasExactSynonym>
-    <rdfs:label>spleen pulp</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002099">
-    <ns1:hasExactSynonym>heart septa</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>cardiac septum</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>cardiac septa</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>heart septum</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>septum of heart</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0002099</ns1:id>
-    <rdfs:label>cardiac septum</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma4715">
-    <ns1:id>FMAID:4715</ns1:id>
-    <ccf:ccf_preferred_label>Oblique vein of left atrium</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma12846"/>
-    <rdfs:label>Oblique vein of left atrium</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006687">
-    <ccf:ccf_preferred_label>median sacral vein</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0006687</ns1:id>
-    <rdfs:label>median sacral vein</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001638"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma50873">
-    <rdfs:label>Left pulmonary artery</rdfs:label>
-    <ns1:id>FMAID:50873</ns1:id>
-    <ccf:ccf_preferred_label>Left pulmonary artery</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66326"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000958">
-    <ccf:ccf_preferred_label>medulla of organ</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>medulla</ns1:hasExactSynonym>
-    <rdfs:label>medulla of organ</rdfs:label>
-    <ns1:id>UBERON:0000958</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001202">
-    <rdfs:label>pyloric sphincter</rdfs:label>
-    <ns1:hasExactSynonym>pyloric valve</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001202</ns1:id>
-    <ccf:ccf_preferred_label>pyloric sphincter</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011185"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001195">
-    <rdfs:label>inferior pancreaticoduodenal artery</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009658"/>
-    <ccf:ccf_preferred_label>inferior pancreaticoduodenal artery</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>inferior pancreatico-duodenal artery</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001195</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001036">
-    <ns1:id>CL:1001036</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000892"/>
-    <ccf:ccf_preferred_label>vasa recta cell</ccf:ccf_preferred_label>
-    <rdfs:label>vasa recta cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000500">
-    <rdfs:label>kidney interstitial cell</rdfs:label>
-    <ns1:id>CL:1000500</ns1:id>
-    <ccf:ccf_preferred_label>kidney interstitial cell</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000362">
-    <ns1:hasExactSynonym>renal pyramids</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0000362</ns1:id>
-    <ns1:hasExactSynonym>kidney medulla</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>renal medulla</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>renal pyramids set</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>renal medullae set</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>pyramides renales</ns1:hasExactSynonym>
-    <rdfs:label>renal medulla</rdfs:label>
-    <ns1:hasExactSynonym>medulla of kidney</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>renal medullae</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000958"/>
-    <ns1:hasExactSynonym>medulla renalis</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004196">
-    <ns1:id>UBERON:0004196</ns1:id>
-    <ns1:hasExactSynonym>proximal tubule segment 1</ns1:hasExactSynonym>
-    <rdfs:label>proximal convoluted tubule segment 1</rdfs:label>
-    <ns1:hasExactSynonym>S1 portion of renal tubule</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>proximal convoluted tubule segment 1</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006555"/>
-    <ns1:hasExactSynonym>segment 1 of proximal tubule</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>S1 portion of tubule</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000168">
-    <ns1:id>UBERON:0000168</ns1:id>
-    <ccf:ccf_preferred_label>proximal-distal subdivision of colon</ccf:ccf_preferred_label>
-    <rdfs:label>proximal-distal subdivision of colon</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma37330">
-    <ns1:id>FMAID:37330</ns1:id>
-    <ccf:ccf_preferred_label>Region of surface of spleen</ccf:ccf_preferred_label>
-    <rdfs:label>Region of surface of spleen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004719">
-    <rdfs:label>kidney arcuate vein</rdfs:label>
-    <ns1:hasExactSynonym>arciform vein of kidney</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>kidney arcuate vein</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0004719</ns1:id>
-    <ns1:hasExactSynonym>venae arcuatae renis</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>renal arcuate vein</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013126"/>
-    <ns1:hasExactSynonym>arcuate vein of kidney</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001210">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001131"/>
-    <ccf:ccf_preferred_label>outer medulla vasa recta ascending limb cell</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001127"/>
-    <rdfs:label>outer medulla vasa recta ascending limb cell</rdfs:label>
-    <ns1:id>CL:1001210</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma26286">
-    <ns1:id>FMAID:26286</ns1:id>
-    <rdfs:label>Surface of region of lobe of lung</rdfs:label>
-    <ccf:ccf_preferred_label>Surface of region of lobe of lung</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001021">
-    <rdfs:label>kidney loop of Henle descending limb epithelial cell</rdfs:label>
-    <ccf:ccf_preferred_label>kidney loop of Henle descending limb epithelial cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1001021</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/LMHA_00315">
-    <ccf:ccf_preferred_label>pulmonary blood vessel</ccf:ccf_preferred_label>
-    <rdfs:label>pulmonary blood vessel</rdfs:label>
-    <ns1:id>LMHA:00315</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma68743">
-    <ccf:ccf_preferred_label>Branch of apical segmental artery</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66614"/>
-    <ns1:id>FMAID:68743</ns1:id>
-    <rdfs:label>Branch of apical segmental artery</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0009687">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004148"/>
-    <rdfs:label>middle cardiac vein</rdfs:label>
-    <ns1:hasExactSynonym>lesser cardiac vein</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>posterior interventricular vein</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>middle cardiac vein</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0009687</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0013702">
-    <ccf:ccf_preferred_label>body proper</ccf:ccf_preferred_label>
-    <rdfs:label>body proper</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
-    <ns1:id>UBERON:0013702</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011185">
-    <ns1:id>UBERON:0011185</ns1:id>
-    <ccf:ccf_preferred_label>gastrointestinal sphincter</ccf:ccf_preferred_label>
-    <rdfs:label>gastrointestinal sphincter</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001229">
-    <rdfs:label>renal corpuscle</rdfs:label>
-    <ccf:ccf_preferred_label>renal corpuscle</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>corpusculum renale</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>Malphigian corpuscle</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001229</ns1:id>
-    <ns1:hasExactSynonym>Malpighian corpuscle</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000063"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004690">
-    <ns1:hasExactSynonym>vena pancreaticoduodenalis</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>vena pancreaticoduodenalis superior posterior</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>pancreaticoduodenal vein</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>pancreatico-duodenal vein</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>Superior posterior pancreaticoduodenal vein</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>pancreaticoduodenal vein</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0004690</ns1:id>
-    <rdfs:label>pancreaticoduodenal vein</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004042">
-    <rdfs:label>spleen secondary B follicle</rdfs:label>
-    <ns1:id>UBERON:0004042</ns1:id>
-    <ns1:hasExactSynonym>secondary spleen B cell follicle</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>splenic secondary B cell follicle</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>spleen secondary B follicle</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001249"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000691">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000186"/>
-    <rdfs:label>kidney interstitial myofibroblast</rdfs:label>
-    <ccf:ccf_preferred_label>kidney interstitial myofibroblast</ccf:ccf_preferred_label>
-    <ns1:id>CL:1000691</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000071">
-    <rdfs:label>blood vessel endothelial cell</rdfs:label>
-    <ccf:ccf_preferred_label>blood vessel endothelial cell</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>cuboidal endothelial cell of vascular tree</ns1:hasExactSynonym>
-    <ns1:id>CL:0000071</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002094">
-    <ccf:ccf_preferred_label>interventricular septum</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0002094</ns1:id>
-    <ns1:hasExactSynonym>heart interventricular septum</ns1:hasExactSynonym>
-    <rdfs:label>interventricular septum</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002099"/>
-    <ns1:hasExactSynonym>heart ventricular septum</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000464">
-    <ns1:hasExactSynonym>lumen space</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>anatomical space</ccf:ccf_preferred_label>
-    <rdfs:label>anatomical space</rdfs:label>
-    <ns1:id>UBERON:0000464</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001140">
-    <rdfs:label>renal vein</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001638"/>
-    <ns1:hasExactSynonym>kidney vein</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>renal vein</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>renal venous tree</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001140</ns1:id>
-    <ns1:hasExactSynonym>vein of kidney</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7441">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma14093"/>
-    <rdfs:label>Horizontal fissure of right lung</rdfs:label>
-    <ccf:ccf_preferred_label>Horizontal fissure of right lung</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:7441</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001249">
-    <ccf:ccf_preferred_label>spleen lymphoid follicle</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>Malpighian body</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>spleen B cell follicle</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>lymphoid follicle of spleen</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>splenic B cell follicle</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>lymphatic follicle of spleen</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>splenic lymphoid follicle</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001249</ns1:id>
-    <ns1:hasExactSynonym>splenic lymphatic follicle</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>lymphoid nodule of spleen</ns1:hasExactSynonym>
-    <rdfs:label>spleen lymphoid follicle</rdfs:label>
-    <ns1:hasExactSynonym>spleen lymphoid follicle</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7331">
-    <rdfs:label>Oblique fissure of lung</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma14093"/>
-    <ccf:ccf_preferred_label>Oblique fissure of lung</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:7331</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003910">
-    <ccf:ccf_preferred_label>splenic sinusoid</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>sinusoidal blood vessel of spleen</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003497"/>
-    <ns1:id>UBERON:0003910</ns1:id>
-    <rdfs:label>splenic sinusoid</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005215">
-    <ccf:ccf_preferred_label>kidney interstitium</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>renal interstitial tissue</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005169"/>
-    <ns1:hasExactSynonym>interstitial tissue of kidney</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0005215</ns1:id>
-    <ns1:hasExactSynonym>renal interstitium</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>stroma of kidney</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>renal stroma</ns1:hasExactSynonym>
-    <rdfs:label>kidney interstitium</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0022277">
-    <ns1:hasExactSynonym>hepatic flexure</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>hepatic flexure of colon</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>flexura coli heaptica</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>right colic flexure</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0022275"/>
-    <ccf:ccf_preferred_label>hepatic flexure of colon</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0022277</ns1:id>
-    <rdfs:label>hepatic flexure of colon</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma68750">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66614"/>
-    <ccf:ccf_preferred_label>Branch of superior segmental pulmonary artery</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:68750</ns1:id>
-    <rdfs:label>Branch of superior segmental pulmonary artery</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004723">
-    <ns1:hasExactSynonym>kidney interlobular artery</ns1:hasExactSynonym>
-    <rdfs:label>interlobular artery</rdfs:label>
-    <ns1:id>UBERON:0004723</ns1:id>
-    <ccf:ccf_preferred_label>interlobular artery</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003644"/>
-    <ns1:hasExactSynonym>interlobular renal artery</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004195">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001285"/>
-    <rdfs:label>short nephron</rdfs:label>
-    <ccf:ccf_preferred_label>short nephron</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0004195</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001621">
-    <rdfs:label>coronary artery</rdfs:label>
-    <ccf:ccf_preferred_label>coronary artery</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0001621</ns1:id>
-    <ns1:hasExactSynonym>coronary arterial tree</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001185">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001184"/>
-    <ns1:hasExactSynonym>right renal arterial tree</ns1:hasExactSynonym>
-    <rdfs:label>right renal artery</rdfs:label>
-    <ns1:id>UBERON:0001185</ns1:id>
-    <ccf:ccf_preferred_label>right renal artery</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0012254">
-    <ns1:hasExactSynonym>abdominal artery</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>artery of abdomen</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0012254</ns1:id>
-    <ccf:ccf_preferred_label>abdominal aorta artery</ccf:ccf_preferred_label>
-    <rdfs:label>abdominal aorta artery</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000945">
-    <ns1:id>CL:0000945</ns1:id>
-    <ccf:ccf_preferred_label>lymphocyte of B lineage</ccf:ccf_preferred_label>
-    <rdfs:label>lymphocyte of B lineage</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004177">
-    <ns1:hasExactSynonym>hematopoeitic organ</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>hemopoietic organ</ccf:ccf_preferred_label>
-    <rdfs:label>hemopoietic organ</rdfs:label>
-    <ns1:hasExactSynonym>organ of hematopoietic system</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>organ of haemopoietic system</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>organa haemopoietica organ</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>organ of organa haemopoietica</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>hematopoietic system organ</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>organ of haematological system</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>haematological system organ</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0004177</ns1:id>
-    <ns1:hasExactSynonym>haemopoietic system organ</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7328">
-    <ccf:ccf_preferred_label>Anterior margin of lung</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66260"/>
-    <ns1:id>FMAID:7328</ns1:id>
-    <rdfs:label>Anterior margin of lung</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma18889">
-    <rdfs:label>Tributary of internal iliac vein</rdfs:label>
-    <ccf:ccf_preferred_label>Tributary of internal iliac vein</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:18889</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma26287">
-    <ccf:ccf_preferred_label>Base of lobe of lung</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma26286"/>
-    <rdfs:label>Base of lobe of lung</rdfs:label>
-    <ns1:id>FMAID:26287</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0013126">
-    <ns1:id>UBERON:0013126</ns1:id>
-    <rdfs:label>vein of abdomen</rdfs:label>
-    <ns1:hasExactSynonym>abdominal vein</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>vein of abdomen</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000442">
-    <rdfs:label>follicular dendritic cell</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000473"/>
-    <ns1:id>CL:0000442</ns1:id>
-    <ccf:ccf_preferred_label>follicular dendritic cell</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004134">
-    <ns1:id>UBERON:0004134</ns1:id>
-    <ns1:hasExactSynonym>renal proximal tubule</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006853"/>
-    <ns1:hasExactSynonym>kidney proximal tubule</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>proximal kidney tubule</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>proximal tubule</ccf:ccf_preferred_label>
-    <rdfs:label>proximal tubule</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001536">
-    <ccf:ccf_preferred_label>left common carotid artery plus branches</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0001536</ns1:id>
-    <rdfs:label>left common carotid artery plus branches</rdfs:label>
-    <ns1:hasExactSynonym>left common carotid artery</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>trunk of left common carotid tree</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001530"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003713">
-    <rdfs:label>splenic vein</rdfs:label>
-    <ns1:id>UBERON:0003713</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001638"/>
-    <ns1:hasExactSynonym>vena splenica</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>splenic vein</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0009967">
-    <ns1:hasExactSynonym>sinus lienalis</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>sinus splenicus</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0009967</ns1:id>
-    <rdfs:label>spleen venous sinus</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006615"/>
-    <ccf:ccf_preferred_label>spleen venous sinus</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>venous sinus of red pulp of spleen</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>splenic sinus</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15395">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma15392"/>
-    <ns1:id>FMAID:15395</ns1:id>
-    <rdfs:label>Sigmoid vein</rdfs:label>
-    <ccf:ccf_preferred_label>Sigmoid vein</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma21240">
-    <ns1:id>FMAID:21240</ns1:id>
-    <ccf:ccf_preferred_label>Tributary of internal pudendal vein</ccf:ccf_preferred_label>
-    <rdfs:label>Tributary of internal pudendal vein</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001287">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001127"/>
-    <rdfs:label>outer medulla vasa recta descending limb cell</rdfs:label>
-    <ns1:id>CL:1001287</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001285"/>
-    <ccf:ccf_preferred_label>outer medulla vasa recta descending limb cell</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001508">
-    <ccf:ccf_preferred_label>arch of aorta</ccf:ccf_preferred_label>
-    <rdfs:label>arch of aorta</rdfs:label>
-    <ns1:id>UBERON:0001508</ns1:id>
-    <ns1:hasExactSynonym>arcus aortae</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001515"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006555">
-    <rdfs:label>excretory tube</rdfs:label>
-    <ns1:id>UBERON:0006555</ns1:id>
-    <ccf:ccf_preferred_label>excretory tube</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001224">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-    <ns1:hasExactSynonym>kidney pelvis</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001224</ns1:id>
-    <ccf:ccf_preferred_label>renal pelvis</ccf:ccf_preferred_label>
-    <rdfs:label>renal pelvis</rdfs:label>
-    <ns1:hasExactSynonym>pelvis of ureter</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001184">
-    <ccf:ccf_preferred_label>renal artery</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>renal arterial tree</ns1:hasExactSynonym>
-    <rdfs:label>renal artery</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0012254"/>
-    <ns1:id>UBERON:0001184</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000440">
-    <ccf:ccf_preferred_label>trabecula</ccf:ccf_preferred_label>
-    <rdfs:label>trabecula</rdfs:label>
-    <ns1:id>UBERON:0000440</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0001007">
-    <ccf:ccf_preferred_label>interstitial dendritic cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:0001007</ns1:id>
-    <rdfs:label>interstitial dendritic cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010401">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0022292"/>
-    <ns1:hasExactSynonym>splenic central arteriole</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>follicular arteriole</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>spleen central arteriole</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0010401</ns1:id>
-    <rdfs:label>spleen central arteriole</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002082">
-    <ccf:ccf_preferred_label>cardiac ventricle</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>lower chamber of heart</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0002082</ns1:id>
-    <ns1:hasExactSynonym>heart ventricle</ns1:hasExactSynonym>
-    <rdfs:label>cardiac ventricle</rdfs:label>
-    <ns1:hasExactSynonym>ventricle of heart</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005196">
-    <ns1:hasExactSynonym>splenic germinal center</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>germinal center of spleen</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>spleen GC</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>spleen follicle center</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010754"/>
-    <ns1:id>UBERON:0005196</ns1:id>
-    <rdfs:label>spleen germinal center</rdfs:label>
-    <ccf:ccf_preferred_label>spleen germinal center</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma18893">
-    <rdfs:label>Middle rectal vein</rdfs:label>
-    <ccf:ccf_preferred_label>Middle rectal vein</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma18889"/>
-    <ns1:id>FMAID:18893</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004193">
-    <ns1:id>UBERON:0004193</ns1:id>
-    <ccf:ccf_preferred_label>loop of Henle ascending limb thin segment</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>thin ascending limb of loop of Henle</ns1:hasExactSynonym>
-    <rdfs:label>loop of Henle ascending limb thin segment</rdfs:label>
-    <ns1:hasExactSynonym>pars ascendens (tubulus attenuatus)</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007685"/>
-    <ns1:hasExactSynonym>ascending thin limb</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>thin ascending limb</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>ascending limb thin segment of loop of Henle</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001138">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005617"/>
-    <ccf:ccf_preferred_label>superior mesenteric vein</ccf:ccf_preferred_label>
-    <rdfs:label>superior mesenteric vein</rdfs:label>
-    <ns1:id>UBERON:0001138</ns1:id>
-  </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002108">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
-    <ccf:ccf_preferred_label>small intestine</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>small bowel</ns1:hasExactSynonym>
-    <rdfs:label>small intestine</rdfs:label>
-    <ns1:hasExactSynonym>small intestine</ns1:hasExactSynonym>
     <ns1:id>UBERON:0002108</ns1:id>
+    <ns1:hasExactSynonym>small intestine</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>small intestine</ccf:ccf_preferred_label>
+    <rdfs:label>small intestine</rdfs:label>
+    <ns1:hasExactSynonym>small bowel</ns1:hasExactSynonym>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003684"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma4712">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma12846"/>
-    <ccf:ccf_preferred_label>Posterior vein of left ventricle</ccf:ccf_preferred_label>
-    <rdfs:label>Posterior vein of left ventricle</rdfs:label>
-    <ns1:id>FMAID:4712</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/LMHA_00532">
-    <rdfs:label>left lung upper lobe</rdfs:label>
-    <ns1:id>LMHA:00532</ns1:id>
-    <ccf:ccf_preferred_label>left lung upper lobe</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/LMHA_00199"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma13223">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma26286"/>
-    <ccf:ccf_preferred_label>Costal surface of lobe of lung</ccf:ccf_preferred_label>
-    <rdfs:label>Costal surface of lobe of lung</rdfs:label>
-    <ns1:id>FMAID:13223</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002081">
-    <ns1:hasExactSynonym>atrium</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>heart atrium</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>atrium of heart</ns1:hasExactSynonym>
-    <rdfs:label>cardiac atrium</rdfs:label>
-    <ns1:hasExactSynonym>cardiac atria</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>atria</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>cardiac atrium</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0002081</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005623">
-    <ns1:hasExactSynonym>semilunar valves</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>semi-lunar valve</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>semilunar valve</ns1:hasExactSynonym>
-    <rdfs:label>semi-lunar valve</rdfs:label>
-    <ns1:id>UBERON:0005623</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma14826">
-    <ns1:id>FMAID:14826</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma70483"/>
-    <rdfs:label>Left colic artery</rdfs:label>
-    <ccf:ccf_preferred_label>Left colic artery</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001625">
-    <rdfs:label>right coronary artery</rdfs:label>
-    <ccf:ccf_preferred_label>right coronary artery</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0001625</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001621"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010421">
-    <ns1:hasExactSynonym>follicle mantle</ns1:hasExactSynonym>
-    <rdfs:label>spleen B cell corona</rdfs:label>
-    <ns1:hasExactSynonym>spleen lymphocytic corona</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>spleen B-cell corona</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>spleen B cell corona</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010755"/>
-    <ns1:id>UBERON:0010421</ns1:id>
-    <ns1:hasExactSynonym>splenic B cell corona</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>spleen B cell corona</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001182">
-    <ns1:hasExactSynonym>superior mesenteric arterial tree</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005616"/>
-    <ccf:ccf_preferred_label>superior mesenteric artery</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0001182</ns1:id>
-    <rdfs:label>superior mesenteric artery</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000494">
-    <ns1:id>CL:1000494</ns1:id>
-    <ns1:hasExactSynonym>kidney tubule epithelial cell</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>nephron tubule epithelial cell</ccf:ccf_preferred_label>
-    <rdfs:label>nephron tubule epithelial cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001531">
-    <ccf:ccf_preferred_label>right common carotid artery plus branches</ccf:ccf_preferred_label>
-    <rdfs:label>right common carotid artery plus branches</rdfs:label>
-    <ns1:hasExactSynonym>right common carotid artery</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>trunk of right common carotid tree</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001531</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001530"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035395">
-    <ccf:ccf_preferred_label>branch of left coronary artery</ccf:ccf_preferred_label>
-    <rdfs:label>branch of left coronary artery</rdfs:label>
-    <ns1:id>UBERON:0035395</ns1:id>
-    <ns1:hasExactSynonym>left coronary arterial branch</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma8636">
-    <ns1:id>FMAID:8636</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66614"/>
-    <rdfs:label>Anterior descending branch of left pulmonary artery</rdfs:label>
-    <ccf:ccf_preferred_label>Anterior descending branch of left pulmonary artery</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000746">
-    <rdfs:label>glomerular cell</rdfs:label>
-    <ns1:id>CL:1000746</ns1:id>
-    <ccf:ccf_preferred_label>glomerular cell</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000669">
-    <ns1:hasExactSynonym>adventitial reticular cell</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>cell of Rouget</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>ARC</ns1:hasExactSynonym>
-    <ns1:id>CL:0000669</ns1:id>
-    <ns1:hasExactSynonym>pericyte</ns1:hasExactSynonym>
-    <rdfs:label>pericyte cell</rdfs:label>
-    <ns1:hasExactSynonym>pericyte of Rouget</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>pericyte cell</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005172">
-    <rdfs:label>Body</rdfs:label>
-    <ccf:ccf_preferred_label>Body</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>abdomen organ</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0005172</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004194">
-    <ccf:ccf_preferred_label>long nephron</ccf:ccf_preferred_label>
-    <rdfs:label>long nephron</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001285"/>
-    <ns1:id>UBERON:0004194</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000910">
-    <ns1:hasExactSynonym>cytotoxic T-cell</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>cytotoxic T cell</ccf:ccf_preferred_label>
-    <rdfs:label>cytotoxic T cell</rdfs:label>
-    <ns1:id>CL:0000910</ns1:id>
-    <ns1:hasExactSynonym>cytotoxic T lymphocyte</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>cytotoxic T-lymphocyte</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000911"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0009032">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002016"/>
-    <ccf:ccf_preferred_label>right pulmonary vein</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0009032</ns1:id>
-    <rdfs:label>right pulmonary vein</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001959">
-    <ns1:hasExactSynonym>pulpa alba</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>spleen white pulp</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_1000023"/>
-    <ns1:hasExactSynonym>splenic white pulp</ns1:hasExactSynonym>
-    <rdfs:label>white pulp of spleen</rdfs:label>
-    <ccf:ccf_preferred_label>white pulp of spleen</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0001959</ns1:id>
-    <ns1:hasExactSynonym>white pulp</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7381">
-    <ns1:id>FMAID:7381</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma7319"/>
-    <ccf:ccf_preferred_label>Anatomical apex of left lung</ccf:ccf_preferred_label>
-    <rdfs:label>Anatomical apex of left lung</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001232">
-    <ns1:hasExactSynonym>tubulus renalis colligens</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>collecting duct</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>renal collecting tubule</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001232</ns1:id>
-    <ccf:ccf_preferred_label>collecting duct of renal tubule</ccf:ccf_preferred_label>
-    <rdfs:label>collecting duct of renal tubule</rdfs:label>
-    <ns1:hasExactSynonym>tubulus renalis arcuatus</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>kidney collecting duct</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006555"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004197">
-    <ns1:hasExactSynonym>segment 2 of proximal tubule</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>proximal tubule segment 2</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>proximal convoluted tubule segment 2</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>S2 portion of tubule</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006555"/>
-    <ns1:id>UBERON:0004197</ns1:id>
-    <rdfs:label>proximal convoluted tubule segment 2</rdfs:label>
-    <ns1:hasExactSynonym>S2 portion of renal tubule</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15838">
-    <ns1:id>FMAID:15838</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
-    <ccf:ccf_preferred_label>Colic impression of spleen</ccf:ccf_preferred_label>
-    <rdfs:label>Colic impression of spleen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001107">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001106"/>
-    <ccf:ccf_preferred_label>kidney loop of Henle thin ascending limb epithelial cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1001107</ns1:id>
-    <rdfs:label>kidney loop of Henle thin ascending limb epithelial cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001111">
-    <ccf:ccf_preferred_label>kidney loop of Henle thin descending limb epithelial cell</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001021"/>
-    <ns1:id>CL:1001111</ns1:id>
-    <rdfs:label>kidney loop of Henle thin descending limb epithelial cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004148">
-    <ns1:hasExactSynonym>vein of heart</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>cardiac vein</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>heart vein</ns1:hasExactSynonym>
-    <rdfs:label>cardiac vein</rdfs:label>
-    <ns1:hasExactSynonym>cardiac vein</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0004148</ns1:id>
-    <ns1:hasExactSynonym>coronary vein</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0009658">
-    <ns1:hasExactSynonym>arteriae pancreaticoduodenales</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>pancreatico-duodenal artery</ns1:hasExactSynonym>
-    <rdfs:label>pancreaticoduodenal artery</rdfs:label>
-    <ccf:ccf_preferred_label>pancreaticoduodenal artery</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0009658</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001186">
-    <ccf:ccf_preferred_label>left renal artery</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>left renal arterial tree</ns1:hasExactSynonym>
-    <rdfs:label>left renal artery</rdfs:label>
-    <ns1:id>UBERON:0001186</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001184"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001230">
-    <ns1:hasExactSynonym>Bowmans capsule</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001230</ns1:id>
-    <rdfs:label>Bowman's capsule</rdfs:label>
-    <ns1:hasExactSynonym>Bowman's capsule</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>capsula glomerularis</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>Bowman's capsule</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>renal glomerular capsule</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0005011">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005010"/>
-    <ccf:ccf_preferred_label>renal alpha-intercalated cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:0005011</ns1:id>
-    <rdfs:label>renal alpha-intercalated cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004885">
-    <ccf:ccf_preferred_label>hilum</ccf:ccf_preferred_label>
-    <rdfs:label>hilum</rdfs:label>
-    <ns1:id>UBERON:0004885</ns1:id>
-    <ns1:hasExactSynonym>hilus</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035180">
-    <ns1:hasExactSynonym>inferior left colic artery</ns1:hasExactSynonym>
-    <rdfs:label>sigmoid artery</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004573"/>
-    <ns1:id>UBERON:0035180</ns1:id>
-    <ccf:ccf_preferred_label>sigmoid artery</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002144">
-    <ns1:id>CL:0002144</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000071"/>
-    <ccf:ccf_preferred_label>capillary endothelial cell</ccf:ccf_preferred_label>
-    <rdfs:label>capillary endothelial cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000192">
-    <ns1:hasExactSynonym>smooth muscle fiber</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>myocytes, smooth muscle</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>smooth muscle cell</ccf:ccf_preferred_label>
-    <rdfs:label>smooth muscle cell</rdfs:label>
-    <ns1:hasExactSynonym>SMCs</ns1:hasExactSynonym>
-    <ns1:id>CL:0000192</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001292">
-    <ccf:ccf_preferred_label>distal convoluted tubule</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>distal convoluted renal tubule</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001292</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006534"/>
-    <rdfs:label>distal convoluted tubule</rdfs:label>
-    <ns1:hasExactSynonym>tubulus contortus distalis</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001131">
-    <ccf:ccf_preferred_label>vasa recta ascending limb cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1001131</ns1:id>
-    <rdfs:label>vasa recta ascending limb cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7369">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma7319"/>
-    <ns1:id>FMAID:7369</ns1:id>
-    <ccf:ccf_preferred_label>Anatomical apex of right lung</ccf:ccf_preferred_label>
-    <rdfs:label>Anatomical apex of right lung</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004641">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
-    <ns1:hasExactSynonym>capsule of spleen</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>tunica fibrosa (splen)(lien)</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>fibrous capsule of spleen</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>tunica fibrosa splenica</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>Malpighian capsule</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0004641</ns1:id>
-    <ns1:hasExactSynonym>capsula splenica</ns1:hasExactSynonym>
-    <rdfs:label>spleen capsule</rdfs:label>
-    <ns1:hasExactSynonym>fibroelastic coat of spleen</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>spleen capsule</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>splenic capsule</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/LMHA_00305">
-    <ns1:id>LMHA:00305</ns1:id>
-    <rdfs:label>pulmonary vein</rdfs:label>
-    <ccf:ccf_preferred_label>pulmonary vein</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/LMHA_00315"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002015">
-    <rdfs:label>kidney capsule</rdfs:label>
-    <ns1:id>UBERON:0002015</ns1:id>
-    <ns1:hasExactSynonym>capsule of kidney</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>capsula fibrosa renis</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>kidney capsule</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>renal capsule</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003567"/>
-    <ns1:hasExactSynonym>fibrous capsule of kidney</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001096">
-    <rdfs:label>kidney afferent arteriole endothelial cell</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000412"/>
-    <ccf:ccf_preferred_label>kidney afferent arteriole endothelial cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1001096</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011676">
-    <ns1:hasExactSynonym>axial subdivision of organism</ns1:hasExactSynonym>
-    <rdfs:label>subdivision of organism along main body axis</rdfs:label>
-    <ccf:ccf_preferred_label>subdivision of organism along main body axis</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0011676</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000714">
-    <rdfs:label>kidney cortex collecting duct principal cell</rdfs:label>
-    <ns1:id>CL:1000714</ns1:id>
-    <ccf:ccf_preferred_label>kidney cortex collecting duct principal cell</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005009"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001652">
-    <ccf:ccf_preferred_label>left pulmonary artery</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0001652</ns1:id>
-    <ns1:hasExactSynonym>left pulmonary arterial tree</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
-    <ns1:hasExactSynonym>left main pulmonary artery</ns1:hasExactSynonym>
-    <rdfs:label>left pulmonary artery</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001285">
-    <ccf:ccf_preferred_label>nephron</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-    <rdfs:label>nephron</rdfs:label>
-    <ns1:id>UBERON:0001285</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0022292">
-    <rdfs:label>splenic arteriole</rdfs:label>
-    <ccf:ccf_preferred_label>splenic arteriole</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0022292</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004539">
-    <rdfs:label>right kidney</rdfs:label>
-    <ccf:ccf_preferred_label>right kidney</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
-    <ns1:id>UBERON:0004539</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001157">
-    <ccf:ccf_preferred_label>transverse colon</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000168"/>
-    <rdfs:label>transverse colon</rdfs:label>
-    <ns1:id>UBERON:0001157</ns1:id>
-    <ns1:hasExactSynonym>colon transversum</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002138">
-    <ns1:id>CL:0002138</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0002139"/>
-    <rdfs:label>endothelial cell of lymphatic vessel</rdfs:label>
-    <ccf:ccf_preferred_label>endothelial cell of lymphatic vessel</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>LEC</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>lymphatic endothelial cell</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002135">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002133"/>
-    <ccf:ccf_preferred_label>mitral valve</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0002135</ns1:id>
-    <ns1:hasExactSynonym>valva atrioventricularis sinistra</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>left atrioventricular valve</ns1:hasExactSynonym>
-    <rdfs:label>mitral valve</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0018114">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005215"/>
-    <ns1:id>UBERON:0018114</ns1:id>
-    <ccf:ccf_preferred_label>right kidney interstitium</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>right renal stroma</ns1:hasExactSynonym>
-    <rdfs:label>right kidney interstitium</rdfs:label>
-    <ns1:hasExactSynonym>stroma of right kidney</ns1:hasExactSynonym>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001293">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000362"/>
+    <ns1:hasExactSynonym>outer renal medulla</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>zona externa medullae renalis</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>zona externa (medullaris renalis)</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>outer zone of renal medulla</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>outer medulla</ccf:ccf_preferred_label>
+    <rdfs:label>outer medulla</rdfs:label>
+    <ns1:id>UBERON:0001293</ns1:id>
+    <ns1:hasExactSynonym>outer zone of medulla of kidney</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>renal outer medulla</ns1:hasExactSynonym>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000074">
     <ns1:hasExactSynonym>renal glomeruli</ns1:hasExactSynonym>
-    <rdfs:label>glomerulus</rdfs:label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001229"/>
     <ccf:ccf_preferred_label>glomerulus</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+    <rdfs:label>glomerulus</rdfs:label>
     <ns1:id>UBERON:0000074</ns1:id>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000892">
-    <rdfs:label>kidney capillary endothelial cell</rdfs:label>
-    <ccf:ccf_preferred_label>kidney capillary endothelial cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1000892</ns1:id>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004193">
+    <ns1:hasExactSynonym>thin ascending limb</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>loop of Henle ascending limb thin segment</ccf:ccf_preferred_label>
+    <ns1:hasExactSynonym>ascending limb thin segment of loop of Henle</ns1:hasExactSynonym>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001288"/>
+    <ns1:hasExactSynonym>pars ascendens (tubulus attenuatus)</ns1:hasExactSynonym>
+    <rdfs:label>loop of Henle ascending limb thin segment</rdfs:label>
+    <ns1:hasExactSynonym>thin ascending limb of loop of Henle</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>ascending thin limb</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0004193</ns1:id>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004573">
-    <ns1:id>UBERON:0004573</ns1:id>
-    <ccf:ccf_preferred_label>systemic artery</ccf:ccf_preferred_label>
-    <rdfs:label>systemic artery</rdfs:label>
-    <ns1:hasExactSynonym>systemic arterial subtree</ns1:hasExactSynonym>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001292">
+    <ns1:hasExactSynonym>distal convoluted renal tubule</ns1:hasExactSynonym>
+    <rdfs:label>distal convoluted tubule</rdfs:label>
+    <ns1:hasExactSynonym>tubulus contortus distalis</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0001292</ns1:id>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009773"/>
+    <ccf:ccf_preferred_label>distal convoluted tubule</ccf:ccf_preferred_label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002494">
-    <ns1:hasExactSynonym>ventricular papillary muscle</ns1:hasExactSynonym>
-    <rdfs:label>papillary muscle of heart</rdfs:label>
-    <ns1:hasExactSynonym>papillary muscle</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>papillary muscle of ventricle</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0002494</ns1:id>
-    <ns1:hasExactSynonym>ventricule papillary muscle</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>papillary muscle of heart</ccf:ccf_preferred_label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001284">
+    <ns1:id>UBERON:0001284</ns1:id>
+    <ns1:hasExactSynonym>renal column of Bertini</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>renal column</ccf:ccf_preferred_label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+    <ns1:hasExactSynonym>kidney column</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>renal cortical column</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>columna Bertini</ns1:hasExactSynonym>
+    <rdfs:label>renal column</rdfs:label>
+    <ns1:hasExactSynonym>column of Bertini</ns1:hasExactSynonym>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010755">
-    <ns1:id>UBERON:0010755</ns1:id>
-    <ns1:hasExactSynonym>dark zone of follicle</ns1:hasExactSynonym>
-    <rdfs:label>secondary follicle corona</rdfs:label>
-    <ns1:hasExactSynonym>inactive zone of follicle</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>peripheral zone of follicle</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>secondary follicle corona</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000056">
-    <ns1:id>UBERON:0000056</ns1:id>
-    <rdfs:label>ureter</rdfs:label>
-    <ccf:ccf_preferred_label>ureter</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001099">
-    <ccf:ccf_preferred_label>kidney efferent arteriole endothelial cell</ccf:ccf_preferred_label>
-    <rdfs:label>kidney efferent arteriole endothelial cell</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000412"/>
-    <ns1:id>CL:1001099</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000569">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011185"/>
-    <ccf:ccf_preferred_label>ileocecal valve</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0000569</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003978"/>
-    <ns1:hasExactSynonym>valva ileocaecalis (valva ilealis)</ns1:hasExactSynonym>
-    <rdfs:label>ileocecal valve</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma14100">
-    <rdfs:label>Anterior margin of lobe of lung</rdfs:label>
-    <ns1:id>FMAID:14100</ns1:id>
-    <ccf:ccf_preferred_label>Anterior margin of lobe of lung</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000715">
-    <rdfs:label>kidney cortex collecting duct intercalated cell</rdfs:label>
-    <ns1:id>CL:1000715</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005010"/>
-    <ccf:ccf_preferred_label>kidney cortex collecting duct intercalated cell</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006615">
-    <ns1:id>UBERON:0006615</ns1:id>
-    <rdfs:label>venous sinus</rdfs:label>
-    <ccf:ccf_preferred_label>venous sinus</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002146">
-    <rdfs:label>pulmonary valve</rdfs:label>
-    <ns1:id>UBERON:0002146</ns1:id>
-    <ccf:ccf_preferred_label>pulmonary valve</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>pulmonic valve</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005623"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004120">
-    <ns1:id>UBERON:0004120</ns1:id>
-    <ns1:hasExactSynonym>mesodermal derivative</ns1:hasExactSynonym>
-    <rdfs:label>mesoderm-derived structure</rdfs:label>
-    <ccf:ccf_preferred_label>mesoderm-derived structure</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002017">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001638"/>
-    <ns1:id>UBERON:0002017</ns1:id>
-    <ccf:ccf_preferred_label>portal vein</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>portal venous tree organ part</ns1:hasExactSynonym>
-    <rdfs:label>portal vein</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004921">
-    <rdfs:label>subdivision of digestive tract</rdfs:label>
-    <ns1:id>UBERON:0004921</ns1:id>
-    <ccf:ccf_preferred_label>subdivision of digestive tract</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma12846">
-    <ccf:ccf_preferred_label>Cardiac vein</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:12846</ns1:id>
-    <rdfs:label>Cardiac vein</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma14831">
-    <ns1:id>FMAID:14831</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma70483"/>
-    <rdfs:label>Marginal artery of colon</rdfs:label>
-    <ccf:ccf_preferred_label>Marginal artery of colon</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002079">
-    <ns1:hasExactSynonym>atrium sinistrum</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>left atrium</ns1:hasExactSynonym>
-    <rdfs:label>left cardiac atrium</rdfs:label>
-    <ns1:id>UBERON:0002079</ns1:id>
-    <ns1:hasExactSynonym>left atrium of heart</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>heart left atrium</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>left cardiac atrium</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>left cardiac atrium</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>cardiac left atrium</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002081"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001473">
-    <ns1:id>UBERON:0001473</ns1:id>
-    <rdfs:label>lymphatic vessel</rdfs:label>
-    <ns1:hasExactSynonym>lymph vessel</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000055"/>
-    <ccf:ccf_preferred_label>lymphatic vessel</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001183">
-    <ns1:id>UBERON:0001183</ns1:id>
-    <ccf:ccf_preferred_label>inferior mesenteric artery</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>inferior mesenteric arterial tree</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005616"/>
-    <rdfs:label>inferior mesenteric artery</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006958">
-    <ns1:id>UBERON:0006958</ns1:id>
-    <ccf:ccf_preferred_label>great vein of heart</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004148"/>
-    <ns1:hasExactSynonym>great cardiac vein</ns1:hasExactSynonym>
-    <rdfs:label>great vein of heart</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000451">
-    <rdfs:label>epithelial cell of visceral layer of glomerular capsule</rdfs:label>
-    <ns1:id>CL:1000451</ns1:id>
-    <ccf:ccf_preferred_label>epithelial cell of visceral layer of glomerular capsule</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001005">
-    <ns1:id>CL:1001005</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0002144"/>
-    <ccf:ccf_preferred_label>glomerular capillary endothelial cell</ccf:ccf_preferred_label>
-    <rdfs:label>glomerular capillary endothelial cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002305">
-    <rdfs:label>epithelial cell of distal tubule</rdfs:label>
-    <ns1:id>CL:0002305</ns1:id>
-    <ns1:hasExactSynonym>kidney distal tubule epithelial cell</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>epithelial cell of distal tubule</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001626">
-    <ns1:id>UBERON:0001626</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001621"/>
-    <ccf:ccf_preferred_label>left coronary artery</ccf:ccf_preferred_label>
-    <rdfs:label>left coronary artery</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002134">
-    <rdfs:label>tricuspid valve</rdfs:label>
-    <ns1:hasExactSynonym>right atrioventricular valve</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>tricuspid valve</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>valva atrioventricularis dextra</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0002134</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002133"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15394">
-    <ccf:ccf_preferred_label>Left colic vein</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:15394</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma15392"/>
-    <rdfs:label>Left colic vein</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma68682">
-    <ccf:ccf_preferred_label>Anterior branch of anterior segmental artery</ccf:ccf_preferred_label>
-    <rdfs:label>Anterior branch of anterior segmental artery</rdfs:label>
-    <ns1:id>FMAID:68682</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma68675"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0018113">
-    <ccf:ccf_preferred_label>left kidney interstitium</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005215"/>
-    <ns1:id>UBERON:0018113</ns1:id>
-    <rdfs:label>left kidney interstitium</rdfs:label>
-    <ns1:hasExactSynonym>left renal stroma</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>stroma of left kidney</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma76767">
-    <ns1:id>FMAID:76767</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma12846"/>
-    <rdfs:label>Anterior cardiac vein</rdfs:label>
-    <ccf:ccf_preferred_label>Anterior cardiac vein</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma66260">
-    <ccf:ccf_preferred_label>Anatomical line of lung</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:66260</ns1:id>
-    <rdfs:label>Anatomical line of lung</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001194">
-    <ns1:hasExactSynonym>arteria splenica</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001194</ns1:id>
-    <rdfs:label>splenic artery</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
-    <ccf:ccf_preferred_label>splenic artery</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>lienal artery</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005168">
-    <ccf:ccf_preferred_label>renal interlobular vein</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013126"/>
-    <ns1:id>UBERON:0005168</ns1:id>
-    <ns1:hasExactSynonym>venae interlobulares renis</ns1:hasExactSynonym>
-    <rdfs:label>renal interlobular vein</rdfs:label>
-    <ns1:hasExactSynonym>interlobular vein</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001156">
-    <ccf:ccf_preferred_label>ascending colon</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000168"/>
-    <rdfs:label>ascending colon</rdfs:label>
-    <ns1:hasExactSynonym>colon ascendens</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001156</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma68675">
-    <rdfs:label>Subsegmental part of anterior segmental artery</rdfs:label>
-    <ccf:ccf_preferred_label>Subsegmental part of anterior segmental artery</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:68675</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001126">
-    <rdfs:label>inner renal medulla vasa recta cell</rdfs:label>
-    <ccf:ccf_preferred_label>inner renal medulla vasa recta cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1001126</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002113">
-    <ns1:id>UBERON:0002113</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
-    <ccf:ccf_preferred_label>kidney</ccf:ccf_preferred_label>
-    <rdfs:label>kidney</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0008716">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004885"/>
-    <rdfs:label>hilum of kidney</rdfs:label>
-    <ns1:id>UBERON:0008716</ns1:id>
-    <ns1:hasExactSynonym>hilar area of the kidney</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>hilum of kidney</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>renal hilum</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0009030">
-    <ns1:id>UBERON:0009030</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002016"/>
-    <ccf:ccf_preferred_label>left pulmonary vein</ccf:ccf_preferred_label>
-    <rdfs:label>left pulmonary vein</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005215">
+    <ns1:hasExactSynonym>stroma of kidney</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>renal stroma</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>kidney interstitium</ccf:ccf_preferred_label>
+    <ns1:hasExactSynonym>interstitial tissue of kidney</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0005215</ns1:id>
+    <ns1:hasExactSynonym>renal interstitium</ns1:hasExactSynonym>
+    <rdfs:label>kidney interstitium</rdfs:label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+    <ns1:hasExactSynonym>renal interstitial tissue</ns1:hasExactSynonym>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001291">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001288"/>
+    <ns1:hasExactSynonym>straight portion of distal convoluted tubule</ns1:hasExactSynonym>
     <ns1:hasExactSynonym>distal straight tubule</ns1:hasExactSynonym>
     <ccf:ccf_preferred_label>thick ascending limb of loop of Henle</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>straight portion of distal convoluted tubule</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>thick ascending limb</ns1:hasExactSynonym>
-    <rdfs:label>thick ascending limb of loop of Henle</rdfs:label>
-    <ns1:id>UBERON:0001291</ns1:id>
-    <ns1:hasExactSynonym>thick ascending limb of Henle's loop</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009035"/>
+    <ns1:hasExactSynonym>ascending thick limb</ns1:hasExactSynonym>
     <ns1:hasExactSynonym>straight portion of distal convoluted renal tubule</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>thick ascending limb of Henle's loop</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>thick ascending limb</ns1:hasExactSynonym>
     <ns1:hasExactSynonym>thick ascending limb of distal tubule</ns1:hasExactSynonym>
     <ns1:hasExactSynonym>tubulus rectus distalis</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0001291</ns1:id>
+    <rdfs:label>thick ascending limb of loop of Henle</rdfs:label>
     <ns1:hasExactSynonym>loop of Henle ascending limb thick segment</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>ascending thick limb</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma10951">
-    <rdfs:label>Inferior vena cava</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma62512"/>
-    <ccf:ccf_preferred_label>Inferior vena cava</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:10951</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001530">
-    <rdfs:label>common carotid artery plus branches</rdfs:label>
-    <ns1:id>UBERON:0001530</ns1:id>
-    <ns1:hasExactSynonym>trunk of common carotid tree</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>common carotid artery plus branches</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>common carotid artery</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>carotid artery system</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/LMHA_00199">
-    <ns1:id>LMHA:00199</ns1:id>
-    <rdfs:label>left lung</rdfs:label>
-    <ccf:ccf_preferred_label>left lung</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010756">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001744"/>
-    <ccf:ccf_preferred_label>spleen follicular dendritic cell network</ccf:ccf_preferred_label>
-    <rdfs:label>spleen follicular dendritic cell network</rdfs:label>
-    <ns1:hasExactSynonym>splenic follicular dendritic cell network</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0010756</ns1:id>
-    <ns1:hasExactSynonym>spleen FDC network</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000653">
-    <ns1:hasExactSynonym>glomerular podocyte</ns1:hasExactSynonym>
-    <rdfs:label>podocyte</rdfs:label>
-    <ns1:hasExactSynonym>podocyte</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000451"/>
-    <ns1:id>CL:0000653</ns1:id>
-    <ccf:ccf_preferred_label>podocyte</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma50872">
-    <rdfs:label>Right pulmonary artery</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66326"/>
-    <ns1:id>FMAID:50872</ns1:id>
-    <ccf:ccf_preferred_label>Right pulmonary artery</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001285">
-    <rdfs:label>vasa recta descending limb cell</rdfs:label>
-    <ccf:ccf_preferred_label>vasa recta descending limb cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1001285</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000213">
-    <rdfs:label>lining cell</rdfs:label>
-    <ccf:ccf_preferred_label>lining cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:0000213</ns1:id>
-    <ns1:hasExactSynonym>boundary cell</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma3862">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66328"/>
-    <ns1:id>FMAID:3862</ns1:id>
-    <ccf:ccf_preferred_label>Anterior interventricular branch of left coronary artery</ccf:ccf_preferred_label>
-    <rdfs:label>Anterior interventricular branch of left coronary artery</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001225">
-    <ns1:id>UBERON:0001225</ns1:id>
-    <ns1:hasExactSynonym>cortex renalis</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>renal cortex</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>cortex of kidney</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>kidney cortex</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001851"/>
-    <rdfs:label>cortex of kidney</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001196">
-    <ns1:id>UBERON:0001196</ns1:id>
-    <rdfs:label>middle colic artery</rdfs:label>
-    <ccf:ccf_preferred_label>middle colic artery</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001219">
-    <ns1:id>UBERON:0001219</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001217"/>
-    <rdfs:label>ileocolic vein</rdfs:label>
-    <ccf:ccf_preferred_label>ileocolic vein</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma292337">
-    <ccf:ccf_preferred_label>Inferior margin of lobe of lung</ccf:ccf_preferred_label>
-    <rdfs:label>Inferior margin of lobe of lung</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66260"/>
-    <ns1:id>FMAID:292337</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001317">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005610"/>
-    <ns1:id>UBERON:0001317</ns1:id>
-    <rdfs:label>internal iliac vein</rdfs:label>
-    <ccf:ccf_preferred_label>internal iliac vein</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000452">
-    <ccf:ccf_preferred_label>parietal epithelial cell</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000450"/>
-    <rdfs:label>parietal epithelial cell</rdfs:label>
-    <ns1:id>CL:1000452</ns1:id>
-    <ns1:hasExactSynonym>epithelial cell of parietal layer of glomerular capsule</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001514">
-    <ns1:hasExactSynonym>pars descendens aortae</ns1:hasExactSynonym>
-    <rdfs:label>descending aorta</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005800"/>
-    <ccf:ccf_preferred_label>descending aorta</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0001514</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001227">
-    <ns1:hasExactSynonym>calices renales minores</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001227</ns1:id>
-    <rdfs:label>minor calyx</rdfs:label>
-    <ns1:hasExactSynonym>minor calix</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006517"/>
-    <ccf:ccf_preferred_label>minor calyx</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006853">
-    <ns1:id>UBERON:0006853</ns1:id>
-    <ns1:hasExactSynonym>kidney cortex tubule</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>renal cortex tubule</ccf:ccf_preferred_label>
-    <rdfs:label>renal cortex tubule</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002201">
-    <ccf:ccf_preferred_label>renal beta-intercalated cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:0002201</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005010"/>
-    <rdfs:label>renal beta-intercalated cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001637">
-    <ns1:hasExactSynonym>arterial tree organ part</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>arterial subtree</ns1:hasExactSynonym>
-    <rdfs:label>artery</rdfs:label>
-    <ns1:hasExactSynonym>arteries</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>artery</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0001637</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001318">
-    <ns1:id>CL:1001318</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000669"/>
-    <ccf:ccf_preferred_label>renal interstitial pericyte</ccf:ccf_preferred_label>
-    <rdfs:label>renal interstitial pericyte</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma4720">
-    <ns1:id>FMAID:4720</ns1:id>
-    <ccf:ccf_preferred_label>Superior vena cava</ccf:ccf_preferred_label>
-    <rdfs:label>Superior vena cava</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma62512"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000473">
-    <ccf:ccf_preferred_label>defensive cell</ccf:ccf_preferred_label>
-    <rdfs:label>defensive cell</rdfs:label>
-    <ns1:id>CL:0000473</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000475">
-    <ns1:id>UBERON:0000475</ns1:id>
-    <ccf:ccf_preferred_label>organism subdivision</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>anatomic region</ns1:hasExactSynonym>
-    <rdfs:label>organism subdivision</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001158">
-    <ccf:ccf_preferred_label>descending colon</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>colon descendens</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000168"/>
-    <ns1:id>UBERON:0001158</ns1:id>
-    <rdfs:label>descending colon</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma66326">
-    <ccf:ccf_preferred_label>Pulmonary artery</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:66326</ns1:id>
-    <rdfs:label>Pulmonary artery</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0018115">
-    <ns1:hasExactSynonym>renal pelvis of left kidney</ns1:hasExactSynonym>
-    <rdfs:label>left renal pelvis</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001224"/>
-    <ns1:hasExactSynonym>pelvis of left ureter</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0018115</ns1:id>
-    <ccf:ccf_preferred_label>left renal pelvis</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002137">
-    <ccf:ccf_preferred_label>aortic valve</ccf:ccf_preferred_label>
-    <rdfs:label>aortic valve</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005623"/>
-    <ns1:id>UBERON:0002137</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002133">
-    <rdfs:label>atrioventricular valve</rdfs:label>
-    <ns1:hasExactSynonym>AV valve</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>atrioventricular valve</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0002133</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7246">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma7110"/>
-    <ns1:id>FMAID:7246</ns1:id>
-    <rdfs:label>Pulmonary valve</rdfs:label>
-    <ccf:ccf_preferred_label>Pulmonary valve</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000721">
-    <ccf:ccf_preferred_label>kidney papillary duct principal cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1000721</ns1:id>
-    <rdfs:label>kidney papillary duct principal cell</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005009"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000359">
-    <rdfs:label>vascular associated smooth muscle cell</rdfs:label>
-    <ns1:hasExactSynonym>vascular smooth muscle cell</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000192"/>
-    <ccf:ccf_preferred_label>vascular associated smooth muscle cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:0000359</ns1:id>
-    <ns1:hasExactSynonym>VSMC</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0001067">
-    <ns1:id>CL:0001067</ns1:id>
-    <ccf:ccf_preferred_label>group 1 innate lymphoid cell</ccf:ccf_preferred_label>
-    <rdfs:label>group 1 innate lymphoid cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000650">
-    <rdfs:label>mesangial cell</rdfs:label>
-    <ccf:ccf_preferred_label>mesangial cell</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>kidney mesangial cell</ns1:hasExactSynonym>
-    <ns1:id>CL:0000650</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000669"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0022276">
-    <rdfs:label>splenic flexure of colon</rdfs:label>
-    <ns1:hasExactSynonym>splenic flexure</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0022275"/>
-    <ccf:ccf_preferred_label>splenic flexure of colon</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>left colic flexure</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>splenic flexure of colon</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0022276</ns1:id>
-    <ns1:hasExactSynonym>flexura coli splenica</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000084">
-    <ns1:hasExactSynonym>T-lymphocyte</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>T-cell</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>T cell</ccf:ccf_preferred_label>
-    <rdfs:label>T cell</rdfs:label>
-    <ns1:id>CL:0000084</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000542"/>
-    <ns1:hasExactSynonym>T lymphocyte</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma3902">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma12819"/>
-    <ccf:ccf_preferred_label>Left marginal artery</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:3902</ns1:id>
-    <rdfs:label>Left marginal artery</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15392">
-    <rdfs:label>Tributary of inferior mesenteric vein</rdfs:label>
-    <ccf:ccf_preferred_label>Tributary of inferior mesenteric vein</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:15392</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000236">
-    <ns1:hasExactSynonym>B-cell</ns1:hasExactSynonym>
-    <ns1:id>CL:0000236</ns1:id>
-    <rdfs:label>B cell</rdfs:label>
-    <ccf:ccf_preferred_label>B cell</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>B lymphocyte</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>B-lymphocyte</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000945"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001293">
-    <ns1:id>UBERON:0001293</ns1:id>
-    <ns1:hasExactSynonym>outer zone of medulla of kidney</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>zona externa medullae renalis</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>outer renal medulla</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>outer medulla</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-    <ns1:hasExactSynonym>outer zone of renal medulla</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>renal outer medulla</ns1:hasExactSynonym>
-    <rdfs:label>outer medulla</rdfs:label>
-    <ns1:hasExactSynonym>zona externa (medullaris renalis)</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001266">
-    <rdfs:label>splenic cord</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-    <ns1:hasExactSynonym>cord of Billroth</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>cord of Bilroth</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>splenic cord</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0001266</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma8622">
-    <ns1:id>FMAID:8622</ns1:id>
-    <rdfs:label>Anterior ascending branch of right pulmonary artery</rdfs:label>
-    <ccf:ccf_preferred_label>Anterior ascending branch of right pulmonary artery</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66614"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001106">
-    <ns1:id>CL:1001106</ns1:id>
-    <rdfs:label>kidney loop of Henle thick ascending limb epithelial cell</rdfs:label>
-    <ccf:ccf_preferred_label>kidney loop of Henle thick ascending limb epithelial cell</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002080">
-    <ns1:hasExactSynonym>right ventricle</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>right ventricle of heart</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0002080</ns1:id>
-    <ccf:ccf_preferred_label>heart right ventricle</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>cardiac right ventricle</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002082"/>
-    <rdfs:label>heart right ventricle</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001851">
-    <rdfs:label>cortex</rdfs:label>
-    <ns1:hasExactSynonym>cortex</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001851</ns1:id>
-    <ccf:ccf_preferred_label>cortex</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>cortex of organ</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004538">
-    <ns1:id>UBERON:0004538</ns1:id>
-    <ccf:ccf_preferred_label>left kidney</ccf:ccf_preferred_label>
-    <rdfs:label>left kidney</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000849">
-    <ccf:ccf_preferred_label>kidney distal convoluted tubule epithelial cell</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0002305"/>
-    <rdfs:label>kidney distal convoluted tubule epithelial cell</rdfs:label>
-    <ns1:id>CL:1000849</ns1:id>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005097">
-    <ccf:ccf_preferred_label>renal connecting tubule</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>connecting tubule</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0005097</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007685"/>
-    <rdfs:label>renal connecting tubule</rdfs:label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009773"/>
     <ns1:hasExactSynonym>kidney connecting tubule</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma11337">
-    <ccf:ccf_preferred_label>Zone of continuity</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:11337</ns1:id>
-    <rdfs:label>Zone of continuity</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002224">
-    <ns1:id>UBERON:0002224</ns1:id>
-    <rdfs:label>chest cavity</rdfs:label>
-    <ns1:hasExactSynonym>chest cavity</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>chest cavity</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>pectoral cavity</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>thoracic lumen</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>cavitas thoracis</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>cavity of thorax</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>cavity of chest</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>space of thoracic compartment</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000464"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010754">
-    <rdfs:label>germinal center</rdfs:label>
-    <ns1:hasExactSynonym>central zone of follice</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>germinal center</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>light zone of follicle</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>reaction center of follicle</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0010754</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0008203">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002553"/>
-    <ccf:ccf_preferred_label>pelvic cavity</ccf:ccf_preferred_label>
-    <rdfs:label>pelvic cavity</rdfs:label>
-    <ns1:hasExactSynonym>space of pelvic compartment</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0008203</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001215">
-    <ns1:id>UBERON:0001215</ns1:id>
-    <ccf:ccf_preferred_label>inferior mesenteric vein</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005617"/>
-    <rdfs:label>inferior mesenteric vein</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003498">
-    <ccf:ccf_preferred_label>heart blood vessel</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>blood vessel of heart</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0003498</ns1:id>
-    <rdfs:label>heart blood vessel</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003891">
-    <rdfs:label>stroma</rdfs:label>
-    <ns1:id>UBERON:0003891</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-    <ccf:ccf_preferred_label>stroma</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001432">
-    <ns1:id>CL:1001432</ns1:id>
-    <rdfs:label>kidney collecting duct intercalated cell</rdfs:label>
-    <ccf:ccf_preferred_label>kidney collecting duct intercalated cell</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005010"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007685">
-    <ns1:id>UBERON:0007685</ns1:id>
-    <rdfs:label>region of nephron tubule</rdfs:label>
-    <ccf:ccf_preferred_label>region of nephron tubule</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>renal tubule region</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000235">
-    <ns1:hasExactSynonym>histiocyte</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000234"/>
-    <rdfs:label>macrophage</rdfs:label>
-    <ns1:id>CL:0000235</ns1:id>
-    <ccf:ccf_preferred_label>macrophage</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma14811">
-    <rdfs:label>Right colic artery</rdfs:label>
-    <ccf:ccf_preferred_label>Right colic artery</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma70478"/>
-    <ns1:id>FMAID:14811</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0005009">
-    <ns1:id>CL:0005009</ns1:id>
-    <rdfs:label>renal principal cell</rdfs:label>
-    <ccf:ccf_preferred_label>renal principal cell</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010000">
-    <ns1:hasExactSynonym>multicellular structure</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0010000</ns1:id>
-    <ccf:ccf_preferred_label>multicellular anatomical structure</ccf:ccf_preferred_label>
-    <rdfs:label>multicellular anatomical structure</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma66614">
-    <ns1:id>FMAID:66614</ns1:id>
-    <ccf:ccf_preferred_label>Subsegmental branch of pulmonary artery</ccf:ccf_preferred_label>
-    <rdfs:label>Subsegmental branch of pulmonary artery</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006534">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007685"/>
-    <ns1:hasExactSynonym>kidney convoluted tubule</ns1:hasExactSynonym>
-    <rdfs:label>renal convoluted tubule</rdfs:label>
-    <ns1:hasExactSynonym>convoluted tubule</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0006534</ns1:id>
-    <ccf:ccf_preferred_label>renal convoluted tubule</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002016">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001638"/>
-    <ns1:id>UBERON:0002016</ns1:id>
-    <rdfs:label>pulmonary vein</rdfs:label>
-    <ccf:ccf_preferred_label>pulmonary vein</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>pulmonary venous tree organ part</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003497">
-    <ccf:ccf_preferred_label>abdomen blood vessel</ccf:ccf_preferred_label>
-    <rdfs:label>abdomen blood vessel</rdfs:label>
-    <ns1:id>UBERON:0003497</ns1:id>
-    <ns1:hasExactSynonym>blood vessel of abdomen</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001154">
-    <ns1:hasExactSynonym>caecal appendix</ns1:hasExactSynonym>
-    <rdfs:label>vermiform appendix</rdfs:label>
-    <ns1:hasExactSynonym>cecal appendix</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>vermiform appendix</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
-    <ns1:hasExactSynonym>appendix vermiformis</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>appendix</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001154</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005800">
-    <ccf:ccf_preferred_label>section of aorta</ccf:ccf_preferred_label>
-    <rdfs:label>section of aorta</rdfs:label>
-    <ns1:id>UBERON:0005800</ns1:id>
-    <ns1:hasExactSynonym>aortic section</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002084">
-    <rdfs:label>heart left ventricle</rdfs:label>
-    <ns1:hasExactSynonym>cardiac left ventricle</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>left cardiac ventricle</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>left ventricle of heart</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>left ventricle</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002082"/>
-    <ccf:ccf_preferred_label>heart left ventricle</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0002084</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001222">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000056"/>
-    <ns1:id>UBERON:0001222</ns1:id>
-    <rdfs:label>right ureter</rdfs:label>
-    <ccf:ccf_preferred_label>right ureter</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000980">
-    <ns1:id>CL:0000980</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000946"/>
-    <ccf:ccf_preferred_label>plasmablast</ccf:ccf_preferred_label>
-    <rdfs:label>plasmablast</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000718">
-    <ccf:ccf_preferred_label>kidney inner medulla collecting duct principal cell</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005009"/>
-    <ns1:id>CL:1000718</ns1:id>
-    <rdfs:label>kidney inner medulla collecting duct principal cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000450">
-    <ns1:id>CL:1000450</ns1:id>
-    <rdfs:label>epithelial cell of glomerular capsule</rdfs:label>
-    <ns1:hasExactSynonym>epithelial cell of Bowman's capsule</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>epithelial cell of glomerular capsule</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>Bowmans capsule epithelial cell</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005438">
-    <ns1:id>UBERON:0005438</ns1:id>
-    <rdfs:label>coronary sinus</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003498"/>
-    <ns1:hasExactSynonym>sinus coronarius</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>coronary sinus</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000911">
-    <ccf:ccf_preferred_label>effector T cell</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>effector T-cell</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>effector T-lymphocyte</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>effector T lymphocyte</ns1:hasExactSynonym>
-    <rdfs:label>effector T cell</rdfs:label>
-    <ns1:id>CL:0000911</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001287">
-    <rdfs:label>proximal convoluted tubule</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006534"/>
-    <ns1:hasExactSynonym>tubulus contortus proximalis</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001287</ns1:id>
-    <ccf:ccf_preferred_label>proximal convoluted tubule</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>proximal convoluted renal tubule</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15840">
-    <ccf:ccf_preferred_label>Pancreatic impression of spleen</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:15840</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
-    <rdfs:label>Pancreatic impression of spleen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma21242">
-    <rdfs:label>Inferior rectal vein</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma21240"/>
-    <ns1:id>FMAID:21242</ns1:id>
-    <ccf:ccf_preferred_label>Inferior rectal vein</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001289">
-    <ns1:hasExactSynonym>descending limb of Henle's loop</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>loop of Henle descending limb</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>descending limb of loop of Henle</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0001289</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007685"/>
-    <rdfs:label>descending limb of loop of Henle</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma12819">
-    <rdfs:label>Branch of circumflex coronary artery</rdfs:label>
-    <ccf:ccf_preferred_label>Branch of circumflex coronary artery</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:12819</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005617">
-    <rdfs:label>mesenteric vein</rdfs:label>
-    <ns1:id>UBERON:0005617</ns1:id>
-    <ccf:ccf_preferred_label>mesenteric vein</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001288">
-    <rdfs:label>loop of Henle</rdfs:label>
-    <ns1:hasExactSynonym>Henle's loop</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>loop of Henle</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>ansa nephroni</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001288</ns1:id>
-    <ns1:hasExactSynonym>Henle loop</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007685"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002100">
-    <rdfs:label>trunk</rdfs:label>
-    <ns1:hasExactSynonym>trunk region</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>torso</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0002100</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011676"/>
-    <ccf:ccf_preferred_label>trunk</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>thoracolumbar region</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003567">
-    <ns1:id>UBERON:0003567</ns1:id>
-    <ns1:hasExactSynonym>connective tissue of abdomen</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>abdomen textus connectivus</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>abdomen connective tissue</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>textus connectivus of abdomen</ns1:hasExactSynonym>
-    <rdfs:label>abdomen connective tissue</rdfs:label>
-    <ns1:hasExactSynonym>portion of connective tissue of abdomen</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>abdomen portion of connective tissue</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001159">
-    <rdfs:label>sigmoid colon</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000168"/>
-    <ns1:id>UBERON:0001159</ns1:id>
-    <ccf:ccf_preferred_label>sigmoid colon</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15837">
-    <ccf:ccf_preferred_label>Gastric impression of spleen</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
-    <rdfs:label>Gastric impression of spleen</rdfs:label>
-    <ns1:id>FMAID:15837</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000064">
-    <ns1:hasExactSynonym>cardinal organ part</ns1:hasExactSynonym>
-    <rdfs:label>organ part</rdfs:label>
-    <ccf:ccf_preferred_label>organ part</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0000064</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0005010">
-    <ns1:hasExactSynonym>intercalated cell</ns1:hasExactSynonym>
-    <rdfs:label>renal intercalated cell</rdfs:label>
-    <ns1:id>CL:0005010</ns1:id>
-    <ccf:ccf_preferred_label>renal intercalated cell</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0013768">
-    <ccf:ccf_preferred_label>great vessel of heart</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>great vessel of thorax</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0013768</ns1:id>
-    <rdfs:label>great vessel of heart</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001197">
-    <rdfs:label>ileocolic artery</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
-    <ns1:id>UBERON:0001197</ns1:id>
-    <ccf:ccf_preferred_label>ileocolic artery</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000468">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
-    <ns1:id>UBERON:0000468</ns1:id>
-    <rdfs:label>body</rdfs:label>
-    <ccf:ccf_preferred_label>body</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>multi-cellular organism</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001142">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001140"/>
-    <ns1:id>UBERON:0001142</ns1:id>
-    <rdfs:label>left renal vein</rdfs:label>
-    <ccf:ccf_preferred_label>left renal vein</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000699">
-    <rdfs:label>kidney resident dendritic cell</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0001007"/>
-    <ccf:ccf_preferred_label>kidney resident dendritic cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1000699</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001052">
-    <ns1:hasExactSynonym>terminal portion of intestine</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001052</ns1:id>
-    <ccf:ccf_preferred_label>rectum</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
-    <rdfs:label>rectum</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035422">
-    <ccf:ccf_preferred_label>circumflex branch of left coronary artery</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0035422</ns1:id>
-    <ns1:hasExactSynonym>circumflex coronary artery</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>ramus circumflexus (arteria coronaria sinistra)</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035395"/>
-    <rdfs:label>circumflex branch of left coronary artery</rdfs:label>
-    <ns1:hasExactSynonym>left circumflex branch of left coronary artery</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003978">
-    <ccf:ccf_preferred_label>valve</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0003978</ns1:id>
-    <rdfs:label>valve</rdfs:label>
-    <ns1:hasExactSynonym>anatomical valve</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000720">
-    <ccf:ccf_preferred_label>kidney papillary duct intercalated cell</ccf:ccf_preferred_label>
-    <rdfs:label>kidney papillary duct intercalated cell</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005010"/>
-    <ns1:id>CL:1000720</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15957">
-    <ns1:id>FMAID:15957</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma11337"/>
-    <rdfs:label>Duodenojejunal junction</rdfs:label>
-    <ccf:ccf_preferred_label>Duodenojejunal junction</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15839">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
-    <ccf:ccf_preferred_label>Renal impression of spleen</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:15839</ns1:id>
-    <rdfs:label>Renal impression of spleen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma322904">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66328"/>
-    <ccf:ccf_preferred_label>Left posterior descending branch of circumflex branch of left coronary artery</ccf:ccf_preferred_label>
-    <rdfs:label>Left posterior descending branch of circumflex branch of left coronary artery</rdfs:label>
-    <ns1:id>FMAID:322904</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035374">
-    <rdfs:label>small cardiac vein</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004148"/>
-    <ns1:hasExactSynonym>right cardiac vein</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>small cardiac vein</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0035374</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma31017">
-    <ccf:ccf_preferred_label>Inferior margin of mediastinal surface of left lung</ccf:ccf_preferred_label>
-    <rdfs:label>Inferior margin of mediastinal surface of left lung</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma31013"/>
-    <ns1:id>FMAID:31017</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001226">
-    <rdfs:label>major calyx</rdfs:label>
-    <ccf:ccf_preferred_label>major calyx</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>major calix</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001226</ns1:id>
-    <ns1:hasExactSynonym>calices renales majores</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006517"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000623">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0001067"/>
-    <ns1:id>CL:0000623</ns1:id>
-    <ns1:hasExactSynonym>NK cell</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>natural killer cell</ccf:ccf_preferred_label>
-    <rdfs:label>natural killer cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma66328">
-    <rdfs:label>Branch of left coronary artery</rdfs:label>
-    <ns1:id>FMAID:66328</ns1:id>
-    <ccf:ccf_preferred_label>Branch of left coronary artery</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002189">
-    <ccf:ccf_preferred_label>outer cortex of kidney</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001225"/>
-    <ns1:hasExactSynonym>outer renal cortex</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>kidney outer cortex</ns1:hasExactSynonym>
-    <rdfs:label>outer cortex of kidney</rdfs:label>
-    <ns1:id>UBERON:0002189</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001155">
-    <ns1:id>UBERON:0001155</ns1:id>
-    <ccf:ccf_preferred_label>colon</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>large bowel</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
-    <rdfs:label>colon</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000186">
-    <ns1:hasExactSynonym>MFB</ns1:hasExactSynonym>
-    <ns1:id>CL:0000186</ns1:id>
-    <ccf:ccf_preferred_label>myofibroblast cell</ccf:ccf_preferred_label>
-    <rdfs:label>myofibroblast cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000412">
-    <ns1:id>CL:1000412</ns1:id>
-    <ccf:ccf_preferred_label>endothelial cell of arteriole</ccf:ccf_preferred_label>
-    <rdfs:label>endothelial cell of arteriole</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0009035">
-    <ccf:ccf_preferred_label>renal straight tubule</ccf:ccf_preferred_label>
-    <rdfs:label>renal straight tubule</rdfs:label>
-    <ns1:hasExactSynonym>straight tubule</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>kidney straight tubule</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0009035</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma13157">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma14100"/>
-    <ns1:id>FMAID:13157</ns1:id>
-    <ccf:ccf_preferred_label>Cardiac notch of left lung</ccf:ccf_preferred_label>
-    <rdfs:label>Cardiac notch of left lung</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001638">
-    <rdfs:label>vein</rdfs:label>
-    <ccf:ccf_preferred_label>vein</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0001638</ns1:id>
-    <ns1:hasExactSynonym>venous tree organ part</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001016">
-    <rdfs:label>kidney loop of Henle ascending limb epithelial cell</rdfs:label>
-    <ccf:ccf_preferred_label>kidney loop of Henle ascending limb epithelial cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1001016</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004087">
-    <rdfs:label>vena cava</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013768"/>
-    <ccf:ccf_preferred_label>vena cava</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0004087</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003644">
-    <ns1:id>UBERON:0003644</ns1:id>
-    <rdfs:label>kidney arterial blood vessel</rdfs:label>
-    <ccf:ccf_preferred_label>kidney arterial blood vessel</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001209">
-    <rdfs:label>inner medulla vasa recta ascending limb cell</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001126"/>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001131"/>
-    <ns1:id>CL:1001209</ns1:id>
-    <ccf:ccf_preferred_label>inner medulla vasa recta ascending limb cell</ccf:ccf_preferred_label>
+    <ns1:id>UBERON:0005097</ns1:id>
+    <ns1:hasExactSynonym>connecting tubule</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>renal connecting tubule</ccf:ccf_preferred_label>
+    <rdfs:label>renal connecting tubule</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001230">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001229"/>
+    <ns1:hasExactSynonym>Bowmans capsule</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>capsula glomerularis</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>Bowman's capsule</ns1:hasExactSynonym>
+    <rdfs:label>Bowman's capsule</rdfs:label>
+    <ccf:ccf_preferred_label>Bowman's capsule</ccf:ccf_preferred_label>
+    <ns1:hasExactSynonym>renal glomerular capsule</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0001230</ns1:id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004134">
+    <ns1:hasExactSynonym>renal proximal tubule</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>proximal tubule</ccf:ccf_preferred_label>
+    <ns1:id>UBERON:0004134</ns1:id>
+    <rdfs:label>proximal tubule</rdfs:label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009773"/>
+    <ns1:hasExactSynonym>kidney proximal tubule</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>proximal kidney tubule</ns1:hasExactSynonym>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004200">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+    <ns1:id>UBERON:0004200</ns1:id>
+    <ns1:hasExactSynonym>renal pyramid</ns1:hasExactSynonym>
+    <rdfs:label>renal pyramid</rdfs:label>
     <ccf:ccf_preferred_label>renal pyramid</ccf:ccf_preferred_label>
     <ns1:hasExactSynonym>Malpighian pyramid</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0004200</ns1:id>
-    <rdfs:label>renal pyramid</rdfs:label>
-    <ns1:hasExactSynonym>renal pyramid</ns1:hasExactSynonym>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000542">
-    <ns1:id>CL:0000542</ns1:id>
-    <rdfs:label>lymphocyte</rdfs:label>
-    <ccf:ccf_preferred_label>lymphocyte</ccf:ccf_preferred_label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0013702">
+    <rdfs:label>Body</rdfs:label>
+    <ccf:ccf_preferred_label>Body</ccf:ccf_preferred_label>
+    <ns1:id>UBERON:0013702</ns1:id>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15828">
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma37330"/>
-    <ccf:ccf_preferred_label>Diaphragmatic surface of spleen</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:15828</ns1:id>
-    <rdfs:label>Diaphragmatic surface of spleen</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002015">
+    <ns1:id>UBERON:0002015</ns1:id>
+    <ns1:hasExactSynonym>capsula fibrosa renis</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>capsule of kidney</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>kidney capsule</ccf:ccf_preferred_label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+    <rdfs:label>kidney capsule</rdfs:label>
+    <ns1:hasExactSynonym>fibrous capsule of kidney</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>renal capsule</ns1:hasExactSynonym>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000055">
-    <ccf:ccf_preferred_label>vessel</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0000055</ns1:id>
-    <rdfs:label>vessel</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001225">
+    <ns1:hasExactSynonym>cortex renalis</ns1:hasExactSynonym>
+    <rdfs:label>cortex of kidney</rdfs:label>
+    <ccf:ccf_preferred_label>cortex of kidney</ccf:ccf_preferred_label>
+    <ns1:hasExactSynonym>renal cortex</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>kidney cortex</ns1:hasExactSynonym>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+    <ns1:id>UBERON:0001225</ns1:id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006517">
+    <ns1:hasExactSynonym>renal calyx</ns1:hasExactSynonym>
+    <rdfs:label>kidney calyx</rdfs:label>
+    <ns1:hasExactSynonym>calices renales</ns1:hasExactSynonym>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+    <ccf:ccf_preferred_label>kidney calyx</ccf:ccf_preferred_label>
+    <ns1:hasExactSynonym>renal calix</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0006517</ns1:id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001227">
+    <ccf:ccf_preferred_label>minor calyx</ccf:ccf_preferred_label>
+    <ns1:hasExactSynonym>minor calix</ns1:hasExactSynonym>
+    <rdfs:label>minor calyx</rdfs:label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006517"/>
+    <ns1:id>UBERON:0001227</ns1:id>
+    <ns1:hasExactSynonym>calices renales minores</ns1:hasExactSynonym>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001228">
-    <ns1:hasExactSynonym>kidney papilla</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
     <ns1:id>UBERON:0001228</ns1:id>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+    <ns1:hasExactSynonym>kidney papilla</ns1:hasExactSynonym>
     <rdfs:label>renal papilla</rdfs:label>
     <ccf:ccf_preferred_label>renal papilla</ccf:ccf_preferred_label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002333">
-    <ccf:ccf_preferred_label>pulmonary trunk</ccf:ccf_preferred_label>
-    <rdfs:label>pulmonary trunk</rdfs:label>
-    <ns1:hasExactSynonym>trunk of pulmonary arterial tree</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0002333</ns1:id>
-    <ns1:hasExactSynonym>pulmonary artery (trunk)</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001288">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009773"/>
+    <ns1:hasExactSynonym>Henle's loop</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0001288</ns1:id>
+    <ns1:hasExactSynonym>ansa nephroni</ns1:hasExactSynonym>
+    <rdfs:label>loop of Henle</rdfs:label>
+    <ccf:ccf_preferred_label>loop of Henle</ccf:ccf_preferred_label>
+    <ns1:hasExactSynonym>Henle loop</ns1:hasExactSynonym>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma62512">
-    <rdfs:label>Trunk of systemic vein</rdfs:label>
-    <ns1:id>FMAID:62512</ns1:id>
-    <ccf:ccf_preferred_label>Trunk of systemic vein</ccf:ccf_preferred_label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001232">
+    <ns1:hasExactSynonym>kidney collecting duct</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>renal collecting tubule</ns1:hasExactSynonym>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009773"/>
+    <rdfs:label>collecting duct of renal tubule</rdfs:label>
+    <ns1:hasExactSynonym>tubulus renalis arcuatus</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0001232</ns1:id>
+    <ns1:hasExactSynonym>tubulus renalis colligens</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>collecting duct</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>collecting duct of renal tubule</ccf:ccf_preferred_label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma70483">
-    <ccf:ccf_preferred_label>Branch of inferior mesenteric artery</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:70483</ns1:id>
-    <rdfs:label>Branch of inferior mesenteric artery</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001226">
+    <ns1:hasExactSynonym>calices renales majores</ns1:hasExactSynonym>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006517"/>
+    <rdfs:label>major calyx</rdfs:label>
+    <ccf:ccf_preferred_label>major calyx</ccf:ccf_preferred_label>
+    <ns1:id>UBERON:0001226</ns1:id>
+    <ns1:hasExactSynonym>major calix</ns1:hasExactSynonym>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001229">
+    <ns1:id>UBERON:0001229</ns1:id>
+    <rdfs:label>renal corpuscle</rdfs:label>
+    <ns1:hasExactSynonym>Malphigian corpuscle</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>corpusculum renale</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>Malpighian corpuscle</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>renal corpuscle</ccf:ccf_preferred_label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001287">
+    <ns1:hasExactSynonym>tubulus contortus proximalis</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0001287</ns1:id>
+    <rdfs:label>proximal convoluted tubule</rdfs:label>
+    <ccf:ccf_preferred_label>proximal convoluted tubule</ccf:ccf_preferred_label>
+    <ns1:hasExactSynonym>proximal convoluted renal tubule</ns1:hasExactSynonym>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0008716">
+    <ns1:id>UBERON:0008716</ns1:id>
+    <ns1:hasExactSynonym>renal hilum</ns1:hasExactSynonym>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+    <rdfs:label>hilum of kidney</rdfs:label>
+    <ns1:hasExactSynonym>hilar area of the kidney</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>hilum of kidney</ccf:ccf_preferred_label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004197">
+    <ns1:id>UBERON:0004197</ns1:id>
+    <ns1:hasExactSynonym>proximal tubule segment 2</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>S2 portion of renal tubule</ns1:hasExactSynonym>
+    <rdfs:label>proximal convoluted tubule segment 2</rdfs:label>
+    <ns1:hasExactSynonym>segment 2 of proximal tubule</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>proximal convoluted tubule segment 2</ccf:ccf_preferred_label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001287"/>
+    <ns1:hasExactSynonym>S2 portion of tubule</ns1:hasExactSynonym>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001224">
+    <ns1:hasExactSynonym>pelvis of ureter</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>kidney pelvis</ns1:hasExactSynonym>
+    <rdfs:label>renal pelvis</rdfs:label>
+    <ns1:id>UBERON:0001224</ns1:id>
+    <ccf:ccf_preferred_label>renal pelvis</ccf:ccf_preferred_label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002224">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013702"/>
+    <rdfs:label>chest cavity</rdfs:label>
+    <ns1:hasExactSynonym>space of thoracic compartment</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0002224</ns1:id>
+    <ns1:hasExactSynonym>cavity of chest</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>cavitas thoracis</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>chest cavity</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>pectoral cavity</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>cavity of thorax</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>thoracic lumen</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>chest cavity</ccf:ccf_preferred_label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0009773">
+    <ns1:hasExactSynonym>renal tubule (generic)</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>tubule of excretory system</ns1:hasExactSynonym>
+    <rdfs:label>renal tubule</rdfs:label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001285"/>
+    <ns1:id>UBERON:0009773</ns1:id>
+    <ccf:ccf_preferred_label>renal tubule</ccf:ccf_preferred_label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004196">
+    <rdfs:label>proximal convoluted tubule segment 1</rdfs:label>
+    <ns1:hasExactSynonym>segment 1 of proximal tubule</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>proximal tubule segment 1</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>S1 portion of tubule</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0004196</ns1:id>
+    <ns1:hasExactSynonym>S1 portion of renal tubule</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>proximal convoluted tubule segment 1</ccf:ccf_preferred_label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001287"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001294">
+    <ns1:hasExactSynonym>zona interna medullae renalis</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>inner zone of medulla of kidney</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0001294</ns1:id>
+    <ns1:hasExactSynonym>renal inner medulla</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>set of inner region of renal pyramids</ns1:hasExactSynonym>
+    <rdfs:label>inner medulla</rdfs:label>
+    <ns1:hasExactSynonym>inner zone of renal medulla</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>inner medulla</ccf:ccf_preferred_label>
+    <ns1:hasExactSynonym>zona interna (medullaris renalis)</ns1:hasExactSynonym>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000362"/>
+    <ns1:hasExactSynonym>inner renal medulla</ns1:hasExactSynonym>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001155">
+    <rdfs:label>colon</rdfs:label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003684"/>
+    <ccf:ccf_preferred_label>colon</ccf:ccf_preferred_label>
+    <ns1:id>UBERON:0001155</ns1:id>
+    <ns1:hasExactSynonym>large bowel</ns1:hasExactSynonym>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000362">
+    <ns1:id>UBERON:0000362</ns1:id>
+    <ns1:hasExactSynonym>renal pyramids</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>medulla of kidney</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>renal medulla</ccf:ccf_preferred_label>
+    <ns1:hasExactSynonym>kidney medulla</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>renal pyramids set</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>medulla renalis</ns1:hasExactSynonym>
+    <rdfs:label>renal medulla</rdfs:label>
+    <ns1:hasExactSynonym>renal medullae set</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>pyramides renales</ns1:hasExactSynonym>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+    <ns1:hasExactSynonym>renal medullae</ns1:hasExactSynonym>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0008203">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013702"/>
+    <rdfs:label>pelvic cavity</rdfs:label>
+    <ccf:ccf_preferred_label>pelvic cavity</ccf:ccf_preferred_label>
+    <ns1:hasExactSynonym>space of pelvic compartment</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0008203</ns1:id>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001290">
-    <ns1:id>UBERON:0001290</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009035"/>
-    <ns1:hasExactSynonym>tubulus rectus proximalis</ns1:hasExactSynonym>
     <ns1:hasExactSynonym>thick descending limb of proximal tubule</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>S3</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>proximal straight tubule</ccf:ccf_preferred_label>
     <rdfs:label>proximal straight tubule</rdfs:label>
+    <ns1:hasExactSynonym>tubulus rectus proximalis</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0001290</ns1:id>
+    <ns1:hasExactSynonym>S3</ns1:hasExactSynonym>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004134"/>
+    <ccf:ccf_preferred_label>proximal straight tubule</ccf:ccf_preferred_label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000946">
-    <ccf:ccf_preferred_label>antibody secreting cell</ccf:ccf_preferred_label>
-    <rdfs:label>antibody secreting cell</rdfs:label>
-    <ns1:id>CL:0000946</ns1:id>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000948">
+    <rdfs:label>heart</rdfs:label>
+    <ns1:hasExactSynonym>chambered heart</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0000948</ns1:id>
+    <ccf:ccf_preferred_label>heart</ccf:ccf_preferred_label>
+    <ns1:hasExactSynonym>vertebrate heart</ns1:hasExactSynonym>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002224"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7440">
-    <ccf:ccf_preferred_label>Oblique fissure of left lung</ccf:ccf_preferred_label>
-    <rdfs:label>Oblique fissure of left lung</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma7331"/>
-    <ns1:id>FMAID:7440</ns1:id>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002189">
+    <ns1:hasExactSynonym>kidney outer cortex</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>outer renal cortex</ns1:hasExactSynonym>
+    <ccf:ccf_preferred_label>outer cortex of kidney</ccf:ccf_preferred_label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001225"/>
+    <ns1:id>UBERON:0002189</ns1:id>
+    <rdfs:label>outer cortex of kidney</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma9658">
-    <ns1:id>FMAID:9658</ns1:id>
-    <ccf:ccf_preferred_label>Anatomical point</ccf:ccf_preferred_label>
-    <rdfs:label>Anatomical point</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002113">
+    <ns1:id>UBERON:0002113</ns1:id>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003684"/>
+    <ccf:ccf_preferred_label>kidney</ccf:ccf_preferred_label>
+    <rdfs:label>kidney</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000719">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005010"/>
-    <ccf:ccf_preferred_label>kidney inner medulla collecting duct intercalated cell</ccf:ccf_preferred_label>
-    <rdfs:label>kidney inner medulla collecting duct intercalated cell</rdfs:label>
-    <ns1:id>CL:1000719</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15396">
-    <rdfs:label>Tributary of superior mesenteric vein</rdfs:label>
-    <ns1:id>FMAID:15396</ns1:id>
-    <ccf:ccf_preferred_label>Tributary of superior mesenteric vein</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0022275">
-    <rdfs:label>colic flexure</rdfs:label>
-    <ccf:ccf_preferred_label>colic flexure</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0022275</ns1:id>
-    <ns1:hasExactSynonym>flexura coli</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000786">
-    <ns1:hasExactSynonym>plasma B cell</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>plasma cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:0000786</ns1:id>
-    <ns1:hasExactSynonym>plasma B-cell</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000946"/>
-    <rdfs:label>plasma cell</rdfs:label>
-    <ns1:hasExactSynonym>plasmacyte</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>plasmocyte</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma7439">
-    <ns1:id>FMAID:7439</ns1:id>
-    <rdfs:label>Oblique fissure of right lung</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma7331"/>
-    <ccf:ccf_preferred_label>Oblique fissure of right lung</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002078">
-    <ns1:hasExactSynonym>right atrium</ns1:hasExactSynonym>
-    <rdfs:label>right cardiac atrium</rdfs:label>
-    <ccf:ccf_preferred_label>right cardiac atrium</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002081"/>
-    <ns1:hasExactSynonym>right atrium of heart</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>cardiac right atrium</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>right cardiac atrium</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>heart right atrium</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0002078</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000234">
-    <rdfs:label>phagocyte</rdfs:label>
-    <ccf:ccf_preferred_label>phagocyte</ccf:ccf_preferred_label>
-    <ns1:id>CL:0000234</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000115">
-    <ns1:id>CL:0000115</ns1:id>
-    <ns1:hasExactSynonym>endotheliocyte</ns1:hasExactSynonym>
-    <rdfs:label>endothelial cell</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0000213"/>
-    <ccf:ccf_preferred_label>endothelial cell</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0013765">
-    <ns1:id>UBERON:0013765</ns1:id>
-    <ns1:hasExactSynonym>digestive organ</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>digestive system organ</ns1:hasExactSynonym>
-    <rdfs:label>digestive system element</rdfs:label>
-    <ccf:ccf_preferred_label>digestive system element</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001153">
-    <ns1:hasExactSynonym>caecum</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009854"/>
-    <rdfs:label>caecum</rdfs:label>
-    <ns1:hasExactSynonym>intestinum crassum caecum</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001153</ns1:id>
-    <ccf:ccf_preferred_label>caecum</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>cecum</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006517">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
-    <ns1:hasExactSynonym>calices renales</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0006517</ns1:id>
-    <ns1:hasExactSynonym>renal calix</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>kidney calyx</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>renal calyx</ns1:hasExactSynonym>
-    <rdfs:label>kidney calyx</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/LMHA_00211">
+    <ccf:ccf_preferred_label>lung</ccf:ccf_preferred_label>
+    <rdfs:label>lung</rdfs:label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002224"/>
+    <ns1:id>LMHA:00211</ns1:id>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003684">
     <ns1:id>UBERON:0003684</ns1:id>
-    <ns1:hasExactSynonym>cavity of abdominal compartment</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>abdominal cavity</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>cavity of compartment of abdomen</ns1:hasExactSynonym>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000464"/>
-    <rdfs:label>abdominal cavity</rdfs:label>
     <ns1:hasExactSynonym>space of abdominal compartment</ns1:hasExactSynonym>
+    <ns1:hasExactSynonym>cavity of compartment of abdomen</ns1:hasExactSynonym>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013702"/>
+    <rdfs:label>abdominal cavity</rdfs:label>
+    <ccf:ccf_preferred_label>abdominal cavity</ccf:ccf_preferred_label>
+    <ns1:hasExactSynonym>cavity of abdominal compartment</ns1:hasExactSynonym>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005616">
-    <ccf:ccf_preferred_label>mesenteric artery</ccf:ccf_preferred_label>
-    <rdfs:label>mesenteric artery</rdfs:label>
-    <ns1:id>UBERON:0005616</ns1:id>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001289">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001288"/>
+    <ns1:hasExactSynonym>descending limb of Henle's loop</ns1:hasExactSynonym>
+    <ns1:id>UBERON:0001289</ns1:id>
+    <ccf:ccf_preferred_label>descending limb of loop of Henle</ccf:ccf_preferred_label>
+    <ns1:hasExactSynonym>loop of Henle descending limb</ns1:hasExactSynonym>
+    <rdfs:label>descending limb of loop of Henle</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004523">
-    <ccf:ccf_preferred_label>papillary muscle of right ventricle</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002494"/>
-    <rdfs:label>papillary muscle of right ventricle</rdfs:label>
-    <ns1:id>UBERON:0004523</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001552">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
-    <ns1:id>UBERON:0001552</ns1:id>
-    <rdfs:label>kidney arcuate artery</rdfs:label>
-    <ccf:ccf_preferred_label>kidney arcuate artery</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>renal arcuate artery</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma15393">
-    <ccf:ccf_preferred_label>Superior rectal vein</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma15392"/>
-    <ns1:id>FMAID:15393</ns1:id>
-    <rdfs:label>Superior rectal vein</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma8637">
-    <ccf:ccf_preferred_label>Anterior ascending branch of left pulmonary artery</ccf:ccf_preferred_label>
-    <rdfs:label>Anterior ascending branch of left pulmonary artery</rdfs:label>
-    <ns1:id>FMAID:8637</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66614"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0013701">
-    <ccf:ccf_preferred_label>main body axis</ccf:ccf_preferred_label>
-    <rdfs:label>main body axis</rdfs:label>
-    <ns1:id>UBERON:0013701</ns1:id>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005169">
-    <rdfs:label>interstitial tissue</rdfs:label>
-    <ns1:id>UBERON:0005169</ns1:id>
-    <ns1:hasExactSynonym>interstitium</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>interstitial tissue</ccf:ccf_preferred_label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000056">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+    <ccf:ccf_preferred_label>ureter</ccf:ccf_preferred_label>
+    <ns1:id>UBERON:0000056</ns1:id>
+    <rdfs:label>ureter</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002106">
-    <ns1:id>UBERON:0002106</ns1:id>
-    <ccf:ccf_preferred_label>spleen</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004177"/>
     <rdfs:label>spleen</rdfs:label>
+    <ns1:id>UBERON:0002106</ns1:id>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003684"/>
+    <ccf:ccf_preferred_label>spleen</ccf:ccf_preferred_label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000717">
-    <rdfs:label>kidney outer medulla collecting duct intercalated cell</rdfs:label>
-    <ns1:id>CL:1000717</ns1:id>
-    <ccf:ccf_preferred_label>kidney outer medulla collecting duct intercalated cell</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005010"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001285">
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+    <rdfs:label>nephron</rdfs:label>
+    <ccf:ccf_preferred_label>nephron</ccf:ccf_preferred_label>
+    <ns1:id>UBERON:0001285</ns1:id>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001651">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001637"/>
-    <ccf:ccf_preferred_label>right pulmonary artery</ccf:ccf_preferred_label>
-    <rdfs:label>right pulmonary artery</rdfs:label>
-    <ns1:id>UBERON:0001651</ns1:id>
-    <ns1:hasExactSynonym>right main pulmonary artery</ns1:hasExactSynonym>
-    <ns1:hasExactSynonym>right pulmonary arterial tree</ns1:hasExactSynonym>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003101">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
-    <ccf:ccf_preferred_label>male body</ccf:ccf_preferred_label>
-    <rdfs:label>male body</rdfs:label>
-    <ns1:id>UBERON:0003101</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000850">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0002305"/>
-    <ns1:id>CL:1000850</ns1:id>
-    <rdfs:label>macula densa epithelial cell</rdfs:label>
-    <ccf:ccf_preferred_label>macula densa epithelial cell</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000742">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000746"/>
-    <ns1:hasExactSynonym>intraglomerular mesangial cell</ns1:hasExactSynonym>
-    <ccf:ccf_preferred_label>glomerular mesangial cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1000742</ns1:id>
-    <rdfs:label>glomerular mesangial cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma31006">
-    <ccf:ccf_preferred_label>Subdivision of inferior margin of right lung</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:31006</ns1:id>
-    <rdfs:label>Subdivision of inferior margin of right lung</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001141">
-    <rdfs:label>right renal vein</rdfs:label>
-    <ccf:ccf_preferred_label>right renal vein</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001140"/>
-    <ns1:id>UBERON:0001141</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001033">
-    <rdfs:label>peritubular capillary endothelial cell</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1000892"/>
-    <ns1:id>CL:1001033</ns1:id>
-    <ccf:ccf_preferred_label>peritubular capillary endothelial cell</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002139">
-    <ccf:ccf_preferred_label>endothelial cell of vascular tree</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>vascular endothelial cell</ns1:hasExactSynonym>
-    <rdfs:label>endothelial cell of vascular tree</rdfs:label>
-    <ns1:id>CL:0002139</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma70478">
-    <ns1:id>FMAID:70478</ns1:id>
-    <rdfs:label>Branch of superior mesenteric artery</rdfs:label>
-    <ccf:ccf_preferred_label>Branch of superior mesenteric artery</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma31013">
-    <ns1:id>FMAID:31013</ns1:id>
-    <ccf:ccf_preferred_label>Subdivision of inferior margin of left lung</ccf:ccf_preferred_label>
-    <rdfs:label>Subdivision of inferior margin of left lung</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001223">
-    <ns1:id>UBERON:0001223</ns1:id>
-    <ccf:ccf_preferred_label>left ureter</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000056"/>
-    <rdfs:label>left ureter</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004524">
-    <rdfs:label>papillary muscle of left ventricle</rdfs:label>
-    <ccf:ccf_preferred_label>papillary muscle of left ventricle</ccf:ccf_preferred_label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002494"/>
-    <ns1:id>UBERON:0004524</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma3860">
-    <rdfs:label>Diagonal branch of anterior descending branch of left coronary artery</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma66328"/>
-    <ccf:ccf_preferred_label>Diagonal branch of anterior descending branch of left coronary artery</ccf:ccf_preferred_label>
-    <ns1:id>FMAID:3860</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0009854">
-    <ccf:ccf_preferred_label>digestive tract diverticulum</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0009854</ns1:id>
-    <rdfs:label>digestive tract diverticulum</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002115">
-    <ns1:id>UBERON:0002115</ns1:id>
-    <rdfs:label>jejunum</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
-    <ccf:ccf_preferred_label>jejunum</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001515">
-    <ns1:hasExactSynonym>aorta thoracica</ns1:hasExactSynonym>
-    <ns1:id>UBERON:0001515</ns1:id>
-    <ccf:ccf_preferred_label>thoracic aorta</ccf:ccf_preferred_label>
-    <ns1:hasExactSynonym>thoracic part of aorta</ns1:hasExactSynonym>
-    <rdfs:label>thoracic aorta</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma31008">
-    <rdfs:label>Inferior margin of mediastinal surface of right lung</rdfs:label>
-    <ccf:ccf_part_of rdf:resource="http://purl.org/sig/ont/fma/fma31006"/>
-    <ns1:id>FMAID:31008</ns1:id>
-    <ccf:ccf_preferred_label>Inferior margin of mediastinal surface of right lung</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002553">
-    <ns1:id>UBERON:0002553</ns1:id>
-    <ccf:ccf_preferred_label>anatomical cavity</ccf:ccf_preferred_label>
-    <rdfs:label>anatomical cavity</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001217">
-    <ns1:id>UBERON:0001217</ns1:id>
-    <rdfs:label>ileal vein</rdfs:label>
-    <ccf:ccf_preferred_label>ileal vein</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000839">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_1001021"/>
-    <rdfs:label>kidney proximal straight tubule epithelial cell</rdfs:label>
-    <ccf:ccf_preferred_label>kidney proximal straight tubule epithelial cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1000839</ns1:id>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001218">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002017"/>
-    <ccf:ccf_preferred_label>middle colic vein</ccf:ccf_preferred_label>
-    <ns1:id>UBERON:0001218</ns1:id>
-    <ns1:hasExactSynonym>vena colica media (intermedia)</ns1:hasExactSynonym>
-    <rdfs:label>middle colic vein</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003916">
-    <rdfs:label>fat pad</rdfs:label>
-    <ns1:id>UBERON:0003916</ns1:id>
-    <ccf:ccf_preferred_label>fat pad</ccf:ccf_preferred_label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001431">
-    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/CL_0005009"/>
-    <ccf:ccf_preferred_label>kidney collecting duct principal cell</ccf:ccf_preferred_label>
-    <ns1:id>CL:1001431</ns1:id>
-    <rdfs:label>kidney collecting duct principal cell</rdfs:label>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014464">
+    <ccf:ccf_preferred_label>renal fat pad</ccf:ccf_preferred_label>
+    <rdfs:label>renal fat pad</rdfs:label>
+    <ccf:ccf_part_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+    <ns1:id>UBERON:0014464</ns1:id>
   </rdf:Description>
 </rdf:RDF>
