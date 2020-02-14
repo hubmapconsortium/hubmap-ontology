@@ -4,7 +4,7 @@
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Body"
+        "@value": "body"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
@@ -165,32 +165,26 @@
     "order": 5
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0001284",
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001225",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "column of Bertini"
+        "@value": "cortex renalis"
       },
       {
-        "@value": "columna Bertini"
+        "@value": "kidney cortex"
       },
       {
-        "@value": "kidney column"
-      },
-      {
-        "@value": "renal column of Bertini"
-      },
-      {
-        "@value": "renal cortical column"
+        "@value": "renal cortex"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "renal column"
+        "@value": "cortex of kidney"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
-        "@value": "UBERON:0001284"
+        "@value": "UBERON:0001225"
       }
     ],
     "parent": [
@@ -201,198 +195,31 @@
     "order": 6
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0008716",
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002189",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "hilar area of the kidney"
+        "@value": "kidney outer cortex"
       },
       {
-        "@value": "renal hilum"
+        "@value": "outer renal cortex"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "hilum of kidney"
+        "@value": "outer cortex of kidney"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
-        "@value": "UBERON:0008716"
+        "@value": "UBERON:0002189"
       }
     ],
     "parent": [
       {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0002113"
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001225"
       }
     ],
     "order": 7
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0005215",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "interstitial tissue of kidney"
-      },
-      {
-        "@value": "renal interstitial tissue"
-      },
-      {
-        "@value": "renal interstitium"
-      },
-      {
-        "@value": "renal stroma"
-      },
-      {
-        "@value": "stroma of kidney"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "kidney interstitium"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0005215"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0002113"
-      }
-    ],
-    "order": 8
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0006517",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "calices renales"
-      },
-      {
-        "@value": "renal calix"
-      },
-      {
-        "@value": "renal calyx"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "kidney calyx"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0006517"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0002113"
-      }
-    ],
-    "order": 9
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0001226",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "calices renales majores"
-      },
-      {
-        "@value": "major calix"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "major calyx"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0001226"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0006517"
-      }
-    ],
-    "order": 10
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0001227",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "calices renales minores"
-      },
-      {
-        "@value": "minor calix"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "minor calyx"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0001227"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0006517"
-      }
-    ],
-    "order": 11
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0001224",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "kidney pelvis"
-      },
-      {
-        "@value": "pelvis of ureter"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "renal pelvis"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0001224"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0002113"
-      }
-    ],
-    "order": 12
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0000056",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "ureter"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0000056"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0002113"
-      }
-    ],
-    "order": 13
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -437,7 +264,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002113"
       }
     ],
-    "order": 14
+    "order": 8
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001293",
@@ -476,7 +303,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000362"
       }
     ],
-    "order": 15
+    "order": 9
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001294",
@@ -518,29 +345,35 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0000362"
       }
     ],
-    "order": 16
+    "order": 10
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0001225",
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001284",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "cortex renalis"
+        "@value": "column of Bertini"
       },
       {
-        "@value": "kidney cortex"
+        "@value": "columna Bertini"
       },
       {
-        "@value": "renal cortex"
+        "@value": "kidney column"
+      },
+      {
+        "@value": "renal column of Bertini"
+      },
+      {
+        "@value": "renal cortical column"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "cortex of kidney"
+        "@value": "renal column"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
-        "@value": "UBERON:0001225"
+        "@value": "UBERON:0001284"
       }
     ],
     "parent": [
@@ -548,34 +381,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002113"
       }
     ],
-    "order": 17
-  },
-  {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0002189",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "kidney outer cortex"
-      },
-      {
-        "@value": "outer renal cortex"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "outer cortex of kidney"
-      }
-    ],
-    "http://www.geneontology.org/formats/oboInOwl#id": [
-      {
-        "@value": "UBERON:0002189"
-      }
-    ],
-    "parent": [
-      {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0001225"
-      }
-    ],
-    "order": 18
+    "order": 11
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004200",
@@ -595,6 +401,200 @@
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
         "@value": "UBERON:0004200"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002113"
+      }
+    ],
+    "order": 12
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0008716",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "hilar area of the kidney"
+      },
+      {
+        "@value": "renal hilum"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "hilum of kidney"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0008716"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002113"
+      }
+    ],
+    "order": 13
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005215",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "interstitial tissue of kidney"
+      },
+      {
+        "@value": "renal interstitial tissue"
+      },
+      {
+        "@value": "renal interstitium"
+      },
+      {
+        "@value": "renal stroma"
+      },
+      {
+        "@value": "stroma of kidney"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "kidney interstitium"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0005215"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002113"
+      }
+    ],
+    "order": 14
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0006517",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "calices renales"
+      },
+      {
+        "@value": "renal calix"
+      },
+      {
+        "@value": "renal calyx"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "kidney calyx"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0006517"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002113"
+      }
+    ],
+    "order": 15
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001226",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "calices renales majores"
+      },
+      {
+        "@value": "major calix"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "major calyx"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001226"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0006517"
+      }
+    ],
+    "order": 16
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001227",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "calices renales minores"
+      },
+      {
+        "@value": "minor calix"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "minor calyx"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001227"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0006517"
+      }
+    ],
+    "order": 17
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001224",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "kidney pelvis"
+      },
+      {
+        "@value": "pelvis of ureter"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "renal pelvis"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001224"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002113"
+      }
+    ],
+    "order": 18
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0000056",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ureter"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0000056"
       }
     ],
     "parent": [
@@ -753,7 +753,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001229"
       }
     ],
-    "order": 26
+    "order": 25
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0009773",
@@ -780,7 +780,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001285"
       }
     ],
-    "order": 33
+    "order": 26
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004134",
@@ -810,7 +810,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0009773"
       }
     ],
-    "order": 34
+    "order": 27
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001287",
@@ -837,7 +837,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004134"
       }
     ],
-    "order": 35
+    "order": 28
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004196",
@@ -870,7 +870,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001287"
       }
     ],
-    "order": 36
+    "order": 29
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004197",
@@ -903,7 +903,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001287"
       }
     ],
-    "order": 37
+    "order": 30
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001290",
@@ -933,7 +933,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0004134"
       }
     ],
-    "order": 38
+    "order": 31
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001289",
@@ -960,7 +960,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001288"
       }
     ],
-    "order": 40
+    "order": 32
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001288",
@@ -990,7 +990,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0009773"
       }
     ],
-    "order": 42
+    "order": 33
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0004193",
@@ -1026,7 +1026,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001288"
       }
     ],
-    "order": 43
+    "order": 34
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001291",
@@ -1074,7 +1074,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0001288"
       }
     ],
-    "order": 45
+    "order": 35
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001292",
@@ -1101,7 +1101,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0009773"
       }
     ],
-    "order": 49
+    "order": 36
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0005097",
@@ -1128,7 +1128,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0009773"
       }
     ],
-    "order": 51
+    "order": 37
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0001232",
@@ -1164,7 +1164,7 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0009773"
       }
     ],
-    "order": 53
+    "order": 38
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002106",
@@ -1184,7 +1184,713 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0003684"
       }
     ],
-    "order": 80
+    "order": 39
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0004641",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "Malpighian capsule"
+      },
+      {
+        "@value": "capsula splenica"
+      },
+      {
+        "@value": "capsule of spleen"
+      },
+      {
+        "@value": "fibroelastic coat of spleen"
+      },
+      {
+        "@value": "fibrous capsule of spleen"
+      },
+      {
+        "@value": "splenic capsule"
+      },
+      {
+        "@value": "tunica fibrosa (splen)(lien)"
+      },
+      {
+        "@value": "tunica fibrosa splenica"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "spleen capsule"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0004641"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002106"
+      }
+    ],
+    "order": 40
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001265",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "spleen trabeculum"
+      },
+      {
+        "@value": "splenic trabecula"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "trabecula of spleen"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001265"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002106"
+      }
+    ],
+    "order": 41
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_1000023",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "Malpighian corpuscles"
+      },
+      {
+        "@value": "pulp of spleen"
+      },
+      {
+        "@value": "splenic pulp"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "spleen pulp"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:1000023"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002106"
+      }
+    ],
+    "order": 42
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001250",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "pulpa rubra"
+      },
+      {
+        "@value": "red pulp"
+      },
+      {
+        "@value": "spleen red pulp"
+      },
+      {
+        "@value": "splenic red pulp"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "red pulp of spleen"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001250"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_1000023"
+      }
+    ],
+    "order": 43
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001266",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "cord of Billroth"
+      },
+      {
+        "@value": "cord of Bilroth"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "splenic cord"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001266"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001250"
+      }
+    ],
+    "order": 44
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001959",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "pulpa alba"
+      },
+      {
+        "@value": "spleen white pulp"
+      },
+      {
+        "@value": "splenic white pulp"
+      },
+      {
+        "@value": "white pulp"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "white pulp of spleen"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001959"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_1000023"
+      }
+    ],
+    "order": 45
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001249",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "Malpighian body"
+      },
+      {
+        "@value": "lymphatic follicle of spleen"
+      },
+      {
+        "@value": "lymphoid follicle of spleen"
+      },
+      {
+        "@value": "lymphoid nodule of spleen"
+      },
+      {
+        "@value": "spleen B cell follicle"
+      },
+      {
+        "@value": "spleen lymphoid follicle"
+      },
+      {
+        "@value": "splenic B cell follicle"
+      },
+      {
+        "@value": "splenic lymphatic follicle"
+      },
+      {
+        "@value": "splenic lymphoid follicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "spleen lymphoid follicle"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001249"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001959"
+      }
+    ],
+    "order": 46
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0004041",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "primary spleen B cell follicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "spleen primary B follicle"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0004041"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001249"
+      }
+    ],
+    "order": 47
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0004042",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "secondary spleen B cell follicle"
+      },
+      {
+        "@value": "splenic secondary B cell follicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "spleen secondary B follicle"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0004042"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001249"
+      }
+    ],
+    "order": 48
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005196",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "germinal center of spleen"
+      },
+      {
+        "@value": "spleen GC"
+      },
+      {
+        "@value": "spleen follicle center"
+      },
+      {
+        "@value": "splenic germinal center"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "spleen germinal center"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0005196"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0004042"
+      }
+    ],
+    "order": 49
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0010421",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "follicle mantle"
+      },
+      {
+        "@value": "spleen B cell corona"
+      },
+      {
+        "@value": "spleen B-cell corona"
+      },
+      {
+        "@value": "spleen lymphocytic corona"
+      },
+      {
+        "@value": "splenic B cell corona"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "spleen B cell corona"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0010421"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0004042"
+      }
+    ],
+    "order": 50
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001960",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "PALS"
+      },
+      {
+        "@value": "T cell domain of the splenic white pulp"
+      },
+      {
+        "@value": "periarterial lymphoid sheath"
+      },
+      {
+        "@value": "periarteriolar sheath"
+      },
+      {
+        "@value": "spleen periarteriolar lymphatic sheath"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "periarterial lymphatic sheath"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001960"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001959"
+      }
+    ],
+    "order": 51
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001251",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "junctional zone of spleen"
+      },
+      {
+        "@value": "spleen marginal zone"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "marginal zone of spleen"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001251"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002106"
+      }
+    ],
+    "order": 52
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005353",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "spleen perifollicular zone"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0005353"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002106"
+      }
+    ],
+    "order": 53
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001248",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "hilum lienale"
+      },
+      {
+        "@value": "hilum splenicum"
+      },
+      {
+        "@value": "spleen hilum"
+      },
+      {
+        "@value": "splenic hilum"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "hilum of spleen"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001248"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002106"
+      }
+    ],
+    "order": 54
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001155",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "large bowel"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "colon"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001155"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0003684"
+      }
+    ],
+    "order": 55
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001156",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "colon ascendens"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ascending colon"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001156"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001155"
+      }
+    ],
+    "order": 56
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001158",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "colon descendens"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "descending colon"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001158"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001155"
+      }
+    ],
+    "order": 57
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001157",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "colon transversum"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "transverse colon"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001157"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001155"
+      }
+    ],
+    "order": 58
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001159",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "sigmoid colon"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001159"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001155"
+      }
+    ],
+    "order": 59
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001153",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "caecum"
+      },
+      {
+        "@value": "cecum"
+      },
+      {
+        "@value": "intestinum crassum caecum"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "caecum"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001153"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001155"
+      }
+    ],
+    "order": 60
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001154",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "appendix"
+      },
+      {
+        "@value": "appendix vermiformis"
+      },
+      {
+        "@value": "caecal appendix"
+      },
+      {
+        "@value": "cecal appendix"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "vermiform appendix"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001154"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001153"
+      }
+    ],
+    "order": 61
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0000569",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "valva ileocaecalis (valva ilealis)"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ileocecal valve"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0000569"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001153"
+      }
+    ],
+    "order": 62
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0001052",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "terminal portion of intestine"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "rectum"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0001052"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0008203"
+      }
+    ],
+    "order": 63
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0000948",
@@ -1211,7 +1917,212 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002224"
       }
     ],
-    "order": 81
+    "order": 64
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0004151",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "chamber of heart"
+      },
+      {
+        "@value": "heart chamber"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "cardiac chamber"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0004151"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0000948"
+      }
+    ],
+    "order": 65
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0035553",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "left cardiac chamber"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0035553"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0004151"
+      }
+    ],
+    "order": 66
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002079",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "atrium sinistrum"
+      },
+      {
+        "@value": "cardiac left atrium"
+      },
+      {
+        "@value": "heart left atrium"
+      },
+      {
+        "@value": "left atrium"
+      },
+      {
+        "@value": "left atrium of heart"
+      },
+      {
+        "@value": "left cardiac atrium"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "left cardiac atrium"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0002079"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0035553"
+      }
+    ],
+    "order": 67
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002084",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "cardiac left ventricle"
+      },
+      {
+        "@value": "left cardiac ventricle"
+      },
+      {
+        "@value": "left ventricle"
+      },
+      {
+        "@value": "left ventricle of heart"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "heart left ventricle"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0002084"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0035553"
+      }
+    ],
+    "order": 68
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0035554",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "right cardiac chamber"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0035554"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0004151"
+      }
+    ],
+    "order": 69
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002078",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "cardiac right atrium"
+      },
+      {
+        "@value": "heart right atrium"
+      },
+      {
+        "@value": "right atrium"
+      },
+      {
+        "@value": "right atrium of heart"
+      },
+      {
+        "@value": "right cardiac atrium"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "right cardiac atrium"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0002078"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0035554"
+      }
+    ],
+    "order": 70
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002080",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "cardiac right ventricle"
+      },
+      {
+        "@value": "right ventricle"
+      },
+      {
+        "@value": "right ventricle of heart"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "heart right ventricle"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0002080"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0035554"
+      }
+    ],
+    "order": 71
   },
   {
     "@id": "http://purl.obolibrary.org/obo/LMHA_00211",
@@ -1231,31 +2142,225 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0002224"
       }
     ],
-    "order": 82
+    "order": 72
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_0001155",
-    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
-      {
-        "@value": "large bowel"
-      }
-    ],
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002167",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "colon"
+        "@value": "right lung"
       }
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
-        "@value": "UBERON:0001155"
+        "@value": "UBERON:0002167"
       }
     ],
     "parent": [
       {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_0003684"
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002224"
       }
     ],
-    "order": 83
+    "order": 73
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/LMHA_00332",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "right lung upper lobe"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "LMHA:00332"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002167"
+      }
+    ],
+    "order": 74
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/LMHA_00324",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "right lung lower lobe"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "LMHA:00324"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002167"
+      }
+    ],
+    "order": 75
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/LMHA_00330",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "right lung middle lobe"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "LMHA:00330"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002167"
+      }
+    ],
+    "order": 76
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002168",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "left lung"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0002168"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002224"
+      }
+    ],
+    "order": 77
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0008952",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "left lung cranial lobe"
+      },
+      {
+        "@value": "left upper lobe"
+      },
+      {
+        "@value": "left upper lobe of lung"
+      },
+      {
+        "@value": "lobus superior (pulmo sinister)"
+      },
+      {
+        "@value": "lobus superior pulmonis sinistri"
+      },
+      {
+        "@value": "superior lobe of left lung"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "upper lobe of left lung"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0008952"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002168"
+      }
+    ],
+    "order": 78
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0008953",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+      {
+        "@value": "inferior lobe of left lung"
+      },
+      {
+        "@value": "left lower lobe"
+      },
+      {
+        "@value": "left lower lobe of lung"
+      },
+      {
+        "@value": "left lung caudal lobe"
+      },
+      {
+        "@value": "lobus inferior (pulmo sinister)"
+      },
+      {
+        "@value": "lobus inferior pulmonis sinistri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "lower lobe of left lung"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0008953"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002168"
+      }
+    ],
+    "order": 79
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/LMHA_00361",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "trachea"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "LMHA:00361"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002224"
+      }
+    ],
+    "order": 80
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/LMHA_00120",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "bronchus"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "LMHA:00120"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002224"
+      }
+    ],
+    "order": 81
   },
   {
     "@id": "http://purl.obolibrary.org/obo/UBERON_0002108",
@@ -1282,6 +2387,66 @@
         "@id": "http://purl.obolibrary.org/obo/UBERON_0003684"
       }
     ],
+    "order": 82
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002114",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "duodenum"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0002114"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002108"
+      }
+    ],
+    "order": 83
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002115",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "jejunum"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0002115"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002108"
+      }
+    ],
     "order": 84
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0002116",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ileum"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:0002116"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0002108"
+      }
+    ],
+    "order": 85
   }
 ]
