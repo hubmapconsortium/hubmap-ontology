@@ -73,7 +73,7 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
   g.namespace_manager.bind('ccf', ccf_ns, override=False)
 
   body = get_term('UBERON:0013702')
-  terms = { body.iri: get_term_data('UBERON:0013702', 'Body', body, 0, None) }
+  terms = { body.iri: get_term_data('UBERON:0013702', 'body', body, 0, None) }
 
   for order, row in enumerate(DictReader(in_f)):
     if row['Cell-Type'] == 'Y':

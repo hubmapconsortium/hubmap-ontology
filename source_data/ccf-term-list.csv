@@ -5,7 +5,13 @@ abdominal cavity,abdominal cavity,UBERON:0003684,body,UBERON:0013702,N,0000-0001
 pelvic cavity,pelvic cavity,UBERON:0008203,body,UBERON:0013702,N,0000-0001-7655-4833
 kidney,kidney,UBERON:0002113,abdominal cavity,UBERON:0003684,N,0000-0001-7655-4833
 kidney capsule,,UBERON:0002015,kidney,UBERON:0002113,N,0000-0001-7655-4833
+cortex of kidney,cortex of kidney,UBERON:0001225,kidney,UBERON:0002113,N,0000-0001-7655-4833
+outer cortex of kidney,outer cortex of kidney,UBERON:0002189,Cortex of kidney,UBERON:0001225,N,0000-0001-7655-4833
+renal medulla,renal medulla,UBERON:0000362,kidney,UBERON:0002113,N,0000-0001-7655-4833
+outer medulla of kidney,outer medulla,UBERON:0001293,renal medulla,UBERON:0000362,N,0000-0001-7655-4833
+inner medulla of kidney,inner medulla,UBERON:0001294,renal medulla,UBERON:0000362,N,0000-0001-7655-4833
 renal column,,UBERON:0001284,kidney,UBERON:0002113,N,0000-0001-7655-4833
+kidney pyramid,renal pyramid,UBERON:0004200,kidney,UBERON:0002113,N,0000-0001-7655-4833
 hilum of kidney,,UBERON:0008716,kidney,UBERON:0002113,N,0000-0001-7655-4833
 kidney interstitium,,UBERON:0005215,kidney,UBERON:0002113,N,0000-0001-7655-4833
 kidney calyx,kidney calyx,UBERON:0006517,kidney,UBERON:0002113,N,0000-0001-7655-4833
@@ -13,74 +19,69 @@ major calyx,major calyx,UBERON:0001226,Kidney Calyx,UBERON:0006517,N,0000-0001-7
 minor calyx,minor calyx,UBERON:0001227,Kidney Calyx,UBERON:0006517,N,0000-0001-7655-4833
 renal pelvis,renal pelvis,UBERON:0001224,kidney,UBERON:0002113,N,0000-0001-7655-4833
 ureter,ureter,UBERON:0000056,kidney,UBERON:0002113,N,0000-0001-7655-4833
-renal medulla,renal medulla,UBERON:0000362,kidney,UBERON:0002113,N,0000-0001-7655-4833
-outer medulla of kidney,outer medulla,UBERON:0001293,renal medulla,UBERON:0000362,N,0000-0001-7655-4833
-inner medulla of kidney,inner medulla,UBERON:0001294,renal medulla,UBERON:0000362,N,0000-0001-7655-4833
-cortex of kidney,cortex of kidney,UBERON:0001225,kidney,UBERON:0002113,N,0000-0001-7655-4833
-outer cortex of kidney,outer cortex of kidney,UBERON:0002189,Cortex of kidney,UBERON:0001225,N,0000-0001-7655-4833
-kidney pyramid,renal pyramid,UBERON:0004200,kidney,UBERON:0002113,N,0000-0001-7655-4833
 renal papilla,renal papilla,UBERON:0001228,kidney,UBERON:0002113,N,0000-0001-7655-4833
 renal fat pad,,UBERON:0014464,kidney,UBERON:0002113,N,0000-0001-7655-4833
 nephron,nephron,UBERON:0001285,kidney,UBERON:0002113,N,0000-0001-7655-4833
 renal corpuscle,renal corpuscle,UBERON:0001229,nephron,UBERON:0001285,N,0000-0001-7655-4833
 glomerular capsule,Bowman's capsule,UBERON:0001230,renal corpuscle,UBERON:0001229,N,0000-0001-7655-4833
-parietal epithelial cell,,CL:1000452,epithelial cell of glomerular capsule,CL:1000450,Y,0000-0001-7655-4833
 renal glomerulus,glomerulus,UBERON:0000074,renal corpuscle,UBERON:0001229,N,0000-0001-7655-4833
-glomerular visceral epithelial cell,podocyte,CL:0000653,epithelial cell of visceral layer of glomerular capsule,CL:1000451,Y,0000-0001-7655-4833
-capillary endothelial cell,,CL:0002144,blood vessel endothelial cell,CL:0000071,Y,0000-0001-7655-4833
-glomerular capillary endothelial cell,,CL:1001005,capillary endothelial cell,CL:0002144,Y,0000-0001-7655-4833
-mesangial cell,,CL:0000650,pericyte cell,CL:0000669,Y,0000-0001-7655-4833
-extraglomerular mesangial cell,,CL:0002173,glomerular cell,CL:1000746,Y,0000-0001-7655-4833
-glomerular mesangial cell,,CL:1000742,glomerular cell,CL:1000746,Y,0000-0001-7655-4833
-renal tubule,,UBERON:0009773,nephron,UBERON:0001285,,
+renal tubule,,UBERON:0009773,nephron,UBERON:0001285,N,0000-0001-7655-4833
 proximal tubule,,UBERON:0004134,renal tubule,UBERON:0009773,N,0000-0001-7655-4833
 proximal convoluted tubule,,UBERON:0001287,proximal tubule,UBERON:0004134,N,0000-0001-7655-4833
 proximal convoluted tubule segment 1,,UBERON:0004196,proximal convoluted tubule,UBERON:0001287,N,0000-0001-7655-4833
 proximal convoluted tubule segment 2,,UBERON:0004197,proximal convoluted tubule,UBERON:0001287,N,0000-0001-7655-4833
 proximal straight tubule,,UBERON:0001290,proximal tubule,UBERON:0004134,N,0000-0001-7655-4833
-kidney proximal straight tubule epithelial cell,,CL:1000839,kidney loop of Henle descending limb epithelial cell,CL:1001021,Y,0000-0001-7655-4833
 descending limb of loop of Henle,,UBERON:0001289,loop of Henle,UBERON:0001288,N,0000-0001-7655-4833
-kidney loop of Henle thin descending limb epithelial cell,,CL:1001111,kidney loop of Henle descending limb epithelial cell,CL:1001021,Y,0000-0001-7655-4833
 loop of Henle,,UBERON:0001288,renal tubule,UBERON:0009773,N,0000-0001-7655-4833
 loop of Henle ascending limb thin segment,,UBERON:0004193,loop of Henle,UBERON:0001288,N,0000-0001-7655-4833
-kidney loop of Henle thin ascending limb epithelial cell,,CL:1001107,kidney loop of Henle thick ascending limb epithelial cell,CL:1001106,Y,0000-0001-7655-4833
 thick ascending limb of loop of Henle,,UBERON:0001291,loop of Henle,UBERON:0001288,N,0000-0001-7655-4833
-kidney loop of Henle cortical thick ascending limb epithelial cell,,CL:1001109,kidney loop of Henle ascending limb epithelial cell,CL:1001016,Y,0000-0001-7655-4833
-kidney loop of Henle medullary thick ascending limb epithelial cell,,CL:1001108,kidney loop of Henle ascending limb epithelial cell,CL:1001016,Y,0000-0001-7655-4833
-macula densa epithelial cell,,CL:1000850,epithelial cell of distal tubule,CL:0002305,Y,0000-0001-7655-4833
 distal convoluted tubule,,UBERON:0001292,renal tubule,UBERON:0009773,N,0000-0001-7655-4833
-kidney distal convoluted tubule epithelial cell,,CL:1000849,epithelial cell of distal tubule,CL:0002305,Y,0000-0001-7655-4833
 renal connecting tubule,,UBERON:0005097,renal tubule,UBERON:0009773,N,0000-0001-7655-4833
-kidney connecting tubule epithelial cell,,CL:1000768,nephron tubule epithelial cell,CL:1000494,Y,0000-0001-7655-4833
 collecting duct of renal tubule,,UBERON:0001232,renal tubule,UBERON:0009773,N,0000-0001-7655-4833
-kidney collecting duct intercalated cell,,CL:1001432,renal intercalated cell,CL:0005010,Y,0000-0001-7655-4833
-kidney cortex collecting duct intercalated cell,,CL:1000715,renal intercalated cell,CL:0005010,Y,0000-0001-7655-4833
-kidney inner medulla collecting duct intercalated cell,,CL:1000719,renal intercalated cell,CL:0005010,Y,0000-0001-7655-4833
-kidney outer medulla collecting duct intercalated cell,,CL:1000717,renal intercalated cell,CL:0005010,Y,0000-0001-7655-4833
-kidney papillary duct intercalated cell,,CL:1000720,renal intercalated cell,CL:0005010,Y,0000-0001-7655-4833
-renal alpha-intercalated cell,,CL:0005011,renal intercalated cell,CL:0005010,Y,0000-0001-7655-4833
-renal beta-intercalated cell,,CL:0002201,renal intercalated cell,CL:0005010,Y,0000-0001-7655-4833
-kidney collecting duct principal cell,,CL:1001431,renal principal cell,CL:0005009,Y,0000-0001-7655-4833
-kidney cortex collecting duct principal cell,,CL:1000714,renal principal cell,CL:0005009,Y,0000-0001-7655-4833
-kidney inner medulla collecting duct principal cell,,CL:1000718,renal principal cell,CL:0005009,Y,0000-0001-7655-4833
-kidney outer medulla collecting duct principal cell,,CL:1000716,renal principal cell,CL:0005009,Y,0000-0001-7655-4833
-kidney papillary duct principal cell,,CL:1000721,renal principal cell,CL:0005009,Y,0000-0001-7655-4833
-endothelial cell,,CL:0000115,lining cell,CL:0000213,Y,0000-0001-7655-4833
-kidney afferent arteriole endothelial cell,,CL:1001096,endothelial cell of arteriole,CL:1000412,Y,0000-0001-7655-4833
-kidney efferent arteriole endothelial cell,,CL:1001099,endothelial cell of arteriole,CL:1000412,Y,0000-0001-7655-4833
-peritubular capillary endothelial cell,,CL:1001033,kidney capillary endothelial cell,CL:1000892,Y,0000-0001-7655-4833
-vasa recta cell,,CL:1001036,kidney capillary endothelial cell,CL:1000892,Y,0000-0001-7655-4833
-inner medulla vasa recta ascending limb cell,,CL:1001209,inner renal medulla vasa recta cell,CL:1001126,Y,0000-0001-7655-4833
-inner medulla vasa recta descending limb cell,,CL:1001286,inner renal medulla vasa recta cell,CL:1001126,Y,0000-0001-7655-4833
-outer medulla vasa recta ascending limb cell,,CL:1001210,outer renal medulla vasa recta cell,CL:1001127,Y,0000-0001-7655-4833
-outer medulla vasa recta descending limb cell,,CL:1001287,outer renal medulla vasa recta cell,CL:1001127,Y,0000-0001-7655-4833
-inner medulla vasa recta ascending limb cell,,CL:1001209,vasa recta ascending limb cell,CL:1001131,Y,0000-0001-7655-4833
-outer medulla vasa recta ascending limb cell,,CL:1001210,vasa recta ascending limb cell,CL:1001131,Y,0000-0001-7655-4833
-inner medulla vasa recta descending limb cell,,CL:1001286,vasa recta descending limb cell,CL:1001285,Y,0000-0001-7655-4833
-outer medulla vasa recta descending limb cell,,CL:1001287,vasa recta descending limb cell,CL:1001285,Y,0000-0001-7655-4833
-endothelial cell of lymphatic vessel,,CL:0002138,endothelial cell of vascular tree,CL:0002139,Y,0000-0001-7655-4833
-Spleen,,UBERON:0002106,abdominal cavity,UBERON:0003684,N,0000-0001-7655-4833
-Heart,,UBERON:0000948,chest cavity,UBERON:0002224,N,0000-0001-7655-4833
-Lung,,LMHA:00211,chest cavity,UBERON:0002224,N,0000-0001-7655-4833
-Colon,,UBERON:0001155,abdominal cavity,UBERON:0003684,N,0000-0001-7655-4833
+spleen,,UBERON:0002106,abdominal cavity,UBERON:0003684,N,0000-0001-7655-4833
+splenic capsule,,UBERON:0004641,spleen,UBERON:0002106,N,0000-0001-7655-4833
+trabecula,,UBERON:0001265,spleen,UBERON:0002106,N,0000-0001-7655-4833
+spleen pulp,,UBERON:1000023,spleen,UBERON:0002106,N,0000-0001-7655-4833
+red pulp of spleen,,UBERON:0001250,spleen pulp,UBERON:1000023,N,0000-0001-7655-4833
+splenic cord,,UBERON:0001266,Red pulp of spleen,UBERON:0001250,N,0000-0001-7655-4833
+white pulp of spleen,,UBERON:0001959,spleen pulp,UBERON:1000023,N,0000-0001-7655-4833
+spleen lymphoid follicle,,UBERON:0001249,White pulp,UBERON:0001959,N,0000-0001-7655-4833
+spleen primary B follicle,,UBERON:0004041,spleen lymphoid follicle,UBERON:0001249,N,0000-0001-7655-4833
+spleen secondary B follicle,,UBERON:0004042,spleen lymphoid follicle,UBERON:0001249,N,0000-0001-7655-4833
+spleen germinal center,,UBERON:0005196,spleen secondary B follicle,UBERON:0004042,N,0000-0001-7655-4833
+spleen B cell corona,,UBERON:0010421,spleen secondary B follicle,UBERON:0004042,N,0000-0001-7655-4833
+periarterial lymphatic sheath,,UBERON:0001960,White pulp,UBERON:0001959,N,0000-0001-7655-4833
+marginal zone of spleen,,UBERON:0001251,spleen,UBERON:0002106,N,0000-0001-7655-4833
+spleen perifollicular zone,,UBERON:0005353,spleen,UBERON:0002106,N,0000-0001-7655-4833
+hilum of spleen,,UBERON:0001248,spleen,UBERON:0002106,N,0000-0001-7655-4833
+colon,,UBERON:0001155,abdominal cavity,UBERON:0003684,N,0000-0001-7655-4833
+ascending colon,,UBERON:0001156,colon,UBERON:0001155,N,0000-0001-7655-4833
+descending  colon,,UBERON:0001158,colon,UBERON:0001155,N,0000-0001-7655-4833
+transverse  colon,,UBERON:0001157,colon,UBERON:0001155,N,0000-0001-7655-4833
+sigmoid  colon,,UBERON:0001159,colon,UBERON:0001155,N,0000-0001-7655-4833
+caecum,,UBERON:0001153,colon,UBERON:0001155,N,0000-0001-7655-4833
+vermiform appendix,,UBERON:0001154,caecum,UBERON:0001153,N,0000-0001-7655-4833
+ileocecal Valve,,UBERON:0000569,caecum,UBERON:0001153,N,0000-0001-7655-4833
+Rectum,,UBERON:0001052,pelvic cavity,UBERON:0008203,N,0000-0001-7655-4833
+heart,,UBERON:0000948,chest cavity,UBERON:0002224,N,0000-0001-7655-4833
+cardiac chamber,,UBERON:0004151,heart,UBERON:0000948,N,0000-0001-7655-4833
+left cardiac chamber,,UBERON:0035553,cardiac chamber,UBERON:0004151,N,0000-0001-7655-4833
+left cardiac atrium,,UBERON:0002079,left cardiac chamber,UBERON:0035553,N,0000-0001-7655-4833
+heart left ventricle,,UBERON:0002084,left cardiac chamber,UBERON:0035553,N,0000-0001-7655-4833
+right cardiac chamber,,UBERON:0035554,cardiac chamber,UBERON:0004151,N,0000-0001-7655-4833
+right cardiac atrium,,UBERON:0002078,right cardiac chamber,UBERON:0035554,N,0000-0001-7655-4833
+heart right ventricle,,UBERON:0002080,right cardiac chamber,UBERON:0035554,N,0000-0001-7655-4833
+lung,,LMHA:00211,chest cavity,UBERON:0002224,N,0000-0001-7655-4833
+right lung,,UBERON:0002167,chest cavity,UBERON:0002224,N,0000-0001-7655-4833
+right lung upper lobe,,LMHA:00332,right lung,UBERON:0002167,N,0000-0001-7655-4833
+right  lung lower lobe,,LMHA:00324,right lung,UBERON:0002167,N,0000-0001-7655-4833
+right lung middle lobe,,LMHA:00330,right lung,UBERON:0002167,N,0000-0001-7655-4833
+left lung,,UBERON:0002168,chest cavity,UBERON:0002224,N,0000-0001-7655-4833
+upper lobe left lung ,,UBERON:0008952,left lung,UBERON:0002168,N,0000-0001-7655-4833
+left  lung lower lobe,,UBERON:0008953,left lung,UBERON:0002168,N,0000-0001-7655-4833
+trachea,,LMHA:00361,chest cavity,UBERON:0002224,N,0000-0001-7655-4833
+bronchus,,LMHA:00120,chest cavity,UBERON:0002224,N,0000-0001-7655-4833
 small intestine,,UBERON:0002108,abdominal cavity,UBERON:0003684,N,0000-0001-7655-4833
+duodenum,,UBERON:0002114,small intestine,UBERON:0002108,N,0000-0001-7655-4833
+jejenum,,UBERON:0002115,small intestine,UBERON:0002108,N,0000-0001-7655-4833
+ileum,,UBERON:0002116,small intestine,UBERON:0002108,N,0000-0001-7655-4833
