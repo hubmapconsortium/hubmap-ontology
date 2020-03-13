@@ -3,12 +3,16 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl"
-         xmlns="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#">
+         xml:base="http://purl.org/ccf/latest/ccf.owl"
+         xmlns="http://purl.org/ccf/latest/ccf.owl#">
 
-<owl:Ontology rdf:about="https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl"/>
+<owl:Ontology rdf:about="http://purl.org/ccf/latest/ccf.owl"/>
 
 <owl:ObjectProperty rdf:about="#ccf_part_of"/>
+
+<owl:ObjectProperty rdf:about="#ccf_part_of_rank">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#ccf_annotation"/>
 
@@ -23,10 +27,10 @@
   <rdfs:range rdf:resource="#SpatialObjectReference"/>
 </owl:ObjectProperty>
 
-<owl:ObjectProperty rdf:about="#has_placement">
-  <rdfs:domain rdf:resource="#SpatialEntity"/>
-  <rdfs:domain rdf:resource="#SpatialObjectReference"/>
-  <rdfs:range rdf:resource="#SpatialPlacement"/>
+<owl:ObjectProperty rdf:about="#has_placement_source">
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="#SpatialObjectReference"/>
+  <rdfs:range rdf:resource="#SpatialEntity"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#has_placement_target">
@@ -58,12 +62,6 @@
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
 </owl:DatatypeProperty>
 
-<owl:DatatypeProperty rdf:about="#has_scaling_units">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#SpatialPlacement"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-</owl:DatatypeProperty>
-
 <owl:DatatypeProperty rdf:about="#has_x_rotation">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:domain rdf:resource="#SpatialPlacement"/>
@@ -88,6 +86,12 @@
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
 </owl:DatatypeProperty>
 
+<owl:DatatypeProperty rdf:about="#has_rotation_order">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#SpatialPlacement"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
 <owl:DatatypeProperty rdf:about="#has_rotation_units">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:domain rdf:resource="#SpatialPlacement"/>
@@ -110,12 +114,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:domain rdf:resource="#SpatialPlacement"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#has_translation_units">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#SpatialPlacement"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#has_object_file">
