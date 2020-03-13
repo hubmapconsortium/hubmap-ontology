@@ -9,6 +9,8 @@ onto = get_ontology(CCF_NAMESPACE)
 with onto:
   class ccf_part_of(ObjectProperty):
     pass
+  class ccf_part_of_rank(ObjectProperty):
+    range = [int]
   class ccf_annotation(ObjectProperty):
     pass
   class ccf_freetext_annotation(ObjectProperty):
@@ -33,6 +35,7 @@ with onto:
   class has_placement_date(DataProperty, FunctionalProperty):
     domain = [SpatialPlacement]
     range = [datetime.date]
+  # Scaling
   class has_x_scaling(DataProperty, FunctionalProperty):
     domain = [SpatialPlacement]
     range = [float]
@@ -42,9 +45,7 @@ with onto:
   class has_z_scaling(DataProperty, FunctionalProperty):
     domain = [SpatialPlacement]
     range = [float]
-  class has_scaling_units(DataProperty, FunctionalProperty):
-    domain = [SpatialPlacement]
-    range = [str]
+  # Rotation
   class has_x_rotation(DataProperty, FunctionalProperty):
     domain = [SpatialPlacement]
     range = [float]
@@ -57,9 +58,13 @@ with onto:
   class has_theta_rotation(DataProperty, FunctionalProperty):
     domain = [SpatialPlacement]
     range = [float]
+  class has_rotation_order(DataProperty, FunctionalProperty):
+    domain = [SpatialPlacement]
+    range = [str]
   class has_rotation_units(DataProperty, FunctionalProperty):
     domain = [SpatialPlacement]
     range = [str]
+  # Translation
   class has_x_translation(DataProperty, FunctionalProperty):
     domain = [SpatialPlacement]
     range = [float]
@@ -69,9 +74,6 @@ with onto:
   class has_z_translation(DataProperty, FunctionalProperty):
     domain = [SpatialPlacement]
     range = [float]
-  class has_translation_units(DataProperty, FunctionalProperty):
-    domain = [SpatialPlacement]
-    range = [str]
 
   class SpatialObjectReference(Thing):
     label = 'spatial object reference'
@@ -102,13 +104,14 @@ with onto:
   class has_object_reference(ObjectProperty):
     domain = [SpatialEntity]
     range = [SpatialObjectReference]
-  class has_placement(ObjectProperty):
-    domain = [SpatialEntity, SpatialObjectReference]
-    range = [SpatialPlacement]
+  class ccf_representation_of(AnnotationProperty):
+    domain = [SpatialEntity]
+
+  class has_placement_source(ObjectProperty):
+    domain = [SpatialPlacement]
+    range = [SpatialEntity, SpatialObjectReference]
   class has_placement_target(ObjectProperty):
     domain = [SpatialPlacement]
     range = [SpatialEntity]
-  class ccf_representation_of(AnnotationProperty):
-    domain = [SpatialEntity]
 
 onto.save(file=CCF_MODEL, format='rdfxml')

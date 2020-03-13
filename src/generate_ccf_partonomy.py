@@ -1,20 +1,11 @@
 #!/usr/bin/env python3
-import bz2, glob, json, ssl
+import bz2, glob, json
 from csv import DictReader
 from operator import itemgetter
 from os import path
 from owlready2 import *
 from rdflib import Graph, Namespace, URIRef, RDFS, Literal
 from constants import CCF_NAMESPACE, CCF_PARTONOMY_TERMS, CCF_PARTONOMY_RDF
-
-try:
-    _create_unverified_https_context = ssl._create_unverified_context
-except AttributeError:
-    # Legacy Python that doesn't verify HTTPS certificates by default
-    pass
-else:
-    # Handle target environment that doesn't support HTTPS verification
-    ssl._create_default_https_context = _create_unverified_https_context
 
 
 ONTO_CACHE='source_ontologies/cache.sqlite'
@@ -108,6 +99,7 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
 
     g.add( (term, RDFS.label, label) )
     g.add( (term, ccf_ns.ccf_preferred_label, label) )
+    g.add( (term, ccf_ns.ccf_part_of_rank, Literal(t['order'])) )
     g.add( (term, URIRef('http://www.geneontology.org/formats/oboInOwl#id'), id) )
 
     for synonym in t['http://www.geneontology.org/formats/oboInOwl#hasExactSynonym']:

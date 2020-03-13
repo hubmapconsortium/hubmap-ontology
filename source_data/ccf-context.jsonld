@@ -1,8 +1,8 @@
 {
   "@context": {
-    "@base": "https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#",
-    "@vocab": "https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#",
-    "ccf": "https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl#",
+    "@base": "http://purl.org/ccf/latest/ccf.owl#",
+    "@vocab": "http://purl.org/ccf/latest/ccf.owl#",
+    "ccf": "http://purl.org/ccf/latest/ccf.owl#",
     "rdf": "http://www.w3.org/2000/01/rdf-schema#",
     "obo": "http://purl.obolibrary.org/obo/",
     "owl": "http://www.w3.org/2002/07/owl#",
@@ -12,7 +12,8 @@
     "label": "rdf:label",
     "creator": "dc:creator",
     "creation_date": {
-      "@id": "creation_date"
+      "@id": "creation_date",
+      "@type": "xsd:date"
     },
     "representation_of": {
       "@id": "ccf_representation_of",
@@ -28,6 +29,7 @@
       "@type": "xsd:string",
       "@container": "@set"
     },
+
     "object": {
       "@id": "has_object_reference"
     },
@@ -40,89 +42,82 @@
     "file_subpath": {
       "@id": "has_object_file_subpath"
     },
+
     "placement": {
-      "@id": "has_placement"
+      "@reverse": "has_placement_source"
     },
     "target": {
       "@id": "has_placement_target",
       "@type": "@id"
     },
     "placement_date": {
-      "@id": "has_placement_date"
+      "@id": "has_placement_date",
+      "@type": "xsd:date"
     },
 
-    "dimensions": "@nest",
-    "x": {
-      "@id": "has_x_dimension"
-    },
-    "y": {
-      "@id": "has_y_dimension"
-    },
-    "z": {
-      "@id": "has_z_dimension"
-    },
-    "units": {
-      "@id": "has_dimension_units"
-    },
-    "x_scaling": { 
-      "@id": "has_x_scaling",
-      "@type": "rdf:float"
-    },
-    "y_scaling": { 
-      "@id": "has_y_scaling",
-      "@type": "rdf:float"
-    },
-    "z_scaling": { 
-      "@id": "has_z_scaling",
-      "@type": "rdf:float"
-    },
-    "scaling_units": {
-      "@id": "has_scaling_units"
-    },
     "x_dimension": { 
       "@id": "has_x_dimension",
-      "@type": "rdf:float"
+      "@type": "xsd:float"
     },
     "y_dimension": { 
       "@id": "has_y_dimension",
-      "@type": "rdf:float"
+      "@type": "xsd:float"
     },
     "z_dimension": { 
       "@id": "has_z_dimension",
-      "@type": "rdf:float"
+      "@type": "xsd:float"
     },
     "dimension_units": {
       "@id": "has_dimension_units"
     },
+
+    "x_scaling": { 
+      "@id": "has_x_scaling",
+      "@type": "xsd:float"
+    },
+    "y_scaling": { 
+      "@id": "has_y_scaling",
+      "@type": "xsd:float"
+    },
+    "z_scaling": { 
+      "@id": "has_z_scaling",
+      "@type": "xsd:float"
+    },
+
     "x_rotation": { 
       "@id": "has_x_rotation",
-      "@type": "rdf:float"
+      "@type": "xsd:float"
     },
     "y_rotation": { 
       "@id": "has_y_rotation",
-      "@type": "rdf:float"
+      "@type": "xsd:float"
     },
     "z_rotation": { 
       "@id": "has_z_rotation",
-      "@type": "rdf:float"
+      "@type": "xsd:float"
+    },
+    "w_rotation": { 
+      "@id": "has_theta_rotation",
+      "@type": "xsd:float"
+    },
+    "rotation_order": {
+      "@id": "has_rotation_order"
     },
     "rotation_units": {
       "@id": "has_rotation_units"
     },
+
     "x_translation": { 
       "@id": "has_x_translation",
-      "@type": "rdf:float"
+      "@type": "xsd:float"
     },
     "y_translation": { 
       "@id": "has_y_translation",
-      "@type": "rdf:float"
+      "@type": "xsd:float"
     },
     "z_translation": { 
       "@id": "has_z_translation",
-      "@type": "rdf:float"
-    },
-    "translation_units": {
-      "@id": "has_translation_units"
+      "@type": "xsd:float"
     }
   }
 }
