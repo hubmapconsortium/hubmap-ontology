@@ -10,9 +10,9 @@ def dfs_nodes(G, root_node, sort_key = 'order'):
   q.extend([(root_node, 0)])
   sorter = lambda x: G.nodes[x].get(sort_key, 0)
   while len(q) > 0:
-    n, depth = q.popleft()
-    for child in sorted(G.successors(n), key=sorter):
-      q.appendleft((child, depth + 1))
+    n, depth = q.pop()
+    for child in sorted(G.successors(n), key=sorter, reverse=True):
+      q.append((child, depth + 1))
     yield n, depth
 
 def get_nodes(input_json):
