@@ -5,7 +5,7 @@ from operator import itemgetter
 from os import path
 from owlready2 import *
 from rdflib import Graph, Namespace, URIRef, RDFS, Literal
-from constants import CCF_NAMESPACE, CCF_PARTONOMY_TERMS, CCF_PARTONOMY_RDF
+from constants import CCF_NAMESPACE, CCF_PARTONOMY_TERMS, CCF_PARTONOMY_RDF, CCF_PARTONOMY_JSONLD
 
 
 ONTO_CACHE='source_ontologies/cache.sqlite'
@@ -106,5 +106,5 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
       g.add( (term, URIRef('http://www.geneontology.org/formats/oboInOwl#hasExactSynonym'), Literal(synonym['@value'])) )
 
   term_list = list(sorted(terms.values(), key=itemgetter('order')))
-  json.dump(term_list, open('dist/ccf-partonomy.jsonld', 'w'), indent=2)
+  json.dump(term_list, open(CCF_PARTONOMY_JSONLD, 'w'), indent=2)
   g.serialize(CCF_PARTONOMY_RDF, format='xml')
