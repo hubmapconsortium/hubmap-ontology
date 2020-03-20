@@ -1,87 +1,87 @@
 Label (indented),ID,Synonyms
 body,UBERON:0013702
-    pelvic cavity,UBERON:0008203,space of pelvic compartment
-        rectum,UBERON:0001052,terminal portion of intestine
-    abdominal cavity,UBERON:0003684,cavity of abdominal compartment,cavity of compartment of abdomen,space of abdominal compartment
-        small intestine,UBERON:0002108,small bowel,small intestine
-            ileum,UBERON:0002116
-            jejunum,UBERON:0002115
-            duodenum,UBERON:0002114
-        colon,UBERON:0001155,large bowel
-            caecum,UBERON:0001153,caecum,cecum,intestinum crassum caecum
-                ileocecal valve,UBERON:0000569,valva ileocaecalis (valva ilealis)
-                vermiform appendix,UBERON:0001154,appendix,appendix vermiformis,caecal appendix,cecal appendix
-            sigmoid colon,UBERON:0001159
-            transverse colon,UBERON:0001157,colon transversum
-            descending colon,UBERON:0001158,colon descendens
-            ascending colon,UBERON:0001156,colon ascendens
-        spleen,UBERON:0002106
-            hilum of spleen,UBERON:0001248,hilum lienale,hilum splenicum,spleen hilum,splenic hilum
-            spleen perifollicular zone,UBERON:0005353
-            marginal zone of spleen,UBERON:0001251,junctional zone of spleen,spleen marginal zone
-            spleen pulp,UBERON:1000023,Malpighian corpuscles,pulp of spleen,splenic pulp
-                white pulp of spleen,UBERON:0001959,pulpa alba,spleen white pulp,splenic white pulp,white pulp
-                    periarterial lymphatic sheath,UBERON:0001960,PALS,T cell domain of the splenic white pulp,periarterial lymphoid sheath,periarteriolar sheath,spleen periarteriolar lymphatic sheath
-                    spleen lymphoid follicle,UBERON:0001249,Malpighian body,lymphatic follicle of spleen,lymphoid follicle of spleen,lymphoid nodule of spleen,spleen B cell follicle,spleen lymphoid follicle,splenic B cell follicle,splenic lymphatic follicle,splenic lymphoid follicle
-                        spleen secondary B follicle,UBERON:0004042,secondary spleen B cell follicle,splenic secondary B cell follicle
-                            spleen B cell corona,UBERON:0010421,follicle mantle,spleen B cell corona,spleen B-cell corona,spleen lymphocytic corona,splenic B cell corona
-                            spleen germinal center,UBERON:0005196,germinal center of spleen,spleen GC,spleen follicle center,splenic germinal center
-                        spleen primary B follicle,UBERON:0004041,primary spleen B cell follicle
-                red pulp of spleen,UBERON:0001250,pulpa rubra,red pulp,spleen red pulp,splenic red pulp
-                    splenic cord,UBERON:0001266,cord of Billroth,cord of Bilroth
-            trabecula of spleen,UBERON:0001265,spleen trabeculum,splenic trabecula
-            spleen capsule,UBERON:0004641,Malpighian capsule,capsula splenica,capsule of spleen,fibroelastic coat of spleen,fibrous capsule of spleen,splenic capsule,tunica fibrosa (splen)(lien),tunica fibrosa splenica
-        kidney,UBERON:0002113
-            nephron,UBERON:0001285
-                renal tubule,UBERON:0009773,renal tubule (generic),tubule of excretory system
-                    collecting duct of renal tubule,UBERON:0001232,collecting duct,kidney collecting duct,renal collecting tubule,tubulus renalis arcuatus,tubulus renalis colligens
-                    renal connecting tubule,UBERON:0005097,connecting tubule,kidney connecting tubule
-                    distal convoluted tubule,UBERON:0001292,distal convoluted renal tubule,tubulus contortus distalis
-                    loop of Henle,UBERON:0001288,Henle loop,Henle's loop,ansa nephroni
-                        thick ascending limb of loop of Henle,UBERON:0001291,ascending thick limb,distal straight tubule,loop of Henle ascending limb thick segment,straight portion of distal convoluted renal tubule,straight portion of distal convoluted tubule,thick ascending limb,thick ascending limb of Henle's loop,thick ascending limb of distal tubule,tubulus rectus distalis
-                        loop of Henle ascending limb thin segment,UBERON:0004193,ascending limb thin segment of loop of Henle,ascending thin limb,pars ascendens (tubulus attenuatus),thin ascending limb,thin ascending limb of loop of Henle
-                        descending limb of loop of Henle,UBERON:0001289,descending limb of Henle's loop,loop of Henle descending limb
-                    proximal tubule,UBERON:0004134,kidney proximal tubule,proximal kidney tubule,renal proximal tubule
-                        proximal straight tubule,UBERON:0001290,S3,thick descending limb of proximal tubule,tubulus rectus proximalis
-                        proximal convoluted tubule,UBERON:0001287,proximal convoluted renal tubule,tubulus contortus proximalis
-                            proximal convoluted tubule segment 2,UBERON:0004197,S2 portion of renal tubule,S2 portion of tubule,proximal tubule segment 2,segment 2 of proximal tubule
-                            proximal convoluted tubule segment 1,UBERON:0004196,S1 portion of renal tubule,S1 portion of tubule,proximal tubule segment 1,segment 1 of proximal tubule
-                renal corpuscle,UBERON:0001229,Malphigian corpuscle,Malpighian corpuscle,corpusculum renale
-                    glomerulus,UBERON:0000074,renal glomeruli
-                    Bowman's capsule,UBERON:0001230,Bowman's capsule,Bowmans capsule,capsula glomerularis,renal glomerular capsule
-            renal fat pad,UBERON:0014464
-            renal papilla,UBERON:0001228,kidney papilla
-            ureter,UBERON:0000056
-            renal pelvis,UBERON:0001224,kidney pelvis,pelvis of ureter
-            kidney calyx,UBERON:0006517,calices renales,renal calix,renal calyx
-                minor calyx,UBERON:0001227,calices renales minores,minor calix
-                major calyx,UBERON:0001226,calices renales majores,major calix
-            kidney interstitium,UBERON:0005215,interstitial tissue of kidney,renal interstitial tissue,renal interstitium,renal stroma,stroma of kidney
-            hilum of kidney,UBERON:0008716,hilar area of the kidney,renal hilum
-            renal pyramid,UBERON:0004200,Malpighian pyramid,renal pyramid
-            renal column,UBERON:0001284,column of Bertini,columna Bertini,kidney column,renal column of Bertini,renal cortical column
-            renal medulla,UBERON:0000362,kidney medulla,medulla of kidney,medulla renalis,pyramides renales,renal medullae,renal medullae set,renal pyramids,renal pyramids set
-                inner medulla,UBERON:0001294,inner renal medulla,inner zone of medulla of kidney,inner zone of renal medulla,renal inner medulla,set of inner region of renal pyramids,zona interna (medullaris renalis),zona interna medullae renalis
-                outer medulla,UBERON:0001293,outer renal medulla,outer zone of medulla of kidney,outer zone of renal medulla,renal outer medulla,zona externa (medullaris renalis),zona externa medullae renalis
-            cortex of kidney,UBERON:0001225,cortex renalis,kidney cortex,renal cortex
-                outer cortex of kidney,UBERON:0002189,kidney outer cortex,outer renal cortex
-            kidney capsule,UBERON:0002015,capsula fibrosa renis,capsule of kidney,fibrous capsule of kidney,renal capsule
     chest cavity,UBERON:0002224,cavitas thoracis,cavity of chest,cavity of thorax,chest cavity,pectoral cavity,space of thoracic compartment,thoracic lumen
-        bronchus,LMHA:00120
-        trachea,LMHA:00361
-        left lung,UBERON:0002168
-            lower lobe of left lung,UBERON:0008953,inferior lobe of left lung,left lower lobe,left lower lobe of lung,left lung caudal lobe,lobus inferior (pulmo sinister),lobus inferior pulmonis sinistri
-            upper lobe of left lung,UBERON:0008952,left lung cranial lobe,left upper lobe,left upper lobe of lung,lobus superior (pulmo sinister),lobus superior pulmonis sinistri,superior lobe of left lung
-        right lung,UBERON:0002167
-            right lung middle lobe,LMHA:00330
-            right lung lower lobe,LMHA:00324
-            right lung upper lobe,LMHA:00332
-        lung,LMHA:00211
         heart,UBERON:0000948,chambered heart,vertebrate heart
             cardiac chamber,UBERON:0004151,chamber of heart,heart chamber
-                right cardiac chamber,UBERON:0035554
-                    heart right ventricle,UBERON:0002080,cardiac right ventricle,right ventricle,right ventricle of heart
-                    right cardiac atrium,UBERON:0002078,cardiac right atrium,heart right atrium,right atrium,right atrium of heart,right cardiac atrium
                 left cardiac chamber,UBERON:0035553
-                    heart left ventricle,UBERON:0002084,cardiac left ventricle,left cardiac ventricle,left ventricle,left ventricle of heart
                     left cardiac atrium,UBERON:0002079,atrium sinistrum,cardiac left atrium,heart left atrium,left atrium,left atrium of heart,left cardiac atrium
+                    heart left ventricle,UBERON:0002084,cardiac left ventricle,left cardiac ventricle,left ventricle,left ventricle of heart
+                right cardiac chamber,UBERON:0035554
+                    right cardiac atrium,UBERON:0002078,cardiac right atrium,heart right atrium,right atrium,right atrium of heart,right cardiac atrium
+                    heart right ventricle,UBERON:0002080,cardiac right ventricle,right ventricle,right ventricle of heart
+        lung,LMHA:00211
+        right lung,UBERON:0002167
+            right lung upper lobe,LMHA:00332
+            right lung lower lobe,LMHA:00324
+            right lung middle lobe,LMHA:00330
+        left lung,UBERON:0002168
+            upper lobe of left lung,UBERON:0008952,left lung cranial lobe,left upper lobe,left upper lobe of lung,lobus superior (pulmo sinister),lobus superior pulmonis sinistri,superior lobe of left lung
+            lower lobe of left lung,UBERON:0008953,inferior lobe of left lung,left lower lobe,left lower lobe of lung,left lung caudal lobe,lobus inferior (pulmo sinister),lobus inferior pulmonis sinistri
+        trachea,LMHA:00361
+        bronchus,LMHA:00120
+    abdominal cavity,UBERON:0003684,cavity of abdominal compartment,cavity of compartment of abdomen,space of abdominal compartment
+        kidney,UBERON:0002113
+            kidney capsule,UBERON:0002015,capsula fibrosa renis,capsule of kidney,fibrous capsule of kidney,renal capsule
+            cortex of kidney,UBERON:0001225,cortex renalis,kidney cortex,renal cortex
+                outer cortex of kidney,UBERON:0002189,kidney outer cortex,outer renal cortex
+            renal medulla,UBERON:0000362,kidney medulla,medulla of kidney,medulla renalis,pyramides renales,renal medullae,renal medullae set,renal pyramids,renal pyramids set
+                outer medulla,UBERON:0001293,outer renal medulla,outer zone of medulla of kidney,outer zone of renal medulla,renal outer medulla,zona externa (medullaris renalis),zona externa medullae renalis
+                inner medulla,UBERON:0001294,inner renal medulla,inner zone of medulla of kidney,inner zone of renal medulla,renal inner medulla,set of inner region of renal pyramids,zona interna (medullaris renalis),zona interna medullae renalis
+            renal column,UBERON:0001284,column of Bertini,columna Bertini,kidney column,renal column of Bertini,renal cortical column
+            renal pyramid,UBERON:0004200,Malpighian pyramid,renal pyramid
+            hilum of kidney,UBERON:0008716,hilar area of the kidney,renal hilum
+            kidney interstitium,UBERON:0005215,interstitial tissue of kidney,renal interstitial tissue,renal interstitium,renal stroma,stroma of kidney
+            kidney calyx,UBERON:0006517,calices renales,renal calix,renal calyx
+                major calyx,UBERON:0001226,calices renales majores,major calix
+                minor calyx,UBERON:0001227,calices renales minores,minor calix
+            renal pelvis,UBERON:0001224,kidney pelvis,pelvis of ureter
+            ureter,UBERON:0000056
+            renal papilla,UBERON:0001228,kidney papilla
+            renal fat pad,UBERON:0014464
+            nephron,UBERON:0001285
+                renal corpuscle,UBERON:0001229,Malphigian corpuscle,Malpighian corpuscle,corpusculum renale
+                    Bowman's capsule,UBERON:0001230,Bowman's capsule,Bowmans capsule,capsula glomerularis,renal glomerular capsule
+                    glomerulus,UBERON:0000074,renal glomeruli
+                renal tubule,UBERON:0009773,renal tubule (generic),tubule of excretory system
+                    proximal tubule,UBERON:0004134,kidney proximal tubule,proximal kidney tubule,renal proximal tubule
+                        proximal convoluted tubule,UBERON:0001287,proximal convoluted renal tubule,tubulus contortus proximalis
+                            proximal convoluted tubule segment 1,UBERON:0004196,S1 portion of renal tubule,S1 portion of tubule,proximal tubule segment 1,segment 1 of proximal tubule
+                            proximal convoluted tubule segment 2,UBERON:0004197,S2 portion of renal tubule,S2 portion of tubule,proximal tubule segment 2,segment 2 of proximal tubule
+                        proximal straight tubule,UBERON:0001290,S3,thick descending limb of proximal tubule,tubulus rectus proximalis
+                    loop of Henle,UBERON:0001288,Henle loop,Henle's loop,ansa nephroni
+                        descending limb of loop of Henle,UBERON:0001289,descending limb of Henle's loop,loop of Henle descending limb
+                        loop of Henle ascending limb thin segment,UBERON:0004193,ascending limb thin segment of loop of Henle,ascending thin limb,pars ascendens (tubulus attenuatus),thin ascending limb,thin ascending limb of loop of Henle
+                        thick ascending limb of loop of Henle,UBERON:0001291,ascending thick limb,distal straight tubule,loop of Henle ascending limb thick segment,straight portion of distal convoluted renal tubule,straight portion of distal convoluted tubule,thick ascending limb,thick ascending limb of Henle's loop,thick ascending limb of distal tubule,tubulus rectus distalis
+                    distal convoluted tubule,UBERON:0001292,distal convoluted renal tubule,tubulus contortus distalis
+                    renal connecting tubule,UBERON:0005097,connecting tubule,kidney connecting tubule
+                    collecting duct of renal tubule,UBERON:0001232,collecting duct,kidney collecting duct,renal collecting tubule,tubulus renalis arcuatus,tubulus renalis colligens
+        spleen,UBERON:0002106
+            spleen capsule,UBERON:0004641,Malpighian capsule,capsula splenica,capsule of spleen,fibroelastic coat of spleen,fibrous capsule of spleen,splenic capsule,tunica fibrosa (splen)(lien),tunica fibrosa splenica
+            trabecula of spleen,UBERON:0001265,spleen trabeculum,splenic trabecula
+            spleen pulp,UBERON:1000023,Malpighian corpuscles,pulp of spleen,splenic pulp
+                red pulp of spleen,UBERON:0001250,pulpa rubra,red pulp,spleen red pulp,splenic red pulp
+                    splenic cord,UBERON:0001266,cord of Billroth,cord of Bilroth
+                white pulp of spleen,UBERON:0001959,pulpa alba,spleen white pulp,splenic white pulp,white pulp
+                    spleen lymphoid follicle,UBERON:0001249,Malpighian body,lymphatic follicle of spleen,lymphoid follicle of spleen,lymphoid nodule of spleen,spleen B cell follicle,spleen lymphoid follicle,splenic B cell follicle,splenic lymphatic follicle,splenic lymphoid follicle
+                        spleen primary B follicle,UBERON:0004041,primary spleen B cell follicle
+                        spleen secondary B follicle,UBERON:0004042,secondary spleen B cell follicle,splenic secondary B cell follicle
+                            spleen germinal center,UBERON:0005196,germinal center of spleen,spleen GC,spleen follicle center,splenic germinal center
+                            spleen B cell corona,UBERON:0010421,follicle mantle,spleen B cell corona,spleen B-cell corona,spleen lymphocytic corona,splenic B cell corona
+                    periarterial lymphatic sheath,UBERON:0001960,PALS,T cell domain of the splenic white pulp,periarterial lymphoid sheath,periarteriolar sheath,spleen periarteriolar lymphatic sheath
+            marginal zone of spleen,UBERON:0001251,junctional zone of spleen,spleen marginal zone
+            spleen perifollicular zone,UBERON:0005353
+            hilum of spleen,UBERON:0001248,hilum lienale,hilum splenicum,spleen hilum,splenic hilum
+        colon,UBERON:0001155,large bowel
+            ascending colon,UBERON:0001156,colon ascendens
+            descending colon,UBERON:0001158,colon descendens
+            transverse colon,UBERON:0001157,colon transversum
+            sigmoid colon,UBERON:0001159
+            caecum,UBERON:0001153,caecum,cecum,intestinum crassum caecum
+                vermiform appendix,UBERON:0001154,appendix,appendix vermiformis,caecal appendix,cecal appendix
+                ileocecal valve,UBERON:0000569,valva ileocaecalis (valva ilealis)
+        small intestine,UBERON:0002108,small bowel,small intestine
+            duodenum,UBERON:0002114
+            jejunum,UBERON:0002115
+            ileum,UBERON:0002116
+    pelvic cavity,UBERON:0008203,space of pelvic compartment
+        rectum,UBERON:0001052,terminal portion of intestine
