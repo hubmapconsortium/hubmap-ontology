@@ -1,4 +1,4 @@
-Label (indented),ID,Synonyms
+Label (indented),ID,Synonym 1,Synonym 2,Synonym 3,Synonym 4,Synonym 5,Synonym 6,Synonym 7,Synonym 8,Synonym 9
 body,UBERON:0013702
     chest cavity,UBERON:0002224,cavitas thoracis,cavity of chest,cavity of thorax,chest cavity,pectoral cavity,space of thoracic compartment,thoracic lumen
         heart,UBERON:0000948,chambered heart,vertebrate heart
@@ -10,17 +10,19 @@ body,UBERON:0013702
                     right cardiac atrium,UBERON:0002078,cardiac right atrium,heart right atrium,right atrium,right atrium of heart,right cardiac atrium
                     heart right ventricle,UBERON:0002080,cardiac right ventricle,right ventricle,right ventricle of heart
         lung,LMHA:00211
-        right lung,UBERON:0002167
-            right lung upper lobe,LMHA:00332
-            right lung lower lobe,LMHA:00324
-            right lung middle lobe,LMHA:00330
-        left lung,UBERON:0002168
-            upper lobe of left lung,UBERON:0008952,left lung cranial lobe,left upper lobe,left upper lobe of lung,lobus superior (pulmo sinister),lobus superior pulmonis sinistri,superior lobe of left lung
-            lower lobe of left lung,UBERON:0008953,inferior lobe of left lung,left lower lobe,left lower lobe of lung,left lung caudal lobe,lobus inferior (pulmo sinister),lobus inferior pulmonis sinistri
+            right lung,UBERON:0002167
+                right lung upper lobe,LMHA:00332
+                right lung lower lobe,LMHA:00324
+                right lung middle lobe,LMHA:00330
+            left lung,UBERON:0002168
+                upper lobe of left lung,UBERON:0008952,left lung cranial lobe,left upper lobe,left upper lobe of lung,lobus superior (pulmo sinister),lobus superior pulmonis sinistri,superior lobe of left lung
+                lower lobe of left lung,UBERON:0008953,inferior lobe of left lung,left lower lobe,left lower lobe of lung,left lung caudal lobe,lobus inferior (pulmo sinister),lobus inferior pulmonis sinistri
         trachea,LMHA:00361
         bronchus,LMHA:00120
     abdominal cavity,UBERON:0003684,cavity of abdominal compartment,cavity of compartment of abdomen,space of abdominal compartment
         kidney,UBERON:0002113
+            right kidney,UBERON:0004539
+            left kidney,UBERON:0004538
             kidney capsule,UBERON:0002015,capsula fibrosa renis,capsule of kidney,fibrous capsule of kidney,renal capsule
             cortex of kidney,UBERON:0001225,cortex renalis,kidney cortex,renal cortex
                 outer cortex of kidney,UBERON:0002189,kidney outer cortex,outer renal cortex
