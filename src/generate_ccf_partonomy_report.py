@@ -20,7 +20,7 @@ def get_nodes(input_json):
   for n in nodes:
     data = {
       'iri': n['@id'],
-      'synonyms': map(lambda s: s['@value'], n['http://www.geneontology.org/formats/oboInOwl#hasExactSynonym']),
+      'synonyms': list(map(lambda s: s['@value'], n['http://www.geneontology.org/formats/oboInOwl#hasExactSynonym'])),
       'label': n['http://www.w3.org/2000/01/rdf-schema#label'][0]['@value'],
       'id': n['http://www.geneontology.org/formats/oboInOwl#id'][0]['@value'],
       'parent': None if not n['parent'] else n['parent'][0]['@id'],
@@ -30,15 +30,18 @@ def get_nodes(input_json):
 
 def write_partonomy_report(input_json, output_csv, root_node='http://purl.obolibrary.org/obo/UBERON_0013702'):
   G = nx.DiGraph()
+  max_synonyms = 1
   for n, data in get_nodes(input_json):
     G.add_node(n, **data)
+    max_synonyms = max(max_synonyms, len(list(data['synonyms'])))
   for child, parent in G.nodes.data('parent'):
     if parent is not None:
       G.add_edge(parent, child, weight=G.nodes[child]['order'])
 
   with open(output_csv, 'w') as out_f:
     out = csv.writer(out_f)
-    out.writerow(['Label (indented)', 'ID', 'Synonyms'])
+    header = ['Label (indented)', 'ID'] + [ f'Synonym {i + 1}' for i in range(max_synonyms) ]
+    out.writerow(header)
     for n, depth in dfs_nodes(G, root_node):
       row = [ str('    ' * depth) + str(G.nodes[n]['label']), G.nodes[n]['id'] ]
       row.extend(G.nodes[n]['synonyms'])

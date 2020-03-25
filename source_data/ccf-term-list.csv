@@ -4,6 +4,8 @@ thoracic cavity,chest cavity,UBERON:0002224,body,UBERON:0013702,N,0000-0001-7655
 abdominal cavity,abdominal cavity,UBERON:0003684,body,UBERON:0013702,N,0000-0001-7655-4833
 pelvic cavity,pelvic cavity,UBERON:0008203,body,UBERON:0013702,N,0000-0001-7655-4833
 kidney,kidney,UBERON:0002113,abdominal cavity,UBERON:0003684,N,0000-0001-7655-4833
+right kidney,right kidney,UBERON:0004539,kidney,UBERON:0002113,N,0000-0001-7655-4833
+left kidney,left kidney,UBERON:0004538,kidney,UBERON:0002113,N,0000-0001-7655-4833
 kidney capsule,,UBERON:0002015,kidney,UBERON:0002113,N,0000-0001-7655-4833
 cortex of kidney,cortex of kidney,UBERON:0001225,kidney,UBERON:0002113,N,0000-0001-7655-4833
 outer cortex of kidney,outer cortex of kidney,UBERON:0002189,Cortex of kidney,UBERON:0001225,N,0000-0001-7655-4833
@@ -72,11 +74,11 @@ right cardiac chamber,,UBERON:0035554,cardiac chamber,UBERON:0004151,N,0000-0001
 right cardiac atrium,,UBERON:0002078,right cardiac chamber,UBERON:0035554,N,0000-0001-7655-4833
 heart right ventricle,,UBERON:0002080,right cardiac chamber,UBERON:0035554,N,0000-0001-7655-4833
 lung,,LMHA:00211,chest cavity,UBERON:0002224,N,0000-0001-7655-4833
-right lung,,UBERON:0002167,chest cavity,UBERON:0002224,N,0000-0001-7655-4833
+right lung,,UBERON:0002167,lung,LMHA:00211,N,0000-0001-7655-4833
 right lung upper lobe,,LMHA:00332,right lung,UBERON:0002167,N,0000-0001-7655-4833
 right  lung lower lobe,,LMHA:00324,right lung,UBERON:0002167,N,0000-0001-7655-4833
 right lung middle lobe,,LMHA:00330,right lung,UBERON:0002167,N,0000-0001-7655-4833
-left lung,,UBERON:0002168,chest cavity,UBERON:0002224,N,0000-0001-7655-4833
+left lung,,UBERON:0002168,lung,LMHA:00211,N,0000-0001-7655-4833
 upper lobe left lung ,,UBERON:0008952,left lung,UBERON:0002168,N,0000-0001-7655-4833
 left  lung lower lobe,,UBERON:0008953,left lung,UBERON:0002168,N,0000-0001-7655-4833
 trachea,,LMHA:00361,chest cavity,UBERON:0002224,N,0000-0001-7655-4833
