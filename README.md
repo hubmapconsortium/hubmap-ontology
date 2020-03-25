@@ -1,6 +1,6 @@
 # The Common Coordinate Framework (CCF)
 
-`WORK IN PROGRESS please treat all information as tentative`
+> :warning: **WORK IN PROGRESS** This is the in-development code for CCF v0.6.0 and beyond. The previous version (v0.5.1) code and documentation is available [here](https://github.com/hubmapconsortium/hubmap-ontology/tree/v0.5.1).
 
 The CCF consists of seven parts:
 
@@ -9,8 +9,8 @@ The CCF consists of seven parts:
 3. **The CCF Anatomical Partonomy (CCF-AP)** is a curated partonomy using existing ontology terms which mirrors the CCF-SRS, but goes further (though not down to the cellular level).
 4. **The CCF Cell Types Ontology (CCF-CT)** is a curated ontology using existing ontology terms which describes cell types and connects to the CCF-AP where appropriate.
 5. **The CCF Union Ontology (CCF-UO)** is a curated set of ontologies which represents the universe of ontologies connected via the CCF.
-6. **The CCF Registration User Interface (CCF-RUI)** is an online interface for placing tissue samples into Reference Organs defined by the CCF-SRS. See [link](https://hubmapconsortium.github.io/ccf-ui/).
-7. **The CCF Exploration User Interface (CCF-EUI)** is an online interface for exploring and querying the CCF-SRS, CCF-P, and entities indexed by them, primarily via the CCF-RUI. See [link](https://hubmapconsortium.github.io/ccf-3d-registration/).
+6. **The CCF Registration User Interface (CCF-RUI)** is an online interface for placing tissue samples into Reference Organs defined by the CCF-SRS. See [here](https://hubmapconsortium.github.io/ccf-ui/).
+7. **The CCF Exploration User Interface (CCF-EUI)** is an online interface for exploring and querying the CCF-SRS, CCF-P, and entities indexed by them, primarily via the CCF-RUI. See [here](https://hubmapconsortium.github.io/ccf-3d-registration/).
 
 ## Links
 
