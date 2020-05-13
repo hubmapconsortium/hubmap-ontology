@@ -22,13 +22,16 @@ with onto:
     range = [str]
   class creator_orcid(AnnotationProperty, FunctionalProperty):
     range = [str]
+  class creator_uuid(AnnotationProperty, FunctionalProperty):
+    range = [str]
   class creator_first_name(AnnotationProperty, FunctionalProperty):
     range = [str]
   class creator_last_name(AnnotationProperty, FunctionalProperty):
     range = [str]
   class creation_date(AnnotationProperty, FunctionalProperty):
     range = [datetime.date]
-
+  class updated_date(AnnotationProperty, FunctionalProperty):
+    range = [datetime.date]
 
   class SpatialPlacement(Thing):
     label = 'spatial placement'
@@ -113,5 +116,80 @@ with onto:
   class has_placement_target(ObjectProperty):
     domain = [SpatialPlacement]
     range = [SpatialEntity]
+
+  """ NOTE: Not Ready for prime time
+  class Entity(Thing):
+    label = 'CCF-indexed entity'
+  ### Search properties ###
+  class has_age(DataProperty, FunctionalProperty):
+    label = 'Donor age (in years) at time of Procedure'
+    domain = [Entity]
+    range = [int]
+  class has_sex(DataProperty, FunctionalProperty):
+    label = 'Donor sex at time of Procedure: Male, Female'
+    domain = [Entity]
+    range = [str]
+  class has_bmi(DataProperty, FunctionalProperty):
+    label = 'Donor BMI at time of Procedure'
+    domain = [Entity]
+    range = [float]
+  class has_provider(DataProperty, FunctionalProperty):
+    label = 'Provider who processed the Procedure'
+    domain = [Entity]
+    range = [str]
+  # has_ccf_annotation is above
+  ### Metadata Properties ###
+  class has_entitytype(DataProperty, FunctionalProperty):
+    label = 'Type of entity: Donor, Sample, Dataset'
+    domain = [Entity]
+    range = [str]
+  class has_uuid(DataProperty, FunctionalProperty):
+    label = 'UUID'
+    domain = [Entity]
+    range = [str]
+  class has_doi(DataProperty, FunctionalProperty):
+    label = 'DOI'
+    domain = [Entity]
+    range = [str]
+  class has_display_doi(DataProperty, FunctionalProperty):
+    label = 'Display DOI'
+    domain = [Entity]
+    range = [str]
+  class has_hubmap_id(DataProperty, FunctionalProperty):
+    label = 'HuBMAP ID'
+    domain = [Entity]
+    range = [str]
+  # Use dc:creator and creator_uuid
+  # Use updated_date
+  # Use rdfs:label for label
+  class has_short_description(DataProperty, FunctionalProperty):
+    label = 'short description'
+    domain = [Entity]
+    range = [str]
+  class has_long_description(DataProperty, FunctionalProperty):
+    label = 'long description'
+    domain = [Entity]
+    range = [str]
+  class has_thumbnail_url(DataProperty, FunctionalProperty):
+    label = 'thumbnail url'
+    domain = [Entity]
+    range = [str]
+  class has_download_url(DataProperty, FunctionalProperty):
+    label = 'download url'
+    domain = [Entity]
+    range = [str]
+  class has_download_tooltip(DataProperty, FunctionalProperty):
+    label = 'download url tooltip'
+    domain = [Entity]
+    range = [str]
+  class has_result_url(DataProperty, FunctionalProperty):
+    label = 'result url'
+    domain = [Entity]
+    range = [str]
+  class has_result_type(DataProperty, FunctionalProperty):
+    label = 'result type: external_link, local_link, image_viewer'
+    domain = [Entity]
+    range = [str]
+  """
 
 onto.save(file=CCF_MODEL, format='rdfxml')

@@ -1,76 +1,100 @@
 [
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-    "@id": "#VHMale",
+    "@id": "#VHBody",
     "@type": "SpatialEntity",
-    "label": "Visual Human Male",
+    "label": "Visual Human Body",
     "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
     "creator_first_name": "Bruce",
     "creator_last_name": "Herr",
     "creator_orcid": "https://orcid.org/0000-0002-6703-7647",
     "creation_date": "2020-01-01",
     "representation_of": "obo:UBERON_0005172",
-    "x_dimension": 123, "y_dimension": 456, "z_dimension": 789, "dimension_units": "millimeter",
-
-    "object": {
-      "@id": "#VHMaleObj",
-      "@type": "SpatialObjectReference",
-      "file": "http://via.placeholder.com/640x360.png",
-      "file_format": "image/png",
-      "file_subpath": "/",
-
-      "placement": {
-        "@id": "#VHMaleObjPlacement",
-        "@type": "SpatialPlacement",
-        "target": "#VHMale",
-        "placement_date": "2020-01-01",
-  
-        "x_scaling": 1, "y_scaling": 3, "z_scaling": 5, "scaling_units": "ratio",
-        "x_rotation": 1, "y_rotation": 3, "z_rotation": 5, "rotation_units": "degree",
-        "x_translation": 1, "y_translation": 1, "z_translation": 1, "translation_units": "millimeter"
-      }
-    }
+    "x_dimension": 1000, "y_dimension": 1000, "z_dimension": 200, "dimension_units": "millimeter"
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-    "@id": "#VHKidney",
+    "@id": "#VHBothSexes",
     "@type": "SpatialEntity",
-    "label": "Visual Human Male Kidney",
+    "label": "Visual Human (Both Sexes)",
     "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
     "creator_first_name": "Bruce",
     "creator_last_name": "Herr",
     "creator_orcid": "https://orcid.org/0000-0002-6703-7647",
     "creation_date": "2020-01-01",
-    "representation_of": "obo:UBERON_0002113",
-    "x_dimension": 12, "y_dimension": 45, "z_dimension": 78, "dimension_units": "millimeter",
+    "representation_of": "obo:UBERON_0005172",
+    "x_dimension": 1000, "y_dimension": 1000, "z_dimension": 200, "dimension_units": "millimeter",
 
     "object": {
-      "@id": "#VHKidneyObj",
+      "@id": "#VHBothSexesObj",
       "@type": "SpatialObjectReference",
-      "file": "http://via.placeholder.com/64x36.png",
-      "file_format": "image/png",
-      "file_subpath": "/",
+      "file": "/assets/test-data/both-sexes-torso.glb",
+      "file_format": "model/gltf-binary",
 
       "placement": {
-        "@id": "#VHKidneyObjPlacement",
+        "@id": "#VHBothSexesObjPlacement",
         "@type": "SpatialPlacement",
-        "target": "#VHKidney",
+        "target": "#VHBothSexes",
         "placement_date": "2020-01-01",
   
-        "x_scaling": 10, "y_scaling": 30, "z_scaling": 50, "scaling_units": "ratio",
-        "x_rotation": 10, "y_rotation": 30, "z_rotation": 50, "rotation_units": "degree",
-        "x_translation": 1, "y_translation": 1, "z_translation": 1, "translation_units": "millimeter"
+        "x_scaling": 0.076, "y_scaling": 0.076, "z_scaling": 0.076, "scaling_units": "ratio",
+        "x_rotation": -90, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
+        "x_translation": 490, "y_translation": 34, "z_translation": 110, "translation_units": "millimeter"
       }
     },
-    "placement": {
-      "@id": "#VHKidneyPlacement",
-      "@type": "SpatialPlacement",
-      "target": "#VHMale",
-      "placement_date": "2020-01-01",
 
-      "x_scaling": 1, "y_scaling": 3, "z_scaling": 5, "scaling_units": "ratio",
-      "x_rotation": 1, "y_rotation": 3, "z_rotation": 5, "rotation_units": "degree",
-      "x_translation": 1, "y_translation": 1, "z_translation": 1, "translation_units": "millimeter"
+    "placement": {
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+      "@id": "#VHBothSexesObjGlobalPlacement",
+      "@type": "SpatialPlacement",
+      "target": "#VHBody",
+      "placement_date": "2020-01-01",
+  
+      "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
+      "x_rotation": 0, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
+      "x_translation": 0, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
+    }
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#VHFemaleOrgans",
+    "@type": "SpatialEntity",
+    "label": "Visual Human Female Organs",
+    "creator": "Kristin Brown",
+    "creator_first_name": "Kristin",
+    "creator_last_name": "Brown",
+    "creation_date": "2020-01-01",
+    "ccf_annotations": [],
+    "x_dimension": 1000, "y_dimension": 1000, "z_dimension": 200, "dimension_units": "millimeter",
+
+    "object": {
+      "@id": "#VHFemaleOrgansObj",
+      "@type": "SpatialObjectReference",
+      "file": "/assets/test-data/VHF_Heart_Kidney_Spleen.glb",
+      "file_format": "model/gltf-binary",
+
+      "placement": {
+        "@id": "#VHFemaleOrgansObjPlacement",
+        "@type": "SpatialPlacement",
+        "target": "#VHFemaleOrgans",
+        "placement_date": "2020-01-01",
+  
+        "x_scaling": 0.076, "y_scaling": 0.076, "z_scaling": 0.076, "scaling_units": "ratio",
+        "x_rotation": -90, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
+        "x_translation": 490, "y_translation": 34, "z_translation": 110, "translation_units": "millimeter"
+      }
+    },
+
+    "placement": {
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+      "@id": "#VHFemaleOrgansGlobalPlacement",
+      "@type": "SpatialPlacement",
+      "target": "#VHBothSexes",
+      "placement_date": "2020-01-01",
+  
+      "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
+      "x_rotation": 0, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
+      "x_translation": 0, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
     }
   }
 ]

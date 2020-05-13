@@ -46,6 +46,10 @@
     "placement": {
       "@reverse": "has_placement_source"
     },
+    "source": {
+      "@id": "has_placement_source",
+      "@type": "@id"
+    },
     "target": {
       "@id": "has_placement_target",
       "@type": "@id"
@@ -118,6 +122,9 @@
     "z_translation": { 
       "@id": "has_z_translation",
       "@type": "xsd:float"
+    },
+    "translation_units": {
+      "@id": "has_translation_units"
     }
   }
 }

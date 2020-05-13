@@ -1,5 +1,5 @@
 # CCF_NAMESPACE='https://hubmapconsortium.github.io/hubmap-ontology/ccf.owl'
-CCF_NAMESPACE='http://purl.org/ccf/latest/ccf.owl'
+CCF_NAMESPACE='https://purl.org/ccf/latest/ccf.owl'
 
 CCF_PARTONOMY_TERMS='source_data/ccf-term-list.csv'
 CCF_MODEL='dist/ccf-model.owl'
