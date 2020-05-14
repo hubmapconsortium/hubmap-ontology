@@ -651,14 +651,14 @@ ccf:VHLeftKidneyGlobalPlacement a ccf:SpatialPlacement ;
     ccf:has_placement_target ccf:VHBody ;
     ccf:has_rotation_units "degree" ;
     ccf:has_translation_units "millimeter" ;
-    ccf:has_x_rotation "-65.0"^^xsd:float ;
-    ccf:has_x_scaling "1.0"^^xsd:float ;
+    ccf:has_x_rotation "-20.1"^^xsd:float ;
+    ccf:has_x_scaling "0.7"^^xsd:float ;
     ccf:has_x_translation "570.86"^^xsd:float ;
-    ccf:has_y_rotation "21.0"^^xsd:float ;
-    ccf:has_y_scaling "1.0"^^xsd:float ;
+    ccf:has_y_rotation "0.0"^^xsd:float ;
+    ccf:has_y_scaling "0.7"^^xsd:float ;
     ccf:has_y_translation "267.43"^^xsd:float ;
-    ccf:has_z_rotation "14.4"^^xsd:float ;
-    ccf:has_z_scaling "1.0"^^xsd:float ;
+    ccf:has_z_rotation "0.0"^^xsd:float ;
+    ccf:has_z_scaling "0.7"^^xsd:float ;
     ccf:has_z_translation "165.801"^^xsd:float ;
     ccf:scaling_units "ratio" .
 
@@ -702,14 +702,14 @@ ccf:VHRightKidneyGlobalPlacement a ccf:SpatialPlacement ;
     ccf:has_placement_target ccf:VHBody ;
     ccf:has_rotation_units "degree" ;
     ccf:has_translation_units "millimeter" ;
-    ccf:has_x_rotation "-68.0"^^xsd:float ;
-    ccf:has_x_scaling "1.0"^^xsd:float ;
+    ccf:has_x_rotation "0.0"^^xsd:float ;
+    ccf:has_x_scaling "0.7"^^xsd:float ;
     ccf:has_x_translation "428.03"^^xsd:float ;
-    ccf:has_y_rotation "-29.0"^^xsd:float ;
-    ccf:has_y_scaling "1.0"^^xsd:float ;
+    ccf:has_y_rotation "-36.3"^^xsd:float ;
+    ccf:has_y_scaling "0.7"^^xsd:float ;
     ccf:has_y_translation "275.92"^^xsd:float ;
     ccf:has_z_rotation "0.0"^^xsd:float ;
-    ccf:has_z_scaling "1.0"^^xsd:float ;
+    ccf:has_z_scaling "0.7"^^xsd:float ;
     ccf:has_z_translation "165.783"^^xsd:float ;
     ccf:scaling_units "ratio" .
 
