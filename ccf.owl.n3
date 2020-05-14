@@ -1179,7 +1179,7 @@ ccf:ExampleKidneySlice a ccf:SpatialEntity ;
     dc:creator "Bruce Herr - https://orcid.org/0000-0002-6703-7647" .
 
 ccf:VHBothSexesObj a ccf:SpatialObjectReference ;
-    ccf:has_object_file "/assets/test-data/both-sexes-torso.glb" ;
+    ccf:has_object_file "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/objects/both-sexes-torso.glb" ;
     ccf:has_object_file_format "model/gltf-binary" .
 
 ccf:VHFemale a ccf:SpatialEntity ;
@@ -1197,7 +1197,7 @@ ccf:VHFemale a ccf:SpatialEntity ;
     dc:creator "Bruce Herr - https://orcid.org/0000-0002-6703-7647" .
 
 ccf:VHFemaleObj a ccf:SpatialObjectReference ;
-    ccf:has_object_file "/assets/test-data/female-torso.glb" ;
+    ccf:has_object_file "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/objects/female-torso.glb" ;
     ccf:has_object_file_format "model/gltf-binary" .
 
 ccf:VHFemaleOrgans a ccf:SpatialEntity ;
@@ -1213,7 +1213,7 @@ ccf:VHFemaleOrgans a ccf:SpatialEntity ;
     dc:creator "Kristin Browne" .
 
 ccf:VHFemaleOrgansObj a ccf:SpatialObjectReference ;
-    ccf:has_object_file "/assets/test-data/VHF_Heart_Kidney_Spleen.glb" ;
+    ccf:has_object_file "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/objects/VHF_Heart_Kidney_Spleen.glb" ;
     ccf:has_object_file_format "model/gltf-binary" .
 
 ccf:VHMale a ccf:SpatialEntity ;
@@ -1231,7 +1231,7 @@ ccf:VHMale a ccf:SpatialEntity ;
     dc:creator "Bruce Herr - https://orcid.org/0000-0002-6703-7647" .
 
 ccf:VHMaleObj a ccf:SpatialObjectReference ;
-    ccf:has_object_file "/assets/test-data/male-torso.glb" ;
+    ccf:has_object_file "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/objects/male-torso.glb" ;
     ccf:has_object_file_format "model/gltf-binary" .
 
 <http://purl.obolibrary.org/obo/UBERON_0001288> rdfs:label "loop of Henle" ;
