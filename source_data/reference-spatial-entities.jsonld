@@ -202,8 +202,8 @@
       "target": "#VHBody",
       "placement_date": "2020-01-01",
   
-      "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-      "x_rotation": -68, "y_rotation": -29, "z_rotation": 0, "rotation_units": "degree",
+      "x_scaling": 0.7, "y_scaling": 0.7, "z_scaling": 0.7, "scaling_units": "ratio",
+      "x_rotation": 0, "y_rotation": -36.3, "z_rotation": 0, "rotation_units": "degree",
       "x_translation": 428.03, "y_translation": 275.92, "z_translation": 165.783, "translation_units": "millimeter"
     }
   },
@@ -226,8 +226,8 @@
       "target": "#VHBody",
       "placement_date": "2020-01-01",
   
-      "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-      "x_rotation": -65, "y_rotation": 21, "z_rotation": 14.4, "rotation_units": "degree",
+      "x_scaling": 0.7, "y_scaling": 0.7, "z_scaling": 0.7, "scaling_units": "ratio",
+      "x_rotation": -20.1, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
       "x_translation": 570.86, "y_translation": 267.43, "z_translation": 165.801, "translation_units": "millimeter"
     }
   },
