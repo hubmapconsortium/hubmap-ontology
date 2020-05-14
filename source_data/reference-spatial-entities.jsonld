@@ -57,12 +57,98 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#VHMale",
+    "@type": "SpatialEntity",
+    "label": "Visual Human Male",
+    "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
+    "creator_first_name": "Bruce",
+    "creator_last_name": "Herr",
+    "creator_orcid": "https://orcid.org/0000-0002-6703-7647",
+    "creation_date": "2020-01-01",
+    "representation_of": "obo:UBERON_0005172",
+    "x_dimension": 1000, "y_dimension": 1000, "z_dimension": 200, "dimension_units": "millimeter",
+
+    "object": {
+      "@id": "#VHMaleObj",
+      "@type": "SpatialObjectReference",
+      "file": "/assets/test-data/male-torso.glb",
+      "file_format": "model/gltf-binary",
+
+      "placement": {
+        "@id": "#VHMaleObjPlacement",
+        "@type": "SpatialPlacement",
+        "target": "#VHMale",
+        "placement_date": "2020-01-01",
+  
+        "x_scaling": 0.076, "y_scaling": 0.076, "z_scaling": 0.076, "scaling_units": "ratio",
+        "x_rotation": -90, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
+        "x_translation": 490, "y_translation": 34, "z_translation": 110, "translation_units": "millimeter"
+      }
+    },
+
+    "placement": {
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+      "@id": "#VHMaleObjGlobalPlacement",
+      "@type": "SpatialPlacement",
+      "target": "#VHBody",
+      "placement_date": "2020-01-01",
+  
+      "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
+      "x_rotation": 0, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
+      "x_translation": 0, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
+    }
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#VHFemale",
+    "@type": "SpatialEntity",
+    "label": "Visual Human (Both Sexes)",
+    "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
+    "creator_first_name": "Bruce",
+    "creator_last_name": "Herr",
+    "creator_orcid": "https://orcid.org/0000-0002-6703-7647",
+    "creation_date": "2020-01-01",
+    "representation_of": "obo:UBERON_0005172",
+    "x_dimension": 1000, "y_dimension": 1000, "z_dimension": 200, "dimension_units": "millimeter",
+
+    "object": {
+      "@id": "#VHFemaleObj",
+      "@type": "SpatialObjectReference",
+      "file": "/assets/test-data/female-torso.glb",
+      "file_format": "model/gltf-binary",
+
+      "placement": {
+        "@id": "#VHFemaleObjPlacement",
+        "@type": "SpatialPlacement",
+        "target": "#VHFemale",
+        "placement_date": "2020-01-01",
+  
+        "x_scaling": 0.076, "y_scaling": 0.076, "z_scaling": 0.076, "scaling_units": "ratio",
+        "x_rotation": -90, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
+        "x_translation": 490, "y_translation": 34, "z_translation": 110, "translation_units": "millimeter"
+      }
+    },
+
+    "placement": {
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+      "@id": "#VHFemaleObjGlobalPlacement",
+      "@type": "SpatialPlacement",
+      "target": "#VHBody",
+      "placement_date": "2020-01-01",
+  
+      "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
+      "x_rotation": 0, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
+      "x_translation": 0, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
+    }
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHFemaleOrgans",
     "@type": "SpatialEntity",
     "label": "Visual Human Female Organs",
-    "creator": "Kristin Brown",
+    "creator": "Kristin Browne",
     "creator_first_name": "Kristin",
-    "creator_last_name": "Brown",
+    "creator_last_name": "Browne",
     "creation_date": "2020-01-01",
     "ccf_annotations": [],
     "x_dimension": 1000, "y_dimension": 1000, "z_dimension": 200, "dimension_units": "millimeter",
@@ -95,6 +181,78 @@
       "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
       "x_rotation": 0, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
       "x_translation": 0, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
+    }
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#VHSpleenCC1",
+    "@type": "SpatialEntity",
+    "label": "Visual Human Female Spleen (CC1)",
+    "creator": "Kristin Browne",
+    "creator_first_name": "Kristin",
+    "creator_last_name": "Browne",
+    "creation_date": "2020-01-01",
+    "ccf_annotations": [],
+    "x_dimension": 59.9, "y_dimension": 40.7, "z_dimension": 9.04, "dimension_units": "millimeter",
+
+    "placement": {
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+      "@id": "#VHSpleenCC1GlobalPlacement",
+      "@type": "SpatialPlacement",
+      "target": "#VHBody",
+      "placement_date": "2020-01-01",
+  
+      "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
+      "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
+      "x_translation": 557.23, "y_translation": 360.08, "z_translation": 135.16, "translation_units": "millimeter"
+    }
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#VHSpleenCC2",
+    "@type": "SpatialEntity",
+    "label": "Visual Human Female Spleen (CC2)",
+    "creator": "Kristin Browne",
+    "creator_first_name": "Kristin",
+    "creator_last_name": "Browne",
+    "creation_date": "2020-01-01",
+    "ccf_annotations": [],
+    "x_dimension": 63, "y_dimension": 40.1, "z_dimension": 8.89, "dimension_units": "millimeter",
+
+    "placement": {
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+      "@id": "#VHSpleenCC2GlobalPlacement",
+      "@type": "SpatialPlacement",
+      "target": "#VHBody",
+      "placement_date": "2020-01-01",
+  
+      "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
+      "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
+      "x_translation": 577.36, "y_translation": 345.7, "z_translation": 138.367, "translation_units": "millimeter"
+    }
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#VHSpleenCC3",
+    "@type": "SpatialEntity",
+    "label": "Visual Human Female Spleen (CC3)",
+    "creator": "Kristin Browne",
+    "creator_first_name": "Kristin",
+    "creator_last_name": "Browne",
+    "creation_date": "2020-01-01",
+    "ccf_annotations": [],
+    "x_dimension": 58.7, "y_dimension": 43.4, "z_dimension": 9.54, "dimension_units": "millimeter",
+
+    "placement": {
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+      "@id": "#VHSpleenCC3GlobalPlacement",
+      "@type": "SpatialPlacement",
+      "target": "#VHBody",
+      "placement_date": "2020-01-01",
+  
+      "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
+      "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
+      "x_translation": 594.21, "y_translation": 328.77, "z_translation": 151.689, "translation_units": "millimeter"
     }
   }
 ]
