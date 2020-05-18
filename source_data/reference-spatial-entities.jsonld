@@ -1,6 +1,6 @@
 [
   {
-    "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHBody",
     "@type": "SpatialEntity",
     "label": "Visual Human Body",
@@ -13,7 +13,7 @@
     "x_dimension": 1000, "y_dimension": 1000, "z_dimension": 200, "dimension_units": "millimeter"
   },
   {
-    "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHBothSexes",
     "@type": "SpatialEntity",
     "label": "Visual Human (Both Sexes)",
@@ -28,7 +28,7 @@
     "object": {
       "@id": "#VHBothSexesObj",
       "@type": "SpatialObjectReference",
-      "file": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/objects/both-sexes-torso.glb",
+      "file": "https://hubmapconsortium.github.io/hubmap-ontology/objects/both-sexes-torso.glb",
       "file_format": "model/gltf-binary",
 
       "placement": {
@@ -44,7 +44,7 @@
     },
 
     "placement": {
-      "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
       "@id": "#VHBothSexesObjGlobalPlacement",
       "@type": "SpatialPlacement",
       "target": "#VHBody",
@@ -56,7 +56,7 @@
     }
   },
   {
-    "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHMale",
     "@type": "SpatialEntity",
     "label": "Visual Human Male",
@@ -71,7 +71,7 @@
     "object": {
       "@id": "#VHMaleObj",
       "@type": "SpatialObjectReference",
-      "file": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/objects/male-torso.glb",
+      "file": "https://hubmapconsortium.github.io/hubmap-ontology/objects/male-torso.glb",
       "file_format": "model/gltf-binary",
 
       "placement": {
@@ -87,7 +87,7 @@
     },
 
     "placement": {
-      "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
       "@id": "#VHMaleObjGlobalPlacement",
       "@type": "SpatialPlacement",
       "target": "#VHBody",
@@ -99,7 +99,7 @@
     }
   },
   {
-    "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHFemale",
     "@type": "SpatialEntity",
     "label": "Visual Human (Both Sexes)",
@@ -114,7 +114,7 @@
     "object": {
       "@id": "#VHFemaleObj",
       "@type": "SpatialObjectReference",
-      "file": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/objects/female-torso.glb",
+      "file": "https://hubmapconsortium.github.io/hubmap-ontology/objects/female-torso.glb",
       "file_format": "model/gltf-binary",
 
       "placement": {
@@ -130,7 +130,7 @@
     },
 
     "placement": {
-      "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
       "@id": "#VHFemaleObjGlobalPlacement",
       "@type": "SpatialPlacement",
       "target": "#VHBody",
@@ -142,7 +142,7 @@
     }
   },
   {
-    "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHFemaleOrgans",
     "@type": "SpatialEntity",
     "label": "Visual Human Female Organs",
@@ -156,7 +156,7 @@
     "object": {
       "@id": "#VHFemaleOrgansObj",
       "@type": "SpatialObjectReference",
-      "file": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/objects/VHF_Heart_Kidney_Spleen.glb",
+      "file": "https://hubmapconsortium.github.io/hubmap-ontology/objects/VHF_Heart_Kidney_Spleen.glb",
       "file_format": "model/gltf-binary",
 
       "placement": {
@@ -172,7 +172,7 @@
     },
 
     "placement": {
-      "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
       "@id": "#VHFemaleOrgansGlobalPlacement",
       "@type": "SpatialPlacement",
       "target": "#VHBothSexes",
@@ -184,7 +184,7 @@
     }
   },
   {
-    "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHRightKidney",
     "@type": "SpatialEntity",
     "label": "Visual Human Female Right Kidney",
@@ -196,7 +196,7 @@
     "x_dimension": 60, "y_dimension": 100, "z_dimension": 60, "dimension_units": "millimeter",
 
     "placement": {
-      "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
       "@id": "#VHRightKidneyGlobalPlacement",
       "@type": "SpatialPlacement",
       "target": "#VHBody",
@@ -208,7 +208,7 @@
     }
   },
   {
-    "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHLeftKidney",
     "@type": "SpatialEntity",
     "label": "Visual Human Female Left Kidney",
@@ -220,7 +220,7 @@
     "x_dimension": 60, "y_dimension": 100, "z_dimension": 60, "dimension_units": "millimeter",
 
     "placement": {
-      "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
       "@id": "#VHLeftKidneyGlobalPlacement",
       "@type": "SpatialPlacement",
       "target": "#VHBody",
@@ -232,7 +232,7 @@
     }
   },
   {
-    "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHSpleenCC1",
     "@type": "SpatialEntity",
     "label": "Visual Human Female Spleen (CC1)",
@@ -244,7 +244,7 @@
     "x_dimension": 59.9, "y_dimension": 40.7, "z_dimension": 9.04, "dimension_units": "millimeter",
 
     "placement": {
-      "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
       "@id": "#VHSpleenCC1GlobalPlacement",
       "@type": "SpatialPlacement",
       "target": "#VHBody",
@@ -256,7 +256,7 @@
     }
   },
   {
-    "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHSpleenCC2",
     "@type": "SpatialEntity",
     "label": "Visual Human Female Spleen (CC2)",
@@ -268,7 +268,7 @@
     "x_dimension": 63, "y_dimension": 40.1, "z_dimension": 8.89, "dimension_units": "millimeter",
 
     "placement": {
-      "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
       "@id": "#VHSpleenCC2GlobalPlacement",
       "@type": "SpatialPlacement",
       "target": "#VHBody",
@@ -280,7 +280,7 @@
     }
   },
   {
-    "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHSpleenCC3",
     "@type": "SpatialEntity",
     "label": "Visual Human Female Spleen (CC3)",
@@ -292,7 +292,7 @@
     "x_dimension": 58.7, "y_dimension": 43.4, "z_dimension": 9.54, "dimension_units": "millimeter",
 
     "placement": {
-      "@context": "https://cdn.jsdelivr.net/gh/hubmapconsortium/hubmap-ontology@gh-pages/ccf-context.jsonld",
+      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
       "@id": "#VHSpleenCC3GlobalPlacement",
       "@type": "SpatialPlacement",
       "target": "#VHBody",
