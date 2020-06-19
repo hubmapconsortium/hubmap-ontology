@@ -988,8 +988,7 @@ ccf:VHSpleenCC2GlobalPlacement2 a ccf:SpatialPlacement ;
 ccf:VHSpleenCC3GlobalPlacement a ccf:SpatialPlacement ;
     ccf:has_placement_date "2020-01-01"^^xsd:date ;
     ccf:has_placement_source ccf:VHSpleenCC3 ;
-    ccf:has_placement_target ccf:VHBothSexes,
-        ccf:VHFemale ;
+    ccf:has_placement_target ccf:VHFemale ;
     ccf:has_rotation_units "degree" ;
     ccf:has_translation_units "millimeter" ;
     ccf:has_x_rotation "-90.0"^^xsd:float ;
@@ -1015,6 +1014,23 @@ ccf:VHSpleenCC3GlobalPlacement1 a ccf:SpatialPlacement ;
     ccf:has_y_rotation "-52.0"^^xsd:float ;
     ccf:has_y_scaling "1.0"^^xsd:float ;
     ccf:has_y_translation "322.77"^^xsd:float ;
+    ccf:has_z_rotation "0.0"^^xsd:float ;
+    ccf:has_z_scaling "1.0"^^xsd:float ;
+    ccf:has_z_translation "31.689"^^xsd:float ;
+    ccf:scaling_units "ratio" .
+
+ccf:VHSpleenCC3GlobalPlacement2 a ccf:SpatialPlacement ;
+    ccf:has_placement_date "2020-01-01"^^xsd:date ;
+    ccf:has_placement_source ccf:VHSpleenCC3 ;
+    ccf:has_placement_target ccf:VHBothSexes ;
+    ccf:has_rotation_units "degree" ;
+    ccf:has_translation_units "millimeter" ;
+    ccf:has_x_rotation "-90.0"^^xsd:float ;
+    ccf:has_x_scaling "1.0"^^xsd:float ;
+    ccf:has_x_translation "578.21"^^xsd:float ;
+    ccf:has_y_rotation "-52.0"^^xsd:float ;
+    ccf:has_y_scaling "1.0"^^xsd:float ;
+    ccf:has_y_translation "312.77"^^xsd:float ;
     ccf:has_z_rotation "0.0"^^xsd:float ;
     ccf:has_z_scaling "1.0"^^xsd:float ;
     ccf:has_z_translation "31.689"^^xsd:float ;
@@ -1475,17 +1491,6 @@ ccf:VHRightKidneyCube a ccf:SpatialObjectReference ;
     ccf:has_object_file "https://hubmapconsortium.github.io/hubmap-ontology/objects/cube.gltf" ;
     ccf:has_object_file_format "model/gltf-binary" .
 
-ccf:VHSpleenCC3 a ccf:SpatialEntity ;
-    rdfs:label "Visual Human Female Spleen (CC3)" ;
-    ccf:creation_date "2020-01-01"^^xsd:date ;
-    ccf:creator_first_name "Kristin" ;
-    ccf:creator_last_name "Browne" ;
-    ccf:has_dimension_units "millimeter" ;
-    ccf:has_x_dimension "58.7"^^xsd:float ;
-    ccf:has_y_dimension "43.4"^^xsd:float ;
-    ccf:has_z_dimension "9.54"^^xsd:float ;
-    dc:creator "Kristin Browne" .
-
 ccf:VHSpleenCube a ccf:SpatialObjectReference ;
     ccf:has_object_file "https://hubmapconsortium.github.io/hubmap-ontology/objects/cube.gltf" ;
     ccf:has_object_file_format "model/gltf-binary" .
@@ -1575,6 +1580,17 @@ ccf:VHSpleenCC2 a ccf:SpatialEntity ;
     ccf:has_x_dimension "63.0"^^xsd:float ;
     ccf:has_y_dimension "40.1"^^xsd:float ;
     ccf:has_z_dimension "8.89"^^xsd:float ;
+    dc:creator "Kristin Browne" .
+
+ccf:VHSpleenCC3 a ccf:SpatialEntity ;
+    rdfs:label "Visual Human Female Spleen (CC3)" ;
+    ccf:creation_date "2020-01-01"^^xsd:date ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Browne" ;
+    ccf:has_dimension_units "millimeter" ;
+    ccf:has_x_dimension "58.7"^^xsd:float ;
+    ccf:has_y_dimension "43.4"^^xsd:float ;
+    ccf:has_z_dimension "9.54"^^xsd:float ;
     dc:creator "Kristin Browne" .
 
 <http://purl.obolibrary.org/obo/UBERON_0002224> rdfs:label "chest cavity" ;
