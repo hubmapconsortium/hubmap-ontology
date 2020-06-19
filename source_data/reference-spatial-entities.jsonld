@@ -290,8 +290,19 @@
         "placement_date": "2020-01-01",
 
         "x_scaling": 0.7, "y_scaling": 0.7, "z_scaling": 0.7, "scaling_units": "ratio",
-        "x_rotation": 0, "y_rotation": -36.3, "z_rotation": 0, "rotation_units": "degree",
+        "x_rotation": -40, "y_rotation": -36.3, "z_rotation": 0, "rotation_units": "degree",
         "x_translation": 428.03, "y_translation": 275.92, "z_translation": 65.783, "translation_units": "millimeter"
+      },
+      {
+        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+        "@id": "#VHRightKidneyGlobalPlacement1",
+        "@type": "SpatialPlacement",
+        "target": "#VHMale",
+        "placement_date": "2020-01-01",
+
+        "x_scaling": 0.735, "y_scaling": 0.735, "z_scaling": 0.735, "scaling_units": "ratio",
+        "x_rotation": -21.9, "y_rotation": 22, "z_rotation": -0.721, "rotation_units": "degree",
+        "x_translation": 438.03, "y_translation": 275.92, "z_translation": 80.783, "translation_units": "millimeter"
       },
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
@@ -301,7 +312,7 @@
         "placement_date": "2020-01-01",
 
         "x_scaling": 0.7, "y_scaling": 0.7, "z_scaling": 0.7, "scaling_units": "ratio",
-        "x_rotation": 0, "y_rotation": -36.3, "z_rotation": 0, "rotation_units": "degree",
+        "x_rotation": -40, "y_rotation": -36.3, "z_rotation": 0, "rotation_units": "degree",
         "x_translation": 428.03, "y_translation": 275.92, "z_translation": 65.783, "translation_units": "millimeter"
       }
     ]
@@ -346,7 +357,18 @@
     
         "x_scaling": 0.7, "y_scaling": 0.7, "z_scaling": 0.7, "scaling_units": "ratio",
         "x_rotation": -20.1, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 570.86, "y_translation": 267.43, "z_translation": 65.801, "translation_units": "millimeter"
+        "x_translation": 560.86, "y_translation": 267.43, "z_translation": 70.801, "translation_units": "millimeter"
+      },
+      {
+        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+        "@id": "#VHLeftKidneyGlobalPlacement1",
+        "@type": "SpatialPlacement",
+        "target": "#VHMale",
+        "placement_date": "2020-01-01",
+    
+        "x_scaling": 0.7, "y_scaling": 0.7, "z_scaling": 0.7, "scaling_units": "ratio",
+        "x_rotation": -26, "y_rotation": 9.3, "z_rotation": 21.2, "rotation_units": "degree",
+        "x_translation": 550.86, "y_translation": 297.43, "z_translation": 75.801, "translation_units": "millimeter"
       },
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
@@ -405,6 +427,17 @@
       },
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+        "@id": "#VHSpleenGlobalPlacement1",
+        "@type": "SpatialPlacement",
+        "target": "#VHMale",
+        "placement_date": "2020-01-01",
+    
+        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
+        "x_rotation": 76.8, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
+        "x_translation": 578.24, "y_translation": 345.82, "z_translation": 53.033, "translation_units": "millimeter"
+      },
+      {
+        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
         "@id": "#VHSpleenGlobalPlacement2",
         "@type": "SpatialPlacement",
         "target": "#VHBothSexes",
@@ -439,6 +472,17 @@
         "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
         "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
         "x_translation": 547.23, "y_translation": 350.08, "z_translation": 15.16, "translation_units": "millimeter"
+      },
+      {
+        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+        "@id": "#VHSpleenCC1GlobalPlacement1",
+        "@type": "SpatialPlacement",
+        "target": "#VHMale",
+        "placement_date": "2020-01-01",
+    
+        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
+        "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
+        "x_translation": 537.23, "y_translation": 360.08, "z_translation": 15.16, "translation_units": "millimeter"
       },
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
@@ -479,6 +523,17 @@
       },
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+        "@id": "#VHSpleenCC2GlobalPlacement1",
+        "@type": "SpatialPlacement",
+        "target": "#VHMale",
+        "placement_date": "2020-01-01",
+    
+        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
+        "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
+        "x_translation": 557.36, "y_translation": 345.7, "z_translation": 18.367, "translation_units": "millimeter"
+      },
+      {
+        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
         "@id": "#VHSpleenCC2GlobalPlacement2",
         "@type": "SpatialPlacement",
         "target": "#VHBothSexes",
@@ -513,6 +568,17 @@
         "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
         "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
         "x_translation": 578.21, "y_translation": 312.77, "z_translation": 31.689, "translation_units": "millimeter"
+      },
+      {
+        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+        "@id": "#VHSpleenCC3GlobalPlacement1",
+        "@type": "SpatialPlacement",
+        "target": "#VHMale",
+        "placement_date": "2020-01-01",
+    
+        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
+        "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
+        "x_translation": 568.21, "y_translation": 322.77, "z_translation": 31.689, "translation_units": "millimeter"
       },
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
