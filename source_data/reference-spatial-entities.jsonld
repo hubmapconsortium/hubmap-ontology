@@ -582,7 +582,7 @@
       },
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHSpleenCC3GlobalPlacement",
+        "@id": "#VHSpleenCC3GlobalPlacement2",
         "@type": "SpatialPlacement",
         "target": "#VHBothSexes",
         "placement_date": "2020-01-01",
