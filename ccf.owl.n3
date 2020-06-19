@@ -687,13 +687,30 @@ ccf:VHLeftKidneyGlobalPlacement a ccf:SpatialPlacement ;
     ccf:has_translation_units "millimeter" ;
     ccf:has_x_rotation "-20.1"^^xsd:float ;
     ccf:has_x_scaling "0.7"^^xsd:float ;
-    ccf:has_x_translation "570.86"^^xsd:float ;
+    ccf:has_x_translation "560.86"^^xsd:float ;
     ccf:has_y_rotation "0.0"^^xsd:float ;
     ccf:has_y_scaling "0.7"^^xsd:float ;
     ccf:has_y_translation "267.43"^^xsd:float ;
     ccf:has_z_rotation "0.0"^^xsd:float ;
     ccf:has_z_scaling "0.7"^^xsd:float ;
-    ccf:has_z_translation "65.801"^^xsd:float ;
+    ccf:has_z_translation "70.801"^^xsd:float ;
+    ccf:scaling_units "ratio" .
+
+ccf:VHLeftKidneyGlobalPlacement1 a ccf:SpatialPlacement ;
+    ccf:has_placement_date "2020-01-01"^^xsd:date ;
+    ccf:has_placement_source ccf:VHLeftKidney ;
+    ccf:has_placement_target ccf:VHMale ;
+    ccf:has_rotation_units "degree" ;
+    ccf:has_translation_units "millimeter" ;
+    ccf:has_x_rotation "-26.0"^^xsd:float ;
+    ccf:has_x_scaling "0.7"^^xsd:float ;
+    ccf:has_x_translation "550.86"^^xsd:float ;
+    ccf:has_y_rotation "9.3"^^xsd:float ;
+    ccf:has_y_scaling "0.7"^^xsd:float ;
+    ccf:has_y_translation "297.43"^^xsd:float ;
+    ccf:has_z_rotation "21.2"^^xsd:float ;
+    ccf:has_z_scaling "0.7"^^xsd:float ;
+    ccf:has_z_translation "75.801"^^xsd:float ;
     ccf:scaling_units "ratio" .
 
 ccf:VHLeftKidneyGlobalPlacement2 a ccf:SpatialPlacement ;
@@ -821,7 +838,7 @@ ccf:VHRightKidneyGlobalPlacement a ccf:SpatialPlacement ;
     ccf:has_placement_target ccf:VHFemale ;
     ccf:has_rotation_units "degree" ;
     ccf:has_translation_units "millimeter" ;
-    ccf:has_x_rotation "0.0"^^xsd:float ;
+    ccf:has_x_rotation "-40.0"^^xsd:float ;
     ccf:has_x_scaling "0.7"^^xsd:float ;
     ccf:has_x_translation "428.03"^^xsd:float ;
     ccf:has_y_rotation "-36.3"^^xsd:float ;
@@ -832,13 +849,30 @@ ccf:VHRightKidneyGlobalPlacement a ccf:SpatialPlacement ;
     ccf:has_z_translation "65.783"^^xsd:float ;
     ccf:scaling_units "ratio" .
 
+ccf:VHRightKidneyGlobalPlacement1 a ccf:SpatialPlacement ;
+    ccf:has_placement_date "2020-01-01"^^xsd:date ;
+    ccf:has_placement_source ccf:VHRightKidney ;
+    ccf:has_placement_target ccf:VHMale ;
+    ccf:has_rotation_units "degree" ;
+    ccf:has_translation_units "millimeter" ;
+    ccf:has_x_rotation "-21.9"^^xsd:float ;
+    ccf:has_x_scaling "0.735"^^xsd:float ;
+    ccf:has_x_translation "438.03"^^xsd:float ;
+    ccf:has_y_rotation "22.0"^^xsd:float ;
+    ccf:has_y_scaling "0.735"^^xsd:float ;
+    ccf:has_y_translation "275.92"^^xsd:float ;
+    ccf:has_z_rotation "-0.721"^^xsd:float ;
+    ccf:has_z_scaling "0.735"^^xsd:float ;
+    ccf:has_z_translation "80.783"^^xsd:float ;
+    ccf:scaling_units "ratio" .
+
 ccf:VHRightKidneyGlobalPlacement2 a ccf:SpatialPlacement ;
     ccf:has_placement_date "2020-01-01"^^xsd:date ;
     ccf:has_placement_source ccf:VHRightKidney ;
     ccf:has_placement_target ccf:VHBothSexes ;
     ccf:has_rotation_units "degree" ;
     ccf:has_translation_units "millimeter" ;
-    ccf:has_x_rotation "0.0"^^xsd:float ;
+    ccf:has_x_rotation "-40.0"^^xsd:float ;
     ccf:has_x_scaling "0.7"^^xsd:float ;
     ccf:has_x_translation "428.03"^^xsd:float ;
     ccf:has_y_rotation "-36.3"^^xsd:float ;
@@ -861,6 +895,23 @@ ccf:VHSpleenCC1GlobalPlacement a ccf:SpatialPlacement ;
     ccf:has_y_rotation "-52.0"^^xsd:float ;
     ccf:has_y_scaling "1.0"^^xsd:float ;
     ccf:has_y_translation "350.08"^^xsd:float ;
+    ccf:has_z_rotation "0.0"^^xsd:float ;
+    ccf:has_z_scaling "1.0"^^xsd:float ;
+    ccf:has_z_translation "15.16"^^xsd:float ;
+    ccf:scaling_units "ratio" .
+
+ccf:VHSpleenCC1GlobalPlacement1 a ccf:SpatialPlacement ;
+    ccf:has_placement_date "2020-01-01"^^xsd:date ;
+    ccf:has_placement_source ccf:VHSpleenCC1 ;
+    ccf:has_placement_target ccf:VHMale ;
+    ccf:has_rotation_units "degree" ;
+    ccf:has_translation_units "millimeter" ;
+    ccf:has_x_rotation "-90.0"^^xsd:float ;
+    ccf:has_x_scaling "1.0"^^xsd:float ;
+    ccf:has_x_translation "537.23"^^xsd:float ;
+    ccf:has_y_rotation "-52.0"^^xsd:float ;
+    ccf:has_y_scaling "1.0"^^xsd:float ;
+    ccf:has_y_translation "360.08"^^xsd:float ;
     ccf:has_z_rotation "0.0"^^xsd:float ;
     ccf:has_z_scaling "1.0"^^xsd:float ;
     ccf:has_z_translation "15.16"^^xsd:float ;
@@ -895,6 +946,23 @@ ccf:VHSpleenCC2GlobalPlacement a ccf:SpatialPlacement ;
     ccf:has_y_rotation "-52.0"^^xsd:float ;
     ccf:has_y_scaling "1.0"^^xsd:float ;
     ccf:has_y_translation "335.7"^^xsd:float ;
+    ccf:has_z_rotation "0.0"^^xsd:float ;
+    ccf:has_z_scaling "1.0"^^xsd:float ;
+    ccf:has_z_translation "18.367"^^xsd:float ;
+    ccf:scaling_units "ratio" .
+
+ccf:VHSpleenCC2GlobalPlacement1 a ccf:SpatialPlacement ;
+    ccf:has_placement_date "2020-01-01"^^xsd:date ;
+    ccf:has_placement_source ccf:VHSpleenCC2 ;
+    ccf:has_placement_target ccf:VHMale ;
+    ccf:has_rotation_units "degree" ;
+    ccf:has_translation_units "millimeter" ;
+    ccf:has_x_rotation "-90.0"^^xsd:float ;
+    ccf:has_x_scaling "1.0"^^xsd:float ;
+    ccf:has_x_translation "557.36"^^xsd:float ;
+    ccf:has_y_rotation "-52.0"^^xsd:float ;
+    ccf:has_y_scaling "1.0"^^xsd:float ;
+    ccf:has_y_translation "345.7"^^xsd:float ;
     ccf:has_z_rotation "0.0"^^xsd:float ;
     ccf:has_z_scaling "1.0"^^xsd:float ;
     ccf:has_z_translation "18.367"^^xsd:float ;
@@ -935,6 +1003,23 @@ ccf:VHSpleenCC3GlobalPlacement a ccf:SpatialPlacement ;
     ccf:has_z_translation "31.689"^^xsd:float ;
     ccf:scaling_units "ratio" .
 
+ccf:VHSpleenCC3GlobalPlacement1 a ccf:SpatialPlacement ;
+    ccf:has_placement_date "2020-01-01"^^xsd:date ;
+    ccf:has_placement_source ccf:VHSpleenCC3 ;
+    ccf:has_placement_target ccf:VHMale ;
+    ccf:has_rotation_units "degree" ;
+    ccf:has_translation_units "millimeter" ;
+    ccf:has_x_rotation "-90.0"^^xsd:float ;
+    ccf:has_x_scaling "1.0"^^xsd:float ;
+    ccf:has_x_translation "568.21"^^xsd:float ;
+    ccf:has_y_rotation "-52.0"^^xsd:float ;
+    ccf:has_y_scaling "1.0"^^xsd:float ;
+    ccf:has_y_translation "322.77"^^xsd:float ;
+    ccf:has_z_rotation "0.0"^^xsd:float ;
+    ccf:has_z_scaling "1.0"^^xsd:float ;
+    ccf:has_z_translation "31.689"^^xsd:float ;
+    ccf:scaling_units "ratio" .
+
 ccf:VHSpleenCubePlacement a ccf:SpatialPlacement ;
     ccf:has_placement_date "2020-01-01"^^xsd:date ;
     ccf:has_placement_source ccf:VHSpleenCube ;
@@ -956,6 +1041,23 @@ ccf:VHSpleenGlobalPlacement a ccf:SpatialPlacement ;
     ccf:has_placement_date "2020-01-01"^^xsd:date ;
     ccf:has_placement_source ccf:VHSpleen ;
     ccf:has_placement_target ccf:VHFemale ;
+    ccf:has_rotation_units "degree" ;
+    ccf:has_translation_units "millimeter" ;
+    ccf:has_x_rotation "76.8"^^xsd:float ;
+    ccf:has_x_scaling "1.0"^^xsd:float ;
+    ccf:has_x_translation "578.24"^^xsd:float ;
+    ccf:has_y_rotation "0.0"^^xsd:float ;
+    ccf:has_y_scaling "1.0"^^xsd:float ;
+    ccf:has_y_translation "345.82"^^xsd:float ;
+    ccf:has_z_rotation "0.0"^^xsd:float ;
+    ccf:has_z_scaling "1.0"^^xsd:float ;
+    ccf:has_z_translation "53.033"^^xsd:float ;
+    ccf:scaling_units "ratio" .
+
+ccf:VHSpleenGlobalPlacement1 a ccf:SpatialPlacement ;
+    ccf:has_placement_date "2020-01-01"^^xsd:date ;
+    ccf:has_placement_source ccf:VHSpleen ;
+    ccf:has_placement_target ccf:VHMale ;
     ccf:has_rotation_units "degree" ;
     ccf:has_translation_units "millimeter" ;
     ccf:has_x_rotation "76.8"^^xsd:float ;
@@ -1192,17 +1294,6 @@ ccf:ExampleKidneySection a ccf:SpatialEntity ;
     ccf:has_z_dimension "3.0"^^xsd:float ;
     dc:creator "Bruce Herr - https://orcid.org/0000-0002-6703-7647" .
 
-ccf:VHSpleenCC3 a ccf:SpatialEntity ;
-    rdfs:label "Visual Human Female Spleen (CC3)" ;
-    ccf:creation_date "2020-01-01"^^xsd:date ;
-    ccf:creator_first_name "Kristin" ;
-    ccf:creator_last_name "Browne" ;
-    ccf:has_dimension_units "millimeter" ;
-    ccf:has_x_dimension "58.7"^^xsd:float ;
-    ccf:has_y_dimension "43.4"^^xsd:float ;
-    ccf:has_z_dimension "9.54"^^xsd:float ;
-    dc:creator "Kristin Browne" .
-
 <http://purl.obolibrary.org/obo/LMHA_00211> rdfs:label "lung" ;
     ns1:id "LMHA:00211" ;
     :ccf_part_of <http://purl.obolibrary.org/obo/UBERON_0002224> ;
@@ -1384,26 +1475,15 @@ ccf:VHRightKidneyCube a ccf:SpatialObjectReference ;
     ccf:has_object_file "https://hubmapconsortium.github.io/hubmap-ontology/objects/cube.gltf" ;
     ccf:has_object_file_format "model/gltf-binary" .
 
-ccf:VHSpleenCC1 a ccf:SpatialEntity ;
-    rdfs:label "Visual Human Female Spleen (CC1)" ;
+ccf:VHSpleenCC3 a ccf:SpatialEntity ;
+    rdfs:label "Visual Human Female Spleen (CC3)" ;
     ccf:creation_date "2020-01-01"^^xsd:date ;
     ccf:creator_first_name "Kristin" ;
     ccf:creator_last_name "Browne" ;
     ccf:has_dimension_units "millimeter" ;
-    ccf:has_x_dimension "59.9"^^xsd:float ;
-    ccf:has_y_dimension "40.7"^^xsd:float ;
-    ccf:has_z_dimension "9.04"^^xsd:float ;
-    dc:creator "Kristin Browne" .
-
-ccf:VHSpleenCC2 a ccf:SpatialEntity ;
-    rdfs:label "Visual Human Female Spleen (CC2)" ;
-    ccf:creation_date "2020-01-01"^^xsd:date ;
-    ccf:creator_first_name "Kristin" ;
-    ccf:creator_last_name "Browne" ;
-    ccf:has_dimension_units "millimeter" ;
-    ccf:has_x_dimension "63.0"^^xsd:float ;
-    ccf:has_y_dimension "40.1"^^xsd:float ;
-    ccf:has_z_dimension "8.89"^^xsd:float ;
+    ccf:has_x_dimension "58.7"^^xsd:float ;
+    ccf:has_y_dimension "43.4"^^xsd:float ;
+    ccf:has_z_dimension "9.54"^^xsd:float ;
     dc:creator "Kristin Browne" .
 
 ccf:VHSpleenCube a ccf:SpatialObjectReference ;
@@ -1463,32 +1543,6 @@ ccf:VHFemaleOrgans a ccf:SpatialEntity ;
     ccf:has_z_dimension "200.0"^^xsd:float ;
     dc:creator "Kristin Browne" .
 
-ccf:VHLeftKidney a ccf:SpatialEntity ;
-    rdfs:label "Visual Human Female Left Kidney" ;
-    ccf:creation_date "2020-01-01"^^xsd:date ;
-    ccf:creator_first_name "Kristin" ;
-    ccf:creator_last_name "Browne" ;
-    ccf:has_dimension_units "millimeter" ;
-    ccf:has_object_reference ccf:VHLeftKidneyCube ;
-    ccf:has_x_dimension "60.0"^^xsd:float ;
-    ccf:has_y_dimension "100.0"^^xsd:float ;
-    ccf:has_z_dimension "60.0"^^xsd:float ;
-    dc:creator "Kristin Browne" .
-
-ccf:VHMale a ccf:SpatialEntity ;
-    rdfs:label "Visual Human Male" ;
-    ccf:ccf_representation_of <http://purl.obolibrary.org/obo/UBERON_0005172> ;
-    ccf:creation_date "2020-01-01"^^xsd:date ;
-    ccf:creator_first_name "Bruce" ;
-    ccf:creator_last_name "Herr" ;
-    ccf:creator_orcid "https://orcid.org/0000-0002-6703-7647" ;
-    ccf:has_dimension_units "millimeter" ;
-    ccf:has_object_reference ccf:VHMaleObj ;
-    ccf:has_x_dimension "1000.0"^^xsd:float ;
-    ccf:has_y_dimension "1000.0"^^xsd:float ;
-    ccf:has_z_dimension "200.0"^^xsd:float ;
-    dc:creator "Bruce Herr - https://orcid.org/0000-0002-6703-7647" .
-
 ccf:VHMaleOrgans a ccf:SpatialEntity ;
     rdfs:label "Visual Human Male Organs" ;
     ccf:creation_date "2020-01-01"^^xsd:date ;
@@ -1499,6 +1553,62 @@ ccf:VHMaleOrgans a ccf:SpatialEntity ;
     ccf:has_x_dimension "1000.0"^^xsd:float ;
     ccf:has_y_dimension "1000.0"^^xsd:float ;
     ccf:has_z_dimension "200.0"^^xsd:float ;
+    dc:creator "Kristin Browne" .
+
+ccf:VHSpleenCC1 a ccf:SpatialEntity ;
+    rdfs:label "Visual Human Female Spleen (CC1)" ;
+    ccf:creation_date "2020-01-01"^^xsd:date ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Browne" ;
+    ccf:has_dimension_units "millimeter" ;
+    ccf:has_x_dimension "59.9"^^xsd:float ;
+    ccf:has_y_dimension "40.7"^^xsd:float ;
+    ccf:has_z_dimension "9.04"^^xsd:float ;
+    dc:creator "Kristin Browne" .
+
+ccf:VHSpleenCC2 a ccf:SpatialEntity ;
+    rdfs:label "Visual Human Female Spleen (CC2)" ;
+    ccf:creation_date "2020-01-01"^^xsd:date ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Browne" ;
+    ccf:has_dimension_units "millimeter" ;
+    ccf:has_x_dimension "63.0"^^xsd:float ;
+    ccf:has_y_dimension "40.1"^^xsd:float ;
+    ccf:has_z_dimension "8.89"^^xsd:float ;
+    dc:creator "Kristin Browne" .
+
+<http://purl.obolibrary.org/obo/UBERON_0002224> rdfs:label "chest cavity" ;
+    ns1:hasExactSynonym "cavitas thoracis",
+        "cavity of chest",
+        "cavity of thorax",
+        "chest cavity",
+        "pectoral cavity",
+        "space of thoracic compartment",
+        "thoracic lumen" ;
+    ns1:id "UBERON:0002224" ;
+    :ccf_part_of <http://purl.obolibrary.org/obo/UBERON_0013702> ;
+    :ccf_part_of_rank 1 ;
+    :ccf_preferred_label "chest cavity" .
+
+<http://purl.obolibrary.org/obo/UBERON_0003684> rdfs:label "abdominal cavity" ;
+    ns1:hasExactSynonym "cavity of abdominal compartment",
+        "cavity of compartment of abdomen",
+        "space of abdominal compartment" ;
+    ns1:id "UBERON:0003684" ;
+    :ccf_part_of <http://purl.obolibrary.org/obo/UBERON_0013702> ;
+    :ccf_part_of_rank 2 ;
+    :ccf_preferred_label "abdominal cavity" .
+
+ccf:VHLeftKidney a ccf:SpatialEntity ;
+    rdfs:label "Visual Human Female Left Kidney" ;
+    ccf:creation_date "2020-01-01"^^xsd:date ;
+    ccf:creator_first_name "Kristin" ;
+    ccf:creator_last_name "Browne" ;
+    ccf:has_dimension_units "millimeter" ;
+    ccf:has_object_reference ccf:VHLeftKidneyCube ;
+    ccf:has_x_dimension "60.0"^^xsd:float ;
+    ccf:has_y_dimension "100.0"^^xsd:float ;
+    ccf:has_z_dimension "60.0"^^xsd:float ;
     dc:creator "Kristin Browne" .
 
 ccf:VHRightKidney a ccf:SpatialEntity ;
@@ -1524,28 +1634,6 @@ ccf:VHSpleen a ccf:SpatialEntity ;
     ccf:has_y_dimension "67.0"^^xsd:float ;
     ccf:has_z_dimension "82.0"^^xsd:float ;
     dc:creator "Kristin Browne" .
-
-<http://purl.obolibrary.org/obo/UBERON_0002224> rdfs:label "chest cavity" ;
-    ns1:hasExactSynonym "cavitas thoracis",
-        "cavity of chest",
-        "cavity of thorax",
-        "chest cavity",
-        "pectoral cavity",
-        "space of thoracic compartment",
-        "thoracic lumen" ;
-    ns1:id "UBERON:0002224" ;
-    :ccf_part_of <http://purl.obolibrary.org/obo/UBERON_0013702> ;
-    :ccf_part_of_rank 1 ;
-    :ccf_preferred_label "chest cavity" .
-
-<http://purl.obolibrary.org/obo/UBERON_0003684> rdfs:label "abdominal cavity" ;
-    ns1:hasExactSynonym "cavity of abdominal compartment",
-        "cavity of compartment of abdomen",
-        "space of abdominal compartment" ;
-    ns1:id "UBERON:0003684" ;
-    :ccf_part_of <http://purl.obolibrary.org/obo/UBERON_0013702> ;
-    :ccf_part_of_rank 2 ;
-    :ccf_preferred_label "abdominal cavity" .
 
 <http://purl.obolibrary.org/obo/UBERON_0001155> rdfs:label "colon" ;
     ns1:hasExactSynonym "large bowel" ;
@@ -1585,6 +1673,20 @@ ccf:VHFemale a ccf:SpatialEntity ;
     ccf:creator_orcid "https://orcid.org/0000-0002-6703-7647" ;
     ccf:has_dimension_units "millimeter" ;
     ccf:has_object_reference ccf:VHFemaleObj ;
+    ccf:has_x_dimension "1000.0"^^xsd:float ;
+    ccf:has_y_dimension "1000.0"^^xsd:float ;
+    ccf:has_z_dimension "200.0"^^xsd:float ;
+    dc:creator "Bruce Herr - https://orcid.org/0000-0002-6703-7647" .
+
+ccf:VHMale a ccf:SpatialEntity ;
+    rdfs:label "Visual Human Male" ;
+    ccf:ccf_representation_of <http://purl.obolibrary.org/obo/UBERON_0005172> ;
+    ccf:creation_date "2020-01-01"^^xsd:date ;
+    ccf:creator_first_name "Bruce" ;
+    ccf:creator_last_name "Herr" ;
+    ccf:creator_orcid "https://orcid.org/0000-0002-6703-7647" ;
+    ccf:has_dimension_units "millimeter" ;
+    ccf:has_object_reference ccf:VHMaleObj ;
     ccf:has_x_dimension "1000.0"^^xsd:float ;
     ccf:has_y_dimension "1000.0"^^xsd:float ;
     ccf:has_z_dimension "200.0"^^xsd:float ;
