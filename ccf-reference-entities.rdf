@@ -5,798 +5,798 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHBody">
-    <rdfs:label>Visual Human Body</rdfs:label>
-    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
-    <dc:creator>Bruce Herr - https://orcid.org/0000-0002-6703-7647</dc:creator>
-    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">200</ccf:has_z_dimension>
-    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_x_dimension>
-    <ccf:creator_last_name>Herr</ccf:creator_last_name>
-    <ccf:ccf_representation_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
-    <ccf:creator_orcid>https://orcid.org/0000-0002-6703-7647</ccf:creator_orcid>
-    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_y_dimension>
-    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
-    <ccf:creator_first_name>Bruce</ccf:creator_first_name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMale">
-    <rdfs:label>Visual Human Male</rdfs:label>
-    <dc:creator>Bruce Herr - https://orcid.org/0000-0002-6703-7647</dc:creator>
-    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
-    <ccf:creator_last_name>Herr</ccf:creator_last_name>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
-    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_y_dimension>
-    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
-    <ccf:creator_orcid>https://orcid.org/0000-0002-6703-7647</ccf:creator_orcid>
-    <ccf:ccf_representation_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
-    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMaleObj"/>
-    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">200</ccf:has_z_dimension>
-    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_x_dimension>
-    <ccf:creator_first_name>Bruce</ccf:creator_first_name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgansObjPlacement">
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHLeftKidneyCubePlacement">
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
     <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_z_scaling>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100</ccf:has_y_scaling>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHLeftKidney"/>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
     <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgansObj"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_y_scaling>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_x_scaling>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">490</ccf:has_x_translation>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">110</ccf:has_z_translation>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans"/>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_x_scaling>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_z_scaling>
     <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">34</ccf:has_y_translation>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHLeftKidneyCube"/>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHRightKidneyGlobalPlacement">
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-36.3</ccf:has_y_rotation>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-40</ccf:has_x_rotation>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">428.03</ccf:has_x_translation>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_x_scaling>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_y_scaling>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHRightKidney"/>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_z_scaling>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.783</ccf:has_z_translation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">275.92</ccf:has_y_translation>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC2">
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
+    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
+    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">63</ccf:has_x_dimension>
+    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.1</ccf:has_y_dimension>
+    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.89</ccf:has_z_dimension>
+    <rdfs:label>Visual Human Female Spleen (CC2)</rdfs:label>
+    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
+    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
+    <ccf:creator_last_name>Browne</ccf:creator_last_name>
+    <dc:creator>Kristin Browne</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans">
+    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
+    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
+    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgansObj"/>
+    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
+    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_y_dimension>
+    <dc:creator>Kristin Browne</dc:creator>
+    <ccf:creator_last_name>Browne</ccf:creator_last_name>
+    <rdfs:label>Visual Human Male Organs</rdfs:label>
+    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">200</ccf:has_z_dimension>
+    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_x_dimension>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC1GlobalPlacement">
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC1"/>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.16</ccf:has_z_translation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
     <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">350.08</ccf:has_y_translation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
     <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC1"/>
     <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
     <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">547.23</ccf:has_x_translation>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.16</ccf:has_z_translation>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans">
-    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
-    <dc:creator>Kristin Browne</dc:creator>
-    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_y_dimension>
-    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
-    <ccf:creator_last_name>Browne</ccf:creator_last_name>
-    <rdfs:label>Visual Human Female Organs</rdfs:label>
-    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">200</ccf:has_z_dimension>
-    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
-    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_x_dimension>
-    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgansObj"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgansGlobalPlacement">
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHRightKidneyGlobalPlacement2">
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
     <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
     <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans"/>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC3">
-    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.54</ccf:has_z_dimension>
-    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
-    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">43.4</ccf:has_y_dimension>
-    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
-    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">58.7</ccf:has_x_dimension>
-    <dc:creator>Kristin Browne</dc:creator>
-    <rdfs:label>Visual Human Female Spleen (CC3)</rdfs:label>
-    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
-    <ccf:creator_last_name>Browne</ccf:creator_last_name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHLeftKidneyGlobalPlacement1">
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">550.86</ccf:has_x_translation>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_z_scaling>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">75.801</ccf:has_z_translation>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-26</ccf:has_x_rotation>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHLeftKidney"/>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_x_scaling>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.783</ccf:has_z_translation>
     <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_y_scaling>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.2</ccf:has_z_rotation>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">297.43</ccf:has_y_translation>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.3</ccf:has_y_rotation>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgansObjPlacement">
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.677</ccf:has_x_scaling>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.677</ccf:has_y_scaling>
     <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">92</ccf:has_z_translation>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">482</ccf:has_x_translation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-196</ccf:has_y_translation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgansObj"/>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.677</ccf:has_z_scaling>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCubePlacement">
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">82</ccf:has_x_scaling>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-40</ccf:has_x_rotation>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-36.3</ccf:has_y_rotation>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_z_scaling>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">275.92</ccf:has_y_translation>
     <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleen"/>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHRightKidney"/>
     <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCube"/>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">67</ccf:has_y_scaling>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">82</ccf:has_z_scaling>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">428.03</ccf:has_x_translation>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_x_scaling>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC1GlobalPlacement1">
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">360.08</ccf:has_y_translation>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">537.23</ccf:has_x_translation>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.16</ccf:has_z_translation>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC1"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHLeftKidney">
+    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_z_dimension>
+    <ccf:creator_last_name>Browne</ccf:creator_last_name>
+    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHLeftKidneyCube"/>
+    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
+    <dc:creator>Kristin Browne</dc:creator>
+    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
+    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100</ccf:has_y_dimension>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
+    <rdfs:label>Visual Human Female Left Kidney</rdfs:label>
+    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_x_dimension>
+    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC2GlobalPlacement">
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC2"/>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">335.7</ccf:has_y_translation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
     <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
     <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">335.7</ccf:has_y_translation>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.367</ccf:has_z_translation>
     <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">567.36</ccf:has_x_translation>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMale">
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
+    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMaleObj"/>
+    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_x_dimension>
+    <ccf:creator_last_name>Herr</ccf:creator_last_name>
+    <ccf:creator_orcid>https://orcid.org/0000-0002-6703-7647</ccf:creator_orcid>
+    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
+    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
+    <ccf:ccf_representation_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
+    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">200</ccf:has_z_dimension>
+    <rdfs:label>Visual Human Male</rdfs:label>
+    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_y_dimension>
+    <dc:creator>Bruce Herr - https://orcid.org/0000-0002-6703-7647</dc:creator>
+    <ccf:creator_first_name>Bruce</ccf:creator_first_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHRightKidney">
+    <ccf:creator_last_name>Browne</ccf:creator_last_name>
+    <rdfs:label>Visual Human Female Right Kidney</rdfs:label>
+    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
+    <dc:creator>Kristin Browne</dc:creator>
+    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
+    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
+    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100</ccf:has_y_dimension>
+    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHRightKidneyCube"/>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
+    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_x_dimension>
+    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_z_dimension>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleObjGlobalPlacement">
     <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
     <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.367</ccf:has_z_translation>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC2"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgansGlobalPlacement">
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
     <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
     <ccf:scaling_units>ratio</ccf:scaling_units>
     <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
     <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
     <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans"/>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBody"/>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHLeftKidneyGlobalPlacement2">
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans">
+    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
+    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
+    <dc:creator>Kristin Browne</dc:creator>
+    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">200</ccf:has_z_dimension>
+    <ccf:creator_last_name>Browne</ccf:creator_last_name>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
+    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_x_dimension>
+    <rdfs:label>Visual Human Female Organs</rdfs:label>
+    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_y_dimension>
+    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgansObj"/>
+    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgansGlobalPlacement">
     <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-20.1</ccf:has_x_rotation>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.801</ccf:has_z_translation>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_y_scaling>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">267.43</ccf:has_y_translation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHLeftKidney"/>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_z_scaling>
     <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">570.86</ccf:has_x_translation>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_x_scaling>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans"/>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC1">
+    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
+    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
+    <rdfs:label>Visual Human Female Spleen (CC1)</rdfs:label>
+    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.7</ccf:has_y_dimension>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
+    <ccf:creator_last_name>Browne</ccf:creator_last_name>
+    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.04</ccf:has_z_dimension>
+    <dc:creator>Kristin Browne</dc:creator>
+    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.9</ccf:has_x_dimension>
+    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenGlobalPlacement1">
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleen"/>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">76.8</ccf:has_x_rotation>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">578.24</ccf:has_x_translation>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.033</ccf:has_z_translation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">345.82</ccf:has_y_translation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHRightKidneyGlobalPlacement1">
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22</ccf:has_y_rotation>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.735</ccf:has_x_scaling>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.721</ccf:has_z_rotation>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">80.783</ccf:has_z_translation>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.735</ccf:has_z_scaling>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.735</ccf:has_y_scaling>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">275.92</ccf:has_y_translation>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHRightKidney"/>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-21.9</ccf:has_x_rotation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">438.03</ccf:has_x_translation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC3GlobalPlacement">
     <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31.689</ccf:has_z_translation>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
     <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC3"/>
     <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">312.77</ccf:has_y_translation>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
     <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">578.21</ccf:has_x_translation>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">312.77</ccf:has_y_translation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleObj">
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialObjectReference"/>
+    <ccf:has_object_file_format>model/gltf-binary</ccf:has_object_file_format>
+    <ccf:has_object_file>https://hubmapconsortium.github.io/hubmap-ontology/objects/female-torso.glb</ccf:has_object_file>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC1GlobalPlacement1">
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.16</ccf:has_z_translation>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">360.08</ccf:has_y_translation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">537.23</ccf:has_x_translation>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemale">
+    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemaleObj"/>
+    <ccf:creator_last_name>Herr</ccf:creator_last_name>
+    <ccf:creator_first_name>Bruce</ccf:creator_first_name>
+    <dc:creator>Bruce Herr - https://orcid.org/0000-0002-6703-7647</dc:creator>
+    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_x_dimension>
+    <rdfs:label>Visual Human (Both Sexes)</rdfs:label>
+    <ccf:ccf_representation_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
+    <ccf:creator_orcid>https://orcid.org/0000-0002-6703-7647</ccf:creator_orcid>
+    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
+    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_y_dimension>
+    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
+    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">200</ccf:has_z_dimension>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleObjPlacement">
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">110</ccf:has_z_translation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_z_scaling>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_x_scaling>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_y_scaling>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">34</ccf:has_y_translation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">490</ccf:has_x_translation>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemaleObj"/>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHRightKidneyCubePlacement">
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHRightKidneyCube"/>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_z_scaling>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHRightKidney"/>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100</ccf:has_y_scaling>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_x_scaling>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleen">
+    <ccf:creator_last_name>Browne</ccf:creator_last_name>
+    <rdfs:label>Visual Human Female Spleen</rdfs:label>
+    <dc:creator>Kristin Browne</dc:creator>
+    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCube"/>
+    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
+    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
+    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
+    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">67</ccf:has_y_dimension>
+    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">82</ccf:has_z_dimension>
+    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">82</ccf:has_x_dimension>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgansObj">
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialObjectReference"/>
+    <ccf:has_object_file>https://hubmapconsortium.github.io/hubmap-ontology/objects/VHF_United_v01_060420.glb</ccf:has_object_file>
+    <ccf:has_object_file_format>model/gltf-binary</ccf:has_object_file_format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMaleObj">
+    <ccf:has_object_file>https://hubmapconsortium.github.io/hubmap-ontology/objects/male-torso.glb</ccf:has_object_file>
+    <ccf:has_object_file_format>model/gltf-binary</ccf:has_object_file_format>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialObjectReference"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHBothSexesObjGlobalPlacement">
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBody"/>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHBothSexes">
+    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
+    <ccf:ccf_representation_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
+    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_y_dimension>
+    <dc:creator>Bruce Herr - https://orcid.org/0000-0002-6703-7647</dc:creator>
+    <rdfs:label>Visual Human (Both Sexes)</rdfs:label>
+    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexesObj"/>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
+    <ccf:creator_first_name>Bruce</ccf:creator_first_name>
+    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">200</ccf:has_z_dimension>
+    <ccf:creator_last_name>Herr</ccf:creator_last_name>
+    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_x_dimension>
+    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
+    <ccf:creator_orcid>https://orcid.org/0000-0002-6703-7647</ccf:creator_orcid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenGlobalPlacement2">
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">578.24</ccf:has_x_translation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleen"/>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">76.8</ccf:has_x_rotation>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.033</ccf:has_z_translation>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">345.82</ccf:has_y_translation>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC2GlobalPlacement1">
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">345.7</ccf:has_y_translation>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC2"/>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.367</ccf:has_z_translation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">557.36</ccf:has_x_translation>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMaleObjGlobalPlacement">
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBody"/>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgansGlobalPlacement2">
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans"/>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHBody">
+    <ccf:creator_last_name>Herr</ccf:creator_last_name>
+    <rdfs:label>Visual Human Body</rdfs:label>
+    <ccf:creator_first_name>Bruce</ccf:creator_first_name>
+    <dc:creator>Bruce Herr - https://orcid.org/0000-0002-6703-7647</dc:creator>
+    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_x_dimension>
+    <ccf:ccf_representation_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
+    <ccf:creator_orcid>https://orcid.org/0000-0002-6703-7647</ccf:creator_orcid>
+    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
+    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_y_dimension>
+    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
+    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">200</ccf:has_z_dimension>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC2GlobalPlacement2">
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC2"/>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">335.7</ccf:has_y_translation>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">567.36</ccf:has_x_translation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.367</ccf:has_z_translation>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgansGlobalPlacement">
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans"/>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC3">
+    <ccf:creator_last_name>Browne</ccf:creator_last_name>
+    <dc:creator>Kristin Browne</dc:creator>
+    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.54</ccf:has_z_dimension>
+    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">43.4</ccf:has_y_dimension>
+    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
+    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
+    <rdfs:label>Visual Human Female Spleen (CC3)</rdfs:label>
+    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">58.7</ccf:has_x_dimension>
+    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenGlobalPlacement">
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">76.8</ccf:has_x_rotation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleen"/>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">345.82</ccf:has_y_translation>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.033</ccf:has_z_translation>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">578.24</ccf:has_x_translation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHRightKidneyGlobalPlacement">
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_z_scaling>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">428.03</ccf:has_x_translation>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.783</ccf:has_z_translation>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_x_scaling>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-40</ccf:has_x_rotation>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHRightKidney"/>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">275.92</ccf:has_y_translation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-36.3</ccf:has_y_rotation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_y_scaling>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMaleObjPlacement">
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_x_scaling>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">110</ccf:has_z_translation>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">34</ccf:has_y_translation>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_y_scaling>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_z_scaling>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMaleObj"/>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">490</ccf:has_x_translation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHLeftKidneyGlobalPlacement1">
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">297.43</ccf:has_y_translation>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.3</ccf:has_y_rotation>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHLeftKidney"/>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-26</ccf:has_x_rotation>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_x_scaling>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">75.801</ccf:has_z_translation>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_y_scaling>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">550.86</ccf:has_x_translation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.2</ccf:has_z_rotation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_z_scaling>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCubePlacement">
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleen"/>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">67</ccf:has_y_scaling>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">82</ccf:has_x_scaling>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">82</ccf:has_z_scaling>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCube"/>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC3GlobalPlacement1">
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">322.77</ccf:has_y_translation>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">568.21</ccf:has_x_translation>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31.689</ccf:has_z_translation>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC3"/>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgansGlobalPlacement2">
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans"/>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC1GlobalPlacement2">
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">547.23</ccf:has_x_translation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">350.08</ccf:has_y_translation>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.16</ccf:has_z_translation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC1"/>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgansObjPlacement">
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans"/>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.677</ccf:has_y_scaling>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgansObj"/>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">92</ccf:has_z_translation>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.677</ccf:has_z_scaling>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-196</ccf:has_y_translation>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.677</ccf:has_x_scaling>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">482</ccf:has_x_translation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHLeftKidneyGlobalPlacement">
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">267.43</ccf:has_y_translation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-20.1</ccf:has_x_rotation>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_z_scaling>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_y_scaling>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">70.801</ccf:has_z_translation>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHLeftKidney"/>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">560.86</ccf:has_x_translation>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_x_scaling>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHBothSexesObjPlacement">
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_z_scaling>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">34</ccf:has_y_translation>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_x_scaling>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">490</ccf:has_x_translation>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">110</ccf:has_z_translation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexesObj"/>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_y_scaling>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgansObjPlacement">
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_y_scaling>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans"/>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">490</ccf:has_x_translation>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_z_scaling>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgansObj"/>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_x_scaling>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">110</ccf:has_z_translation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">34</ccf:has_y_translation>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHBothSexesObj">
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialObjectReference"/>
+    <ccf:has_object_file_format>model/gltf-binary</ccf:has_object_file_format>
+    <ccf:has_object_file>https://hubmapconsortium.github.io/hubmap-ontology/objects/both-sexes-torso.glb</ccf:has_object_file>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHLeftKidneyGlobalPlacement2">
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHLeftKidney"/>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_z_scaling>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-20.1</ccf:has_x_rotation>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">570.86</ccf:has_x_translation>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">267.43</ccf:has_y_translation>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_x_scaling>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_y_scaling>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.801</ccf:has_z_translation>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgansObj">
     <ccf:has_object_file>https://hubmapconsortium.github.io/hubmap-ontology/objects/VHM_United_v02_06042020.glb</ccf:has_object_file>
     <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialObjectReference"/>
     <ccf:has_object_file_format>model/gltf-binary</ccf:has_object_file_format>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHLeftKidneyGlobalPlacement">
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">560.86</ccf:has_x_translation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHLeftKidney"/>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_z_scaling>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-20.1</ccf:has_x_rotation>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">267.43</ccf:has_y_translation>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_y_scaling>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">70.801</ccf:has_z_translation>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_x_scaling>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgansGlobalPlacement2">
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans"/>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgans">
-    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">200</ccf:has_z_dimension>
-    <rdfs:label>Visual Human Male Organs</rdfs:label>
-    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
-    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_x_dimension>
-    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMaleOrgansObj"/>
-    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
-    <dc:creator>Kristin Browne</dc:creator>
-    <ccf:creator_last_name>Browne</ccf:creator_last_name>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
-    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_y_dimension>
-    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemale">
-    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
-    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemaleObj"/>
-    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">200</ccf:has_z_dimension>
-    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_x_dimension>
-    <ccf:ccf_representation_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
-    <ccf:creator_orcid>https://orcid.org/0000-0002-6703-7647</ccf:creator_orcid>
-    <ccf:creator_last_name>Herr</ccf:creator_last_name>
-    <rdfs:label>Visual Human (Both Sexes)</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
-    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
-    <ccf:creator_first_name>Bruce</ccf:creator_first_name>
-    <dc:creator>Bruce Herr - https://orcid.org/0000-0002-6703-7647</dc:creator>
-    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_y_dimension>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC2">
-    <rdfs:label>Visual Human Female Spleen (CC2)</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
-    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
-    <dc:creator>Kristin Browne</dc:creator>
-    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.1</ccf:has_y_dimension>
-    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
-    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">63</ccf:has_x_dimension>
-    <ccf:creator_last_name>Browne</ccf:creator_last_name>
-    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
-    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.89</ccf:has_z_dimension>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC1">
-    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
-    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
-    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.9</ccf:has_x_dimension>
-    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.04</ccf:has_z_dimension>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
-    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
-    <dc:creator>Kristin Browne</dc:creator>
-    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.7</ccf:has_y_dimension>
-    <rdfs:label>Visual Human Female Spleen (CC1)</rdfs:label>
-    <ccf:creator_last_name>Browne</ccf:creator_last_name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenGlobalPlacement1">
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">76.8</ccf:has_x_rotation>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.033</ccf:has_z_translation>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">578.24</ccf:has_x_translation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleen"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">345.82</ccf:has_y_translation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHBothSexes">
-    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
-    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_y_dimension>
-    <rdfs:label>Visual Human (Both Sexes)</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
-    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
-    <ccf:creator_orcid>https://orcid.org/0000-0002-6703-7647</ccf:creator_orcid>
-    <ccf:ccf_representation_of rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
-    <ccf:creator_last_name>Herr</ccf:creator_last_name>
-    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000</ccf:has_x_dimension>
-    <ccf:creator_first_name>Bruce</ccf:creator_first_name>
-    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">200</ccf:has_z_dimension>
-    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexesObj"/>
-    <dc:creator>Bruce Herr - https://orcid.org/0000-0002-6703-7647</dc:creator>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC2GlobalPlacement1">
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC2"/>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">345.7</ccf:has_y_translation>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">557.36</ccf:has_x_translation>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.367</ccf:has_z_translation>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleen">
-    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
-    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">82</ccf:has_z_dimension>
-    <rdfs:label>Visual Human Female Spleen</rdfs:label>
-    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
-    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
-    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">82</ccf:has_x_dimension>
-    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCube"/>
-    <dc:creator>Kristin Browne</dc:creator>
-    <ccf:creator_last_name>Browne</ccf:creator_last_name>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
-    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">67</ccf:has_y_dimension>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMaleObjGlobalPlacement">
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBody"/>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMaleObjPlacement">
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_x_scaling>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">110</ccf:has_z_translation>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_y_scaling>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_z_scaling>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">490</ccf:has_x_translation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">34</ccf:has_y_translation>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMaleObj"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHBothSexesObj">
-    <ccf:has_object_file>https://hubmapconsortium.github.io/hubmap-ontology/objects/both-sexes-torso.glb</ccf:has_object_file>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialObjectReference"/>
-    <ccf:has_object_file_format>model/gltf-binary</ccf:has_object_file_format>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC3GlobalPlacement2">
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">578.21</ccf:has_x_translation>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">312.77</ccf:has_y_translation>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31.689</ccf:has_z_translation>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC3"/>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHBothSexesObjPlacement">
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">490</ccf:has_x_translation>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">110</ccf:has_z_translation>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexesObj"/>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">34</ccf:has_y_translation>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_z_scaling>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_y_scaling>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_x_scaling>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC2GlobalPlacement2">
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">567.36</ccf:has_x_translation>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">335.7</ccf:has_y_translation>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC2"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.367</ccf:has_z_translation>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHRightKidneyCubePlacement">
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_z_scaling>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_x_scaling>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHRightKidneyCube"/>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100</ccf:has_y_scaling>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHRightKidney"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHBothSexesObjGlobalPlacement">
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBody"/>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleObjGlobalPlacement">
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBody"/>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgansObj">
-    <ccf:has_object_file>https://hubmapconsortium.github.io/hubmap-ontology/objects/VHF_United_v01_060420.glb</ccf:has_object_file>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialObjectReference"/>
-    <ccf:has_object_file_format>model/gltf-binary</ccf:has_object_file_format>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHRightKidneyGlobalPlacement1">
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">438.03</ccf:has_x_translation>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">80.783</ccf:has_z_translation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22</ccf:has_y_rotation>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.735</ccf:has_x_scaling>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-21.9</ccf:has_x_rotation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">275.92</ccf:has_y_translation>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.735</ccf:has_z_scaling>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.735</ccf:has_y_scaling>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.721</ccf:has_z_rotation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHRightKidney"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC3GlobalPlacement1">
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">322.77</ccf:has_y_translation>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC3"/>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">568.21</ccf:has_x_translation>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHMale"/>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31.689</ccf:has_z_translation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenGlobalPlacement2">
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">345.82</ccf:has_y_translation>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleen"/>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">578.24</ccf:has_x_translation>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">76.8</ccf:has_x_rotation>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.033</ccf:has_z_translation>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgansGlobalPlacement2">
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemaleOrgans"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHRightKidneyGlobalPlacement2">
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_y_scaling>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-40</ccf:has_x_rotation>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.783</ccf:has_z_translation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_x_scaling>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">275.92</ccf:has_y_translation>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-36.3</ccf:has_y_rotation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHRightKidney"/>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</ccf:has_z_scaling>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">428.03</ccf:has_x_translation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleObjPlacement">
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">110</ccf:has_z_translation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemaleObj"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_y_scaling>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">490</ccf:has_x_translation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">34</ccf:has_y_translation>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_z_scaling>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</ccf:has_x_scaling>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC1GlobalPlacement2">
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC1"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">350.08</ccf:has_y_translation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">547.23</ccf:has_x_translation>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.16</ccf:has_z_translation>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHRightKidney">
-    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100</ccf:has_y_dimension>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
-    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
-    <dc:creator>Kristin Browne</dc:creator>
-    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_z_dimension>
-    <rdfs:label>Visual Human Female Right Kidney</rdfs:label>
-    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_x_dimension>
-    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
-    <ccf:creator_last_name>Browne</ccf:creator_last_name>
-    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
-    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHRightKidneyCube"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHLeftKidneyCubePlacement">
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_x_scaling>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_rotation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHLeftKidneyCube"/>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_z_scaling>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_translation>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_translation>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_x_translation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHLeftKidney"/>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100</ccf:has_y_scaling>
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenGlobalPlacement">
-    <ccf:scaling_units>ratio</ccf:scaling_units>
-    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_y_rotation>
-    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.033</ccf:has_z_translation>
-    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
-    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
-    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
-    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">578.24</ccf:has_x_translation>
-    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
-    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">76.8</ccf:has_x_rotation>
-    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleen"/>
-    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHFemale"/>
-    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
-    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
-    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">345.82</ccf:has_y_translation>
-    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHLeftKidney">
-    <ccf:creator_last_name>Browne</ccf:creator_last_name>
-    <ccf:creator_first_name>Kristin</ccf:creator_first_name>
-    <ccf:has_z_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_z_dimension>
-    <ccf:has_y_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100</ccf:has_y_dimension>
-    <ccf:has_dimension_units>millimeter</ccf:has_dimension_units>
-    <ccf:has_object_reference rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHLeftKidneyCube"/>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialEntity"/>
-    <dc:creator>Kristin Browne</dc:creator>
-    <rdfs:label>Visual Human Female Left Kidney</rdfs:label>
-    <ccf:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:creation_date>
-    <ccf:has_x_dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60</ccf:has_x_dimension>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHLeftKidneyCube">
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialObjectReference"/>
-    <ccf:has_object_file_format>model/gltf-binary</ccf:has_object_file_format>
-    <ccf:has_object_file>https://hubmapconsortium.github.io/hubmap-ontology/objects/cube.gltf</ccf:has_object_file>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHMaleObj">
-    <ccf:has_object_file_format>model/gltf-binary</ccf:has_object_file_format>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialObjectReference"/>
-    <ccf:has_object_file>https://hubmapconsortium.github.io/hubmap-ontology/objects/male-torso.glb</ccf:has_object_file>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHFemaleObj">
-    <ccf:has_object_file>https://hubmapconsortium.github.io/hubmap-ontology/objects/female-torso.glb</ccf:has_object_file>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialObjectReference"/>
-    <ccf:has_object_file_format>model/gltf-binary</ccf:has_object_file_format>
-  </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHRightKidneyCube">
     <ccf:has_object_file>https://hubmapconsortium.github.io/hubmap-ontology/objects/cube.gltf</ccf:has_object_file>
-    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialObjectReference"/>
     <ccf:has_object_file_format>model/gltf-binary</ccf:has_object_file_format>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialObjectReference"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC3GlobalPlacement2">
+    <ccf:has_placement_target rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHBothSexes"/>
+    <ccf:has_y_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-52</ccf:has_y_rotation>
+    <ccf:has_x_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">578.21</ccf:has_x_translation>
+    <ccf:has_placement_source rdf:resource="http://purl.org/ccf/latest/ccf.owl#VHSpleenCC3"/>
+    <ccf:scaling_units>ratio</ccf:scaling_units>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialPlacement"/>
+    <ccf:has_z_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_z_scaling>
+    <ccf:has_translation_units>millimeter</ccf:has_translation_units>
+    <ccf:has_x_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-90</ccf:has_x_rotation>
+    <ccf:has_z_rotation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0</ccf:has_z_rotation>
+    <ccf:has_rotation_units>degree</ccf:has_rotation_units>
+    <ccf:has_placement_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</ccf:has_placement_date>
+    <ccf:has_x_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_x_scaling>
+    <ccf:has_y_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">312.77</ccf:has_y_translation>
+    <ccf:has_y_scaling rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</ccf:has_y_scaling>
+    <ccf:has_z_translation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31.689</ccf:has_z_translation>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHSpleenCube">
-    <ccf:has_object_file>https://hubmapconsortium.github.io/hubmap-ontology/objects/cube.gltf</ccf:has_object_file>
     <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialObjectReference"/>
+    <ccf:has_object_file>https://hubmapconsortium.github.io/hubmap-ontology/objects/cube.gltf</ccf:has_object_file>
     <ccf:has_object_file_format>model/gltf-binary</ccf:has_object_file_format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ccf/latest/ccf.owl#VHLeftKidneyCube">
+    <ccf:has_object_file>https://hubmapconsortium.github.io/hubmap-ontology/objects/cube.gltf</ccf:has_object_file>
+    <ccf:has_object_file_format>model/gltf-binary</ccf:has_object_file_format>
+    <rdf:type rdf:resource="http://purl.org/ccf/latest/ccf.owl#SpatialObjectReference"/>
   </rdf:Description>
 </rdf:RDF>
