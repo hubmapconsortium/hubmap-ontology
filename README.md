@@ -1,6 +1,6 @@
 # The Common Coordinate Framework (CCF)
 
-> :warning: **WORK IN PROGRESS** This is the in-development code for CCF v0.6.0 and beyond. The previous version (v0.5.1) code and documentation is available [here](https://github.com/hubmapconsortium/hubmap-ontology/tree/v0.5.1).
+[![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)
 
 The CCF consists of seven parts:
 
@@ -25,6 +25,10 @@ The CCF consists of seven parts:
   * CSV Version: <http://purl.org/ccf/latest/ccf-partonomy.csv>
   * JSON-LD Version: <http://purl.org/ccf/latest/ccf-partonomy.jsonld>
   * Visualization: <http://purl.org/ccf/latest/ccf-partonomy.html>
+
+## License
+
+The CCF Ontology is CC-BY 4.0 licensed. The code to generate the ontology is MIT licensed.
 
 ## Credits
 
