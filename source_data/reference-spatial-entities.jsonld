@@ -14,6 +14,19 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#RUISpace",
+    "@type": "SpatialEntity",
+    "label": "RUI Space",
+    "comment": "The abstract space where all reference organs are translated into so that the RUI can properly display the organ",
+    "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
+    "creator_first_name": "Bruce",
+    "creator_last_name": "Herr",
+    "creator_orcid": "https://orcid.org/0000-0002-6703-7647",
+    "creation_date": "2020-09-25",
+    "x_dimension": 1000, "y_dimension": 1000, "z_dimension": 200, "dimension_units": "millimeter"
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHBothSexes",
     "@type": "SpatialEntity",
     "label": "Visual Human (Both Sexes)",
@@ -156,7 +169,7 @@
     "object": {
       "@id": "#VHFemaleOrgansObj",
       "@type": "SpatialObjectReference",
-      "file": "https://hubmapconsortium.github.io/hubmap-ontology/objects/VHF_United_v01_060420.glb",
+      "file": "https://hubmapconsortium.github.io/ccf-3d-reference-object-library/VH_Female/United/VHF_United_Color.glb",
       "file_format": "model/gltf-binary",
 
       "placement": {
@@ -211,7 +224,7 @@
     "object": {
       "@id": "#VHMaleOrgansObj",
       "@type": "SpatialObjectReference",
-      "file": "https://hubmapconsortium.github.io/hubmap-ontology/objects/VHM_United_v02_06042020.glb",
+      "file": "https://hubmapconsortium.github.io/ccf-3d-reference-object-library/VH_Male/United/VHM_United_Color.glb",
       "file_format": "model/gltf-binary",
 
       "placement": {

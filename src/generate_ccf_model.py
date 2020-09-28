@@ -11,12 +11,18 @@ with onto:
     pass
   class ccf_part_of_rank(ObjectProperty):
     range = [int]
+  class ccf_rui_rank(ObjectProperty):
+    range = [int]
   class ccf_annotation(ObjectProperty):
     pass
   class ccf_freetext_annotation(ObjectProperty):
     range = [str]
   class ccf_same_as(ObjectProperty):
     pass
+  class has_sex(ObjectProperty):
+    range = [str]
+  class has_side(ObjectProperty):
+    range = [str]
 
   class ccf_preferred_label(AnnotationProperty, FunctionalProperty):
     range = [str]
@@ -116,6 +122,17 @@ with onto:
   class has_placement_target(ObjectProperty):
     domain = [SpatialPlacement]
     range = [SpatialEntity]
+
+  class anatomical_structure_of(ObjectProperty):
+    domain = [SpatialEntity]
+    range = [SpatialEntity]
+
+  class ExtractionSet(Thing):
+    label = 'extraction set'
+
+  class extraction_site_for(ObjectProperty):
+    domain = [SpatialEntity]
+    range = [ExtractionSet]
 
   """ NOTE: Not Ready for prime time
   class Entity(Thing):
