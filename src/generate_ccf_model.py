@@ -130,6 +130,10 @@ with onto:
   class ExtractionSet(Thing):
     label = 'extraction set'
 
+  class extraction_set_for(ObjectProperty):
+    domain = [ExtractionSet]
+    range = [SpatialEntity]
+
   class extraction_site_for(ObjectProperty):
     domain = [SpatialEntity]
     range = [ExtractionSet]

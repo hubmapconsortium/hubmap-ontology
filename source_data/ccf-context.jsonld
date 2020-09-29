@@ -39,6 +39,10 @@
       "@id": "anatomical_structure_of",
       "@type": "@id"
     },
+    "extraction_set_for": {
+      "@id": "extraction_set_for",
+      "@type": "@id"
+    },
     "extraction_set": {
       "@id": "extraction_site_for",
       "@type": "@id"
