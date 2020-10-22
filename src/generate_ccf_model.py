@@ -23,6 +23,10 @@ with onto:
     range = [str]
   class has_side(ObjectProperty):
     range = [str]
+  class ccf_slice_thickness(ObjectProperty):
+    range = [int]
+  class ccf_slice_count(ObjectProperty):
+    range = [int]
 
   class ccf_preferred_label(AnnotationProperty, FunctionalProperty):
     range = [str]

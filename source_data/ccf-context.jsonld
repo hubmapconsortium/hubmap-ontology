@@ -59,6 +59,14 @@
       "@id": "ccf_rui_rank",
       "@type": "xsd:integer"
     },
+    "slice_thickness": {
+      "@id": "ccf_slice_thickness",
+      "@type": "xsd:integer"
+    },
+    "slice_count": {
+      "@id": "ccf_slice_count",
+      "@type": "xsd:integer"
+    },
 
     "object": {
       "@id": "has_object_reference"
