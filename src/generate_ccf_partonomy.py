@@ -4,7 +4,8 @@ from csv import DictReader
 from operator import itemgetter
 from os import path
 from owlready2 import *
-from rdflib import Graph, Namespace, URIRef, RDFS, Literal
+from rdflib.extras.infixowl import OWL_NS, Class, Restriction, Property
+from rdflib import Graph, Namespace, URIRef, RDF, RDFS, Literal
 from constants import CCF_NAMESPACE, CCF_PARTONOMY_TERMS, CCF_PARTONOMY_RDF, CCF_PARTONOMY_JSONLD
 
 
@@ -62,6 +63,8 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
   ccf_part_of = ccf_ns.ccf_part_of
   g = Graph()
   g.namespace_manager.bind('ccf', ccf_ns, override=False)
+  g.namespace_manager.bind('owl', OWL_NS, override=False)
+  classes = {}
 
   body = get_term('UBERON:0013702')
   terms = { body.iri: get_term_data('UBERON:0013702', 'body', body, 0, None) }
@@ -80,6 +83,15 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
         print(f'Removed self-link: ${child}: ${child_term.iri}')
       else:
         g.add( (URIRef(child_term.iri), ccf_part_of, URIRef(parent_term.iri)) )
+
+        if parent_term.iri not in classes:
+          classes[parent_term.iri] = Class(URIRef(parent_term.iri), graph=g)
+        if child_term.iri not in classes:
+          classes[child_term.iri] = Class(URIRef(child_term.iri), graph=g)
+
+        parent_class = classes[parent_term.iri]
+        child_class = classes[child_term.iri]
+        child_class.subClassOf = [parent_class, Restriction(ccf_part_of, graph=g, someValuesFrom=parent_class)]
 
         child_label = row['HuBMAP Preferred Name'].strip()
         if not child_label:
