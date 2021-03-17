@@ -1,32 +1,6 @@
 [
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-    "@id": "#VHBody",
-    "@type": "SpatialEntity",
-    "label": "Visual Human Body",
-    "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
-    "creator_first_name": "Bruce",
-    "creator_last_name": "Herr",
-    "creator_orcid": "https://orcid.org/0000-0002-6703-7647",
-    "creation_date": "2020-01-01",
-    "representation_of": "obo:UBERON_0005172",
-    "x_dimension": 1000, "y_dimension": 1000, "z_dimension": 200, "dimension_units": "millimeter"
-  },
-  {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-    "@id": "#RUISpace",
-    "@type": "SpatialEntity",
-    "label": "RUI Space",
-    "comment": "The abstract space where all reference organs are translated into so that the RUI can properly display the organ",
-    "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
-    "creator_first_name": "Bruce",
-    "creator_last_name": "Herr",
-    "creator_orcid": "https://orcid.org/0000-0002-6703-7647",
-    "creation_date": "2020-09-25",
-    "x_dimension": 1000, "y_dimension": 1000, "z_dimension": 200, "dimension_units": "millimeter"
-  },
-  {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHBothSexes",
     "@type": "SpatialEntity",
     "label": "Visual Human (Both Sexes)",
@@ -36,37 +10,7 @@
     "creator_orcid": "https://orcid.org/0000-0002-6703-7647",
     "creation_date": "2020-01-01",
     "representation_of": "obo:UBERON_0005172",
-    "x_dimension": 1000, "y_dimension": 1000, "z_dimension": 200, "dimension_units": "millimeter",
-
-    "object": {
-      "@id": "#VHBothSexesObj",
-      "@type": "SpatialObjectReference",
-      "file": "https://hubmapconsortium.github.io/hubmap-ontology/objects/both-sexes-torso.glb",
-      "file_format": "model/gltf-binary",
-
-      "placement": {
-        "@id": "#VHBothSexesObjPlacement",
-        "@type": "SpatialPlacement",
-        "target": "#VHBothSexes",
-        "placement_date": "2020-01-01",
-  
-        "x_scaling": 0.076, "y_scaling": 0.076, "z_scaling": 0.076, "scaling_units": "ratio",
-        "x_rotation": -90, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 490, "y_translation": 34, "z_translation": 110, "translation_units": "millimeter"
-      }
-    },
-
-    "placement": {
-      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-      "@id": "#VHBothSexesObjGlobalPlacement",
-      "@type": "SpatialPlacement",
-      "target": "#VHBody",
-      "placement_date": "2020-01-01",
-  
-      "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-      "x_rotation": 0, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-      "x_translation": 0, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
-    }
+    "x_dimension": 1000, "y_dimension": 1000, "z_dimension": 200, "dimension_units": "millimeter"
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
@@ -81,35 +25,19 @@
     "representation_of": "obo:UBERON_0005172",
     "x_dimension": 1000, "y_dimension": 1000, "z_dimension": 200, "dimension_units": "millimeter",
 
-    "object": {
-      "@id": "#VHMaleObj",
-      "@type": "SpatialObjectReference",
-      "file": "https://hubmapconsortium.github.io/hubmap-ontology/objects/male-torso.glb",
-      "file_format": "model/gltf-binary",
-
-      "placement": {
-        "@id": "#VHMaleObjPlacement",
+    "placement": [
+      {
+        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+        "@id": "#VHMaleGlobalPlacement2",
         "@type": "SpatialPlacement",
-        "target": "#VHMale",
+        "target": "#VHBothSexes",
         "placement_date": "2020-01-01",
-  
-        "x_scaling": 0.076, "y_scaling": 0.076, "z_scaling": 0.076, "scaling_units": "ratio",
-        "x_rotation": -90, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 490, "y_translation": 34, "z_translation": 110, "translation_units": "millimeter"
+    
+        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
+        "x_rotation": 0, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
+        "x_translation": -375, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
       }
-    },
-
-    "placement": {
-      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-      "@id": "#VHMaleObjGlobalPlacement",
-      "@type": "SpatialPlacement",
-      "target": "#VHBody",
-      "placement_date": "2020-01-01",
-  
-      "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-      "x_rotation": 0, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-      "x_translation": 0, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
-    }
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
@@ -124,35 +52,19 @@
     "representation_of": "obo:UBERON_0005172",
     "x_dimension": 1000, "y_dimension": 1000, "z_dimension": 200, "dimension_units": "millimeter",
 
-    "object": {
-      "@id": "#VHFemaleObj",
-      "@type": "SpatialObjectReference",
-      "file": "https://hubmapconsortium.github.io/hubmap-ontology/objects/female-torso.glb",
-      "file_format": "model/gltf-binary",
-
-      "placement": {
-        "@id": "#VHFemaleObjPlacement",
+    "placement": [
+      {
+        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+        "@id": "#VHFemaleGlobalPlacement2",
         "@type": "SpatialPlacement",
-        "target": "#VHFemale",
+        "target": "#VHBothSexes",
         "placement_date": "2020-01-01",
-  
-        "x_scaling": 0.076, "y_scaling": 0.076, "z_scaling": 0.076, "scaling_units": "ratio",
-        "x_rotation": -90, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 490, "y_translation": 34, "z_translation": 110, "translation_units": "millimeter"
+    
+        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
+        "x_rotation": 0, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
+        "x_translation": 375, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
       }
-    },
-
-    "placement": {
-      "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-      "@id": "#VHFemaleObjGlobalPlacement",
-      "@type": "SpatialPlacement",
-      "target": "#VHBody",
-      "placement_date": "2020-01-01",
-  
-      "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-      "x_rotation": 0, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-      "x_translation": 0, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
-    }
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
@@ -169,7 +81,7 @@
     "object": {
       "@id": "#VHFemaleOrgansObj",
       "@type": "SpatialObjectReference",
-      "file": "https://hubmapconsortium.github.io/ccf-3d-reference-object-library/VH_Female/United/VHF_United_Color.glb",
+      "file": "https://hubmapconsortium.github.io/hubmap-ontology/staging/objects/VHF_United_Color.glb",
       "file_format": "model/gltf-binary",
 
       "placement": {
@@ -178,9 +90,9 @@
         "target": "#VHFemaleOrgans",
         "placement_date": "2020-01-01",
   
-        "x_scaling": 0.076, "y_scaling": 0.076, "z_scaling": 0.076, "scaling_units": "ratio",
+        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
         "x_rotation": -90, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 490, "y_translation": 34, "z_translation": 110, "translation_units": "millimeter"
+        "x_translation": 0, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
       }
     },
 
@@ -190,17 +102,6 @@
         "@id": "#VHFemaleOrgansGlobalPlacement",
         "@type": "SpatialPlacement",
         "target": "#VHFemale",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-        "x_rotation": 0, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 0, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
-      },
-      {
-        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHFemaleOrgansGlobalPlacement2",
-        "@type": "SpatialPlacement",
-        "target": "#VHBothSexes",
         "placement_date": "2020-01-01",
     
         "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
@@ -224,7 +125,7 @@
     "object": {
       "@id": "#VHMaleOrgansObj",
       "@type": "SpatialObjectReference",
-      "file": "https://hubmapconsortium.github.io/ccf-3d-reference-object-library/VH_Male/United/VHM_United_Color.glb",
+      "file": "https://hubmapconsortium.github.io/hubmap-ontology/staging/objects/VHM_United_Color.glb",
       "file_format": "model/gltf-binary",
 
       "placement": {
@@ -233,9 +134,9 @@
         "target": "#VHMaleOrgans",
         "placement_date": "2020-01-01",
   
-        "x_scaling": 0.677, "y_scaling": 0.677, "z_scaling": 0.677, "scaling_units": "ratio",
+        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
         "x_rotation": -90, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 482, "y_translation": -196, "z_translation": 92, "translation_units": "millimeter"
+        "x_translation": 0, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
       }
     },
 
@@ -245,17 +146,6 @@
         "@id": "#VHMaleOrgansGlobalPlacement",
         "@type": "SpatialPlacement",
         "target": "#VHMale",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-        "x_rotation": 0, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 0, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
-      },
-      {
-        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHMaleOrgansGlobalPlacement2",
-        "@type": "SpatialPlacement",
-        "target": "#VHBothSexes",
         "placement_date": "2020-01-01",
     
         "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
@@ -299,34 +189,23 @@
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
         "@id": "#VHRightKidneyGlobalPlacement",
         "@type": "SpatialPlacement",
-        "target": "#VHFemale",
+        "target": "#VHFRightKidney",
         "placement_date": "2020-01-01",
 
         "x_scaling": 0.7, "y_scaling": 0.7, "z_scaling": 0.7, "scaling_units": "ratio",
         "x_rotation": -40, "y_rotation": -36.3, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 428.03, "y_translation": 275.92, "z_translation": 65.783, "translation_units": "millimeter"
+        "x_translation": 30, "y_translation": 50, "z_translation": 30, "translation_units": "millimeter"
       },
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
         "@id": "#VHRightKidneyGlobalPlacement1",
         "@type": "SpatialPlacement",
-        "target": "#VHMale",
+        "target": "#VHMRightKidney",
         "placement_date": "2020-01-01",
 
         "x_scaling": 0.735, "y_scaling": 0.735, "z_scaling": 0.735, "scaling_units": "ratio",
         "x_rotation": -21.9, "y_rotation": 22, "z_rotation": -0.721, "rotation_units": "degree",
-        "x_translation": 438.03, "y_translation": 275.92, "z_translation": 80.783, "translation_units": "millimeter"
-      },
-      {
-        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHRightKidneyGlobalPlacement2",
-        "@type": "SpatialPlacement",
-        "target": "#VHBothSexes",
-        "placement_date": "2020-01-01",
-
-        "x_scaling": 0.7, "y_scaling": 0.7, "z_scaling": 0.7, "scaling_units": "ratio",
-        "x_rotation": -40, "y_rotation": -36.3, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 428.03, "y_translation": 275.92, "z_translation": 65.783, "translation_units": "millimeter"
+        "x_translation": 30, "y_translation": 50, "z_translation": 30, "translation_units": "millimeter"
       }
     ]
   },
@@ -365,34 +244,23 @@
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
         "@id": "#VHLeftKidneyGlobalPlacement",
         "@type": "SpatialPlacement",
-        "target": "#VHFemale",
+        "target": "#VHFLeftKidney",
         "placement_date": "2020-01-01",
     
         "x_scaling": 0.7, "y_scaling": 0.7, "z_scaling": 0.7, "scaling_units": "ratio",
         "x_rotation": -20.1, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 560.86, "y_translation": 267.43, "z_translation": 70.801, "translation_units": "millimeter"
+        "x_translation": 30, "y_translation": 50, "z_translation": 30, "translation_units": "millimeter"
       },
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
         "@id": "#VHLeftKidneyGlobalPlacement1",
         "@type": "SpatialPlacement",
-        "target": "#VHMale",
+        "target": "#VHMLeftKidney",
         "placement_date": "2020-01-01",
     
         "x_scaling": 0.7, "y_scaling": 0.7, "z_scaling": 0.7, "scaling_units": "ratio",
         "x_rotation": -26, "y_rotation": 9.3, "z_rotation": 21.2, "rotation_units": "degree",
-        "x_translation": 550.86, "y_translation": 297.43, "z_translation": 75.801, "translation_units": "millimeter"
-      },
-      {
-        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHLeftKidneyGlobalPlacement2",
-        "@type": "SpatialPlacement",
-        "target": "#VHBothSexes",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 0.7, "y_scaling": 0.7, "z_scaling": 0.7, "scaling_units": "ratio",
-        "x_rotation": -20.1, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 570.86, "y_translation": 267.43, "z_translation": 65.801, "translation_units": "millimeter"
+        "x_translation": 30, "y_translation": 50, "z_translation": 30, "translation_units": "millimeter"
       }
     ]
   },
@@ -431,34 +299,23 @@
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
         "@id": "#VHSpleenGlobalPlacement",
         "@type": "SpatialPlacement",
-        "target": "#VHFemale",
+        "target": "#VHFSpleen",
         "placement_date": "2020-01-01",
     
         "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
         "x_rotation": 76.8, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 578.24, "y_translation": 345.82, "z_translation": 53.033, "translation_units": "millimeter"
+        "x_translation": 41, "y_translation": 33.5, "z_translation": 41, "translation_units": "millimeter"
       },
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
         "@id": "#VHSpleenGlobalPlacement1",
         "@type": "SpatialPlacement",
-        "target": "#VHMale",
+        "target": "#VHMSpleen",
         "placement_date": "2020-01-01",
     
         "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
         "x_rotation": 76.8, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 578.24, "y_translation": 345.82, "z_translation": 53.033, "translation_units": "millimeter"
-      },
-      {
-        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHSpleenGlobalPlacement2",
-        "@type": "SpatialPlacement",
-        "target": "#VHBothSexes",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-        "x_rotation": 76.8, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 578.24, "y_translation": 345.82, "z_translation": 53.033, "translation_units": "millimeter"
+        "x_translation": 41, "y_translation": 33.5, "z_translation": 41, "translation_units": "millimeter"
       }
     ]
   },
@@ -479,34 +336,23 @@
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
         "@id": "#VHSpleenCC1GlobalPlacement",
         "@type": "SpatialPlacement",
-        "target": "#VHFemale",
+        "target": "#VHFemaleOrgans_VHF_spleen_HuBMAP_CC1",
         "placement_date": "2020-01-01",
     
         "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
         "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 547.23, "y_translation": 350.08, "z_translation": 15.16, "translation_units": "millimeter"
+        "x_translation": 29.95, "y_translation": 20.35, "z_translation": 9.04, "translation_units": "millimeter"
       },
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
         "@id": "#VHSpleenCC1GlobalPlacement1",
         "@type": "SpatialPlacement",
-        "target": "#VHMale",
+        "target": "#VHMaleOrgans_VHM_spleen_HuBMAP_CC1",
         "placement_date": "2020-01-01",
     
         "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
         "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 537.23, "y_translation": 360.08, "z_translation": 15.16, "translation_units": "millimeter"
-      },
-      {
-        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHSpleenCC1GlobalPlacement2",
-        "@type": "SpatialPlacement",
-        "target": "#VHBothSexes",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-        "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 547.23, "y_translation": 350.08, "z_translation": 15.16, "translation_units": "millimeter"
+        "x_translation": 29.95, "y_translation": 20.35, "z_translation": 9.04, "translation_units": "millimeter"
       }
     ]
   },
@@ -527,34 +373,23 @@
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
         "@id": "#VHSpleenCC2GlobalPlacement",
         "@type": "SpatialPlacement",
-        "target": "#VHFemale",
+        "target": "#VHFemaleOrgans_VHF_spleen_HuBMAP_CC2",
         "placement_date": "2020-01-01",
     
         "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
         "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 567.36, "y_translation": 335.7, "z_translation": 18.367, "translation_units": "millimeter"
+        "x_translation": 31, "y_translation": 20.05, "z_translation": 8.89, "translation_units": "millimeter"
       },
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
         "@id": "#VHSpleenCC2GlobalPlacement1",
         "@type": "SpatialPlacement",
-        "target": "#VHMale",
+        "target": "#VHMaleOrgans_VHM_spleen_HuBMAP_CC2",
         "placement_date": "2020-01-01",
     
         "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
         "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 557.36, "y_translation": 345.7, "z_translation": 18.367, "translation_units": "millimeter"
-      },
-      {
-        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHSpleenCC2GlobalPlacement2",
-        "@type": "SpatialPlacement",
-        "target": "#VHBothSexes",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-        "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 567.36, "y_translation": 335.7, "z_translation": 18.367, "translation_units": "millimeter"
+        "x_translation": 31, "y_translation": 20.05, "z_translation": 8.89, "translation_units": "millimeter"
       }
     ]
   },
@@ -575,34 +410,23 @@
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
         "@id": "#VHSpleenCC3GlobalPlacement",
         "@type": "SpatialPlacement",
-        "target": "#VHFemale",
+        "target": "#VHFemaleOrgans_VHF_spleen_HuBMAP_CC3",
         "placement_date": "2020-01-01",
     
         "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
         "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 578.21, "y_translation": 312.77, "z_translation": 31.689, "translation_units": "millimeter"
+        "x_translation": 29.34, "y_translation": 21.7, "z_translation": 9.54, "translation_units": "millimeter"
       },
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
         "@id": "#VHSpleenCC3GlobalPlacement1",
         "@type": "SpatialPlacement",
-        "target": "#VHMale",
+        "target": "#VHMaleOrgans_VHM_spleen_HuBMAP_CC3",
         "placement_date": "2020-01-01",
     
         "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
         "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 568.21, "y_translation": 322.77, "z_translation": 31.689, "translation_units": "millimeter"
-      },
-      {
-        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHSpleenCC3GlobalPlacement2",
-        "@type": "SpatialPlacement",
-        "target": "#VHBothSexes",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-        "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 578.21, "y_translation": 312.77, "z_translation": 31.689, "translation_units": "millimeter"
+        "x_translation": 29.34, "y_translation": 21.7, "z_translation": 9.54, "translation_units": "millimeter"
       }
     ]
   }
