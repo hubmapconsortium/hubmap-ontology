@@ -81,7 +81,7 @@
     "object": {
       "@id": "#VHFemaleOrgansObj",
       "@type": "SpatialObjectReference",
-      "file": "https://hubmapconsortium.github.io/hubmap-ontology/staging/objects/VHF_United_Color.glb",
+      "file": "https://ccf-ontology.hubmapconsortium.org/objects/v1.0/VH_F_United.glb",
       "file_format": "model/gltf-binary",
 
       "placement": {
@@ -125,7 +125,7 @@
     "object": {
       "@id": "#VHMaleOrgansObj",
       "@type": "SpatialObjectReference",
-      "file": "https://hubmapconsortium.github.io/hubmap-ontology/staging/objects/VHM_United_Color.glb",
+      "file": "https://ccf-ontology.hubmapconsortium.org/objects/v1.0/VH_M_United.glb",
       "file_format": "model/gltf-binary",
 
       "placement": {
