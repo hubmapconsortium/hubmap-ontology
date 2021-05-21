@@ -66,6 +66,8 @@
       }
     ]
   },
+
+
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHFemaleOrgans",
@@ -154,11 +156,13 @@
       }
     ]
   },
+
+
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-    "@id": "#VHRightKidney",
+    "@id": "#VHFRightKidney_Patch",
     "@type": "SpatialEntity",
-    "label": "Visual Human Female Right Kidney",
+    "label": "Visual Human Female Right Kidney (RUI 0.5)",
     "creator": "Kristin Browne",
     "creator_first_name": "Kristin",
     "creator_last_name": "Browne",
@@ -166,54 +170,34 @@
     "ccf_annotations": [],
     "x_dimension": 60, "y_dimension": 100, "z_dimension": 60, "dimension_units": "millimeter",
 
-    "object": {
-      "@id": "#VHRightKidneyCube",
-      "@type": "SpatialObjectReference",
-      "file": "https://hubmapconsortium.github.io/hubmap-ontology/objects/cube.gltf",
-      "file_format": "model/gltf-binary",
-
-      "placement": {
-        "@id": "#VHRightKidneyCubePlacement",
-        "@type": "SpatialPlacement",
-        "target": "#VHRightKidney",
-        "placement_date": "2020-01-01",
-  
-        "x_scaling": 60, "y_scaling": 100, "z_scaling": 60, "scaling_units": "ratio",
-        "x_rotation": 0, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 0, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
-      }
-    },
-
     "placement": [
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHRightKidneyGlobalPlacement",
+        "@id": "#VHFRightKidney_PatchGlobalPlacement",
         "@type": "SpatialPlacement",
         "target": "#VHFRightKidney",
-        "placement_date": "2020-01-01",
-
-        "x_scaling": 0.7, "y_scaling": 0.7, "z_scaling": 0.7, "scaling_units": "ratio",
-        "x_rotation": -40, "y_rotation": -36.3, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 30, "y_translation": 50, "z_translation": 30, "translation_units": "millimeter"
-      },
-      {
-        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHRightKidneyGlobalPlacement1",
-        "@type": "SpatialPlacement",
-        "target": "#VHMRightKidney",
-        "placement_date": "2020-01-01",
-
-        "x_scaling": 0.735, "y_scaling": 0.735, "z_scaling": 0.735, "scaling_units": "ratio",
-        "x_rotation": -21.9, "y_rotation": 22, "z_rotation": -0.721, "rotation_units": "degree",
-        "x_translation": 30, "y_translation": 50, "z_translation": 30, "translation_units": "millimeter"
+        "placement_date": "2021-05-20",
+        "x_scaling": 1,
+        "y_scaling": 1,
+        "z_scaling": 1,
+        "scaling_units": "ratio",
+        "x_rotation": -19,
+        "y_rotation": -13,
+        "z_rotation": -21,
+        "rotation_order": "XYZ",
+        "rotation_units": "degree",
+        "x_translation": 38.191,
+        "y_translation": 48.288,
+        "z_translation": 36.989,
+        "translation_units": "millimeter"
       }
     ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-    "@id": "#VHLeftKidney",
+    "@id": "#VHFLeftKidney_Patch",
     "@type": "SpatialEntity",
-    "label": "Visual Human Female Left Kidney",
+    "label": "Visual Human Female Left Kidney (RUI 0.5)",
     "creator": "Kristin Browne",
     "creator_first_name": "Kristin",
     "creator_last_name": "Browne",
@@ -221,107 +205,32 @@
     "ccf_annotations": [],
     "x_dimension": 60, "y_dimension": 100, "z_dimension": 60, "dimension_units": "millimeter",
 
-    "object": {
-      "@id": "#VHLeftKidneyCube",
-      "@type": "SpatialObjectReference",
-      "file": "https://hubmapconsortium.github.io/hubmap-ontology/objects/cube.gltf",
-      "file_format": "model/gltf-binary",
-
-      "placement": {
-        "@id": "#VHLeftKidneyCubePlacement",
-        "@type": "SpatialPlacement",
-        "target": "#VHLeftKidney",
-        "placement_date": "2020-01-01",
-  
-        "x_scaling": 60, "y_scaling": 100, "z_scaling": 60, "scaling_units": "ratio",
-        "x_rotation": 0, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 0, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
-      }
-    },
-
     "placement": [
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHLeftKidneyGlobalPlacement",
+        "@id": "#VHFLeftKidney_PatchGlobalPlacement",
         "@type": "SpatialPlacement",
         "target": "#VHFLeftKidney",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 0.7, "y_scaling": 0.7, "z_scaling": 0.7, "scaling_units": "ratio",
-        "x_rotation": -20.1, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 30, "y_translation": 50, "z_translation": 30, "translation_units": "millimeter"
-      },
-      {
-        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHLeftKidneyGlobalPlacement1",
-        "@type": "SpatialPlacement",
-        "target": "#VHMLeftKidney",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 0.7, "y_scaling": 0.7, "z_scaling": 0.7, "scaling_units": "ratio",
-        "x_rotation": -26, "y_rotation": 9.3, "z_rotation": 21.2, "rotation_units": "degree",
-        "x_translation": 30, "y_translation": 50, "z_translation": 30, "translation_units": "millimeter"
+        "placement_date": "2021-05-20",
+        "x_scaling": 1,
+        "y_scaling": 1,
+        "z_scaling": 1,
+        "scaling_units": "ratio",
+        "x_rotation": -19,
+        "y_rotation": -13,
+        "z_rotation": 22,
+        "rotation_order": "XYZ",
+        "rotation_units": "degree",
+        "x_translation": 41.487,
+        "y_translation": 54.422,
+        "z_translation": 42.942,
+        "translation_units": "millimeter"
       }
     ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-    "@id": "#VHSpleen",
-    "@type": "SpatialEntity",
-    "label": "Visual Human Female Spleen",
-    "creator": "Kristin Browne",
-    "creator_first_name": "Kristin",
-    "creator_last_name": "Browne",
-    "creation_date": "2020-01-01",
-    "ccf_annotations": [],
-    "x_dimension": 82, "y_dimension": 67, "z_dimension": 82, "dimension_units": "millimeter",
-
-    "object": {
-      "@id": "#VHSpleenCube",
-      "@type": "SpatialObjectReference",
-      "file": "https://hubmapconsortium.github.io/hubmap-ontology/objects/cube.gltf",
-      "file_format": "model/gltf-binary",
-
-      "placement": {
-        "@id": "#VHSpleenCubePlacement",
-        "@type": "SpatialPlacement",
-        "target": "#VHSpleen",
-        "placement_date": "2020-01-01",
-  
-        "x_scaling": 82, "y_scaling": 67, "z_scaling": 82, "scaling_units": "ratio",
-        "x_rotation": 0, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 0, "y_translation": 0, "z_translation": 0, "translation_units": "millimeter"
-      }
-    },
-
-    "placement": [
-      {
-        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHSpleenGlobalPlacement",
-        "@type": "SpatialPlacement",
-        "target": "#VHFSpleen",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-        "x_rotation": 76.8, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 41, "y_translation": 33.5, "z_translation": 41, "translation_units": "millimeter"
-      },
-      {
-        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHSpleenGlobalPlacement1",
-        "@type": "SpatialPlacement",
-        "target": "#VHMSpleen",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-        "x_rotation": 76.8, "y_rotation": 0, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 41, "y_translation": 33.5, "z_translation": 41, "translation_units": "millimeter"
-      }
-    ]
-  },
-  {
-    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-    "@id": "#VHSpleenCC1",
+    "@id": "#VHFSpleenCC1",
     "@type": "SpatialEntity",
     "label": "Visual Human Female Spleen (CC1)",
     "creator": "Kristin Browne",
@@ -334,31 +243,29 @@
     "placement": [
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHSpleenCC1GlobalPlacement",
+        "@id": "#VHFSpleenCC1GlobalPlacement",
         "@type": "SpatialPlacement",
-        "target": "#VHFemaleOrgans_VHF_spleen_HuBMAP_CC1",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-        "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 29.95, "y_translation": 20.35, "z_translation": 9.04, "translation_units": "millimeter"
-      },
-      {
-        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHSpleenCC1GlobalPlacement1",
-        "@type": "SpatialPlacement",
-        "target": "#VHMaleOrgans_VHM_spleen_HuBMAP_CC1",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-        "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 29.95, "y_translation": 20.35, "z_translation": 9.04, "translation_units": "millimeter"
+        "target": "#VHFSpleen",
+        "placement_date": "2021-05-20",
+        "x_scaling": 1,
+        "y_scaling": 1,
+        "z_scaling": 1,
+        "scaling_units": "ratio",
+        "x_rotation": 95,
+        "y_rotation": 52,
+        "z_rotation": 17,
+        "rotation_order": "XYZ",
+        "rotation_units": "degree",
+        "x_translation": 70.632,
+        "y_translation": 27.839,
+        "z_translation": 39.67,
+        "translation_units": "millimeter"
       }
     ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-    "@id": "#VHSpleenCC2",
+    "@id": "#VHFSpleenCC2",
     "@type": "SpatialEntity",
     "label": "Visual Human Female Spleen (CC2)",
     "creator": "Kristin Browne",
@@ -371,31 +278,29 @@
     "placement": [
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHSpleenCC2GlobalPlacement",
+        "@id": "#VHFSpleenCC2GlobalPlacement",
         "@type": "SpatialPlacement",
-        "target": "#VHFemaleOrgans_VHF_spleen_HuBMAP_CC2",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-        "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 31, "y_translation": 20.05, "z_translation": 8.89, "translation_units": "millimeter"
-      },
-      {
-        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHSpleenCC2GlobalPlacement1",
-        "@type": "SpatialPlacement",
-        "target": "#VHMaleOrgans_VHM_spleen_HuBMAP_CC2",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-        "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 31, "y_translation": 20.05, "z_translation": 8.89, "translation_units": "millimeter"
+        "target": "#VHFSpleen",
+        "placement_date": "2021-05-20",
+        "x_scaling": 1,
+        "y_scaling": 1,
+        "z_scaling": 1,
+        "scaling_units": "ratio",
+        "x_rotation": 82,
+        "y_rotation": 52,
+        "z_rotation": 0,
+        "rotation_order": "XYZ",
+        "rotation_units": "degree",
+        "x_translation": 51.588,
+        "y_translation": 45.941,
+        "z_translation": 24.708,
+        "translation_units": "millimeter"
       }
     ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-    "@id": "#VHSpleenCC3",
+    "@id": "#VHFSpleenCC3",
     "@type": "SpatialEntity",
     "label": "Visual Human Female Spleen (CC3)",
     "creator": "Kristin Browne",
@@ -408,25 +313,200 @@
     "placement": [
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHSpleenCC3GlobalPlacement",
+        "@id": "#VHFSpleenCC3GlobalPlacement",
         "@type": "SpatialPlacement",
-        "target": "#VHFemaleOrgans_VHF_spleen_HuBMAP_CC3",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-        "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 29.34, "y_translation": 21.7, "z_translation": 9.54, "translation_units": "millimeter"
-      },
+        "target": "#VHFSpleen",
+        "placement_date": "2021-05-21",
+        "x_scaling": 1,
+        "y_scaling": 1,
+        "z_scaling": 1,
+        "scaling_units": "ratio",
+        "x_rotation": 82,
+        "y_rotation": 52,
+        "z_rotation": 0,
+        "rotation_order": "XYZ",
+        "rotation_units": "degree",
+        "x_translation": 18.965,
+        "y_translation": 53.593,
+        "z_translation": 23.302,
+        "translation_units": "millimeter"
+      }
+    ]
+  },
+
+
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#VHMRightKidney_Patch",
+    "@type": "SpatialEntity",
+    "label": "Visual Human Male Right Kidney (RUI 0.5)",
+    "creator": "Kristin Browne",
+    "creator_first_name": "Kristin",
+    "creator_last_name": "Browne",
+    "creation_date": "2020-01-01",
+    "ccf_annotations": [],
+    "x_dimension": 60, "y_dimension": 100, "z_dimension": 60, "dimension_units": "millimeter",
+
+    "placement": [
       {
         "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
-        "@id": "#VHSpleenCC3GlobalPlacement1",
+        "@id": "#VHMRightKidney_PatchGlobalPlacement",
         "@type": "SpatialPlacement",
-        "target": "#VHMaleOrgans_VHM_spleen_HuBMAP_CC3",
-        "placement_date": "2020-01-01",
-    
-        "x_scaling": 1, "y_scaling": 1, "z_scaling": 1, "scaling_units": "ratio",
-        "x_rotation": -90, "y_rotation": -52, "z_rotation": 0, "rotation_units": "degree",
-        "x_translation": 29.34, "y_translation": 21.7, "z_translation": 9.54, "translation_units": "millimeter"
+        "target": "#VHMRightKidney",
+        "placement_date": "2021-05-20",
+        "x_scaling": 1,
+        "y_scaling": 1,
+        "z_scaling": 1,
+        "scaling_units": "ratio",
+        "x_rotation": -19,
+        "y_rotation": -13,
+        "z_rotation": -3,
+        "rotation_order": "XYZ",
+        "rotation_units": "degree",
+        "x_translation": 34.043,
+        "y_translation": 55.763,
+        "z_translation": 38.177,
+        "translation_units": "millimeter"
+      }
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#VHMLeftKidney_Patch",
+    "@type": "SpatialEntity",
+    "label": "Visual Human Male Left Kidney (RUI 0.5)",
+    "creator": "Kristin Browne",
+    "creator_first_name": "Kristin",
+    "creator_last_name": "Browne",
+    "creation_date": "2020-01-01",
+    "ccf_annotations": [],
+    "x_dimension": 60, "y_dimension": 100, "z_dimension": 60, "dimension_units": "millimeter",
+
+    "placement": [
+      {
+        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+        "@id": "#VHMLeftKidney_PatchGlobalPlacement",
+        "@type": "SpatialPlacement",
+        "target": "#VHMLeftKidney",
+        "placement_date": "2021-05-20",
+        "x_scaling": 1,
+        "y_scaling": 1,
+        "z_scaling": 1,
+        "scaling_units": "ratio",
+        "x_rotation": -19,
+        "y_rotation": -13,
+        "z_rotation": 25,
+        "rotation_order": "XYZ",
+        "rotation_units": "degree",
+        "x_translation": 42.032,
+        "y_translation": 94.703,
+        "z_translation": 39.893,
+        "translation_units": "millimeter"
+      }
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#VHMSpleenCC1",
+    "@type": "SpatialEntity",
+    "label": "Visual Human Male Spleen (CC1)",
+    "creator": "Kristin Browne",
+    "creator_first_name": "Kristin",
+    "creator_last_name": "Browne",
+    "creation_date": "2020-01-01",
+    "ccf_annotations": [],
+    "x_dimension": 59.9, "y_dimension": 40.7, "z_dimension": 9.04, "dimension_units": "millimeter",
+
+    "placement": [
+      {
+        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+        "@id": "#VHMSpleenCC1GlobalPlacement",
+        "@type": "SpatialPlacement",
+        "target": "#VHMSpleen",
+        "placement_date": "2021-05-21",
+        "x_scaling": 1,
+        "y_scaling": 1,
+        "z_scaling": 1,
+        "scaling_units": "ratio",
+        "x_rotation": 80,
+        "y_rotation": 44,
+        "z_rotation": 52,
+        "rotation_order": "XYZ",
+        "rotation_units": "degree",
+        "x_translation": 82.817,
+        "y_translation": 46.604,
+        "z_translation": 50.735,
+        "translation_units": "millimeter"
+      }
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#VHMSpleenCC2",
+    "@type": "SpatialEntity",
+    "label": "Visual Human Male Spleen (CC2)",
+    "creator": "Kristin Browne",
+    "creator_first_name": "Kristin",
+    "creator_last_name": "Browne",
+    "creation_date": "2020-01-01",
+    "ccf_annotations": [],
+    "x_dimension": 63, "y_dimension": 40.1, "z_dimension": 8.89, "dimension_units": "millimeter",
+
+    "placement": [
+      {
+        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+        "@id": "#VHMSpleenCC2GlobalPlacement",
+        "@type": "SpatialPlacement",
+        "target": "#VHMSpleen",
+        "placement_date": "2021-05-21",
+        "x_scaling": 1,
+        "y_scaling": 1,
+        "z_scaling": 1,
+        "scaling_units": "ratio",
+        "x_rotation": 92,
+        "y_rotation": 50,
+        "z_rotation": 25,
+        "rotation_order": "XYZ",
+        "rotation_units": "degree",
+        "x_translation": 56.195,
+        "y_translation": 53.744,
+        "z_translation": 29.145,
+        "translation_units": "millimeter"
+      }
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#VHMSpleenCC3",
+    "@type": "SpatialEntity",
+    "label": "Visual Human Male Spleen (CC3)",
+    "creator": "Kristin Browne",
+    "creator_first_name": "Kristin",
+    "creator_last_name": "Browne",
+    "creation_date": "2020-01-01",
+    "ccf_annotations": [],
+    "x_dimension": 58.7, "y_dimension": 43.4, "z_dimension": 9.54, "dimension_units": "millimeter",
+
+    "placement": [
+      {
+        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+        "@id": "#VHMSpleenCC3GlobalPlacement",
+        "@type": "SpatialPlacement",
+        "target": "#VHMSpleen",
+        "placement_date": "2021-05-21",
+        "x_scaling": 1,
+        "y_scaling": 1,
+        "z_scaling": 1,
+        "scaling_units": "ratio",
+        "x_rotation": 77,
+        "y_rotation": 48,
+        "z_rotation": 18,
+        "rotation_order": "XYZ",
+        "rotation_units": "degree",
+        "x_translation": 32.901,
+        "y_translation": 70.721,
+        "z_translation": 26.551,
+        "translation_units": "millimeter"
       }
     ]
   }
