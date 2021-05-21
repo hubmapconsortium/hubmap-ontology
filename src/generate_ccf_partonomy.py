@@ -32,7 +32,6 @@ def get_term(term_str):
   if term_str.startswith('CL:'):
     term_str = term_str.split(':')[-1].strip()
     term = default_world.search(iri=f'http://purl.obolibrary.org/obo/CL_{term_str}')
-    print(term_str, len(term) and term[0].iri)
   elif term_str.startswith('FMAID'):
     term_str = term_str.split(':')[-1].strip()
     term = default_world.search(iri=f'http://purl.org/sig/ont/fma/fma{term_str}')
