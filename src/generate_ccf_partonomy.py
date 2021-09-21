@@ -5,7 +5,7 @@ from csv import DictReader
 from operator import itemgetter
 from os import path
 from owlready2 import *
-from rdflib.extras.infixowl import OWL_NS, Class, Restriction, Property
+from rdflib.extras.infixowl import OWL, Class, Restriction, Property
 from rdflib import Graph, Namespace, URIRef, RDF, RDFS, Literal
 from constants import CCF_NAMESPACE, CCF_PARTONOMY_TERMS, CCF_PARTONOMY_RDF, CCF_PARTONOMY_JSONLD
 
@@ -78,7 +78,7 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
   ccf_part_of = ccf_ns.ccf_part_of
   g = Graph()
   g.namespace_manager.bind('ccf', ccf_ns, override=False)
-  g.namespace_manager.bind('owl', OWL_NS, override=False)
+  g.namespace_manager.bind('owl', OWL, override=False)
   classes = {}
   tree = nx.DiGraph()
 

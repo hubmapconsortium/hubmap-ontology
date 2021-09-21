@@ -1,3 +1,4 @@
+requests
 rdflib
 rdflib-jsonld
 Owlready2
