@@ -32,9 +32,10 @@ def get_term(term_str):
   if term_str.startswith('CL:'):
     term_str = term_str.split(':')[-1].strip()
     term = default_world.search(iri=f'http://purl.obolibrary.org/obo/CL_{term_str}')
-  elif term_str.startswith('FMAID'):
+  elif term_str.startswith('FMA'):
     term_str = term_str.split(':')[-1].strip()
     term = default_world.search(iri=f'http://purl.org/sig/ont/fma/fma{term_str}')
+    #term = default_world.search(iri=f'http://purl.obolibrary.org/obo/FMA_{term_str}')
   else:
     term = default_world.search(id=term_str)
 
@@ -109,7 +110,7 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
           parent_label = parent_term.label[0]
           terms[parent_term.iri] = get_term_data(parent, parent_label, parent_term, order, body)
     elif len(parent+child.strip()) > 0:
-      print(f'Parent: {parent} ({parent_term is None}), Child: {child} ({child_term is None})')
+      print(f'Parent: {parent} ({ "Null" if parent_term is None else "Not null" }), Child: {child} ({"Null" if child_term is None else "Not null"})')
   
   for term in TERMS:
     tree.add_edge('root', term)

@@ -1,10 +1,11 @@
-import csv
+import csv, json
 from collections import namedtuple, defaultdict
 from os import listdir, path
 
-ASCT_RELEASE_DIR='../ccf-releases/v1.0/asct-b/'
+ASCT_RELEASE_DIR='../ccf-releases/v1.1/asct-b/'
+ASCTB_JSON='dist/ccf-asctb.json'
 OUTPUT_CSV='source_data/ccf-term-list.csv'
-GOOD_ONTOLOGIES = set(['CL', 'UBERON', 'FMAID'])
+GOOD_ONTOLOGIES = set(['CL', 'UBERON', 'FMA', 'FMAID'])
 
 AS = namedtuple('AnatomicalStructure', ['id', 'name', 'rdfs_label'])
 
@@ -12,7 +13,7 @@ AS = namedtuple('AnatomicalStructure', ['id', 'name', 'rdfs_label'])
 def fix_id(idstr):
   if idstr.startswith('fma') and idstr[3].isdigit():
     idstr = 'fma:'+idstr[3:]
-  idstr = idstr.replace('_', ':').replace('::', ':').replace(': ', ':').replace('fma:', 'FMAID:').split(' ')[0].upper()
+  idstr = idstr.replace('_', ':').replace('::', ':').replace(': ', ':').replace('FMA:', 'FMAID:').replace('fma:', 'FMAID:').split(' ')[0].upper()
   idstr = ':'.join(map(lambda s: s.strip(), idstr.split(':')))
   return idstr
 
@@ -53,6 +54,15 @@ def asct_rows(in_f):
           datum[as_index][prop] = row[index].strip()
       yield [ AS(fix_id(d.get('ID', '')), fix_name(d.get('_NAME_')), fix_name(d.get('LABEL'))) for d in datum ]
 
+def asct_rows2():
+  data = json.load(open(ASCTB_JSON))['data']
+  seen = set()
+  for row in data:
+    as_tuple = tuple([ AS(fix_id(a['id']), fix_name(a['name']), fix_name(a['rdfs_label'])) for a in row['anatomical_structures'] ])
+    if as_tuple not in seen:
+      seen.add(as_tuple)
+      yield as_tuple
+
 with open(OUTPUT_CSV, 'w') as out_f:
   out = csv.writer(out_f)
   out.writerow('Name,HuBMAP Preferred Name,Ontology ID,Parent name,Parent ID,Cell-Type,Curator'.split(','))
@@ -68,15 +78,18 @@ with open(OUTPUT_CSV, 'w') as out_f:
   out.writerow(['respiratory system', 'respiratory system', 'UBERON:0001004', 'lung', 'UBERON:0002048', 'N', '0000-0001-7655-4833'])
 
   seen = defaultdict(dict)
-  for in_f in listdir(ASCT_RELEASE_DIR):
-    if in_f.endswith('.csv'):
-      for row in asct_rows(path.join(ASCT_RELEASE_DIR, in_f)):
-        for i, node in enumerate(row):
-          if good_node(node):
-            if i == 0:
-              if (node.id, None) not in seen:
-                out.writerow([node.rdfs_label, node.name, node.id, body.rdfs_label, body.id, 'N', '0000-0001-7655-4833'])
-            elif good_node(row[i-1]):
-              parent = row[i-1]
-              if node.id != parent.id and (node.id, parent.id) not in seen:
-                out.writerow([node.rdfs_label, node.name, node.id, parent.rdfs_label, parent.id, 'N', '0000-0001-7655-4833'])
+  # for in_f in listdir(ASCT_RELEASE_DIR):
+  #   if in_f.endswith('.csv'):
+  #     for row in asct_rows(path.join(ASCT_RELEASE_DIR, in_f)):
+  for row in asct_rows2():
+    for i, node in enumerate(row):
+      if good_node(node):
+        if i == 0:
+          if (node.id, None) not in seen:
+            out.writerow([node.rdfs_label, node.name, node.id, body.rdfs_label, body.id, 'N', '0000-0001-7655-4833'])
+        elif good_node(row[i-1]):
+          parent = row[i-1]
+          if node.id != parent.id and (node.id, parent.id) not in seen:
+            out.writerow([node.rdfs_label, node.name, node.id, parent.rdfs_label, parent.id, 'N', '0000-0001-7655-4833'])
+      elif node.id:
+        print(node);
