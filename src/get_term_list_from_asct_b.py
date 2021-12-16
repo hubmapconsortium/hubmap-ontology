@@ -1,4 +1,4 @@
-import csv, json
+import csv, json, re
 from collections import namedtuple, defaultdict
 from os import listdir, path
 
@@ -26,6 +26,11 @@ def fix_name(name):
 def good_node(node):
   onto_val = node.id.split(':', 1)
   return node.id and onto_val[0] in GOOD_ONTOLOGIES and len(onto_val) == 2 and len(onto_val[1]) > 0
+
+def as_temp_node(node):
+  suffix = re.sub(r'[^a-z0-9-]+', '', re.sub(r'\W+', '-', node.name.lower().strip()))
+  ontologyId = f'ASCTB-TEMP:{suffix}'
+  return AS(ontologyId, node.name, node.name)
 
 def asct_rows(in_f):
   text = open(in_f, 'rb').read().decode('ISO-8859-1').split('\n')
@@ -76,6 +81,17 @@ with open(OUTPUT_CSV, 'w') as out_f:
   out.writerow(['blood', 'blood', 'UBERON:0000178', 'pelvis', 'UBERON:0001270', 'N', '0000-0001-7655-4833'])
   out.writerow(['lung', 'lung', 'UBERON:0002048', body.rdfs_label, body.id, 'N', '0000-0001-7655-4833'])
   out.writerow(['respiratory system', 'respiratory system', 'UBERON:0001004', 'lung', 'UBERON:0002048', 'N', '0000-0001-7655-4833'])
+  out.writerow(['mesenteric lymph node', 'mesenteric lymph node', 'UBERON:0002509', 'lymph node', 'UBERON:0000029', 'N', '0000-0001-7655-4833'])
+  out.writerow(['left eye', 'left eye', 'UBERON:0004548', 'eye', 'UBERON:0000970', 'N', '0000-0001-7655-4833'])
+  out.writerow(['right eye', 'right eye', 'FMAID:54449', 'eye', 'UBERON:0000970', 'N', '0000-0001-7655-4833'])
+  out.writerow(['left fallopian tube', 'left fallopian tube', 'UBERON:0001303', 'fallopian tube', 'UBERON:0003889', 'N', '0000-0001-7655-4833'])
+  out.writerow(['right fallopian tube', 'right fallopian tube', 'UBERON:0001302', 'fallopian tube', 'UBERON:0003889', 'N', '0000-0001-7655-4833'])
+  out.writerow(['left knee', 'left knee', 'FMAID:24978', 'knee', 'UBERON:0001465', 'N', '0000-0001-7655-4833'])
+  out.writerow(['right knee', 'right knee', 'FMAID:24977', 'knee', 'UBERON:0001465', 'N', '0000-0001-7655-4833'])
+  out.writerow(['left ovary', 'left ovary', 'FMAID:7214', 'ovary', 'UBERON:0000992', 'N', '0000-0001-7655-4833'])
+  out.writerow(['right ovary', 'right ovary', 'FMAID:7213', 'ovary', 'UBERON:0000992', 'N', '0000-0001-7655-4833'])
+  out.writerow(['left ureter', 'left ureter', 'UBERON:0001223', 'ureter', 'UBERON:0000056', 'N', '0000-0001-7655-4833'])
+  out.writerow(['right ureter', 'right ureter', 'UBERON:0001222', 'ureter', 'UBERON:0000056', 'N', '0000-0001-7655-4833'])
 
   seen = defaultdict(dict)
   # for in_f in listdir(ASCT_RELEASE_DIR):
@@ -83,13 +99,12 @@ with open(OUTPUT_CSV, 'w') as out_f:
   #     for row in asct_rows(path.join(ASCT_RELEASE_DIR, in_f)):
   for row in asct_rows2():
     for i, node in enumerate(row):
-      if good_node(node):
-        if i == 0:
-          if (node.id, None) not in seen:
-            out.writerow([node.rdfs_label, node.name, node.id, body.rdfs_label, body.id, 'N', '0000-0001-7655-4833'])
-        elif good_node(row[i-1]):
-          parent = row[i-1]
-          if node.id != parent.id and (node.id, parent.id) not in seen:
-            out.writerow([node.rdfs_label, node.name, node.id, parent.rdfs_label, parent.id, 'N', '0000-0001-7655-4833'])
-      elif node.id:
-        print(node);
+      if not good_node(node):
+        node = as_temp_node(node)
+      if i == 0:
+        if (node.id, None) not in seen:
+          out.writerow([node.rdfs_label, node.name, node.id, body.rdfs_label, body.id, 'N', '0000-0001-7655-4833'])
+      elif good_node(row[i-1]):
+        parent = row[i-1]
+        if node.id != parent.id and (node.id, parent.id) not in seen:
+          out.writerow([node.rdfs_label, node.name, node.id, parent.rdfs_label, parent.id, 'N', '0000-0001-7655-4833'])
