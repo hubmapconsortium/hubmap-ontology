@@ -79,6 +79,7 @@ with open(OUTPUT_CSV, 'w') as out_f:
   out.writerow(['pelvis', 'pelvis', 'UBERON:0001270', body.rdfs_label, body.id, 'N', '0000-0001-7655-4833'])
   out.writerow(['bone marrow', 'bone marrow', 'UBERON:0002371', 'pelvis', 'UBERON:0001270', 'N', '0000-0001-7655-4833'])
   out.writerow(['blood', 'blood', 'UBERON:0000178', 'pelvis', 'UBERON:0001270', 'N', '0000-0001-7655-4833'])
+  out.writerow(['blood vasculature', 'blood vasculature', 'UBERON:0004537', body.rdfs_label, body.id, 'N', '0000-0001-7655-4833'])
   out.writerow(['lung', 'lung', 'UBERON:0002048', body.rdfs_label, body.id, 'N', '0000-0001-7655-4833'])
   out.writerow(['respiratory system', 'respiratory system', 'UBERON:0001004', 'lung', 'UBERON:0002048', 'N', '0000-0001-7655-4833'])
   out.writerow(['mesenteric lymph node', 'mesenteric lymph node', 'UBERON:0002509', 'lymph node', 'UBERON:0000029', 'N', '0000-0001-7655-4833'])

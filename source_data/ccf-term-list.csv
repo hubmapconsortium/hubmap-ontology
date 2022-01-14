@@ -4,6 +4,7 @@ right kidney,right kidney,UBERON:0004539,kidney,UBERON:0002113,N,0000-0001-7655-
 pelvis,pelvis,UBERON:0001270,body,UBERON:0013702,N,0000-0001-7655-4833
 bone marrow,bone marrow,UBERON:0002371,pelvis,UBERON:0001270,N,0000-0001-7655-4833
 blood,blood,UBERON:0000178,pelvis,UBERON:0001270,N,0000-0001-7655-4833
+blood vasculature,blood vasculature,UBERON:0004537,body,UBERON:0013702,N,0000-0001-7655-4833
 lung,lung,UBERON:0002048,body,UBERON:0013702,N,0000-0001-7655-4833
 respiratory system,respiratory system,UBERON:0001004,lung,UBERON:0002048,N,0000-0001-7655-4833
 mesenteric lymph node,mesenteric lymph node,UBERON:0002509,lymph node,UBERON:0000029,N,0000-0001-7655-4833
@@ -8414,7 +8415,7 @@ retina,retina,UBERON:0000966,eye,UBERON:0000970,N,0000-0001-7655-4833
 outer nuclear layer of retina,outer nuclear layer,UBERON:0001789,retina,UBERON:0000966,N,0000-0001-7655-4833
 eye,eye,UBERON:0000970,body,UBERON:0013702,N,0000-0001-7655-4833
 retina,retina,UBERON:0000966,eye,UBERON:0000970,N,0000-0001-7655-4833
-retinal vasculature, vasculature,UBERON:0004864,retina,UBERON:0000966,N,0000-0001-7655-4833
+retinal vasculature,vasculature,UBERON:0004864,retina,UBERON:0000966,N,0000-0001-7655-4833
 eye,eye,UBERON:0000970,body,UBERON:0013702,N,0000-0001-7655-4833
 retina,retina,UBERON:0000966,eye,UBERON:0000970,N,0000-0001-7655-4833
 ganglionic layer of retina,retinal ganglion cell layer,UBERON:0001792,retina,UBERON:0000966,N,0000-0001-7655-4833
@@ -8446,9 +8447,6 @@ lens cortex,cortex,UBERON:0000389,lens,UBERON:0000965,N,0000-0001-7655-4833
 Outer cortex,Outer cortex,ASCTB-TEMP:outer-cortex,lens cortex,UBERON:0000389,N,0000-0001-7655-4833
 eye,eye,UBERON:0000970,body,UBERON:0013702,N,0000-0001-7655-4833
 retina,retina,UBERON:0000966,eye,UBERON:0000970,N,0000-0001-7655-4833
-eye,eye,UBERON:0000970,body,UBERON:0013702,N,0000-0001-7655-4833
-retina,retina,UBERON:0000966,eye,UBERON:0000970,N,0000-0001-7655-4833
-retinal vasculature,vasculature,UBERON:0004864,retina,UBERON:0000966,N,0000-0001-7655-4833
 eye,eye,UBERON:0000970,body,UBERON:0013702,N,0000-0001-7655-4833
 retina,retina,UBERON:0000966,eye,UBERON:0000970,N,0000-0001-7655-4833
 retinal pigmented epithelium,retinal pigmented epithelium,UBERON:0001782,retina,UBERON:0000966,N,0000-0001-7655-4833
@@ -8494,7 +8492,7 @@ muscle layer of oviduct,muscle layer of oviduct,UBERON:0006642,isthmus of fallop
 Outer muscle layer of Fallopian tube isthmus,Outer muscle layer of Fallopian tube isthmus,ASCTB-TEMP:outer-muscle-layer-of-fallopian-tube-isthmus,muscle layer of oviduct,UBERON:0006642,N,0000-0001-7655-4833
 fallopian tube,fallopian tube,UBERON:0003889,body,UBERON:0013702,N,0000-0001-7655-4833
 isthmus of fallopian tube,isthmus of fallopian tube,UBERON:0016632,fallopian tube,UBERON:0003889,N,0000-0001-7655-4833
-lamina propria  of Fallopian tube isthmus,lamina propria  of Fallopian tube isthmus,ASCTB-TEMP:lamina-propria-of-fallopian-tube-isthmus,isthmus of fallopian tube,UBERON:0016632,N,0000-0001-7655-4833
+lamina propria of Fallopian tube isthmus,lamina propria of Fallopian tube isthmus,ASCTB-TEMP:lamina-propria-of-fallopian-tube-isthmus,isthmus of fallopian tube,UBERON:0016632,N,0000-0001-7655-4833
 fallopian tube,fallopian tube,UBERON:0003889,body,UBERON:0013702,N,0000-0001-7655-4833
 isthmus of fallopian tube,isthmus of fallopian tube,UBERON:0016632,fallopian tube,UBERON:0003889,N,0000-0001-7655-4833
 basement membrane of Fallopian tube isthmus,basement membrane of Fallopian tube isthmus,ASCTB-TEMP:basement-membrane-of-fallopian-tube-isthmus,isthmus of fallopian tube,UBERON:0016632,N,0000-0001-7655-4833
@@ -8586,7 +8584,7 @@ muscle layer of oviduct,muscle layer of oviduct,UBERON:0006642,uterine tube infu
 Outer muscle layer of Fallopian tube infundibulum,Outer muscle layer of Fallopian tube infundibulum,ASCTB-TEMP:outer-muscle-layer-of-fallopian-tube-infundibulum,muscle layer of oviduct,UBERON:0006642,N,0000-0001-7655-4833
 fallopian tube,fallopian tube,UBERON:0003889,body,UBERON:0013702,N,0000-0001-7655-4833
 uterine tube infundibulum,uterine tube infundibulum,UBERON:0003984,fallopian tube,UBERON:0003889,N,0000-0001-7655-4833
-lamina propria of Fallopian tube infundibulum ,lamina propria of Fallopian tube infundibulum ,ASCTB-TEMP:lamina-propria-of-fallopian-tube-infundibulum,uterine tube infundibulum,UBERON:0003984,N,0000-0001-7655-4833
+lamina propria of Fallopian tube infundibulum,lamina propria of Fallopian tube infundibulum,ASCTB-TEMP:lamina-propria-of-fallopian-tube-infundibulum,uterine tube infundibulum,UBERON:0003984,N,0000-0001-7655-4833
 fallopian tube,fallopian tube,UBERON:0003889,body,UBERON:0013702,N,0000-0001-7655-4833
 uterine tube infundibulum,uterine tube infundibulum,UBERON:0003984,fallopian tube,UBERON:0003889,N,0000-0001-7655-4833
 basement membrane of Fallopian tube infundibulum,basement membrane of Fallopian tube infundibulum,ASCTB-TEMP:basement-membrane-of-fallopian-tube-infundibulum,uterine tube infundibulum,UBERON:0003984,N,0000-0001-7655-4833
@@ -8632,7 +8630,7 @@ muscle layer of oviduct,muscle layer of oviduct,UBERON:0006642,fimbria of uterin
 Outer muscle layer of Fallopian tube fimbria,Outer muscle layer of Fallopian tube fimbria,ASCTB-TEMP:outer-muscle-layer-of-fallopian-tube-fimbria,muscle layer of oviduct,UBERON:0006642,N,0000-0001-7655-4833
 fallopian tube,fallopian tube,UBERON:0003889,body,UBERON:0013702,N,0000-0001-7655-4833
 fimbria of uterine tube,fimbria of uterine tube,UBERON:8410010,fallopian tube,UBERON:0003889,N,0000-0001-7655-4833
-lamina propria of Fallopian tube fimbrae ,lamina propria of Fallopian tube fimbrae ,ASCTB-TEMP:lamina-propria-of-fallopian-tube-fimbrae,fimbria of uterine tube,UBERON:8410010,N,0000-0001-7655-4833
+lamina propria of Fallopian tube fimbrae,lamina propria of Fallopian tube fimbrae,ASCTB-TEMP:lamina-propria-of-fallopian-tube-fimbrae,fimbria of uterine tube,UBERON:8410010,N,0000-0001-7655-4833
 fallopian tube,fallopian tube,UBERON:0003889,body,UBERON:0013702,N,0000-0001-7655-4833
 fimbria of uterine tube,fimbria of uterine tube,UBERON:8410010,fallopian tube,UBERON:0003889,N,0000-0001-7655-4833
 basement membrane of Fallopian tube fimbria,basement membrane of Fallopian tube fimbria,ASCTB-TEMP:basement-membrane-of-fallopian-tube-fimbria,fimbria of uterine tube,UBERON:8410010,N,0000-0001-7655-4833
@@ -8877,8 +8875,7 @@ kidney,kidney,UBERON:0002113,body,UBERON:0013702,N,0000-0001-7655-4833
 nephron,nephron,UBERON:0001285,kidney,UBERON:0002113,N,0000-0001-7655-4833
 Renal Corpuscle,Renal Corpuscle,UBERON:0001229,nephron,UBERON:0001285,N,0000-0001-7655-4833
 glomerular epithelium,Glomerular Epithelium,UBERON:0004188,Renal Corpuscle,UBERON:0001229,N,0000-0001-7655-4833
-"glomerular parietal epithelium
-",parietal epithelial layer,UBERON:0005750,glomerular epithelium,UBERON:0004188,N,0000-0001-7655-4833
+glomerular parietal epithelium,parietal epithelial layer,UBERON:0005750,glomerular epithelium,UBERON:0004188,N,0000-0001-7655-4833
 kidney,kidney,UBERON:0002113,body,UBERON:0013702,N,0000-0001-7655-4833
 nephron,nephron,UBERON:0001285,kidney,UBERON:0002113,N,0000-0001-7655-4833
 Renal Corpuscle,Renal Corpuscle,UBERON:0001229,nephron,UBERON:0001285,N,0000-0001-7655-4833
@@ -9086,6 +9083,10 @@ knee,knee,UBERON:0001465,body,UBERON:0013702,N,0000-0001-7655-4833
 knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465,N,0000-0001-7655-4833
 condyle of femur,Distal Femur,UBERON:0009980,knee joint,UBERON:0001485,N,0000-0001-7655-4833
 Bone Marrow,Bone Marrow,ASCTB-TEMP:bone-marrow,condyle of femur,UBERON:0009980,N,0000-0001-7655-4833
+knee,knee,UBERON:0001465,body,UBERON:0013702,N,0000-0001-7655-4833
+knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465,N,0000-0001-7655-4833
+condyle of femur,Distal Femur,UBERON:0009980,knee joint,UBERON:0001485,N,0000-0001-7655-4833
+unmyelinated nerve fiber,unmyelinated nerve fiber,ASCTB-TEMP:unmyelinated-nerve-fiber,condyle of femur,UBERON:0009980,N,0000-0001-7655-4833
 knee,knee,UBERON:0001465,body,UBERON:0013702,N,0000-0001-7655-4833
 knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465,N,0000-0001-7655-4833
 condyle of femur,Distal Femur,UBERON:0009980,knee joint,UBERON:0001485,N,0000-0001-7655-4833
@@ -14249,7 +14250,7 @@ lymph node,lymph node,UBERON:0000029,body,UBERON:0013702,N,0000-0001-7655-4833
 capsule of lymph node,Capsule,UBERON:0002194,lymph node,UBERON:0000029,N,0000-0001-7655-4833
 lymph node,lymph node,UBERON:0000029,body,UBERON:0013702,N,0000-0001-7655-4833
 capsule of lymph node,Capsule,UBERON:0002194,lymph node,UBERON:0000029,N,0000-0001-7655-4833
-arteriole of lymph node,Arteriole ,UBERON:8410042,capsule of lymph node,UBERON:0002194,N,0000-0001-7655-4833
+arteriole of lymph node,Arteriole,UBERON:8410042,capsule of lymph node,UBERON:0002194,N,0000-0001-7655-4833
 lymph node,lymph node,UBERON:0000029,body,UBERON:0013702,N,0000-0001-7655-4833
 capsule of lymph node,Capsule,UBERON:0002194,lymph node,UBERON:0000029,N,0000-0001-7655-4833
 venule of lymph node,Venule,UBERON:8410041,capsule of lymph node,UBERON:0002194,N,0000-0001-7655-4833
@@ -14272,7 +14273,7 @@ lymph node,lymph node,UBERON:0000029,body,UBERON:0013702,N,0000-0001-7655-4833
 subcapsular sinus of lymph node,Subcapsular Sinus,UBERON:0005463,lymph node,UBERON:0000029,N,0000-0001-7655-4833
 lymph node,lymph node,UBERON:0000029,body,UBERON:0013702,N,0000-0001-7655-4833
 subcapsular sinus of lymph node,Subcapsular Sinus,UBERON:0005463,lymph node,UBERON:0000029,N,0000-0001-7655-4833
-Subcapsular sinus ceiling ,Subcapsular sinus ceiling ,ASCTB-TEMP:subcapsular-sinus-ceiling,subcapsular sinus of lymph node,UBERON:0005463,N,0000-0001-7655-4833
+Subcapsular sinus ceiling,Subcapsular sinus ceiling,ASCTB-TEMP:subcapsular-sinus-ceiling,subcapsular sinus of lymph node,UBERON:0005463,N,0000-0001-7655-4833
 lymph node,lymph node,UBERON:0000029,body,UBERON:0013702,N,0000-0001-7655-4833
 subcapsular sinus of lymph node,Subcapsular Sinus,UBERON:0005463,lymph node,UBERON:0000029,N,0000-0001-7655-4833
 Subcapsular sinus floor,Subcapsular sinus floor,ASCTB-TEMP:subcapsular-sinus-floor,subcapsular sinus of lymph node,UBERON:0005463,N,0000-0001-7655-4833
@@ -20987,7 +20988,7 @@ peripheral nervous system,peripheral nervous system,UBERON:0000010,body,UBERON:0
 nerve plexus,nerve plexus,UBERON:0001810,peripheral nervous system,UBERON:0000010,N,0000-0001-7655-4833
 brachial nerve plexus,brachial plexus,UBERON:0001814,nerve plexus,UBERON:0001810,N,0000-0001-7655-4833
 medial pectoral nerve,medial pectoral nerve,FMAID:65293,brachial nerve plexus,UBERON:0001814,N,0000-0001-7655-4833
-pectoralis minor branch of medial pectoral nerve (1),branch of medial pectoral nerve to pectoralis minor ,FMAID:81263,medial pectoral nerve,FMAID:65293,N,0000-0001-7655-4833
+pectoralis minor branch of medial pectoral nerve (1),branch of medial pectoral nerve to pectoralis minor,FMAID:81263,medial pectoral nerve,FMAID:65293,N,0000-0001-7655-4833
 peripheral nervous system,peripheral nervous system,UBERON:0000010,body,UBERON:0013702,N,0000-0001-7655-4833
 nerve plexus,nerve plexus,UBERON:0001810,peripheral nervous system,UBERON:0000010,N,0000-0001-7655-4833
 brachial nerve plexus,brachial plexus,UBERON:0001814,nerve plexus,UBERON:0001810,N,0000-0001-7655-4833
@@ -21919,7 +21920,7 @@ nerve to psoas minor,muscular branch of lumbar plexus to psoas minor,FMAID:20579
 peripheral nervous system,peripheral nervous system,UBERON:0000010,body,UBERON:0013702,N,0000-0001-7655-4833
 nerve plexus,nerve plexus,UBERON:0001810,peripheral nervous system,UBERON:0000010,N,0000-0001-7655-4833
 lumbar nerve plexus,lumbar plexus,UBERON:0034987,nerve plexus,UBERON:0001810,N,0000-0001-7655-4833
-nerve to quadratus lumborum,muscular branch of lumbar nerve plexus to quadratus lumborum ,FMAID:20578,lumbar nerve plexus,UBERON:0034987,N,0000-0001-7655-4833
+nerve to quadratus lumborum,muscular branch of lumbar nerve plexus to quadratus lumborum,FMAID:20578,lumbar nerve plexus,UBERON:0034987,N,0000-0001-7655-4833
 peripheral nervous system,peripheral nervous system,UBERON:0000010,body,UBERON:0013702,N,0000-0001-7655-4833
 nerve plexus,nerve plexus,UBERON:0001810,peripheral nervous system,UBERON:0000010,N,0000-0001-7655-4833
 lumbar nerve plexus,lumbar plexus,UBERON:0034987,nerve plexus,UBERON:0001810,N,0000-0001-7655-4833
@@ -23065,11 +23066,11 @@ Splenic Artery,Splenic Artery,UBERON:0001194,spleen pulp,UBERON:1000023,N,0000-0
 spleen,spleen,UBERON:0002106,body,UBERON:0013702,N,0000-0001-7655-4833
 spleen pulp,Splenic Pulp,UBERON:1000023,spleen,UBERON:0002106,N,0000-0001-7655-4833
 Splenic Artery,Splenic Artery,UBERON:0001194,spleen pulp,UBERON:1000023,N,0000-0001-7655-4833
-Sympathetic nerve plexus,Sympathetic nerves ,UBERON:0012373,Splenic Artery,UBERON:0001194,N,0000-0001-7655-4833
+Sympathetic nerve plexus,Sympathetic nerves,UBERON:0012373,Splenic Artery,UBERON:0001194,N,0000-0001-7655-4833
 spleen,spleen,UBERON:0002106,body,UBERON:0013702,N,0000-0001-7655-4833
 spleen pulp,Splenic Pulp,UBERON:1000023,spleen,UBERON:0002106,N,0000-0001-7655-4833
 Spleen central arteriole,Spleen central arteriole,UBERON:0010401,spleen pulp,UBERON:1000023,N,0000-0001-7655-4833
-Sympathetic nerve plexus,Sympathetic nerves ,UBERON:0012373,Spleen central arteriole,UBERON:0010401,N,0000-0001-7655-4833
+Sympathetic nerve plexus,Sympathetic nerves,UBERON:0012373,Spleen central arteriole,UBERON:0010401,N,0000-0001-7655-4833
 spleen,spleen,UBERON:0002106,body,UBERON:0013702,N,0000-0001-7655-4833
 spleen pulp,Splenic Pulp,UBERON:1000023,spleen,UBERON:0002106,N,0000-0001-7655-4833
 Spleen central arteriole,Spleen central arteriole,UBERON:0010401,spleen pulp,UBERON:1000023,N,0000-0001-7655-4833
@@ -23182,7 +23183,7 @@ hilum of spleen,Hilum,UBERON:0001248,spleen,UBERON:0002106,N,0000-0001-7655-4833
 splenic vein,Splenic Vein,UBERON:0003713,hilum of spleen,UBERON:0001248,N,0000-0001-7655-4833
 spleen,spleen,UBERON:0002106,body,UBERON:0013702,N,0000-0001-7655-4833
 hilum of spleen,Hilum,UBERON:0001248,spleen,UBERON:0002106,N,0000-0001-7655-4833
-Sympathetic nerve plexus,Sympathetic nerves ,UBERON:0012373,hilum of spleen,UBERON:0001248,N,0000-0001-7655-4833
+Sympathetic nerve plexus,Sympathetic nerves,UBERON:0012373,hilum of spleen,UBERON:0001248,N,0000-0001-7655-4833
 spleen,spleen,UBERON:0002106,body,UBERON:0013702,N,0000-0001-7655-4833
 hilum of spleen,Hilum,UBERON:0001248,spleen,UBERON:0002106,N,0000-0001-7655-4833
 lymphatic vessel,Lymphatic Vessels,UBERON:0001473,hilum of spleen,UBERON:0001248,N,0000-0001-7655-4833
@@ -23206,7 +23207,7 @@ Spleen Trabecular Vein,Spleen Trabecular Vein,UBERON:0010400,trabecula of spleen
 spleen,spleen,UBERON:0002106,body,UBERON:0013702,N,0000-0001-7655-4833
 spleen capsule,Capsule,UBERON:0004641,spleen,UBERON:0002106,N,0000-0001-7655-4833
 trabecula of spleen,Trabeculae,UBERON:0001265,spleen capsule,UBERON:0004641,N,0000-0001-7655-4833
-Sympathetic nerve plexus,Sympathetic nerves ,UBERON:0012373,trabecula of spleen,UBERON:0001265,N,0000-0001-7655-4833
+Sympathetic nerve plexus,Sympathetic nerves,UBERON:0012373,trabecula of spleen,UBERON:0001265,N,0000-0001-7655-4833
 spleen,spleen,UBERON:0002106,body,UBERON:0013702,N,0000-0001-7655-4833
 spleen capsule,Capsule,UBERON:0004641,spleen,UBERON:0002106,N,0000-0001-7655-4833
 trabecula of spleen,Trabeculae,UBERON:0001265,spleen capsule,UBERON:0004641,N,0000-0001-7655-4833
