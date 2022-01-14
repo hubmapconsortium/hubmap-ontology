@@ -1753,7 +1753,7 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHMAllenBrain,#VHMaleOrgans,Allen_inferior_colliculus_L,inferior colliculus,UBERON:0001946,http://purl.obolibrary.org/obo/UBERON_0001946,Allen_M_Brain,,
 #VHMAllenBrain,#VHMaleOrgans,Allen_mammillary_region_of_HTH_L,-,-,-,Allen_M_Brain,,
 #VHMAllenBrain,#VHMaleOrgans,Allen_subthalamic_nucleus_L,-,-,-,Allen_M_Brain,,
-#VHMAllenBrain,#VHMaleOrgans,VH_M_optic_chiasm,optic chiasma,UBERON:0000959,http://purl.obolibrary.org/obo/UBERON_0000959,Allen_M_Brain,,
+#VHMBrain,#VHMaleOrgans,VH_M_optic_chiasm,optic chiasma,UBERON:0000959,http://purl.obolibrary.org/obo/UBERON_0000959,Allen_M_Brain,,
 -,#VHMaleOrgans,VH_M_nerves_of_eye,-,-,-,VH_M_United,,
 ,,VH_M_nerves_of_eye_L,,,,,,
 #VHMNervesEye,#VHMaleOrgans,VH_M_dura_mater_left,dura mater,UBERON:0002363,http://purl.obolibrary.org/obo/UBERON_0002363,VH_M_Nerves_Eye,,

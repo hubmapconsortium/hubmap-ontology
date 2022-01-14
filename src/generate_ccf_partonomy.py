@@ -6,7 +6,7 @@ from csv import DictReader
 from operator import itemgetter
 from os import path
 from owlready2 import *
-from rdflib.extras.infixowl import OWL, Class, Restriction, Property
+from rdflib.extras.infixowl import OWL, Class, Restriction
 from rdflib import Graph, Namespace, URIRef, RDF, RDFS, Literal
 from constants import CCF_NAMESPACE, CCF_PARTONOMY_TERMS, CCF_PARTONOMY_RDF, CCF_PARTONOMY_JSONLD
 
@@ -65,23 +65,6 @@ def get_term_data(id, label, term, order, parent = None):
   }
 
 TERMS = [
-  'http://purl.obolibrary.org/obo/UBERON_0002097', # Skin
-  'http://purl.obolibrary.org/obo/UBERON_0000059', # Large Intestine
-  'http://purl.obolibrary.org/obo/UBERON_0000948', # Heart
-  'http://purl.obolibrary.org/obo/UBERON_0002113', # Kidney
-  # 'http://purl.obolibrary.org/obo/UBERON_0004538', # Kidney, L
-  # 'http://purl.obolibrary.org/obo/UBERON_0004539', # Kidney, R
-  'http://purl.obolibrary.org/obo/UBERON_0002106', # Spleen
-  'http://purl.obolibrary.org/obo/UBERON_0000955', # Allen Brain
-  'http://purl.obolibrary.org/obo/UBERON_0002048', # Lungs
-  'http://purl.obolibrary.org/obo/UBERON_0000029', # Lymph Node, L
-  # 'http://purl.obolibrary.org/obo/UBERON_0000029', # Lymph Node, R
-  'http://purl.obolibrary.org/obo/UBERON_0001270', # Pelvis
-  'http://purl.obolibrary.org/obo/UBERON_0002370', # Thymus
-  'http://purl.obolibrary.org/obo/UBERON_0002049' # Vasculature
-]
-
-TERMS = [
   'http://purl.obolibrary.org/obo/UBERON_0000955', # Brain
   'http://purl.obolibrary.org/obo/UBERON_0000029', # Lymph Node
   # 'http://purl.obolibrary.org/obo/UBERON_0002509', # Mesenteric Lymph Node
@@ -89,8 +72,8 @@ TERMS = [
   # 'http://purl.obolibrary.org/obo/UBERON_0004548', # Eye, L
   # 'http://purl.obolibrary.org/obo/FMA_54449', # Eye, R
   'http://purl.obolibrary.org/obo/UBERON_0003889', # Fallopian Tube
-  #'http://purl.obolibrary.org/obo/UBERON_0001303', # Fallopian Tube, L
-  #'http://purl.obolibrary.org/obo/UBERON_0001302', # Fallopian Tube, R
+  # 'http://purl.obolibrary.org/obo/UBERON_0001303', # Fallopian Tube, L
+  # 'http://purl.obolibrary.org/obo/UBERON_0001302', # Fallopian Tube, R
   'http://purl.obolibrary.org/obo/UBERON_0000948', # Heart
   'http://purl.obolibrary.org/obo/UBERON_0002113', # Kidney
   # 'http://purl.obolibrary.org/obo/UBERON_0004538', # Kidney, L
@@ -105,7 +88,7 @@ TERMS = [
   # 'http://purl.obolibrary.org/obo/FMA_7213', # Ovary, R
   'http://purl.obolibrary.org/obo/UBERON_0001264', # Pancreas
   'http://purl.obolibrary.org/obo/UBERON_0001270', # Pelvis
-  'http://purl.obolibrary.org/obo/UBERON_0002367', # Prostate
+  'http://purl.obolibrary.org/obo/UBERON_0002367', # Prostate Gland
   'http://purl.obolibrary.org/obo/UBERON_0002097', # Skin
   'http://purl.obolibrary.org/obo/UBERON_0002108', # Small Intestine
   'http://purl.obolibrary.org/obo/UBERON_0000059', # Large Intestine
@@ -114,9 +97,9 @@ TERMS = [
   'http://purl.obolibrary.org/obo/UBERON_0000056', # Ureter
   # 'http://purl.obolibrary.org/obo/UBERON_0001223', # Ureter, L
   # 'http://purl.obolibrary.org/obo/UBERON_0001222', # Ureter, R
-  'http://purl.obolibrary.org/obo/UBERON_0001255', # Bladder
+  'http://purl.obolibrary.org/obo/UBERON_0001255', # Urinary Bladder
   'http://purl.obolibrary.org/obo/UBERON_0000995', # Uterus
-  'http://purl.obolibrary.org/obo/UBERON_0002049' # Blood Vasculature
+  'http://purl.obolibrary.org/obo/UBERON_0004537' # Blood Vasculature
 ]
 
 with open(CCF_PARTONOMY_TERMS) as in_f:
