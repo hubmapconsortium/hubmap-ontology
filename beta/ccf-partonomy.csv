@@ -187,8 +187,8 @@ body,UBERON:0013702
                 optic choroid,UBERON:0001776,choroid,choroid coat,choroidea,eye choroid,posterior uvea,choroid,choroid coat,choroidea,eye choroid,posterior uvea
                     choriocapillaris,UBERON:0005336,capillary lamina of choroid,capillary layer of choroid,inner layer of choroid proper
             outer nuclear layer,UBERON:0001789,neural retina outer nuclear layer,retina outer nuclear layer,retinal outer nuclear layer,stratum nucleare externum (retina),stratum nucleare externum retinae,neural retina outer nuclear layer,retina outer nuclear layer,retinal outer nuclear layer,stratum nucleare externum (retina),stratum nucleare externum retinae
-            retinal ganglion cell layer,UBERON:0001792,GCL layer,RGC layer,ganglionic cell layer of retina,retina ganglion cell layer,retina ganglion layer,retinal ganglion cell layer,retinal ganglion layer,stratum ganglionicum (retina),GCL layer,RGC layer,ganglionic cell layer of retina,retina ganglion cell layer,retina ganglion layer,retinal ganglion cell layer,retinal ganglion layer,stratum ganglionicum (retina)
             vasculature,UBERON:0004864,retina vasculature,retina vasculature of camera-type eye,retinal blood vessels,retinal blood vessels set,retinal vasculature,set of blood vessels of retina,set of retinal blood vessels,vasa sanguinea retinae,retina vasculature,retina vasculature of camera-type eye,retinal blood vessels,retinal blood vessels set,retinal vasculature,set of blood vessels of retina,set of retinal blood vessels,vasa sanguinea retinae
+            retinal ganglion cell layer,UBERON:0001792,GCL layer,RGC layer,ganglionic cell layer of retina,retina ganglion cell layer,retina ganglion layer,retinal ganglion cell layer,retinal ganglion layer,stratum ganglionicum (retina),GCL layer,RGC layer,ganglionic cell layer of retina,retina ganglion cell layer,retina ganglion layer,retinal ganglion cell layer,retinal ganglion layer,stratum ganglionicum (retina)
             retinal pigmented epithelium,UBERON:0001782,outer pigmented layer of retina,pigment epithelium of retina,pigmented retina epithelium,pigmented retinal epithelium,retinal pigment epithelium,retinal pigmented epithelium,stratum pigmentosum (retina),stratum pigmentosum retinae,outer pigmented layer of retina,pigment epithelium of retina,pigmented retina epithelium,pigmented retinal epithelium,retinal pigment epithelium,retinal pigmented epithelium,stratum pigmentosum (retina),stratum pigmentosum retinae
         cornea,UBERON:0000964,cornea of camera-type eye,cornea of camera-type eye
             corneal endothelium,UBERON:0001985,cornea endothelium,endothelium of cornea,cornea endothelium,endothelium of cornea
@@ -211,7 +211,7 @@ body,UBERON:0013702
         right fallopian tube,UBERON:0001302,right fallopian tube,right oviduct,right fallopian tube,right oviduct
         isthmus of fallopian tube,UBERON:0016632,isthmus tubae uterinae
             vasculature of fallopian tube isthmus,ASCTB-TEMP:vasculature-of-fallopian-tube-isthmus
-            lamina propria  of fallopian tube isthmus,ASCTB-TEMP:lamina-propria-of-fallopian-tube-isthmus
+            lamina propria of fallopian tube isthmus,ASCTB-TEMP:lamina-propria-of-fallopian-tube-isthmus
             basement membrane of fallopian tube isthmus,ASCTB-TEMP:basement-membrane-of-fallopian-tube-isthmus
             plica of fallopian tube isthmus,ASCTB-TEMP:plica-of-fallopian-tube-isthmus
             fluid of fallopian tube isthmus,ASCTB-TEMP:fluid-of-fallopian-tube-isthmus
@@ -1088,6 +1088,7 @@ body,UBERON:0013702
                 epiphyseal bone,ASCTB-TEMP:epiphyseal-bone
                 trabecular bone,ASCTB-TEMP:trabecular-bone
                 bone marrow,ASCTB-TEMP:bone-marrow
+                unmyelinated nerve fiber,ASCTB-TEMP:unmyelinated-nerve-fiber
                 marrow elements,ASCTB-TEMP:marrow-elements
                 lateral condyle,UBERON:0009985,condylus lateralis femoris
     large intestine,UBERON:0000059
