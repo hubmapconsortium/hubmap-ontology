@@ -10,9 +10,9 @@ source,object,@id,label,sex,side,rui_rank
 #VHMaleOrgans_VH_M_knee_L,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_M_Knee_L.glb,#VHMLeftKnee,Left Knee,Male,Left,100
 #VHMaleOrgans_VH_M_knee_R,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_M_Knee_R.glb,#VHMRightKnee,Right Knee,Male,Right,110
 #VHMaleOrgans_VH_M_liver,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_M_Liver.glb,#VHMLiver,Liver,Male,,120
-#VHMaleOrgans_VH_M_lungs,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_M_Lung.glb,#VHMLung,Lung,Male,,130
+#VHMaleOrgans_VH_M_respiratory_system,https://ccf-ontology.hubmapconsortium.org/objects/v1.1.1/VH_M_Lung.glb,#VHMLung,Lung,Male,,130
 #VHMaleOrgans_Yao_lymph_node,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/NIH_M_Lymph_Node.glb,#VHMLymphNode,Lymph Node,Male,,140
-#VHMaleOrgans_VH_M_pancreas,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_M_Pancreas.glb,#VHMPancreas,Pancreas,Male,,150
+#VHMaleOrgans_VH_M_pancreas,https://ccf-ontology.hubmapconsortium.org/objects/v1.1.1/VH_M_Pancreas.glb,#VHMPancreas,Pancreas,Male,,150
 #VHMaleOrgans_VH_M_pelvis,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_M_Pelvis.glb,#VHMPelvis,Pelvis,Male,,160
 #VHMaleOrgans_VH_M_prostate_gland,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_M_Prostate.glb,#VHMProstate,Prostate Gland,Male,,170
 #VHMaleOrgans_VH_M_skin,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_M_Skin.glb,#VHMSkinV1.1,Skin,Male,,180
@@ -37,7 +37,7 @@ source,object,@id,label,sex,side,rui_rank
 #VHFemaleOrgans_VH_F_knee_L,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_F_Knee_L.glb,#VHFLeftKnee,Left Knee,Female,Left,120
 #VHFemaleOrgans_VH_F_knee_R,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_F_Knee_R.glb,#VHFRightKnee,Right Knee,Female,Right,130
 #VHFemaleOrgans_VH_F_liver,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_F_Liver.glb,#VHFLiver,Liver,Female,,140
-#VHFemaleOrgans_VH_F_lungs,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_F_Lung.glb,#VHFLung,Lung,Female,,150
+#VHFemaleOrgans_VH_F_respiratory_system,https://ccf-ontology.hubmapconsortium.org/objects/v1.1.1/VH_F_Lung.glb,#VHFLungV1.1,Lung,Female,,150
 #VHFemaleOrgans_VH_F_left_ovary,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_F_Ovary_L.glb,#VHFLeftOvary,Left Ovary,Female,Left,160
 #VHFemaleOrgans_VH_F_right_ovary,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_F_Ovary_R.glb,#VHFRightOvary,Right Ovary,Female,Right,170
 #VHFemaleOrgans_VH_F_pancreas,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_F_Pancreas.glb,#VHFPancreas,Pancreas,Female,,180

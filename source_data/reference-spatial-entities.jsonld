@@ -1087,5 +1087,67 @@
     ],
     "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002097",
     "sex": "Male"
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+    "@id": "#VHFLung",
+    "@type": "SpatialEntity",
+    "label": "Visual Human Female Lung",
+    "creator": "Kristin Browne",
+    "creator_first_name": "Kristin",
+    "creator_last_name": "Browne",
+    "creation_date": "2021-05-21",
+    "x_dimension": 280.9113349481441,
+    "y_dimension": 299.75201360194984,
+    "z_dimension": 180.3005439485608,
+    "dimension_units": "millimeter",
+    "object": {
+      "@id": "#VHFLungObj",
+      "@type": "SpatialObjectReference",
+      "file": "https://ccf-ontology.hubmapconsortium.org/objects/v1.0/VH_F_Lung.glb",
+      "file_format": "model/gltf-binary",
+      "file_subpath": "VHF_respiratory_system",
+      "placement": {
+        "@id": "#VHFLungObjPlacement",
+        "@type": "SpatialPlacement",
+        "target": "#VHFLung",
+        "placement_date": "2021-05-21",
+        "x_scaling": 1,
+        "y_scaling": 1,
+        "z_scaling": 1,
+        "scaling_units": "ratio",
+        "x_rotation": -90,
+        "y_rotation": 0,
+        "z_rotation": 0,
+        "rotation_units": "degree",
+        "x_translation": 139.35168303452733,
+        "y_translation": -341.66131132658,
+        "z_translation": 113.28999709117299,
+        "translation_units": "millimeter"
+      }
+    },
+    "placement": [
+      {
+        "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
+        "@id": "#VHFLungV1.0ToV1.1Placement",
+        "@type": "SpatialPlacement",
+        "target": "#VHFLungV1.1",
+        "placement_date": "2022-01-21",
+        "x_scaling": 0.8940,
+        "y_scaling": 0.9902,
+        "z_scaling": 0.8494,
+        "scaling_units": "ratio",
+        "x_rotation": 0,
+        "y_rotation": 0,
+        "z_rotation": 0,
+        "rotation_units": "degree",
+        "x_translation": 0,
+        "y_translation": 0,
+        "z_translation": 0,
+        "translation_units": "millimeter"
+      }
+    ],
+    "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001004",
+    "sex": "Female"
   }
 ]
