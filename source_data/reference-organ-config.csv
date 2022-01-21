@@ -14,7 +14,7 @@ source,object,@id,label,sex,side,rui_rank
 #VHMaleOrgans_Yao_lymph_node,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/NIH_M_Lymph_Node.glb,#VHMLymphNode,Lymph Node,Male,,140
 #VHMaleOrgans_VH_M_pancreas,https://ccf-ontology.hubmapconsortium.org/objects/v1.1.1/VH_M_Pancreas.glb,#VHMPancreas,Pancreas,Male,,150
 #VHMaleOrgans_VH_M_pelvis,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_M_Pelvis.glb,#VHMPelvis,Pelvis,Male,,160
-#VHMaleOrgans_VH_M_prostate_gland,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_M_Prostate.glb,#VHMProstate,Prostate Gland,Male,,170
+#VHMaleOrgans_VH_M_male_reproductive_system,https://ccf-ontology.hubmapconsortium.org/objects/v1.1.1/VH_M_Prostate.glb,#VHMProstate,Prostate,Male,,170
 #VHMaleOrgans_VH_M_skin,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_M_Skin.glb,#VHMSkinV1.1,Skin,Male,,180
 #VHMaleOrgans_VH_M_small_intestine,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_M_Small_Intestine.glb,#VHMSmallIntestine,Small Intestine,Male,,190
 #VHMaleOrgans_VH_M_spleen,https://ccf-ontology.hubmapconsortium.org/objects/v1.1/VH_M_Spleen.glb,#VHMSpleen,Spleen,Male,,200
