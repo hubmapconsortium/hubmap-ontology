@@ -4,7 +4,7 @@
     "@id": "#VHFHeartSPARCSet1",
     "@type": "ExtractionSet",
     "label": "SPARC",
-    "extraction_set_for": "#VHFHeart",
+    "extraction_set_for": "#VHFHeartV1.1",
     "rui_rank": 21
   },
   {
@@ -12,7 +12,7 @@
     "@id": "#VHFHeartHBMSet1",
     "@type": "ExtractionSet",
     "label": "HuBMAP",
-    "extraction_set_for": "#VHFHeart",
+    "extraction_set_for": "#VHFHeartV1.1",
     "rui_rank": 281
   },
   {
@@ -20,7 +20,7 @@
     "@id": "#VHFHeartPeiSet1",
     "@type": "ExtractionSet",
     "label": "Pei",
-    "extraction_set_for": "#VHFHeart",
+    "extraction_set_for": "#VHFHeartV1.1",
     "rui_rank": 391
   },
   {
@@ -28,7 +28,7 @@
     "@id": "#VHFHeartHCASet1",
     "@type": "ExtractionSet",
     "label": "HCA",
-    "extraction_set_for": "#VHFHeart",
+    "extraction_set_for": "#VHFHeartV1.1",
     "rui_rank": 481
   },
   {
@@ -36,7 +36,7 @@
     "@id": "#VHFLeftKidneyHBMSet1",
     "@type": "ExtractionSet",
     "label": "HuBMAP",
-    "extraction_set_for": "#VHFLeftKidney",
+    "extraction_set_for": "#VHFLeftKidneyV1.1",
     "rui_rank": 561
   },
   {
@@ -44,7 +44,7 @@
     "@id": "#VHFRightKidneyHBMSet1",
     "@type": "ExtractionSet",
     "label": "HuBMAP",
-    "extraction_set_for": "#VHFRightKidney",
+    "extraction_set_for": "#VHFRightKidneyV1.1",
     "rui_rank": 571
   },
   {
@@ -52,7 +52,7 @@
     "@id": "#VHFColonSet1",
     "@type": "ExtractionSet",
     "label": "HuBMAP",
-    "extraction_set_for": "#VHFColon",
+    "extraction_set_for": "#VHFLargeIntestine",
     "rui_rank": 601
   },
   {
@@ -60,7 +60,7 @@
     "@id": "#VHFSpleenHBMSet1",
     "@type": "ExtractionSet",
     "label": "HuBMAP",
-    "extraction_set_for": "#VHFSpleen",
+    "extraction_set_for": "#VHFSpleenV1.1",
     "rui_rank": 671
   },
   {
