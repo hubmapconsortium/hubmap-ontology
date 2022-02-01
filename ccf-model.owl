@@ -49,8 +49,8 @@
 
 <owl:ObjectProperty rdf:about="#has_placement_source">
   <rdfs:domain rdf:resource="#SpatialPlacement"/>
-  <rdfs:range rdf:resource="#SpatialEntity"/>
   <rdfs:range rdf:resource="#SpatialObjectReference"/>
+  <rdfs:range rdf:resource="#SpatialEntity"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#has_placement_target">
