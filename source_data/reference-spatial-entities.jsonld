@@ -43,7 +43,7 @@
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHFemale",
     "@type": "SpatialEntity",
-    "label": "Visual Human (Both Sexes)",
+    "label": "Visual Human Female",
     "creator": "Bruce Herr - https://orcid.org/0000-0002-6703-7647",
     "creator_first_name": "Bruce",
     "creator_last_name": "Herr",
