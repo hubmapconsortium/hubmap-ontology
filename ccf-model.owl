@@ -10,6 +10,10 @@
 
 <owl:ObjectProperty rdf:about="#ccf_part_of"/>
 
+<owl:ObjectProperty rdf:about="#ct_is_a"/>
+
+<owl:ObjectProperty rdf:about="#characterizes"/>
+
 <owl:ObjectProperty rdf:about="#ccf_part_of_rank">
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
 </owl:ObjectProperty>
@@ -192,6 +196,8 @@
   <rdfs:domain rdf:resource="#SpatialEntity"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:DatatypeProperty>
+
+<owl:AnnotationProperty rdf:about="#located_in"/>
 
 <owl:AnnotationProperty rdf:about="#ccf_preferred_label">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
