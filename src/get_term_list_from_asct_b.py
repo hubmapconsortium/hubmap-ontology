@@ -38,15 +38,17 @@ def asct_rows():
     ct_tuple = tuple([ Node('CT', fix_id(a['id']), fix_name(a['name']) or fix_name(a['rdfs_label']), fix_name(a['rdfs_label'])) for a in row['cell_types'] ])
     if as_tuple not in seen:
       seen.add(as_tuple)
-      yield as_tuple
+      yield 'AS', as_tuple
     if ct_tuple not in seen:
       seen.add(ct_tuple)
-      yield ct_tuple
+      yield 'CT', ct_tuple
     if len(as_tuple) > 0 and len(ct_tuple) > 0:
-      asct_tuple = tuple([as_tuple[0], ct_tuple[0]])
-      if asct_tuple not in seen:
-        seen.add(asct_tuple)
-        yield asct_tuple
+      for ct_term in ct_tuple:
+        for as_term in as_tuple:
+          asct_tuple = tuple([as_term, ct_term])
+          if asct_tuple not in seen:
+            seen.add(asct_tuple)
+            yield 'AS_CT', asct_tuple
 
 with open(OUTPUT_CSV, 'w') as out_f:
   out = csv.writer(out_f)
@@ -76,12 +78,12 @@ with open(OUTPUT_CSV, 'w') as out_f:
   out.writerow(['AS','right ureter', 'right ureter', 'UBERON:0001222', 'ureter', 'UBERON:0000056'])
 
   seen = defaultdict(dict)
-  for row in asct_rows():
+  for edge_type, row in asct_rows():
     for i, node in enumerate(row):
       if not good_node(node):
         node = temp_node(node)
       if i == 0:
-        if (node.id, None) not in seen:
+        if edge_type != 'AS_CT' and (node.id, None) not in seen:
           parent = body if node.type == 'AS' else cell
         else:
           parent = None
@@ -89,7 +91,4 @@ with open(OUTPUT_CSV, 'w') as out_f:
         parent = row[i-1]
 
       if parent and node.id != parent.id and (node.id, parent.id) not in seen:
-        if node.type == parent.type:
-          out.writerow([node.type,node.rdfs_label, node.name, node.id, parent.rdfs_label, parent.id])
-        else:
-          out.writerow([parent.type + '_' + node.type,node.rdfs_label, node.name, node.id, parent.rdfs_label, parent.id])
+        out.writerow([edge_type,node.rdfs_label, node.name, node.id, parent.rdfs_label, parent.id])
