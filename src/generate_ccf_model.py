@@ -9,6 +9,12 @@ onto = get_ontology(CCF_NAMESPACE)
 with onto:
   class ccf_part_of(ObjectProperty):
     pass
+  class located_in(AnnotationProperty):
+    pass
+  class ct_is_a(ObjectProperty):
+    pass
+  class characterizes(ObjectProperty):
+    pass
   class ccf_part_of_rank(ObjectProperty):
     range = [int]
   class ccf_rui_rank(ObjectProperty):

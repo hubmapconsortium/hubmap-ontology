@@ -112,13 +112,21 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
   tree = nx.DiGraph()
 
   body = get_term('UBERON:0013702')
-  terms = { body.iri: get_term_data('UBERON:0013702', 'body', body, 0, None) }
+  cell = get_term('CL:0000000')
+  terms = {
+    body.iri: get_term_data('UBERON:0013702', 'body', body, 0, None),
+    cell.iri: get_term_data('CL:0000000', 'cell', cell, 1, None)
+  }
+  edge_type_map = {
+    'AS': ccf_ns.ccf_part_of,
+    'AS_CT': ccf_ns.located_in,
+    'CT': ccf_ns.ct_is_a
+  }
 
   for order, row in enumerate(DictReader(in_f)):
-    if row['Cell-Type'] == 'Y':
-      continue
     parent = row['Parent ID']
     child = row['Ontology ID']
+    edge_type = row['EdgeType']
 
     child_term = get_term(child)
     parent_term = get_term(parent)
@@ -127,7 +135,10 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
       if child_term.iri == parent_term.iri:
         print(f'Removed self-link: {child}: {child_term.iri}')
       else:
-        tree.add_edge(parent_term.iri, child_term.iri)
+        tree.add_edge(parent_term.iri, child_term.iri, edge_type=edge_type)
+
+        if edge_type == 'AS_CT':
+          g.add( (URIRef(child_term.iri), edge_type_map['AS_CT'], URIRef(parent_term.iri)) )
 
         child_label = row['HuBMAP Preferred Name'].strip()
         if not child_label:
@@ -141,13 +152,16 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
       print(f'Parent: {parent} ({ "Null" if parent_term is None else "Not null" }), Child: {child} ({"Null" if child_term is None else "Not null"})')
   
   for term in TERMS:
-    tree.add_edge('root', term)
+    tree.add_edge(body.iri, term, edge_type='AS')
 
-  tree = nx.bfs_tree(tree, 'root')
-  for (parent_iri, child_iri) in tree.edges:
-    if parent_iri == 'root':
-      parent_iri = body.iri
-    g.add( (URIRef(child_iri), ccf_part_of, URIRef(parent_iri)) )
+  body_tree = nx.bfs_tree(tree, body.iri)
+  cell_tree = nx.bfs_tree(tree, cell.iri)
+  for (parent_iri, child_iri) in list(body_tree.edges) + list(cell_tree.edges):
+    edge_type = tree[parent_iri][child_iri]['edge_type']
+    edge_pred = edge_type_map[edge_type]
+
+    if edge_type != 'AS_CT':
+      g.add( (URIRef(child_iri), edge_pred, URIRef(parent_iri)) )
 
     if parent_iri not in classes:
       classes[parent_iri] = Class(URIRef(parent_iri), graph=g)
@@ -156,7 +170,8 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
 
     parent_class = classes[parent_iri]
     child_class = classes[child_iri]
-    child_class.subClassOf = [parent_class, Restriction(ccf_part_of, graph=g, someValuesFrom=parent_class)]
+    if edge_type != 'AS_CT':
+      child_class.subClassOf = [parent_class, Restriction(edge_pred, graph=g, someValuesFrom=parent_class)]
 
   for t in terms.values():
     term = URIRef(t['@id'])

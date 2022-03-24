@@ -2,11 +2,11 @@ import requests
 from urllib.parse import quote_plus
 from rdflib import Graph
 
-#API_URL = 'https://asctb-api.herokuapp.com/v2/csv?output=jsonld&expanded=true&cache=true&csvUrl={0}'
-API_URL = 'https://asctb-api--staging.herokuapp.com/v2/csv?output=jsonld&expanded=true&cache=true&csvUrl={0}'
+API_URL = 'https://asctb-api.herokuapp.com/v2/csv?output=jsonld&expanded=true&cache=true&csvUrl={0}'
+#API_URL = 'https://asctb-api--staging.herokuapp.com/v2/csv?output=jsonld&expanded=true&cache=true&csvUrl={0}'
 #API_URL = 'http://localhost:5000/v2/csv?output=jsonld&expanded=true&csvUrl={0}'
 
-API_URL_JSON = 'https://asctb-api--staging.herokuapp.com/v2/csv?output=json&expanded=true&cache=true&csvUrl={0}'
+API_URL_JSON = 'https://asctb-api.herokuapp.com/v2/csv?output=json&expanded=true&cache=true&csvUrl={0}'
 
 CSV_SHEET = 'https://hubmapconsortium.github.io/ccf-releases/v1.0/asct-b/{0}'
 GOOGLE_SHEET = 'https://docs.google.com/spreadsheets/d/1tK916JyG5ZSXW_cXfsyZnzXfjyoN-8B2GXLbYD6_vF0/export?format=csv&gid={0}'

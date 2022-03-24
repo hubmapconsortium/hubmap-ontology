@@ -1,13 +1,11 @@
 import csv, json, re
 from collections import namedtuple, defaultdict
-from os import listdir, path
 
-ASCT_RELEASE_DIR='../ccf-releases/v1.1/asct-b/'
 ASCTB_JSON='dist/ccf-asctb.json'
 OUTPUT_CSV='source_data/ccf-term-list.csv'
 GOOD_ONTOLOGIES = set(['CL', 'UBERON', 'FMA', 'FMAID'])
 
-AS = namedtuple('AnatomicalStructure', ['id', 'name', 'rdfs_label'])
+Node = namedtuple('OntologyNode', ['type', 'id', 'name', 'rdfs_label'])
 
 # Fix IDs from ASCT+B Tables. Ideally, these changes are made up stream for next release and no transformation is necessary
 def fix_id(idstr):
@@ -15,97 +13,83 @@ def fix_id(idstr):
     idstr = 'fma:'+idstr[3:]
   idstr = idstr.replace('_', ':').replace('::', ':').replace(': ', ':').replace('FMA:', 'FMAID:').replace('fma:', 'FMAID:').split(' ')[0].upper()
   idstr = ':'.join(map(lambda s: s.strip(), idstr.split(':')))
-  return idstr
+  return idstr.strip()
 
 # Fix names. Ideally this is not needed when changes are made up stream.
 def fix_name(name):
   if name == 'thoracic thymus':
     return 'thymus'
-  return name
+  return name.strip()
 
 def good_node(node):
   onto_val = node.id.split(':', 1)
   return node.id and onto_val[0] in GOOD_ONTOLOGIES and len(onto_val) == 2 and len(onto_val[1]) > 0
 
-def as_temp_node(node):
+def temp_node(node):
   suffix = re.sub(r'[^a-z0-9-]+', '', re.sub(r'\W+', '-', node.name.lower().strip()))
   ontologyId = f'ASCTB-TEMP:{suffix}'
-  return AS(ontologyId, node.name, node.name)
+  return Node(node.type, ontologyId, node.name, node.name)
 
-def asct_rows(in_f):
-  text = open(in_f, 'rb').read().decode('ISO-8859-1').split('\n')
-  rows = csv.reader(text)
-  print(in_f)
-  header = False
-  lookup = {}
-  max_as = 1
-  for row in rows:
-    if len(row) > 0 and row[0] == 'AS/1':
-      header = row
-      for index, column in enumerate(header):
-        if column.startswith('AS/'):
-          colspec = column.split('/')
-          as_index = int(colspec[1])
-          if len(colspec) == 2:
-            prop = '_NAME_'
-          elif len(colspec) == 3:
-            prop = colspec[2]
-          lookup[index] = (as_index - 1, prop)
-          max_as = max(as_index, max_as)
-    elif header != False:
-      datum = [ {} for _ in range(max_as) ]
-      for index, (as_index, prop) in lookup.items():
-        if index < len(row):
-          datum[as_index][prop] = row[index].strip()
-      yield [ AS(fix_id(d.get('ID', '')), fix_name(d.get('_NAME_')), fix_name(d.get('LABEL'))) for d in datum ]
-
-def asct_rows2():
+def asct_rows():
   data = json.load(open(ASCTB_JSON))['data']
   seen = set()
   for row in data:
-    as_tuple = tuple([ AS(fix_id(a['id']), fix_name(a['name']), fix_name(a['rdfs_label'])) for a in row['anatomical_structures'] ])
+    as_tuple = tuple([ Node('AS', fix_id(a['id']), fix_name(a['name']), fix_name(a['rdfs_label'])) for a in row['anatomical_structures'] ])
+    ct_tuple = tuple([ Node('CT', fix_id(a['id']), fix_name(a['name']) or fix_name(a['rdfs_label']), fix_name(a['rdfs_label'])) for a in row['cell_types'] ])
     if as_tuple not in seen:
       seen.add(as_tuple)
       yield as_tuple
+    if ct_tuple not in seen:
+      seen.add(ct_tuple)
+      yield ct_tuple
+    if len(as_tuple) > 0 and len(ct_tuple) > 0:
+      asct_tuple = tuple([as_tuple[0], ct_tuple[0]])
+      if asct_tuple not in seen:
+        seen.add(asct_tuple)
+        yield asct_tuple
 
 with open(OUTPUT_CSV, 'w') as out_f:
   out = csv.writer(out_f)
-  out.writerow('Name,HuBMAP Preferred Name,Ontology ID,Parent name,Parent ID,Cell-Type,Curator'.split(','))
-  body = AS('UBERON:0013702', 'body', 'body')
+  out.writerow('EdgeType,Name,HuBMAP Preferred Name,Ontology ID,Parent name,Parent ID'.split(','))
+  body = Node('AS', 'UBERON:0013702', 'body', 'body')
+  cell = Node('CT', 'CL:0000000', 'cell', 'cell')
 
   # Patches for use the EUI
-  out.writerow(['left kidney', 'left kidney', 'UBERON:0004538', 'kidney', 'UBERON:0002113', 'N', '0000-0001-7655-4833'])
-  out.writerow(['right kidney', 'right kidney', 'UBERON:0004539', 'kidney', 'UBERON:0002113', 'N', '0000-0001-7655-4833'])
-  out.writerow(['pelvis', 'pelvis', 'UBERON:0001270', body.rdfs_label, body.id, 'N', '0000-0001-7655-4833'])
-  out.writerow(['bone marrow', 'bone marrow', 'UBERON:0002371', 'pelvis', 'UBERON:0001270', 'N', '0000-0001-7655-4833'])
-  out.writerow(['blood', 'blood', 'UBERON:0000178', 'pelvis', 'UBERON:0001270', 'N', '0000-0001-7655-4833'])
-  out.writerow(['blood vasculature', 'blood vasculature', 'UBERON:0004537', body.rdfs_label, body.id, 'N', '0000-0001-7655-4833'])
-  out.writerow(['lung', 'lung', 'UBERON:0002048', body.rdfs_label, body.id, 'N', '0000-0001-7655-4833'])
-  out.writerow(['respiratory system', 'respiratory system', 'UBERON:0001004', 'lung', 'UBERON:0002048', 'N', '0000-0001-7655-4833'])
-  out.writerow(['mesenteric lymph node', 'mesenteric lymph node', 'UBERON:0002509', 'lymph node', 'UBERON:0000029', 'N', '0000-0001-7655-4833'])
-  out.writerow(['left eye', 'left eye', 'UBERON:0004548', 'eye', 'UBERON:0000970', 'N', '0000-0001-7655-4833'])
-  out.writerow(['right eye', 'right eye', 'FMAID:54449', 'eye', 'UBERON:0000970', 'N', '0000-0001-7655-4833'])
-  out.writerow(['left fallopian tube', 'left fallopian tube', 'UBERON:0001303', 'fallopian tube', 'UBERON:0003889', 'N', '0000-0001-7655-4833'])
-  out.writerow(['right fallopian tube', 'right fallopian tube', 'UBERON:0001302', 'fallopian tube', 'UBERON:0003889', 'N', '0000-0001-7655-4833'])
-  out.writerow(['left knee', 'left knee', 'FMAID:24978', 'knee', 'UBERON:0001465', 'N', '0000-0001-7655-4833'])
-  out.writerow(['right knee', 'right knee', 'FMAID:24977', 'knee', 'UBERON:0001465', 'N', '0000-0001-7655-4833'])
-  out.writerow(['left ovary', 'left ovary', 'FMAID:7214', 'ovary', 'UBERON:0000992', 'N', '0000-0001-7655-4833'])
-  out.writerow(['right ovary', 'right ovary', 'FMAID:7213', 'ovary', 'UBERON:0000992', 'N', '0000-0001-7655-4833'])
-  out.writerow(['left ureter', 'left ureter', 'UBERON:0001223', 'ureter', 'UBERON:0000056', 'N', '0000-0001-7655-4833'])
-  out.writerow(['right ureter', 'right ureter', 'UBERON:0001222', 'ureter', 'UBERON:0000056', 'N', '0000-0001-7655-4833'])
+  out.writerow(['AS','left kidney', 'left kidney', 'UBERON:0004538', 'kidney', 'UBERON:0002113'])
+  out.writerow(['AS','right kidney', 'right kidney', 'UBERON:0004539', 'kidney', 'UBERON:0002113'])
+  out.writerow(['AS','pelvis', 'pelvis', 'UBERON:0001270', body.rdfs_label, body.id])
+  out.writerow(['AS','bone marrow', 'bone marrow', 'UBERON:0002371', 'pelvis', 'UBERON:0001270'])
+  out.writerow(['AS','blood', 'blood', 'UBERON:0000178', 'pelvis', 'UBERON:0001270'])
+  out.writerow(['AS','blood vasculature', 'blood vasculature', 'UBERON:0004537', body.rdfs_label, body.id])
+  out.writerow(['AS','lung', 'lung', 'UBERON:0002048', body.rdfs_label, body.id])
+  out.writerow(['AS','respiratory system', 'respiratory system', 'UBERON:0001004', 'lung', 'UBERON:0002048'])
+  out.writerow(['AS','mesenteric lymph node', 'mesenteric lymph node', 'UBERON:0002509', 'lymph node', 'UBERON:0000029'])
+  out.writerow(['AS','left eye', 'left eye', 'UBERON:0004548', 'eye', 'UBERON:0000970'])
+  out.writerow(['AS','right eye', 'right eye', 'FMAID:54449', 'eye', 'UBERON:0000970'])
+  out.writerow(['AS','left fallopian tube', 'left fallopian tube', 'UBERON:0001303', 'fallopian tube', 'UBERON:0003889'])
+  out.writerow(['AS','right fallopian tube', 'right fallopian tube', 'UBERON:0001302', 'fallopian tube', 'UBERON:0003889'])
+  out.writerow(['AS','left knee', 'left knee', 'FMAID:24978', 'knee', 'UBERON:0001465'])
+  out.writerow(['AS','right knee', 'right knee', 'FMAID:24977', 'knee', 'UBERON:0001465'])
+  out.writerow(['AS','left ovary', 'left ovary', 'FMAID:7214', 'ovary', 'UBERON:0000992'])
+  out.writerow(['AS','right ovary', 'right ovary', 'FMAID:7213', 'ovary', 'UBERON:0000992'])
+  out.writerow(['AS','left ureter', 'left ureter', 'UBERON:0001223', 'ureter', 'UBERON:0000056'])
+  out.writerow(['AS','right ureter', 'right ureter', 'UBERON:0001222', 'ureter', 'UBERON:0000056'])
 
   seen = defaultdict(dict)
-  # for in_f in listdir(ASCT_RELEASE_DIR):
-  #   if in_f.endswith('.csv'):
-  #     for row in asct_rows(path.join(ASCT_RELEASE_DIR, in_f)):
-  for row in asct_rows2():
+  for row in asct_rows():
     for i, node in enumerate(row):
       if not good_node(node):
-        node = as_temp_node(node)
+        node = temp_node(node)
       if i == 0:
         if (node.id, None) not in seen:
-          out.writerow([node.rdfs_label, node.name, node.id, body.rdfs_label, body.id, 'N', '0000-0001-7655-4833'])
+          parent = body if node.type == 'AS' else cell
+        else:
+          parent = None
       elif good_node(row[i-1]):
         parent = row[i-1]
-        if node.id != parent.id and (node.id, parent.id) not in seen:
-          out.writerow([node.rdfs_label, node.name, node.id, parent.rdfs_label, parent.id, 'N', '0000-0001-7655-4833'])
+
+      if parent and node.id != parent.id and (node.id, parent.id) not in seen:
+        if node.type == parent.type:
+          out.writerow([node.type,node.rdfs_label, node.name, node.id, parent.rdfs_label, parent.id])
+        else:
+          out.writerow([parent.type + '_' + node.type,node.rdfs_label, node.name, node.id, parent.rdfs_label, parent.id])
