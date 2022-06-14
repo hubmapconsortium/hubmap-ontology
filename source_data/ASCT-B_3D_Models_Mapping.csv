@@ -355,7 +355,7 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHFAllenBrain,#VHFemaleOrgans,Allen_inferior_colliculus_L,inferior colliculus,UBERON:0001946,http://purl.obolibrary.org/obo/UBERON_0001946,Allen_F_Brain
 #VHFAllenBrain,#VHFemaleOrgans,Allen_mammillary_region_of_HTH_L,-,-,-,Allen_F_Brain
 #VHFAllenBrain,#VHFemaleOrgans,Allen_subthalamic_nucleus_L,-,-,-,Allen_F_Brain
--,#VHFemaleOrgans,VH_F_spinal_cord,spinal cord,UBERON:0002240,http://purl.obolibrary.org/obo/UBERON_0002240,VH_F_Spinal_Cord
+#VHFSpinalCord,#VHFemaleOrgans,VH_F_spinal_cord,spinal cord,UBERON:0002240,http://purl.obolibrary.org/obo/UBERON_0002240,VH_F_Spinal_Cord
 #VHFSpinalCord,#VHFemaleOrgans,VH_F_C1_segment_of_cervical_spinal_cord,C1 segment of cervical spinal cord,UBERON:0006469,http://purl.obolibrary.org/obo/UBERON_0006469,VH_F_Spinal_Cord
 #VHFSpinalCord,#VHFemaleOrgans,VH_F_C2_segment_of_cervical_spinal_cord,C2 segment of cervical spinal cord,UBERON:0006489,http://purl.obolibrary.org/obo/UBERON_0006489,VH_F_Spinal_Cord
 #VHFSpinalCord,#VHFemaleOrgans,VH_F_C3_segment_of_cervical_spinal_cord,C3 segment of cervical spinal cord,UBERON:0006488,http://purl.obolibrary.org/obo/UBERON_0006488,VH_F_Spinal_Cord
@@ -1565,7 +1565,7 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHMThymus,#VHMaleOrgans,VH_M_thymus_lobe_L,left thymus lobe,UBERON:0005457,http://purl.obolibrary.org/obo/UBERON_0005457,VH_M_Thymus
 #VHMThymus,#VHMaleOrgans,VH_M_thymus_lobe_R,right thymus lobe,UBERON:0005469,http://purl.obolibrary.org/obo/UBERON_0005469,VH_M_Thymus
 -,#VHMaleOrgans,VH_M_nervous_system,central nervous system,UBERON:0001017,http://purl.obolibrary.org/obo/UBERON_0001017,VH_M_United
--,#VHMaleOrgans,VH_M_spinal_cord,spinal cord,UBERON:0002240,http://purl.obolibrary.org/obo/UBERON_0002240,VH_M_United
+#VHMSpinalCord,#VHMaleOrgans,VH_M_spinal_cord,spinal cord,UBERON:0002240,http://purl.obolibrary.org/obo/UBERON_0002240,VH_M_United
 #VHMSpinalCord,#VHMaleOrgans,VH_M_C1_segment_of_cervical_spinal_cord,C1 segment of cervical spinal cord,UBERON:0006469,http://purl.obolibrary.org/obo/UBERON_0006469,VH_M_Spinal_Cord
 #VHMSpinalCord,#VHMaleOrgans,VH_M_C2_segment_of_cervical_spinal_cord,C2 segment of cervical spinal cord,UBERON:0006489,http://purl.obolibrary.org/obo/UBERON_0006489,VH_M_Spinal_Cord
 #VHMSpinalCord,#VHMaleOrgans,VH_M_C3_segment_of_cervical_spinal_cord,C3 segment of cervical spinal cord,UBERON:0006488,http://purl.obolibrary.org/obo/UBERON_0006488,VH_M_Spinal_Cord
