@@ -507,7 +507,7 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHFPancreasDucts,#VHFemaleOrgans,VH_F_ventral_pancreatic_duct,Ventral pancreatic duct,UBERON:0001064,http://purl.obolibrary.org/obo/UBERON_0001064,VH_F_Biliary_Tree
 #VHFGallbladderDucts,#VHFemaleOrgans,VH_F_ducts_of_gallbladder,-,-,-,VH_F_Biliary_Tree
 #VHFGallbladderDucts,#VHFemaleOrgans,VH_F_cystic_duct,cystic duct,UBERON:0001152,http://purl.obolibrary.org/obo/UBERON_0001152,VH_F_Biliary_Tree
--,#VHFemaleOrgans,VH_F_liver,liver,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107,VH_F_Liver
+#VHFLiver,#VHFemaleOrgans,VH_F_liver,liver,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107,VH_F_Liver
 #VHFLiver,#VHFemaleOrgans,VH_F_gastric_impression_of_liver,gastric impression of liver,FMA:14487,http://purl.obolibrary.org/obo/FMA_14487,VH_F_Liver
 #VHFLiver,#VHFemaleOrgans,VH_F_suprarenal_impression_of_liver,Suprarenal impression of liver,FMA:14489,http://purl.obolibrary.org/obo/FMA_14489,VH_F_Liver
 #VHFLiver,#VHFemaleOrgans,VH_F_renal_impression_of_liver,renal impression of liver,FMA:14488,http://purl.obolibrary.org/obo/FMA_14488,VH_F_Liver
@@ -613,43 +613,43 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHFRightKidneyV1.1,#VHFemaleOrgans,VH_F_renal_pyramid_R_j,renal pyramid,UBERON:0004200,http://purl.obolibrary.org/obo/UBERON_0004200,VH_F_Kidney_R
 -,#VHFemaleOrgans,VH_F_renal_pelvis_ureter,-,-,-,-
 -,#VHFemaleOrgans,VH_F_renal_pelvis_ureter_R,-,-,-,-
-#VHFRightUreter,#VHFemaleOrgans,VH_F_renal_calyx_R,kidney calyx,UBERON:0006517,http://purl.obolibrary.org/obo/UBERON_0006517,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_minor_calyx_R,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_minor_calyx_R_a,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_minor_calyx_R_b,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_minor_calyx_R_c,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_minor_calyx_R_d,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_minor_calyx_R_e,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_minor_calyx_R_f,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_minor_calyx_R_g,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_minor_calyx_R_h,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_minor_calyx_R_i,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_minor_calyx_R_j,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_major_calyx_R,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_major_calyx_R_a,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_major_calyx_R_b,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_major_calyx_R_c,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_R
-#VHFRightUreter,#VHFemaleOrgans,VH_F_renal_pelvis_R,renal pelvis,UBERON:0001224,http://purl.obolibrary.org/obo/UBERON_0001224,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_renal_calyx_R,kidney calyx,UBERON:0006517,http://purl.obolibrary.org/obo/UBERON_0006517,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_minor_calyx_R,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_minor_calyx_R_a,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_minor_calyx_R_b,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_minor_calyx_R_c,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_minor_calyx_R_d,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_minor_calyx_R_e,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_minor_calyx_R_f,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_minor_calyx_R_g,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_minor_calyx_R_h,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_minor_calyx_R_i,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_minor_calyx_R_j,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_major_calyx_R,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_major_calyx_R_a,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_major_calyx_R_b,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_major_calyx_R_c,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_R
+-,#VHFemaleOrgans,VH_F_renal_pelvis_R,renal pelvis,UBERON:0001224,http://purl.obolibrary.org/obo/UBERON_0001224,VH_F_Ureter_R
 #VHFRightUreter,#VHFemaleOrgans,VH_F_right_ureter,right ureter,UBERON:0001222,http://purl.obolibrary.org/obo/UBERON_0001222,VH_F_Ureter_R
 -,-,VH_F_renal_pelvis_ureter_L,-,-,-,-
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_kidney_calyx_L,kidney calyx,UBERON:0006517,http://purl.obolibrary.org/obo/UBERON_0006517,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_minor_calyx_L,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_minor_calyx_L_a,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_minor_calyx_L_b,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_minor_calyx_L_c,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_minor_calyx_L_d,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_minor_calyx_L_e,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_minor_calyx_L_f,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_minor_calyx_L_g,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_minor_calyx_L_h,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_minor_calyx_L_i,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_minor_calyx_L_j,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_major_calyx_L,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_major_calyx_L_a,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_major_calyx_L_b,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_major_calyx_L_c,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_major_calyx_L_d,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_L
-#VHFLeftUreter,#VHFemaleOrgans,VH_F_renal_pelvis_L,renal pelvis,UBERON:0001224,http://purl.obolibrary.org/obo/UBERON_0001224,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_kidney_calyx_L,kidney calyx,UBERON:0006517,http://purl.obolibrary.org/obo/UBERON_0006517,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_minor_calyx_L,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_minor_calyx_L_a,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_minor_calyx_L_b,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_minor_calyx_L_c,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_minor_calyx_L_d,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_minor_calyx_L_e,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_minor_calyx_L_f,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_minor_calyx_L_g,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_minor_calyx_L_h,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_minor_calyx_L_i,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_minor_calyx_L_j,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_major_calyx_L,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_major_calyx_L_a,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_major_calyx_L_b,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_major_calyx_L_c,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_major_calyx_L_d,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_F_Ureter_L
+-,#VHFemaleOrgans,VH_F_renal_pelvis_L,renal pelvis,UBERON:0001224,http://purl.obolibrary.org/obo/UBERON_0001224,VH_F_Ureter_L
 #VHFLeftUreter,#VHFemaleOrgans,VH_F_left_ureter,left ureter,UBERON:0001223,http://purl.obolibrary.org/obo/UBERON_0001223,VH_F_Ureter_L
 #VHFUrinaryBladder,#VHFemaleOrgans,VH_F_urinary_bladder,urinary bladder,UBERON:0001255,http://purl.obolibrary.org/obo/UBERON_0001255,VH_F_Urinary_Bladder
 #VHFUrinaryBladder,#VHFemaleOrgans,VH_F_fundus_of_urinary_bladder_dome,fundus of urinary bladder,UBERON:0006082,http://purl.obolibrary.org/obo/UBERON_0006082,VH_F_Urinary_Bladder
@@ -1509,39 +1509,39 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHMUrinaryBladder,#VHMaleOrgans,VH_M_trigone_of_urinary_bladder,trigone of urinary bladder,UBERON:0001257,http://purl.obolibrary.org/obo/UBERON_0001257,VH_M_Urinary_Bladder
 -,-,VH_M_renal_pelvis_ureter,-,-,-,
 -,-,VH_M_renal_pelvis_ureter_R,-,-,-,
-#VHMRightUreter,#VHMaleOrgans,VH_M_calyx_R,kidney calyx,UBERON:0006517,http://purl.obolibrary.org/obo/UBERON_0006517,VH_M_Ureter_R
-#VHMRightUreter,#VHMaleOrgans,VH_M_major_calyx_R,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_M_Ureter_R
-#VHMRightUreter,#VHMaleOrgans,VH_M_major_calyx_R_a,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_M_Ureter_R
-#VHMRightUreter,#VHMaleOrgans,VH_M_major_calyx_R_b,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_M_Ureter_R
-#VHMRightUreter,#VHMaleOrgans,VH_M_minor_calyx_R,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
-#VHMRightUreter,#VHMaleOrgans,VH_M_minor_calyx_R_a,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
-#VHMRightUreter,#VHMaleOrgans,VH_M_minor_calyx_R_b,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
-#VHMRightUreter,#VHMaleOrgans,VH_M_minor_calyx_R_c,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
-#VHMRightUreter,#VHMaleOrgans,VH_M_minor_calyx_R_d,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
-#VHMRightUreter,#VHMaleOrgans,VH_M_minor_calyx_R_e,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
-#VHMRightUreter,#VHMaleOrgans,VH_M_minor_calyx_R_f,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
-#VHMRightUreter,#VHMaleOrgans,VH_M_minor_calyx_R_g,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
-#VHMRightUreter,#VHMaleOrgans,VH_M_minor_calyx_R_h,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
-#VHMRightUreter,#VHMaleOrgans,VH_M_minor_calyx_R_i,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
-#VHMRightUreter,#VHMaleOrgans,VH_M_renal_pelvis_R,renal pelvis,UBERON:0001224,http://purl.obolibrary.org/obo/UBERON_0001224,VH_M_Ureter_R
+-,#VHMaleOrgans,VH_M_calyx_R,kidney calyx,UBERON:0006517,http://purl.obolibrary.org/obo/UBERON_0006517,VH_M_Ureter_R
+-,#VHMaleOrgans,VH_M_major_calyx_R,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_M_Ureter_R
+-,#VHMaleOrgans,VH_M_major_calyx_R_a,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_M_Ureter_R
+-,#VHMaleOrgans,VH_M_major_calyx_R_b,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_M_Ureter_R
+-,#VHMaleOrgans,VH_M_minor_calyx_R,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
+-,#VHMaleOrgans,VH_M_minor_calyx_R_a,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
+-,#VHMaleOrgans,VH_M_minor_calyx_R_b,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
+-,#VHMaleOrgans,VH_M_minor_calyx_R_c,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
+-,#VHMaleOrgans,VH_M_minor_calyx_R_d,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
+-,#VHMaleOrgans,VH_M_minor_calyx_R_e,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
+-,#VHMaleOrgans,VH_M_minor_calyx_R_f,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
+-,#VHMaleOrgans,VH_M_minor_calyx_R_g,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
+-,#VHMaleOrgans,VH_M_minor_calyx_R_h,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
+-,#VHMaleOrgans,VH_M_minor_calyx_R_i,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_R
+-,#VHMaleOrgans,VH_M_renal_pelvis_R,renal pelvis,UBERON:0001224,http://purl.obolibrary.org/obo/UBERON_0001224,VH_M_Ureter_R
 #VHMRightUreter,#VHMaleOrgans,VH_M_ureter_R,right ureter,UBERON:0001222,http://purl.obolibrary.org/obo/UBERON_0001222,VH_M_Ureter_R
 -,-,VH_M_renal_pelvis_ureter_L,-,-,-,VH_M_Ureter_R
-#VHMLeftUreter,#VHMaleOrgans,VH_M_renal_pelvis_L,renal pelvis,UBERON:0001224,http://purl.obolibrary.org/obo/UBERON_0001224,VH_M_Ureter_L
-#VHMLeftUreter,#VHMaleOrgans,VH_M_kidney_calyx_L,kidney calyx,UBERON:0006517,http://purl.obolibrary.org/obo/UBERON_0006517,VH_M_Ureter_L
-#VHMLeftUreter,#VHMaleOrgans,VH_M_major_calyx_L,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_M_Ureter_L
-#VHMLeftUreter,#VHMaleOrgans,VH_M_major_calyx_L_a,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_M_Ureter_L
-#VHMLeftUreter,#VHMaleOrgans,VH_M_major_calyx_L_b,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_M_Ureter_L
-#VHMLeftUreter,#VHMaleOrgans,VH_M_major_calyx_L_c,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_M_Ureter_L
-#VHMLeftUreter,#VHMaleOrgans,VH_M_minor_calyx_L,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
-#VHMLeftUreter,#VHMaleOrgans,VH_M_minor_calyx_L_a,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
-#VHMLeftUreter,#VHMaleOrgans,VH_M_minor_calyx_L_b,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
-#VHMLeftUreter,#VHMaleOrgans,VH_M_minor_calyx_L_c,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
-#VHMLeftUreter,#VHMaleOrgans,VH_M_minor_calyx_L_d,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
-#VHMLeftUreter,#VHMaleOrgans,VH_M_minor_calyx_L_e,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
-#VHMLeftUreter,#VHMaleOrgans,VH_M_minor_calyx_L_f,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
-#VHMLeftUreter,#VHMaleOrgans,VH_M_minor_calyx_L_g,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
-#VHMLeftUreter,#VHMaleOrgans,VH_M_minor_calyx_L_h,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
-#VHMLeftUreter,#VHMaleOrgans,VH_M_minor_calyx_L_i,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_renal_pelvis_L,renal pelvis,UBERON:0001224,http://purl.obolibrary.org/obo/UBERON_0001224,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_kidney_calyx_L,kidney calyx,UBERON:0006517,http://purl.obolibrary.org/obo/UBERON_0006517,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_major_calyx_L,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_major_calyx_L_a,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_major_calyx_L_b,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_major_calyx_L_c,major calyx,UBERON:0001226,http://purl.obolibrary.org/obo/UBERON_0001226,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_minor_calyx_L,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_minor_calyx_L_a,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_minor_calyx_L_b,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_minor_calyx_L_c,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_minor_calyx_L_d,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_minor_calyx_L_e,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_minor_calyx_L_f,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_minor_calyx_L_g,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_minor_calyx_L_h,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
+-,#VHMaleOrgans,VH_M_minor_calyx_L_i,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
 #VHMLeftUreter,#VHMaleOrgans,VH_M_ureter_L,left ureter,UBERON:0001223,http://purl.obolibrary.org/obo/UBERON_0001223,VH_M_Ureter_L
 #VHMMaleUrethra,#VHMaleOrgans,VH_M_urethra,male urethra,UBERON:0001333,http://purl.obolibrary.org/obo/UBERON_0001333,VH_M_Urethra
 -,#VHMaleOrgans,VH_M_other_urethra,-,-,-,VH_M_Urethra

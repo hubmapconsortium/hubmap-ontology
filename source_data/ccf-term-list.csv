@@ -14332,10 +14332,10 @@ AS_CT,cardiac pacemaker cell of sinoatrial node,pacemaker cell,CL:1000477,sinoat
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,right cardiac atrium,right atrium,UBERON:0002078,heart,UBERON:0000948
 AS,Sinoatrial nodal branch of right coronary artery,sinoatrial nodal artery,FMAID:3823,right cardiac atrium,UBERON:0002078
-CT,endothelial cell of artery,endothelial cell,CL:0002542,cell,CL:0000000
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,heart,UBERON:0000948
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,right cardiac atrium,UBERON:0002078
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,Sinoatrial nodal branch of right coronary artery,FMAID:3823
+CT,endothelial cell of artery,endothelial cell,CL:1000413,cell,CL:0000000
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,heart,UBERON:0000948
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,right cardiac atrium,UBERON:0002078
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,Sinoatrial nodal branch of right coronary artery,FMAID:3823
 CT,smooth muscle cell of the coronary artery,smooth muscle cell,CL:0002592,cell,CL:0000000
 AS_CT,smooth muscle cell of the coronary artery,smooth muscle cell,CL:0002592,heart,UBERON:0000948
 AS_CT,smooth muscle cell of the coronary artery,smooth muscle cell,CL:0002592,right cardiac atrium,UBERON:0002078
@@ -14382,7 +14382,7 @@ AS_CT,pericyte,pericyte,ASCTB-TEMP:pericyte,right cardiac atrium,UBERON:0002078
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,right cardiac atrium,right atrium,UBERON:0002078,heart,UBERON:0000948
 AS,Anterior cardiac vein,anterior cardiac veins,FMAID:76767,right cardiac atrium,UBERON:0002078
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,Anterior cardiac vein,FMAID:76767
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,Anterior cardiac vein,FMAID:76767
 AS_CT,smooth muscle cell of the coronary artery,smooth muscle cell,CL:0002592,Anterior cardiac vein,FMAID:76767
 AS_CT,fibroblast,fibroblast,CL:0000057,Anterior cardiac vein,FMAID:76767
 CT,telocyte (interstitial like cell of cajal),telocyte (interstitial like cell of cajal),ASCTB-TEMP:telocyte-interstitial-like-cell-of-cajal-,cell,CL:0000000
@@ -14404,20 +14404,20 @@ AS_CT,fat cell,adipocyte,CL:0000136,Myocardium of right atrium,FMAID:83531
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,atrioventricular region,atrioventricular junction,UBERON:0011820,heart,UBERON:0000948
 AS,circumflex branch of left coronary artery,left circumflex artery,UBERON:0035422,atrioventricular region,UBERON:0011820
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,atrioventricular region,UBERON:0011820
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,circumflex branch of left coronary artery,UBERON:0035422
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,atrioventricular region,UBERON:0011820
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,circumflex branch of left coronary artery,UBERON:0035422
 AS_CT,smooth muscle cell of the coronary artery,smooth muscle cell,CL:0002592,atrioventricular region,UBERON:0011820
 AS_CT,smooth muscle cell of the coronary artery,smooth muscle cell,CL:0002592,circumflex branch of left coronary artery,UBERON:0035422
 AS_CT,fibroblast,fibroblast,CL:0000057,atrioventricular region,UBERON:0011820
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,atrioventricular region,atrioventricular junction,UBERON:0011820,heart,UBERON:0000948
 AS,Atrioventricular node branch of right coronary artery,atrioventicular nodal artery,FMAID:3851,atrioventricular region,UBERON:0011820
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,Atrioventricular node branch of right coronary artery,FMAID:3851
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,Atrioventricular node branch of right coronary artery,FMAID:3851
 AS_CT,smooth muscle cell of the coronary artery,smooth muscle cell,CL:0002592,Atrioventricular node branch of right coronary artery,FMAID:3851
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,atrioventricular region,atrioventricular junction,UBERON:0011820,heart,UBERON:0000948
 AS,coronary sinus,coronary sinus,UBERON:0005438,atrioventricular region,UBERON:0011820
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,coronary sinus,UBERON:0005438
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,coronary sinus,UBERON:0005438
 AS_CT,vascular associated smooth muscle cell,smooth muscle cell,CL:0000359,atrioventricular region,UBERON:0011820
 AS_CT,vascular associated smooth muscle cell,smooth muscle cell,CL:0000359,coronary sinus,UBERON:0005438
 AS_CT,fibroblast,fibroblast,CL:0000057,coronary sinus,UBERON:0005438
@@ -14431,12 +14431,12 @@ AS_CT,fat cell,adipocyte,CL:0000136,atrioventricular node,UBERON:0002352
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,atrioventricular region,atrioventricular junction,UBERON:0011820,heart,UBERON:0000948
 AS,right coronary artery,right coronary artery,UBERON:0001625,atrioventricular region,UBERON:0011820
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,right coronary artery,UBERON:0001625
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,right coronary artery,UBERON:0001625
 AS_CT,smooth muscle cell of the coronary artery,smooth muscle cell,CL:0002592,right coronary artery,UBERON:0001625
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,atrioventricular region,atrioventricular junction,UBERON:0011820,heart,UBERON:0000948
 AS,small cardiac vein,small cardiac vein,UBERON:0035374,atrioventricular region,UBERON:0011820
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,small cardiac vein,UBERON:0035374
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,small cardiac vein,UBERON:0035374
 AS_CT,smooth muscle cell of the coronary artery,smooth muscle cell,CL:0002592,small cardiac vein,UBERON:0035374
 AS_CT,fibroblast,fibroblast,CL:0000057,small cardiac vein,UBERON:0035374
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
@@ -14546,8 +14546,8 @@ AS_CT,fat cell,adipocyte,CL:0000136,left ventricle myocardium,UBERON:0006566
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,heart left ventricle,left ventricle,UBERON:0002084,heart,UBERON:0000948
 AS,Diagonal branch of anterior descending branch of left coronary artery,left diagonal branch of the left anterior descending artery,FMAID:3860,heart left ventricle,UBERON:0002084
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,heart left ventricle,UBERON:0002084
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,Diagonal branch of anterior descending branch of left coronary artery,FMAID:3860
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,heart left ventricle,UBERON:0002084
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,Diagonal branch of anterior descending branch of left coronary artery,FMAID:3860
 CT,blood vessel endothelial cell,smooth muscle cell,CL:0000071,cell,CL:0000000
 AS_CT,blood vessel endothelial cell,smooth muscle cell,CL:0000071,heart,UBERON:0000948
 AS_CT,blood vessel endothelial cell,smooth muscle cell,CL:0000071,heart left ventricle,UBERON:0002084
@@ -14556,32 +14556,32 @@ AS_CT,fibroblast,fibroblast,CL:0000057,Diagonal branch of anterior descending br
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,heart left ventricle,left ventricle,UBERON:0002084,heart,UBERON:0000948
 AS,Left marginal artery,left obtuse marginal branch of the left coronary artery,FMAID:3902,heart left ventricle,UBERON:0002084
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,Left marginal artery,FMAID:3902
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,Left marginal artery,FMAID:3902
 AS_CT,blood vessel endothelial cell,smooth muscle cell,CL:0000071,Left marginal artery,FMAID:3902
 AS_CT,fibroblast,fibroblast,CL:0000057,Left marginal artery,FMAID:3902
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,heart left ventricle,left ventricle,UBERON:0002084,heart,UBERON:0000948
 AS,Posterior ventricular branch of right coronary artery,posterior left ventricular branch of the right coronary artery,FMAID:3835,heart left ventricle,UBERON:0002084
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,Posterior ventricular branch of right coronary artery,FMAID:3835
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,Posterior ventricular branch of right coronary artery,FMAID:3835
 AS_CT,blood vessel endothelial cell,smooth muscle cell,CL:0000071,Posterior ventricular branch of right coronary artery,FMAID:3835
 AS_CT,fibroblast,fibroblast,CL:0000057,Posterior ventricular branch of right coronary artery,FMAID:3835
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,heart left ventricle,left ventricle,UBERON:0002084,heart,UBERON:0000948
 AS,left marginal vein,left marginal vein,FMAID:4708,heart left ventricle,UBERON:0002084
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,left marginal vein,FMAID:4708
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,left marginal vein,FMAID:4708
 AS_CT,blood vessel endothelial cell,smooth muscle cell,CL:0000071,left marginal vein,FMAID:4708
 AS_CT,fibroblast,fibroblast,CL:0000057,left marginal vein,FMAID:4708
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,heart left ventricle,left ventricle,UBERON:0002084,heart,UBERON:0000948
 AS,Posterior vein of left ventricle,posterior vein of the left ventricle,FMAID:4712,heart left ventricle,UBERON:0002084
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,Posterior vein of left ventricle,FMAID:4712
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,Posterior vein of left ventricle,FMAID:4712
 AS_CT,blood vessel endothelial cell,smooth muscle cell,CL:0000071,Posterior vein of left ventricle,FMAID:4712
 AS_CT,fibroblast,fibroblast,CL:0000057,Posterior vein of left ventricle,FMAID:4712
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,interventricular septum,septum,UBERON:0002094,heart,UBERON:0000948
 AS,left anterior descending artery,left anterior descending artery,FMAID:3862,interventricular septum,UBERON:0002094
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,interventricular septum,UBERON:0002094
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,left anterior descending artery,FMAID:3862
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,interventricular septum,UBERON:0002094
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,left anterior descending artery,FMAID:3862
 AS_CT,blood vessel endothelial cell,smooth muscle cell,CL:0000071,interventricular septum,UBERON:0002094
 AS_CT,blood vessel endothelial cell,smooth muscle cell,CL:0000071,left anterior descending artery,FMAID:3862
 AS_CT,fibroblast,fibroblast,CL:0000057,interventricular septum,UBERON:0002094
@@ -14589,7 +14589,7 @@ AS_CT,fibroblast,fibroblast,CL:0000057,left anterior descending artery,FMAID:386
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,interventricular septum,septum,UBERON:0002094,heart,UBERON:0000948
 AS,posterior descending artery,posterior descending artery,FMAID:3840,interventricular septum,UBERON:0002094
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,posterior descending artery,FMAID:3840
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,posterior descending artery,FMAID:3840
 AS_CT,blood vessel endothelial cell,smooth muscle cell,CL:0000071,posterior descending artery,FMAID:3840
 AS_CT,fibroblast,fibroblast,CL:0000057,posterior descending artery,FMAID:3840
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
@@ -14598,13 +14598,13 @@ AS,septal perforating arteries,septal perforating arteries,ASCTB-TEMP:septal-per
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,interventricular septum,septum,UBERON:0002094,heart,UBERON:0000948
 AS,great cardiac vein,great cardiac vein,UBERON:0006958,interventricular septum,UBERON:0002094
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,great cardiac vein,UBERON:0006958
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,great cardiac vein,UBERON:0006958
 AS_CT,blood vessel endothelial cell,smooth muscle cell,CL:0000071,great cardiac vein,UBERON:0006958
 AS_CT,fibroblast,fibroblast,CL:0000057,great cardiac vein,UBERON:0006958
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,interventricular septum,septum,UBERON:0002094,heart,UBERON:0000948
 AS,middle cardiac vein,middle cardiac vein,UBERON:0009687,interventricular septum,UBERON:0002094
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,middle cardiac vein,UBERON:0009687
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,middle cardiac vein,UBERON:0009687
 AS_CT,blood vessel endothelial cell,smooth muscle cell,CL:0000071,middle cardiac vein,UBERON:0009687
 AS_CT,fibroblast,fibroblast,CL:0000057,middle cardiac vein,UBERON:0009687
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
@@ -14653,15 +14653,15 @@ AS_CT,macrophage,macrophage,CL:0000235,right ventricle myocardium,UBERON:0006567
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,heart right ventricle,right ventricle,UBERON:0002080,heart,UBERON:0000948
 AS,conus artery,conus artery,FMAID:15736,heart right ventricle,UBERON:0002080
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,heart right ventricle,UBERON:0002080
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,conus artery,FMAID:15736
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,heart right ventricle,UBERON:0002080
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,conus artery,FMAID:15736
 AS_CT,blood vessel endothelial cell,smooth muscle cell,CL:0000071,heart right ventricle,UBERON:0002080
 AS_CT,blood vessel endothelial cell,smooth muscle cell,CL:0000071,conus artery,FMAID:15736
 AS_CT,fibroblast,fibroblast,CL:0000057,conus artery,FMAID:15736
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
 AS,heart right ventricle,right ventricle,UBERON:0002080,heart,UBERON:0000948
 AS,right marginal artery,right marginal artery,FMAID:3818,heart right ventricle,UBERON:0002080
-AS_CT,endothelial cell of artery,endothelial cell,CL:0002542,right marginal artery,FMAID:3818
+AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,right marginal artery,FMAID:3818
 AS_CT,blood vessel endothelial cell,smooth muscle cell,CL:0000071,right marginal artery,FMAID:3818
 AS_CT,fibroblast,fibroblast,CL:0000057,right marginal artery,FMAID:3818
 AS,heart,heart,UBERON:0000948,body,UBERON:0013702
@@ -17900,7 +17900,6 @@ AS,liver,liver,UBERON:0002107,body,UBERON:0013702
 AS,liver lobule,hepatic Lobule,UBERON:0004647,liver,UBERON:0002107
 AS,portal triad,portal triad/tract,UBERON:0001279,liver lobule,UBERON:0004647
 AS,hepatic artery,hepatic artery,UBERON:0001193,portal triad,UBERON:0001279
-CT,endothelial cell of artery,endothelial cell,CL:1000413,cell,CL:0000000
 AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,liver,UBERON:0002107
 AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,liver lobule,UBERON:0004647
 AS_CT,endothelial cell of artery,endothelial cell,CL:1000413,portal triad,UBERON:0001279
@@ -17922,10 +17921,10 @@ AS_CT,portal fibroblast,portal fibroblast,ASCTB-TEMP:portal-fibroblast,interstit
 AS,liver,liver,UBERON:0002107,body,UBERON:0013702
 AS,liver lobule,hepatic Lobule,UBERON:0004647,liver,UBERON:0002107
 AS,intralobular bile duct,Canals of Hering,UBERON:0001282,liver lobule,UBERON:0004647
-CT,Hepatic oval cell,hepatic oval cell,CL:1000036,cell,CL:0000000
-AS_CT,Hepatic oval cell,hepatic oval cell,CL:1000036,liver,UBERON:0002107
-AS_CT,Hepatic oval cell,hepatic oval cell,CL:1000036,liver lobule,UBERON:0004647
-AS_CT,Hepatic oval cell,hepatic oval cell,CL:1000036,intralobular bile duct,UBERON:0001282
+CT,Hepatic oval cell,hepatic oval cell,CL:0002196,cell,CL:0000000
+AS_CT,Hepatic oval cell,hepatic oval cell,CL:0002196,liver,UBERON:0002107
+AS_CT,Hepatic oval cell,hepatic oval cell,CL:0002196,liver lobule,UBERON:0004647
+AS_CT,Hepatic oval cell,hepatic oval cell,CL:0002196,intralobular bile duct,UBERON:0001282
 CT,hepatic progenitor cell,hepatic progenitor cell,ASCTB-TEMP:hepatic-progenitor-cell,cell,CL:0000000
 AS_CT,hepatic progenitor cell,hepatic progenitor cell,ASCTB-TEMP:hepatic-progenitor-cell,liver,UBERON:0002107
 AS_CT,hepatic progenitor cell,hepatic progenitor cell,ASCTB-TEMP:hepatic-progenitor-cell,liver lobule,UBERON:0004647
@@ -17933,9 +17932,9 @@ AS_CT,hepatic progenitor cell,hepatic progenitor cell,ASCTB-TEMP:hepatic-progeni
 AS,liver,liver,UBERON:0002107,body,UBERON:0013702
 AS,liver lobule,hepatic Lobule,UBERON:0004647,liver,UBERON:0002107
 AS,lymphatic vessel,lymphatic vessel,ASCTB-TEMP:lymphatic-vessel,liver lobule,UBERON:0004647
-CT,lymphatic endothelial cell,hepatic lymphatic endothelial cell,CL:1000421,cell,CL:0000000
-AS_CT,lymphatic endothelial cell,hepatic lymphatic endothelial cell,CL:1000421,liver,UBERON:0002107
-AS_CT,lymphatic endothelial cell,hepatic lymphatic endothelial cell,CL:1000421,liver lobule,UBERON:0004647
+CT,lymphatic endothelial cell,hepatic lymphatic endothelial cell,CL:0002138,cell,CL:0000000
+AS_CT,lymphatic endothelial cell,hepatic lymphatic endothelial cell,CL:0002138,liver,UBERON:0002107
+AS_CT,lymphatic endothelial cell,hepatic lymphatic endothelial cell,CL:0002138,liver lobule,UBERON:0004647
 AS,liver,liver,UBERON:0002107,body,UBERON:0013702
 AS,liver lobule,hepatic Lobule,UBERON:0004647,liver,UBERON:0002107
 AS,liver stroma,stroma,UBERON:0016478,liver lobule,UBERON:0004647
@@ -19440,8 +19439,15 @@ AS,pair of lungs,pair of lungs,UBERON:0000170,lower respiratory tract,UBERON:000
 AS,Lung,Lung,UBERON:0002048,pair of lungs,UBERON:0000170
 AS,Lobe of Lung,Lung Lobe,UBERON:0000101,Lung,UBERON:0002048
 AS,immune system,Immune System of Respiratory Tract,UBERON:0002405,Lobe of Lung,UBERON:0000101
-AS,innate lymphoid cell,innate lymphoid cell,CL:0001065,immune system,UBERON:0002405
-CT,natural killer,natural killer,CL:0000623,cell,CL:0000000
+CT,innate lymphoid cell,innate lymphoid cell,CL:0001065,cell,CL:0000000
+CT,natural killer,natural killer,CL:0000623,innate lymphoid cell,CL:0001065
+AS_CT,innate lymphoid cell,innate lymphoid cell,CL:0001065,Respiratory System,UBERON:0001004
+AS_CT,innate lymphoid cell,innate lymphoid cell,CL:0001065,respiratory tract,UBERON:0000065
+AS_CT,innate lymphoid cell,innate lymphoid cell,CL:0001065,lower respiratory tract,UBERON:0001558
+AS_CT,innate lymphoid cell,innate lymphoid cell,CL:0001065,pair of lungs,UBERON:0000170
+AS_CT,innate lymphoid cell,innate lymphoid cell,CL:0001065,Lung,UBERON:0002048
+AS_CT,innate lymphoid cell,innate lymphoid cell,CL:0001065,Lobe of Lung,UBERON:0000101
+AS_CT,innate lymphoid cell,innate lymphoid cell,CL:0001065,immune system,UBERON:0002405
 AS_CT,natural killer,natural killer,CL:0000623,Respiratory System,UBERON:0001004
 AS_CT,natural killer,natural killer,CL:0000623,respiratory tract,UBERON:0000065
 AS_CT,natural killer,natural killer,CL:0000623,lower respiratory tract,UBERON:0001558
@@ -19449,8 +19455,8 @@ AS_CT,natural killer,natural killer,CL:0000623,pair of lungs,UBERON:0000170
 AS_CT,natural killer,natural killer,CL:0000623,Lung,UBERON:0002048
 AS_CT,natural killer,natural killer,CL:0000623,Lobe of Lung,UBERON:0000101
 AS_CT,natural killer,natural killer,CL:0000623,immune system,UBERON:0002405
-AS_CT,natural killer,natural killer,CL:0000623,innate lymphoid cell,CL:0001065
-CT,NK CD56bright,NK CD56bright,CL:0000938,cell,CL:0000000
+CT,innate lymphoid cell,innate lymphoid cell,CL:0001065,cell,CL:0000000
+CT,NK CD56bright,NK CD56bright,CL:0000938,innate lymphoid cell,CL:0001065
 AS_CT,NK CD56bright,NK CD56bright,CL:0000938,Respiratory System,UBERON:0001004
 AS_CT,NK CD56bright,NK CD56bright,CL:0000938,respiratory tract,UBERON:0000065
 AS_CT,NK CD56bright,NK CD56bright,CL:0000938,lower respiratory tract,UBERON:0001558
@@ -19458,8 +19464,8 @@ AS_CT,NK CD56bright,NK CD56bright,CL:0000938,pair of lungs,UBERON:0000170
 AS_CT,NK CD56bright,NK CD56bright,CL:0000938,Lung,UBERON:0002048
 AS_CT,NK CD56bright,NK CD56bright,CL:0000938,Lobe of Lung,UBERON:0000101
 AS_CT,NK CD56bright,NK CD56bright,CL:0000938,immune system,UBERON:0002405
-AS_CT,NK CD56bright,NK CD56bright,CL:0000938,innate lymphoid cell,CL:0001065
-CT,NK T cell,NK T cell,CL:0000814,cell,CL:0000000
+CT,innate lymphoid cell,innate lymphoid cell,CL:0001065,cell,CL:0000000
+CT,NK T cell,NK T cell,CL:0000814,innate lymphoid cell,CL:0001065
 AS_CT,NK T cell,NK T cell,CL:0000814,Respiratory System,UBERON:0001004
 AS_CT,NK T cell,NK T cell,CL:0000814,respiratory tract,UBERON:0000065
 AS_CT,NK T cell,NK T cell,CL:0000814,lower respiratory tract,UBERON:0001558
@@ -19467,16 +19473,15 @@ AS_CT,NK T cell,NK T cell,CL:0000814,pair of lungs,UBERON:0000170
 AS_CT,NK T cell,NK T cell,CL:0000814,Lung,UBERON:0002048
 AS_CT,NK T cell,NK T cell,CL:0000814,Lobe of Lung,UBERON:0000101
 AS_CT,NK T cell,NK T cell,CL:0000814,immune system,UBERON:0002405
-AS_CT,NK T cell,NK T cell,CL:0000814,innate lymphoid cell,CL:0001065
-AS,Respiratory System,Respiratory System,UBERON:0001004,body,UBERON:0013702
-AS,respiratory tract,respiratory tract,UBERON:0000065,Respiratory System,UBERON:0001004
-AS,lower respiratory tract,lower respiratory tract,UBERON:0001558,respiratory tract,UBERON:0000065
-AS,pair of lungs,pair of lungs,UBERON:0000170,lower respiratory tract,UBERON:0001558
-AS,Lung,Lung,UBERON:0002048,pair of lungs,UBERON:0000170
-AS,Lobe of Lung,Lung Lobe,UBERON:0000101,Lung,UBERON:0002048
-AS,immune system,Immune System of Respiratory Tract,UBERON:0002405,Lobe of Lung,UBERON:0000101
-AS,lymphocyte,lymphoid cells of lung,CL:0000542,immune system,UBERON:0002405
-CT,CD8+ T cell naive,CD8+ T cell naive,CL:0000900,cell,CL:0000000
+CT,lymphocyte,lymphoid cells of lung,CL:0000542,cell,CL:0000000
+CT,CD8+ T cell naive,CD8+ T cell naive,CL:0000900,lymphocyte,CL:0000542
+AS_CT,lymphocyte,lymphoid cells of lung,CL:0000542,Respiratory System,UBERON:0001004
+AS_CT,lymphocyte,lymphoid cells of lung,CL:0000542,respiratory tract,UBERON:0000065
+AS_CT,lymphocyte,lymphoid cells of lung,CL:0000542,lower respiratory tract,UBERON:0001558
+AS_CT,lymphocyte,lymphoid cells of lung,CL:0000542,pair of lungs,UBERON:0000170
+AS_CT,lymphocyte,lymphoid cells of lung,CL:0000542,Lung,UBERON:0002048
+AS_CT,lymphocyte,lymphoid cells of lung,CL:0000542,Lobe of Lung,UBERON:0000101
+AS_CT,lymphocyte,lymphoid cells of lung,CL:0000542,immune system,UBERON:0002405
 AS_CT,CD8+ T cell naive,CD8+ T cell naive,CL:0000900,Respiratory System,UBERON:0001004
 AS_CT,CD8+ T cell naive,CD8+ T cell naive,CL:0000900,respiratory tract,UBERON:0000065
 AS_CT,CD8+ T cell naive,CD8+ T cell naive,CL:0000900,lower respiratory tract,UBERON:0001558
@@ -19484,7 +19489,8 @@ AS_CT,CD8+ T cell naive,CD8+ T cell naive,CL:0000900,pair of lungs,UBERON:000017
 AS_CT,CD8+ T cell naive,CD8+ T cell naive,CL:0000900,Lung,UBERON:0002048
 AS_CT,CD8+ T cell naive,CD8+ T cell naive,CL:0000900,Lobe of Lung,UBERON:0000101
 AS_CT,CD8+ T cell naive,CD8+ T cell naive,CL:0000900,immune system,UBERON:0002405
-AS_CT,CD8+ T cell naive,CD8+ T cell naive,CL:0000900,lymphocyte,CL:0000542
+CT,lymphocyte,lymphoid cells of lung,CL:0000542,cell,CL:0000000
+CT,B cell,B cell,CL:0000236,lymphocyte,CL:0000542
 AS_CT,B cell,B cell,CL:0000236,Respiratory System,UBERON:0001004
 AS_CT,B cell,B cell,CL:0000236,respiratory tract,UBERON:0000065
 AS_CT,B cell,B cell,CL:0000236,lower respiratory tract,UBERON:0001558
@@ -19492,7 +19498,8 @@ AS_CT,B cell,B cell,CL:0000236,pair of lungs,UBERON:0000170
 AS_CT,B cell,B cell,CL:0000236,Lung,UBERON:0002048
 AS_CT,B cell,B cell,CL:0000236,Lobe of Lung,UBERON:0000101
 AS_CT,B cell,B cell,CL:0000236,immune system,UBERON:0002405
-AS_CT,B cell,B cell,CL:0000236,lymphocyte,CL:0000542
+CT,lymphocyte,lymphoid cells of lung,CL:0000542,cell,CL:0000000
+CT,plasma cell,plasma cell,CL:0000786,lymphocyte,CL:0000542
 AS_CT,plasma cell,plasma cell,CL:0000786,Respiratory System,UBERON:0001004
 AS_CT,plasma cell,plasma cell,CL:0000786,respiratory tract,UBERON:0000065
 AS_CT,plasma cell,plasma cell,CL:0000786,lower respiratory tract,UBERON:0001558
@@ -19500,8 +19507,8 @@ AS_CT,plasma cell,plasma cell,CL:0000786,pair of lungs,UBERON:0000170
 AS_CT,plasma cell,plasma cell,CL:0000786,Lung,UBERON:0002048
 AS_CT,plasma cell,plasma cell,CL:0000786,Lobe of Lung,UBERON:0000101
 AS_CT,plasma cell,plasma cell,CL:0000786,immune system,UBERON:0002405
-AS_CT,plasma cell,plasma cell,CL:0000786,lymphocyte,CL:0000542
-CT,CD4+ T cell effector memory,CD4+ T cell effector memory,CL:0000905,cell,CL:0000000
+CT,lymphocyte,lymphoid cells of lung,CL:0000542,cell,CL:0000000
+CT,CD4+ T cell effector memory,CD4+ T cell effector memory,CL:0000905,lymphocyte,CL:0000542
 AS_CT,CD4+ T cell effector memory,CD4+ T cell effector memory,CL:0000905,Respiratory System,UBERON:0001004
 AS_CT,CD4+ T cell effector memory,CD4+ T cell effector memory,CL:0000905,respiratory tract,UBERON:0000065
 AS_CT,CD4+ T cell effector memory,CD4+ T cell effector memory,CL:0000905,lower respiratory tract,UBERON:0001558
@@ -19509,8 +19516,8 @@ AS_CT,CD4+ T cell effector memory,CD4+ T cell effector memory,CL:0000905,pair of
 AS_CT,CD4+ T cell effector memory,CD4+ T cell effector memory,CL:0000905,Lung,UBERON:0002048
 AS_CT,CD4+ T cell effector memory,CD4+ T cell effector memory,CL:0000905,Lobe of Lung,UBERON:0000101
 AS_CT,CD4+ T cell effector memory,CD4+ T cell effector memory,CL:0000905,immune system,UBERON:0002405
-AS_CT,CD4+ T cell effector memory,CD4+ T cell effector memory,CL:0000905,lymphocyte,CL:0000542
-CT,CD4+ T cell naive,CD4+ T cell naive,CL:0000895,cell,CL:0000000
+CT,lymphocyte,lymphoid cells of lung,CL:0000542,cell,CL:0000000
+CT,CD4+ T cell naive,CD4+ T cell naive,CL:0000895,lymphocyte,CL:0000542
 AS_CT,CD4+ T cell naive,CD4+ T cell naive,CL:0000895,Respiratory System,UBERON:0001004
 AS_CT,CD4+ T cell naive,CD4+ T cell naive,CL:0000895,respiratory tract,UBERON:0000065
 AS_CT,CD4+ T cell naive,CD4+ T cell naive,CL:0000895,lower respiratory tract,UBERON:0001558
@@ -19518,8 +19525,8 @@ AS_CT,CD4+ T cell naive,CD4+ T cell naive,CL:0000895,pair of lungs,UBERON:000017
 AS_CT,CD4+ T cell naive,CD4+ T cell naive,CL:0000895,Lung,UBERON:0002048
 AS_CT,CD4+ T cell naive,CD4+ T cell naive,CL:0000895,Lobe of Lung,UBERON:0000101
 AS_CT,CD4+ T cell naive,CD4+ T cell naive,CL:0000895,immune system,UBERON:0002405
-AS_CT,CD4+ T cell naive,CD4+ T cell naive,CL:0000895,lymphocyte,CL:0000542
-CT,CD4+ T cell resident memory,CD4+ T cell resident memory,ASCTB-TEMP:cd4-t-cell-resident-memory,cell,CL:0000000
+CT,lymphocyte,lymphoid cells of lung,CL:0000542,cell,CL:0000000
+CT,CD4+ T cell resident memory,CD4+ T cell resident memory,ASCTB-TEMP:cd4-t-cell-resident-memory,lymphocyte,CL:0000542
 AS_CT,CD4+ T cell resident memory,CD4+ T cell resident memory,ASCTB-TEMP:cd4-t-cell-resident-memory,Respiratory System,UBERON:0001004
 AS_CT,CD4+ T cell resident memory,CD4+ T cell resident memory,ASCTB-TEMP:cd4-t-cell-resident-memory,respiratory tract,UBERON:0000065
 AS_CT,CD4+ T cell resident memory,CD4+ T cell resident memory,ASCTB-TEMP:cd4-t-cell-resident-memory,lower respiratory tract,UBERON:0001558
@@ -19527,8 +19534,8 @@ AS_CT,CD4+ T cell resident memory,CD4+ T cell resident memory,ASCTB-TEMP:cd4-t-c
 AS_CT,CD4+ T cell resident memory,CD4+ T cell resident memory,ASCTB-TEMP:cd4-t-cell-resident-memory,Lung,UBERON:0002048
 AS_CT,CD4+ T cell resident memory,CD4+ T cell resident memory,ASCTB-TEMP:cd4-t-cell-resident-memory,Lobe of Lung,UBERON:0000101
 AS_CT,CD4+ T cell resident memory,CD4+ T cell resident memory,ASCTB-TEMP:cd4-t-cell-resident-memory,immune system,UBERON:0002405
-AS_CT,CD4+ T cell resident memory,CD4+ T cell resident memory,ASCTB-TEMP:cd4-t-cell-resident-memory,lymphocyte,CL:0000542
-CT,CD8+ T cell effector memory,CD8+ T cell effector memory,CL:0000913,cell,CL:0000000
+CT,lymphocyte,lymphoid cells of lung,CL:0000542,cell,CL:0000000
+CT,CD8+ T cell effector memory,CD8+ T cell effector memory,CL:0000913,lymphocyte,CL:0000542
 AS_CT,CD8+ T cell effector memory,CD8+ T cell effector memory,CL:0000913,Respiratory System,UBERON:0001004
 AS_CT,CD8+ T cell effector memory,CD8+ T cell effector memory,CL:0000913,respiratory tract,UBERON:0000065
 AS_CT,CD8+ T cell effector memory,CD8+ T cell effector memory,CL:0000913,lower respiratory tract,UBERON:0001558
@@ -19536,8 +19543,8 @@ AS_CT,CD8+ T cell effector memory,CD8+ T cell effector memory,CL:0000913,pair of
 AS_CT,CD8+ T cell effector memory,CD8+ T cell effector memory,CL:0000913,Lung,UBERON:0002048
 AS_CT,CD8+ T cell effector memory,CD8+ T cell effector memory,CL:0000913,Lobe of Lung,UBERON:0000101
 AS_CT,CD8+ T cell effector memory,CD8+ T cell effector memory,CL:0000913,immune system,UBERON:0002405
-AS_CT,CD8+ T cell effector memory,CD8+ T cell effector memory,CL:0000913,lymphocyte,CL:0000542
-CT,CD8+ T cell resident memory,CD8+ T cell resident memory,ASCTB-TEMP:cd8-t-cell-resident-memory,cell,CL:0000000
+CT,lymphocyte,lymphoid cells of lung,CL:0000542,cell,CL:0000000
+CT,CD8+ T cell resident memory,CD8+ T cell resident memory,ASCTB-TEMP:cd8-t-cell-resident-memory,lymphocyte,CL:0000542
 AS_CT,CD8+ T cell resident memory,CD8+ T cell resident memory,ASCTB-TEMP:cd8-t-cell-resident-memory,Respiratory System,UBERON:0001004
 AS_CT,CD8+ T cell resident memory,CD8+ T cell resident memory,ASCTB-TEMP:cd8-t-cell-resident-memory,respiratory tract,UBERON:0000065
 AS_CT,CD8+ T cell resident memory,CD8+ T cell resident memory,ASCTB-TEMP:cd8-t-cell-resident-memory,lower respiratory tract,UBERON:0001558
@@ -19545,8 +19552,8 @@ AS_CT,CD8+ T cell resident memory,CD8+ T cell resident memory,ASCTB-TEMP:cd8-t-c
 AS_CT,CD8+ T cell resident memory,CD8+ T cell resident memory,ASCTB-TEMP:cd8-t-cell-resident-memory,Lung,UBERON:0002048
 AS_CT,CD8+ T cell resident memory,CD8+ T cell resident memory,ASCTB-TEMP:cd8-t-cell-resident-memory,Lobe of Lung,UBERON:0000101
 AS_CT,CD8+ T cell resident memory,CD8+ T cell resident memory,ASCTB-TEMP:cd8-t-cell-resident-memory,immune system,UBERON:0002405
-AS_CT,CD8+ T cell resident memory,CD8+ T cell resident memory,ASCTB-TEMP:cd8-t-cell-resident-memory,lymphocyte,CL:0000542
-CT,mucosal invariant T cell,mucosal invariant T cell,CL:0000940,cell,CL:0000000
+CT,lymphocyte,lymphoid cells of lung,CL:0000542,cell,CL:0000000
+CT,mucosal invariant T cell,mucosal invariant T cell,CL:0000940,lymphocyte,CL:0000542
 AS_CT,mucosal invariant T cell,mucosal invariant T cell,CL:0000940,Respiratory System,UBERON:0001004
 AS_CT,mucosal invariant T cell,mucosal invariant T cell,CL:0000940,respiratory tract,UBERON:0000065
 AS_CT,mucosal invariant T cell,mucosal invariant T cell,CL:0000940,lower respiratory tract,UBERON:0001558
@@ -19554,8 +19561,8 @@ AS_CT,mucosal invariant T cell,mucosal invariant T cell,CL:0000940,pair of lungs
 AS_CT,mucosal invariant T cell,mucosal invariant T cell,CL:0000940,Lung,UBERON:0002048
 AS_CT,mucosal invariant T cell,mucosal invariant T cell,CL:0000940,Lobe of Lung,UBERON:0000101
 AS_CT,mucosal invariant T cell,mucosal invariant T cell,CL:0000940,immune system,UBERON:0002405
-AS_CT,mucosal invariant T cell,mucosal invariant T cell,CL:0000940,lymphocyte,CL:0000542
-CT,regulatory T cell,regulatory T cell,CL:0000815,cell,CL:0000000
+CT,lymphocyte,lymphoid cells of lung,CL:0000542,cell,CL:0000000
+CT,regulatory T cell,regulatory T cell,CL:0000815,lymphocyte,CL:0000542
 AS_CT,regulatory T cell,regulatory T cell,CL:0000815,Respiratory System,UBERON:0001004
 AS_CT,regulatory T cell,regulatory T cell,CL:0000815,respiratory tract,UBERON:0000065
 AS_CT,regulatory T cell,regulatory T cell,CL:0000815,lower respiratory tract,UBERON:0001558
@@ -19563,16 +19570,15 @@ AS_CT,regulatory T cell,regulatory T cell,CL:0000815,pair of lungs,UBERON:000017
 AS_CT,regulatory T cell,regulatory T cell,CL:0000815,Lung,UBERON:0002048
 AS_CT,regulatory T cell,regulatory T cell,CL:0000815,Lobe of Lung,UBERON:0000101
 AS_CT,regulatory T cell,regulatory T cell,CL:0000815,immune system,UBERON:0002405
-AS_CT,regulatory T cell,regulatory T cell,CL:0000815,lymphocyte,CL:0000542
-AS,Respiratory System,Respiratory System,UBERON:0001004,body,UBERON:0013702
-AS,respiratory tract,respiratory tract,UBERON:0000065,Respiratory System,UBERON:0001004
-AS,lower respiratory tract,lower respiratory tract,UBERON:0001558,respiratory tract,UBERON:0000065
-AS,pair of lungs,pair of lungs,UBERON:0000170,lower respiratory tract,UBERON:0001558
-AS,Lung,Lung,UBERON:0002048,pair of lungs,UBERON:0000170
-AS,Lobe of Lung,Lung Lobe,UBERON:0000101,Lung,UBERON:0002048
-AS,immune system,Immune System of Respiratory Tract,UBERON:0002405,Lobe of Lung,UBERON:0000101
-AS,myeloid cell,myeloid cell,CL:0000763,immune system,UBERON:0002405
-CT,migratory dendritic cell,migratory dendritic cell,ASCTB-TEMP:migratory-dendritic-cell,cell,CL:0000000
+CT,myeloid cell,myeloid cell,CL:0000763,cell,CL:0000000
+CT,migratory dendritic cell,migratory dendritic cell,ASCTB-TEMP:migratory-dendritic-cell,myeloid cell,CL:0000763
+AS_CT,myeloid cell,myeloid cell,CL:0000763,Respiratory System,UBERON:0001004
+AS_CT,myeloid cell,myeloid cell,CL:0000763,respiratory tract,UBERON:0000065
+AS_CT,myeloid cell,myeloid cell,CL:0000763,lower respiratory tract,UBERON:0001558
+AS_CT,myeloid cell,myeloid cell,CL:0000763,pair of lungs,UBERON:0000170
+AS_CT,myeloid cell,myeloid cell,CL:0000763,Lung,UBERON:0002048
+AS_CT,myeloid cell,myeloid cell,CL:0000763,Lobe of Lung,UBERON:0000101
+AS_CT,myeloid cell,myeloid cell,CL:0000763,immune system,UBERON:0002405
 AS_CT,migratory dendritic cell,migratory dendritic cell,ASCTB-TEMP:migratory-dendritic-cell,Respiratory System,UBERON:0001004
 AS_CT,migratory dendritic cell,migratory dendritic cell,ASCTB-TEMP:migratory-dendritic-cell,respiratory tract,UBERON:0000065
 AS_CT,migratory dendritic cell,migratory dendritic cell,ASCTB-TEMP:migratory-dendritic-cell,lower respiratory tract,UBERON:0001558
@@ -19580,8 +19586,8 @@ AS_CT,migratory dendritic cell,migratory dendritic cell,ASCTB-TEMP:migratory-den
 AS_CT,migratory dendritic cell,migratory dendritic cell,ASCTB-TEMP:migratory-dendritic-cell,Lung,UBERON:0002048
 AS_CT,migratory dendritic cell,migratory dendritic cell,ASCTB-TEMP:migratory-dendritic-cell,Lobe of Lung,UBERON:0000101
 AS_CT,migratory dendritic cell,migratory dendritic cell,ASCTB-TEMP:migratory-dendritic-cell,immune system,UBERON:0002405
-AS_CT,migratory dendritic cell,migratory dendritic cell,ASCTB-TEMP:migratory-dendritic-cell,myeloid cell,CL:0000763
-CT,myeloid dendritic cell cDC1,cDC1 myeloid dendritic cell,CL:0002394,cell,CL:0000000
+CT,myeloid cell,myeloid cell,CL:0000763,cell,CL:0000000
+CT,myeloid dendritic cell cDC1,cDC1 myeloid dendritic cell,CL:0002394,myeloid cell,CL:0000763
 AS_CT,myeloid dendritic cell cDC1,cDC1 myeloid dendritic cell,CL:0002394,Respiratory System,UBERON:0001004
 AS_CT,myeloid dendritic cell cDC1,cDC1 myeloid dendritic cell,CL:0002394,respiratory tract,UBERON:0000065
 AS_CT,myeloid dendritic cell cDC1,cDC1 myeloid dendritic cell,CL:0002394,lower respiratory tract,UBERON:0001558
@@ -19589,8 +19595,8 @@ AS_CT,myeloid dendritic cell cDC1,cDC1 myeloid dendritic cell,CL:0002394,pair of
 AS_CT,myeloid dendritic cell cDC1,cDC1 myeloid dendritic cell,CL:0002394,Lung,UBERON:0002048
 AS_CT,myeloid dendritic cell cDC1,cDC1 myeloid dendritic cell,CL:0002394,Lobe of Lung,UBERON:0000101
 AS_CT,myeloid dendritic cell cDC1,cDC1 myeloid dendritic cell,CL:0002394,immune system,UBERON:0002405
-AS_CT,myeloid dendritic cell cDC1,cDC1 myeloid dendritic cell,CL:0002394,myeloid cell,CL:0000763
-CT,Interstitial macrophage,Interstitial macrophage,ASCTB-TEMP:interstitial-macrophage,cell,CL:0000000
+CT,myeloid cell,myeloid cell,CL:0000763,cell,CL:0000000
+CT,Interstitial macrophage,Interstitial macrophage,ASCTB-TEMP:interstitial-macrophage,myeloid cell,CL:0000763
 AS_CT,Interstitial macrophage,Interstitial macrophage,ASCTB-TEMP:interstitial-macrophage,Respiratory System,UBERON:0001004
 AS_CT,Interstitial macrophage,Interstitial macrophage,ASCTB-TEMP:interstitial-macrophage,respiratory tract,UBERON:0000065
 AS_CT,Interstitial macrophage,Interstitial macrophage,ASCTB-TEMP:interstitial-macrophage,lower respiratory tract,UBERON:0001558
@@ -19598,8 +19604,8 @@ AS_CT,Interstitial macrophage,Interstitial macrophage,ASCTB-TEMP:interstitial-ma
 AS_CT,Interstitial macrophage,Interstitial macrophage,ASCTB-TEMP:interstitial-macrophage,Lung,UBERON:0002048
 AS_CT,Interstitial macrophage,Interstitial macrophage,ASCTB-TEMP:interstitial-macrophage,Lobe of Lung,UBERON:0000101
 AS_CT,Interstitial macrophage,Interstitial macrophage,ASCTB-TEMP:interstitial-macrophage,immune system,UBERON:0002405
-AS_CT,Interstitial macrophage,Interstitial macrophage,ASCTB-TEMP:interstitial-macrophage,myeloid cell,CL:0000763
-CT,alveolar macrophage,alveolar macrophage,CL:0000583,cell,CL:0000000
+CT,myeloid cell,myeloid cell,CL:0000763,cell,CL:0000000
+CT,alveolar macrophage,alveolar macrophage,CL:0000583,myeloid cell,CL:0000763
 AS_CT,alveolar macrophage,alveolar macrophage,CL:0000583,Respiratory System,UBERON:0001004
 AS_CT,alveolar macrophage,alveolar macrophage,CL:0000583,respiratory tract,UBERON:0000065
 AS_CT,alveolar macrophage,alveolar macrophage,CL:0000583,lower respiratory tract,UBERON:0001558
@@ -19607,8 +19613,8 @@ AS_CT,alveolar macrophage,alveolar macrophage,CL:0000583,pair of lungs,UBERON:00
 AS_CT,alveolar macrophage,alveolar macrophage,CL:0000583,Lung,UBERON:0002048
 AS_CT,alveolar macrophage,alveolar macrophage,CL:0000583,Lobe of Lung,UBERON:0000101
 AS_CT,alveolar macrophage,alveolar macrophage,CL:0000583,immune system,UBERON:0002405
-AS_CT,alveolar macrophage,alveolar macrophage,CL:0000583,myeloid cell,CL:0000763
-CT,classical monocyte,classical monocyte,CL:0000860,cell,CL:0000000
+CT,myeloid cell,myeloid cell,CL:0000763,cell,CL:0000000
+CT,classical monocyte,classical monocyte,CL:0000860,myeloid cell,CL:0000763
 AS_CT,classical monocyte,classical monocyte,CL:0000860,Respiratory System,UBERON:0001004
 AS_CT,classical monocyte,classical monocyte,CL:0000860,respiratory tract,UBERON:0000065
 AS_CT,classical monocyte,classical monocyte,CL:0000860,lower respiratory tract,UBERON:0001558
@@ -19616,8 +19622,8 @@ AS_CT,classical monocyte,classical monocyte,CL:0000860,pair of lungs,UBERON:0000
 AS_CT,classical monocyte,classical monocyte,CL:0000860,Lung,UBERON:0002048
 AS_CT,classical monocyte,classical monocyte,CL:0000860,Lobe of Lung,UBERON:0000101
 AS_CT,classical monocyte,classical monocyte,CL:0000860,immune system,UBERON:0002405
-AS_CT,classical monocyte,classical monocyte,CL:0000860,myeloid cell,CL:0000763
-CT,non-classical monocyte,non-classical monocyte,CL:0000875,cell,CL:0000000
+CT,myeloid cell,myeloid cell,CL:0000763,cell,CL:0000000
+CT,non-classical monocyte,non-classical monocyte,CL:0000875,myeloid cell,CL:0000763
 AS_CT,non-classical monocyte,non-classical monocyte,CL:0000875,Respiratory System,UBERON:0001004
 AS_CT,non-classical monocyte,non-classical monocyte,CL:0000875,respiratory tract,UBERON:0000065
 AS_CT,non-classical monocyte,non-classical monocyte,CL:0000875,lower respiratory tract,UBERON:0001558
@@ -19625,8 +19631,8 @@ AS_CT,non-classical monocyte,non-classical monocyte,CL:0000875,pair of lungs,UBE
 AS_CT,non-classical monocyte,non-classical monocyte,CL:0000875,Lung,UBERON:0002048
 AS_CT,non-classical monocyte,non-classical monocyte,CL:0000875,Lobe of Lung,UBERON:0000101
 AS_CT,non-classical monocyte,non-classical monocyte,CL:0000875,immune system,UBERON:0002405
-AS_CT,non-classical monocyte,non-classical monocyte,CL:0000875,myeloid cell,CL:0000763
-CT,myeloid dendritic cell cDC2,cDC2 myeloid dendritic cell,CL:0002399,cell,CL:0000000
+CT,myeloid cell,myeloid cell,CL:0000763,cell,CL:0000000
+CT,myeloid dendritic cell cDC2,cDC2 myeloid dendritic cell,CL:0002399,myeloid cell,CL:0000763
 AS_CT,myeloid dendritic cell cDC2,cDC2 myeloid dendritic cell,CL:0002399,Respiratory System,UBERON:0001004
 AS_CT,myeloid dendritic cell cDC2,cDC2 myeloid dendritic cell,CL:0002399,respiratory tract,UBERON:0000065
 AS_CT,myeloid dendritic cell cDC2,cDC2 myeloid dendritic cell,CL:0002399,lower respiratory tract,UBERON:0001558
@@ -19634,8 +19640,8 @@ AS_CT,myeloid dendritic cell cDC2,cDC2 myeloid dendritic cell,CL:0002399,pair of
 AS_CT,myeloid dendritic cell cDC2,cDC2 myeloid dendritic cell,CL:0002399,Lung,UBERON:0002048
 AS_CT,myeloid dendritic cell cDC2,cDC2 myeloid dendritic cell,CL:0002399,Lobe of Lung,UBERON:0000101
 AS_CT,myeloid dendritic cell cDC2,cDC2 myeloid dendritic cell,CL:0002399,immune system,UBERON:0002405
-AS_CT,myeloid dendritic cell cDC2,cDC2 myeloid dendritic cell,CL:0002399,myeloid cell,CL:0000763
-CT,plasmacytoid dendritic cell,plasmacytoid dendritic cell,CL:0000784,cell,CL:0000000
+CT,myeloid cell,myeloid cell,CL:0000763,cell,CL:0000000
+CT,plasmacytoid dendritic cell,plasmacytoid dendritic cell,CL:0000784,myeloid cell,CL:0000763
 AS_CT,plasmacytoid dendritic cell,plasmacytoid dendritic cell,CL:0000784,Respiratory System,UBERON:0001004
 AS_CT,plasmacytoid dendritic cell,plasmacytoid dendritic cell,CL:0000784,respiratory tract,UBERON:0000065
 AS_CT,plasmacytoid dendritic cell,plasmacytoid dendritic cell,CL:0000784,lower respiratory tract,UBERON:0001558
@@ -19643,8 +19649,8 @@ AS_CT,plasmacytoid dendritic cell,plasmacytoid dendritic cell,CL:0000784,pair of
 AS_CT,plasmacytoid dendritic cell,plasmacytoid dendritic cell,CL:0000784,Lung,UBERON:0002048
 AS_CT,plasmacytoid dendritic cell,plasmacytoid dendritic cell,CL:0000784,Lobe of Lung,UBERON:0000101
 AS_CT,plasmacytoid dendritic cell,plasmacytoid dendritic cell,CL:0000784,immune system,UBERON:0002405
-AS_CT,plasmacytoid dendritic cell,plasmacytoid dendritic cell,CL:0000784,myeloid cell,CL:0000763
-CT,alveolar macrophage proliferating,alveolar macrophage proliferating,ASCTB-TEMP:alveolar-macrophage-proliferating,cell,CL:0000000
+CT,myeloid cell,myeloid cell,CL:0000763,cell,CL:0000000
+CT,alveolar macrophage proliferating,alveolar macrophage proliferating,ASCTB-TEMP:alveolar-macrophage-proliferating,myeloid cell,CL:0000763
 AS_CT,alveolar macrophage proliferating,alveolar macrophage proliferating,ASCTB-TEMP:alveolar-macrophage-proliferating,Respiratory System,UBERON:0001004
 AS_CT,alveolar macrophage proliferating,alveolar macrophage proliferating,ASCTB-TEMP:alveolar-macrophage-proliferating,respiratory tract,UBERON:0000065
 AS_CT,alveolar macrophage proliferating,alveolar macrophage proliferating,ASCTB-TEMP:alveolar-macrophage-proliferating,lower respiratory tract,UBERON:0001558
@@ -19652,8 +19658,8 @@ AS_CT,alveolar macrophage proliferating,alveolar macrophage proliferating,ASCTB-
 AS_CT,alveolar macrophage proliferating,alveolar macrophage proliferating,ASCTB-TEMP:alveolar-macrophage-proliferating,Lung,UBERON:0002048
 AS_CT,alveolar macrophage proliferating,alveolar macrophage proliferating,ASCTB-TEMP:alveolar-macrophage-proliferating,Lobe of Lung,UBERON:0000101
 AS_CT,alveolar macrophage proliferating,alveolar macrophage proliferating,ASCTB-TEMP:alveolar-macrophage-proliferating,immune system,UBERON:0002405
-AS_CT,alveolar macrophage proliferating,alveolar macrophage proliferating,ASCTB-TEMP:alveolar-macrophage-proliferating,myeloid cell,CL:0000763
-CT,alveolar macrophage CCL3+,alveolar macrophage CCL3+,ASCTB-TEMP:alveolar-macrophage-ccl3-,cell,CL:0000000
+CT,myeloid cell,myeloid cell,CL:0000763,cell,CL:0000000
+CT,alveolar macrophage CCL3+,alveolar macrophage CCL3+,ASCTB-TEMP:alveolar-macrophage-ccl3-,myeloid cell,CL:0000763
 AS_CT,alveolar macrophage CCL3+,alveolar macrophage CCL3+,ASCTB-TEMP:alveolar-macrophage-ccl3-,Respiratory System,UBERON:0001004
 AS_CT,alveolar macrophage CCL3+,alveolar macrophage CCL3+,ASCTB-TEMP:alveolar-macrophage-ccl3-,respiratory tract,UBERON:0000065
 AS_CT,alveolar macrophage CCL3+,alveolar macrophage CCL3+,ASCTB-TEMP:alveolar-macrophage-ccl3-,lower respiratory tract,UBERON:0001558
@@ -19661,8 +19667,8 @@ AS_CT,alveolar macrophage CCL3+,alveolar macrophage CCL3+,ASCTB-TEMP:alveolar-ma
 AS_CT,alveolar macrophage CCL3+,alveolar macrophage CCL3+,ASCTB-TEMP:alveolar-macrophage-ccl3-,Lung,UBERON:0002048
 AS_CT,alveolar macrophage CCL3+,alveolar macrophage CCL3+,ASCTB-TEMP:alveolar-macrophage-ccl3-,Lobe of Lung,UBERON:0000101
 AS_CT,alveolar macrophage CCL3+,alveolar macrophage CCL3+,ASCTB-TEMP:alveolar-macrophage-ccl3-,immune system,UBERON:0002405
-AS_CT,alveolar macrophage CCL3+,alveolar macrophage CCL3+,ASCTB-TEMP:alveolar-macrophage-ccl3-,myeloid cell,CL:0000763
-CT,alveolar macrophage MT-positive,alveolar macrophage MT-positive,ASCTB-TEMP:alveolar-macrophage-mt-positive,cell,CL:0000000
+CT,myeloid cell,myeloid cell,CL:0000763,cell,CL:0000000
+CT,alveolar macrophage MT-positive,alveolar macrophage MT-positive,ASCTB-TEMP:alveolar-macrophage-mt-positive,myeloid cell,CL:0000763
 AS_CT,alveolar macrophage MT-positive,alveolar macrophage MT-positive,ASCTB-TEMP:alveolar-macrophage-mt-positive,Respiratory System,UBERON:0001004
 AS_CT,alveolar macrophage MT-positive,alveolar macrophage MT-positive,ASCTB-TEMP:alveolar-macrophage-mt-positive,respiratory tract,UBERON:0000065
 AS_CT,alveolar macrophage MT-positive,alveolar macrophage MT-positive,ASCTB-TEMP:alveolar-macrophage-mt-positive,lower respiratory tract,UBERON:0001558
@@ -19670,8 +19676,8 @@ AS_CT,alveolar macrophage MT-positive,alveolar macrophage MT-positive,ASCTB-TEMP
 AS_CT,alveolar macrophage MT-positive,alveolar macrophage MT-positive,ASCTB-TEMP:alveolar-macrophage-mt-positive,Lung,UBERON:0002048
 AS_CT,alveolar macrophage MT-positive,alveolar macrophage MT-positive,ASCTB-TEMP:alveolar-macrophage-mt-positive,Lobe of Lung,UBERON:0000101
 AS_CT,alveolar macrophage MT-positive,alveolar macrophage MT-positive,ASCTB-TEMP:alveolar-macrophage-mt-positive,immune system,UBERON:0002405
-AS_CT,alveolar macrophage MT-positive,alveolar macrophage MT-positive,ASCTB-TEMP:alveolar-macrophage-mt-positive,myeloid cell,CL:0000763
-CT,connective tissue mast cell,connective tissue mast cell,CL:0000484,cell,CL:0000000
+CT,myeloid cell,myeloid cell,CL:0000763,cell,CL:0000000
+CT,connective tissue mast cell,connective tissue mast cell,CL:0000484,myeloid cell,CL:0000763
 AS_CT,connective tissue mast cell,connective tissue mast cell,CL:0000484,Respiratory System,UBERON:0001004
 AS_CT,connective tissue mast cell,connective tissue mast cell,CL:0000484,respiratory tract,UBERON:0000065
 AS_CT,connective tissue mast cell,connective tissue mast cell,CL:0000484,lower respiratory tract,UBERON:0001558
@@ -19679,8 +19685,8 @@ AS_CT,connective tissue mast cell,connective tissue mast cell,CL:0000484,pair of
 AS_CT,connective tissue mast cell,connective tissue mast cell,CL:0000484,Lung,UBERON:0002048
 AS_CT,connective tissue mast cell,connective tissue mast cell,CL:0000484,Lobe of Lung,UBERON:0000101
 AS_CT,connective tissue mast cell,connective tissue mast cell,CL:0000484,immune system,UBERON:0002405
-AS_CT,connective tissue mast cell,connective tissue mast cell,CL:0000484,myeloid cell,CL:0000763
-CT,mucosal type mast cell,tissue resident mucosal type mast cell,CL:0000485,cell,CL:0000000
+CT,myeloid cell,myeloid cell,CL:0000763,cell,CL:0000000
+CT,mucosal type mast cell,tissue resident mucosal type mast cell,CL:0000485,myeloid cell,CL:0000763
 AS_CT,mucosal type mast cell,tissue resident mucosal type mast cell,CL:0000485,Respiratory System,UBERON:0001004
 AS_CT,mucosal type mast cell,tissue resident mucosal type mast cell,CL:0000485,respiratory tract,UBERON:0000065
 AS_CT,mucosal type mast cell,tissue resident mucosal type mast cell,CL:0000485,lower respiratory tract,UBERON:0001558
@@ -19688,8 +19694,8 @@ AS_CT,mucosal type mast cell,tissue resident mucosal type mast cell,CL:0000485,p
 AS_CT,mucosal type mast cell,tissue resident mucosal type mast cell,CL:0000485,Lung,UBERON:0002048
 AS_CT,mucosal type mast cell,tissue resident mucosal type mast cell,CL:0000485,Lobe of Lung,UBERON:0000101
 AS_CT,mucosal type mast cell,tissue resident mucosal type mast cell,CL:0000485,immune system,UBERON:0002405
-AS_CT,mucosal type mast cell,tissue resident mucosal type mast cell,CL:0000485,myeloid cell,CL:0000763
-CT,lung parenchyma resident eosinophil,eosinophil,CL:0019015,cell,CL:0000000
+CT,myeloid cell,myeloid cell,CL:0000763,cell,CL:0000000
+CT,lung parenchyma resident eosinophil,eosinophil,CL:0019015,myeloid cell,CL:0000763
 AS_CT,lung parenchyma resident eosinophil,eosinophil,CL:0019015,Respiratory System,UBERON:0001004
 AS_CT,lung parenchyma resident eosinophil,eosinophil,CL:0019015,respiratory tract,UBERON:0000065
 AS_CT,lung parenchyma resident eosinophil,eosinophil,CL:0019015,lower respiratory tract,UBERON:0001558
@@ -19697,8 +19703,8 @@ AS_CT,lung parenchyma resident eosinophil,eosinophil,CL:0019015,pair of lungs,UB
 AS_CT,lung parenchyma resident eosinophil,eosinophil,CL:0019015,Lung,UBERON:0002048
 AS_CT,lung parenchyma resident eosinophil,eosinophil,CL:0019015,Lobe of Lung,UBERON:0000101
 AS_CT,lung parenchyma resident eosinophil,eosinophil,CL:0019015,immune system,UBERON:0002405
-AS_CT,lung parenchyma resident eosinophil,eosinophil,CL:0019015,myeloid cell,CL:0000763
-CT,neutrophil,neutrophil,CL:0000094,cell,CL:0000000
+CT,myeloid cell,myeloid cell,CL:0000763,cell,CL:0000000
+CT,neutrophil,neutrophil,CL:0000094,myeloid cell,CL:0000763
 AS_CT,neutrophil,neutrophil,CL:0000094,Respiratory System,UBERON:0001004
 AS_CT,neutrophil,neutrophil,CL:0000094,respiratory tract,UBERON:0000065
 AS_CT,neutrophil,neutrophil,CL:0000094,lower respiratory tract,UBERON:0001558
@@ -19706,14 +19712,6 @@ AS_CT,neutrophil,neutrophil,CL:0000094,pair of lungs,UBERON:0000170
 AS_CT,neutrophil,neutrophil,CL:0000094,Lung,UBERON:0002048
 AS_CT,neutrophil,neutrophil,CL:0000094,Lobe of Lung,UBERON:0000101
 AS_CT,neutrophil,neutrophil,CL:0000094,immune system,UBERON:0002405
-AS_CT,neutrophil,neutrophil,CL:0000094,myeloid cell,CL:0000763
-AS,Respiratory System,Respiratory System,UBERON:0001004,body,UBERON:0013702
-AS,respiratory tract,respiratory tract,UBERON:0000065,Respiratory System,UBERON:0001004
-AS,lower respiratory tract,lower respiratory tract,UBERON:0001558,respiratory tract,UBERON:0000065
-AS,pair of lungs,pair of lungs,UBERON:0000170,lower respiratory tract,UBERON:0001558
-AS,Lung,Lung,UBERON:0002048,pair of lungs,UBERON:0000170
-AS,Lobe of Lung,Lung Lobe,UBERON:0000101,Lung,UBERON:0002048
-AS,immune system,Immune System of Respiratory Tract,UBERON:0002405,Lobe of Lung,UBERON:0000101
 CT,lung megakaryocyte,lung megakaryocyte,CL:0000556,cell,CL:0000000
 AS_CT,lung megakaryocyte,lung megakaryocyte,CL:0000556,Respiratory System,UBERON:0001004
 AS_CT,lung megakaryocyte,lung megakaryocyte,CL:0000556,respiratory tract,UBERON:0000065
@@ -34848,6 +34846,7 @@ CT,uterine macrophage,uterine macrophage,ASCTB-TEMP:uterine-macrophage,cell,CL:0
 AS_CT,uterine macrophage,uterine macrophage,ASCTB-TEMP:uterine-macrophage,placenta,UBERON:0001987
 AS_CT,uterine macrophage,uterine macrophage,ASCTB-TEMP:uterine-macrophage,decidua,UBERON:0002450
 AS_CT,uterine macrophage,uterine macrophage,ASCTB-TEMP:uterine-macrophage,endometrial stroma,UBERON:0002337
+CT,regulatory T cell,regulatory T cell,CL:0000815,cell,CL:0000000
 AS_CT,regulatory T cell,regulatory T cell,CL:0000815,placenta,UBERON:0001987
 AS_CT,regulatory T cell,regulatory T cell,CL:0000815,decidua,UBERON:0002450
 AS_CT,regulatory T cell,regulatory T cell,CL:0000815,endometrial stroma,UBERON:0002337
@@ -35919,9 +35918,11 @@ CT,Stromal Cell,Stromal Cell,ASCTB-TEMP:stromal-cell,cell,CL:0000000
 AS_CT,Stromal Cell,Stromal Cell,ASCTB-TEMP:stromal-cell,spleen,UBERON:0002106
 AS_CT,Stromal Cell,Stromal Cell,ASCTB-TEMP:stromal-cell,spleen pulp,UBERON:1000023
 AS_CT,Stromal Cell,Stromal Cell,ASCTB-TEMP:stromal-cell,spleen perifollicular zone,UBERON:0005353
+CT,myeloid dendritic cell cDC1,cDC1 myeloid dendritic cell,CL:0002394,cell,CL:0000000
 AS_CT,myeloid dendritic cell cDC1,cDC1 myeloid dendritic cell,CL:0002394,spleen,UBERON:0002106
 AS_CT,myeloid dendritic cell cDC1,cDC1 myeloid dendritic cell,CL:0002394,spleen pulp,UBERON:1000023
 AS_CT,myeloid dendritic cell cDC1,cDC1 myeloid dendritic cell,CL:0002394,spleen perifollicular zone,UBERON:0005353
+CT,myeloid dendritic cell cDC2,cDC2 myeloid dendritic cell,CL:0002399,cell,CL:0000000
 AS_CT,myeloid dendritic cell cDC2,cDC2 myeloid dendritic cell,CL:0002399,spleen,UBERON:0002106
 AS_CT,myeloid dendritic cell cDC2,cDC2 myeloid dendritic cell,CL:0002399,spleen pulp,UBERON:1000023
 AS_CT,myeloid dendritic cell cDC2,cDC2 myeloid dendritic cell,CL:0002399,spleen perifollicular zone,UBERON:0005353
@@ -35945,10 +35946,10 @@ AS,spleen,spleen,UBERON:0002106,body,UBERON:0013702
 AS,spleen pulp,Splenic Pulp,UBERON:1000023,spleen,UBERON:0002106
 AS,white pulp of spleen,White Pulp,UBERON:0001959,spleen pulp,UBERON:1000023
 AS,White Pulp Lymphatic Vessels,White Pulp Lymphatic Vessels,ASCTB-TEMP:white-pulp-lymphatic-vessels,white pulp of spleen,UBERON:0001959
-CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:1000421,cell,CL:0000000
-AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:1000421,spleen,UBERON:0002106
-AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:1000421,spleen pulp,UBERON:1000023
-AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:1000421,white pulp of spleen,UBERON:0001959
+CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:0002138,cell,CL:0000000
+AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:0002138,spleen,UBERON:0002106
+AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:0002138,spleen pulp,UBERON:1000023
+AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:0002138,white pulp of spleen,UBERON:0001959
 AS,spleen,spleen,UBERON:0002106,body,UBERON:0013702
 AS,spleen pulp,Splenic Pulp,UBERON:1000023,spleen,UBERON:0002106
 AS,white pulp of spleen,White Pulp,UBERON:0001959,spleen pulp,UBERON:1000023
@@ -36140,7 +36141,7 @@ AS,periarterial lymphatic sheath,Periarteriolar Lymphoid Sheath (PALS),UBERON:00
 AS,Inner PALS,Inner PALS,ASCTB-TEMP:inner-pals,periarterial lymphatic sheath,UBERON:0001960
 AS,Sympathetic nerve plexus,Sympathetic nerves,UBERON:0012373,periarterial lymphatic sheath,UBERON:0001960
 AS_CT,Catecholaminergic Neuron,Catecholaminergic Neuron,ASCTB-TEMP:catecholaminergic-neuron,periarterial lymphatic sheath,UBERON:0001960
-AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:1000421,periarterial lymphatic sheath,UBERON:0001960
+AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:0002138,periarterial lymphatic sheath,UBERON:0001960
 AS_CT,Splenic Smooth Muscle Cell,Splenic Smooth Muscle Cell,ASCTB-TEMP:splenic-smooth-muscle-cell,white pulp of spleen,UBERON:0001959
 AS_CT,Splenic Smooth Muscle Cell,Splenic Smooth Muscle Cell,ASCTB-TEMP:splenic-smooth-muscle-cell,periarterial lymphatic sheath,UBERON:0001960
 AS,spleen,spleen,UBERON:0002106,body,UBERON:0013702
@@ -36212,8 +36213,8 @@ AS_CT,Catecholaminergic Neuron,Catecholaminergic Neuron,ASCTB-TEMP:catecholamine
 AS,spleen,spleen,UBERON:0002106,body,UBERON:0013702
 AS,hilum of spleen,Hilum,UBERON:0001248,spleen,UBERON:0002106
 AS,lymphatic vessel,Lymphatic Vessels,UBERON:0001473,hilum of spleen,UBERON:0001248
-AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:1000421,hilum of spleen,UBERON:0001248
-AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:1000421,lymphatic vessel,UBERON:0001473
+AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:0002138,hilum of spleen,UBERON:0001248
+AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:0002138,lymphatic vessel,UBERON:0001473
 AS,spleen,spleen,UBERON:0002106,body,UBERON:0013702
 AS,spleen capsule,Capsule,UBERON:0004641,spleen,UBERON:0002106
 AS,Connective tissue,Connective tissue,ASCTB-TEMP:connective-tissue,spleen capsule,UBERON:0004641
@@ -36228,7 +36229,7 @@ AS_CT,Subcapsular Dendritic Cell,Subcapsular Dendritic Cell,ASCTB-TEMP:subcapsul
 AS,spleen,spleen,UBERON:0002106,body,UBERON:0013702
 AS,spleen capsule,Capsule,UBERON:0004641,spleen,UBERON:0002106
 AS,lymphatic vessel,Lymphatic Vessels,UBERON:0001473,spleen capsule,UBERON:0004641
-AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:1000421,spleen capsule,UBERON:0004641
+AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:0002138,spleen capsule,UBERON:0004641
 AS,spleen,spleen,UBERON:0002106,body,UBERON:0013702
 AS,spleen capsule,Capsule,UBERON:0004641,spleen,UBERON:0002106
 AS,trabecula of spleen,Trabeculae,UBERON:0001265,spleen capsule,UBERON:0004641
@@ -36251,7 +36252,7 @@ AS,spleen,spleen,UBERON:0002106,body,UBERON:0013702
 AS,spleen capsule,Capsule,UBERON:0004641,spleen,UBERON:0002106
 AS,trabecula of spleen,Trabeculae,UBERON:0001265,spleen capsule,UBERON:0004641
 AS,lymphatic vessel,Lymphatic Vessels,UBERON:0001473,trabecula of spleen,UBERON:0001265
-AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:1000421,trabecula of spleen,UBERON:0001265
+AS_CT,endothelial cell of lymphatic vessel,Lymphatic Endothelium Cell,CL:0002138,trabecula of spleen,UBERON:0001265
 AS,spleen,spleen,UBERON:0002106,body,UBERON:0013702
 AS,spleen capsule,Capsule,UBERON:0004641,spleen,UBERON:0002106
 AS,trabecula of spleen,Trabeculae,UBERON:0001265,spleen capsule,UBERON:0004641
@@ -36271,10 +36272,10 @@ AS_CT,thymic macrophage,macrophage,CL:0000866,capsule of thymus,UBERON:0002122
 AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
 AS,capsule of thymus,capsule of thymus,UBERON:0002122,thymus,UBERON:0002370
 AS,nerve,nerve,UBERON:0001021,capsule of thymus,UBERON:0002122
-CT,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,cell,CL:0000000
-AS_CT,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,thymus,UBERON:0002370
-AS_CT,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,capsule of thymus,UBERON:0002122
-AS_CT,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,nerve,UBERON:0001021
+AS,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,nerve,UBERON:0001021
+AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
+AS,capsule of thymus,capsule of thymus,UBERON:0002122,thymus,UBERON:0002370
+AS,nerve,nerve,UBERON:0001021,capsule of thymus,UBERON:0002122
 CT,sympathetic noradrenergic neuron,sympathetic noradrenergic nerve,CL:3000002,cell,CL:0000000
 AS_CT,sympathetic noradrenergic neuron,sympathetic noradrenergic nerve,CL:3000002,thymus,UBERON:0002370
 AS_CT,sympathetic noradrenergic neuron,sympathetic noradrenergic nerve,CL:3000002,capsule of thymus,UBERON:0002122
@@ -36283,7 +36284,7 @@ AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
 AS,capsule of thymus,capsule of thymus,UBERON:0002122,thymus,UBERON:0002370
 AS,thymus trabecula,thymus trabecula,UBERON:0004791,capsule of thymus,UBERON:0002122
 AS,nerve,nerve,UBERON:0001021,thymus trabecula,UBERON:0004791
-AS_CT,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,thymus trabecula,UBERON:0004791
+AS,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,nerve,UBERON:0001021
 AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
 AS,capsule of thymus,capsule of thymus,UBERON:0002122,thymus,UBERON:0002370
 AS,thymus trabecula,thymus trabecula,UBERON:0004791,capsule of thymus,UBERON:0002122
@@ -36293,6 +36294,10 @@ AS_CT,blood vessel endothelial cell,blood endothelial cell,CL:0000071,thymus,UBE
 AS_CT,blood vessel endothelial cell,blood endothelial cell,CL:0000071,capsule of thymus,UBERON:0002122
 AS_CT,blood vessel endothelial cell,blood endothelial cell,CL:0000071,thymus trabecula,UBERON:0004791
 AS_CT,blood vessel endothelial cell,blood endothelial cell,CL:0000071,thymic artery,UBERON:0018243
+AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
+AS,capsule of thymus,capsule of thymus,UBERON:0002122,thymus,UBERON:0002370
+AS,thymus trabecula,thymus trabecula,UBERON:0004791,capsule of thymus,UBERON:0002122
+AS,nerve,nerve,UBERON:0001021,thymus trabecula,UBERON:0004791
 AS_CT,sympathetic noradrenergic neuron,sympathetic noradrenergic nerve,CL:3000002,thymus trabecula,UBERON:0004791
 AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
 AS,capsule of thymus,capsule of thymus,UBERON:0002122,thymus,UBERON:0002370
@@ -36372,9 +36377,7 @@ AS,thymus lobe,thymus lobe,UBERON:0005483,thymus,UBERON:0002370
 AS,thymus lobule,thymus lobule,UBERON:0002125,thymus lobe,UBERON:0005483
 AS,thymus subcapsular epithelium,thymus subcapsular epithelium,UBERON:0006936,thymus lobule,UBERON:0002125
 AS,nerve,nerve,UBERON:0001021,thymus subcapsular epithelium,UBERON:0006936
-AS_CT,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,thymus lobe,UBERON:0005483
-AS_CT,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,thymus lobule,UBERON:0002125
-AS_CT,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,thymus subcapsular epithelium,UBERON:0006936
+AS,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,nerve,UBERON:0001021
 AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
 AS,thymus lobe,thymus lobe,UBERON:0005483,thymus,UBERON:0002370
 AS,thymus lobule,thymus lobule,UBERON:0002125,thymus lobe,UBERON:0005483
@@ -36383,6 +36386,11 @@ AS,thymic artery,thymic artery,UBERON:0018243,thymus subcapsular epithelium,UBER
 AS_CT,blood vessel endothelial cell,blood endothelial cell,CL:0000071,thymus lobe,UBERON:0005483
 AS_CT,blood vessel endothelial cell,blood endothelial cell,CL:0000071,thymus lobule,UBERON:0002125
 AS_CT,blood vessel endothelial cell,blood endothelial cell,CL:0000071,thymus subcapsular epithelium,UBERON:0006936
+AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
+AS,thymus lobe,thymus lobe,UBERON:0005483,thymus,UBERON:0002370
+AS,thymus lobule,thymus lobule,UBERON:0002125,thymus lobe,UBERON:0005483
+AS,thymus subcapsular epithelium,thymus subcapsular epithelium,UBERON:0006936,thymus lobule,UBERON:0002125
+AS,nerve,nerve,UBERON:0001021,thymus subcapsular epithelium,UBERON:0006936
 AS_CT,sympathetic noradrenergic neuron,sympathetic noradrenergic nerve,CL:3000002,thymus lobe,UBERON:0005483
 AS_CT,sympathetic noradrenergic neuron,sympathetic noradrenergic nerve,CL:3000002,thymus lobule,UBERON:0002125
 AS_CT,sympathetic noradrenergic neuron,sympathetic noradrenergic nerve,CL:3000002,thymus subcapsular epithelium,UBERON:0006936
@@ -36408,13 +36416,18 @@ AS,thymus lobe,thymus lobe,UBERON:0005483,thymus,UBERON:0002370
 AS,thymus lobule,thymus lobule,UBERON:0002125,thymus lobe,UBERON:0005483
 AS,cortex of thymus,cortex of thymus,UBERON:0002123,thymus lobule,UBERON:0002125
 AS,nerve,nerve,UBERON:0001021,cortex of thymus,UBERON:0002123
-AS_CT,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,cortex of thymus,UBERON:0002123
+AS,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,nerve,UBERON:0001021
 AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
 AS,thymus lobe,thymus lobe,UBERON:0005483,thymus,UBERON:0002370
 AS,thymus lobule,thymus lobule,UBERON:0002125,thymus lobe,UBERON:0005483
 AS,cortex of thymus,cortex of thymus,UBERON:0002123,thymus lobule,UBERON:0002125
 AS,thymic artery,thymic artery,UBERON:0018243,cortex of thymus,UBERON:0002123
 AS_CT,blood vessel endothelial cell,blood endothelial cell,CL:0000071,cortex of thymus,UBERON:0002123
+AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
+AS,thymus lobe,thymus lobe,UBERON:0005483,thymus,UBERON:0002370
+AS,thymus lobule,thymus lobule,UBERON:0002125,thymus lobe,UBERON:0005483
+AS,cortex of thymus,cortex of thymus,UBERON:0002123,thymus lobule,UBERON:0002125
+AS,nerve,nerve,UBERON:0001021,cortex of thymus,UBERON:0002123
 AS_CT,sympathetic noradrenergic neuron,sympathetic noradrenergic nerve,CL:3000002,cortex of thymus,UBERON:0002123
 AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
 AS,thymus lobe,thymus lobe,UBERON:0005483,thymus,UBERON:0002370
@@ -36471,7 +36484,11 @@ AS_CT,mature CD8 single-positive thymocyte,CD8+ T single positive thymocyte,CL:0
 AS_CT,beige adipocyte,beige adipocyte,CL:0001070,thymus lobe,UBERON:0005483
 AS_CT,beige adipocyte,beige adipocyte,CL:0001070,thymus lobule,UBERON:0002125
 AS_CT,beige adipocyte,beige adipocyte,CL:0001070,thymus corticomedullary boundary,UBERON:0003988
-AS_CT,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,thymus corticomedullary boundary,UBERON:0003988
+AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
+AS,thymus lobe,thymus lobe,UBERON:0005483,thymus,UBERON:0002370
+AS,thymus lobule,thymus lobule,UBERON:0002125,thymus lobe,UBERON:0005483
+AS,thymus corticomedullary boundary,corticomedullary boundary of thymus,UBERON:0003988,thymus lobule,UBERON:0002125
+AS,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,thymus corticomedullary boundary,UBERON:0003988
 AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
 AS,thymus lobe,thymus lobe,UBERON:0005483,thymus,UBERON:0002370
 AS,thymus lobule,thymus lobule,UBERON:0002125,thymus lobe,UBERON:0005483
@@ -36602,13 +36619,18 @@ AS,thymus lobe,thymus lobe,UBERON:0005483,thymus,UBERON:0002370
 AS,thymus lobule,thymus lobule,UBERON:0002125,thymus lobe,UBERON:0005483
 AS,medulla of thymus,medulla of thymus,UBERON:0002124,thymus lobule,UBERON:0002125
 AS,nerve,nerve,UBERON:0001021,medulla of thymus,UBERON:0002124
-AS_CT,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,medulla of thymus,UBERON:0002124
+AS,parasympathetic cholinergic nerve,parasympathetic cholinergic nerve,UBERON:8410062,nerve,UBERON:0001021
 AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
 AS,thymus lobe,thymus lobe,UBERON:0005483,thymus,UBERON:0002370
 AS,thymus lobule,thymus lobule,UBERON:0002125,thymus lobe,UBERON:0005483
 AS,medulla of thymus,medulla of thymus,UBERON:0002124,thymus lobule,UBERON:0002125
 AS,thymic vein,thymic vein,UBERON:0001591,medulla of thymus,UBERON:0002124
 AS_CT,blood vessel endothelial cell,blood endothelial cell,CL:0000071,medulla of thymus,UBERON:0002124
+AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
+AS,thymus lobe,thymus lobe,UBERON:0005483,thymus,UBERON:0002370
+AS,thymus lobule,thymus lobule,UBERON:0002125,thymus lobe,UBERON:0005483
+AS,medulla of thymus,medulla of thymus,UBERON:0002124,thymus lobule,UBERON:0002125
+AS,nerve,nerve,UBERON:0001021,medulla of thymus,UBERON:0002124
 AS_CT,sympathetic noradrenergic neuron,sympathetic noradrenergic nerve,CL:3000002,medulla of thymus,UBERON:0002124
 AS,thymus,thymus,UBERON:0002370,body,UBERON:0013702
 AS,thymus lobe,thymus lobe,UBERON:0005483,thymus,UBERON:0002370
