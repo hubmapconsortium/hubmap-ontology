@@ -15268,7 +15268,7 @@ AS,condyle of tibia,condyle of tibia,UBERON:0009989,tibial plateaux,UBERON:00040
 AS,knee,knee,UBERON:0001465,body,UBERON:0013702
 AS,knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465
 AS,proximal fibula,proximal fibula,ASCTB-TEMP:proximal-fibula,knee joint,UBERON:0001485
-AS,head of fibula,head of fibula,ASCTB-TEMP:head-of-fibula,knee joint,UBERON:0001485
+AS,proximal epiphysis of fibula,head of fibula,UBERON:0008775,knee joint,UBERON:0001485
 AS,knee,knee,UBERON:0001465,body,UBERON:0013702
 AS,knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465
 AS,patella,Patella,UBERON:0002446,knee joint,UBERON:0001485
@@ -15305,31 +15305,18 @@ AS,condyle of femur,Distal Femur,UBERON:0009980,knee joint,UBERON:0001485
 AS,medial condyle of femur,Medial Condyles,UBERON:0009984,condyle of femur,UBERON:0009980
 AS,Superior Articular Cartilage,Articular cartilage of a joint,UBERON:0010996,medial condyle of femur,UBERON:0009984
 AS,Superficial Zone,Superficial Zone,ASCTB-TEMP:superficial-zone,Superior Articular Cartilage,UBERON:0010996
-CT,Superficial Zone,Superficial Zone,ASCTB-TEMP:superficial-zone,cell,CL:0000000
-CT,articular chondrocyte,articular chondrocyte,ASCTB-TEMP:articular-chondrocyte,cell,CL:0000000
-CT,CL:1001607,CL:1001607,ASCTB-TEMP:cl-1001607,cell,CL:0000000
-AS_CT,Superficial Zone,Superficial Zone,ASCTB-TEMP:superficial-zone,knee,UBERON:0001465
-AS_CT,Superficial Zone,Superficial Zone,ASCTB-TEMP:superficial-zone,knee joint,UBERON:0001485
-AS_CT,Superficial Zone,Superficial Zone,ASCTB-TEMP:superficial-zone,condyle of femur,UBERON:0009980
-AS_CT,Superficial Zone,Superficial Zone,ASCTB-TEMP:superficial-zone,medial condyle of femur,UBERON:0009984
-AS_CT,Superficial Zone,Superficial Zone,ASCTB-TEMP:superficial-zone,Superior Articular Cartilage,UBERON:0010996
-AS_CT,articular chondrocyte,articular chondrocyte,ASCTB-TEMP:articular-chondrocyte,knee,UBERON:0001465
-AS_CT,articular chondrocyte,articular chondrocyte,ASCTB-TEMP:articular-chondrocyte,knee joint,UBERON:0001485
-AS_CT,articular chondrocyte,articular chondrocyte,ASCTB-TEMP:articular-chondrocyte,condyle of femur,UBERON:0009980
-AS_CT,articular chondrocyte,articular chondrocyte,ASCTB-TEMP:articular-chondrocyte,medial condyle of femur,UBERON:0009984
-AS_CT,articular chondrocyte,articular chondrocyte,ASCTB-TEMP:articular-chondrocyte,Superior Articular Cartilage,UBERON:0010996
-AS_CT,CL:1001607,CL:1001607,ASCTB-TEMP:cl-1001607,knee,UBERON:0001465
-AS_CT,CL:1001607,CL:1001607,ASCTB-TEMP:cl-1001607,knee joint,UBERON:0001485
-AS_CT,CL:1001607,CL:1001607,ASCTB-TEMP:cl-1001607,condyle of femur,UBERON:0009980
-AS_CT,CL:1001607,CL:1001607,ASCTB-TEMP:cl-1001607,medial condyle of femur,UBERON:0009984
-AS_CT,CL:1001607,CL:1001607,ASCTB-TEMP:cl-1001607,Superior Articular Cartilage,UBERON:0010996
+CT,articular chondrocyte,articular chondrocyte,CL:1001607,cell,CL:0000000
+AS_CT,articular chondrocyte,articular chondrocyte,CL:1001607,knee,UBERON:0001465
+AS_CT,articular chondrocyte,articular chondrocyte,CL:1001607,knee joint,UBERON:0001485
+AS_CT,articular chondrocyte,articular chondrocyte,CL:1001607,condyle of femur,UBERON:0009980
+AS_CT,articular chondrocyte,articular chondrocyte,CL:1001607,medial condyle of femur,UBERON:0009984
+AS_CT,articular chondrocyte,articular chondrocyte,CL:1001607,Superior Articular Cartilage,UBERON:0010996
 AS,knee,knee,UBERON:0001465,body,UBERON:0013702
 AS,knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465
 AS,condyle of femur,Distal Femur,UBERON:0009980,knee joint,UBERON:0001485
 AS,Transitional Zone,Transitional Zone,ASCTB-TEMP:transitional-zone,condyle of femur,UBERON:0009980
 CT,Deep Superficial,Deep Superficial,ASCTB-TEMP:deep-superficial,cell,CL:0000000
-CT,articular chondrocyte,articular chondrocyte,ASCTB-TEMP:articular-chondrocyte,cell,CL:0000000
-CT,CL:1001607,CL:1001607,ASCTB-TEMP:cl-1001607,cell,CL:0000000
+CT,articular chondrocyte,articular chondrocyte,CL:1001607,cell,CL:0000000
 AS_CT,Deep Superficial,Deep Superficial,ASCTB-TEMP:deep-superficial,knee,UBERON:0001465
 AS_CT,Deep Superficial,Deep Superficial,ASCTB-TEMP:deep-superficial,knee joint,UBERON:0001485
 AS_CT,Deep Superficial,Deep Superficial,ASCTB-TEMP:deep-superficial,condyle of femur,UBERON:0009980
@@ -15337,8 +15324,7 @@ AS,knee,knee,UBERON:0001465,body,UBERON:0013702
 AS,knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465
 AS,condyle of femur,Distal Femur,UBERON:0009980,knee joint,UBERON:0001485
 CT,Rounded Chondrocytes,Rounded Chondrocytes,ASCTB-TEMP:rounded-chondrocytes,cell,CL:0000000
-CT,articular chondrocyte,articular chondrocyte,ASCTB-TEMP:articular-chondrocyte,cell,CL:0000000
-CT,CL:1001607,CL:1001607,ASCTB-TEMP:cl-1001607,cell,CL:0000000
+CT,articular chondrocyte,articular chondrocyte,CL:1001607,cell,CL:0000000
 AS_CT,Rounded Chondrocytes,Rounded Chondrocytes,ASCTB-TEMP:rounded-chondrocytes,knee,UBERON:0001465
 AS_CT,Rounded Chondrocytes,Rounded Chondrocytes,ASCTB-TEMP:rounded-chondrocytes,knee joint,UBERON:0001485
 AS_CT,Rounded Chondrocytes,Rounded Chondrocytes,ASCTB-TEMP:rounded-chondrocytes,condyle of femur,UBERON:0009980
@@ -15347,8 +15333,7 @@ AS,knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465
 AS,condyle of femur,Distal Femur,UBERON:0009980,knee joint,UBERON:0001485
 AS,Deep Zone,Deep Zone,ASCTB-TEMP:deep-zone,condyle of femur,UBERON:0009980
 CT,columnar chondrocyte,Columnar Chondrocytes,CL:0000744,cell,CL:0000000
-CT,articular chondrocyte,articular chondrocyte,ASCTB-TEMP:articular-chondrocyte,columnar chondrocyte,CL:0000744
-CT,CL:1001607,CL:1001607,ASCTB-TEMP:cl-1001607,columnar chondrocyte,CL:0000744
+CT,articular chondrocyte,articular chondrocyte,CL:1001607,columnar chondrocyte,CL:0000744
 AS_CT,columnar chondrocyte,Columnar Chondrocytes,CL:0000744,knee,UBERON:0001465
 AS_CT,columnar chondrocyte,Columnar Chondrocytes,CL:0000744,knee joint,UBERON:0001485
 AS_CT,columnar chondrocyte,Columnar Chondrocytes,CL:0000744,condyle of femur,UBERON:0009980
@@ -15357,91 +15342,67 @@ AS,knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465
 AS,condyle of femur,Distal Femur,UBERON:0009980,knee joint,UBERON:0001485
 AS,Tidemark,Tidemark,ASCTB-TEMP:tidemark,condyle of femur,UBERON:0009980
 CT,Prehypertrophic Chondrocytes,Prehypertrophic Chondrocytes,ASCTB-TEMP:prehypertrophic-chondrocytes,cell,CL:0000000
-CT,hypertrophic chondrocyte,hypertrophic chondrocyte,ASCTB-TEMP:hypertrophic-chondrocyte,cell,CL:0000000
-CT,CL:0000743,CL:0000743,ASCTB-TEMP:cl-0000743,cell,CL:0000000
+CT,hypertrophic chondrocyte,hypertrophic chondrocyte,CL:0000743,cell,CL:0000000
 AS_CT,Prehypertrophic Chondrocytes,Prehypertrophic Chondrocytes,ASCTB-TEMP:prehypertrophic-chondrocytes,knee,UBERON:0001465
 AS_CT,Prehypertrophic Chondrocytes,Prehypertrophic Chondrocytes,ASCTB-TEMP:prehypertrophic-chondrocytes,knee joint,UBERON:0001485
 AS_CT,Prehypertrophic Chondrocytes,Prehypertrophic Chondrocytes,ASCTB-TEMP:prehypertrophic-chondrocytes,condyle of femur,UBERON:0009980
-AS_CT,hypertrophic chondrocyte,hypertrophic chondrocyte,ASCTB-TEMP:hypertrophic-chondrocyte,knee,UBERON:0001465
-AS_CT,hypertrophic chondrocyte,hypertrophic chondrocyte,ASCTB-TEMP:hypertrophic-chondrocyte,knee joint,UBERON:0001485
-AS_CT,hypertrophic chondrocyte,hypertrophic chondrocyte,ASCTB-TEMP:hypertrophic-chondrocyte,condyle of femur,UBERON:0009980
-AS_CT,CL:0000743,CL:0000743,ASCTB-TEMP:cl-0000743,knee,UBERON:0001465
-AS_CT,CL:0000743,CL:0000743,ASCTB-TEMP:cl-0000743,knee joint,UBERON:0001485
-AS_CT,CL:0000743,CL:0000743,ASCTB-TEMP:cl-0000743,condyle of femur,UBERON:0009980
+AS_CT,hypertrophic chondrocyte,hypertrophic chondrocyte,CL:0000743,knee,UBERON:0001465
+AS_CT,hypertrophic chondrocyte,hypertrophic chondrocyte,CL:0000743,knee joint,UBERON:0001485
+AS_CT,hypertrophic chondrocyte,hypertrophic chondrocyte,CL:0000743,condyle of femur,UBERON:0009980
 AS,knee,knee,UBERON:0001465,body,UBERON:0013702
 AS,knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465
 AS,condyle of femur,Distal Femur,UBERON:0009980,knee joint,UBERON:0001485
 AS,mineralized cartilage tissue,Mineralized Cartilage,UBERON:4000088,condyle of femur,UBERON:0009980
 CT,hypertrophic chondrocyte,Hypertrophic Chondrocytes,CL:0000743,cell,CL:0000000
-CT,hypertrophic chondrocyte,hypertrophic chondrocyte,ASCTB-TEMP:hypertrophic-chondrocyte,hypertrophic chondrocyte,CL:0000743
-CT,CL:0000743,CL:0000743,ASCTB-TEMP:cl-0000743,hypertrophic chondrocyte,CL:0000743
 AS_CT,hypertrophic chondrocyte,Hypertrophic Chondrocytes,CL:0000743,knee,UBERON:0001465
 AS_CT,hypertrophic chondrocyte,Hypertrophic Chondrocytes,CL:0000743,knee joint,UBERON:0001485
 AS_CT,hypertrophic chondrocyte,Hypertrophic Chondrocytes,CL:0000743,condyle of femur,UBERON:0009980
 AS_CT,hypertrophic chondrocyte,Hypertrophic Chondrocytes,CL:0000743,mineralized cartilage tissue,UBERON:4000088
-AS_CT,hypertrophic chondrocyte,hypertrophic chondrocyte,ASCTB-TEMP:hypertrophic-chondrocyte,mineralized cartilage tissue,UBERON:4000088
-AS_CT,CL:0000743,CL:0000743,ASCTB-TEMP:cl-0000743,mineralized cartilage tissue,UBERON:4000088
+AS_CT,hypertrophic chondrocyte,hypertrophic chondrocyte,CL:0000743,mineralized cartilage tissue,UBERON:4000088
 AS,knee,knee,UBERON:0001465,body,UBERON:0013702
 AS,knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465
 AS,condyle of femur,Distal Femur,UBERON:0009980,knee joint,UBERON:0001485
-AS,Epiphyseal Bone,Epiphyseal Bone,ASCTB-TEMP:epiphyseal-bone,condyle of femur,UBERON:0009980
-AS,Subchondral Bone,Subchondral Bone,ASCTB-TEMP:subchondral-bone,condyle of femur,UBERON:0009980
+AS,epiphysis,Epiphyseal Bone,UBERON:0001437,condyle of femur,UBERON:0009980
+AS,Subchondral Bone,Subchondral Bone,ASCTB-TEMP:subchondral-bone,epiphysis,UBERON:0001437
 CT,Residual Hypertrophic Chondrocytes,Residual Hypertrophic Chondrocytes,ASCTB-TEMP:residual-hypertrophic-chondrocytes,cell,CL:0000000
 AS_CT,Residual Hypertrophic Chondrocytes,Residual Hypertrophic Chondrocytes,ASCTB-TEMP:residual-hypertrophic-chondrocytes,knee,UBERON:0001465
 AS_CT,Residual Hypertrophic Chondrocytes,Residual Hypertrophic Chondrocytes,ASCTB-TEMP:residual-hypertrophic-chondrocytes,knee joint,UBERON:0001485
 AS_CT,Residual Hypertrophic Chondrocytes,Residual Hypertrophic Chondrocytes,ASCTB-TEMP:residual-hypertrophic-chondrocytes,condyle of femur,UBERON:0009980
+AS_CT,Residual Hypertrophic Chondrocytes,Residual Hypertrophic Chondrocytes,ASCTB-TEMP:residual-hypertrophic-chondrocytes,epiphysis,UBERON:0001437
 CT,osteocyte,Osteocytes,CL:0000137,cell,CL:0000000
-CT,osteocyte,osteocyte,ASCTB-TEMP:osteocyte,osteocyte,CL:0000137
-CT,CL:0000137,CL:0000137,ASCTB-TEMP:cl-0000137,osteocyte,CL:0000137
 AS_CT,osteocyte,Osteocytes,CL:0000137,knee,UBERON:0001465
 AS_CT,osteocyte,Osteocytes,CL:0000137,knee joint,UBERON:0001485
 AS_CT,osteocyte,Osteocytes,CL:0000137,condyle of femur,UBERON:0009980
-AS_CT,osteocyte,osteocyte,ASCTB-TEMP:osteocyte,knee,UBERON:0001465
-AS_CT,osteocyte,osteocyte,ASCTB-TEMP:osteocyte,knee joint,UBERON:0001485
-AS_CT,osteocyte,osteocyte,ASCTB-TEMP:osteocyte,condyle of femur,UBERON:0009980
-AS_CT,CL:0000137,CL:0000137,ASCTB-TEMP:cl-0000137,knee,UBERON:0001465
-AS_CT,CL:0000137,CL:0000137,ASCTB-TEMP:cl-0000137,knee joint,UBERON:0001485
-AS_CT,CL:0000137,CL:0000137,ASCTB-TEMP:cl-0000137,condyle of femur,UBERON:0009980
+AS_CT,osteocyte,osteocyte,CL:0000137,knee,UBERON:0001465
+AS_CT,osteocyte,osteocyte,CL:0000137,knee joint,UBERON:0001485
+AS_CT,osteocyte,osteocyte,CL:0000137,condyle of femur,UBERON:0009980
 CT,osteoblast,Osteoblasts,CL:0000062,cell,CL:0000000
-CT,osteoblast,osteoblast,ASCTB-TEMP:osteoblast,osteoblast,CL:0000062
-CT,CL:0000062,CL:0000062,ASCTB-TEMP:cl-0000062,osteoblast,CL:0000062
 AS_CT,osteoblast,Osteoblasts,CL:0000062,knee,UBERON:0001465
 AS_CT,osteoblast,Osteoblasts,CL:0000062,knee joint,UBERON:0001485
 AS_CT,osteoblast,Osteoblasts,CL:0000062,condyle of femur,UBERON:0009980
-AS_CT,osteoblast,osteoblast,ASCTB-TEMP:osteoblast,knee,UBERON:0001465
-AS_CT,osteoblast,osteoblast,ASCTB-TEMP:osteoblast,knee joint,UBERON:0001485
-AS_CT,osteoblast,osteoblast,ASCTB-TEMP:osteoblast,condyle of femur,UBERON:0009980
-AS_CT,CL:0000062,CL:0000062,ASCTB-TEMP:cl-0000062,knee,UBERON:0001465
-AS_CT,CL:0000062,CL:0000062,ASCTB-TEMP:cl-0000062,knee joint,UBERON:0001485
-AS_CT,CL:0000062,CL:0000062,ASCTB-TEMP:cl-0000062,condyle of femur,UBERON:0009980
+AS_CT,osteoblast,osteoblast,CL:0000062,knee,UBERON:0001465
+AS_CT,osteoblast,osteoblast,CL:0000062,knee joint,UBERON:0001485
+AS_CT,osteoblast,osteoblast,CL:0000062,condyle of femur,UBERON:0009980
 CT,Bone lIning Cells,Bone lIning Cells,ASCTB-TEMP:bone-lining-cells,cell,CL:0000000
 AS_CT,Bone lIning Cells,Bone lIning Cells,ASCTB-TEMP:bone-lining-cells,knee,UBERON:0001465
 AS_CT,Bone lIning Cells,Bone lIning Cells,ASCTB-TEMP:bone-lining-cells,knee joint,UBERON:0001485
 AS_CT,Bone lIning Cells,Bone lIning Cells,ASCTB-TEMP:bone-lining-cells,condyle of femur,UBERON:0009980
 CT,osteoclast,Osteoclasts,CL:0000092,cell,CL:0000000
-CT,multinuclear osteoclast,multinuclear osteoclast,ASCTB-TEMP:multinuclear-osteoclast,osteoclast,CL:0000092
-CT,CL:0000779,CL:0000779,ASCTB-TEMP:cl-0000779,osteoclast,CL:0000092
+CT,multinuclear osteoclast,multinuclear osteoclast,CL:0000779,osteoclast,CL:0000092
 AS_CT,osteoclast,Osteoclasts,CL:0000092,knee,UBERON:0001465
 AS_CT,osteoclast,Osteoclasts,CL:0000092,knee joint,UBERON:0001485
 AS_CT,osteoclast,Osteoclasts,CL:0000092,condyle of femur,UBERON:0009980
-AS_CT,multinuclear osteoclast,multinuclear osteoclast,ASCTB-TEMP:multinuclear-osteoclast,knee,UBERON:0001465
-AS_CT,multinuclear osteoclast,multinuclear osteoclast,ASCTB-TEMP:multinuclear-osteoclast,knee joint,UBERON:0001485
-AS_CT,multinuclear osteoclast,multinuclear osteoclast,ASCTB-TEMP:multinuclear-osteoclast,condyle of femur,UBERON:0009980
-AS_CT,CL:0000779,CL:0000779,ASCTB-TEMP:cl-0000779,knee,UBERON:0001465
-AS_CT,CL:0000779,CL:0000779,ASCTB-TEMP:cl-0000779,knee joint,UBERON:0001485
-AS_CT,CL:0000779,CL:0000779,ASCTB-TEMP:cl-0000779,condyle of femur,UBERON:0009980
+AS_CT,multinuclear osteoclast,multinuclear osteoclast,CL:0000779,knee,UBERON:0001465
+AS_CT,multinuclear osteoclast,multinuclear osteoclast,CL:0000779,knee joint,UBERON:0001485
+AS_CT,multinuclear osteoclast,multinuclear osteoclast,CL:0000779,condyle of femur,UBERON:0009980
 CT,Preosteoclasts,Preosteoclasts,ASCTB-TEMP:preosteoclasts,cell,CL:0000000
-CT,mononuclear osteoclast,mononuclear osteoclast,ASCTB-TEMP:mononuclear-osteoclast,cell,CL:0000000
-CT,CL:0000778,CL:0000778,ASCTB-TEMP:cl-0000778,cell,CL:0000000
+CT,mononuclear osteoclast,mononuclear osteoclast,CL:0000778,cell,CL:0000000
 AS_CT,Preosteoclasts,Preosteoclasts,ASCTB-TEMP:preosteoclasts,knee,UBERON:0001465
 AS_CT,Preosteoclasts,Preosteoclasts,ASCTB-TEMP:preosteoclasts,knee joint,UBERON:0001485
 AS_CT,Preosteoclasts,Preosteoclasts,ASCTB-TEMP:preosteoclasts,condyle of femur,UBERON:0009980
-AS_CT,mononuclear osteoclast,mononuclear osteoclast,ASCTB-TEMP:mononuclear-osteoclast,knee,UBERON:0001465
-AS_CT,mononuclear osteoclast,mononuclear osteoclast,ASCTB-TEMP:mononuclear-osteoclast,knee joint,UBERON:0001485
-AS_CT,mononuclear osteoclast,mononuclear osteoclast,ASCTB-TEMP:mononuclear-osteoclast,condyle of femur,UBERON:0009980
-AS_CT,CL:0000778,CL:0000778,ASCTB-TEMP:cl-0000778,knee,UBERON:0001465
-AS_CT,CL:0000778,CL:0000778,ASCTB-TEMP:cl-0000778,knee joint,UBERON:0001485
-AS_CT,CL:0000778,CL:0000778,ASCTB-TEMP:cl-0000778,condyle of femur,UBERON:0009980
+AS_CT,mononuclear osteoclast,mononuclear osteoclast,CL:0000778,knee,UBERON:0001465
+AS_CT,mononuclear osteoclast,mononuclear osteoclast,CL:0000778,knee joint,UBERON:0001485
+AS_CT,mononuclear osteoclast,mononuclear osteoclast,CL:0000778,condyle of femur,UBERON:0009980
 AS,knee,knee,UBERON:0001465,body,UBERON:0013702
 AS,knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465
 AS,condyle of femur,Distal Femur,UBERON:0009980,knee joint,UBERON:0001485
@@ -15449,59 +15410,43 @@ AS,trabecular bone tissue,trabecular bone,UBERON:0002483,condyle of femur,UBERON
 AS,knee,knee,UBERON:0001465,body,UBERON:0013702
 AS,knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465
 AS,condyle of femur,Distal Femur,UBERON:0009980,knee joint,UBERON:0001485
-AS,Bone Marrow,Bone Marrow,ASCTB-TEMP:bone-marrow,condyle of femur,UBERON:0009980
-AS,stroma of bone marrow,Bone Marrow Stroma,UBERON:0007195,condyle of femur,UBERON:0009980
+AS,bone marrow,Bone Marrow,UBERON:0002371,condyle of femur,UBERON:0009980
+AS,stroma of bone marrow,Bone Marrow Stroma,UBERON:0007195,bone marrow,UBERON:0002371
 CT,vascular endothelial cells,vascular endothelial cells,ASCTB-TEMP:vascular-endothelial-cells,cell,CL:0000000
-CT,microvascular endothelial cell,microvascular endothelial cell,ASCTB-TEMP:microvascular-endothelial-cell,cell,CL:0000000
-CT,CL:2000008,CL:2000008,ASCTB-TEMP:cl-2000008,cell,CL:0000000
+CT,microvascular endothelial cell,microvascular endothelial cell,CL:2000008,cell,CL:0000000
 AS_CT,vascular endothelial cells,vascular endothelial cells,ASCTB-TEMP:vascular-endothelial-cells,knee,UBERON:0001465
 AS_CT,vascular endothelial cells,vascular endothelial cells,ASCTB-TEMP:vascular-endothelial-cells,knee joint,UBERON:0001485
 AS_CT,vascular endothelial cells,vascular endothelial cells,ASCTB-TEMP:vascular-endothelial-cells,condyle of femur,UBERON:0009980
+AS_CT,vascular endothelial cells,vascular endothelial cells,ASCTB-TEMP:vascular-endothelial-cells,bone marrow,UBERON:0002371
 AS_CT,vascular endothelial cells,vascular endothelial cells,ASCTB-TEMP:vascular-endothelial-cells,stroma of bone marrow,UBERON:0007195
-AS_CT,microvascular endothelial cell,microvascular endothelial cell,ASCTB-TEMP:microvascular-endothelial-cell,knee,UBERON:0001465
-AS_CT,microvascular endothelial cell,microvascular endothelial cell,ASCTB-TEMP:microvascular-endothelial-cell,knee joint,UBERON:0001485
-AS_CT,microvascular endothelial cell,microvascular endothelial cell,ASCTB-TEMP:microvascular-endothelial-cell,condyle of femur,UBERON:0009980
-AS_CT,microvascular endothelial cell,microvascular endothelial cell,ASCTB-TEMP:microvascular-endothelial-cell,stroma of bone marrow,UBERON:0007195
-AS_CT,CL:2000008,CL:2000008,ASCTB-TEMP:cl-2000008,knee,UBERON:0001465
-AS_CT,CL:2000008,CL:2000008,ASCTB-TEMP:cl-2000008,knee joint,UBERON:0001485
-AS_CT,CL:2000008,CL:2000008,ASCTB-TEMP:cl-2000008,condyle of femur,UBERON:0009980
-AS_CT,CL:2000008,CL:2000008,ASCTB-TEMP:cl-2000008,stroma of bone marrow,UBERON:0007195
+AS_CT,microvascular endothelial cell,microvascular endothelial cell,CL:2000008,knee,UBERON:0001465
+AS_CT,microvascular endothelial cell,microvascular endothelial cell,CL:2000008,knee joint,UBERON:0001485
+AS_CT,microvascular endothelial cell,microvascular endothelial cell,CL:2000008,condyle of femur,UBERON:0009980
+AS_CT,microvascular endothelial cell,microvascular endothelial cell,CL:2000008,bone marrow,UBERON:0002371
+AS_CT,microvascular endothelial cell,microvascular endothelial cell,CL:2000008,stroma of bone marrow,UBERON:0007195
 CT,perivascular cells,perivascular cells,ASCTB-TEMP:perivascular-cells,cell,CL:0000000
-CT,pericyte cell,pericyte cell,ASCTB-TEMP:pericyte-cell,cell,CL:0000000
-CT,CL:0000669,CL:0000669,ASCTB-TEMP:cl-0000669,cell,CL:0000000
+CT,pericyte cell,pericyte cell,CL:0000669,cell,CL:0000000
 AS_CT,perivascular cells,perivascular cells,ASCTB-TEMP:perivascular-cells,knee,UBERON:0001465
 AS_CT,perivascular cells,perivascular cells,ASCTB-TEMP:perivascular-cells,knee joint,UBERON:0001485
 AS_CT,perivascular cells,perivascular cells,ASCTB-TEMP:perivascular-cells,condyle of femur,UBERON:0009980
-AS_CT,pericyte cell,pericyte cell,ASCTB-TEMP:pericyte-cell,knee,UBERON:0001465
-AS_CT,pericyte cell,pericyte cell,ASCTB-TEMP:pericyte-cell,knee joint,UBERON:0001485
-AS_CT,pericyte cell,pericyte cell,ASCTB-TEMP:pericyte-cell,condyle of femur,UBERON:0009980
-AS_CT,CL:0000669,CL:0000669,ASCTB-TEMP:cl-0000669,knee,UBERON:0001465
-AS_CT,CL:0000669,CL:0000669,ASCTB-TEMP:cl-0000669,knee joint,UBERON:0001485
-AS_CT,CL:0000669,CL:0000669,ASCTB-TEMP:cl-0000669,condyle of femur,UBERON:0009980
+AS_CT,pericyte cell,pericyte cell,CL:0000669,knee,UBERON:0001465
+AS_CT,pericyte cell,pericyte cell,CL:0000669,knee joint,UBERON:0001485
+AS_CT,pericyte cell,pericyte cell,CL:0000669,condyle of femur,UBERON:0009980
 CT,preosteoblast,Preosteoblast,CL:0007010,cell,CL:0000000
-CT,preosteoblast,preosteoblast,ASCTB-TEMP:preosteoblast,preosteoblast,CL:0007010
-CT,CL:0007010,CL:0007010,ASCTB-TEMP:cl-0007010,preosteoblast,CL:0007010
 AS_CT,preosteoblast,Preosteoblast,CL:0007010,knee,UBERON:0001465
 AS_CT,preosteoblast,Preosteoblast,CL:0007010,knee joint,UBERON:0001485
 AS_CT,preosteoblast,Preosteoblast,CL:0007010,condyle of femur,UBERON:0009980
-AS_CT,preosteoblast,preosteoblast,ASCTB-TEMP:preosteoblast,knee,UBERON:0001465
-AS_CT,preosteoblast,preosteoblast,ASCTB-TEMP:preosteoblast,knee joint,UBERON:0001485
-AS_CT,preosteoblast,preosteoblast,ASCTB-TEMP:preosteoblast,condyle of femur,UBERON:0009980
-AS_CT,CL:0007010,CL:0007010,ASCTB-TEMP:cl-0007010,knee,UBERON:0001465
-AS_CT,CL:0007010,CL:0007010,ASCTB-TEMP:cl-0007010,knee joint,UBERON:0001485
-AS_CT,CL:0007010,CL:0007010,ASCTB-TEMP:cl-0007010,condyle of femur,UBERON:0009980
+AS_CT,preosteoblast,preosteoblast,CL:0007010,knee,UBERON:0001465
+AS_CT,preosteoblast,preosteoblast,CL:0007010,knee joint,UBERON:0001485
+AS_CT,preosteoblast,preosteoblast,CL:0007010,condyle of femur,UBERON:0009980
 CT,sinusoidal cells,sinusoidal cells,ASCTB-TEMP:sinusoidal-cells,cell,CL:0000000
-CT,endothelial cell of sinusoid,endothelial cell of sinusoid,ASCTB-TEMP:endothelial-cell-of-sinusoid,cell,CL:0000000
-CT,CL:0002262,CL:0002262,ASCTB-TEMP:cl-0002262,cell,CL:0000000
+CT,endothelial cell of sinusoid,endothelial cell of sinusoid,CL:0002262,cell,CL:0000000
 AS_CT,sinusoidal cells,sinusoidal cells,ASCTB-TEMP:sinusoidal-cells,knee,UBERON:0001465
 AS_CT,sinusoidal cells,sinusoidal cells,ASCTB-TEMP:sinusoidal-cells,knee joint,UBERON:0001485
 AS_CT,sinusoidal cells,sinusoidal cells,ASCTB-TEMP:sinusoidal-cells,condyle of femur,UBERON:0009980
-AS_CT,endothelial cell of sinusoid,endothelial cell of sinusoid,ASCTB-TEMP:endothelial-cell-of-sinusoid,knee,UBERON:0001465
-AS_CT,endothelial cell of sinusoid,endothelial cell of sinusoid,ASCTB-TEMP:endothelial-cell-of-sinusoid,knee joint,UBERON:0001485
-AS_CT,endothelial cell of sinusoid,endothelial cell of sinusoid,ASCTB-TEMP:endothelial-cell-of-sinusoid,condyle of femur,UBERON:0009980
-AS_CT,CL:0002262,CL:0002262,ASCTB-TEMP:cl-0002262,knee,UBERON:0001465
-AS_CT,CL:0002262,CL:0002262,ASCTB-TEMP:cl-0002262,knee joint,UBERON:0001485
-AS_CT,CL:0002262,CL:0002262,ASCTB-TEMP:cl-0002262,condyle of femur,UBERON:0009980
+AS_CT,endothelial cell of sinusoid,endothelial cell of sinusoid,CL:0002262,knee,UBERON:0001465
+AS_CT,endothelial cell of sinusoid,endothelial cell of sinusoid,CL:0002262,knee joint,UBERON:0001485
+AS_CT,endothelial cell of sinusoid,endothelial cell of sinusoid,CL:0002262,condyle of femur,UBERON:0009980
 AS,knee,knee,UBERON:0001465,body,UBERON:0013702
 AS,knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465
 AS,condyle of femur,Distal Femur,UBERON:0009980,knee joint,UBERON:0001485
@@ -15512,26 +15457,17 @@ AS_CT,autonomic neuronal cells,autonomic neuronal cells,ASCTB-TEMP:autonomic-neu
 AS_CT,autonomic neuronal cells,autonomic neuronal cells,ASCTB-TEMP:autonomic-neuronal-cells,condyle of femur,UBERON:0009980
 AS_CT,autonomic neuronal cells,autonomic neuronal cells,ASCTB-TEMP:autonomic-neuronal-cells,unmyelinated nerve fiber,UBERON:0006136
 CT,Marrow Adipocytes,Marrow Adipocytes,ASCTB-TEMP:marrow-adipocytes,cell,CL:0000000
-CT,fat cell,fat cell,ASCTB-TEMP:fat-cell,cell,CL:0000000
-CT,CL:0000136,CL:0000136,ASCTB-TEMP:cl-0000136,cell,CL:0000000
+CT,fat cell,fat cell,CL:0000136,cell,CL:0000000
 AS_CT,Marrow Adipocytes,Marrow Adipocytes,ASCTB-TEMP:marrow-adipocytes,knee,UBERON:0001465
 AS_CT,Marrow Adipocytes,Marrow Adipocytes,ASCTB-TEMP:marrow-adipocytes,knee joint,UBERON:0001485
 AS_CT,Marrow Adipocytes,Marrow Adipocytes,ASCTB-TEMP:marrow-adipocytes,condyle of femur,UBERON:0009980
-AS_CT,fat cell,fat cell,ASCTB-TEMP:fat-cell,knee,UBERON:0001465
-AS_CT,fat cell,fat cell,ASCTB-TEMP:fat-cell,knee joint,UBERON:0001485
-AS_CT,fat cell,fat cell,ASCTB-TEMP:fat-cell,condyle of femur,UBERON:0009980
-AS_CT,CL:0000136,CL:0000136,ASCTB-TEMP:cl-0000136,knee,UBERON:0001465
-AS_CT,CL:0000136,CL:0000136,ASCTB-TEMP:cl-0000136,knee joint,UBERON:0001485
-AS_CT,CL:0000136,CL:0000136,ASCTB-TEMP:cl-0000136,condyle of femur,UBERON:0009980
+AS_CT,fat cell,fat cell,CL:0000136,knee,UBERON:0001465
+AS_CT,fat cell,fat cell,CL:0000136,knee joint,UBERON:0001485
+AS_CT,fat cell,fat cell,CL:0000136,condyle of femur,UBERON:0009980
 AS,knee,knee,UBERON:0001465,body,UBERON:0013702
 AS,knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465
 AS,condyle of femur,Distal Femur,UBERON:0009980,knee joint,UBERON:0001485
 AS,bone marrow,Marrow elements,UBERON:0002371,condyle of femur,UBERON:0009980
-CT,Collaboration,Collaboration,ASCTB-TEMP:collaboration,cell,CL:0000000
-AS_CT,Collaboration,Collaboration,ASCTB-TEMP:collaboration,knee,UBERON:0001465
-AS_CT,Collaboration,Collaboration,ASCTB-TEMP:collaboration,knee joint,UBERON:0001485
-AS_CT,Collaboration,Collaboration,ASCTB-TEMP:collaboration,condyle of femur,UBERON:0009980
-AS_CT,Collaboration,Collaboration,ASCTB-TEMP:collaboration,bone marrow,UBERON:0002371
 AS,knee,knee,UBERON:0001465,body,UBERON:0013702
 AS,knee joint,knee joint,UBERON:0001485,knee,UBERON:0001465
 AS,condyle of femur,Distal Femur,UBERON:0009980,knee joint,UBERON:0001485
