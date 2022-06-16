@@ -34780,11 +34780,11 @@ AS,placenta,Placenta,UBERON:0001987,body,UBERON:0013702
 AS,umbilical cord,umbilical cord,UBERON:0002331,placenta,UBERON:0001987
 AS,amnion,amnion,UBERON:0000305,umbilical cord,UBERON:0002331
 AS,amnion epithelium,amniotic ectoderm,UBERON:0003254,amnion,UBERON:0000305
-CT,epithelial cell of amnion,amnion epithelial cell (AEC),UBERON:0002536,cell,CL:0000000
-AS_CT,epithelial cell of amnion,amnion epithelial cell (AEC),UBERON:0002536,placenta,UBERON:0001987
-AS_CT,epithelial cell of amnion,amnion epithelial cell (AEC),UBERON:0002536,umbilical cord,UBERON:0002331
-AS_CT,epithelial cell of amnion,amnion epithelial cell (AEC),UBERON:0002536,amnion,UBERON:0000305
-AS_CT,epithelial cell of amnion,amnion epithelial cell (AEC),UBERON:0002536,amnion epithelium,UBERON:0003254
+CT,epithelial cell of amnion,amnion epithelial cell (AEC),CL:0002536,cell,CL:0000000
+AS_CT,epithelial cell of amnion,amnion epithelial cell (AEC),CL:0002536,placenta,UBERON:0001987
+AS_CT,epithelial cell of amnion,amnion epithelial cell (AEC),CL:0002536,umbilical cord,UBERON:0002331
+AS_CT,epithelial cell of amnion,amnion epithelial cell (AEC),CL:0002536,amnion,UBERON:0000305
+AS_CT,epithelial cell of amnion,amnion epithelial cell (AEC),CL:0002536,amnion epithelium,UBERON:0003254
 AS,placenta,Placenta,UBERON:0001987,body,UBERON:0013702
 AS,umbilical cord,umbilical cord,UBERON:0002331,placenta,UBERON:0001987
 AS,amnion,amnion,UBERON:0000305,umbilical cord,UBERON:0002331
@@ -34798,7 +34798,7 @@ AS,placenta,Placenta,UBERON:0001987,body,UBERON:0013702
 AS,placental disc,placental disc,ASCTB-TEMP:placental-disc,placenta,UBERON:0001987
 AS,chorionic plate,chorionic plate,UBERON:0004027,placenta,UBERON:0001987
 AS,amnion epithelium,amniotic ectoderm,UBERON:0003254,chorionic plate,UBERON:0004027
-AS_CT,epithelial cell of amnion,amnion epithelial cell (AEC),UBERON:0002536,chorionic plate,UBERON:0004027
+AS_CT,epithelial cell of amnion,amnion epithelial cell (AEC),CL:0002536,chorionic plate,UBERON:0004027
 AS,placenta,Placenta,UBERON:0001987,body,UBERON:0013702
 AS,placental disc,placental disc,ASCTB-TEMP:placental-disc,placenta,UBERON:0001987
 AS,chorionic plate,chorionic plate,UBERON:0004027,placenta,UBERON:0001987
