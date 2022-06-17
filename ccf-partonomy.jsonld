@@ -126,13 +126,13 @@
     "order": 9
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/FMA_54449",
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0004549",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
       {
-        "@value": "Right orbital part of face"
+        "@value": "right eyeball"
       },
       {
-        "@value": "Right orbital region"
+        "@value": "right eyeball"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -142,7 +142,7 @@
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
-        "@value": "FMAID:54449"
+        "@value": "UBERON:0004549"
       }
     ],
     "parent": [

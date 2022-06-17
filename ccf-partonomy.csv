@@ -316,7 +316,7 @@ body,UBERON:0013702
                 central canal of medulla oblongata,UBERON:0002291,canalis centralis,central canal,central canal of spinal cord,spinal cord central canal,ventricle of spinal cord,canalis centralis,central canal,central canal of spinal cord,spinal cord central canal,ventricle of spinal cord
     eye,UBERON:0000970
         left eye,UBERON:0004548,left eyeball,left eyeball
-        right eye,FMAID:54449,Right orbital part of face,Right orbital region
+        right eye,UBERON:0004549,right eyeball,right eyeball
         retina,UBERON:0000966,inner layer of eyeball,retina of camera-type eye,tunica interna of eyeball,inner layer of eyeball,retina of camera-type eye,tunica interna of eyeball
             inner nuclear layer,UBERON:0001791,inner nuclear layer,intermediate cell layer,neural retina inner nuclear layer,retina inner nuclear layer,retinal inner nuclear layer,stratum nucleare internum,stratum nucleare internum retinae,inner nuclear layer,intermediate cell layer,neural retina inner nuclear layer,retina inner nuclear layer,retinal inner nuclear layer,stratum nucleare internum,stratum nucleare internum retinae
                 gabaergic interneuron,CL:0011005,GABAergic inhibitory interneuron
