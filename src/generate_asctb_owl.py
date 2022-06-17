@@ -11,7 +11,7 @@ API_URL_JSON = 'https://asctb-api.herokuapp.com/v2/csv?output=json&expanded=true
 CSV_SHEET = 'https://hubmapconsortium.github.io/ccf-releases/v1.0/asct-b/{0}'
 GOOGLE_SHEET = 'https://docs.google.com/spreadsheets/d/{0}/export?format=csv&gid={1}'
 
-ASCTB_SHEET_CONFIGS = 'https://raw.githubusercontent.com/hubmapconsortium/ccf-asct-reporter/pbi-423-ccf-release-v1.2-update/projects/v2/src/assets/sheet-config.json'
+ASCTB_SHEET_CONFIGS = 'https://raw.githubusercontent.com/hubmapconsortium/ccf-asct-reporter/develop/projects/v2/src/assets/sheet-config.json'
 HRA_VERSION = 'v1.2'
 
 config = requests.get(ASCTB_SHEET_CONFIGS).json()
