@@ -67,7 +67,7 @@ with open(OUTPUT_CSV, 'w') as out_f:
   out.writerow(['AS','respiratory system', 'respiratory system', 'UBERON:0001004', 'lung', 'UBERON:0002048'])
   out.writerow(['AS','mesenteric lymph node', 'mesenteric lymph node', 'UBERON:0002509', 'lymph node', 'UBERON:0000029'])
   out.writerow(['AS','left eye', 'left eye', 'UBERON:0004548', 'eye', 'UBERON:0000970'])
-  out.writerow(['AS','right eye', 'right eye', 'FMAID:54449', 'eye', 'UBERON:0000970'])
+  out.writerow(['AS','right eye', 'right eye', 'UBERON:0004549', 'eye', 'UBERON:0000970'])
   out.writerow(['AS','left fallopian tube', 'left fallopian tube', 'UBERON:0001303', 'fallopian tube', 'UBERON:0003889'])
   out.writerow(['AS','right fallopian tube', 'right fallopian tube', 'UBERON:0001302', 'fallopian tube', 'UBERON:0003889'])
   out.writerow(['AS','left knee', 'left knee', 'FMAID:24978', 'knee', 'UBERON:0001465'])
