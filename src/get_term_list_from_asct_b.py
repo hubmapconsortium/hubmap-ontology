@@ -76,6 +76,7 @@ with open(OUTPUT_CSV, 'w') as out_f:
   out.writerow(['AS','right ovary', 'right ovary', 'FMAID:7213', 'ovary', 'UBERON:0000992'])
   out.writerow(['AS','left ureter', 'left ureter', 'UBERON:0001223', 'ureter', 'UBERON:0000056'])
   out.writerow(['AS','right ureter', 'right ureter', 'UBERON:0001222', 'ureter', 'UBERON:0000056'])
+  out.writerow(['AS','spinal cord', 'spinal cord', 'UBERON:0002240', body.rdfs_label, body.id])
 
   seen = defaultdict(dict)
   for edge_type, row in asct_rows():

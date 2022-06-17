@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import bz2, glob, json
+from copyreg import constructor
 from collections import namedtuple
 import networkx as nx
 from csv import DictReader
@@ -10,6 +11,11 @@ from rdflib.extras.infixowl import OWL, Class, Restriction
 from rdflib import Graph, Namespace, URIRef, RDF, RDFS, Literal
 from constants import CCF_NAMESPACE, CCF_PARTONOMY_TERMS, CCF_PARTONOMY_RDF, CCF_PARTONOMY_JSONLD
 
+class DumbTerm:
+  def __init__(self, iri, label):
+    self.iri = iri
+    self.label = [label]
+    self.hasExactSynonym = []
 
 ONTO_CACHE='source_ontologies/cache.sqlite'
 
@@ -31,22 +37,29 @@ def load_ontologies():
 
 load_ontologies()
 
-def get_term(term_str):
+def get_term(term_str, backup_label=None):
+  iri = None
   if term_str.startswith('ASCTB-TEMP:'):
     term_str = term_str.split(':')[-1].strip()
     iri = f'https://purl.org/ccf/ASCTB-TEMP_{term_str}'
     term = [ASTempTerm(iri, [term_str.replace('-', ' ')], [])]
-  elif term_str.startswith('CL:'):
+  elif term_str.startswith('CL:') or term_str.startswith('UBERON:'):
+    onto = term_str.split(':')[0]
     term_str = term_str.split(':')[-1].strip()
-    term = default_world.search(iri=f'http://purl.obolibrary.org/obo/CL_{term_str}')
+    iri = f'http://purl.obolibrary.org/obo/{onto}_{term_str}'
+    term = default_world.search(iri=iri)
   elif term_str.startswith('FMA'):
     term_str = term_str.split(':')[-1].strip()
-    term = default_world.search(iri=f'http://purl.org/sig/ont/fma/fma{term_str}')
-    #term = default_world.search(iri=f'http://purl.obolibrary.org/obo/FMA_{term_str}')
+    # iri = f'http://purl.org/sig/ont/fma/fma{term_str}'
+    iri = f'http://purl.obolibrary.org/obo/FMA_{term_str}'
+    term = default_world.search(iri=iri)
   else:
     term = default_world.search(id=term_str)
-
-  return term[0] if len(term) > 0 else None
+  
+  if (not term or len(term) == 0) and iri and backup_label:
+    return DumbTerm(iri, backup_label)
+  else:
+    return term[0] if len(term) > 0 else None
 
 def get_term_data(id, label, term, order, parent = None):
   return {
@@ -88,9 +101,11 @@ TERMS = [
   # 'http://purl.obolibrary.org/obo/FMA_7213', # Ovary, R
   'http://purl.obolibrary.org/obo/UBERON_0001264', # Pancreas
   'http://purl.obolibrary.org/obo/UBERON_0001270', # Pelvis
+  'http://purl.obolibrary.org/obo/UBERON_0001987', # Placenta
   'http://purl.obolibrary.org/obo/UBERON_0002367', # Prostate Gland
   'http://purl.obolibrary.org/obo/UBERON_0002097', # Skin
   'http://purl.obolibrary.org/obo/UBERON_0002108', # Small Intestine
+  'http://purl.obolibrary.org/obo/UBERON_0002240', # Spinal Cord
   'http://purl.obolibrary.org/obo/UBERON_0000059', # Large Intestine
   'http://purl.obolibrary.org/obo/UBERON_0002106', # Spleen
   'http://purl.obolibrary.org/obo/UBERON_0002370', # Thymus
@@ -128,8 +143,8 @@ with open(CCF_PARTONOMY_TERMS) as in_f:
     child = row['Ontology ID']
     edge_type = row['EdgeType']
 
-    child_term = get_term(child)
-    parent_term = get_term(parent)
+    child_term = get_term(child, row['Name'].strip() or row['HuBMAP Preferred Name'].strip())
+    parent_term = get_term(parent, row['Parent name'].strip())
 
     if child_term and parent_term:
       if child_term.iri == parent_term.iri:
