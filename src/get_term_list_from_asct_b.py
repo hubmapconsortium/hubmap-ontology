@@ -35,7 +35,7 @@ def asct_rows():
   seen = set()
   for row in data:
     as_tuple = tuple([ Node('AS', fix_id(a['id']), fix_name(a['name']), fix_name(a['rdfs_label'])) for a in row['anatomical_structures'] ])
-    ct_tuple = tuple([ Node('CT', fix_id(a['id']), fix_name(a['name']) or fix_name(a['rdfs_label']), fix_name(a['rdfs_label'])) for a in row['cell_types'] ])
+    ct_tuple = tuple([ Node('CT', fix_id(a['id']), fix_name(a['rdfs_label']) or fix_name(a['name']), fix_name(a['rdfs_label'])) for a in row['cell_types'] ])
     if as_tuple not in seen:
       seen.add(as_tuple)
       yield 'AS', as_tuple
