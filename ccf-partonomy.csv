@@ -11,133 +11,133 @@ body,UBERON:0013702
                     frontal lobe,UBERON:0016525,lobi frontales,lobus frontalis,lobi frontales,lobus frontalis
                         precentral gyrus,UBERON:0002703,precentral convolution,prerolandic gyrus
                             primary motor cortex,UBERON:0001384,motor cortex,motor cortex
-                                inh l1 lamp5 pvrl2,ASCTB-TEMP:inh-l1-lamp5-pvrl2
-                                inh l1 lamp5 rab11fip1,ASCTB-TEMP:inh-l1-lamp5-rab11fip1
-                                inh l1-6 lamp5 aard,ASCTB-TEMP:inh-l1-6-lamp5-aard
-                                inh l1-6 lamp5 nes,ASCTB-TEMP:inh-l1-6-lamp5-nes
-                                inh l1-6 lamp5 ca1,ASCTB-TEMP:inh-l1-6-lamp5-ca1
-                                inh l5-6 lamp5 crabp1,ASCTB-TEMP:inh-l5-6-lamp5-crabp1
-                                inh l3-6 pax6 linc01497,ASCTB-TEMP:inh-l3-6-pax6-linc01497
-                                inh l1 pax6 mir101-1,ASCTB-TEMP:inh-l1-pax6-mir101-1
-                                inh l1 lamp5 bmp2,ASCTB-TEMP:inh-l1-lamp5-bmp2
-                                inh l1 lamp5 nmbr,ASCTB-TEMP:inh-l1-lamp5-nmbr
-                                inh l1 pax6 chrfam7a,ASCTB-TEMP:inh-l1-pax6-chrfam7a
-                                inh l1-6 vip slc7a6os,ASCTB-TEMP:inh-l1-6-vip-slc7a6os
-                                inh l2 pax6 frem2,ASCTB-TEMP:inh-l2-pax6-frem2
-                                inh l1-2 vip htr3a,ASCTB-TEMP:inh-l1-2-vip-htr3a
-                                inh l1-2 vip wnt4,ASCTB-TEMP:inh-l1-2-vip-wnt4
-                                inh l1 pvalb sst asic4,ASCTB-TEMP:inh-l1-pvalb-sst-asic4
-                                inh l1 sst p4ha3,ASCTB-TEMP:inh-l1-sst-p4ha3
-                                inh l1 sst defb108b,ASCTB-TEMP:inh-l1-sst-defb108b
-                                inh l1-3 vip cbln1,ASCTB-TEMP:inh-l1-3-vip-cbln1
-                                inh l1-2 vip exph5,ASCTB-TEMP:inh-l1-2-vip-exph5
-                                inh l1-3 vip hspb6,ASCTB-TEMP:inh-l1-3-vip-hspb6
-                                inh l1-2 vip ptger3,ASCTB-TEMP:inh-l1-2-vip-ptger3
-                                inh l1-2 vip scml4,ASCTB-TEMP:inh-l1-2-vip-scml4
-                                inh l1-3 vip fndc1,ASCTB-TEMP:inh-l1-3-vip-fndc1
-                                inh l1-3 vip chrna2,ASCTB-TEMP:inh-l1-3-vip-chrna2
-                                inh l2 vip slc6a16,ASCTB-TEMP:inh-l2-vip-slc6a16
-                                inh l1 vip klhdc8b,ASCTB-TEMP:inh-l1-vip-klhdc8b
-                                inh l3-5 vip igdcc3,ASCTB-TEMP:inh-l3-5-vip-igdcc3
-                                inh l1-5 vip smoc1,ASCTB-TEMP:inh-l1-5-vip-smoc1
-                                inh l3-5 vip hs3st3a1,ASCTB-TEMP:inh-l3-5-vip-hs3st3a1
-                                inh l5-6 vip col4a3,ASCTB-TEMP:inh-l5-6-vip-col4a3
-                                inh l1-5 vip cd27-as1,ASCTB-TEMP:inh-l1-5-vip-cd27-as1
-                                inh l2-5 vip bspry,ASCTB-TEMP:inh-l2-5-vip-bspry
-                                inh l2-5 vip sox11,ASCTB-TEMP:inh-l2-5-vip-sox11
-                                inh l3-6 vip zim2-as1,ASCTB-TEMP:inh-l3-6-vip-zim2-as1
-                                inh l1-5 vip phldb3,ASCTB-TEMP:inh-l1-5-vip-phldb3
-                                inh l1-5 vip linc01013,ASCTB-TEMP:inh-l1-5-vip-linc01013
-                                inh l3-6 vip ug0898h09,ASCTB-TEMP:inh-l3-6-vip-ug0898h09
-                                inh l3-5 vip tac3,ASCTB-TEMP:inh-l3-5-vip-tac3
-                                inh l1-6 sst npy (sset chodl),ASCTB-TEMP:inh-l1-6-sst-npy-sset-chodl-
-                                inh l3-5 sst cdh3,ASCTB-TEMP:inh-l3-5-sst-cdh3
-                                inh l5 sst rpl35ap11,ASCTB-TEMP:inh-l5-sst-rpl35ap11
-                                inh l5-6 sst isx,ASCTB-TEMP:inh-l5-6-sst-isx
-                                inh l5-6 pvalb sst crhr2,ASCTB-TEMP:inh-l5-6-pvalb-sst-crhr2
-                                inh l3-5 sst or5ah1p,ASCTB-TEMP:inh-l3-5-sst-or5ah1p
-                                inh l3-5 sst ggtlc3,ASCTB-TEMP:inh-l3-5-sst-ggtlc3
-                                inh l2-3 sst nmu,ASCTB-TEMP:inh-l2-3-sst-nmu
-                                inh l5-6 sst pawr,ASCTB-TEMP:inh-l5-6-sst-pawr
-                                inh l5-6 sst pik3cd,ASCTB-TEMP:inh-l5-6-sst-pik3cd
-                                inh l1-2 sst ccnjl,ASCTB-TEMP:inh-l1-2-sst-ccnjl
-                                inh l1-3 sst fam20a,ASCTB-TEMP:inh-l1-3-sst-fam20a
-                                inh l1-2 sst prrt4,ASCTB-TEMP:inh-l1-2-sst-prrt4
-                                inh l5-6 sst bean1,ASCTB-TEMP:inh-l5-6-sst-bean1
-                                inh l5-6 sst dnajc14,ASCTB-TEMP:inh-l5-6-sst-dnajc14
-                                inh l5-6 sst c4orf26,ASCTB-TEMP:inh-l5-6-sst-c4orf26
-                                inh l5-6 sst fbn2,ASCTB-TEMP:inh-l5-6-sst-fbn2
-                                inh l5-6 sst klhl1,ASCTB-TEMP:inh-l5-6-sst-klhl1
-                                inh l6 sst th,ASCTB-TEMP:inh-l6-sst-th
-                                inh l5-6 pvalb kcnip2,ASCTB-TEMP:inh-l5-6-pvalb-kcnip2
-                                inh l5-6 pvalb zfpm2-as1,ASCTB-TEMP:inh-l5-6-pvalb-zfpm2-as1
-                                inh l3-5 pvalb isg20,ASCTB-TEMP:inh-l3-5-pvalb-isg20
-                                inh l5 pvalb lrig3,ASCTB-TEMP:inh-l5-pvalb-lrig3
-                                inh l2-5 pvalb hhipl1,ASCTB-TEMP:inh-l2-5-pvalb-hhipl1
-                                inh l2-5 pvalb rph3al,ASCTB-TEMP:inh-l2-5-pvalb-rph3al
-                                inh l3 pvalb samd13,ASCTB-TEMP:inh-l3-pvalb-samd13
-                                inh l1-2 pvalb cdk20,ASCTB-TEMP:inh-l1-2-pvalb-cdk20
-                                inh l2 pvalb frzb,ASCTB-TEMP:inh-l2-pvalb-frzb
-                                inh l1-2 sst clic6,ASCTB-TEMP:inh-l1-2-sst-clic6
-                                inh l5-6 pvalb gapdhp60,ASCTB-TEMP:inh-l5-6-pvalb-gapdhp60
-                                inh l5-6 pvalb fam150b,ASCTB-TEMP:inh-l5-6-pvalb-fam150b
-                                inh l5-6 pvalb mepe,ASCTB-TEMP:inh-l5-6-pvalb-mepe
-                                inh l1-6 pvalb col15a1 (chandelier),ASCTB-TEMP:inh-l1-6-pvalb-col15a1-chandelier-
-                                exc l2 lamp5 kcng3,ASCTB-TEMP:exc-l2-lamp5-kcng3
-                                exc l2 linc00507 atp7b,ASCTB-TEMP:exc-l2-linc00507-atp7b
-                                exc l2 linc00507 glra3,ASCTB-TEMP:exc-l2-linc00507-glra3
-                                exc l2-3 rorb rtkn2,ASCTB-TEMP:exc-l2-3-rorb-rtkn2
-                                exc l2-3 linc00507 dsg3,ASCTB-TEMP:exc-l2-3-linc00507-dsg3
-                                exc l3 lamp5 carm1p1,ASCTB-TEMP:exc-l3-lamp5-carm1p1
-                                exc l2-3 rorb ccdc68,ASCTB-TEMP:exc-l2-3-rorb-ccdc68
-                                exc l2-3 rorb ptpn3,ASCTB-TEMP:exc-l2-3-rorb-ptpn3
-                                exc l3 themis enpep,ASCTB-TEMP:exc-l3-themis-enpep
-                                exc l3-5 rorb tnnt2,ASCTB-TEMP:exc-l3-5-rorb-tnnt2
-                                exc l3-5 rorb lama4,ASCTB-TEMP:exc-l3-5-rorb-lama4
-                                exc l5 themis vill,ASCTB-TEMP:exc-l5-themis-vill
-                                exc l3 rorb otogl,ASCTB-TEMP:exc-l3-rorb-otogl
-                                exc l3-5 rorb linc01202,ASCTB-TEMP:exc-l3-5-rorb-linc01202
-                                exc l5 themis slc22a18,ASCTB-TEMP:exc-l5-themis-slc22a18
-                                exc l5-6 themis tnfaip6,ASCTB-TEMP:exc-l5-6-themis-tnfaip6
-                                exc l3-5 rorb lnx2,ASCTB-TEMP:exc-l3-5-rorb-lnx2
-                                exc l3-5 rorb rprm,ASCTB-TEMP:exc-l3-5-rorb-rprm
-                                exc l5 rorb med8,ASCTB-TEMP:exc-l5-rorb-med8
-                                exc l5 themis fgf10,ASCTB-TEMP:exc-l5-themis-fgf10
-                                exc l6 themis linc00343,ASCTB-TEMP:exc-l6-themis-linc00343
-                                exc l6 themis sln,ASCTB-TEMP:exc-l6-themis-sln
-                                exc l6 themis sntg2,ASCTB-TEMP:exc-l6-themis-sntg2
-                                exc l5-6 themis smyd1 (l6 it car3),ASCTB-TEMP:exc-l5-6-themis-smyd1-l6-it-car3-
-                                exc l5-6 fezf2 or1l8,ASCTB-TEMP:exc-l5-6-fezf2-or1l8
-                                exc l5 themis linc01116,ASCTB-TEMP:exc-l5-themis-linc01116
-                                exc l5 themis rgpd6,ASCTB-TEMP:exc-l5-themis-rgpd6
-                                exc l5-6 fezf2 c9orf135-as1,ASCTB-TEMP:exc-l5-6-fezf2-c9orf135-as1
-                                exc l5-6 fezf2 filip1l,ASCTB-TEMP:exc-l5-6-fezf2-filip1l
-                                exc l5-6 fezf2 sh2d1b,ASCTB-TEMP:exc-l5-6-fezf2-sh2d1b
-                                exc l6 fezf2 pdyn,ASCTB-TEMP:exc-l6-fezf2-pdyn
-                                exc l6 fezf2 ffar4,ASCTB-TEMP:exc-l6-fezf2-ffar4
-                                exc l6 fezf2 prokr2,ASCTB-TEMP:exc-l6-fezf2-prokr2
-                                exc l5-6 fezf2 cftr,ASCTB-TEMP:exc-l5-6-fezf2-cftr
-                                exc l6 fezf2 klk7,ASCTB-TEMP:exc-l6-fezf2-klk7
-                                exc l6 fezf2 pogk,ASCTB-TEMP:exc-l6-fezf2-pogk
-                                exc l5 fezf2 csn1s1,ASCTB-TEMP:exc-l5-fezf2-csn1s1
-                                exc l3-5 fezf2 asgr2,ASCTB-TEMP:exc-l3-5-fezf2-asgr2
-                                exc l3-5 fezf2 linc01107,ASCTB-TEMP:exc-l3-5-fezf2-linc01107
-                                exc l5 fezf2 pkd2l1,ASCTB-TEMP:exc-l5-fezf2-pkd2l1
-                                exc l5 fezf2 nrep-as1,ASCTB-TEMP:exc-l5-fezf2-nrep-as1
-                                exc l5 fezf2 rnf144a-as1,ASCTB-TEMP:exc-l5-fezf2-rnf144a-as1
-                                exc l5-6 fezf2 ifng-as1,ASCTB-TEMP:exc-l5-6-fezf2-ifng-as1
-                                exc l5-6 fezf2 lpo,ASCTB-TEMP:exc-l5-6-fezf2-lpo
-                                opc l1-6 pdgfra col20a1,ASCTB-TEMP:opc-l1-6-pdgfra-col20a1
-                                oligo l2-6 opalin map6d1,ASCTB-TEMP:oligo-l2-6-opalin-map6d1
-                                oligo l3-6 opalin enpp6,ASCTB-TEMP:oligo-l3-6-opalin-enpp6
-                                oligo l2-6 opalin fth1p3,ASCTB-TEMP:oligo-l2-6-opalin-fth1p3
-                                oligo l5-6 opalin ldlrap1,ASCTB-TEMP:oligo-l5-6-opalin-ldlrap1
-                                astro l1-6 fgfr3 aqp1,ASCTB-TEMP:astro-l1-6-fgfr3-aqp1
-                                astro l1 fgfr3 serpini2,ASCTB-TEMP:astro-l1-fgfr3-serpini2
-                                astro l1-6 fgfr3 plcg1,ASCTB-TEMP:astro-l1-6-fgfr3-plcg1
-                                endo l2-5 nostrin srgn,ASCTB-TEMP:endo-l2-5-nostrin-srgn
-                                vlmc l1-5 pdgfra colec12,ASCTB-TEMP:vlmc-l1-5-pdgfra-colec12
-                                micro l1-6 tyrobp cd74,ASCTB-TEMP:micro-l1-6-tyrobp-cd74
+                                inh l1 lamp5 pvrl2 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-lamp5-pvrl2-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1 lamp5 rab11fip1 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-lamp5-rab11fip1-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-6 lamp5 aard primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-6-lamp5-aard-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-6 lamp5 nes primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-6-lamp5-nes-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-6 lamp5 ca1 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-6-lamp5-ca1-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 lamp5 crabp1 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-lamp5-crabp1-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l3-6 pax6 linc01497 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l3-6-pax6-linc01497-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1 pax6 mir101-1 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-pax6-mir101-1-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1 lamp5 bmp2 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-lamp5-bmp2-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1 lamp5 nmbr primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-lamp5-nmbr-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1 pax6 chrfam7a primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-pax6-chrfam7a-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-6 vip slc7a6os primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-6-vip-slc7a6os-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l2 pax6 frem2 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l2-pax6-frem2-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-2 vip htr3a primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-2-vip-htr3a-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-2 vip wnt4 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-2-vip-wnt4-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1 pvalb-like sst asic4 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-pvalb-like-sst-asic4-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1 sst p4ha3 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-sst-p4ha3-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1 sst defb108b primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-sst-defb108b-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-3 vip cbln1 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-3-vip-cbln1-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-2 vip exph5 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-2-vip-exph5-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-3 vip hspb6 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-3-vip-hspb6-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-2 vip ptger3 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-2-vip-ptger3-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-2 vip scml4 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-2-vip-scml4-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-3 vip fndc1 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-3-vip-fndc1-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-3 vip chrna2 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-3-vip-chrna2-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l2 vip slc6a16 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l2-vip-slc6a16-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1 vip klhdc8b primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-vip-klhdc8b-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l3-5 vip igdcc3 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l3-5-vip-igdcc3-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-5 vip smoc1 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-5-vip-smoc1-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l3-5 vip hs3st3a1 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l3-5-vip-hs3st3a1-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 vip col4a3 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-vip-col4a3-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-5 vip cd27-as1 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-5-vip-cd27-as1-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l2-5 vip bspry primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l2-5-vip-bspry-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l2-5 vip sox11 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l2-5-vip-sox11-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l3-6 vip zim2-as1 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l3-6-vip-zim2-as1-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-5 vip phldb3 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-5-vip-phldb3-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-5 vip linc01013 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-5-vip-linc01013-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l3-6 vip ug0898h09 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l3-6-vip-ug0898h09-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l3-5 vip tac3 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l3-5-vip-tac3-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-6 sst npy primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-6-sst-npy-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l3-5 sst cdh3 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l3-5-sst-cdh3-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5 sst rpl35ap11 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-sst-rpl35ap11-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 sst isx primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-sst-isx-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 pvalb sst crhr2 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-pvalb-sst-crhr2-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l3-5 sst or5ah1p primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l3-5-sst-or5ah1p-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l3-5 sst ggtlc3 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l3-5-sst-ggtlc3-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l2-3 sst nmu primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l2-3-sst-nmu-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 sst pawr primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-sst-pawr-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 sst pik3cd primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-sst-pik3cd-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-2 sst ccnjl primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-2-sst-ccnjl-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-3 sst fam20a primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-3-sst-fam20a-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-2 sst prrt4 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-2-sst-prrt4-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 sst bean1 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-sst-bean1-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 sst dnajc14 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-sst-dnajc14-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 sst c4orf26 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-sst-c4orf26-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 sst fbn2 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-sst-fbn2-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 sst klhl1 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-sst-klhl1-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l6 sst th primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l6-sst-th-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 pvalb kcnip2 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-pvalb-kcnip2-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 pvalb zfpm2-as1 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-pvalb-zfpm2-as1-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l3-5 pvalb isg20 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l3-5-pvalb-isg20-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5 pvalb lrig3 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-pvalb-lrig3-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l2-5 pvalb hhipl1 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l2-5-pvalb-hhipl1-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l2-5 pvalb rph3al primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l2-5-pvalb-rph3al-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l3 pvalb samd13 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l3-pvalb-samd13-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-2 pvalb cdk20 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-2-pvalb-cdk20-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l2 pvalb frzb primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l2-pvalb-frzb-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-2 sst clic6 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-2-sst-clic6-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 pvalb gapdhp60 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-pvalb-gapdhp60-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 pvalb fam150b primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-pvalb-fam150b-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l5-6 pvalb mepe primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l5-6-pvalb-mepe-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                inh l1-6 pvalb col15a1 primary motor cortex gabaergic interneuron (homo sapiens),ASCTB-TEMP:inh-l1-6-pvalb-col15a1-primary-motor-cortex-gabaergic-interneuron-homo-sapiens-
+                                exc l2 lamp5 kcng3 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l2-lamp5-kcng3-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l2 linc00507 atp7b primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l2-linc00507-atp7b-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l2 linc00507 glra3 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l2-linc00507-glra3-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l2-3 rorb rtkn2 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l2-3-rorb-rtkn2-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l2-3 linc00507 dsg3 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l2-3-linc00507-dsg3-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l3 lamp5 carm1p1 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l3-lamp5-carm1p1-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l2-3 rorb ccdc68 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l2-3-rorb-ccdc68-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l2-3 rorb ptpn3 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l2-3-rorb-ptpn3-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l3 themis enpep primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l3-themis-enpep-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l3-5 rorb tnnt2 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l3-5-rorb-tnnt2-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l3-5 rorb lama4 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l3-5-rorb-lama4-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5 themis vill primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-themis-vill-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l3 rorb otogl primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l3-rorb-otogl-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l3-5 rorb linc01202 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l3-5-rorb-linc01202-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5 themis slc22a18 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-themis-slc22a18-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5-6 themis tnfaip6 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-6-themis-tnfaip6-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l3-5 rorb lnx2 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l3-5-rorb-lnx2-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l3-5 rorb rprm primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l3-5-rorb-rprm-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5 rorb med8 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-rorb-med8-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5 themis fgf10 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-themis-fgf10-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l6 themis linc00343 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l6-themis-linc00343-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l6 themis sln primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l6-themis-sln-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l6 themis sntg2 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l6-themis-sntg2-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5-6 themis smyd1 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-6-themis-smyd1-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5-6 fezf2 or1l8 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-6-fezf2-or1l8-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5 themis linc01116 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-themis-linc01116-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5 themis rgpd6 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-themis-rgpd6-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5-6 fezf2 c9orf135-as1 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-6-fezf2-c9orf135-as1-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5-6 fezf2 filip1l primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-6-fezf2-filip1l-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5-6 fezf2 sh2d1b primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-6-fezf2-sh2d1b-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l6 fezf2 pdyn primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l6-fezf2-pdyn-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l6 fezf2 ffar4 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l6-fezf2-ffar4-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l6 fezf2 prokr2 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l6-fezf2-prokr2-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5-6 fezf2 cftr primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-6-fezf2-cftr-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l6 fezf2 klk7 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l6-fezf2-klk7-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l6 fezf2 pogk primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l6-fezf2-pogk-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5 fezf2 csn1s1 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-fezf2-csn1s1-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l3-5 fezf2 asgr2 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l3-5-fezf2-asgr2-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l3-5 fezf2 linc01107 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l3-5-fezf2-linc01107-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5 fezf2 pkd2l1 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-fezf2-pkd2l1-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5 fezf2 nrep-as1 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-fezf2-nrep-as1-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5 fezf2 rnf144a-as1 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-fezf2-rnf144a-as1-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5-6 fezf2 ifng-as1 primary motor cortex glutamatergic neuron (homo sapiens),ASCTB-TEMP:exc-l5-6-fezf2-ifng-as1-primary-motor-cortex-glutamatergic-neuron-homo-sapiens-
+                                exc l5-6 fezf2 lpo primary motor cortex oligodendrocyte precursor cell (homo sapiens),ASCTB-TEMP:exc-l5-6-fezf2-lpo-primary-motor-cortex-oligodendrocyte-precursor-cell-homo-sapiens-
+                                opc l1-6 pdgfra col20a1 primary motor cortex glial cell (homo sapiens),ASCTB-TEMP:opc-l1-6-pdgfra-col20a1-primary-motor-cortex-glial-cell-homo-sapiens-
+                                oligo l2-6 opalin map6d1 primary motor cortex oligodendrocyte (homo sapiens),ASCTB-TEMP:oligo-l2-6-opalin-map6d1-primary-motor-cortex-oligodendrocyte-homo-sapiens-
+                                oligo l3-6 opalin-like enpp6 primary motor cortex oligodendrocyte (homo sapiens),ASCTB-TEMP:oligo-l3-6-opalin-like-enpp6-primary-motor-cortex-oligodendrocyte-homo-sapiens-
+                                oligo l2-6 opalin fth1p3 primary motor cortex oligodendrocyte (homo sapiens),ASCTB-TEMP:oligo-l2-6-opalin-fth1p3-primary-motor-cortex-oligodendrocyte-homo-sapiens-
+                                oligo l5-6 opalin ldlrap1 primary motor cortex oligodendrocyte (homo sapiens),ASCTB-TEMP:oligo-l5-6-opalin-ldlrap1-primary-motor-cortex-oligodendrocyte-homo-sapiens-
+                                astro l1-6 fgfr3 aqp1 primary motor cortex glial cell (homo sapiens),ASCTB-TEMP:astro-l1-6-fgfr3-aqp1-primary-motor-cortex-glial-cell-homo-sapiens-
+                                astro l1 fgfr3 serpini2 primary motor cortex glial cell (homo sapiens),ASCTB-TEMP:astro-l1-fgfr3-serpini2-primary-motor-cortex-glial-cell-homo-sapiens-
+                                astro l1-6 fgfr3 plcg1 primary motor cortex glial cell (homo sapiens),ASCTB-TEMP:astro-l1-6-fgfr3-plcg1-primary-motor-cortex-glial-cell-homo-sapiens-
+                                endo l2-5 nostrin srgn primary motor cortex endothelial cell (homo sapiens),ASCTB-TEMP:endo-l2-5-nostrin-srgn-primary-motor-cortex-endothelial-cell-homo-sapiens-
+                                vlmc l1-5 pdgfra colec12 primary motor cortex vascular leptomeningeal cell (homo sapiens),ASCTB-TEMP:vlmc-l1-5-pdgfra-colec12-primary-motor-cortex-vascular-leptomeningeal-cell-homo-sapiens-
+                                micro l1-6 tyrobp cd74 primary motor cortex microglial cell (homo sapiens),ASCTB-TEMP:micro-l1-6-tyrobp-cd74-primary-motor-cortex-microglial-cell-homo-sapiens-
                         superior frontal gyrus,UBERON:0002661,marginal gyrus,superior frontal convolution
                         middle frontal gyrus,UBERON:0002702,gyrus frontalis medialis,intermediate frontal gyrus,medial frontal gyrus
                         inferior frontal gyrus,UBERON:0002998,inferior frontal convolution
@@ -321,7 +321,7 @@ body,UBERON:0013702
             inner nuclear layer,UBERON:0001791,inner nuclear layer,intermediate cell layer,neural retina inner nuclear layer,retina inner nuclear layer,retinal inner nuclear layer,stratum nucleare internum,stratum nucleare internum retinae,inner nuclear layer,intermediate cell layer,neural retina inner nuclear layer,retina inner nuclear layer,retinal inner nuclear layer,stratum nucleare internum,stratum nucleare internum retinae
                 gabaergic interneuron,CL:0011005,GABAergic inhibitory interneuron
                 glutamic acid decarboxylase 65 cell,ASCTB-TEMP:glutamic-acid-decarboxylase-65-cell
-                glycinergic amacrine cell,FMAID:62362
+                glycinergic amacrine cell of retina,FMAID:62362
                 a8 bistratified small-field cell,ASCTB-TEMP:a8-bistratified-small-field-cell
                 medium-field cell,ASCTB-TEMP:medium-field-cell
                 wide field cell,ASCTB-TEMP:wide-field-cell
@@ -340,24 +340,23 @@ body,UBERON:0013702
                 flat midget bipolar cell,ASCTB-TEMP:flat-midget-bipolar-cell
                 invaginating bipolar cell,ASCTB-TEMP:invaginating-bipolar-cell
                 rod bipolar cell,CL:0000751
-                horizontal cell,CL:0000745,horizontal cell,horizontal cell
-                muller glia,CL:0011107,Muller glia,Müller cell
+                retina horizontal cell,CL:0000745,horizontal cell,horizontal cell
+                muller cell,CL:0011107,Muller glia,Müller cell
             vasculature of eye,UBERON:0002203,eye vascular network,ocular blood vessel,ocular vasculature,vascular network of eye,eye vascular network,ocular blood vessel,ocular vasculature,vascular network of eye
                 optic choroid,UBERON:0001776,choroid,choroid coat,choroidea,eye choroid,posterior uvea,choroid,choroid coat,choroidea,eye choroid,posterior uvea
                     choriocapillaris,UBERON:0005336,capillary lamina of choroid,capillary layer of choroid,inner layer of choroid proper
             outer nuclear layer,UBERON:0001789,neural retina outer nuclear layer,retina outer nuclear layer,retinal outer nuclear layer,stratum nucleare externum (retina),stratum nucleare externum retinae,neural retina outer nuclear layer,retina outer nuclear layer,retinal outer nuclear layer,stratum nucleare externum (retina),stratum nucleare externum retinae
                 retinal cone cell,CL:0000573
-                photoreceptor,CL:0000287
                 retinal rod cell,CL:0000604
             vasculature,UBERON:0004864,retina vasculature,retina vasculature of camera-type eye,retinal blood vessels,retinal blood vessels set,retinal vasculature,set of blood vessels of retina,set of retinal blood vessels,vasa sanguinea retinae,retina vasculature,retina vasculature of camera-type eye,retinal blood vessels,retinal blood vessels set,retinal vasculature,set of blood vessels of retina,set of retinal blood vessels,vasa sanguinea retinae
-                endothelial cell,CL:0002585
+                retinal blood vessel endothelial cell,CL:0002585
                 mural cell,CL:0008034
             retinal ganglion cell layer,UBERON:0001792,GCL layer,RGC layer,ganglionic cell layer of retina,retina ganglion cell layer,retina ganglion layer,retinal ganglion cell layer,retinal ganglion layer,stratum ganglionicum (retina),GCL layer,RGC layer,ganglionic cell layer of retina,retina ganglion cell layer,retina ganglion layer,retinal ganglion cell layer,retinal ganglion layer,stratum ganglionicum (retina)
-                midget cell,FMAID:62360,Beta ganglion cell
-                parasol cell,FMAID:67916,Alpha ganglion cell
+                midget ganglion cell of retina,FMAID:62360,Beta ganglion cell
+                parasol ganglion cell of retina,FMAID:67916,Alpha ganglion cell
             microglial cell,CL:0000129,brain-resident macrophage,hortega cells,microglia,microgliocyte
             retinal pigmented epithelium,UBERON:0001782,outer pigmented layer of retina,pigment epithelium of retina,pigmented retina epithelium,pigmented retinal epithelium,retinal pigment epithelium,retinal pigmented epithelium,stratum pigmentosum (retina),stratum pigmentosum retinae,outer pigmented layer of retina,pigment epithelium of retina,pigmented retina epithelium,pigmented retinal epithelium,retinal pigment epithelium,retinal pigmented epithelium,stratum pigmentosum (retina),stratum pigmentosum retinae
-                retinal pigmented epithelial cell,CL:0002586
+                retinal pigment epithelial cell,CL:0002586
         cornea,UBERON:0000964,cornea of camera-type eye,cornea of camera-type eye
             corneal endothelium,UBERON:0001985,cornea endothelium,endothelium of cornea,cornea endothelium,endothelium of cornea
                 corneal endothelial cell,CL:0000132
@@ -370,7 +369,7 @@ body,UBERON:0013702
             epithelial layer,UBERON:0001803,epithelial tissue of eye lens,epithelial tissue of lens,epithelium lentis,epithelium of eye lens,eye lens epithelial tissue,eye lens epithelium,lens epithelial tissue,lens epithelium,epithelial tissue of eye lens,epithelial tissue of lens,epithelium lentis,epithelium of eye lens,eye lens epithelial tissue,eye lens epithelium,lens epithelial tissue,lens epithelium
                 lens epithelial cell,CL:0002224
             adult nucleus,UBERON:0000390,nucleus of lens,nucleus of lens
-                mature fiber cell,CL:0002225,secondary lens fibre
+                secondary lens fiber,CL:0002225,secondary lens fibre
             lens cortex,UBERON:0000389,cortex of lens,cortex of lens
                 inner cortex,ASCTB-TEMP:inner-cortex
                 outer cortex,ASCTB-TEMP:outer-cortex
@@ -755,7 +754,7 @@ body,UBERON:0013702
             atrioventricular node,UBERON:0002352,AV nodal muscle tissue,AV node,Aschoff-Tawara node,atrioventricular nodal muscle tissue,node of Tawara,nodus atrioventricularis,AV nodal muscle tissue,AV node,Aschoff-Tawara node,atrioventricular nodal muscle tissue,node of Tawara,nodus atrioventricularis
             right coronary artery,UBERON:0001625
             small cardiac vein,UBERON:0035374,right cardiac vein
-                smooth muscle cell,CL:0002592
+                smooth muscle cell of the coronary artery,CL:0002592
         left atrium,UBERON:0002079,atrium sinistrum,cardiac left atrium,heart left atrium,left atrium,left atrium of heart,left cardiac atrium,atrium sinistrum,cardiac left atrium,heart left atrium,left atrium,left atrium of heart,left cardiac atrium
             myocardium,FMAID:83532,Left atrial myocardium
                 neuronal,ASCTB-TEMP:neuronal
@@ -764,7 +763,7 @@ body,UBERON:0013702
             right inferior pulmonary vein,FMAID:49911,Right inferior pulmonary venous tree,Right lower lobar vein
             right superior pulmonary vein,FMAID:49914,Right superior pulmonary venous tree
             oblique vein of the left atrium,FMAID:4715,Marshall's vein,Oblique cardiac vein of left atrium
-                fibroblast,CL:2000067
+                cardiac atrium fibroblast,CL:2000067
         left ventricle,UBERON:0002084,cardiac left ventricle,left cardiac ventricle,left ventricle,left ventricle of heart,cardiac left ventricle,left cardiac ventricle,left ventricle,left ventricle of heart
             aorta,UBERON:0000947,trunk of aortic tree,trunk of systemic arterial tree,trunk of aortic tree,trunk of systemic arterial tree
                 ascending aorta,UBERON:0001496,ascending thoracic aorta,pars ascendens aortae
@@ -1252,7 +1251,7 @@ body,UBERON:0013702
             great cardiac vein,UBERON:0006958,great cardiac vein
             middle cardiac vein,UBERON:0009687,lesser cardiac vein,posterior interventricular vein
             bundle of his,UBERON:0002353,AV bundle,AVB,His bundle,atrio-ventricular bundle,atrioventricular bundle,atrioventricular bundle muscle tissue,atrioventricular fasciculus,bundle of His,fasciculus atrioventricularis,AV bundle,AVB,His bundle,atrio-ventricular bundle,atrioventricular bundle,atrioventricular bundle muscle tissue,atrioventricular fasciculus,bundle of His,fasciculus atrioventricularis
-                pacemaker cardiomyocyte,CL:1000477,cardiac pacemaker cell of sinuatrial node,pacemaker cell of sinoatrial node,pacemaker cell of sinuatrial node
+                cardiac pacemaker cell of sinoatrial node,CL:1000477,cardiac pacemaker cell of sinuatrial node,pacemaker cell of sinoatrial node,pacemaker cell of sinuatrial node
             myocardium,FMAID:83539,Interventricular septum myocardium,Myocardium of muscular part of interventricular septum
         right ventricle,UBERON:0002080,cardiac right ventricle,right ventricle,right ventricle of heart,cardiac right ventricle,right ventricle,right ventricle of heart
             pulmonary trunk,UBERON:0002333,pulmonary artery (trunk),trunk of pulmonary arterial tree,pulmonary artery (trunk),trunk of pulmonary arterial tree
@@ -1287,21 +1286,21 @@ body,UBERON:0013702
                         anterior segmental artery of right lung,FMAID:8620,Anterior bronchopulmonary segment of right pulmonary artery,Anterior descending pulmonary artery,Anterior segmental artery of right lung,Anterior segmental artery of right upper lobe,Right recurrent anterior segmental artery
                         apical segmental artery of right lung,FMAID:8617,Apical bronchopulmonary segment of right pulmonary artery,Apical segmental artery of right lung,Ramus apicalis (arteria pulmonalis dextra),Right apical pulmonary artery
             myocardium,UBERON:0006567,myocardium of right ventricle,right ventricular myocardium,myocardium of right ventricle,right ventricular myocardium
-                fibroblast,CL:2000066
+                cardiac ventricle fibroblast,CL:2000066
             conus artery,FMAID:15736,Second right coronary artery
             right marginal artery,FMAID:3818,Acute marginal artery,Right marginal artery,Right marginal branch of right coronary artery
             anterior cardiac veins,FMAID:76767,Anterior vein of right ventricle
             vasculature,UBERON:0002049,vascular network,vascular network
-                endothelial cell,CL:0010008
+                cardiac endothelial cell,CL:0010008
             vasculature,UBERON:0001982,blood capillary,capillary vessel,blood capillary,capillary vessel
             pericyte,ASCTB-TEMP:pericyte
             vasculature,UBERON:0001979
             myocardium,FMAID:9535,Right ventricular myocardium
                 telocyte (interstitial like cell of cajal),ASCTB-TEMP:telocyte-interstitial-like-cell-of-cajal-
             moderator band,FMAID:7272,Leonardo's cord,Moderator band,Septomarginal band,da Vinci's cord
-                cardiomyocyte,CL:0000746,cardiac muscle fiber,cardiac myocyte,cardiomyocyte,heart muscle cell,cardiac muscle fiber,cardiac myocyte,cardiomyocyte,heart muscle cell
+                cardiac muscle cell,CL:0000746,cardiac muscle fiber,cardiac myocyte,cardiomyocyte,heart muscle cell,cardiac muscle fiber,cardiac myocyte,cardiomyocyte,heart muscle cell
                 purkinje fiber cell,ASCTB-TEMP:purkinje-fiber-cell
-                telocyte (interstitial like cell of cajal),CL:1000147
+                heart valve cell,CL:1000147
         cardial valve,UBERON:0000946,heart valve,valve of heart,heart valve,valve of heart
             tricuspid valve,UBERON:0002134,right atrioventricular valve,valva atrioventricularis dextra
             pulmonary valve,UBERON:0002146,pulmonic valve
@@ -1310,7 +1309,7 @@ body,UBERON:0013702
                 valve interstitial cell,ASCTB-TEMP:valve-interstitial-cell
         epicardium,UBERON:0002348,heart epicardium,visceral serous pericardium of heart,visceral serous pericardium proper,heart epicardium,visceral serous pericardium of heart,visceral serous pericardium proper
             mesothelial cell,CL:0000077,mesotheliocyte,mesotheliocyte
-            adipocyte,CL:1000309,adipocyte of epicardial fat,epicardial fat cell,adipocyte of epicardial fat,epicardial fat cell
+            epicardial adipocyte,CL:1000309,adipocyte of epicardial fat,epicardial fat cell,adipocyte of epicardial fat,epicardial fat cell
     kidney,UBERON:0002113
         left kidney,UBERON:0004538
         right kidney,UBERON:0004539
@@ -1332,26 +1331,26 @@ body,UBERON:0013702
                     parietal epithelial layer,UBERON:0005750,Bowman's parietal epithelium,capsular epithelium,glomerular capsule parietal layer,outer layer of glomerular capsule,parietal capsular epithelium,parietal epithelial layer,parietal epithelium of Bowman's capsule,parietal layer of Bowman capsule,parietal layer of Bowman's capsule,parietal layer of glomerular capsule,renal glomerular capsule epithelium,Bowman's parietal epithelium,capsular epithelium,glomerular capsule parietal layer,outer layer of glomerular capsule,parietal capsular epithelium,parietal epithelial layer,parietal epithelium of Bowman's capsule,parietal layer of Bowman capsule,parietal layer of Bowman's capsule,parietal layer of glomerular capsule,renal glomerular capsule epithelium
                         parietal epithelial cell,CL:1000452,epithelial cell of parietal layer of glomerular capsule
                     visceral epithelial layer,UBERON:0006852
-                podocyte,CL:0000653,glomerular podocyte,podocyte,glomerular podocyte,glomerular visceral epithelial cell,kidney podocyte,renal podocyte
+                glomerular visceral epithelial cell,CL:0000653,glomerular podocyte,podocyte,glomerular podocyte,glomerular visceral epithelial cell,kidney podocyte,renal podocyte
                 glomerulus vasculature,UBERON:0004190,glomerulus vasculature,renal glomerulus vascular network,renal glomerulus vasculature,vascular network of renal glomerulus,vasculature of renal glomerulus,glomerulus vasculature,renal glomerulus vascular network,renal glomerulus vasculature,vascular network of renal glomerulus,vasculature of renal glomerulus
                     glomerular capillary endothelium,UBERON:0004294,renal glomerulus capillary endothelium,renal glomerulus capillary endothelium
                         glomerular capillary endothelial cell,CL:1001005
                 mesangium,UBERON:0002319
                     glomerular mesangium,UBERON:0002320
-                        mesangial cell,CL:1000742,intraglomerular mesangial cell
+                        glomerular mesangial cell,CL:1000742,intraglomerular mesangial cell
             tubules,UBERON:0001231,kidney tubule,tubulus renalis,kidney tubule,tubulus renalis
                 proximal tubule,UBERON:0004134,kidney proximal tubule,proximal kidney tubule,renal proximal tubule,kidney proximal tubule,proximal kidney tubule,renal proximal tubule
-                    proximal tubule epithelial cell,CL:0002306,kidney proximal tubule epithelial cell
+                    epithelial cell of proximal tubule,CL:0002306,kidney proximal tubule epithelial cell
                     proximal convoluted tubule segment 1,UBERON:0004196,S1 portion of renal tubule,S1 portion of tubule,proximal tubule segment 1,segment 1 of proximal tubule
-                        proximal tubule epithelial cell segment 1,CL:4030009,epithelial cell of segment 1 of proximal tubule
+                        epithelial cell of proximal tubule segment 1,CL:4030009,epithelial cell of segment 1 of proximal tubule
                     proximal convoluted tubule segment 2,UBERON:0004197,S2 portion of renal tubule,S2 portion of tubule,proximal tubule segment 2,segment 2 of proximal tubule
-                        proximal tubule epithelial cell segment 2,CL:4030010,epithelial cell of segment 2 of proximal tubule
+                        epithelial cell of proximal tubule segment 2,CL:4030010,epithelial cell of segment 2 of proximal tubule
                     proximal straight tubule segment 3,UBERON:0001290,S3,thick descending limb of proximal tubule,tubulus rectus proximalis,S3,thick descending limb of proximal tubule,tubulus rectus proximalis
-                        proximal tubule cell epithelial segment 3,CL:4030011,epithelial cell of segment 3 of proximal tubule
+                        epithelial cell of proximal tubule segment 3,CL:4030011,epithelial cell of segment 3 of proximal tubule
                 loop of henle (thin limb),UBERON:0001289,descending limb of Henle's loop,loop of Henle descending limb,descending limb of Henle's loop,loop of Henle descending limb
                     descending thin limb cell type 2,ASCTB-TEMP:descending-thin-limb-cell-type-2
                     descending thin limb of loop of henle,UBERON:0005096,descending thin limb of loop of Henle,loop of Henle descending thin limb,loop of Henle thin descending limb,pars descendens (tubulus attenuatus),thin descending limb,descending thin limb of loop of Henle,loop of Henle descending thin limb,loop of Henle thin descending limb,pars descendens (tubulus attenuatus),thin descending limb
-                        descending thin limb cell,CL:1001111
+                        kidney loop of henle thin descending limb epithelial cell,CL:1001111
                     descending thin limb of loop of henle 1,ASCTB-TEMP:descending-thin-limb-of-loop-of-henle-1
                     descending thin limb cell type 1,CL:4030012,epithelial cell of the descending thin limb of the short loop of Henle
                     descending thin limb of loop of henle 2,ASCTB-TEMP:descending-thin-limb-of-loop-of-henle-2
@@ -1359,72 +1358,72 @@ body,UBERON:0013702
                     descending thin limb of loop of henle 3,ASCTB-TEMP:descending-thin-limb-of-loop-of-henle-3
                     descending thin limb cell type 3,CL:4030014,epithelial cell of the inner medulla of the long descending limb of the loop of Henle
                 loop of henle (thin limb),UBERON:0004193,ascending limb thin segment of loop of Henle,ascending thin limb,pars ascendens (tubulus attenuatus),thin ascending limb,thin ascending limb of loop of Henle,ascending limb thin segment of loop of Henle,ascending thin limb,pars ascendens (tubulus attenuatus),thin ascending limb,thin ascending limb of loop of Henle
-                    ascending thin limb cell,CL:1001107
-                medullary thick ascending limb cell,CL:1001108
+                    kidney loop of henle thin ascending limb epithelial cell,CL:1001107
+                kidney loop of henle medullary thick ascending limb epithelial cell,CL:1001108
                 loop of henle (thick limb/ cortex),UBERON:0001291,ascending thick limb,distal straight tubule,loop of Henle ascending limb thick segment,straight portion of distal convoluted renal tubule,straight portion of distal convoluted tubule,thick ascending limb,thick ascending limb of Henle's loop,thick ascending limb of distal tubule,tubulus rectus distalis,ascending thick limb,distal straight tubule,loop of Henle ascending limb thick segment,straight portion of distal convoluted renal tubule,straight portion of distal convoluted tubule,thick ascending limb,thick ascending limb of Henle's loop,thick ascending limb of distal tubule,tubulus rectus distalis
-                    thick ascending limb cell,CL:1001106
-                    cortical thick ascending limb cell,CL:1001109
+                    kidney loop of henle thick ascending limb epithelial cell,CL:1001106
+                    kidney loop of henle cortical thick ascending limb epithelial cell,CL:1001109
                     macula densa,UBERON:0002335
-                        macula densa cell,CL:1000850
+                        macula densa epithelial cell,CL:1000850
                 distal convolution,UBERON:0001292,distal convoluted renal tubule,tubulus contortus distalis,distal convoluted renal tubule,tubulus contortus distalis
-                    distal convoluted tubule cell,CL:1000849
+                    kidney distal convoluted tubule epithelial cell,CL:1000849
                     distal convoluted tubule cell type 1,CL:4030016
                     distal convoluted tubule cell type 2,CL:4030017
                 connecting tubule,UBERON:0005097,connecting tubule,kidney connecting tubule,connecting tubule,kidney connecting tubule
-                    connecting tubule cell,CL:1000768
+                    kidney connecting tubule epithelial cell,CL:1000768
                     connecting tubule principal cell,CL:4030018
                     connecting tubule intercalated cell,CL:4030019
                     connecting tubule intercalated cell type a,CL:4030020
-                    intercalated cell type b,CL:4030021
+                    connecting tubule intercalated cell type b,CL:4030021
         renal collecting system,UBERON:0004100,collecting duct system,kidney collecting duct system,collecting duct system,kidney collecting duct system
             tubules,UBERON:0001232,collecting duct,kidney collecting duct,renal collecting tubule,tubulus renalis arcuatus,tubulus renalis colligens,collecting duct,kidney collecting duct,renal collecting tubule,tubulus renalis arcuatus,tubulus renalis colligens
-                collecting duct cell,CL:1000454,epithelial cell of renal collecting tubule
-                collecting duct principal cell,CL:1001431
-                cortical collecting duct principal cell,CL:1000714
+                kidney collecting duct epithelial cell,CL:1000454,epithelial cell of renal collecting tubule
+                kidney collecting duct principal cell,CL:1001431
+                kidney cortex collecting duct principal cell,CL:1000714
                 collecting duct (inner medulla),UBERON:0004205,inner renal medulla collecting duct,kidney inner medulla collecting duct,inner renal medulla collecting duct,kidney inner medulla collecting duct
-                    inner medullary collecting duct cell,CL:1000718
+                    kidney inner medulla collecting duct,CL:1000718
                 transitional principal-intercalated cell,ASCTB-TEMP:transitional-principal-intercalated-cell
-                collecting duct intercalated cell,CL:1001432
+                kidney collecting duct intercalated cell,CL:1001432
                 collecting duct intercalated cell type a,CL:4030015,collecting duct alpha-intercalated cell
                 collecting duct (medulla),UBERON:0004204,kidney outer medulla collecting duct,outer renal medulla collecting duct,kidney outer medulla collecting duct,outer renal medulla collecting duct
-                    outer medullary collecting duct principal cell,CL:1000716
-                    outer medullary collecting duct intercalated cell type a,CL:1000717
-                intercalated cell type b,CL:0002201,type B intercalated cell,type B-IC
+                    kidney outer medulla collecting duct principal cell,CL:1000716
+                    kidney outer medulla collecting duct intercalated cell,CL:1000717
+                renal beta-intercalated cell,CL:0002201,type B intercalated cell,type B-IC
                 collecting duct,UBERON:0004203,kidney cortex collecting duct,kidney cortex collecting duct
-                    cortical collecting duct intercalated cell type b,CL:1000715
+                    kidney cortex collecting duct intercalated cell,CL:1000715
         vessels,UBERON:0006544
             endothelium (non glomerular),UBERON:0001986
             afferent arteriole,UBERON:0004639,afferent arteriole,afferent glomerular arteriole,afferent glomerular arteriole of kidney,arteriola glomerularis afferens renis,kidney afferent arteriole,afferent arteriole,afferent glomerular arteriole,afferent glomerular arteriole of kidney,arteriola glomerularis afferens renis,kidney afferent arteriole
                 glomerular capillary,UBERON:0004212,blood capillary of renal glomerulus,capillary of renal glomerulus,capillary vessel of renal glomerulus,renal glomerulus blood capillary,renal glomerulus capillary,renal glomerulus capillary vessel,blood capillary of renal glomerulus,capillary of renal glomerulus,capillary vessel of renal glomerulus,renal glomerulus blood capillary,renal glomerulus capillary,renal glomerulus capillary vessel
-                afferent arteriole endothelial cell,CL:1001096
+                kidney afferent arteriole endothelial cell,CL:1001096
             endothelium/juxtaglomerular apparatus,ASCTB-TEMP:endothelium-juxtaglomerular-apparatus
             efferent arteriole,UBERON:0004640,arteriola glomerularis efferens renis,efferent arteriole,efferent glomerular arteriole,efferent glomerular arteriole of kidney,kidney efferent arteriole,arteriola glomerularis efferens renis,efferent arteriole,efferent glomerular arteriole,efferent glomerular arteriole of kidney,kidney efferent arteriole
                 vasa recta of kidney,UBERON:0004726,arteriolae rectae renis,kidney vasa recta,renal medullary capillary,set of straight arterioles of kidney,straight arterioles of kidney,vasa recta of kidney,vasa recta renis,arteriolae rectae renis,kidney vasa recta,renal medullary capillary,set of straight arterioles of kidney,straight arterioles of kidney,vasa recta of kidney,vasa recta renis
-                efferent arteriole endothelial cell,CL:1001099
+                kidney efferent arteriole endothelial cell,CL:1001099
             peritubular capillary,UBERON:0005272
                 endothelium (non glomerular),UBERON:0012441,peritubular capillary endothelium,peritubular capillary endothelium
                     peritubular capillary endothelial cell,CL:1001033
             descending vasa recta,UBERON:0009202
-            descending vasa recta endothelial cell,CL:1001285
+            vasa recta descending limb cell,CL:1001285
             ascending vasa recta,UBERON:0009091
-                ascending vasa recta endothelial cell,CL:1001131
+                vasa recta ascending limb cell,CL:1001131
             endothelium (non glomerular),ASCTB-TEMP:endothelium-non-glomerular-
             lymphatics,UBERON:0002042,endothelium of lymph vessel,endothelium of lymphatic vessel,lymph vessel endothelium,lymphatic endothelium,lymphatic vessel endothelium,endothelium of lymph vessel,endothelium of lymphatic vessel,lymph vessel endothelium,lymphatic endothelium,lymphatic vessel endothelium
         interstitium,UBERON:0005215,interstitial tissue of kidney,renal interstitial tissue,renal interstitium,renal stroma,stroma of kidney,interstitial tissue of kidney,renal interstitial tissue,renal interstitium,renal stroma,stroma of kidney
             stroma (non glomerular),UBERON:0003918,mesenchyme of kidney,mesenchyme of kidney
-                vascular smooth muscle cell/pericyte (general),CL:1001318
+                renal interstitial pericyte,CL:1001318
                 vascular smooth muscle cell,ASCTB-TEMP:vascular-smooth-muscle-cell
-                juxtaglomerular granular cell (renin positive),CL:0000648,JG cell,renin secreting cell,JG cell,renin secreting cell
-                fibroblast,CL:1000692
+                kidney granular cell,CL:0000648,JG cell,renin secreting cell,JG cell,renin secreting cell
+                kidney interstitial fibroblast,CL:1000692
                 medullary fibroblast,CL:4030022
-                myofibroblast,CL:1000691
+                kidney interstitial myofibroblast,CL:1000691
             immune,ASCTB-TEMP:immune
-            m2-macrophage,CL:1000698
+            kidney resident macrophage,CL:1000698
             monocyte derived cell,ASCTB-TEMP:monocyte-derived-cell
         papilla,UBERON:0001228,kidney papilla,kidney papilla
             papillary tip,UBERON:0009095,papillary tip,papillary tips,papillary tip,papillary tips
                 papillary tip epithelium,ASCTB-TEMP:papillary-tip-epithelium
-                papillary tip epithelial cell,CL:1000597
+                papillary tips cell,CL:1000597
     knee,UBERON:0001465,knee region,knee region
         left knee,FMAID:24978
         right knee,FMAID:24977
@@ -1452,7 +1451,7 @@ body,UBERON:0013702
                 deep superficial,ASCTB-TEMP:deep-superficial
                 rounded chondrocytes,ASCTB-TEMP:rounded-chondrocytes
                 deep zone,ASCTB-TEMP:deep-zone
-                columnar chondrocytes,CL:0000744
+                columnar chondrocyte,CL:0000744
                     articular chondrocyte,CL:1001607
                 tidemark,ASCTB-TEMP:tidemark
                 prehypertrophic chondrocytes,ASCTB-TEMP:prehypertrophic-chondrocytes
@@ -1464,7 +1463,7 @@ body,UBERON:0013702
                 osteocyte,CL:0000137
                 osteoblast,CL:0000062
                 bone lining cells,ASCTB-TEMP:bone-lining-cells
-                osteoclasts,CL:0000092
+                osteoclast,CL:0000092
                 multinuclear osteoclast,CL:0000779,multinucleated osteoclast
                 preosteoclasts,ASCTB-TEMP:preosteoclasts
                 mononuclear osteoclast,CL:0000778
@@ -1477,20 +1476,19 @@ body,UBERON:0013702
                     autonomic neuronal cells,ASCTB-TEMP:autonomic-neuronal-cells
                 marrow adipocytes,ASCTB-TEMP:marrow-adipocytes
                 marrow elements,UBERON:0002371,medulla ossea,medulla ossium,medulla ossea,medulla ossium
-                    precursor b cell (pre b cell),CL:0000817
+                    precursor b cell,CL:0000817
                     immature b cell,CL:0000816,immature B lymphocyte,immature B-cell,immature B-lymphocyte,newly formed B cell
-                    pro b progenitor,CL:0000826,pro-B lymphocyte,pro-B-cell,pro-B-lymphocyte,progenitor B cell,progenitor B lymphocyte,progenitor B-cell,progenitor B-lymphocyte
-                    transitional dendritic cell (tdc),CL:0000840
+                    pro-b cell,CL:0000826,pro-B lymphocyte,pro-B-cell,pro-B-lymphocyte,progenitor B cell,progenitor B lymphocyte,progenitor B-cell,progenitor B-lymphocyte
+                    immature conventional dendritic cell,CL:0000840
                     megakaryocyte (mk),ASCTB-TEMP:megakaryocyte-mk-
-                    early megakaryocyte (mk),CL:0000553,CFU-Meg,Meg-CFC,MkP,colony-forming unit-megakaryocyte,megacaryoblast,megacaryocyte progenitor cell,megakaryoblast,megakaryocytic progenitor cell
-                    megakaryocyte-erythroid-mast cell progenitor (memp),CL:0000050,CFU-EM,CFU-MegE,MEP,Meg/E progenitor,colony forming unit erythroid megakaryocyte,megakaryocyte/erythrocyte progenitor,megakaryocyte/erythroid progenitor cell
-                    common lymphoid progenitor (clp),CL:0000051,CLP,common lymphocyte precursor,common lymphocyte progenitor,common lymphoid precursor
-                    common myeloid progenitor (cmp),CL:0000049,CMP,common myeloid precursor
+                    megakaryocyte progenitor cell,CL:0000553,CFU-Meg,Meg-CFC,MkP,colony-forming unit-megakaryocyte,megacaryoblast,megacaryocyte progenitor cell,megakaryoblast,megakaryocytic progenitor cell
+                    megakaryocyte-erythroid progenitor cell,CL:0000050,CFU-EM,CFU-MegE,MEP,Meg/E progenitor,colony forming unit erythroid megakaryocyte,megakaryocyte/erythrocyte progenitor,megakaryocyte/erythroid progenitor cell
+                    common lymphoid progenitor,CL:0000051,CLP,common lymphocyte precursor,common lymphocyte progenitor,common lymphoid precursor
+                    common myeloid progenitor,CL:0000049,CMP,common myeloid precursor
                     granulocyte-macrophage progenitor cell (gmp),ASCTB-TEMP:granulocyte-macrophage-progenitor-cell-gmp-
                     lympho-myeloid progenitor cell (lmpp),ASCTB-TEMP:lympho-myeloid-progenitor-cell-lmpp-
-                    multipotent progenitor cell (mpp),CL:0000837,MPP,hemopoietic progenitor cell
-                    cd14 monocyte,CL:0001054
-                    cd16 monocyte,CL:0002396,"non-classical monocyte, human"
+                    cd14-positive monocyte,CL:0001054
+"                    cd14-low, cd16-positive monocyte",CL:0002396,"non-classical monocyte, human"
                     promonocyte,CL:0000559
                     myeloid progenitor (mop),ASCTB-TEMP:myeloid-progenitor-mop-
                     myelocyte,CL:0002193
@@ -1502,9 +1500,9 @@ body,UBERON:0013702
                     cd8 naive,ASCTB-TEMP:cd8-naive
                     cd8 t cell memory,ASCTB-TEMP:cd8-t-cell-memory
                     cd8 t cell effector memory,ASCTB-TEMP:cd8-t-cell-effector-memory
-                    cd8 t cell effector memory cd45ra,CL:0001062,CD8+ TEMRA,CD8-positive TEMRA
+"                    effector memory cd8-positive, alpha-beta t cell, terminally differentiated",CL:0001062,CD8+ TEMRA,CD8-positive TEMRA
                     mature cd8 t cell,ASCTB-TEMP:mature-cd8-t-cell
-                    mature natural killer,CL:0000824,mature NK cell
+                    mature natural killer cell,CL:0000824,mature NK cell
                     bone marrow stroma,UBERON:0007195,bone marrow stroma,bone marrow stroma
                         vascular endothelial cells,ASCTB-TEMP:vascular-endothelial-cells
                         microvascular endothelial cell,CL:2000008
@@ -1531,22 +1529,22 @@ body,UBERON:0013702
             mucosa,UBERON:0004989,appendiceal mucous membrane,appendix mucosa,appendix mucosa of organ,appendix mucous membrane,appendix organ mucosa,caecal appendix mucosa,caecal appendix mucosa of organ,caecal appendix mucous membrane,caecal appendix organ mucosa,mucosa of caecal appendix,mucosa of organ of appendix,mucosa of organ of caecal appendix,mucosa of organ of vermiform appendix,mucosa of organ of vermix,mucosa of vermiform appendix,mucosa of vermix,mucous membrane of appendix,mucous membrane of caecal appendix,mucous membrane of vermiform appendix,mucous membrane of vermix,organ mucosa of appendix,organ mucosa of caecal appendix,organ mucosa of vermiform appendix,organ mucosa of vermix,vermiform appendix mucosa,vermiform appendix mucosa of organ,vermiform appendix mucous membrane,vermiform appendix organ mucosa,vermix mucosa,vermix mucosa of organ,vermix mucous membrane,vermix organ mucosa,appendiceal mucous membrane,appendix mucosa,appendix mucosa of organ,appendix mucous membrane,appendix organ mucosa,caecal appendix mucosa,caecal appendix mucosa of organ,caecal appendix mucous membrane,caecal appendix organ mucosa,mucosa of caecal appendix,mucosa of organ of appendix,mucosa of organ of caecal appendix,mucosa of organ of vermiform appendix,mucosa of organ of vermix,mucosa of vermiform appendix,mucosa of vermix,mucous membrane of appendix,mucous membrane of caecal appendix,mucous membrane of vermiform appendix,mucous membrane of vermix,organ mucosa of appendix,organ mucosa of caecal appendix,organ mucosa of vermiform appendix,organ mucosa of vermix,vermiform appendix mucosa,vermiform appendix mucosa of organ,vermiform appendix mucous membrane,vermiform appendix organ mucosa,vermix mucosa,vermix mucosa of organ,vermix mucous membrane,vermix organ mucosa
             mucosa,UBERON:0000317,colon mucosa,colon mucous membrane,colonic mucosa,colonic mucous membrane,large bowel mucosa,mucosa of colon,mucosa of large bowel,colon mucosa,colon mucous membrane,colonic mucosa,colonic mucous membrane,large bowel mucosa,mucosa of colon,mucosa of large bowel
             serosa,UBERON:0003335,colon serosa,colon serous membrane,colonic serosa,large bowel serosa,large bowel serous membrane,serosa of large bowel,serous membrane of colon,serous membrane of large bowel,visceral peritoneum of colon,colon serosa,colon serous membrane,colonic serosa,large bowel serosa,large bowel serous membrane,serosa of large bowel,serous membrane of colon,serous membrane of large bowel,visceral peritoneum of colon
-            mesothelial cell,CL:1000457
+            mesothelial cell of visceral peritoneum,CL:1000457
         distal anal canal,UBERON:0000159,anal canal,anal canal viewed anatomically,anatomical anal canal,anal canal,anal canal viewed anatomically,anatomical anal canal
             muscularis mucosa,UBERON:0007178,lamina muscularis of colonic mucosa,lamina muscularis of colonic mucous membrane,muscularis mucosa of colon
             subserosa,UBERON:0012375
             submucosa,UBERON:0003329,anal canal submucosa,anal canal viewed anatomically submucosa,anal region submucosa,anatomical anal canal submucosa,submucosa of anal canal viewed anatomically,submucosa of anal region,submucosa of anatomical anal canal,anal canal submucosa,anal canal viewed anatomically submucosa,anal region submucosa,anatomical anal canal submucosa,submucosa of anal canal viewed anatomically,submucosa of anal region,submucosa of anatomical anal canal
                 gut associated lymphoid tissue (galt)/isolated lymphoid follicles (ilf),UBERON:0001962,gut associated lymphoid tissue,gut associated lymphoid tissue
-                ilv high endothelial venule endothelium,CL:0002652,HEV cell
-                m cell,CL:0000682,M-cell,microfold cell
-                b cell,CL:0009018,lamina propria lymphocyte of large intestine
+                lymphocyte of large intestine lamina propria,CL:0009018,lamina propria lymphocyte of large intestine
+                endothelial cell of high endothelial venule,CL:0002652,HEV cell
+                m cell of gut,CL:0000682,M-cell,microfold cell
                 anal gland,UBERON:0004760,gland of anal canal,gland of anal canal
                     transitional,CL:0000244
             mucosa,UBERON:0003342,anal canal mucosa,anal canal mucosa of organ,anal canal mucous membrane,anal canal organ mucosa,anal canal viewed anatomically mucosa,anal canal viewed anatomically mucosa of organ,anal canal viewed anatomically mucous membrane,anal canal viewed anatomically organ mucosa,anal mucosa,anal mucous membrane,anal region mucosa,anal region mucosa of organ,anal region mucous membrane,anal region organ mucosa,anatomical anal canal mucosa,anatomical anal canal mucosa of organ,anatomical anal canal mucous membrane,anatomical anal canal organ mucosa,mucosa of anal canal viewed anatomically,mucosa of anal region,mucosa of anatomical anal canal,mucosa of organ of anal canal,mucosa of organ of anal canal viewed anatomically,mucosa of organ of anal region,mucosa of organ of anatomical anal canal,mucous membrane of anal canal,mucous membrane of anal canal viewed anatomically,mucous membrane of anal region,mucous membrane of anatomical anal canal,organ mucosa of anal canal,organ mucosa of anal canal viewed anatomically,organ mucosa of anal region,organ mucosa of anatomical anal canal,anal canal mucosa,anal canal mucosa of organ,anal canal mucous membrane,anal canal organ mucosa,anal canal viewed anatomically mucosa,anal canal viewed anatomically mucosa of organ,anal canal viewed anatomically mucous membrane,anal canal viewed anatomically organ mucosa,anal mucosa,anal mucous membrane,anal region mucosa,anal region mucosa of organ,anal region mucous membrane,anal region organ mucosa,anatomical anal canal mucosa,anatomical anal canal mucosa of organ,anatomical anal canal mucous membrane,anatomical anal canal organ mucosa,mucosa of anal canal viewed anatomically,mucosa of anal region,mucosa of anatomical anal canal,mucosa of organ of anal canal,mucosa of organ of anal canal viewed anatomically,mucosa of organ of anal region,mucosa of organ of anatomical anal canal,mucous membrane of anal canal,mucous membrane of anal canal viewed anatomically,mucous membrane of anal region,mucous membrane of anatomical anal canal,organ mucosa of anal canal,organ mucosa of anal canal viewed anatomically,organ mucosa of anal region,organ mucosa of anatomical anal canal
-                absorptive,CL:0002071,columnar cell of the colon,vacuolar absorptive cell
-                goblet,CL:1000321
+                enterocyte of epithelium of large intestine,CL:0002071,columnar cell of the colon,vacuolar absorptive cell
+                large intestine crypt goblet cell,CL:1000321
                 epithelium,UBERON:0011184,intestinal crypt epithelium,intestinal crypt epithelium
-                epithelial stem cell,CL:0009016,stem cell of large intestine crypt of Lieberkuhn
+                intestinal crypt stem cell of large intestine,CL:0009016,stem cell of large intestine crypt of Lieberkuhn
                 paneth,CL:0009009,paneth cell of epithelium of colon,paneth-like cell
                 transient amplifying cell,CL:0009011,colon transit amplifying cell,transient amplifying cell of colon,transient amplifying cell of crypt of Lieberkuhn of colon,transit amplifying cell of crypt of Lieberkuhn of colon,transit-amplifying cell of colon
                 tuft cell,CL:0019032,intestinal brush cell
@@ -1555,21 +1553,21 @@ body,UBERON:0013702
                 neutrophil (normally intravascular only),CL:0000096,PMN,mature neutrocyte,mature neutrophil leucocyte,mature neutrophil leukocyte,mature neutrophilic leucocyte,mature neutrophilic leukocyte,polymorphonuclear neutrophil,polynuclear neutrophilic leucocyte,polynuclear neutrophilic leukocyte
                 epithelium,UBERON:0015716,anal canal epithelium,epithelium of anal canal,anal canal epithelium,epithelium of anal canal
                     squamous,CL:0000240
-            surface intraepithelial cd8+ alph alpha positive alpha/beta lymphocyte,CL:0000915,"CD8-alpha-alpha-positive, alpha-beta intraepithelial T lymphocyte","CD8-alpha-alpha-positive, alpha-beta intraepithelial T-cell","CD8-alpha-alpha-positive, alpha-beta intraepithelial T-lymphocyte"
+"            cd8-alpha-alpha-positive, alpha-beta intraepithelial t cell",CL:0000915,"CD8-alpha-alpha-positive, alpha-beta intraepithelial T lymphocyte","CD8-alpha-alpha-positive, alpha-beta intraepithelial T-cell","CD8-alpha-alpha-positive, alpha-beta intraepithelial T-lymphocyte"
             surface intraepithelial cd8+ lymphocyte gamma/delta,CL:0008364
-            surface intraepithelial cd8+ alph beta positive alpha/beta lymphocyte,CL:0000796,"CD8-positive, alpha-beta intraepithelial T lymphocyte","CD8-positive, alpha-beta intraepithelial T-cell","CD8-positive, alpha-beta intraepithelial T-lymphocyte"
+"            cd8-alpha-beta-positive, alpha-beta intraepithelial t cell",CL:0000796,"CD8-positive, alpha-beta intraepithelial T lymphocyte","CD8-positive, alpha-beta intraepithelial T-cell","CD8-positive, alpha-beta intraepithelial T-lymphocyte"
             mucosa,UBERON:0000397,colon epithelial tissue,colon epithelium,epithelial tissue of colon,epithelial tissue of large bowel,epithelium of colon,epithelium of large bowel,large bowel epithelial tissue,large bowel epithelium,posterior intestine epithelium,colon epithelial tissue,colon epithelium,epithelial tissue of colon,epithelial tissue of large bowel,epithelium of colon,epithelium of large bowel,large bowel epithelial tissue,large bowel epithelium,posterior intestine epithelium
                 crypt,UBERON:0013485,colonic crypt,colonic crypt of Lieberkuhn,colonic crypt,colonic crypt of Lieberkuhn
-            surface intraepithelial cd4+ lymphocyte,CL:0000793,"CD4-positive, alpha-beta intraepithelial T lymphocyte","CD4-positive, alpha-beta intraepithelial T-cell","CD4-positive, alpha-beta intraepithelial T-lymphocyte"
-            surface intraepithelial cd4-cd8- lymphocyte alpha/beta,CL:0000935,"CD4-negative, CD8-negative, alpha-beta intraepithelial T lymphocyte","CD4-negative, CD8-negative, alpha-beta intraepithelial T-cell","CD4-negative, CD8-negative, alpha-beta intraepithelial T-lymphocyte"
+"            cd4-positive, alpha-beta intraepithelial t cell",CL:0000793,"CD4-positive, alpha-beta intraepithelial T lymphocyte","CD4-positive, alpha-beta intraepithelial T-cell","CD4-positive, alpha-beta intraepithelial T-lymphocyte"
+"            cd4-negative, cd8-negative, alpha-beta intraepithelial t cell",CL:0000935,"CD4-negative, CD8-negative, alpha-beta intraepithelial T lymphocyte","CD4-negative, CD8-negative, alpha-beta intraepithelial T-cell","CD4-negative, CD8-negative, alpha-beta intraepithelial T-lymphocyte"
             lamina propria,UBERON:0007177,colonic lamina propria,lamina propria mucosae of colon,lamina propria of colonic mucosa,lamina propria of colonic mucous membrane,colonic lamina propria,lamina propria mucosae of colon,lamina propria of colonic mucosa,lamina propria of colonic mucous membrane
             subepithelial membrane,ASCTB-TEMP:subepithelial-membrane
-            capillary endothelium,CL:0002144
+            capillary endothelial cell,CL:0002144
             ganglion,ASCTB-TEMP:ganglion
-            venule endothelium,CL:1000414
+            endothelial cell of venule,CL:1000414
             submucosa,UBERON:0003331,colon submucosa,colonic submucosa,large bowel submucosa,submucosa of large bowel,colon submucosa,colonic submucosa,large bowel submucosa,submucosa of large bowel
                 submucosal plexus of henle,UBERON:0005304,submucosal nerve plexus
-            muscle,CL:1000279,non-striated muscle fiber of large intestine
+            smooth muscle cell of large intestine,CL:1000279,non-striated muscle fiber of large intestine
             muscularis propria,UBERON:0012489,colonic muscularis propria,muscular coat of colon,muscular layer of colon,muscularis externa of colon,tunica muscularis coli,colonic muscularis propria,muscular coat of colon,muscular layer of colon,muscularis externa of colon,tunica muscularis coli
                 circular muscle layer,UBERON:0012398
                 myenteric plexus of auerbach,UBERON:0002439,Auberbach plexus,Auberbach's plexus,Auberbachs plexus,Auerbach's plexus,Remak's plexus,myenteric plexus,plexus nervosus submucosus,plexus submucosus
@@ -1578,14 +1576,14 @@ body,UBERON:0013702
         anus,UBERON:0001245,anal opening,anal orifice,opening of terminal part of digestive tract,anal opening,anal orifice,opening of terminal part of digestive tract
             subcutaneous,UBERON:0002190,fatty layer of subcutaneous tissue,hypodermis fat layer,panniculus adiposus (tela subcutanea),panniculus adiposus telae subcutaneae,subcutaneous fat layer,fatty layer of subcutaneous tissue,hypodermis fat layer,panniculus adiposus (tela subcutanea),panniculus adiposus telae subcutaneae,subcutaneous fat layer
                 subcutaneous skin-associated lymphoid tissue,UBERON:0001961,MALT,epithelio-lymphoid tissue,mucosa associated lymphatic tissue,mucosa associated lymphoid tissue,mucosa-associated lymphoid tissue,mucosal-associated lymphatic tissue,mucosal-associated lymphoid tissue,MALT,epithelio-lymphoid tissue,mucosa associated lymphatic tissue,mucosa associated lymphoid tissue,mucosa-associated lymphoid tissue,mucosal-associated lymphatic tissue,mucosal-associated lymphoid tissue
-                    eosinophil,CL:0000041,mature eosinocyte,mature eosinophil leucocyte,mature eosinophil leukocyte
+                    mature eosinophil,CL:0000041,mature eosinocyte,mature eosinophil leucocyte,mature eosinophil leukocyte
                 nerve,UBERON:0006134,nerve fibre,neurofibra,neurofibrum,nerve fibre,neurofibra,neurofibrum
-                perineurial cell,CL:0002576
+                perineural cell,CL:0002576
                 vessel,UBERON:0000055
-                    arteriole endothelial cell,CL:1000412
-                lymphatic endothelium,CL:0002042
+                    endothelial cell of arteriole,CL:1000412
+                immature nk t cell stage iv,CL:0002042
                 external anal sphincter,UBERON:0001367,external sphincter ani,musculus sphincter ani externus
-                    skeletal muscle,CL:0000188,skeletal muscle cell,skeletal muscle cell
+                    cell of skeletal muscle,CL:0000188,skeletal muscle cell,skeletal muscle cell
     liver,UBERON:0002107
         hepatic lobule,UBERON:0004647,hepatic lobule,lobuli hepatici,lobulus hepaticus,hepatic lobule,lobuli hepatici,lobulus hepaticus
             hepatic sinusoid,UBERON:0001281,liver hepatic sinusoids,liver sinusoid,liver sinusoidal blood vessel,sinusoid of liver,sinusoidal blood vessel of liver,vas capillare sinusoideum,vas sinusoideum,liver hepatic sinusoids,liver sinusoid,liver sinusoidal blood vessel,sinusoid of liver,sinusoidal blood vessel of liver,vas capillare sinusoideum,vas sinusoideum
@@ -1632,39 +1630,39 @@ body,UBERON:0013702
                 posterior superior segmental branch of right hepatic portal vein,FMAID:15423,Posterior superior segmental portal vein,Superior branch of posterior branch of right portal vein
                     posterior branch of right hepatic portal vein #2,FMAID:15422,Posterior branch of right branch of portal vein,Posterior segmental branch of right portal vein,Posterior segmental portal vein
                         right hepatic portal vein #2,FMAID:15414,Right branch of portal vein,Right hepatic portal vein,Right lobe branch of portal venous tree
-                liver sinusoid endothelial cell,CL:1000398,LSEC,endotheliocyte of hepatic sinusoid,liver sinusoidal endothelial cell
+                endothelial cell of hepatic sinusoid,CL:1000398,LSEC,endotheliocyte of hepatic sinusoid,liver sinusoidal endothelial cell
                 kupffer cell,CL:0000091,hepatic macrophage,littoral cell of hepatic sinusoid,liver macrophage,macrophagocytus stellatus,stellate cell of von Kupffer,von Kupffer cell
             disse's space,UBERON:0006729,Disse's space,hepatic perisinusoidal space,perisinusoidal space of Disse,space of Disse,spatium perisinusoideum
-                quiescent hepatic stellate cell,CL:0000632,Ito cell,hepatic perisinusoidal cell,perisinusoidal cell
+                hepatic stellate cell,CL:0000632,Ito cell,hepatic perisinusoidal cell,perisinusoidal cell
                 immune cell,ASCTB-TEMP:immune-cell
             hepatic plate,UBERON:0005452,hepatic lamina,hepatic laminae,lamina hepatica,liver cell plate
                 hepatocyte,CL:0000182
-                periportal hepatocyte,CL:0019026,periportal hepatocyte
-                pericentral hepatocyte,CL:0019029,centrilobular hepatocyte
-                mid zone hepatocyte,CL:0019028,midzonal hepatocyte
+                periportal region hepatocyte,CL:0019026,periportal hepatocyte
+                centrilobular region hepatocyte,CL:0019029,centrilobular hepatocyte
+                midzonal region hepatocyte,CL:0019028,midzonal hepatocyte
             central vein,UBERON:0006841,terminal branch of hepatic vein,terminal hepatic venule,vena centralis (hepar),terminal branch of hepatic vein,terminal hepatic venule,vena centralis (hepar)
             portal triad/tract,UBERON:0001279,trias hepatica,trias hepatica
                 bile duct/ule,UBERON:0004058,bile ductule,biliary ductule,ductuli biliferi,bile ductule,biliary ductule,ductuli biliferi
-                    cuboidal cell (small cholangiocytes are cuboidal),CL:0000241
-                    columnar cell ( larger cholangiocytes are more columnar) has ciliae,CL:0000075
+                    stratified cuboidal epithelial cell,CL:0000241
+                    columnar/cuboidal epithelial cell,CL:0000075
                 portal vein,UBERON:0002017,portal venous tree organ part,portal venous tree organ part
-                neuron cell,CL:0000526,input neuron,input neuron
+                afferent neuron cell,CL:0000526,input neuron,input neuron
                 hepatic artery,UBERON:0001193,arteria hepatica propria,arteria hepatica propria
                 interstitial,UBERON:0005169,interstitium,interstitium
-                    portal fibroblast,ASCTB-TEMP:portal-fibroblast
+                    hepatic portal fibroblast,ASCTB-TEMP:hepatic-portal-fibroblast
             canals of hering,UBERON:0001282,canal of Herring,cholangiole,ductus interlobularis bilifer,canal of Herring,cholangiole,ductus interlobularis bilifer
                 hepatic oval cell,CL:0002196,hepatic oval cell
                 hepatic progenitor cell,ASCTB-TEMP:hepatic-progenitor-cell
             stroma,UBERON:0016478,hepatic stroma,stroma of liver,hepatic stroma,stroma of liver
             liver immune resident component,ASCTB-TEMP:liver-immune-resident-component
-            conventional dc 1,CL:0000990,DC1,cDC,dendritic reticular cell,type 1 DC
+            conventional dendritic cell,CL:0000990,DC1,cDC,dendritic reticular cell,type 1 DC
             cd8 trm (residence memory),ASCTB-TEMP:cd8-trm-residence-memory-
-            cd4+t cell,CL:0000624,"CD4-positive, alpha-beta T lymphocyte","CD4-positive, alpha-beta T-cell","CD4-positive, alpha-beta T-lymphocyte"
-            cd8+ liver-resident memory t cell,CL:0001203,"CD8-positive, alpha-beta memory T lymphocyte, CD45RO-positive","CD8-positive, alpha-beta memory T-cell, CD45RO-positive","CD8-positive, alpha-beta memory T-lymphocyte, CD45RO-positive"
-            inkt,CL:0000921,classical NK T cell,type I NK T lymphocyte,type I NK T-cell,type I NK T-lymphocyte,type I NKT cell
+            cd4 positive alpha beta,CL:0000624,"CD4-positive, alpha-beta T lymphocyte","CD4-positive, alpha-beta T-cell","CD4-positive, alpha-beta T-lymphocyte"
+            cd8 positiver alpha beta memory t cell cd45ro +,CL:0001203,"CD8-positive, alpha-beta memory T lymphocyte, CD45RO-positive","CD8-positive, alpha-beta memory T-cell, CD45RO-positive","CD8-positive, alpha-beta memory T-lymphocyte, CD45RO-positive"
+            type i nk t cell,CL:0000921,classical NK T cell,type I NK T lymphocyte,type I NK T-cell,type I NK T-lymphocyte,type I NKT cell
             eomes low liver nk cell,ASCTB-TEMP:eomes-low-liver-nk-cell
             tbet low liver nk cell,ASCTB-TEMP:tbet-low-liver-nk-cell
-            pit cell,CL:2000054
+            hepatic pit cell,CL:2000054
     pulmonary vascular system,UBERON:0008886,pulmonary circulatory system,pulmonary system,pulmonary circulatory system,pulmonary system
         pulmonary artery,UBERON:0002012,pulmonary arterial tree,pulmonary arterial tree organ part,pulmonary arterial tree,pulmonary arterial tree organ part
         pulmonary vein,UBERON:0002016,pulmonary venous tree organ part,pulmonary venous tree organ part
@@ -1677,10 +1675,10 @@ body,UBERON:0013702
                 tracheobroncheal tree,UBERON:0007196,arbor tracheobronchialis,arbor tracheobronchialis
                     trachea,UBERON:0003126,cartilaginous trachea,vertebrate trachea,windpipe,cartilaginous trachea,vertebrate trachea,windpipe
                         tracheal epithelium,UBERON:0001901,epithelial tissue of trachea,epithelial tissue of windpipe,epithelium of windpipe,trachea epithelial tissue,trachea epithelium,tracheal epithelium,windpipe epithelial tissue,windpipe epithelium,epithelial tissue of trachea,epithelial tissue of windpipe,epithelium of windpipe,trachea epithelial tissue,trachea epithelium,tracheal epithelium,windpipe epithelial tissue,windpipe epithelium
-                            basal cell,CL:1000348
-                            tracheal goblet cell,CL:1000329,goblet cell of epithelium of trachea
-                            tuft cell,CL:0002207
-                            tracheobronchial ciliated cell,CL:0002145
+                            basal cell of epithelium of trachea,CL:1000348
+                            goblet cell of epithelium of trachea,CL:1000329,goblet cell of epithelium of trachea
+                            brush cell of trachea,CL:0002207
+                            ciliated columnar cell of tracheobronchial tree,CL:0002145
                         tracheal smooth muscle,UBERON:0003387,trachea smooth muscle,tracheal smooth muscle,trachea smooth muscle,tracheal smooth muscle
                         submucosa of trachea,UBERON:0002202,submucosa of windpipe,trachea submucosa,tracheal submucosa,windpipe submucosa,submucosa of windpipe,trachea submucosa,tracheal submucosa,windpipe submucosa
                             tracheal submucosal gland,UBERON:0005203,glandula trachealis,tracheal gland,glandula trachealis,tracheal gland
@@ -1699,7 +1697,7 @@ body,UBERON:0013702
                 pair of lungs,UBERON:0000170,lungs,lungs pair,pulmones,set of lungs,lungs,lungs pair,pulmones,set of lungs
                     lung,UBERON:0002048,pulmo,pulmo
                         visceral pleura,UBERON:0002401,pleura pulmonalis,pleura visceralis,pleura visceralis (pulmonalis),pulmonary visceral pleura,pleura pulmonalis,pleura visceralis,pleura visceralis (pulmonalis),pulmonary visceral pleura
-                            mesothelial cell,CL:1000493
+                            mesothelial cell of visceral pleura,CL:1000493
                         lung lobe,UBERON:0000101,lung lobe,pulminory lobe,pulmonary lobe,lung lobe,pulminory lobe,pulmonary lobe
                             secondary bronchus,UBERON:0002183,bronchi lobaris,secondary bronchus,bronchi lobaris,secondary bronchus
                                 lobar bronchial epithelium,UBERON:0002339,epithelial tissue of lobar bronchus,epithelial tissue of secondary bronchus,epithelium of secondary bronchus,lobar bronchial epithelium,lobar bronchus epithelial tissue,lobar bronchus epithelium,secondary bronchus epithelial tissue,secondary bronchus epithelium,epithelial tissue of lobar bronchus,epithelial tissue of secondary bronchus,epithelium of secondary bronchus,lobar bronchial epithelium,lobar bronchus epithelial tissue,lobar bronchus epithelium,secondary bronchus epithelial tissue,secondary bronchus epithelium
@@ -1707,25 +1705,25 @@ body,UBERON:0013702
                                 segmental pulmonary artery,UBERON:0039262,segmental pulmonary arterial tree
                                     wall of pulmonary artery,UBERON:0036422,pulmonary arterial wall,pulmonary arterial wall
                                         pulmonary artery endothelial cell,CL:1001568
-                                        pulmonary artery smooth muscle cell,CL:0002591
+                                        smooth muscle cell of pulmonary artery,CL:0002591
                                 tertiary bronchus,UBERON:0002184,tertiary bronchus,tertiary bronchus
                                     bronchopulmonary segment,FMAID:7312
                                         segmental bronchial epithelium,UBERON:0002341,epithelial tissue of segmental bronchus,epithelial tissue of tertiary bronchus,epithelium of tertiary bronchus,segmental bronchial epithelium,segmental bronchus epithelial tissue,segmental bronchus epithelium,tertiary bronchus epithelial tissue,tertiary bronchus epithelium,epithelial tissue of segmental bronchus,epithelial tissue of tertiary bronchus,epithelium of tertiary bronchus,segmental bronchial epithelium,segmental bronchus epithelial tissue,segmental bronchus epithelium,tertiary bronchus epithelial tissue,tertiary bronchus epithelium
                                         ciliated cell of the bronchus,CL:0002332
                                         airway deuterosomal cell,ASCTB-TEMP:airway-deuterosomal-cell
-                                        basal cell,CL:0002329
+                                        basal epithelial cell of tracheobronchial tree,CL:0002329
                                         suprabasal cell,ASCTB-TEMP:suprabasal-cell
-                                        bronchial goblet cell,CL:1000143
-                                        neuroendocrine cell,CL:1000223
-                                        tuft cell,CL:0002208
+                                        lung goblet cell,CL:1000143
+                                        lung neuroendocrine cell,CL:1000223
+                                        brush cell of bronchus,CL:0002208
                                         pulmonary ionocyte,CL:0017000
                                         bronchial smooth muscle,UBERON:0004242,bronchi involuntary muscle,bronchi non-striated muscle,bronchi smooth muscle,bronchi smooth muscle tissue,bronchial trunk involuntary muscle,bronchial trunk non-striated muscle,bronchial trunk smooth muscle,bronchial trunk smooth muscle tissue,bronchus involuntary muscle,bronchus non-striated muscle,bronchus smooth muscle tissue,involuntary muscle of bronchi,involuntary muscle of bronchial trunk,involuntary muscle of bronchus,non-striated muscle of bronchi,non-striated muscle of bronchial trunk,non-striated muscle of bronchus,smooth muscle of bronchi,smooth muscle of bronchial trunk,smooth muscle of bronchus,smooth muscle tissue of bronchi,smooth muscle tissue of bronchial trunk,smooth muscle tissue of bronchus,bronchi involuntary muscle,bronchi non-striated muscle,bronchi smooth muscle,bronchi smooth muscle tissue,bronchial trunk involuntary muscle,bronchial trunk non-striated muscle,bronchial trunk smooth muscle,bronchial trunk smooth muscle tissue,bronchus involuntary muscle,bronchus non-striated muscle,bronchus smooth muscle tissue,involuntary muscle of bronchi,involuntary muscle of bronchial trunk,involuntary muscle of bronchus,non-striated muscle of bronchi,non-striated muscle of bronchial trunk,non-striated muscle of bronchus,smooth muscle of bronchi,smooth muscle of bronchial trunk,smooth muscle of bronchus,smooth muscle tissue of bronchi,smooth muscle tissue of bronchial trunk,smooth muscle tissue of bronchus
                                         bronchial smooth muscle cell,CL:0002598
                                         bronchial mesenchyme,UBERON:0004884,mesenchyme of lobar bronchus,mesenchyme of lobar bronchus
-                                        tracheobronchial smooth muscle,CL:0019019,smooth muscle cell of tracheobronchial tree
+                                        tracheobronchial smooth muscle cell,CL:0019019,smooth muscle cell of tracheobronchial tree
                                         cartilagenous plate,UBERON:0001102,bronchus principalis cartilage,cartilage of bronchus principalis,cartilage of primary bronchus,cartilage of principal bronchus,cartilaginous ring of main bronchus,main bronchial cartilage,main bronchus cartilage,primary bronchus cartilage,principal bronchus cartilage
-                                        chondrocyte,CL:0019002,chondrocyte of tracheobronchial tree
-                                        vascular smooth muscle,CL:0019018,smooth muscle cell of blood vessel
+                                        tracheobronchial chondrocyte,CL:0019002,chondrocyte of tracheobronchial tree
+                                        blood vessel smooth muscle cell,CL:0019018,smooth muscle cell of blood vessel
                                         bronchial vessels,UBERON:0004889
                                             bronchial artery,UBERON:0002040,bronchial arterial tree,bronchial arterial tree
                                             bronchial vein,UBERON:0001592,bronchial venous tree,bronchial venous tree
@@ -1736,48 +1734,48 @@ body,UBERON:0013702
 "                                        4th, 5th and 6th order segmental bronchi",ASCTB-TEMP:4th-5th-and-6th-order-segmental-bronchi
                                         proximal bronchiole,UBERON:0012067,proximal bronchiole
                                             lobular bronchiole,FMAID:323213
-                                                submucosal gland ciliated duct cells,ASCTB-TEMP:submucosal-gland-ciliated-duct-cells
-                                                submucosal gland basal cells,ASCTB-TEMP:submucosal-gland-basal-cells
+                                                ciliated cell of terminal ciliated ducts of submucosal glands,ASCTB-TEMP:ciliated-cell-of-terminal-ciliated-ducts-of-submucosal-glands
+                                                basal cell of terminal ciliated ducts of submucosal glands,ASCTB-TEMP:basal-cell-of-terminal-ciliated-ducts-of-submucosal-glands
                                                 bronchial submucosal gland,UBERON:8410043,bronchial submucosal gland,submucosal bronchial gland,submucosal bronchus gland,bronchial submucosal gland,submucosal bronchial gland,submucosal bronchus gland
                                                     ciliated ducts of bronchial submucosal gland,ASCTB-TEMP:ciliated-ducts-of-bronchial-submucosal-gland
-                                                submucosal gland collecting duct epithelium,ASCTB-TEMP:submucosal-gland-collecting-duct-epithelium
-                                                submucosal gland mucous cells,ASCTB-TEMP:submucosal-gland-mucous-cells
-                                                submucosal gland serous cells,CL:0000313,serous cell,serous cell
-                                                submucosal gland myoepithelium,CL:0000185,basket epithelial cell,myoepitheliocyte,basket epithelial cell,myoepitheliocyte
+                                                epithelial cell of collecting ducts of submucosal glands,ASCTB-TEMP:epithelial-cell-of-collecting-ducts-of-submucosal-glands
+                                                mucus cell of submucosal glands,ASCTB-TEMP:mucus-cell-of-submucosal-glands
+                                                serous cell of submucosal glands,CL:0000313,serous cell,serous cell
+                                                myoepithelial cell,CL:0000185,basket epithelial cell,myoepitheliocyte,basket epithelial cell,myoepitheliocyte
                                                 epithelium of bronchiole,UBERON:0002051,bronchiolar epithelium,bronchiole epithelial tissue,bronchiole epithelium,epithelial tissue of bronchiole,epithelial tissue of lobular bronchiole,epithelium of lobular bronchiole,lobular bronchiole epithelial tissue,lobular bronchiole epithelium,bronchiolar epithelium,bronchiole epithelial tissue,bronchiole epithelium,epithelial tissue of bronchiole,epithelial tissue of lobular bronchiole,epithelium of lobular bronchiole,lobular bronchiole epithelial tissue,lobular bronchiole epithelium
-                                                    basal cell,CL:1000352
+                                                    basal epithelial cell of lobular bronchiole,CL:1000352
                                                 smooth muscle tissue of bronchiole,UBERON:0004515,smooth muscle tissue of lobular bronchiole,smooth muscle tissue of lobular bronchiole
                                                 secondary pulmonary lobule,UBERON:0010369,lobulus pulmonis secondarius
                                                     terminal/ transitional bronchioles (3-5 compose a secondary pulm lobule),UBERON:0002187,bronchiolus terminalis,bronchiolus terminalis
                                                         terminal bronchiole epithelium,UBERON:0001958,bronchiolus terminalis epithelial tissue,bronchiolus terminalis epithelium,epithelial tissue of bronchiolus terminalis,epithelial tissue of terminal bronchiole,epithelium of bronchiolus terminalis,epithelium of terminal bronchiole,terminal bronchiole epithelial tissue,terminal bronchiole epithelium,bronchiolus terminalis epithelial tissue,bronchiolus terminalis epithelium,epithelial tissue of bronchiolus terminalis,epithelial tissue of terminal bronchiole,epithelium of bronchiolus terminalis,epithelium of terminal bronchiole,terminal bronchiole epithelial tissue,terminal bronchiole epithelium
                                                             lung ciliated cell,CL:1000271
-                                                            basal cell,CL:1000350
+                                                            basal epithelial cell of terminal bronchiole,CL:1000350
                                                             bronchioalveolar stem cell,CL:1001566
                                                         smooth muscle tissue of terminal bronchiole,UBERON:0004516
                                                         pulmonary acinus defined by terminal bronchiole,UBERON:0008874,acinus pulmonaris,arbor alveolaris,lobulus pulmonis primarius,primary pulmonary lobule,respiratory lobule,acinus pulmonaris,arbor alveolaris,lobulus pulmonis primarius,primary pulmonary lobule,respiratory lobule
                                                             respiratory bronchioles,UBERON:0002188,bronchiolus respiratorii,bronchiolus respiratorius,bronchiolus respiratorii,bronchiolus respiratorius
                                                                 epithelium of respiratory bronchiole,UBERON:0001955,bronchiolus respiratorius epithelial tissue,bronchiolus respiratorius epithelium,epithelial tissue of bronchiolus respiratorius,epithelial tissue of respiratory bronchiole,epithelium of bronchiolus respiratorius,respiratory bronchiole epithelial tissue,respiratory bronchiole epithelium,bronchiolus respiratorius epithelial tissue,bronchiolus respiratorius epithelium,epithelial tissue of bronchiolus respiratorius,epithelial tissue of respiratory bronchiole,epithelium of bronchiolus respiratorius,respiratory bronchiole epithelial tissue,respiratory bronchiole epithelium
-                                                                    club cell,CL:0000158,Clara cell,bronchiolar non-ciliated cell,club cell of bronchiole,Clara cell,bronchiolar non-ciliated cell,club cell of bronchiole
+                                                                    club cell of bronchiole,CL:0000158,Clara cell,bronchiolar non-ciliated cell,club cell of bronchiole,Clara cell,bronchiolar non-ciliated cell,club cell of bronchiole
                                                                     respiratory airway secretory cell,ASCTB-TEMP:respiratory-airway-secretory-cell
-                                                                    basal cell,CL:1000351
+                                                                    basal cell of epithelium of respiratory bronchiole,CL:1000351
                                                                 smooth muscle tissue of respiratory bronchiole,UBERON:0004517
                                                                 alveolar ducts,UBERON:0002173,alveolar duct,ductus alveolaris,respiratory alveolar duct,alveolar duct,ductus alveolaris,respiratory alveolar duct
                                                                     alveolus,UBERON:0002299,alveolus pulmonis,lung alveolus,pulmonary alveolus,respiratory alveolus,alveolus pulmonis,lung alveolus,pulmonary alveolus,respiratory alveolus
                                                                         pulmonary alveolar duct parenchyma,UBERON:0008870
                                                                             lung pericyte,CL:0009089,lung pericyte cell,pulmonary pericyte
-                                                                            cap1 general capillary acap,CL:4028002
-                                                                            cap2 aerocyte capillary gcap,CL:4028003
-                                                                        at1,CL:0002062,AT1,ATI,lung type 1 cells,membranous pneumocytes,pulmonary alveolar type I cell,small alveolar cells,squamous alveolar cell,squamous alveolar lining cell,type 1 alveolar epithelial cells,type 1 pneumocyte,type I alveolar cells,type I alveolar epithelial cells,AT1,ATI,lung type 1 cells,membranous pneumocytes,pulmonary alveolar type I cell,small alveolar cells,squamous alveolar cell,squamous alveolar lining cell,type 1 alveolar epithelial cells,type 1 pneumocyte,type I alveolar cells,type I alveolar epithelial cells
-                                                                        at2,CL:0002063,AT2,ATII,TII,cuboidal type II cell,granular pneumocyte,great alveolar cell,lung type 2 cell,type 2 alveolar epithelial cell,type 2 alveolocyte,type 2 pneumocyte,type II alveolar cell,type II alveolar epithelial cell,type II alveolocyte,AT2,ATII,TII,cuboidal type II cell,granular pneumocyte,great alveolar cell,lung type 2 cell,type 2 alveolar epithelial cell,type 2 alveolocyte,type 2 pneumocyte,type II alveolar cell,type II alveolar epithelial cell,type II alveolocyte
+                                                                            capillary endothelial cell 1,CL:4028002
+                                                                            capillary endothelial cell 2,CL:4028003
+                                                                        type i pneumocyte,CL:0002062,AT1,ATI,lung type 1 cells,membranous pneumocytes,pulmonary alveolar type I cell,small alveolar cells,squamous alveolar cell,squamous alveolar lining cell,type 1 alveolar epithelial cells,type 1 pneumocyte,type I alveolar cells,type I alveolar epithelial cells,AT1,ATI,lung type 1 cells,membranous pneumocytes,pulmonary alveolar type I cell,small alveolar cells,squamous alveolar cell,squamous alveolar lining cell,type 1 alveolar epithelial cells,type 1 pneumocyte,type I alveolar cells,type I alveolar epithelial cells
+                                                                        type ii pneumocyte,CL:0002063,AT2,ATII,TII,cuboidal type II cell,granular pneumocyte,great alveolar cell,lung type 2 cell,type 2 alveolar epithelial cell,type 2 alveolocyte,type 2 pneumocyte,type II alveolar cell,type II alveolar epithelial cell,type II alveolocyte,AT2,ATII,TII,cuboidal type II cell,granular pneumocyte,great alveolar cell,lung type 2 cell,type 2 alveolar epithelial cell,type 2 alveolocyte,type 2 pneumocyte,type II alveolar cell,type II alveolar epithelial cell,type II alveolocyte
                                                                         alveolar type 2 fibroblast,CL:4028006
                                                                         alveolar type 1 fibroblast,CL:4028004
                                                     interlobular septa,FMAID:84472
                                                         intersegmental pulmonary vein,FMAID:76965
                                                             pulmonary vein endotheliim,ASCTB-TEMP:pulmonary-vein-endotheliim
-                                                            endothelial progenitors,CL:0002619,EPC
+                                                            endothelial progenitor cells,CL:0002619,EPC
                                                         pulmonary lymphatic vessel,UBERON:0018227,lymphatic vessel of lung,lymphatic vessel of lung
                                                             respiratory system lymphatic vessel endothelium,UBERON:0003529,apparatus respiratorius endothelium of lymph vessel,apparatus respiratorius lymph vessel endothelium,apparatus respiratorius lymphatic vessel endothelium,endothelium of lymph vessel of apparatus respiratorius,endothelium of lymph vessel of respiratory system,lymph vessel endothelium of apparatus respiratorius,lymph vessel endothelium of respiratory system,lymphatic vessel endothelium of apparatus respiratorius,lymphatic vessel endothelium of respiratory system,respiratory system endothelium of lymph vessel,respiratory system lymph vessel endothelium,respiratory system lymphatic vessel endothelium,apparatus respiratorius endothelium of lymph vessel,apparatus respiratorius lymph vessel endothelium,apparatus respiratorius lymphatic vessel endothelium,endothelium of lymph vessel of apparatus respiratorius,endothelium of lymph vessel of respiratory system,lymph vessel endothelium of apparatus respiratorius,lymph vessel endothelium of respiratory system,lymphatic vessel endothelium of apparatus respiratorius,lymphatic vessel endothelium of respiratory system,respiratory system endothelium of lymph vessel,respiratory system lymph vessel endothelium,respiratory system lymphatic vessel endothelium
-                                                                lymphatic endothelial cell,CL:0009086
+                                                                endothelial cell of respiratory system lymphatic vessel,CL:0009086
                             immune system of respiratory tract,UBERON:0002405
                                 nk cd56bright,CL:0000938,CD16-CD56bright NK cell,"CD16-negative, CD56-bright NK cell",CD56-bright cytokine secreting NK cell,CD56-bright cytokine secreting natural killer cell
                                 nk t cell,CL:0000814,mature NK T lymphocyte,mature NK T-cell,mature NK T-lymphocyte,mature NKT cell,mature natural killer T cell,mature natural killer T lymphocyte,mature natural killer T-cell,mature natural killer T-lymphocyte
@@ -1795,8 +1793,8 @@ body,UBERON:0013702
                                 alveolar macrophage ccl3+,ASCTB-TEMP:alveolar-macrophage-ccl3-
                                 alveolar macrophage mt-positive,ASCTB-TEMP:alveolar-macrophage-mt-positive
                                 connective tissue mast cell,CL:0000484,MC(TC),MCTC,TC mast cells
-                                tissue resident mucosal type mast cell,CL:0000485,MC(T),MCT,T mast cells
-                                eosinophil,CL:0019015,lung-resident eosinophil,rEos
+                                mucosal type mast cell,CL:0000485,MC(T),MCT,T mast cells
+                                lung parenchyma resident eosinophil,CL:0019015,lung-resident eosinophil,rEos
                                 neutrophil,CL:0000094,granular leucocyte,granular leukocyte,polymorphonuclear leukocyte
                                 lung megakaryocyte,CL:0000556,megacaryocyte,megalocaryocyte,megalokaryocyte
                             pulmonary nerve plexus,UBERON:0002009,plexus pulmonalis,pulmonary plexus
@@ -1813,7 +1811,7 @@ body,UBERON:0013702
                 germinal center,UBERON:0009039
                     light zone,UBERON:8410052,light zone of lymph node germinal center,light zone of lymph node germinal center
                         centrocyte,CL:0009111,lymph node centrocyte
-                        tingible body macrophage,CL:0000888
+                        lymph node tingible body macrophage,CL:0000888
                     dark zone,UBERON:8410053,dark zone of lymph node germinal center,dark zone of lymph node germinal center
                         centroblast,CL:0009112,lymph node centroblast
                         b cell zone reticular cell,CL:0009104,lymph node germinal center dark zone fibroblastic reticular cell
@@ -1827,7 +1825,7 @@ body,UBERON:0013702
                 capillaries of lymph node,ASCTB-TEMP:capillaries-of-lymph-node
                 high endothelial venule,UBERON:8410038,lymph node high endothelial venule,lymph node high endothelial venule
                 paracortical cord,UBERON:8410075
-                    th2 cell,CL:0000546,T helper cells type 2,T(H)-2 cell,Th2 T cell,Th2 T lymphocyte,Th2 T-cell,Th2 T-lymphocyte,Th2 cell,helper T cell type 2
+                    t-helper 2 cell,CL:0000546,T helper cells type 2,T(H)-2 cell,Th2 T cell,Th2 T lymphocyte,Th2 T-cell,Th2 T-lymphocyte,Th2 cell,helper T cell type 2
                     monocytoid b cell,CL:0009114
         medulla,UBERON:0002007,lymph node medulla,lymph node medulla
             medullary sinus,UBERON:0009744
@@ -1835,14 +1833,14 @@ body,UBERON:0013702
                 medullary reticular cell,CL:0009106,lymph node medullary reticular cell,medullary reticular cell of lymph node
             subcapsular sinus,UBERON:0005463,lymph node subcortical sinus,lymph node subcortical sinus
                 afferent lymphatic vessel,UBERON:0010396,vasa afferentia lymphoglandula,vasa afferentia lymphoglandulae
-                macrophage,CL:0000887
-                marginal reticular cell,CL:0009103
+                lymph node subcapsular sinus macrophage,CL:0000887
+                ymph node marginal reticular cell,CL:0009103
                 subcapsular sinus ceiling,UBERON:8410071,ceiling of subcapsular sinus of lymph node,floor of capsule of lymph node,subcapsular sinus of lymph node ceiling,ceiling of subcapsular sinus of lymph node,floor of capsule of lymph node,subcapsular sinus of lymph node ceiling
-                    lymphatic endothelial cell -subcapsular sinus ceiling,CL:0009107,lymphatic endothelial cell of subcapsular sinus ceiling of lymph node
+                    lymphatic endothelial cell of subcapsular sinus ceiling,CL:0009107,lymphatic endothelial cell of subcapsular sinus ceiling of lymph node
                 subcapsular sinus floor,UBERON:8410072,ceiling of cortex of lymph node,floor of subcapsular sinus of lymph node,subcapsular sinus of lymph node floor,ceiling of cortex of lymph node,floor of subcapsular sinus of lymph node,subcapsular sinus of lymph node floor
-                    lymphatic endothelial cell-subcapsular sinus floor,CL:0009108,lymphatic endothelial cell of subcapsular sinus floor of lymph node
+                    lymphatic endothelial cell of subcapsular sinus floor,CL:0009108,lymphatic endothelial cell of subcapsular sinus floor of lymph node
                 trabecular sinus,UBERON:8410032,lymph node trabecular sinus,lymph node trabecular sinus
-                    lymphatic endothelial cell-trabeculae,CL:0009109,lymphatic endothelial cell of lymph node trabecula,lymphatic endothelial cell of trabeculae
+                    lymphatic endothelial cell of trabecula,CL:0009109,lymphatic endothelial cell of lymph node trabecula,lymphatic endothelial cell of trabeculae
                 lymphatic endothelial cell of medulla ceiling,CL:0009110,lymphatic endothelial cell of lymph node medulla ceiling
         hilum,UBERON:0035495,hilum nodi lymphoidei,lymph node hilum
             sympathetic nerve,UBERON:0034729
@@ -1986,15 +1984,13 @@ body,UBERON:0013702
             pancreas lobule,UBERON:0007324,lobulus pancreaticus,pancreas lobe,pancreatic lobule,lobulus pancreaticus,pancreas lobe,pancreatic lobule
                 parenchyma of pancreas,UBERON:0001978,pancreas parenchyma,pancreatic parenchyma,pancreas parenchyma,pancreatic parenchyma
                     exocrine pancreas,UBERON:0000017,exocrine pancreas,pars exocrina pancreatis,exocrine pancreas,pars exocrina pancreatis
+                        tall columnar epithelial cell,ASCTB-TEMP:tall-columnar-epithelial-cell
                         extrapancreatic duct,UBERON:2005346
                             common bile duct,UBERON:0001174,ductus choledochus (biliaris),ductus choledochus (biliaris)
-                                ductal cell,CL:0002079
-                                ductal epithelial cell,CL:1001433,exocrine pancreas cell
-                                tall columnar epithelial cell,ASCTB-TEMP:tall-columnar-epithelial-cell
                                 hepatopancreatic ampulla,UBERON:0004913,Vater's ampulla,ampulla biliaropancreatica,ampulla of Vater,ampulla of bile duct,biliaropancreatic ampulla,papilla Vateri,Vater's ampulla,ampulla biliaropancreatica,ampulla of Vater,ampulla of bile duct,biliaropancreatic ampulla,papilla Vateri
                         pancreatic acinus,UBERON:0001263,acinus pancreaticus,pancreas acinus,acinus pancreaticus,pancreas acinus
                             pancreas exocrine glandular cell,CL:1001599
-                            acinar cell,CL:0002064,acinar cell of pancreas,acinar cell of pancreas
+                            pancreatic acinar cell,CL:0002064,acinar cell of pancreas,acinar cell of pancreas
                         pancreatic ductal tree,UBERON:0007329,duct of pancreas,pancreas duct,duct of pancreas,pancreas duct
                             accessory pancreatic duct (duct of santorini),UBERON:0005429,Santorini's duct,accessory pancreatic duct,duct of Santorini
                                 smooth muscle cell,CL:0000192,SMCs,"myocytes, smooth muscle",smooth muscle fiber,SMCs,"myocytes, smooth muscle",smooth muscle fiber
@@ -2007,21 +2003,20 @@ body,UBERON:0013702
                                         intercalated duct,UBERON:0014726,ductus intercalatus (pancreas),pancreatic ductule
                                             low columnar epithelial cell,ASCTB-TEMP:low-columnar-epithelial-cell
                                             nonmucinous cuboidal epithelial cell,ASCTB-TEMP:nonmucinous-cuboidal-epithelial-cell
-                                            centroacinar cell,CL:0002080,centroacinar cell of Langerhans,pancreatic centroacinar cell
+                                            pancreatic centro-acinar cell,CL:0002080,centroacinar cell of Langerhans,pancreatic centroacinar cell
                                             flat epithelial cells,ASCTB-TEMP:flat-epithelial-cells
                                             pancreatic goblet cell,CL:1000322,goblet cell of epithelium of pancreatic duct
-                                            tuft cell,CL:0002204,caveolated cell,fibrillovesicular cell,multivesicular cell,tuft cell
-                                            enterochromaffin cell?,CL:0000577,Kulchitsky cell,argentaffin cell,enterochromaffin cell
+                                            brush cell?,CL:0002204,caveolated cell,fibrillovesicular cell,multivesicular cell,tuft cell
                     endocrine pancreas,UBERON:0000016,endocrine pancreas,pars endocrina pancreatis,endocrine pancreas,pars endocrina pancreatis
                         islet of langerhans,UBERON:0000006,pancreatic insula,pancreatic islet,pancreatic insula,pancreatic islet
-                            alpha cell,CL:0000171,alpha cell of islet of Langerhans,pancreatic alpha cell
-                            beta cell,CL:0000169,B-cell of pancreatic islet,beta cell of pancreatic islet,insulin-secreting cell,pancreatic B cell,pancreatic B-cell,pancreatic beta cell,pancreatic islet core,type B enteroendocrine cell
-                            delta cell,CL:0000173,D-cell of pancreatic islet,delta cell of islet,delta cell of pancreatic islet,pancreatic D-cell,pancreatic delta cell,somatostatin-secreting pancreatic cell
-                            pp cell,CL:0002275,PP cell of pancreatic islet,PP-cell of pancreatic islet,pancreatic polypeptide-secreting cell
-                            epsilon cell,CL:0005019,pancreatic E cell
-                            gastrin cell,CL:0000509
+                            pancreatic a cell,CL:0000171,alpha cell of islet of Langerhans,pancreatic alpha cell
+                            type b pancreatic cell,CL:0000169,B-cell of pancreatic islet,beta cell of pancreatic islet,insulin-secreting cell,pancreatic B cell,pancreatic B-cell,pancreatic beta cell,pancreatic islet core,type B enteroendocrine cell
+                            pancreatic d cell,CL:0000173,D-cell of pancreatic islet,delta cell of islet,delta cell of pancreatic islet,pancreatic D-cell,pancreatic delta cell,somatostatin-secreting pancreatic cell
+                            pancreatic pp cell,CL:0002275,PP cell of pancreatic islet,PP-cell of pancreatic islet,pancreatic polypeptide-secreting cell
+                            pancreatic epsilon cell,CL:0005019,pancreatic E cell
+                            gastrin secreting cell,CL:0000509
                             lymphocyte,CL:0000542
-                            t lymphocyte,CL:0000084,T lymphocyte,T-cell,T-lymphocyte,T lymphocyte,T-cell,T-lymphocyte
+                            t cell,CL:0000084,T lymphocyte,T-cell,T-lymphocyte,T lymphocyte,T-cell,T-lymphocyte
                             m1 macrophage,ASCTB-TEMP:m1-macrophage
                             m2 macrophage,ASCTB-TEMP:m2-macrophage
                             dendritic cell,CL:0000451
@@ -2029,7 +2024,7 @@ body,UBERON:0013702
                     activated stellate cell,ASCTB-TEMP:activated-stellate-cell
                     quiescent stellate cell,ASCTB-TEMP:quiescent-stellate-cell
                     pancreatic fat pad,UBERON:0015454
-                        adipocyte,CL:0000136,adipocyte,adipose cell,adipocyte,adipose cell
+                        fat cell,CL:0000136,adipocyte,adipose cell,adipocyte,adipose cell
                     connective tissue,UBERON:0009752
                         interlobular connective tissue,ASCTB-TEMP:interlobular-connective-tissue
                         extracellular matrix,ASCTB-TEMP:extracellular-matrix
@@ -2403,7 +2398,7 @@ body,UBERON:0013702
             umbilical arteries,UBERON:0001310
                 deferent duct artery,UBERON:0005192,arteria ductus deferentis,artery of ductus deferens,ductus deferens artery,vas deferens artery,arteria ductus deferentis,artery of ductus deferens,ductus deferens artery,vas deferens artery
             mesenchyme of umbilical cord (wharton's jelly),UBERON:0003422,Wharton's jelly,umbilical cord mesenchyme,Wharton's jelly,umbilical cord mesenchyme
-                mesenchymal stromal cell of wharton's jelly,CL:0002568
+                mesenchymal stem cell of wharton's jelly,CL:0002568
         chorion membrane,UBERON:0003124,chorion,chorion (vertebrates),embryonic chorion,fetal chorion,uterine chorion,chorion,chorion (vertebrates),embryonic chorion,fetal chorion,uterine chorion
             chorionic mesoderm,UBERON:0003265,chorion mesenchyme,chorion mesoderm,chorionic mesenchyme,mesenchyme of chorion,mesenchyme of chorion (vertebrates),chorion mesenchyme,chorion mesoderm,chorionic mesenchyme,mesenchyme of chorion,mesenchyme of chorion (vertebrates)
                 chorionic mesenchymal stromal cell (cmsc),ASCTB-TEMP:chorionic-mesenchymal-stromal-cell-cmsc-
@@ -2412,37 +2407,37 @@ body,UBERON:0013702
             amniotic ectoderm,UBERON:0003254,amnion ectoderm,amnionic ectoderm,amnion ectoderm,amnionic ectoderm
             amniotic mesoderm,UBERON:0003262,amnion mesenchyme,amnion mesoderm,amnionic mesoderm,mesenchyme of amnion,amnion mesenchyme,amnion mesoderm,amnionic mesoderm,mesenchyme of amnion
         chorionic plate,UBERON:0004027
-            amnion epithelial cell (aec),CL:0002536,amniotic epithelial cell
+            epithelial cell of amnion,CL:0002536,amniotic epithelial cell
             amnion mesenchymal stromal cell (amsc),ASCTB-TEMP:amnion-mesenchymal-stromal-cell-amsc-
             chorionic plate vessel,ASCTB-TEMP:chorionic-plate-vessel
         chorionic villous,UBERON:0007106
             chorionic ectoderm (from chorionic plate),UBERON:0000088,trophoblast layer,trophoblast layer
-            cytotrophoblast (ctb),CL:0000523,Langhans' cell
-            syncytiotrophoblast (stb),CL:0000525,plasmidotrophoblast,syncytial trophoblast,syntrophoblast,plasmidotrophoblast,syncytial trophoblast,syntrophoblast
-            extravillous trophoblast (evt),CL:0008036,EVT,extravillous cytotrophloblast
+            cytotrophoblast,CL:0000523,Langhans' cell
+            syncytiotrophoblast,CL:0000525,plasmidotrophoblast,syncytial trophoblast,syntrophoblast,plasmidotrophoblast,syncytial trophoblast,syntrophoblast
+            extravillous trophoblast,CL:0008036,EVT,extravillous cytotrophloblast
             villous mesenchyme,ASCTB-TEMP:villous-mesenchyme
-            hofbauer cell (hc),CL:3000001
+            hofbauer cell,CL:3000001
             placental stromal cell (psc),ASCTB-TEMP:placental-stromal-cell-psc-
             stem villous vessel,ASCTB-TEMP:stem-villous-vessel
             villous capillary,ASCTB-TEMP:villous-capillary
-            placental microvascular endothelial cells,CL:2000062
+            placental villous capillary endothelial cell,CL:2000062
         placental disc,ASCTB-TEMP:placental-disc
         basal plate,ASCTB-TEMP:basal-plate
         decidua,UBERON:0002450,decidous membrane,decidous membrane
             decidual blood vessel,UBERON:0015172,blood vessel of endometrium,blood vessel of endometrium
-                endometrial microvascular endothelial cell (emec),CL:2000091
+                endometrial microvascular endothelial cells,CL:2000091
             decidual lymphatic vessel,ASCTB-TEMP:decidual-lymphatic-vessel
     prostate gland,UBERON:0002367,male prostate,prostate,male prostate,prostate
         prostate epithelium,UBERON:0000428,epithelial tissue of prostate,epithelial tissue of prostate gland,epithelium of prostate,epithelium of prostate gland,epithelium of prostatic gland,prostate epithelial tissue,prostate gland epithelial tissue,prostate gland epithelium,prostatic epithelium,prostatic gland epithelium,epithelial tissue of prostate,epithelial tissue of prostate gland,epithelium of prostate,epithelium of prostate gland,epithelium of prostatic gland,prostate epithelial tissue,prostate gland epithelial tissue,prostate gland epithelium,prostatic epithelium,prostatic gland epithelium
-            luminal epithelia,CL:0002340
-            basal epithelia,CL:0002341
-            neuroendocrine epithelia,CL:0002313,glandular cell of prostate,neuro-epithelial cell of prostate gland
+            luminal cell of prostate epithelium,CL:0002340
+            basal cell of prostate epithelium,CL:0002341
+            endocrine-paracrine cell of prostate gland,CL:0002313,glandular cell of prostate,neuro-epithelial cell of prostate gland
         prostate stroma,UBERON:0004184,prostate stroma,prostatic stroma,stroma of prostate,stroma of prostate gland,prostate stroma,prostatic stroma,stroma of prostate,stroma of prostate gland
-            prostate smooth muscle,CL:1000487,smooth muscle fiber of prostate,smooth muscle fiber of prostate
-            endothelia,CL:2000059
-            periepithelial fibroblast,ASCTB-TEMP:periepithelial-fibroblast
-            interstitial fibroblast,ASCTB-TEMP:interstitial-fibroblast
-            vascular smooth muscle,ASCTB-TEMP:vascular-smooth-muscle
+            smooth muscle cell of prostate,CL:1000487,smooth muscle fiber of prostate,smooth muscle fiber of prostate
+            prostate gland microvascular endothelial cell,CL:2000059
+            fibroblast of subepithelial connective tissue of prostatic gland,ASCTB-TEMP:fibroblast-of-subepithelial-connective-tissue-of-prostatic-gland
+            fibroblast of connective tissue of prostate,ASCTB-TEMP:fibroblast-of-connective-tissue-of-prostate
+            vascular smooth muscle cell of prostate,ASCTB-TEMP:vascular-smooth-muscle-cell-of-prostate
             prostate perictye,ASCTB-TEMP:prostate-perictye
         prostatic urethra,UBERON:0001335,male prostatic urethra,pars prostatica urethrae,prostatic part of male urethra,prostatic part of urethra
             basal cell of prostatic urethra,ASCTB-TEMP:basal-cell-of-prostatic-urethra
@@ -2450,60 +2445,61 @@ body,UBERON:0013702
             hillock cell of prostatic urethra,ASCTB-TEMP:hillock-cell-of-prostatic-urethra
     skin,UBERON:0002097,entire skin,skin organ,entire skin,skin organ
         epidermis,UBERON:0001003,vertebrate epidermis,vertebrate epidermis
-            langerhans,CL:0000453,LC,Langerhans' cell,LC,Langerhans' cell
+            langerhans cell,CL:0000453,LC,Langerhans' cell,LC,Langerhans' cell
             melanocyte,CL:0000148
             stratum corneum (sc),UBERON:0002027,cornified layer,epidermis stratum corneum,horny layer of epidermis,keratinized squame layer of epidermis,cornified layer,epidermis stratum corneum,horny layer of epidermis,keratinized squame layer of epidermis
-                keratinocyte (corneocyte),CL:0002153
+                corneocyte,CL:0002153
             stratum granulosum (sg),UBERON:0002069,epidermis stratum granulosum,granular layer of epidermis,stratum granulosum,epidermis stratum granulosum,granular layer of epidermis,stratum granulosum
-                keratinocyte (granular),CL:0000312,keratinized cell of epidermis,malpighian cell,keratinized cell of epidermis,malpighian cell
+                keratinocyte,CL:0000312,keratinized cell of epidermis,malpighian cell,keratinized cell of epidermis,malpighian cell
             stratum spinosum (ss),UBERON:0002026,epidermis stratum spinosum,prickle cell layer of epidermis,squamous cell layer of epidermis,stratum spinosum,epidermis stratum spinosum,prickle cell layer of epidermis,squamous cell layer of epidermis,stratum spinosum
-                keratinocytes (spinous),CL:0000649,prickle cell of epidermis,prickle cell of epidermis
+                prickle cell,CL:0000649,prickle cell of epidermis,prickle cell of epidermis
             stratum basale (sb),UBERON:0002025,basal cell layer of epidermis,basal epidermal layer,epidermal basal stratum,epidermis stratum basale,stratum basalis of epidermis,stratum germinativum,stratum germinosum of epidermis,basal cell layer of epidermis,basal epidermal layer,epidermal basal stratum,epidermis stratum basale,stratum basalis of epidermis,stratum germinativum,stratum germinosum of epidermis
-                keratinocyte (basal),CL:0000646
-                langerhans cell,CL:0002457
+                basal cell,CL:0000646
+                epidermal langerhans cell,CL:0002457
                 merkel cell,CL:0000242,Merkel's cell,Merkel's cell
-                melanocyte,CL:1000458,skin melanocyte
+                melanocyte of skin,CL:1000458,skin melanocyte
             nail plate,UBERON:0008198
                 keratinocyte (onychocyte),ASCTB-TEMP:keratinocyte-onychocyte-
         dermis,UBERON:0002067,vertebrate dermis,vertebrate dermis
             hair follicles,UBERON:0002073
                 keratinocyte stem cell,CL:0002337,bulge keratinocyte
             sebaceous glands,UBERON:0001821
-                sebocyte,CL:0000317,sebocyte
-"                germinative (epithelial) cell, sebocyte",CL:0000151
+                sebum secreting cell,CL:0000317,sebocyte
+                sebum secreting cell,CL:0000151
             eccrine (sweat) glands,UBERON:0000423,glandula sudorifera eccrina,glandula sudorifera merocrina,glandula sudorifera eccrina,glandula sudorifera merocrina
-                eccrine,CL:0000434
+                eccrine cell,CL:0000434
             apocrine glands,UBERON:0008974,true apocrine gland
-                apocrine,CL:0000033
-                myoepithelial cell,CL:1000417
-            dendritic cell (migratory),CL:0001006
-            natural killer cell / innate lymphoid cell 1,CL:0001067
-            innate lymphoid cell 2,CL:0001069,ILC2,natural helper cell,nuocyte
-            innate lymphoid cell 3,CL:0001071,ILC3
+                apocrine cell,CL:0000033
+                myoepithelial cell of sweat gland,CL:1000417
+            dermal dendritic cell,CL:0001006
+            group 1 innate lymphoid cell,CL:0001067
+            group 2 innate lymphoid cell,CL:0001069,ILC2,natural helper cell,nuocyte
+            group 3 innate lymphoid cell,CL:0001071,ILC3
             perineurial cells,ASCTB-TEMP:perineurial-cells
-            pericyte,CL:0000669,ARC,adventitial reticular cell,cell of Rouget,pericyte cell,pericyte of Rouget
+            pericyte cell,CL:0000669,ARC,adventitial reticular cell,cell of Rouget,pericyte cell,pericyte of Rouget
         subcutaneous,UBERON:0002072,hypoderm,vertebrate hypodermis,hypoderm,vertebrate hypodermis
-            adipocyte,CL:0002521,subcutaneous adipocyte
-            fibroblast,CL:0002620
+            subcutaneous fat cell,CL:0002521,subcutaneous adipocyte
+            skin fibroblast,CL:0002620
             macrophage,CL:0000235,histiocyte,histiocyte
-            t helper,CL:0000545,T helper cells type 1,T(H)-1 cell,Th1 CD4+ T cell,Th1 T cell,Th1 T lymphocyte,Th1 T-cell,Th1 T-lymphocyte,Th1 cell,helper T cell type 1
-            t killer,CL:0000910,cytotoxic T lymphocyte,cytotoxic T-cell,cytotoxic T-lymphocyte
+            t-helper 1 cell,CL:0000545,T helper cells type 1,T(H)-1 cell,Th1 CD4+ T cell,Th1 T cell,Th1 T lymphocyte,Th1 T-cell,Th1 T-lymphocyte,Th1 cell,helper T cell type 1
+            cytotoxic t cell,CL:0000910,cytotoxic T lymphocyte,cytotoxic T-cell,cytotoxic T-lymphocyte
             b cell,CL:0000236,B lymphocyte,B-cell,B-lymphocyte,B lymphocyte,B-cell,B-lymphocyte
             nerve,UBERON:0007121
             neuron,CL:0000540,nerve cell,nerve cell
                 interneuron,CL:0000099
                     amacrine cell,CL:0000561,amacrine neuron,amacrine neuron
                         polyaxonal amacrine cell,ASCTB-TEMP:polyaxonal-amacrine-cell
-                bipolar cell,CL:0000748
-                    off bipolar cell,CL:0000750
-                    on bipolar cell,CL:0000749
-                ganglion cell,CL:0000740,RGC,gangliocyte,ganglion cell of retina,RGC,gangliocyte,ganglion cell of retina
+                retinal bipolar neuron,CL:0000748
+                    off-bipolar cell,CL:0000750
+                    on-bipolar cell,CL:0000749
+                retinal ganglion cell,CL:0000740,RGC,gangliocyte,ganglion cell of retina,RGC,gangliocyte,ganglion cell of retina
+                eye photoreceptor cell,CL:0000287
             schwann cell,CL:0002573
             perineural cell,ASCTB-TEMP:perineural-cell
             blood vessels,UBERON:0035549,superficial part of circulatory system,superficial vasculature,superficial part of circulatory system,superficial vasculature
             endothelial cell,CL:0000115,endotheliocyte,endotheliocyte
-            perivascular smooth muscle cell,CL:0000359,VSMC,vascular smooth muscle cell
-            glomus cell,CL:0002292,glomus cell,glomus cell
+            smooth muscle cell,CL:0000359,VSMC,vascular smooth muscle cell
+            type i cell of carotid body,CL:0002292,glomus cell,glomus cell
     small intestine,UBERON:0002108,small bowel,small intestine,small bowel,small intestine
         duodenum,UBERON:0002114
             duodenojejunal flexure,UBERON:8410000,duodeno-jejunal flexure,duodenojejunal flexure,duodenojejunal junction,flexura duodenojejunalis,duodeno-jejunal flexure,duodenojejunal flexure,duodenojejunal junction,flexura duodenojejunalis
@@ -2511,8 +2507,8 @@ body,UBERON:0013702
             superior duodenum,FMAID:7206
                 mucosa,UBERON:0000320,doudenal mucosa,duodenal mucous membrane,mucosa of duodenum,mucous membrane of duodenum,doudenal mucosa,duodenal mucous membrane,mucosa of duodenum,mucous membrane of duodenum
                     epithelium,UBERON:0008346,epithelium of duodenum,epithelium of duodenum
-                        paneth cell,CL:1000344
-                        goblet cell,CL:1000324,goblet cell of epithelium proper of duodenum
+                        paneth cell of epithelium proper of small intestine,CL:1000344
+                        duodenal goblet cell,CL:1000324,goblet cell of epithelium proper of duodenum
                         tuft cell,ASCTB-TEMP:tuft-cell
                         enterocyte,ASCTB-TEMP:enterocyte
                         endocrine lineage cell,ASCTB-TEMP:endocrine-lineage-cell
@@ -2539,7 +2535,7 @@ body,UBERON:0013702
         jejunum,UBERON:0002115
             mucosa,UBERON:0000399,jejunal mucous membrane,jejunum mucosa,jejunum mucosa of organ,jejunum mucous membrane,jejunum organ mucosa,mucosa of jejunum,mucosa of organ of jejunum,mucous membrane of jejunum,organ mucosa of jejunum,jejunal mucous membrane,jejunum mucosa,jejunum mucosa of organ,jejunum mucous membrane,jejunum organ mucosa,mucosa of jejunum,mucosa of organ of jejunum,mucous membrane of jejunum,organ mucosa of jejunum
                 epithelium,UBERON:0000400,epithelium of jejunum,epithelium of jejunum
-                    goblet,CL:1000325,goblet cell of epithelium proper of jejunum
+                    jejunal goblet cell,CL:1000325,goblet cell of epithelium proper of jejunum
                 muscularis mucosa,UBERON:0016519
             submucosa,UBERON:0003333,jejunal submucosa,jejunum submucosa,jejunal submucosa,jejunum submucosa
             muscularis externa,UBERON:0012377,muscularis externa of jejunum,muscularis externa of jejunum
@@ -2602,22 +2598,21 @@ body,UBERON:0013702
                     splenic red pulp stromal cell,ASCTB-TEMP:splenic-red-pulp-stromal-cell
                 splenic venules,ASCTB-TEMP:splenic-venules
                 splenic cord,UBERON:0001266,cord of Billroth,cord of Bilroth,cord of Billroth,cord of Bilroth
-                    red pulp macrophage,CL:0000874
+                    splenic red pulp macrophage,CL:0000874
                     hematopoetic stem cell,CL:0000037,HSC,blood forming stem cell,hemopoietic stem cell
-                    cd8+ t cell,CL:0000625,"CD8-positive, alpha-beta T lymphocyte","CD8-positive, alpha-beta T-cell","CD8-positive, alpha-beta T-lymphocyte"
-                    dendritic cell,CL:0001056
+"                    cd8-positive, alpha-beta t cell",CL:0000625,"CD8-positive, alpha-beta T lymphocyte","CD8-positive, alpha-beta T-cell","CD8-positive, alpha-beta T-lymphocyte"
+"                    dendritic cell, human",CL:0001056
                     platelet,CL:0000233,anucleate thrombocyte,blood platelet,enucleate thrombocyte,anucleate thrombocyte,blood platelet,enucleate thrombocyte
             perifollicular zone,UBERON:0005353
-                erythrocytes,CL:0000232,RBC,red blood cell,RBC,red blood cell
-                monocytes,CL:0001055,"intermediate monocyte, human"
+                erythrocyte,CL:0000232,RBC,red blood cell,RBC,red blood cell
+"                cd14-positive, cd16-low monocyte",CL:0001055,"intermediate monocyte, human"
                 splenic perifollicular zone macrophage,ASCTB-TEMP:splenic-perifollicular-zone-macrophage
                 sheathed capillary,ASCTB-TEMP:sheathed-capillary
             red pulp-white pulp border,ASCTB-TEMP:red-pulp-white-pulp-border
             superficial zone,UBERON:0001251,junctional zone of spleen,spleen marginal zone,junctional zone of spleen,spleen marginal zone
                 memory b cell,CL:0000787,memory B lymphocyte,memory B-cell,memory B-lymphocyte
-                superficial zone b cell,ASCTB-TEMP:superficial-zone-b-cell
-                follicular dendritic cell (fdc),CL:0000442
-                macrophage,CL:0000872
+                follicular dendritic cell,CL:0000442
+                splenic marginal zone macrophage,CL:0000872
                 neutrophil,CL:0000775,neutrocyte,neutrophil leucocyte,neutrophil leukocyte,neutrophilic leucocyte,neutrophilic leukocyte
             white pulp,UBERON:0001959,pulpa alba,spleen white pulp,splenic white pulp,white pulp,pulpa alba,spleen white pulp,splenic white pulp,white pulp
                 central arteries,ASCTB-TEMP:central-arteries
@@ -2627,7 +2622,7 @@ body,UBERON:0013702
                     germinal center,UBERON:0005196,germinal center of spleen,spleen GC,spleen follicle center,splenic germinal center,germinal center of spleen,spleen GC,spleen follicle center,splenic germinal center
                         germinal center b cell,CL:0000844,GC B cell,GC B lymphocyte,GC B-cell,GC B-lymphocyte,germinal center B lymphocyte,germinal center B-cell,germinal center B-lymphocyte
                         t follicular regulatory cell,ASCTB-TEMP:t-follicular-regulatory-cell
-                        tingible body macrophage,CL:0000877
+                        splenic tingible body macrophage,CL:0000877
                     mantle zone,UBERON:0010421,follicle mantle,spleen B cell corona,spleen B-cell corona,spleen lymphocytic corona,splenic B cell corona,follicle mantle,spleen B cell corona,spleen B-cell corona,spleen lymphocytic corona,splenic B cell corona
                         inner mantle zone,ASCTB-TEMP:inner-mantle-zone
                         mantle zone b cell,ASCTB-TEMP:mantle-zone-b-cell
@@ -2638,24 +2633,24 @@ body,UBERON:0013702
                     penicillar arteriole,UBERON:0013132,penicilli,penicillus
                     adventitial stromal cell,ASCTB-TEMP:adventitial-stromal-cell
                 periarteriolar lymphoid sheath (pals),UBERON:0001960,PALS,T cell domain of the splenic white pulp,periarterial lymphoid sheath,periarteriolar sheath,spleen periarteriolar lymphatic sheath,PALS,T cell domain of the splenic white pulp,periarterial lymphoid sheath,periarteriolar sheath,spleen periarteriolar lymphatic sheath
-                    naive cd4+ t cell,CL:0000895,T.4Nve.Sp,Th0,"naive thymus-derived CD4-positive, alpha-beta T lymphocyte","naive thymus-derived CD4-positive, alpha-beta T-cell","naive thymus-derived CD4-positive, alpha-beta T-lymphocyte"
-                    cd4+ t cell,CL:0000492,CD4-positive T-helper cell,CD4-positive helper T lymphocyte,CD4-positive helper T-cell,CD4-positive helper T-lymphocyte
-                    naive cd8+ t cell,CL:0000900,"naive thymus-dervied CD8-positive, alpha-beta T lymphocyte","naive thymus-dervied CD8-positive, alpha-beta T-cell","naive thymus-dervied CD8-positive, alpha-beta T-lymphocyte"
-                    cd8+ t cell,CL:0001050,"effector CD8-positive, alpha-beta T lymphocyte","effector CD8-positive, alpha-beta T-cell","effector CD8-positive, alpha-beta T-lymphocyte"
-                    cytotoxic t cells,CL:0000794,"CD8-positive, alpha-beta cytotoxic T lymphocyte","CD8-positive, alpha-beta cytotoxic T-cell","CD8-positive, alpha-beta cytotoxic T-lymphocyte"
-                    t regulatory cell,CL:0000815,Treg,regulatory T lymphocyte,regulatory T-cell,regulatory T-lymphocyte
-                    fibroblastic reticular cell (frc),CL:1000489
+"                    naive thymus-derived cd4-positive, alpha-beta t cell",CL:0000895,T.4Nve.Sp,Th0,"naive thymus-derived CD4-positive, alpha-beta T lymphocyte","naive thymus-derived CD4-positive, alpha-beta T-cell","naive thymus-derived CD4-positive, alpha-beta T-lymphocyte"
+                    cd4-positive helper t cell,CL:0000492,CD4-positive T-helper cell,CD4-positive helper T lymphocyte,CD4-positive helper T-cell,CD4-positive helper T-lymphocyte
+"                    naive thymus-derived cd8-positive, alpha-beta t cell",CL:0000900,"naive thymus-dervied CD8-positive, alpha-beta T lymphocyte","naive thymus-dervied CD8-positive, alpha-beta T-cell","naive thymus-dervied CD8-positive, alpha-beta T-lymphocyte"
+"                    effector cd8-positive, alpha-beta t cell",CL:0001050,"effector CD8-positive, alpha-beta T lymphocyte","effector CD8-positive, alpha-beta T-cell","effector CD8-positive, alpha-beta T-lymphocyte"
+"                    cd8-positive, alpha-beta cytotoxic t cell",CL:0000794,"CD8-positive, alpha-beta cytotoxic T lymphocyte","CD8-positive, alpha-beta cytotoxic T-cell","CD8-positive, alpha-beta cytotoxic T-lymphocyte"
+                    regulatory t cell,CL:0000815,Treg,regulatory T lymphocyte,regulatory T-cell,regulatory T-lymphocyte
+                    reticular cell of splenic cord,CL:1000489
                     interdigitating dendritic cells,ASCTB-TEMP:interdigitating-dendritic-cells
-                    macrophages,CL:0000876
+                    splenic white pulp macrophage,CL:0000876
                     inner pals,ASCTB-TEMP:inner-pals
                     splenic smooth muscle cell,ASCTB-TEMP:splenic-smooth-muscle-cell
                     outer pals,ASCTB-TEMP:outer-pals
-                    transitional immature b cells,CL:0000818,transitional B cell,transitional stage B lymphocyte,transitional stage B-cell,transitional stage B-lymphocyte
+                    transitional stage b cell,CL:0000818,transitional B cell,transitional stage B lymphocyte,transitional stage B-cell,transitional stage B-lymphocyte
                     cytotoxic memory t cell,ASCTB-TEMP:cytotoxic-memory-t-cell
-                    plasmacytoid dendritic cell,CL:0001058
+"                    plasmacytoid dendritic cell, human",CL:0001058
                     splenic stromal cell (non-frc/non-fdc),ASCTB-TEMP:splenic-stromal-cell-non-frc-non-fdc-
-                    cdc1 myeloid dendritic cell,CL:0002394
-                    cdc2 myeloid dendritic cell,CL:0002399
+                    myeloid dendritic cell cdc1,CL:0002394
+                    myeloid dendritic cell cdc2,CL:0002399
                     dec205+ dc,ASCTB-TEMP:dec205-dc
                     monocyte-derived dc,ASCTB-TEMP:monocyte-derived-dc
         hilum,UBERON:0001248,hilum lienale,hilum splenicum,spleen hilum,splenic hilum
@@ -2678,7 +2673,7 @@ body,UBERON:0013702
                 short gastric artery,FMAID:14794
                 superior lobar artery of spleen,ASCTB-TEMP:superior-lobar-artery-of-spleen
                 transverse pancreatic artery,ASCTB-TEMP:transverse-pancreatic-artery
-                blood endothelial cells,CL:1000413,arterial endothelial cell
+                endothelial cell of artery,CL:1000413,arterial endothelial cell
             splenic vein,UBERON:0003713,vena splenica,vena splenica
                 inferior mesenteric vein,UBERON:0001215
                     left colic vein,UBERON:8410022
@@ -2706,7 +2701,7 @@ body,UBERON:0013702
                         lobular vein of pancreas,ASCTB-TEMP:lobular-vein-of-pancreas
                         interlobular vein of pancreas,ASCTB-TEMP:interlobular-vein-of-pancreas
                         periductal vein of pancreas,ASCTB-TEMP:periductal-vein-of-pancreas
-                blood endothelial cells,CL:0002543,endothelial cell of vein,venous endothelial cell
+                vein endothelial cell,CL:0002543,endothelial cell of vein,venous endothelial cell
         capsule,UBERON:0004641,Malpighian capsule,capsula splenica,capsule of spleen,fibroelastic coat of spleen,fibrous capsule of spleen,splenic capsule,tunica fibrosa (splen)(lien),tunica fibrosa splenica,Malpighian capsule,capsula splenica,capsule of spleen,fibroelastic coat of spleen,fibrous capsule of spleen,splenic capsule,tunica fibrosa (splen)(lien),tunica fibrosa splenica
             connective tissue,ASCTB-TEMP:connective-tissue
             subcapsule,ASCTB-TEMP:subcapsule
@@ -2719,63 +2714,63 @@ body,UBERON:0013702
                 sympathetic nerves,UBERON:0012373
                 catecholaminergic neuron,ASCTB-TEMP:catecholaminergic-neuron
                 lymphatic vessels,UBERON:0001473,lymph vessel,lymph vessel
-                myofibroblast,CL:0000186,MFB
+                myofibroblast cell,CL:0000186,MFB
     thymus,UBERON:0002370,thymus gland,thymus organ,thymus gland,thymus organ
         capsule of thymus,UBERON:0002122,thymic capsule,thymus capsule,thymic capsule,thymus capsule
             thymus trabecula,UBERON:0004791,thymic trabecula,thymus gland trabecula,thymus trabeculae,trabecula of thymus,trabecula of thymus gland,thymic trabecula,thymus gland trabecula,thymus trabeculae,trabecula of thymus,trabecula of thymus gland
                 adipose tissue,UBERON:0001013,fat,fat tissue,fatty tissue,fat,fat tissue,fatty tissue
                 connective tissue,UBERON:0002384,portion of connective tissue,textus connectivus,portion of connective tissue,textus connectivus
-                    thymic capsular fibroblast,CL:0009078,thymic capsular fibroblast
-                    thymic interlobular fibroblast,CL:0009079,thymic interlobular fibroblast
+                    thymic fibroblast type 1,CL:0009078,thymic capsular fibroblast
+                    thymic fibroblast type 2,CL:0009079,thymic interlobular fibroblast
                 mast cell,CL:0000097,histaminocyte,labrocyte,mastocyte
         thymus lobe,UBERON:0005483,lateral lobe of thymus,lobe of thymus,lateral lobe of thymus,lobe of thymus
             thymus lobule,UBERON:0002125,lobule of thymus,thymic lobule,thymus lobule,lobule of thymus,thymic lobule,thymus lobule
                 thymus subcapsular epithelium,UBERON:0006936
-                    early thymic progenitor,CL:0002425,ETP,preT.ETP.Th
-                    double negative thymocyte 2,CL:0009081
-                    double negative thymocyte 3,CL:0009082
-                    double negative thymocyte 4,CL:0009083
-                    macrophage,CL:0000883
+                    early t lineage precursor,CL:0002425,ETP,preT.ETP.Th
+                    specified double negative thymocyte,CL:0009081
+                    committed double negative thymocyte,CL:0009082
+                    rearranging double negative thymocyte,CL:0009083
+                    thymic cortical macrophage,CL:0000883
                 cortex of thymus,UBERON:0002123,thymic cortex,thymus cortex,thymic cortex,thymus cortex
-                    double positive thymocyte,CL:0000809,DP cell,DP thymocyte,"double-positive, alpha-beta immature T lymphocyte"
-                    erythroid,CL:0000764,erythropoietic cell
+"                    double-positive, alpha-beta thymocyte",CL:0000809,DP cell,DP thymocyte,"double-positive, alpha-beta immature T lymphocyte"
+                    erythroid lineage cell,CL:0000764,erythropoietic cell
                 corticomedullary boundary of thymus,UBERON:0003988,thymic cortico-medullary boundary,thymic corticomedullary boundary,thymic corticomedullary junction,thymic corticomedullary zone,thymus CMZ,thymus cortico-medullary boundary,thymus corticomedullary junction,thymus corticomedullary zone,thymic cortico-medullary boundary,thymic corticomedullary boundary,thymic corticomedullary junction,thymic corticomedullary zone,thymus CMZ,thymus cortico-medullary boundary,thymus corticomedullary junction,thymus corticomedullary zone
-                    memory b cell,CL:0000970,non-class-switched memory B cell,unswitched memory B lymphocyte,unswitched memory B-cell,unswitched memory B-lymphocyte
-                    memory b cell,CL:0000972,class switched memory B lymphocyte,class switched memory B-cell,class switched memory B-lymphocyte
+                    unswitched memory b cell,CL:0000970,non-class-switched memory B cell,unswitched memory B lymphocyte,unswitched memory B-cell,unswitched memory B-lymphocyte
+                    class switched memory b cell,CL:0000972,class switched memory B lymphocyte,class switched memory B-cell,class switched memory B-lymphocyte
                     plasmablast,CL:0000980,"CD27-positive, CD38-positive, CD20-negative B cell"
                     plasma cell,CL:0000786,plasma B cell,plasma B-cell,plasmacyte,plasmocyte
                     monocyte,CL:0000576
                     beige adipocyte,CL:0001070,beige brown adipocyte,beige fat cell,beige/brite adipocyte,brite adipocyte,brite cell,brite fat cell
                     thymic artery,UBERON:0018243,thymic branch of internal thoracic artery,thymic branch of internal thoracic artery
-                    macrophage,CL:0000866
+                    thymic macrophage,CL:0000866
                     efferent lymphatic,UBERON:0010397
-                        smooth muscle cell,CL:0019017,smooth muscle cell of lymphatic vessel
-                        lymphatic endothelial cell,CL:0002138,LEC,lymphatic endothelial cell,LEC,lymphatic endothelial cell
+                        lymphatic vessel smooth muscle cell,CL:0019017,smooth muscle cell of lymphatic vessel
+                        endothelial cell of lymphatic vessel,CL:0002138,LEC,lymphatic endothelial cell,LEC,lymphatic endothelial cell
                     corticomedullary thymic epithelial cell,CL:0009070
                 medulla of thymus,UBERON:0002124,medulla of thymus gland,thymus gland medulla,thymus medulla,medulla of thymus gland,thymus gland medulla,thymus medulla
-                    cd4+ t single positive thymocyte,CL:0002436
-                    cytotoxic cd4 t cell,CL:0000934,"CD4-positive, alpha-beta cytotoxic T lymphocyte","CD4-positive, alpha-beta cytotoxic T-cell","CD4-positive, alpha-beta cytotoxic T-lymphocyte"
-                    cd4+ t memory t cell,CL:0000897,"CD4-positive, alpha-beta memory T lymphocyte","CD4-positive, alpha-beta memory T-cell","CD4-positive, alpha-beta memory T-lymphocyte"
-                    cd8+ t single positive thymocyte,CL:0002437,T.8SP24-.Th
-                    cd8+ t memory,CL:0000909,"CD8-positive, alpha-beta memory T lymphocyte","CD8-positive, alpha-beta memory T-cell","CD8-positive, alpha-beta memory T-lymphocyte"
+                    mature cd4 single-positive thymocyte,CL:0002436
+"                    cd4-positive, alpha-beta cytotoxic t cell",CL:0000934,"CD4-positive, alpha-beta cytotoxic T lymphocyte","CD4-positive, alpha-beta cytotoxic T-cell","CD4-positive, alpha-beta cytotoxic T-lymphocyte"
+"                    cd4-positive, alpha-beta memory t cell",CL:0000897,"CD4-positive, alpha-beta memory T lymphocyte","CD4-positive, alpha-beta memory T-cell","CD4-positive, alpha-beta memory T-lymphocyte"
+                    mature cd8 single-positive thymocyte,CL:0002437,T.8SP24-.Th
+"                    cd8-positive, alpha-beta memory t cell",CL:0000909,"CD8-positive, alpha-beta memory T lymphocyte","CD8-positive, alpha-beta memory T-cell","CD8-positive, alpha-beta memory T-lymphocyte"
                     cd8aa(i) thymocyte,CL:0009068
                     cd8aa(ii) thymocyte,CL:0009069
                     t follicular helper cell,CL:0002038,T(FH),Tfh
-                    regulatory t cells,CL:0002677,naive regulatory T lymphocyte,naive regulatory T-cell,naive regulatory T-lymphocyte
+                    naive regulatory t cell,CL:0002677,naive regulatory T lymphocyte,naive regulatory T-cell,naive regulatory T-lymphocyte
                     gamma-delta t cell,CL:0000798,gamma-delta T lymphocyte,gamma-delta T-cell,gamma-delta T-lymphocyte,gammadelta T cell
-                    th17 cell,CL:0000899,IL-17-producing CD4+ T helper,T helper cells type 17,T(H)-17 cell,Th17 CD4+ T cell,Th17 T cell,Th17 T lymphocyte,Th17 T-cell,Th17 T-lymphocyte,Th17 cell,helper T cell type 17
-                    mucosal associated invariant t cell,CL:0000940,mucosal invariant T lymphocyte,mucosal invariant T-cell,mucosal invariant T-lymphocyte
+                    t-helper 17 cell,CL:0000899,IL-17-producing CD4+ T helper,T helper cells type 17,T(H)-17 cell,Th17 CD4+ T cell,Th17 T cell,Th17 T lymphocyte,Th17 T-cell,Th17 T-lymphocyte,Th17 cell,helper T cell type 17
+                    mucosal invariant t cell,CL:0000940,mucosal invariant T lymphocyte,mucosal invariant T-cell,mucosal invariant T-lymphocyte
                     immature nkt cell,CL:0000914,immature NK T lymphocyte,immature NK T-cell,immature NK T-lymphocyte,immature NKT cell
-                    conventional dendritic cell 1,CL:0002059,CD8alpha-alpha-positive thymic conventional dendritic cell,DC.8+.Th
-                    conventional dendritic cell 2,CL:0002460,DC.8-.Th
-                    plasmacytoid dendritic cell,CL:0000942
-                    macrophage,CL:0000882
+                    cd8alpha-positive thymic conventional dendritic cell,CL:0002059,CD8alpha-alpha-positive thymic conventional dendritic cell,DC.8+.Th
+                    cd8alpha-negative thymic conventional dendritic cell,CL:0002460,DC.8-.Th
+                    thymic plasmacytoid dendritic cell,CL:0000942
+                    thymic medullary macrophage,CL:0000882
                     naive b cell,CL:0000788,naive B lymphocyte,naive B-cell,naive B-lymphocyte,naive B lymphocyte,naive B-cell,naive B-lymphocyte
-                    group 3 innate lymphoid cell,CL:0001078,"ILC3, human"
+"                    group 3 innate lymphoid cell, human",CL:0001078,"ILC3, human"
                     natural killer cell,CL:0000623,NK cell
                     eosinophil,CL:0000771,eosinocyte,eosinophilic granulocyte,eosinophilic leucocyte,eosinophilic leukocyte
                     thymic vein,UBERON:0001591,thymic tributary of brachiocephalic vein,vena thymica,thymic tributary of brachiocephalic vein,vena thymica
-                    blood endothelial cell,CL:0000071,cuboidal endothelial cell of vascular tree,cuboidal endothelial cell of vascular tree
+                    blood vessel endothelial cell,CL:0000071,cuboidal endothelial cell of vascular tree,cuboidal endothelial cell of vascular tree
                     nerve,UBERON:0001021,nerves,peripheral nerve,nerves,peripheral nerve
                         spinal nerve,UBERON:0001780,backbone nerve,nerve of backbone,nerve of spinal column,nerve of spine,nerve of vertebral column,spinal column nerve,spinal nerve tree,spine nerve,vertebral column nerve,backbone nerve,nerve of backbone,nerve of spinal column,nerve of spine,nerve of vertebral column,spinal column nerve,spinal nerve tree,spine nerve,vertebral column nerve
                             first cervical spinal nerve,FMAID:6440,First cervical nerve tree,First cervical spinal nerve
@@ -3195,15 +3190,15 @@ body,UBERON:0013702
                                 nerve to transverse muscle of tongue,FMAID:82631
                                 nerve to vertical muscle fo tongue,FMAID:82634
                         parasympathetic cholinergic nerve,UBERON:8410062
-                    sympathetic noradrenergic nerve,CL:3000002
+                    sympathetic noradrenergic neuron,CL:3000002
                     thymus epithelium,UBERON:0003846,epithelial tissue of thymus,epithelial tissue of thymus gland,epithelium of thymus,epithelium of thymus gland,thymic epithelial tissue,thymic epithelium,thymus epithelial tissue,thymus gland epithelial tissue,thymus gland epithelium,epithelial tissue of thymus,epithelial tissue of thymus gland,epithelium of thymus,epithelium of thymus gland,thymic epithelial tissue,thymic epithelium,thymus epithelial tissue,thymus gland epithelial tissue,thymus gland epithelium
-                        subcapsular cortical epithelial cell,CL:0009077
+                        subcapsular thymic epithelial cell,CL:0009077
                         cortical thymic epithelial cell,CL:0002364,cTEC
                         medullary thymic epithelial cell type 1,CL:0009071
                         medullary thymic epithelial cell type 2,CL:0009072
                         hassall's corpuscle,UBERON:0003987,capsule of Hassal's corpuscle,thymic corpuscle
                             medullary thymic epithelial cell type 3,CL:0009073
-                        medullary thymic epithelial cell type 4; thymic tuft cells,CL:0009074
+                        medullary thymic epithelial cell type 4,CL:0009074
                         myo-medullary thymic epithelial cell,CL:0009075
                         neuro-medullary thymic epithelial cell,CL:0009076
     ureter,UBERON:0000056
@@ -3243,7 +3238,7 @@ body,UBERON:0013702
                     dpt+ fibroblast cell of bladder,ASCTB-TEMP:dpt-fibroblast-cell-of-bladder
                     lipofibroblast cell of bladder,ASCTB-TEMP:lipofibroblast-cell-of-bladder
             urinary bladder vasculature,UBERON:0012239,bladder vasculature,blood vessels of bladder,set of urinary bladder blood vessels,bladder vasculature,blood vessels of bladder,set of urinary bladder blood vessels
-                endothelium,CL:2000040
+                bladder microvascular endothelial cell,CL:2000040
                 endothelial cell of bladder,ASCTB-TEMP:endothelial-cell-of-bladder
                 vascular smooth muscle cell of bladder,ASCTB-TEMP:vascular-smooth-muscle-cell-of-bladder
                 pericyte cell of bladder,ASCTB-TEMP:pericyte-cell-of-bladder
@@ -3329,7 +3324,7 @@ body,UBERON:0013702
                 endothelial cell,ASCTB-TEMP:endothelial-cell
             stratum basalis,UBERON:0022355,pars basalis of endometrium,stratum basalis of endometrium,pars basalis of endometrium,stratum basalis of endometrium
                 endometrial stroma,UBERON:0002337,endometrium stroma,stroma of endometrium,endometrium stroma,stroma of endometrium
-                    endometrial stromal cell,CL:0002255,endometrial stromal cell
+                    stromal cell of endometrium,CL:0002255,endometrial stromal cell
                     uterine nk cell,ASCTB-TEMP:uterine-nk-cell
                     uterine macrophage,ASCTB-TEMP:uterine-macrophage
                     stromal cell,ASCTB-TEMP:stromal-cell
