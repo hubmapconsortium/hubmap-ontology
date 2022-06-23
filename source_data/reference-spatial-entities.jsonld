@@ -855,31 +855,37 @@
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHMRightLymphNode",
+    "@type": "RetiredSpatialEntity",
     "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002509"
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHFRightLymphNode",
+    "@type": "RetiredSpatialEntity",
     "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002509"
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHMLeftLymphNode",
+    "@type": "RetiredSpatialEntity",
     "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002509"
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHFLeftLymphNode",
+    "@type": "RetiredSpatialEntity",
     "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002509"
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHRightKidney",
+    "@type": "RetiredSpatialEntity",
     "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004539"
   },
   {
     "@context": "https://hubmapconsortium.github.io/hubmap-ontology/ccf-context.jsonld",
     "@id": "#VHLeftKidney",
+    "@type": "RetiredSpatialEntity",
     "representation_of": "http://purl.obolibrary.org/obo/UBERON_0004538"
   },
   {
