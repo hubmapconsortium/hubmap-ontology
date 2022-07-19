@@ -8801,9 +8801,9 @@ AS,Left portal vein,left hepatic portal vein,FMAID:15415,Lateral inferior segmen
 AS,hepatic portal vein,hepatic portal vein,UBERON:0001639,Left portal vein,FMAID:15415
 AS,splenic vein,splenic vein,UBERON:0003713,hepatic portal vein,UBERON:0001639
 AS,inferior mesenteric vein,inferior mesenteric vein,UBERON:0001215,splenic vein,UBERON:0003713
-AS,left colic vein,left colic vein,UBERON:8410022,inferior mesenteric vein,UBERON:0001215
-AS_CT,blood vessel endothelial cell,blood vessel endothelial cell,CL:0000071,left colic vein,UBERON:8410022
-AS_CT,vein endothelial cell,vein endothelial cell,CL:0002543,left colic vein,UBERON:8410022
+AS,left colic vein,left colic vein,UBERON:8410017,inferior mesenteric vein,UBERON:0001215
+AS_CT,blood vessel endothelial cell,blood vessel endothelial cell,CL:0000071,left colic vein,UBERON:8410017
+AS_CT,vein endothelial cell,vein endothelial cell,CL:0002543,left colic vein,UBERON:8410017
 AS,blood vasculature,blood vasculature,UBERON:0004537,body,UBERON:0013702
 AS,right cardiac atrium,right atrium,UBERON:0002078,blood vasculature,UBERON:0004537
 AS,posterior vena cava,inferior vena cava,UBERON:0001072,right cardiac atrium,UBERON:0002078
@@ -8817,8 +8817,8 @@ AS,Left portal vein,left hepatic portal vein,FMAID:15415,Lateral inferior segmen
 AS,hepatic portal vein,hepatic portal vein,UBERON:0001639,Left portal vein,FMAID:15415
 AS,splenic vein,splenic vein,UBERON:0003713,hepatic portal vein,UBERON:0001639
 AS,inferior mesenteric vein,inferior mesenteric vein,UBERON:0001215,splenic vein,UBERON:0003713
-AS,left colic vein,left colic vein,UBERON:8410022,inferior mesenteric vein,UBERON:0001215
-AS,vena recta of large intestine #2,vena recta of large intestine #2,ASCTB-TEMP:vena-recta-of-large-intestine-2,left colic vein,UBERON:8410022
+AS,left colic vein,left colic vein,UBERON:8410017,inferior mesenteric vein,UBERON:0001215
+AS,vena recta of large intestine #2,vena recta of large intestine #2,ASCTB-TEMP:vena-recta-of-large-intestine-2,left colic vein,UBERON:8410017
 AS,blood vasculature,blood vasculature,UBERON:0004537,body,UBERON:0013702
 AS,right cardiac atrium,right atrium,UBERON:0002078,blood vasculature,UBERON:0004537
 AS,posterior vena cava,inferior vena cava,UBERON:0001072,right cardiac atrium,UBERON:0002078
