@@ -7373,6 +7373,26 @@
     "order": 4943
   },
   {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_8410022",
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "left colic artery"
+      }
+    ],
+    "http://www.geneontology.org/formats/oboInOwl#id": [
+      {
+        "@value": "UBERON:8410022"
+      }
+    ],
+    "parent": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0001183"
+      }
+    ],
+    "order": 4953
+  },
+  {
     "@id": "http://purl.obolibrary.org/obo/FMA_14829",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -14050,7 +14070,7 @@
     "order": 8757
   },
   {
-    "@id": "http://purl.obolibrary.org/obo/UBERON_8410022",
+    "@id": "http://purl.obolibrary.org/obo/UBERON_8410017",
     "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
@@ -14059,7 +14079,7 @@
     ],
     "http://www.geneontology.org/formats/oboInOwl#id": [
       {
-        "@value": "UBERON:8410022"
+        "@value": "UBERON:8410017"
       }
     ],
     "parent": [
@@ -14084,7 +14104,7 @@
     ],
     "parent": [
       {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_8410022"
+        "@id": "http://purl.obolibrary.org/obo/UBERON_8410017"
       }
     ],
     "order": 8819

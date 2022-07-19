@@ -1038,6 +1038,21 @@ body,UBERON:0013702
                                                     deep superior gluteal artery,FMAID:21121,Deep branch of superior gluteal artery
                                                     superficial superior gluteal artery,FMAID:21120,Superficial branch of superior gluteal artery
                                     inferior mesenteric artery,UBERON:0001183,inferior mesenteric arterial tree,inferior mesenteric arterial tree
+                                        left colic artery,UBERON:8410022
+                                            ascending branch of left colic artery,FMAID:14828
+                                                marginal artery of drummond,FMAID:14824,Arcade of Riolan,Juxtacolic artery,Marginal arcade,Marginal artery of Drummond
+                                                    recurrent muscular branch of submucosal artery of colon,ASCTB-TEMP:recurrent-muscular-branch-of-submucosal-artery-of-colon
+                                                    submucosal artery of colon,ASCTB-TEMP:submucosal-artery-of-colon
+                                                    submucosal arteriole of colon,ASCTB-TEMP:submucosal-arteriole-of-colon
+                                                    mucosal arteriole of colon,ASCTB-TEMP:mucosal-arteriole-of-colon
+                                                    mucosal capillary of colon,ASCTB-TEMP:mucosal-capillary-of-colon
+                                                    long branch of vasa recta of colon,ASCTB-TEMP:long-branch-of-vasa-recta-of-colon
+                                                    subserous artery of colon,ASCTB-TEMP:subserous-artery-of-colon
+                                                    vasa recta of colon,ASCTB-TEMP:vasa-recta-of-colon
+                                                    short branch of vasa recta of colon,ASCTB-TEMP:short-branch-of-vasa-recta-of-colon
+                                                    subserous artery of colon #2,ASCTB-TEMP:subserous-artery-of-colon-2
+                                                meandering mesenteric artery,ASCTB-TEMP:meandering-mesenteric-artery
+                                            descending branch of left colic artery,FMAID:14829
                                         sigmoid artery,UBERON:0035180,inferior left colic artery
                                         superior rectal artery,UBERON:0035040,superior hemorrhoidal artery
                                     inferior phrenic artery,UBERON:0012255,arteriae phrenicae inferiores
@@ -2676,21 +2691,7 @@ body,UBERON:0013702
                 endothelial cell of artery,CL:1000413,arterial endothelial cell
             splenic vein,UBERON:0003713,vena splenica,vena splenica
                 inferior mesenteric vein,UBERON:0001215
-                    left colic vein,UBERON:8410022
-                        ascending branch of left colic artery,FMAID:14828
-                            marginal artery of drummond,FMAID:14824,Arcade of Riolan,Juxtacolic artery,Marginal arcade,Marginal artery of Drummond
-                                recurrent muscular branch of submucosal artery of colon,ASCTB-TEMP:recurrent-muscular-branch-of-submucosal-artery-of-colon
-                                submucosal artery of colon,ASCTB-TEMP:submucosal-artery-of-colon
-                                submucosal arteriole of colon,ASCTB-TEMP:submucosal-arteriole-of-colon
-                                mucosal arteriole of colon,ASCTB-TEMP:mucosal-arteriole-of-colon
-                                mucosal capillary of colon,ASCTB-TEMP:mucosal-capillary-of-colon
-                                long branch of vasa recta of colon,ASCTB-TEMP:long-branch-of-vasa-recta-of-colon
-                                subserous artery of colon,ASCTB-TEMP:subserous-artery-of-colon
-                                vasa recta of colon,ASCTB-TEMP:vasa-recta-of-colon
-                                short branch of vasa recta of colon,ASCTB-TEMP:short-branch-of-vasa-recta-of-colon
-                                subserous artery of colon #2,ASCTB-TEMP:subserous-artery-of-colon-2
-                            meandering mesenteric artery,ASCTB-TEMP:meandering-mesenteric-artery
-                        descending branch of left colic artery,FMAID:14829
+                    left colic vein,UBERON:8410017
                         vena recta of large intestine #2,ASCTB-TEMP:vena-recta-of-large-intestine-2
                     rectosigmoid vein,ASCTB-TEMP:rectosigmoid-vein
                     sigmoid vein,FMAID:15395
