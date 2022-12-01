@@ -11,6 +11,8 @@ Version Number:,v1.2,,,,,
 anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,representation_of,glb file of single organs
 -,-,VH_F,-,-,-,VH_F_United
 -,#VHFemaleOrgans,VH_F_integumentary_system,integumentary system layer,UBERON:0013754,http://purl.obolibrary.org/obo/UBERON_0013754,VH_F_United
+#VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_mammary_gland_L,left mammary gland,FMA:57991,http://purl.obolibrary.org/obo/FMA_57991,VH_F_mammary_gland_L
+#VHFRightMammaryGland,#VHFemaleOrgans,VH_F_mammary_gland_R,right mammary gland,FMA:57987,http://purl.obolibrary.org/obo/FMA_57987,VH_F_mammary_gland_R
 #VHFSkinV1.1,#VHFemaleOrgans,VH_F_skin,skin of body,UBERON:0002097,http://purl.obolibrary.org/obo/UBERON_0002097,VH_F_Skin
 -,#VHFemaleOrgans,VH_F_nervous_system,central nervous system,UBERON:0001017,http://purl.obolibrary.org/obo/UBERON_0001017,VH_F_United
 -,#VHFemaleOrgans,VH_F_eyes,eye,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970,VH_F_Eye_L

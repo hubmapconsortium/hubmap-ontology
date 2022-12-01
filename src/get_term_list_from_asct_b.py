@@ -56,7 +56,7 @@ with open(OUTPUT_CSV, 'w') as out_f:
   body = Node('AS', 'UBERON:0013702', 'body', 'body')
   cell = Node('CT', 'CL:0000000', 'cell', 'cell')
 
-  # Patches for use the EUI
+  # Patches for use in the EUI
   out.writerow(['AS','left kidney', 'left kidney', 'UBERON:0004538', 'kidney', 'UBERON:0002113'])
   out.writerow(['AS','right kidney', 'right kidney', 'UBERON:0004539', 'kidney', 'UBERON:0002113'])
   out.writerow(['AS','pelvis', 'pelvis', 'UBERON:0001270', body.rdfs_label, body.id])
@@ -72,6 +72,9 @@ with open(OUTPUT_CSV, 'w') as out_f:
   out.writerow(['AS','right fallopian tube', 'right fallopian tube', 'UBERON:0001302', 'fallopian tube', 'UBERON:0003889'])
   out.writerow(['AS','left knee', 'left knee', 'FMAID:24978', 'knee', 'UBERON:0001465'])
   out.writerow(['AS','right knee', 'right knee', 'FMAID:24977', 'knee', 'UBERON:0001465'])
+  out.writerow(['AS','mammary gland', 'mammary gland', 'UBERON:0001911', body.rdfs_label, body.id])
+  out.writerow(['AS','left mammary gland', 'left mammary gland', 'FMAID:57991', 'mammary gland', 'UBERON:0001911'])
+  out.writerow(['AS','right mammary gland', 'right mammary gland', 'FMAID:57987', 'mammary gland', 'UBERON:0001911'])
   out.writerow(['AS','left ovary', 'left ovary', 'FMAID:7214', 'ovary', 'UBERON:0000992'])
   out.writerow(['AS','right ovary', 'right ovary', 'FMAID:7213', 'ovary', 'UBERON:0000992'])
   out.writerow(['AS','left ureter', 'left ureter', 'UBERON:0001223', 'ureter', 'UBERON:0000056'])

@@ -43,7 +43,7 @@ source,object,@id,label,sex,side,rui_rank
 #VHFemaleOrgans_VH_F_right_ovary,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Ovary_R.glb,#VHFRightOvary,Right Ovary,Female,Right,170
 #VHFemaleOrgans_VH_F_pancreas,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Pancreas.glb,#VHFPancreas,Pancreas,Female,,180
 #VHFemaleOrgans_VH_F_pelvis,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Pelvis.glb,#VHFPelvis,Pelvis,Female,,190
-#VHFemaleOrgans_VH_F_skin,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Skin.glb,#VHFSkinV1.1,Skin,Female,,200
+#VHFemaleOrgans_VH_F_skin,https://ccf-ontology.hubmapconsortium.org/objects/v1.3/3d-vh-f-skin.glb,#VHFSkinV1.1,Skin,Female,,200
 #VHFemaleOrgans_VH_F_small_intestine,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Small_Intestine.glb,#VHFSmallIntestine,Small Intestine,Female,,210
 #VHFemaleOrgans_VH_F_spleen,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Spleen.glb,#VHFSpleenV1.1,Spleen,Female,,220
 #VHFemaleOrgans_VH_F_thymus,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Thymus.glb,#VHFThymusV1.1,Thymus,Female,,230
@@ -53,3 +53,5 @@ source,object,@id,label,sex,side,rui_rank
 #VHFemaleOrgans_VH_F_uterus,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Uterus.glb,#VHFUterus,Uterus,Female,,270
 #VHFemaleOrgans_VH_F_placenta,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Placenta.glb,#VHFPlacenta,Placenta,Female,,280
 #VHFemaleOrgans_VH_F_spinal_cord,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Spinal_Cord.glb,#VHFSpinalCord,Spinal Cord,Female,,290
+#VHFemaleOrgans_VH_F_mammary_gland_L,https://ccf-ontology.hubmapconsortium.org/objects/v1.3/3d-vh-f-mammary-gland-l.glb,#VHFLeftMammaryGland,Left Mammary Gland,Female,Left,300
+#VHFemaleOrgans_VH_F_mammary_gland_R,https://ccf-ontology.hubmapconsortium.org/objects/v1.3/3d-vh-f-mammary-gland-r.glb,#VHFRightMammaryGland,Right Mammary Gland,Female,Right,310
