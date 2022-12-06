@@ -12,80 +12,80 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 -,-,VH_F,-,-,-,3d-vh-f-united
 -,#VHFemaleOrgans,VH_F_integumentary_system,integumentary system layer,UBERON:0013754,http://purl.obolibrary.org/obo/UBERON_0013754,3d-vh-f-united
 #VHFSkinV1.1,#VHFemaleOrgans,VH_F_skin,skin of body,UBERON:0002097,http://purl.obolibrary.org/obo/UBERON_0002097,3d-vh-f-skin
-#VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_mammary_gland_L,Left mammary gland,FMA:57991,http://purl.obolibrary.org/obo/FMA_57991,3d-vh-f-mammary-gland-l
-#VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_fat_L,Interlobar adipose tissue of left mammary gland,FMA:73166,http://purl.obolibrary.org/obo/FMA_73166,3d-vh-f-mammary-gland-l
+#VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_mammary_gland_L,Left mammary gland,FMA:57991,http://purl.org/sig/ont/fma/fma57991,3d-vh-f-mammary-gland-l
+#VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_fat_L,Interlobar adipose tissue of left mammary gland,FMA:73166,http://purl.org/sig/ont/fma/fma73166,3d-vh-f-mammary-gland-l
 #VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_areolar_tubercles_L,areolar tubercle,UBERON:0011828,http://purl.obolibrary.org/obo/UBERON_0011828,3d-vh-f-mammary-gland-l
 #VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_nipple_L,left nipple,UBERON:0013772,http://purl.obolibrary.org/obo/UBERON_0013772,3d-vh-f-mammary-gland-l
-#VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_areola_L,Left female areola,FMA:223679,http://purl.obolibrary.org/obo/FMA_223679,3d-vh-f-mammary-gland-l
+#VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_areola_L,Left female areola,FMA:223679,http://purl.org/sig/ont/fma/fma223679,3d-vh-f-mammary-gland-l
 #VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_mammary_lobes_L,mammary lobe,UBERON:0018140,http://purl.obolibrary.org/obo/UBERON_0018140,3d-vh-f-mammary-gland-l
-#VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_main_lactiferous_ducts_L,main lactiferous duct,UBERON:0015134,http://purl.obolibrary.org/obo/FMA_62102,3d-vh-f-mammary-gland-l
-#VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_main_lactiferous_sinuses_L,Lactiferous sinus,FMA:58088,http://purl.obolibrary.org/obo/FMA_58088,3d-vh-f-mammary-gland-l
-#VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_suspensory_ligaments_L,Suspensory ligament of left breast,FMA:73119,http://purl.obolibrary.org/obo/FMA_73119,3d-vh-f-mammary-gland-l
-#VHFRightMammaryGland,#VHFemaleOrgans,VH_F_mammary_gland_R,Right mammary gland,FMA:57987,http://purl.obolibrary.org/obo/FMA_57987,3d-vh-f-mammary-gland-r
-#VHFRightMammaryGland,#VHFemaleOrgans,VH_F_fat_R,Interlobar adipose tissue of right mammary gland,FMA:73165,http://purl.obolibrary.org/obo/FMA_73165,3d-vh-f-mammary-gland-r
+#VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_main_lactiferous_ducts_L,main lactiferous duct,UBERON:0015134,http://purl.org/sig/ont/fma/fma62102,3d-vh-f-mammary-gland-l
+#VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_main_lactiferous_sinuses_L,Lactiferous sinus,FMA:58088,http://purl.org/sig/ont/fma/fma58088,3d-vh-f-mammary-gland-l
+#VHFLeftMammaryGland,#VHFemaleOrgans,VH_F_suspensory_ligaments_L,Suspensory ligament of left breast,FMA:73119,http://purl.org/sig/ont/fma/fma73119,3d-vh-f-mammary-gland-l
+#VHFRightMammaryGland,#VHFemaleOrgans,VH_F_mammary_gland_R,Right mammary gland,FMA:57987,http://purl.org/sig/ont/fma/fma57987,3d-vh-f-mammary-gland-r
+#VHFRightMammaryGland,#VHFemaleOrgans,VH_F_fat_R,Interlobar adipose tissue of right mammary gland,FMA:73165,http://purl.org/sig/ont/fma/fma73165,3d-vh-f-mammary-gland-r
 #VHFRightMammaryGland,#VHFemaleOrgans,VH_F_areolar_tubercles_R,areolar tubercle,UBERON:0011828,http://purl.obolibrary.org/obo/UBERON_0011828,3d-vh-f-mammary-gland-r
 #VHFRightMammaryGland,#VHFemaleOrgans,VH_F_nipple_R,right nipple,UBERON:0013773,http://purl.obolibrary.org/obo/UBERON_0013773,3d-vh-f-mammary-gland-r
-#VHFRightMammaryGland,#VHFemaleOrgans,VH_F_areola_R,Right female areola,FMA:223677,http://purl.obolibrary.org/obo/FMA_223677,3d-vh-f-mammary-gland-r
-#VHFRightMammaryGland,#VHFemaleOrgans,VH_F_main_lactiferous_sinuses_R,Lactiferous sinus,FMA:58088,http://purl.obolibrary.org/obo/FMA_58088,3d-vh-f-mammary-gland-r
-#VHFRightMammaryGland,#VHFemaleOrgans,VH_F_main_lactiferous_ducts_R,main lactiferous duct,UBERON:0015134,http://purl.obolibrary.org/obo/FMA_62102,3d-vh-f-mammary-gland-r
+#VHFRightMammaryGland,#VHFemaleOrgans,VH_F_areola_R,Right female areola,FMA:223677,http://purl.org/sig/ont/fma/fma223677,3d-vh-f-mammary-gland-r
+#VHFRightMammaryGland,#VHFemaleOrgans,VH_F_main_lactiferous_sinuses_R,Lactiferous sinus,FMA:58088,http://purl.org/sig/ont/fma/fma58088,3d-vh-f-mammary-gland-r
+#VHFRightMammaryGland,#VHFemaleOrgans,VH_F_main_lactiferous_ducts_R,main lactiferous duct,UBERON:0015134,http://purl.org/sig/ont/fma/fma62102,3d-vh-f-mammary-gland-r
 #VHFRightMammaryGland,#VHFemaleOrgans,VH_F_mammary_lobes_R,mammary lobe,UBERON:0018140,http://purl.obolibrary.org/obo/UBERON_0018140,3d-vh-f-mammary-gland-r
-#VHFRightMammaryGland,#VHFemaleOrgans,VH_F_suspensory_ligaments_R,Suspensory ligament of right breast,FMA:73118,http://purl.obolibrary.org/obo/FMA_73118,3d-vh-f-mammary-gland-r
+#VHFRightMammaryGland,#VHFemaleOrgans,VH_F_suspensory_ligaments_R,Suspensory ligament of right breast,FMA:73118,http://purl.org/sig/ont/fma/fma73118,3d-vh-f-mammary-gland-r
 -,#VHFemaleOrgans,VH_F_nervous_system,central nervous system,UBERON:0001017,http://purl.obolibrary.org/obo/UBERON_0001017,3d-vh-f-united
 -,#VHFemaleOrgans,VH_F_eyes,eye,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970,VH_F_Eye_L
 #VHFLeftEye,#VHFemaleOrgans,VH_F_eye_L,left eye,UBERON:0004548,http://purl.obolibrary.org/obo/UBERON_0004548,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_palpebral_conjunctiva_of_left_lower_eyelid,Palpebral conjunctiva of left lower eyelid,FMA:223075,http://purl.obolibrary.org/obo/FMA_223075,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_palpebral_conjunctiva_of_left_upper_eyelid,Palpebral conjunctiva of left upper eyelid,FMA:223078,http://purl.obolibrary.org/obo/FMA_223078,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_bulbar_conjunctiva_L,Left bulbar conjunctiva,FMA:59029,http://purl.obolibrary.org/obo/FMA_59029,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_ora_serrata_of_retina_L,Left ora serrata,FMA:58602,http://purl.obolibrary.org/obo/FMA_58602,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_corneo_scleral_junction_L,Left corneoscleral junction,FMA:58344,http://purl.obolibrary.org/obo/FMA_58344,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_palpebral_conjunctiva_of_left_lower_eyelid,Palpebral conjunctiva of left lower eyelid,FMA:223075,http://purl.org/sig/ont/fma/fma223075,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_palpebral_conjunctiva_of_left_upper_eyelid,Palpebral conjunctiva of left upper eyelid,FMA:223078,http://purl.org/sig/ont/fma/fma223078,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_bulbar_conjunctiva_L,Left bulbar conjunctiva,FMA:59029,http://purl.org/sig/ont/fma/fma59029,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_ora_serrata_of_retina_L,Left ora serrata,FMA:58602,http://purl.org/sig/ont/fma/fma58602,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_corneo_scleral_junction_L,Left corneoscleral junction,FMA:58344,http://purl.org/sig/ont/fma/fma58344,VH_F_Eye_L
 #VHFLeftEye,#VHFemaleOrgans,VH_F_pupil_L,left pupil,UBERON:0010223,http://purl.obolibrary.org/obo/UBERON_0010223,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_cornea_L,Left cornea,FMA:58240,http://purl.obolibrary.org/obo/FMA_58240,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_ciliary_body_L,Left ciliary body,FMA:58297,http://purl.obolibrary.org/obo/FMA_58297,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_ciliary_muscle_L,Left ciliary muscle,FMA:49153,http://purl.obolibrary.org/obo/FMA_49153,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_cornea_L,Left cornea,FMA:58240,http://purl.org/sig/ont/fma/fma58240,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_ciliary_body_L,Left ciliary body,FMA:58297,http://purl.org/sig/ont/fma/fma58297,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_ciliary_muscle_L,Left ciliary muscle,FMA:49153,http://purl.org/sig/ont/fma/fma49153,VH_F_Eye_L
 #VHFLeftEye,#VHFemaleOrgans,VH_F_trabecular_meshwork_L,eye trabecular meshwork,UBERON:0005969,http://purl.obolibrary.org/obo/UBERON_0005969,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_aqueous_humor_L,Aqueous humor of left eyeball,FMA:58821,http://purl.obolibrary.org/obo/FMA_58821,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_schlemms_canal_L,Left scleral venous sinus,FMA:51875,http://purl.obolibrary.org/obo/FMA_51875,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_optic_choroid_L,Left choroid,FMA:58300,http://purl.obolibrary.org/obo/FMA_58300,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_iris_L,Left iris,FMA:58237,http://purl.obolibrary.org/obo/FMA_58237,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_lens_L,Left lens,FMA:58243,http://purl.obolibrary.org/obo/FMA_58243,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_vitreous_humor_L,Humor of left vitreous body,FMA:261238,http://purl.obolibrary.org/obo/FMA_261238,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_suspensory_ligament_of_lens_L,Suspensory ligament of left lens,FMA:58840,http://purl.obolibrary.org/obo/FMA_58840,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_aqueous_humor_L,Aqueous humor of left eyeball,FMA:58821,http://purl.org/sig/ont/fma/fma58821,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_schlemms_canal_L,Left scleral venous sinus,FMA:51875,http://purl.org/sig/ont/fma/fma51875,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_optic_choroid_L,Left choroid,FMA:58300,http://purl.org/sig/ont/fma/fma58300,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_iris_L,Left iris,FMA:58237,http://purl.org/sig/ont/fma/fma58237,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_lens_L,Left lens,FMA:58243,http://purl.org/sig/ont/fma/fma58243,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_vitreous_humor_L,Humor of left vitreous body,FMA:261238,http://purl.org/sig/ont/fma/fma261238,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_suspensory_ligament_of_lens_L,Suspensory ligament of left lens,FMA:58840,http://purl.org/sig/ont/fma/fma58840,VH_F_Eye_L
 #VHFLeftEye,#VHFemaleOrgans,VH_F_ciliary_processes_L,ciliary processes,UBERON:0010427,http://purl.obolibrary.org/obo/UBERON_0010427,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_retina_L,Left retina,FMA:58303,http://purl.obolibrary.org/obo/FMA_58303,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_fovea_L,Left fovea centralis,FMA:58663,http://purl.obolibrary.org/obo/FMA_58663,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_macula_lutea_L,Left macula lutea,FMA:58639,http://purl.obolibrary.org/obo/FMA_58639,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_optic_disc_L,Left optic disc,FMA:58636,http://purl.obolibrary.org/obo/FMA_58636,VH_F_Eye_L
-#VHFLeftEye,#VHFemaleOrgans,VH_F_sclera_L,Left sclera,FMA:58272,http://purl.obolibrary.org/obo/FMA_58272,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_retina_L,Left retina,FMA:58303,http://purl.org/sig/ont/fma/fma58303,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_fovea_L,Left fovea centralis,FMA:58663,http://purl.org/sig/ont/fma/fma58663,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_macula_lutea_L,Left macula lutea,FMA:58639,http://purl.org/sig/ont/fma/fma58639,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_optic_disc_L,Left optic disc,FMA:58636,http://purl.org/sig/ont/fma/fma58636,VH_F_Eye_L
+#VHFLeftEye,#VHFemaleOrgans,VH_F_sclera_L,Left sclera,FMA:58272,http://purl.org/sig/ont/fma/fma58272,VH_F_Eye_L
 #VHFRightEye,#VHFemaleOrgans,VH_F_eye_R,right eye,UBERON:0004549,http://purl.obolibrary.org/obo/UBERON_0004549,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_sclera_R,Right sclera,FMA:58271,http://purl.obolibrary.org/obo/FMA_58271,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_iris_R,Right iris,FMA:58236,http://purl.obolibrary.org/obo/FMA_58236,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_schlemms_canal_R,Right scleral venous sinus,FMA:51874,http://purl.obolibrary.org/obo/FMA_51874,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_sclera_R,Right sclera,FMA:58271,http://purl.org/sig/ont/fma/fma58271,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_iris_R,Right iris,FMA:58236,http://purl.org/sig/ont/fma/fma58236,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_schlemms_canal_R,Right scleral venous sinus,FMA:51874,http://purl.org/sig/ont/fma/fma51874,VH_F_Eye_R
 #VHFRightEye,#VHFemaleOrgans,VH_F_trabecular_meshwork_R,eye trabecular meshwork,UBERON:0005969,http://purl.obolibrary.org/obo/UBERON_0005969,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_optic_choroid_R,Right choroid,FMA:58299,http://purl.obolibrary.org/obo/FMA_58299,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_ciliary_body_R,Right ciliary body,FMA:58296,http://purl.obolibrary.org/obo/FMA_58296,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_ciliary_muscle_R,Right ciliary muscle,FMA:49152,http://purl.obolibrary.org/obo/FMA_49152,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_aqueous_humor_R,Aqueous humor of right eyeball,FMA:58820,http://purl.obolibrary.org/obo/FMA_58820,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_cornea_R,Right cornea,FMA:58239,http://purl.obolibrary.org/obo/FMA_58239,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_lens_R,Right lens,FMA:58242,http://purl.obolibrary.org/obo/FMA_58242,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_optic_choroid_R,Right choroid,FMA:58299,http://purl.org/sig/ont/fma/fma58299,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_ciliary_body_R,Right ciliary body,FMA:58296,http://purl.org/sig/ont/fma/fma58296,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_ciliary_muscle_R,Right ciliary muscle,FMA:49152,http://purl.org/sig/ont/fma/fma49152,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_aqueous_humor_R,Aqueous humor of right eyeball,FMA:58820,http://purl.org/sig/ont/fma/fma58820,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_cornea_R,Right cornea,FMA:58239,http://purl.org/sig/ont/fma/fma58239,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_lens_R,Right lens,FMA:58242,http://purl.org/sig/ont/fma/fma58242,VH_F_Eye_R
 #VHFRightEye,#VHFemaleOrgans,VH_F_pupil_R,right pupil,UBERON:0010224,http://purl.obolibrary.org/obo/UBERON_0010224,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_corneo_scleral_junction_R,Right corneoscleral junction,FMA:58343,http://purl.obolibrary.org/obo/FMA_58343,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_ora_serrata_of_retina_R,Right ora serrata,FMA:58601,http://purl.obolibrary.org/obo/FMA_58601,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_suspensory_ligament_of_lens_R,Suspensory ligament of right lens,FMA:58839,http://purl.obolibrary.org/obo/FMA_58839,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_corneo_scleral_junction_R,Right corneoscleral junction,FMA:58343,http://purl.org/sig/ont/fma/fma58343,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_ora_serrata_of_retina_R,Right ora serrata,FMA:58601,http://purl.org/sig/ont/fma/fma58601,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_suspensory_ligament_of_lens_R,Suspensory ligament of right lens,FMA:58839,http://purl.org/sig/ont/fma/fma58839,VH_F_Eye_R
 #VHFRightEye,#VHFemaleOrgans,VH_F_ciliary_processes_R,ciliary processes,UBERON:0010427,http://purl.obolibrary.org/obo/UBERON_0010427,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_retina_R,Right retina,FMA:58302,http://purl.obolibrary.org/obo/FMA_58302,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_fovea_R,Right fovea centralis,FMA:58661,http://purl.obolibrary.org/obo/FMA_58661,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_macula_lutea_R,Right macula lutea,FMA:58638,http://purl.obolibrary.org/obo/FMA_58638,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_optic_disc_R,Right optic disc,FMA:58635,http://purl.obolibrary.org/obo/FMA_58635,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_vitreous_humor_R,Humor of right vitreous body,FMA:261236,http://purl.obolibrary.org/obo/FMA_261236,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_bulbar_conjunctiva_R,Right bulbar conjunctiva,FMA:59028,http://purl.obolibrary.org/obo/FMA_59028,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_palpebral_conjunctiva_of_right_lower_eyelid,Palpebral conjunctiva of right lower eyelid,FMA:223074,http://purl.obolibrary.org/obo/FMA_223074,VH_F_Eye_R
-#VHFRightEye,#VHFemaleOrgans,VH_F_palpebral_conjunctiva_of_right_upper_eyelid,Palpebral conjunctiva of right upper eyelid,FMA:223076,http://purl.obolibrary.org/obo/FMA_223076,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_retina_R,Right retina,FMA:58302,http://purl.org/sig/ont/fma/fma58302,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_fovea_R,Right fovea centralis,FMA:58661,http://purl.org/sig/ont/fma/fma58661,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_macula_lutea_R,Right macula lutea,FMA:58638,http://purl.org/sig/ont/fma/fma58638,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_optic_disc_R,Right optic disc,FMA:58635,http://purl.org/sig/ont/fma/fma58635,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_vitreous_humor_R,Humor of right vitreous body,FMA:261236,http://purl.org/sig/ont/fma/fma261236,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_bulbar_conjunctiva_R,Right bulbar conjunctiva,FMA:59028,http://purl.org/sig/ont/fma/fma59028,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_palpebral_conjunctiva_of_right_lower_eyelid,Palpebral conjunctiva of right lower eyelid,FMA:223074,http://purl.org/sig/ont/fma/fma223074,VH_F_Eye_R
+#VHFRightEye,#VHFemaleOrgans,VH_F_palpebral_conjunctiva_of_right_upper_eyelid,Palpebral conjunctiva of right upper eyelid,FMA:223076,http://purl.org/sig/ont/fma/fma223076,VH_F_Eye_R
 -,#VHFemaleOrgans,VH_F_nerves_of_eye,-,-,-,3d-vh-f-united
 -,#VHFemaleOrgans,VH_F_nerves_of_eye_R,-,-,-,VH_F_Nerves_Eye_R
-#VHFNervesRightEye,#VHFemaleOrgans,VH_F_right_optic_nerve,Right optic nerve,FMA:50875,http://purl.obolibrary.org/obo/FMA_50875,VH_F_Nerves_Eye_R
+#VHFNervesRightEye,#VHFemaleOrgans,VH_F_right_optic_nerve,Right optic nerve,FMA:50875,http://purl.org/sig/ont/fma/fma50875,VH_F_Nerves_Eye_R
 #VHFNervesRightEye,#VHFemaleOrgans,VH_F_dura_mater_right,dura mater,UBERON:0002363,http://purl.obolibrary.org/obo/UBERON_0002363,VH_F_Nerves_Eye_R
 -,#VHFemaleOrgans,VH_F_nerves_of_eye_L,-,-,-,VH_F_Nerves_Eye_L
-#VHFNervesLeftEye,#VHFemaleOrgans,VH_F_left_optic_nerve,Left optic nerve,FMA:50878,http://purl.obolibrary.org/obo/FMA_50878,VH_F_Nerves_Eye_L
+#VHFNervesLeftEye,#VHFemaleOrgans,VH_F_left_optic_nerve,Left optic nerve,FMA:50878,http://purl.org/sig/ont/fma/fma50878,VH_F_Nerves_Eye_L
 #VHFNervesLeftEye,#VHFemaleOrgans,VH_F_dura_mater_left,dura mater,UBERON:0002363,http://purl.obolibrary.org/obo/UBERON_0002363,VH_F_Nerves_Eye_L
 #VHFAllenBrain,#VHFemaleOrgans,Allen_brain,brain,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955,Allen_F_Brain
 #VHFBrain,#VHFemaleOrgans,VH_F_optic_chiasm,optic chiasma,UBERON:0000959,http://purl.obolibrary.org/obo/UBERON_0000959,VH_F_Brain
@@ -405,29 +405,29 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHFSpinalCord,#VHFemaleOrgans,VH_F_fourth_sacral_spinal_cord_segment,fourth sacral spinal cord segment,UBERON:0006463,http://purl.obolibrary.org/obo/UBERON_0006463,VH_F_Spinal_Cord
 -,#VHFemaleOrgans,VH_F_muscular_system,muscle organ,UBERON:0001630,http://purl.obolibrary.org/obo/UBERON_0001630,3d-vh-f-united
 -,#VHFemaleOrgans,VH_F_muscles_of_eye,eye muscle,UBERON:0004277,http://purl.obolibrary.org/obo/UBERON_0004277,3d-vh-f-united
--,#VHFemaleOrgans,VH_F_ocular_muscles_L,Ocular muscle,FMA:49149,http://purl.obolibrary.org/obo/FMA_49149,VH_F_Muscles_Eye_L
-#VHFMusclesLeftEye,#VHFemaleOrgans,VH_F_superior_oblique_extraocular_muscle_L,Left superior oblique,FMA:49053,http://purl.obolibrary.org/obo/FMA_49053,VH_F_Muscles_Eye_L
-#VHFMusclesLeftEye,#VHFemaleOrgans,VH_F_lateral_rectus_extraocular_muscle_L,Left lateral rectus,FMA:49055,http://purl.obolibrary.org/obo/FMA_49055,VH_F_Muscles_Eye_L
-#VHFMusclesLeftEye,#VHFemaleOrgans,VH_F_inferior_oblique_extraocular_muscle_L,Left inferior oblique,FMA:49051,http://purl.obolibrary.org/obo/FMA_49051,VH_F_Muscles_Eye_L
-#VHFMusclesLeftEye,#VHFemaleOrgans,VH_F_inferior_rectus_extraocular_muscle_L,Left inferior rectus,FMA:49047,http://purl.obolibrary.org/obo/FMA_49047,VH_F_Muscles_Eye_L
-#VHFMusclesLeftEye,#VHFemaleOrgans,VH_F_superior_rectus_extraocular_muscle_L,Left superior rectus,FMA:49045,http://purl.obolibrary.org/obo/FMA_49045,VH_F_Muscles_Eye_L
-#VHFMusclesLeftEye,#VHFemaleOrgans,VH_F_levator_palpebrae_superioris_L,Left levator palpebrae superioris,FMA:49049,http://purl.obolibrary.org/obo/FMA_49049,VH_F_Muscles_Eye_L
-#VHFMusclesLeftEye,#VHFemaleOrgans,VH_F_medial_rectus_extraocular_muscle_L,Left medial rectus,FMA:49057,http://purl.obolibrary.org/obo/FMA_49057,VH_F_Muscles_Eye_L
+-,#VHFemaleOrgans,VH_F_ocular_muscles_L,Ocular muscle,FMA:49149,http://purl.org/sig/ont/fma/fma49149,VH_F_Muscles_Eye_L
+#VHFMusclesLeftEye,#VHFemaleOrgans,VH_F_superior_oblique_extraocular_muscle_L,Left superior oblique,FMA:49053,http://purl.org/sig/ont/fma/fma49053,VH_F_Muscles_Eye_L
+#VHFMusclesLeftEye,#VHFemaleOrgans,VH_F_lateral_rectus_extraocular_muscle_L,Left lateral rectus,FMA:49055,http://purl.org/sig/ont/fma/fma49055,VH_F_Muscles_Eye_L
+#VHFMusclesLeftEye,#VHFemaleOrgans,VH_F_inferior_oblique_extraocular_muscle_L,Left inferior oblique,FMA:49051,http://purl.org/sig/ont/fma/fma49051,VH_F_Muscles_Eye_L
+#VHFMusclesLeftEye,#VHFemaleOrgans,VH_F_inferior_rectus_extraocular_muscle_L,Left inferior rectus,FMA:49047,http://purl.org/sig/ont/fma/fma49047,VH_F_Muscles_Eye_L
+#VHFMusclesLeftEye,#VHFemaleOrgans,VH_F_superior_rectus_extraocular_muscle_L,Left superior rectus,FMA:49045,http://purl.org/sig/ont/fma/fma49045,VH_F_Muscles_Eye_L
+#VHFMusclesLeftEye,#VHFemaleOrgans,VH_F_levator_palpebrae_superioris_L,Left levator palpebrae superioris,FMA:49049,http://purl.org/sig/ont/fma/fma49049,VH_F_Muscles_Eye_L
+#VHFMusclesLeftEye,#VHFemaleOrgans,VH_F_medial_rectus_extraocular_muscle_L,Left medial rectus,FMA:49057,http://purl.org/sig/ont/fma/fma49057,VH_F_Muscles_Eye_L
 -,#VHFemaleOrgans,VH_F_ocular_muscles_R,-,-,-,VH_F_Muscles_Eye_R
-#VHFMusclesRightEye,#VHFemaleOrgans,VH_F_medial_rectus_extraocular_muscle_R,Right medial rectus,FMA:49056,http://purl.obolibrary.org/obo/FMA_49056,VH_F_Muscles_Eye_R
-#VHFMusclesRightEye,#VHFemaleOrgans,VH_F_levator_palpebrae_superioris_R,Right levator palpebrae superioris,FMA:49048,http://purl.obolibrary.org/obo/FMA_49048,VH_F_Muscles_Eye_R
-#VHFMusclesRightEye,#VHFemaleOrgans,VH_F_superior_rectus_extraocular_muscle_R,Right superior rectus,FMA:49044,http://purl.obolibrary.org/obo/FMA_49044,VH_F_Muscles_Eye_R
-#VHFMusclesRightEye,#VHFemaleOrgans,VH_F_inferior_rectus_extraocular_muscle_R,Right inferior rectus,FMA:49046,http://purl.obolibrary.org/obo/FMA_49046,VH_F_Muscles_Eye_R
-#VHFMusclesRightEye,#VHFemaleOrgans,VH_F_inferior_oblique_extraocular_muscle_R,Right inferior oblique,FMA:49050,http://purl.obolibrary.org/obo/FMA_49050,VH_F_Muscles_Eye_R
-#VHFMusclesRightEye,#VHFemaleOrgans,VH_F_lateral_rectus_extraocular_muscle_R,Right lateral rectus,FMA:49054,http://purl.obolibrary.org/obo/FMA_49054,VH_F_Muscles_Eye_R
-#VHFMusclesRightEye,#VHFemaleOrgans,VH_F_superior_oblique_extraocular_muscle_R,Right superior oblique,FMA:49052,http://purl.obolibrary.org/obo/FMA_49052,VH_F_Muscles_Eye_R
+#VHFMusclesRightEye,#VHFemaleOrgans,VH_F_medial_rectus_extraocular_muscle_R,Right medial rectus,FMA:49056,http://purl.org/sig/ont/fma/fma49056,VH_F_Muscles_Eye_R
+#VHFMusclesRightEye,#VHFemaleOrgans,VH_F_levator_palpebrae_superioris_R,Right levator palpebrae superioris,FMA:49048,http://purl.org/sig/ont/fma/fma49048,VH_F_Muscles_Eye_R
+#VHFMusclesRightEye,#VHFemaleOrgans,VH_F_superior_rectus_extraocular_muscle_R,Right superior rectus,FMA:49044,http://purl.org/sig/ont/fma/fma49044,VH_F_Muscles_Eye_R
+#VHFMusclesRightEye,#VHFemaleOrgans,VH_F_inferior_rectus_extraocular_muscle_R,Right inferior rectus,FMA:49046,http://purl.org/sig/ont/fma/fma49046,VH_F_Muscles_Eye_R
+#VHFMusclesRightEye,#VHFemaleOrgans,VH_F_inferior_oblique_extraocular_muscle_R,Right inferior oblique,FMA:49050,http://purl.org/sig/ont/fma/fma49050,VH_F_Muscles_Eye_R
+#VHFMusclesRightEye,#VHFemaleOrgans,VH_F_lateral_rectus_extraocular_muscle_R,Right lateral rectus,FMA:49054,http://purl.org/sig/ont/fma/fma49054,VH_F_Muscles_Eye_R
+#VHFMusclesRightEye,#VHFemaleOrgans,VH_F_superior_oblique_extraocular_muscle_R,Right superior oblique,FMA:49052,http://purl.org/sig/ont/fma/fma49052,VH_F_Muscles_Eye_R
 -,#VHFemaleOrgans,VH_F_muscles_of_knee,-,-,-,3d-vh-f-united
 -,#VHFemaleOrgans,VH_F_muscles_of_knee_L,-,-,-,VH_F_Muscles_Knee_L
-#VHFMusclesLeftKnee,#VHFemaleOrgans,VH_F_rectus_femoris_L,Left rectus femoris,FMA:38929,http://purl.obolibrary.org/obo/FMA_38929,VH_F_Muscles_Knee_L
-#VHFMusclesLeftKnee,#VHFemaleOrgans,VH_F_tendon_of_quadriceps_femoris_L,Tendon of left quadriceps femoris,FMA:46902,http://purl.obolibrary.org/obo/FMA_46902,VH_F_Muscles_Knee_L
+#VHFMusclesLeftKnee,#VHFemaleOrgans,VH_F_rectus_femoris_L,Left rectus femoris,FMA:38929,http://purl.org/sig/ont/fma/fma38929,VH_F_Muscles_Knee_L
+#VHFMusclesLeftKnee,#VHFemaleOrgans,VH_F_tendon_of_quadriceps_femoris_L,Tendon of left quadriceps femoris,FMA:46902,http://purl.org/sig/ont/fma/fma46902,VH_F_Muscles_Knee_L
 -,#VHFemaleOrgans,VH_F_muscles_of_knee_R,-,-,-,VH_F_Muscles_Knee_R
-#VHFMusclesRightKnee,#VHFemaleOrgans,VH_F_rectus_femoris_R,Right rectus femoris,FMA:38928,http://purl.obolibrary.org/obo/FMA_38928,VH_F_Muscles_Knee_R
-#VHFMusclesRightKnee,#VHFemaleOrgans,VH_F_tendon_of_quadriceps_femoris_R,Tendon of right quadriceps femoris,FMA:46901,http://purl.obolibrary.org/obo/FMA_46901,VH_F_Muscles_Knee_R
+#VHFMusclesRightKnee,#VHFemaleOrgans,VH_F_rectus_femoris_R,Right rectus femoris,FMA:38928,http://purl.org/sig/ont/fma/fma38928,VH_F_Muscles_Knee_R
+#VHFMusclesRightKnee,#VHFemaleOrgans,VH_F_tendon_of_quadriceps_femoris_R,Tendon of right quadriceps femoris,FMA:46901,http://purl.org/sig/ont/fma/fma46901,VH_F_Muscles_Knee_R
 -,#VHFemaleOrgans,VH_F_reproductive_system,female reproductive system,UBERON:0000474,http://purl.obolibrary.org/obo/UBERON_0000474,3d-vh-f-united
 #VHFPlacenta,#VHFemaleOrgans,VH_F_placenta,placenta,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987,VH_F_Placenta
 #VHFPlacenta,#VHFemaleOrgans,VH_F_basal_plate,-,-,-,VH_F_Placenta
@@ -443,50 +443,50 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHFUterus,#VHFemaleOrgans,VH_F_cervicovaginal_junction,-,-,-,VH_F_Uterus
 -,#VHFemaleOrgans,VH_F_fallopian_tube,-,-,-,3d-vh-f-united
 #VHFRightFallopianTube,#VHFemaleOrgans,VH_F_fallopian_tube_R,right uterine tube,UBERON:0001302,http://purl.obolibrary.org/obo/UBERON_0001302,VH_F_Fallopian_Tube_R
-#VHFRightFallopianTube,#VHFemaleOrgans,VH_F_ampulla_of_uterine_tube_R,Ampulla of right uterine tube,FMA:18491,http://purl.obolibrary.org/obo/FMA_18491,VH_F_Fallopian_Tube_R
-#VHFRightFallopianTube,#VHFemaleOrgans,VH_F_isthmus_of_fallopian_tube_R,Isthmus of right uterine tube,FMA:18493,http://purl.obolibrary.org/obo/FMA_18493,VH_F_Fallopian_Tube_R
-#VHFRightFallopianTube,#VHFemaleOrgans,VH_F_fibria_of_uterine_tube_R,Fimbria of right uterine tube,FMA:18497,http://purl.obolibrary.org/obo/FMA_18497,VH_F_Fallopian_Tube_R
-#VHFRightFallopianTube,#VHFemaleOrgans,VH_F_uterine_tube_infundibulum_R,Infundibulum of right uterine tube,FMA:18489,http://purl.obolibrary.org/obo/FMA_18489,VH_F_Fallopian_Tube_R
+#VHFRightFallopianTube,#VHFemaleOrgans,VH_F_ampulla_of_uterine_tube_R,Ampulla of right uterine tube,FMA:18491,http://purl.org/sig/ont/fma/fma18491,VH_F_Fallopian_Tube_R
+#VHFRightFallopianTube,#VHFemaleOrgans,VH_F_isthmus_of_fallopian_tube_R,Isthmus of right uterine tube,FMA:18493,http://purl.org/sig/ont/fma/fma18493,VH_F_Fallopian_Tube_R
+#VHFRightFallopianTube,#VHFemaleOrgans,VH_F_fibria_of_uterine_tube_R,Fimbria of right uterine tube,FMA:18497,http://purl.org/sig/ont/fma/fma18497,VH_F_Fallopian_Tube_R
+#VHFRightFallopianTube,#VHFemaleOrgans,VH_F_uterine_tube_infundibulum_R,Infundibulum of right uterine tube,FMA:18489,http://purl.org/sig/ont/fma/fma18489,VH_F_Fallopian_Tube_R
 #VHFLeftFallopianTube,#VHFemaleOrgans,VH_F_fallopian_tube_L,left uterine tube,UBERON:0001303,http://purl.obolibrary.org/obo/UBERON_0001303,VH_F_Fallopian_Tube_L
-#VHFLeftFallopianTube,#VHFemaleOrgans,VH_F_uterine_tube_infundibulum_L,Infundibulum of left uterine tube,FMA:18490,http://purl.obolibrary.org/obo/FMA_18490,VH_F_Fallopian_Tube_L
-#VHFLeftFallopianTube,#VHFemaleOrgans,VH_F_fibria_of_uterine_tube_L,Fimbria of left uterine tube,FMA:18498,http://purl.obolibrary.org/obo/FMA_18498,VH_F_Fallopian_Tube_L
-#VHFLeftFallopianTube,#VHFemaleOrgans,VH_F_isthmus_of_fallopian_tube_L,Isthmus of left uterine tube,FMA:18494,http://purl.obolibrary.org/obo/FMA_18494,VH_F_Fallopian_Tube_L
-#VHFLeftFallopianTube,#VHFemaleOrgans,VH_F_ampulla_of_uterine_tube_L,Ampulla of left uterine tube,FMA:18492,http://purl.obolibrary.org/obo/FMA_18492,VH_F_Fallopian_Tube_L
+#VHFLeftFallopianTube,#VHFemaleOrgans,VH_F_uterine_tube_infundibulum_L,Infundibulum of left uterine tube,FMA:18490,http://purl.org/sig/ont/fma/fma18490,VH_F_Fallopian_Tube_L
+#VHFLeftFallopianTube,#VHFemaleOrgans,VH_F_fibria_of_uterine_tube_L,Fimbria of left uterine tube,FMA:18498,http://purl.org/sig/ont/fma/fma18498,VH_F_Fallopian_Tube_L
+#VHFLeftFallopianTube,#VHFemaleOrgans,VH_F_isthmus_of_fallopian_tube_L,Isthmus of left uterine tube,FMA:18494,http://purl.org/sig/ont/fma/fma18494,VH_F_Fallopian_Tube_L
+#VHFLeftFallopianTube,#VHFemaleOrgans,VH_F_ampulla_of_uterine_tube_L,Ampulla of left uterine tube,FMA:18492,http://purl.org/sig/ont/fma/fma18492,VH_F_Fallopian_Tube_L
 -,#VHFemaleOrgans,VH_F_ligaments_of_uterus_and_ovaries,-,-,-,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_uterovesical_pouch,Uterovesical pouch,FMA:14729,http://purl.obolibrary.org/obo/FMA_14729,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_uterovesical_pouch,Uterovesical pouch,FMA:14729,http://purl.org/sig/ont/fma/fma14729,VH_F_Ligaments_Uterus_Ovaries
 -,#VHFemaleOrgans,VH_F_round_ligament_of_uterus,-,-,-,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_right_round_ligament_of_uterus,Right round ligament of uterus,FMA:57789,http://purl.obolibrary.org/obo/FMA_57789,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_left_round_ligament_of_uterus,Left round ligament of uterus,FMA:57790,http://purl.obolibrary.org/obo/FMA_57790,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_right_round_ligament_of_uterus,Right round ligament of uterus,FMA:57789,http://purl.org/sig/ont/fma/fma57789,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_left_round_ligament_of_uterus,Left round ligament of uterus,FMA:57790,http://purl.org/sig/ont/fma/fma57790,VH_F_Ligaments_Uterus_Ovaries
 -,#VHFemaleOrgans,VH_F_uterosacral_ligament,-,-,-,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_right_uterosacral_ligament,Right uterosacral ligament,FMA:19119,http://purl.obolibrary.org/obo/FMA_19119,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_left_uterosacral_ligament,Left uterosacral ligament,FMA:19120,http://purl.obolibrary.org/obo/FMA_19120,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_cardinal_ligament_of_uterus,Cardinal ligament,FMA:77064,http://purl.obolibrary.org/obo/FMA_77064,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_right_cardinal_ligament_of_uterus,Cardinal ligament,FMA:77064,http://purl.obolibrary.org/obo/FMA_77064,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_left_cardinal_ligament_of_uterus,Cardinal ligament,FMA:77064,http://purl.obolibrary.org/obo/FMA_77064,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_right_uterosacral_ligament,Right uterosacral ligament,FMA:19119,http://purl.org/sig/ont/fma/fma19119,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_left_uterosacral_ligament,Left uterosacral ligament,FMA:19120,http://purl.org/sig/ont/fma/fma19120,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_cardinal_ligament_of_uterus,Cardinal ligament,FMA:77064,http://purl.org/sig/ont/fma/fma77064,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_right_cardinal_ligament_of_uterus,Cardinal ligament,FMA:77064,http://purl.org/sig/ont/fma/fma77064,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_left_cardinal_ligament_of_uterus,Cardinal ligament,FMA:77064,http://purl.org/sig/ont/fma/fma77064,VH_F_Ligaments_Uterus_Ovaries
 -,#VHFemaleOrgans,VH_F_suspensory_ligament_of_ovary,-,-,-,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_suspensory_ligament_of_ovary_R,Suspensory ligament of right ovary,FMA:19823,http://purl.obolibrary.org/obo/FMA_19823,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_suspensory_ligament_of_ovary_L,Suspensory ligament of left ovary,FMA:19824,http://purl.obolibrary.org/obo/FMA_19824,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_suspensory_ligament_of_ovary_R,Suspensory ligament of right ovary,FMA:19823,http://purl.org/sig/ont/fma/fma19823,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_suspensory_ligament_of_ovary_L,Suspensory ligament of left ovary,FMA:19824,http://purl.org/sig/ont/fma/fma19824,VH_F_Ligaments_Uterus_Ovaries
 -,#VHFemaleOrgans,VH_F_ovarian_ligament,-,-,-,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_ovarian_ligament_L,Left ovarian ligament,FMA:55424,http://purl.obolibrary.org/obo/FMA_55424,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_ovarian_ligament_R,Right ovarian ligament,FMA:55423,http://purl.obolibrary.org/obo/FMA_55423,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_ovarian_ligament_L,Left ovarian ligament,FMA:55424,http://purl.org/sig/ont/fma/fma55424,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_ovarian_ligament_R,Right ovarian ligament,FMA:55423,http://purl.org/sig/ont/fma/fma55423,VH_F_Ligaments_Uterus_Ovaries
 #VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_broad_ligament,broad ligament of uterus,UBERON:0012332,http://purl.obolibrary.org/obo/UBERON_0012332,VH_F_Ligaments_Uterus_Ovaries
 -,#VHFemaleOrgans,VH_F_mesosalpinx,-,-,-,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_mesosalpinx_L,Left mesosalpinx,FMA:19810,http://purl.obolibrary.org/obo/FMA_19810,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_mesosalpinx_R,Right mesosalpinx,FMA:19809,http://purl.obolibrary.org/obo/FMA_19809,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_mesosalpinx_L,Left mesosalpinx,FMA:19810,http://purl.org/sig/ont/fma/fma19810,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_mesosalpinx_R,Right mesosalpinx,FMA:19809,http://purl.org/sig/ont/fma/fma19809,VH_F_Ligaments_Uterus_Ovaries
 -,#VHFemaleOrgans,VH_F_mesovarium,-,-,-,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_mesovarium_R,Right mesovarium,FMA:19817,http://purl.obolibrary.org/obo/FMA_19817,VH_F_Ligaments_Uterus_Ovaries
-#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_mesovarium_L,Left mesovarium,FMA:19818,http://purl.obolibrary.org/obo/FMA_19818,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_mesovarium_R,Right mesovarium,FMA:19817,http://purl.org/sig/ont/fma/fma19817,VH_F_Ligaments_Uterus_Ovaries
+#VHFLigamentsUterusOvaries,#VHFemaleOrgans,VH_F_mesovarium_L,Left mesovarium,FMA:19818,http://purl.org/sig/ont/fma/fma19818,VH_F_Ligaments_Uterus_Ovaries
 -,#VHFemaleOrgans,VH_F_ovary,-,-,-,VH_F_Ligaments_Uterus_Ovaries
-#VHFLeftOvary,#VHFemaleOrgans,VH_F_left_ovary,Left ovary,FMA:7214,http://purl.obolibrary.org/obo/FMA_7214,VH_F_Ovary_L
-#VHFRightOvary,#VHFemaleOrgans,VH_F_right_ovary,Right ovary,FMA:7213,http://purl.obolibrary.org/obo/FMA_7213,VH_F_Ovary_R
+#VHFLeftOvary,#VHFemaleOrgans,VH_F_left_ovary,Left ovary,FMA:7214,http://purl.org/sig/ont/fma/fma7214,VH_F_Ovary_L
+#VHFRightOvary,#VHFemaleOrgans,VH_F_right_ovary,Right ovary,FMA:7213,http://purl.org/sig/ont/fma/fma7213,VH_F_Ovary_R
 #VHFUterus,#VHFemaleOrgans,VH_F_uterus,uterus,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995,VH_F_Uterus
-#VHFUterus,#VHFemaleOrgans,VH_F_abdominal_ostium_of_uterine_tube,Abdominal ostium of uterine tube,FMA:77049,http://purl.obolibrary.org/obo/FMA_77049,VH_F_Uterus
+#VHFUterus,#VHFemaleOrgans,VH_F_abdominal_ostium_of_uterine_tube,Abdominal ostium of uterine tube,FMA:77049,http://purl.org/sig/ont/fma/fma77049,VH_F_Uterus
 #VHFUterus,#VHFemaleOrgans,VH_F_body_of_uterus,body of uterus,UBERON:0009853,http://purl.obolibrary.org/obo/UBERON_0009853,VH_F_Uterus
-#VHFUterus,#VHFemaleOrgans,VH_F_fundus_of_uterus,Fundus of uterus,FMA:17561,http://purl.obolibrary.org/obo/FMA_17561,VH_F_Uterus
+#VHFUterus,#VHFemaleOrgans,VH_F_fundus_of_uterus,Fundus of uterus,FMA:17561,http://purl.org/sig/ont/fma/fma17561,VH_F_Uterus
 #VHFUterus,#VHFemaleOrgans,VH_F_cornua,-,-,-,VH_F_Uterus
-#VHFUterus,#VHFemaleOrgans,VH_F_lower_uterine_segment,Lower uterine segment,FMA:17752,http://purl.obolibrary.org/obo/FMA_17752,VH_F_Uterus
-#VHFUterus,#VHFemaleOrgans,VH_F_posterior_wall_of_uterus,Posterior wall of uterus,FMA:224878,http://purl.obolibrary.org/obo/FMA_224878,VH_F_Uterus
-#VHFUterus,#VHFemaleOrgans,VH_F_anterior_wall_of_uterus,Anterior wall of uterus,FMA:224876,http://purl.obolibrary.org/obo/FMA_224876,VH_F_Uterus
+#VHFUterus,#VHFemaleOrgans,VH_F_lower_uterine_segment,Lower uterine segment,FMA:17752,http://purl.org/sig/ont/fma/fma17752,VH_F_Uterus
+#VHFUterus,#VHFemaleOrgans,VH_F_posterior_wall_of_uterus,Posterior wall of uterus,FMA:224878,http://purl.org/sig/ont/fma/fma224878,VH_F_Uterus
+#VHFUterus,#VHFemaleOrgans,VH_F_anterior_wall_of_uterus,Anterior wall of uterus,FMA:224876,http://purl.org/sig/ont/fma/fma224876,VH_F_Uterus
 #VHFUterus,#VHFemaleOrgans,VH_F_cervix,uterine cervix,UBERON:0000002,http://purl.obolibrary.org/obo/UBERON_0000002,VH_F_Uterus
 #VHFUterus,#VHFemaleOrgans,VH_F_internal_cervical_os,internal cervical os,UBERON:0013759,http://purl.obolibrary.org/obo/UBERON_0013759,VH_F_Uterus
 #VHFUterus,#VHFemaleOrgans,VH_F_external_cervical_os,external cervical os,UBERON:0013760,http://purl.obolibrary.org/obo/UBERON_0013760,VH_F_Uterus
@@ -504,15 +504,15 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHFLargeIntestine,#VHFemaleOrgans,VH_F_splenic_flexure_of_colon,splenic flexure of colon,UBERON:0022276,http://purl.obolibrary.org/obo/UBERON_0022276,SBU_F_Intestine_Large
 #VHFSmallIntestine,#VHFemaleOrgans,VH_F_small_intestine,small intestine,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108,VH_F_Small_Intestine
 #VHFSmallIntestine,#VHFemaleOrgans,VH_F_duodenum,duodenum,UBERON:0002114,http://purl.obolibrary.org/obo/UBERON_0002114,VH_F_Small_Intestine
-#VHFSmallIntestine,#VHFemaleOrgans,VH_F_duodenum_superior,superior part of duodenum,FMA:7206,http://purl.obolibrary.org/obo/FMA_14926,VH_F_Small_Intestine
+#VHFSmallIntestine,#VHFemaleOrgans,VH_F_duodenum_superior,superior part of duodenum,FMA:7206,http://purl.org/sig/ont/fma/fma14926,VH_F_Small_Intestine
 #VHFSmallIntestine,#VHFemaleOrgans,VH_F_duodenal_ampulla,duodenal ampulla,UBERON:0013644,http://purl.obolibrary.org/obo/UBERON_0013644,VH_F_Small_Intestine
-#VHFSmallIntestine,#VHFemaleOrgans,VH_F_duodenum_descending,descending part of duodenum,FMA:14928,http://purl.obolibrary.org/obo/FMA_14928,VH_F_Small_Intestine
-#VHFSmallIntestine,#VHFemaleOrgans,VH_F_sphincter_of_heptopancreatic_ampulla,Sphincter of hepatopancreatic ampulla,FMA:15077,http://purl.obolibrary.org/obo/FMA_15077,VH_F_Small_Intestine
-#VHFSmallIntestine,#VHFemaleOrgans,VH_F_duodenum_ascending,ascending part of duodenum,FMA:14930,http://purl.obolibrary.org/obo/FMA_14930,VH_F_Small_Intestine
-#VHFSmallIntestine,#VHFemaleOrgans,VH_F_duodenum_horizontal,horizontal part of duodenum,FMA:14929,http://purl.obolibrary.org/obo/FMA_14929,VH_F_Small_Intestine
+#VHFSmallIntestine,#VHFemaleOrgans,VH_F_duodenum_descending,descending part of duodenum,FMA:14928,http://purl.org/sig/ont/fma/fma14928,VH_F_Small_Intestine
+#VHFSmallIntestine,#VHFemaleOrgans,VH_F_sphincter_of_heptopancreatic_ampulla,Sphincter of hepatopancreatic ampulla,FMA:15077,http://purl.org/sig/ont/fma/fma15077,VH_F_Small_Intestine
+#VHFSmallIntestine,#VHFemaleOrgans,VH_F_duodenum_ascending,ascending part of duodenum,FMA:14930,http://purl.org/sig/ont/fma/fma14930,VH_F_Small_Intestine
+#VHFSmallIntestine,#VHFemaleOrgans,VH_F_duodenum_horizontal,horizontal part of duodenum,FMA:14929,http://purl.org/sig/ont/fma/fma14929,VH_F_Small_Intestine
 #VHFSmallIntestine,#VHFemaleOrgans,VH_F_jejenum,jejunum,UBERON:0002115,http://purl.obolibrary.org/obo/UBERON_0002115,VH_F_Small_Intestine
 #VHFSmallIntestine,#VHFemaleOrgans,VH_F_ileum,ileum,UBERON:0002116,http://purl.obolibrary.org/obo/UBERON_0002116,VH_F_Small_Intestine
-#VHFSmallIntestine,#VHFemaleOrgans,VH_F_ileum_terminal,distal part of ileum,FMA:14966,http://purl.obolibrary.org/obo/FMA_14966,VH_F_Small_Intestine
+#VHFSmallIntestine,#VHFemaleOrgans,VH_F_ileum_terminal,distal part of ileum,FMA:14966,http://purl.org/sig/ont/fma/fma14966,VH_F_Small_Intestine
 #VHFBiliaryTree,#VHFemaleOrgans,VH_F_biliary_tree,biliary tree,UBERON:0001173,http://purl.obolibrary.org/obo/UBERON_0001173,VH_F_Biliary_Tree
 #VHFBiliaryTree,#VHFemaleOrgans,VH_F_ducts_of_liver,-,-,-,VH_F_Biliary_Tree
 #VHFLiverDucts,#VHFemaleOrgans,VH_F_right_hepatic_duct,right hepatic duct,UBERON:0001176,http://purl.obolibrary.org/obo/UBERON_0001176,VH_F_Biliary_Tree
@@ -526,16 +526,16 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHFGallbladderDucts,#VHFemaleOrgans,VH_F_ducts_of_gallbladder,-,-,-,VH_F_Biliary_Tree
 #VHFGallbladderDucts,#VHFemaleOrgans,VH_F_cystic_duct,cystic duct,UBERON:0001152,http://purl.obolibrary.org/obo/UBERON_0001152,VH_F_Biliary_Tree
 #VHFLiver,#VHFemaleOrgans,VH_F_liver,liver,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107,VH_F_Liver
-#VHFLiver,#VHFemaleOrgans,VH_F_gastric_impression_of_liver,gastric impression of liver,FMA:14487,http://purl.obolibrary.org/obo/FMA_14487,VH_F_Liver
-#VHFLiver,#VHFemaleOrgans,VH_F_suprarenal_impression_of_liver,Suprarenal impression of liver,FMA:14489,http://purl.obolibrary.org/obo/FMA_14489,VH_F_Liver
-#VHFLiver,#VHFemaleOrgans,VH_F_renal_impression_of_liver,renal impression of liver,FMA:14488,http://purl.obolibrary.org/obo/FMA_14488,VH_F_Liver
-#VHFLiver,#VHFemaleOrgans,VH_F_duodenal_impression_of_liver,duodenal impression of liver,FMA:14485,http://purl.obolibrary.org/obo/FMA_14485,VH_F_Liver
-#VHFLiver,#VHFemaleOrgans,VH_F_esophageal_impression_of_liver,esophageal impression of liver,FMA:14486,http://purl.obolibrary.org/obo/FMA_14486,VH_F_Liver
-#VHFLiver,#VHFemaleOrgans,VH_F_porta_hepatis,porta hepatis,FMA:15758,http://purl.obolibrary.org/obo/FMA_15758,VH_F_Liver
-#VHFLiver,#VHFemaleOrgans,VH_F_colic_impression_of_liver,colic impression of liver,FMA:14484,http://purl.obolibrary.org/obo/FMA_14484,VH_F_Liver
+#VHFLiver,#VHFemaleOrgans,VH_F_gastric_impression_of_liver,gastric impression of liver,FMA:14487,http://purl.org/sig/ont/fma/fma14487,VH_F_Liver
+#VHFLiver,#VHFemaleOrgans,VH_F_suprarenal_impression_of_liver,Suprarenal impression of liver,FMA:14489,http://purl.org/sig/ont/fma/fma14489,VH_F_Liver
+#VHFLiver,#VHFemaleOrgans,VH_F_renal_impression_of_liver,renal impression of liver,FMA:14488,http://purl.org/sig/ont/fma/fma14488,VH_F_Liver
+#VHFLiver,#VHFemaleOrgans,VH_F_duodenal_impression_of_liver,duodenal impression of liver,FMA:14485,http://purl.org/sig/ont/fma/fma14485,VH_F_Liver
+#VHFLiver,#VHFemaleOrgans,VH_F_esophageal_impression_of_liver,esophageal impression of liver,FMA:14486,http://purl.org/sig/ont/fma/fma14486,VH_F_Liver
+#VHFLiver,#VHFemaleOrgans,VH_F_porta_hepatis,porta hepatis,FMA:15758,http://purl.org/sig/ont/fma/fma15758,VH_F_Liver
+#VHFLiver,#VHFemaleOrgans,VH_F_colic_impression_of_liver,colic impression of liver,FMA:14484,http://purl.org/sig/ont/fma/fma14484,VH_F_Liver
 #VHFLiver,#VHFemaleOrgans,VH_F_capsule_of_the_liver,capsule of the liver,UBERON:0016479,http://purl.obolibrary.org/obo/UBERON_0016479,VH_F_Liver
 #VHFLiver,#VHFemaleOrgans,VH_F_bare_area_of_liver,bare area of liver,UBERON:0001149,http://purl.obolibrary.org/obo/UBERON_0001149,VH_F_Liver
-#VHFLiver,#VHFemaleOrgans,VH_F_diaphragmatic_surface_of_liver,diaphragmatic surface of liver,FMA:15729,http://purl.obolibrary.org/obo/FMA_15729,VH_F_Liver
+#VHFLiver,#VHFemaleOrgans,VH_F_diaphragmatic_surface_of_liver,diaphragmatic surface of liver,FMA:15729,http://purl.org/sig/ont/fma/fma15729,VH_F_Liver
 -,#VHFemaleOrgans,VH_F_couinaud_liver_segment,-,-,-,VH_F_Liver
 #VHFLiver,#VHFemaleOrgans,VH_F_left_lobe_of_liver,left lobe of liver,UBERON:0001115,http://purl.obolibrary.org/obo/UBERON_0001115,VH_F_Liver
 #VHFLiver,#VHFemaleOrgans,VH_F_liver_left_lateral_lobe,liver left lateral lobe,UBERON:0006727,http://purl.obolibrary.org/obo/UBERON_0006727,VH_F_Liver
@@ -563,7 +563,7 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHFPancreas,#VHFemaleOrgans,VH_F_body_of_pancreas,body of pancreas,UBERON:0001150,http://purl.obolibrary.org/obo/UBERON_0001150,VH_F_Pancreas
 #VHFPancreas,#VHFemaleOrgans,VH_F_uncinate_process,uncinate process of pancreas,UBERON:0010373,http://purl.obolibrary.org/obo/UBERON_0010373,VH_F_Pancreas
 #VHFPancreas,#VHFemaleOrgans,VH_F_head_of_pancreas,head of pancreas,UBERON:0001069,http://purl.obolibrary.org/obo/UBERON_0001069,VH_F_Pancreas
-#VHFPancreas,#VHFemaleOrgans,VH_F_neck_of_pancreas,Neck of pancreas,FMA:14517,http://purl.obolibrary.org/obo/FMA_14517,VH_F_Pancreas
+#VHFPancreas,#VHFemaleOrgans,VH_F_neck_of_pancreas,Neck of pancreas,FMA:14517,http://purl.org/sig/ont/fma/fma14517,VH_F_Pancreas
 -,-,VH_F_gallbladder_,-,-,-,-
 #VHFGallbladder,#VHFemaleOrgans,VH_F_gallbladder,gallbladder,UBERON:0002110,http://purl.obolibrary.org/obo/UBERON_0002110,VH_F_Gallbladder
 -,#VHFemaleOrgans,VH_F_urinary_system,renal system,UBERON:0001008,http://purl.obolibrary.org/obo/UBERON_0001008,3d-vh-f-united
@@ -675,8 +675,8 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHFUrinaryBladder,#VHFemaleOrgans,VH_F_fundus_of_urinary_bladder_base,fundus of urinary bladder,UBERON:0006082,http://purl.obolibrary.org/obo/UBERON_0006082,VH_F_Urinary_Bladder
 #VHFUrinaryBladder,#VHFemaleOrgans,VH_F_trigone_of_urinary_bladder,trigone of urinary bladder,UBERON:0001257,http://purl.obolibrary.org/obo/UBERON_0001257,VH_F_Urinary_Bladder
 #VHFUrinaryBladder,#VHFemaleOrgans,VH_F_ureteral_orifice,-,-,-,VH_F_Urinary_Bladder
-#VHFUrinaryBladder,#VHFemaleOrgans,VH_F_ureteral_orifice_R,Right ureteral orifice,FMA:15939,http://purl.obolibrary.org/obo/FMA_15939,VH_F_Urinary_Bladder
-#VHFUrinaryBladder,#VHFemaleOrgans,VH_F_ureteral_orifice_L,Left ureteral orifice,FMA:15940,http://purl.obolibrary.org/obo/FMA_15940,VH_F_Urinary_Bladder
+#VHFUrinaryBladder,#VHFemaleOrgans,VH_F_ureteral_orifice_R,Right ureteral orifice,FMA:15939,http://purl.org/sig/ont/fma/fma15939,VH_F_Urinary_Bladder
+#VHFUrinaryBladder,#VHFemaleOrgans,VH_F_ureteral_orifice_L,Left ureteral orifice,FMA:15940,http://purl.org/sig/ont/fma/fma15940,VH_F_Urinary_Bladder
 -,#VHFemaleOrgans,VH_F_circulatory_system,circulatory system,UBERON:0001009,http://purl.obolibrary.org/obo/UBERON_0001009,VH_M_United
 #VHFHeartV1.1,#VHFemaleOrgans,VH_F_heart,heart,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948,VH_F_Heart
 -,#VHFemaleOrgans,VH_F_cardiac_chamber,-,-,-,VH_F_Heart
@@ -699,30 +699,30 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_blood_vasculature,blood vasculature,UBERON:0004537,http://purl.obolibrary.org/obo/UBERON_0004537,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_blood_vasculature_of_uterus,-,-,-,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_uterine_artery,-,-,-,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_left_uterine_artery,Left uterine artery,FMA:18831,http://purl.obolibrary.org/obo/FMA_18831,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_right_uterine_artery,Right uterine artery,FMA:18830,http://purl.obolibrary.org/obo/FMA_18830,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_left_uterine_artery,Left uterine artery,FMA:18831,http://purl.org/sig/ont/fma/fma18831,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_right_uterine_artery,Right uterine artery,FMA:18830,http://purl.org/sig/ont/fma/fma18830,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_uterine_vein,-,-,-,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_left_uterine_vein,Left uterine vein,FMA:18898,http://purl.obolibrary.org/obo/FMA_18898,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_right_uterine_vein,Right uterine vein,FMA:18897,http://purl.obolibrary.org/obo/FMA_18897,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_left_uterine_vein,Left uterine vein,FMA:18898,http://purl.org/sig/ont/fma/fma18898,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_right_uterine_vein,Right uterine vein,FMA:18897,http://purl.org/sig/ont/fma/fma18897,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_blood_vasculature_of_eye,Blood vasculature of eye,UBERON:0002203,http://purl.obolibrary.org/obo/UBERON_0002203,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_ocular_veins,-,-,-,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_ocular_veins_L,-,-,-,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_inferior_ophthalmic_vein_L,Left inferior ophthalmic vein,FMA:51251,http://purl.obolibrary.org/obo/FMA_51251,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_superior_ophthalmic_vein_L,Left superior ophthalmic vein,FMA:51249,http://purl.obolibrary.org/obo/FMA_51249,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_central_retinal_vein_L,Left central retinal vein,FMA:51885,http://purl.obolibrary.org/obo/FMA_51885,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_inferior_ophthalmic_vein_L,Left inferior ophthalmic vein,FMA:51251,http://purl.org/sig/ont/fma/fma51251,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_superior_ophthalmic_vein_L,Left superior ophthalmic vein,FMA:51249,http://purl.org/sig/ont/fma/fma51249,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_central_retinal_vein_L,Left central retinal vein,FMA:51885,http://purl.org/sig/ont/fma/fma51885,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_ophthalmic_vein_L,ophthalmic vein,UBERON:0011191,http://purl.obolibrary.org/obo/UBERON_0011191,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_ocular_veins_R,-,-,-,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_superior_ophthalmic_vein_R,Right superior ophthalmic vein,FMA:51248,http://purl.obolibrary.org/obo/FMA_51248,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_superior_ophthalmic_vein_R,Right superior ophthalmic vein,FMA:51248,http://purl.org/sig/ont/fma/fma51248,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_ophthalmic_vein_R,ophthalmic vein,UBERON:0011191,http://purl.obolibrary.org/obo/UBERON_0011191,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_central_retinal_vein_R,Right central retinal vein,FMA:51884,http://purl.obolibrary.org/obo/FMA_51884,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_inferior_ophthalmic_vein_R,Right inferior ophthalmic vein,FMA:51250,http://purl.obolibrary.org/obo/FMA_51250,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_central_retinal_vein_R,Right central retinal vein,FMA:51884,http://purl.org/sig/ont/fma/fma51884,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_inferior_ophthalmic_vein_R,Right inferior ophthalmic vein,FMA:51250,http://purl.org/sig/ont/fma/fma51250,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_ocular_arteries,-,-,-,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_ocular_arteries_R,-,-,-,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_central_retinal_artery_R,Right central retinal artery,FMA:49880,http://purl.obolibrary.org/obo/FMA_49880,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_central_retinal_artery_R,Right central retinal artery,FMA:49880,http://purl.org/sig/ont/fma/fma49880,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_opthalmic_artery_R,ophthalmic artery,UBERON:0001619,http://purl.obolibrary.org/obo/UBERON_0001619,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_ocular_arteries_L,-,-,-,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_opthalmic_artery_L,ophthalmic artery,UBERON:0001619,http://purl.obolibrary.org/obo/UBERON_0001619,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_central_retinal_artery_L,Left central retinal artery,FMA:49881,http://purl.obolibrary.org/obo/FMA_49881,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_central_retinal_artery_L,Left central retinal artery,FMA:49881,http://purl.org/sig/ont/fma/fma49881,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_blood_vasculature_of_kidney,-,-,-,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_arteries_of_kidney,-,-,-,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_renal_artery,renal artery,UBERON:0001184,http://purl.obolibrary.org/obo/UBERON_0001184,VH_F_Blood_Vasculature
@@ -767,7 +767,7 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_right_colic_artery,Right colic artery,FMA:14811,http://purl.org/sig/ont/fma/fma14811,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_ileocolic_artery,ileocolic artery,UBERON:0035548,http://purl.obolibrary.org/obo/UBERON_0001197,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_middle_colic_artery,middle colic artery,UBERON:0001196,http://purl.obolibrary.org/obo/UBERON_0001196,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_celiac_trunk,Celiac trunk,FMA:14812,http://purl.obolibrary.org/obo/FMA_14812,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_celiac_trunk,Celiac trunk,FMA:14812,http://purl.org/sig/ont/fma/fma14812,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_superior_rectal_artery,superior rectal artery,UBERON:0035040,http://purl.obolibrary.org/obo/UBERON_0035040,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_superior_mesenteric_artery,superior mesenteric artery,UBERON:0001182,http://purl.obolibrary.org/obo/UBERON_0001182,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_inferior_mesenteric_artery,inferior mesenteric artery,UBERON:0001183,http://purl.obolibrary.org/obo/UBERON_0001183,VH_F_Blood_Vasculature
@@ -789,17 +789,17 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_blood_vasculature_of_liver,-,-,-,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_arteries_of_liver,-,-,-,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_middle_hepatic_artery_branch_of_left_hepatic_artery,-,-,-,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_proper_hepatic_artery,Hepatic artery proper,FMA:14772,http://purl.obolibrary.org/obo/FMA_14772,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_right_hepatic_artery,Right hepatic artery,FMA:14778,http://purl.obolibrary.org/obo/FMA_14778,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_proper_hepatic_artery,Hepatic artery proper,FMA:14772,http://purl.org/sig/ont/fma/fma14772,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_right_hepatic_artery,Right hepatic artery,FMA:14778,http://purl.org/sig/ont/fma/fma14778,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_common_hepatic_artery,common hepatic artery,UBERON:0005436,http://purl.obolibrary.org/obo/UBERON_0005436,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_posterior_segmental_right_hepatic_artery,-,-,-,-
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_anterior_segmental_right_hepatic_artery,-,-,-,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_left_hepatic_artery,Left hepatic artery,FMA:14779,http://purl.obolibrary.org/obo/FMA_14779,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_left_hepatic_artery,Left hepatic artery,FMA:14779,http://purl.org/sig/ont/fma/fma14779,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_veins_of_liver,-,-,-,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_hepatic_portal_vein,hepatic portal vein,UBERON:0001639,http://purl.obolibrary.org/obo/UBERON_0001639,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_middle_hepatic_vein,Middle hepatic vein,FMA:14340,http://purl.obolibrary.org/obo/FMA_14340,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_left_hepatic_vein,Left hepatic vein,FMA:14339,http://purl.obolibrary.org/obo/FMA_14339,VH_F_Blood_Vasculature
-#VHFBloodVasculature,#VHFemaleOrgans,VH_F_right_hepatic_vein,Right hepatic vein,FMA:14338,http://purl.obolibrary.org/obo/FMA_14338,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_middle_hepatic_vein,Middle hepatic vein,FMA:14340,http://purl.org/sig/ont/fma/fma14340,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_left_hepatic_vein,Left hepatic vein,FMA:14339,http://purl.org/sig/ont/fma/fma14339,VH_F_Blood_Vasculature
+#VHFBloodVasculature,#VHFemaleOrgans,VH_F_right_hepatic_vein,Right hepatic vein,FMA:14338,http://purl.org/sig/ont/fma/fma14338,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_right_branch_of_portal_vein,-,-,-,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_left_branch_of_portal_vein,-,-,-,VH_F_Blood_Vasculature
 #VHFBloodVasculature,#VHFemaleOrgans,VH_F_blood_vasculature_of_heart,-,-,-,VH_F_Heart
@@ -982,64 +982,64 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 -,-,VH_F_lower_limb,-,-,-,3d-vh-f-united
 -,-,VH_F_lower_limb_R,-,-,-,3d-vh-f-united
 #VHFKneeLigamentsRight,#VHFemaleOrgans,VH_F_ligaments_of_knee_R,-,-,-,VH_F_Ligaments_of_Knee_R
-#VHFKneeLigamentsRight,#VHFemaleOrgans,VH_F_right_tibial_collateral_ligament,Right tibial collateral ligament,FMA:44601,http://purl.obolibrary.org/obo/FMA_44601,VH_F_Ligaments_of_Knee_R
-#VHFKneeLigamentsRight,#VHFemaleOrgans,VH_F_anterior_cruciate_ligament_of_knee_R,Right anterior cruciate ligament,FMA:44615,http://purl.obolibrary.org/obo/FMA_44615,VH_F_Ligaments_of_Knee_R
-#VHFKneeLigamentsRight,#VHFemaleOrgans,VH_F_posterior_cruciate_ligament_of_knee_R,Right posterior cruciate ligament,FMA:44618,http://purl.obolibrary.org/obo/FMA_44618,VH_F_Ligaments_of_Knee_R
+#VHFKneeLigamentsRight,#VHFemaleOrgans,VH_F_right_tibial_collateral_ligament,Right tibial collateral ligament,FMA:44601,http://purl.org/sig/ont/fma/fma44601,VH_F_Ligaments_of_Knee_R
+#VHFKneeLigamentsRight,#VHFemaleOrgans,VH_F_anterior_cruciate_ligament_of_knee_R,Right anterior cruciate ligament,FMA:44615,http://purl.org/sig/ont/fma/fma44615,VH_F_Ligaments_of_Knee_R
+#VHFKneeLigamentsRight,#VHFemaleOrgans,VH_F_posterior_cruciate_ligament_of_knee_R,Right posterior cruciate ligament,FMA:44618,http://purl.org/sig/ont/fma/fma44618,VH_F_Ligaments_of_Knee_R
 #VHFKneeLigamentsRight,#VHFemaleOrgans,VH_F_anterolateral_ligament_of_knee_R,anterolateral ligament of knee,UBERON:0014899,http://purl.obolibrary.org/obo/UBERON_0014899,VH_F_Ligaments_of_Knee_R
-#VHFKneeLigamentsRight,#VHFemaleOrgans,VH_F_fibular_collateral_ligament_R,Right fibular collateral ligament,FMA:44609,http://purl.obolibrary.org/obo/FMA_44609,VH_F_Ligaments_of_Knee_R
-#VHFKneeLigamentsRight,#VHFemaleOrgans,VH_F_patellar_ligament_R,Right patellar ligament,FMA:44585,http://purl.obolibrary.org/obo/FMA_44585,VH_F_Ligaments_of_Knee_R
-#VHFRightKnee,#VHFemaleOrgans,VH_F_knee_R,Right knee,FMA:24977 ,http://purl.obolibrary.org/obo/FMA_24977,VH_F_Knee_R
+#VHFKneeLigamentsRight,#VHFemaleOrgans,VH_F_fibular_collateral_ligament_R,Right fibular collateral ligament,FMA:44609,http://purl.org/sig/ont/fma/fma44609,VH_F_Ligaments_of_Knee_R
+#VHFKneeLigamentsRight,#VHFemaleOrgans,VH_F_patellar_ligament_R,Right patellar ligament,FMA:44585,http://purl.org/sig/ont/fma/fma44585,VH_F_Ligaments_of_Knee_R
+#VHFRightKnee,#VHFemaleOrgans,VH_F_knee_R,Right knee,FMA:24977 ,http://purl.org/sig/ont/fma/fma24977,VH_F_Knee_R
 #VHFRightKnee,#VHFemaleOrgans,VH_F_meniscus_R,Articular disk of knee joint,FMA64019,http://purl.org/sig/ont/fma/fma64019,VH_F_Knee_R
-#VHFRightKnee,#VHFemaleOrgans,VH_F_knee_joint_R,Right knee joint,FMA:35176,http://purl.obolibrary.org/obo/FMA_35176,VH_F_Knee_R
-#VHFRightKnee,#VHFemaleOrgans,VH_F_femur_R,Right femur,FMA:24474,http://purl.obolibrary.org/obo/FMA_24474,VH_F_Knee_R
-#VHFRightKnee,#VHFemaleOrgans,VH_F_trochlear_groove_R,Patellar surface of right femur,FMA:43746,http://purl.obolibrary.org/obo/FMA_43746,VH_F_Knee_R
+#VHFRightKnee,#VHFemaleOrgans,VH_F_knee_joint_R,Right knee joint,FMA:35176,http://purl.org/sig/ont/fma/fma35176,VH_F_Knee_R
+#VHFRightKnee,#VHFemaleOrgans,VH_F_femur_R,Right femur,FMA:24474,http://purl.org/sig/ont/fma/fma24474,VH_F_Knee_R
+#VHFRightKnee,#VHFemaleOrgans,VH_F_trochlear_groove_R,Patellar surface of right femur,FMA:43746,http://purl.org/sig/ont/fma/fma43746,VH_F_Knee_R
 -,-,VH_F_medial_perichondular_surface_R,-,-,-,VH_F_Knee_R
-#VHFRightKnee,#VHFemaleOrgans,VH_F_articular_cartilage_of_knee_R,Articular cartilage of distal epiphysis of right femur,FMA:33189,http://purl.obolibrary.org/obo/FMA_33189,VH_F_Knee_R
-#VHFRightKnee,#VHFemaleOrgans,VH_F_medial_condyle_of_right_femur_sup,Medial condyle of right femur,FMA:32862,http://purl.obolibrary.org/obo/FMA_32862,VH_F_Knee_R
-#VHFRightKnee,#VHFemaleOrgans,VH_F_lateral_condyle_of_femur_sup_R,Lateral condyle of right femur,FMA:32860,http://purl.obolibrary.org/obo/FMA_32860,VH_F_Knee_R
-#VHFRightKnee,#VHFemaleOrgans,VH_F_medial_condyle_of_right_femur_inf,Medial condyle of right femur,FMA:32862,http://purl.obolibrary.org/obo/FMA_32862,VH_F_Knee_R
-#VHFRightKnee,#VHFemaleOrgans,VH_F_lateral_condyle_of_femur_inf_R,Lateral condyle of right femur,FMA:32860,http://purl.obolibrary.org/obo/FMA_32860,VH_F_Knee_R
-#VHFRightKnee,#VHFemaleOrgans,VH_F_lateral_condyle_of_femur_frontal_R,Lateral condyle of right femur,FMA:32860,http://purl.obolibrary.org/obo/FMA_32860,VH_F_Knee_R
+#VHFRightKnee,#VHFemaleOrgans,VH_F_articular_cartilage_of_knee_R,Articular cartilage of distal epiphysis of right femur,FMA:33189,http://purl.org/sig/ont/fma/fma33189,VH_F_Knee_R
+#VHFRightKnee,#VHFemaleOrgans,VH_F_medial_condyle_of_right_femur_sup,Medial condyle of right femur,FMA:32862,http://purl.org/sig/ont/fma/fma32862,VH_F_Knee_R
+#VHFRightKnee,#VHFemaleOrgans,VH_F_lateral_condyle_of_femur_sup_R,Lateral condyle of right femur,FMA:32860,http://purl.org/sig/ont/fma/fma32860,VH_F_Knee_R
+#VHFRightKnee,#VHFemaleOrgans,VH_F_medial_condyle_of_right_femur_inf,Medial condyle of right femur,FMA:32862,http://purl.org/sig/ont/fma/fma32862,VH_F_Knee_R
+#VHFRightKnee,#VHFemaleOrgans,VH_F_lateral_condyle_of_femur_inf_R,Lateral condyle of right femur,FMA:32860,http://purl.org/sig/ont/fma/fma32860,VH_F_Knee_R
+#VHFRightKnee,#VHFemaleOrgans,VH_F_lateral_condyle_of_femur_frontal_R,Lateral condyle of right femur,FMA:32860,http://purl.org/sig/ont/fma/fma32860,VH_F_Knee_R
 #VHFRightKnee,#VHFemaleOrgans,VH_F_distal_most_point_of_medial_condyle_R,distal-most point of medial condyle of femur,UBERON:7500033,http://purl.obolibrary.org/obo/UBERON_7500033,VH_F_Knee_R
-#VHFRightKnee,#VHFemaleOrgans,VH_F_intercondylar_fossa_R,Intercondylar fossa of right femur,FMA:43749,http://purl.obolibrary.org/obo/FMA_43749,VH_F_Knee_R
+#VHFRightKnee,#VHFemaleOrgans,VH_F_intercondylar_fossa_R,Intercondylar fossa of right femur,FMA:43749,http://purl.org/sig/ont/fma/fma43749,VH_F_Knee_R
 -,#VHFemaleOrgans,VH_F_posterior_cruciate_enthesis_R,-,-,-,VH_F_Knee_R
 -,#VHFemaleOrgans,VH_F_anterior_cruciate_enthesis_R,-,-,-,VH_F_Knee_R
 -,#VHFemaleOrgans,VH_F_lateral_perichondular_surface_R,-,-,-,VH_F_Knee_R
 -,#VHFemaleOrgans,VH_F_lateral_epicondylar_enthesis_R,-,-,-,VH_F_Knee_R
 -,#VHFemaleOrgans,VH_F_medial_epicondylar_enthesis_R,-,-,-,VH_F_Knee_R
-#VHFRightKnee,#VHFemaleOrgans,VH_F_tibia_R,Right tibia,FMA:24477,http://purl.obolibrary.org/obo/FMA_24477,VH_F_Knee_R
-#VHFRightKnee,#VHFemaleOrgans,VH_F_fibula_R,Right fibula,FMA:24480,http://purl.obolibrary.org/obo/FMA_24480,VH_F_Knee_R
-#VHFRightKnee,#VHFemaleOrgans,VH_F_patella_R,Right patella,FMA:24486,http://purl.obolibrary.org/obo/FMA_24486,VH_F_Knee_R
+#VHFRightKnee,#VHFemaleOrgans,VH_F_tibia_R,Right tibia,FMA:24477,http://purl.org/sig/ont/fma/fma24477,VH_F_Knee_R
+#VHFRightKnee,#VHFemaleOrgans,VH_F_fibula_R,Right fibula,FMA:24480,http://purl.org/sig/ont/fma/fma24480,VH_F_Knee_R
+#VHFRightKnee,#VHFemaleOrgans,VH_F_patella_R,Right patella,FMA:24486,http://purl.org/sig/ont/fma/fma24486,VH_F_Knee_R
 -,#VHFemaleOrgans,VH_F_lower_limb_L,-,-,-,3d-vh-f-united
 -,#VHFemaleOrgans,VH_F_ligaments_of_knee_L,-,-,-,VH_M_United
 #VHFKneeLigamentsLeft,#VHFemaleOrgans,VH_F_anterolateral_ligament_of_knee_L,anterolateral ligament of knee,UBERON:0014899,http://purl.obolibrary.org/obo/UBERON_0014899,VH_F_Ligaments_of_Knee_L
-#VHFKneeLigamentsLeft,#VHFemaleOrgans,VH_F_fibular_collateral_ligament_L,Left fibular collateral ligament,FMA:44610,http://purl.obolibrary.org/obo/FMA_44610,VH_F_Ligaments_of_Knee_L
-#VHFKneeLigamentsLeft,#VHFemaleOrgans,VH_F_patellar_ligament_L,Left patellar ligament,FMA:44586,http://purl.obolibrary.org/obo/FMA_44586,VH_F_Ligaments_of_Knee_L
-#VHFKneeLigamentsLeft,#VHFemaleOrgans,VH_F_left_tibial_collateral_ligament,Left tibial collateral ligament,FMA:44602,http://purl.obolibrary.org/obo/FMA_44602,VH_F_Ligaments_of_Knee_L
-#VHFKneeLigamentsLeft,#VHFemaleOrgans,VH_F_anterior_cruciate_ligament_of_knee_L,Left anterior cruciate ligament,FMA:44616,http://purl.obolibrary.org/obo/FMA_44616,VH_F_Ligaments_of_Knee_L
-#VHFKneeLigamentsLeft,#VHFemaleOrgans,VH_F_posterior_cruciate_ligament_of_knee_L,Left posterior cruciate ligament,FMA:44619,http://purl.obolibrary.org/obo/FMA_44619,VH_F_Ligaments_of_Knee_L
-#VHFLeftKnee,#VHFemaleOrgans,VH_F_knee_L,Left knee,FMA:24978,http://purl.obolibrary.org/obo/FMA_24978,VH_F_Knee_L
+#VHFKneeLigamentsLeft,#VHFemaleOrgans,VH_F_fibular_collateral_ligament_L,Left fibular collateral ligament,FMA:44610,http://purl.org/sig/ont/fma/fma44610,VH_F_Ligaments_of_Knee_L
+#VHFKneeLigamentsLeft,#VHFemaleOrgans,VH_F_patellar_ligament_L,Left patellar ligament,FMA:44586,http://purl.org/sig/ont/fma/fma44586,VH_F_Ligaments_of_Knee_L
+#VHFKneeLigamentsLeft,#VHFemaleOrgans,VH_F_left_tibial_collateral_ligament,Left tibial collateral ligament,FMA:44602,http://purl.org/sig/ont/fma/fma44602,VH_F_Ligaments_of_Knee_L
+#VHFKneeLigamentsLeft,#VHFemaleOrgans,VH_F_anterior_cruciate_ligament_of_knee_L,Left anterior cruciate ligament,FMA:44616,http://purl.org/sig/ont/fma/fma44616,VH_F_Ligaments_of_Knee_L
+#VHFKneeLigamentsLeft,#VHFemaleOrgans,VH_F_posterior_cruciate_ligament_of_knee_L,Left posterior cruciate ligament,FMA:44619,http://purl.org/sig/ont/fma/fma44619,VH_F_Ligaments_of_Knee_L
+#VHFLeftKnee,#VHFemaleOrgans,VH_F_knee_L,Left knee,FMA:24978,http://purl.org/sig/ont/fma/fma24978,VH_F_Knee_L
 #VHFLeftKnee,#VHFemaleOrgans,VH_F_meniscus_L,Articular disk of knee joint,FMA64019,http://purl.org/sig/ont/fma/fma64019,VH_F_Knee_L
-#VHFLeftKnee,#VHFemaleOrgans,VH_F_knee_joint_L,Left knee joint,FMA:35177,http://purl.obolibrary.org/obo/FMA_35177,VH_F_Knee_L
-#VHFLeftKnee,#VHFemaleOrgans,VH_F_femur_L,Left femur,FMA:24475,http://purl.obolibrary.org/obo/FMA_24475,VH_F_Knee_L
-#VHFLeftKnee,#VHFemaleOrgans,VH_F_intercondylar_fossa_L,Intercondylar fossa of left femur,FMA:43750,http://purl.obolibrary.org/obo/FMA_43750,VH_F_Knee_L
+#VHFLeftKnee,#VHFemaleOrgans,VH_F_knee_joint_L,Left knee joint,FMA:35177,http://purl.org/sig/ont/fma/fma35177,VH_F_Knee_L
+#VHFLeftKnee,#VHFemaleOrgans,VH_F_femur_L,Left femur,FMA:24475,http://purl.org/sig/ont/fma/fma24475,VH_F_Knee_L
+#VHFLeftKnee,#VHFemaleOrgans,VH_F_intercondylar_fossa_L,Intercondylar fossa of left femur,FMA:43750,http://purl.org/sig/ont/fma/fma43750,VH_F_Knee_L
 -,#VHFemaleOrgans,VH_F_anterior_cruciate_enthesis_L,-,-,-,VH_F_Knee_L
 -,#VHFemaleOrgans,VH_F_posterior_cruciate_enthesis_L,-,-,-,VH_F_Knee_L
 -,#VHFemaleOrgans,VH_F_lateral_perichondular_surface_L,-,-,-,VH_F_Knee_L
 -,#VHFemaleOrgans,VH_F_lateral_epicondylar_enthesis_L,-,-,-,VH_F_Knee_L
 -,#VHFemaleOrgans,VH_F_medial_epicondylar_enthesis_L,-,-,-,VH_F_Knee_L
-#VHFLeftKnee,#VHFemaleOrgans,VH_F_trochlear_groove_L,Patellar surface of left femur,FMA:43747,http://purl.obolibrary.org/obo/FMA_43747,VH_F_Knee_L
+#VHFLeftKnee,#VHFemaleOrgans,VH_F_trochlear_groove_L,Patellar surface of left femur,FMA:43747,http://purl.org/sig/ont/fma/fma43747,VH_F_Knee_L
 -,#VHFemaleOrgans,VH_F_medial_perichondular_surface_L,-,-,-,VH_F_Knee_L
-#VHFLeftKnee,#VHFemaleOrgans,VH_F_articular_cartilage_of_knee_L,Articular cartilage of distal epiphysis of left femur,FMA:33190,http://purl.obolibrary.org/obo/FMA_33190,VH_F_Knee_L
-#VHFLeftKnee,#VHFemaleOrgans,VH_F_medial_condyle_of_left_femur_inf,Medial condyle of left femur,FMA:32863,http://purl.obolibrary.org/obo/FMA_32863,VH_F_Knee_L
-#VHFLeftKnee,#VHFemaleOrgans,VH_F_lateral_condyle_of_femur_inf_L,Lateral condyle of left femur,FMA:32861,http://purl.obolibrary.org/obo/FMA_32861,VH_F_Knee_L
-#VHFLeftKnee,#VHFemaleOrgans,VH_F_lateral_condyle_of_femur_frontal_L,Lateral condyle of left femur,FMA:32861,http://purl.obolibrary.org/obo/FMA_32861,VH_F_Knee_L
+#VHFLeftKnee,#VHFemaleOrgans,VH_F_articular_cartilage_of_knee_L,Articular cartilage of distal epiphysis of left femur,FMA:33190,http://purl.org/sig/ont/fma/fma33190,VH_F_Knee_L
+#VHFLeftKnee,#VHFemaleOrgans,VH_F_medial_condyle_of_left_femur_inf,Medial condyle of left femur,FMA:32863,http://purl.org/sig/ont/fma/fma32863,VH_F_Knee_L
+#VHFLeftKnee,#VHFemaleOrgans,VH_F_lateral_condyle_of_femur_inf_L,Lateral condyle of left femur,FMA:32861,http://purl.org/sig/ont/fma/fma32861,VH_F_Knee_L
+#VHFLeftKnee,#VHFemaleOrgans,VH_F_lateral_condyle_of_femur_frontal_L,Lateral condyle of left femur,FMA:32861,http://purl.org/sig/ont/fma/fma32861,VH_F_Knee_L
 #VHFLeftKnee,#VHFemaleOrgans,VH_F_distal_most_point_of_medial_condyle_L,distal-most point of medial condyle of femur,UBERON:7500033,http://purl.obolibrary.org/obo/UBERON_7500033,VH_F_Knee_L
-#VHFLeftKnee,#VHFemaleOrgans,VH_F_lateral_condyle_of_femur_sup_L,Lateral condyle of left femur,FMA:32861,http://purl.obolibrary.org/obo/FMA_32861,VH_F_Knee_L
-#VHFLeftKnee,#VHFemaleOrgans,VH_F_medial_condyle_of_left_femur_sup,Medial condyle of left femur,FMA:32863,http://purl.obolibrary.org/obo/FMA_32863,VH_F_Knee_L
-#VHFLeftKnee,#VHFemaleOrgans,VH_F_patella_L,Left patella,FMA:24487,http://purl.obolibrary.org/obo/FMA_24487,VH_F_Knee_L
-#VHFLeftKnee,#VHFemaleOrgans,VH_F_tibia_L,Left tibia,FMA:24478,http://purl.obolibrary.org/obo/FMA_24478,VH_F_Knee_L
-#VHFLeftKnee,#VHFemaleOrgans,VH_F_fibula_L,Left fibula,FMA:24481,http://purl.obolibrary.org/obo/FMA_24481,VH_F_Knee_L
+#VHFLeftKnee,#VHFemaleOrgans,VH_F_lateral_condyle_of_femur_sup_L,Lateral condyle of left femur,FMA:32861,http://purl.org/sig/ont/fma/fma32861,VH_F_Knee_L
+#VHFLeftKnee,#VHFemaleOrgans,VH_F_medial_condyle_of_left_femur_sup,Medial condyle of left femur,FMA:32863,http://purl.org/sig/ont/fma/fma32863,VH_F_Knee_L
+#VHFLeftKnee,#VHFemaleOrgans,VH_F_patella_L,Left patella,FMA:24487,http://purl.org/sig/ont/fma/fma24487,VH_F_Knee_L
+#VHFLeftKnee,#VHFemaleOrgans,VH_F_tibia_L,Left tibia,FMA:24478,http://purl.org/sig/ont/fma/fma24478,VH_F_Knee_L
+#VHFLeftKnee,#VHFemaleOrgans,VH_F_fibula_L,Left fibula,FMA:24481,http://purl.org/sig/ont/fma/fma24481,VH_F_Knee_L
 -,#VHFemaleOrgans,VH_F_vertebrae,vertebra,UBERON:0002412,http://purl.obolibrary.org/obo/UBERON_0002412,3d-vh-f-united
 #VHFVertebrae,#VHFemaleOrgans,VH_F_lumbar_vertebra_1,lumbar vertebra 1,UBERON:0004617,http://purl.obolibrary.org/obo/UBERON_0004617,VH_F_Vertebrae
 #VHFVertebrae,#VHFemaleOrgans,VH_F_lumbar_vertebra_2,lumbar vertebra 2,UBERON:0004618,http://purl.obolibrary.org/obo/UBERON_0004618,VH_F_Vertebrae
@@ -1093,22 +1093,22 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_blood_vasculature_of_eye,vasculature of eye,UBERON:0002203,http://purl.obolibrary.org/obo/UBERON_0002203,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_veins_of_eye,-,-,-,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_ocular_veins_L,-,-,-,VH_M_Blood_Vasculature
-#VHMBloodVasculature,#VHMaleOrgans,VH_M_inferior_ophthalmic_vein_L,Left inferior ophthalmic vein,FMA:51251,http://purl.obolibrary.org/obo/FMA_51251,VH_M_Blood_Vasculature
-#VHMBloodVasculature,#VHMaleOrgans,VH_M_superior_ophthalmic_vein_L,Left superior ophthalmic vein,FMA:51249,http://purl.obolibrary.org/obo/FMA_51249,VH_M_Blood_Vasculature
-#VHMBloodVasculature,#VHMaleOrgans,VH_M_central_retinal_vein_L,Left central retinal vein,FMA:51885,http://purl.obolibrary.org/obo/FMA_51885,VH_M_Blood_Vasculature
+#VHMBloodVasculature,#VHMaleOrgans,VH_M_inferior_ophthalmic_vein_L,Left inferior ophthalmic vein,FMA:51251,http://purl.org/sig/ont/fma/fma51251,VH_M_Blood_Vasculature
+#VHMBloodVasculature,#VHMaleOrgans,VH_M_superior_ophthalmic_vein_L,Left superior ophthalmic vein,FMA:51249,http://purl.org/sig/ont/fma/fma51249,VH_M_Blood_Vasculature
+#VHMBloodVasculature,#VHMaleOrgans,VH_M_central_retinal_vein_L,Left central retinal vein,FMA:51885,http://purl.org/sig/ont/fma/fma51885,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_ophthalmic_vein_L,ophthalmic vein,UBERON:0011191,http://purl.obolibrary.org/obo/UBERON_0011191,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_ocular_veins_R,-,-,-,VH_M_Blood_Vasculature
-#VHMBloodVasculature,#VHMaleOrgans,VH_M_superior_ophthalmic_vein_R,Right superior ophthalmic vein,FMA:51248,http://purl.obolibrary.org/obo/FMA_51248,VH_M_Blood_Vasculature
+#VHMBloodVasculature,#VHMaleOrgans,VH_M_superior_ophthalmic_vein_R,Right superior ophthalmic vein,FMA:51248,http://purl.org/sig/ont/fma/fma51248,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_ophthalmic_vein_R,ophthalmic vein,UBERON:0011191,http://purl.obolibrary.org/obo/UBERON_0011191,VH_M_Blood_Vasculature
-#VHMBloodVasculature,#VHMaleOrgans,VH_M_central_retinal_vein_R,Right central retinal vein,FMA:51884,http://purl.obolibrary.org/obo/FMA_51884,VH_M_Blood_Vasculature
-#VHMBloodVasculature,#VHMaleOrgans,VH_M_inferior_ophthalmic_vein_R,Right inferior ophthalmic vein,FMA:51250,http://purl.obolibrary.org/obo/FMA_51250,VH_M_Blood_Vasculature
+#VHMBloodVasculature,#VHMaleOrgans,VH_M_central_retinal_vein_R,Right central retinal vein,FMA:51884,http://purl.org/sig/ont/fma/fma51884,VH_M_Blood_Vasculature
+#VHMBloodVasculature,#VHMaleOrgans,VH_M_inferior_ophthalmic_vein_R,Right inferior ophthalmic vein,FMA:51250,http://purl.org/sig/ont/fma/fma51250,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_arteries_of_eye,-,-,-,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_ocular_arteries_R,-,-,-,VH_M_Blood_Vasculature
-#VHMBloodVasculature,#VHMaleOrgans,VH_M_central_retinal_artery_R,Right central retinal artery,FMA:49880,http://purl.obolibrary.org/obo/FMA_49880,VH_M_Blood_Vasculature
+#VHMBloodVasculature,#VHMaleOrgans,VH_M_central_retinal_artery_R,Right central retinal artery,FMA:49880,http://purl.org/sig/ont/fma/fma49880,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_opthalmic_artery_R,ophthalmic artery,UBERON:0001619,http://purl.obolibrary.org/obo/UBERON_0001619,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_ocular_arteries_L,-,-,-,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_opthalmic_artery_L,ophthalmic artery,UBERON:0001619,http://purl.obolibrary.org/obo/UBERON_0001619,VH_M_Blood_Vasculature
-#VHMBloodVasculature,#VHMaleOrgans,VH_M_central_retinal_artery_L,Left central retinal artery,FMA:49881,http://purl.obolibrary.org/obo/FMA_49881,VH_M_Blood_Vasculature
+#VHMBloodVasculature,#VHMaleOrgans,VH_M_central_retinal_artery_L,Left central retinal artery,FMA:49881,http://purl.org/sig/ont/fma/fma49881,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_blood_vasculature_of_large_intestine,-,-,-,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_veins_of_large_intestine,-,-,-,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_inferior_mesenteric_vein,inferior mesenteric vein,UBERON:0001215,http://purl.obolibrary.org/obo/UBERON_0001215,VH_M_Blood_Vasculature
@@ -1226,18 +1226,18 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_cystic_artery,cystic artery,UBERON:0039222,http://purl.obolibrary.org/obo/UBERON_0039222,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_blood_vasculature_of_liver,-,-,-,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_arteries_of_liver,-,-,-,VH_M_Blood_Vasculature
-#VHMBloodVasculature,#VHMaleOrgans,VH_M_celiac_trunk,Celiac trunk,FMA:14812,http://purl.obolibrary.org/obo/FMA_14812,VH_M_Blood_Vasculature
-#VHMBloodVasculature,#VHMaleOrgans,VH_M_left_hepatic_artery,Left hepatic artery,FMA:14779,http://purl.obolibrary.org/obo/FMA_14779,VH_M_Blood_Vasculature
-#VHMBloodVasculature,#VHMaleOrgans,VH_M_proper_hepatic_artery,Hepatic artery proper,FMA:14772,http://purl.obolibrary.org/obo/FMA_14772,VH_M_Blood_Vasculature
+#VHMBloodVasculature,#VHMaleOrgans,VH_M_celiac_trunk,Celiac trunk,FMA:14812,http://purl.org/sig/ont/fma/fma14812,VH_M_Blood_Vasculature
+#VHMBloodVasculature,#VHMaleOrgans,VH_M_left_hepatic_artery,Left hepatic artery,FMA:14779,http://purl.org/sig/ont/fma/fma14779,VH_M_Blood_Vasculature
+#VHMBloodVasculature,#VHMaleOrgans,VH_M_proper_hepatic_artery,Hepatic artery proper,FMA:14772,http://purl.org/sig/ont/fma/fma14772,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_posterior_segmental_right_hepatic_artery,-,-,-,VH_M_Blood_Vasculature
-#VHMBloodVasculature,#VHMaleOrgans,VH_M_right_hepatic_artery,Right hepatic artery,FMA:14778,http://purl.obolibrary.org/obo/FMA_14778,VH_M_Blood_Vasculature
+#VHMBloodVasculature,#VHMaleOrgans,VH_M_right_hepatic_artery,Right hepatic artery,FMA:14778,http://purl.org/sig/ont/fma/fma14778,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_anterior_segmental_right_hepatic_artery,-,-,-,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_common_hepatic_artery,common hepatic artery,UBERON:0005436,http://purl.obolibrary.org/obo/UBERON_0005436,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_middle_hepatic_artery_branch_of_left_hepatic_artery,-,-,-,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_veins_of_liver,-,-,-,VH_M_Blood_Vasculature
-#VHMBloodVasculature,#VHMaleOrgans,VH_M_right_hepatic_vein,Right hepatic vein,FMA:14338,http://purl.obolibrary.org/obo/FMA_14338,VH_M_Blood_Vasculature
-#VHMBloodVasculature,#VHMaleOrgans,VH_M_left_hepatic_vein,Left hepatic vein,FMA:14339,http://purl.obolibrary.org/obo/FMA_14339,VH_M_Blood_Vasculature
-#VHMBloodVasculature,#VHMaleOrgans,VH_M_middle_hepatic_vein,Middle hepatic vein,FMA:14340,http://purl.obolibrary.org/obo/FMA_14340,VH_M_Blood_Vasculature
+#VHMBloodVasculature,#VHMaleOrgans,VH_M_right_hepatic_vein,Right hepatic vein,FMA:14338,http://purl.org/sig/ont/fma/fma14338,VH_M_Blood_Vasculature
+#VHMBloodVasculature,#VHMaleOrgans,VH_M_left_hepatic_vein,Left hepatic vein,FMA:14339,http://purl.org/sig/ont/fma/fma14339,VH_M_Blood_Vasculature
+#VHMBloodVasculature,#VHMaleOrgans,VH_M_middle_hepatic_vein,Middle hepatic vein,FMA:14340,http://purl.org/sig/ont/fma/fma14340,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_left_branch_of_portal_vein,-,-,-,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_right_branch_of_portal_vein,-,-,-,VH_M_Blood_Vasculature
 #VHMBloodVasculature,#VHMaleOrgans,VH_M_portal_vein,-,-,-,VH_M_Blood_Vasculature
@@ -1271,64 +1271,64 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 -,#VHMaleOrgans,VH_M_lower_limb,-,-,-,VH_M_United
 -,#VHMaleOrgans,VH_M_lower_limb_R,-,-,-,VH_M_United
 -,#VHMaleOrgans,VH_M_ligaments_of_knee_R,-,-,-,VH_M_Ligaments_of_Knee_R
-#VHMLigamentsRightKnee,#VHMaleOrgans,VH_M_anterior_cruciate_ligament_of_knee_joint_R,Right anterior cruciate ligament,FMA:44615,http://purl.obolibrary.org/obo/FMA_44615,VH_M_Ligaments_of_Knee_R
-#VHMLigamentsRightKnee,#VHMaleOrgans,VH_M_fibular_collateral_ligament_R,Right fibular collateral ligament,FMA:44609,http://purl.obolibrary.org/obo/FMA_44609,VH_M_Ligaments_of_Knee_R
-#VHMLigamentsRightKnee,#VHMaleOrgans,VH_M_right_tibial_collaterial_ligament,Right tibial collateral ligament,FMA:44601,http://purl.obolibrary.org/obo/FMA_44601,VH_M_Ligaments_of_Knee_R
-#VHMLigamentsRightKnee,#VHMaleOrgans,VH_M_posterior_cruciate_ligament_of_knee_joint_R,Right posterior cruciate ligament,FMA:44618,http://purl.obolibrary.org/obo/FMA_44618,VH_M_Ligaments_of_Knee_R
+#VHMLigamentsRightKnee,#VHMaleOrgans,VH_M_anterior_cruciate_ligament_of_knee_joint_R,Right anterior cruciate ligament,FMA:44615,http://purl.org/sig/ont/fma/fma44615,VH_M_Ligaments_of_Knee_R
+#VHMLigamentsRightKnee,#VHMaleOrgans,VH_M_fibular_collateral_ligament_R,Right fibular collateral ligament,FMA:44609,http://purl.org/sig/ont/fma/fma44609,VH_M_Ligaments_of_Knee_R
+#VHMLigamentsRightKnee,#VHMaleOrgans,VH_M_right_tibial_collaterial_ligament,Right tibial collateral ligament,FMA:44601,http://purl.org/sig/ont/fma/fma44601,VH_M_Ligaments_of_Knee_R
+#VHMLigamentsRightKnee,#VHMaleOrgans,VH_M_posterior_cruciate_ligament_of_knee_joint_R,Right posterior cruciate ligament,FMA:44618,http://purl.org/sig/ont/fma/fma44618,VH_M_Ligaments_of_Knee_R
 #VHMLigamentsRightKnee,#VHMaleOrgans,VH_M_anterolateral_ligament_of_knee_R,anterolateral ligament of knee,UBERON:0014899,http://purl.obolibrary.org/obo/UBERON_0014899,VH_M_Ligaments_of_Knee_R
-#VHMLigamentsRightKnee,#VHMaleOrgans,VH_M_patellar_ligament_R,Right patellar ligament,FMA:44585,http://purl.obolibrary.org/obo/FMA_44585,VH_M_Ligaments_of_Knee_R
-#VHMRightKnee,#VHMaleOrgans,VH_M_knee_R,Right knee,FMA:24977,http://purl.obolibrary.org/obo/FMA_24977,VH_M_Knee_R
-#VHMRightKnee,#VHMaleOrgans,VH_M_knee_joint_R,Right knee joint,FMA:35176,http://purl.obolibrary.org/obo/FMA_35176,VH_M_Knee_R
-#VHMRightKnee,#VHMaleOrgans,VH_M_tibia_R,Right tibia,FMA:24477,http://purl.obolibrary.org/obo/FMA_24477,VH_M_Knee_R
-#VHMRightKnee,#VHMaleOrgans,VH_M_fibula_R,Right fibula,FMA:24480,http://purl.obolibrary.org/obo/FMA_24480,VH_M_Knee_R
-#VHMRightKnee,#VHMaleOrgans,VH_M_patella_R,Right patella,FMA:24486,http://purl.obolibrary.org/obo/FMA_24486,VH_M_Knee_R
-#VHMRightKnee,#VHMaleOrgans,VH_M_femur_R,Right femur,FMA:24474,http://purl.obolibrary.org/obo/FMA_24474,VH_M_Knee_R
-#VHMRightKnee,#VHMaleOrgans,VH_M_articular_cartilage_of_knee_R,Articular cartilage of distal epiphysis of right femur,FMA:33189,http://purl.obolibrary.org/obo/FMA_33189,VH_M_Knee_R
-#VHMRightKnee,#VHMaleOrgans,VH_M_intercondylar_fossa_R,Intercondylar fossa of right femur,FMA:43749,http://purl.obolibrary.org/obo/FMA_43749,VH_M_Knee_R
+#VHMLigamentsRightKnee,#VHMaleOrgans,VH_M_patellar_ligament_R,Right patellar ligament,FMA:44585,http://purl.org/sig/ont/fma/fma44585,VH_M_Ligaments_of_Knee_R
+#VHMRightKnee,#VHMaleOrgans,VH_M_knee_R,Right knee,FMA:24977,http://purl.org/sig/ont/fma/fma24977,VH_M_Knee_R
+#VHMRightKnee,#VHMaleOrgans,VH_M_knee_joint_R,Right knee joint,FMA:35176,http://purl.org/sig/ont/fma/fma35176,VH_M_Knee_R
+#VHMRightKnee,#VHMaleOrgans,VH_M_tibia_R,Right tibia,FMA:24477,http://purl.org/sig/ont/fma/fma24477,VH_M_Knee_R
+#VHMRightKnee,#VHMaleOrgans,VH_M_fibula_R,Right fibula,FMA:24480,http://purl.org/sig/ont/fma/fma24480,VH_M_Knee_R
+#VHMRightKnee,#VHMaleOrgans,VH_M_patella_R,Right patella,FMA:24486,http://purl.org/sig/ont/fma/fma24486,VH_M_Knee_R
+#VHMRightKnee,#VHMaleOrgans,VH_M_femur_R,Right femur,FMA:24474,http://purl.org/sig/ont/fma/fma24474,VH_M_Knee_R
+#VHMRightKnee,#VHMaleOrgans,VH_M_articular_cartilage_of_knee_R,Articular cartilage of distal epiphysis of right femur,FMA:33189,http://purl.org/sig/ont/fma/fma33189,VH_M_Knee_R
+#VHMRightKnee,#VHMaleOrgans,VH_M_intercondylar_fossa_R,Intercondylar fossa of right femur,FMA:43749,http://purl.org/sig/ont/fma/fma43749,VH_M_Knee_R
 -,#VHMaleOrgans,VH_M_anterior_cruciate_enthesis_R,-,-,-,VH_M_Knee_R
 -,#VHMaleOrgans,VH_M_posterior_cruciate_enthesis_R,-,-,-,VH_M_Knee_R
-#VHMRightKnee,#VHMaleOrgans,VH_M_lateral_condyle_of_femur_frontal_R,Lateral condyle of right femur,FMA:32860,http://purl.obolibrary.org/obo/FMA_32860,VH_M_Knee_R
-#VHMRightKnee,#VHMaleOrgans,VH_M_lateral_condyle_of_femur_inf_R,Lateral condyle of right femur,FMA:32860,http://purl.obolibrary.org/obo/FMA_32860,VH_M_Knee_R
-#VHMRightKnee,#VHMaleOrgans,VH_M_lateral_condyle_of_femur_sup_R,Lateral condyle of right femur,FMA:32860,http://purl.obolibrary.org/obo/FMA_32860,VH_M_Knee_R
+#VHMRightKnee,#VHMaleOrgans,VH_M_lateral_condyle_of_femur_frontal_R,Lateral condyle of right femur,FMA:32860,http://purl.org/sig/ont/fma/fma32860,VH_M_Knee_R
+#VHMRightKnee,#VHMaleOrgans,VH_M_lateral_condyle_of_femur_inf_R,Lateral condyle of right femur,FMA:32860,http://purl.org/sig/ont/fma/fma32860,VH_M_Knee_R
+#VHMRightKnee,#VHMaleOrgans,VH_M_lateral_condyle_of_femur_sup_R,Lateral condyle of right femur,FMA:32860,http://purl.org/sig/ont/fma/fma32860,VH_M_Knee_R
 -,#VHMaleOrgans,VH_M_lateral_epicondylar_enthesis_R,-,-,-,VH_M_Knee_R
 -,#VHMaleOrgans,VH_M_lateral_perichondular_surface_R,-,-,-,VH_M_Knee_R
 #VHMRightKnee,#VHMaleOrgans,VH_M_distal_most_point_of_medial_condyle_of_femur_R,distal-most point of medial condyle of femur,UBERON:7500033,http://purl.obolibrary.org/obo/UBERON_7500033,VH_M_Knee_R
-#VHMRightKnee,#VHMaleOrgans,VH_M_medial_condyle_of_right_femur_inf,Medial condyle of right femur,FMA:32862,http://purl.obolibrary.org/obo/FMA_32862,VH_M_Knee_R
-#VHMRightKnee,#VHMaleOrgans,VH_M_medial_condyle_of_right_femur_sup,Medial condyle of right femur,FMA:32862,http://purl.obolibrary.org/obo/FMA_32862,VH_M_Knee_R
+#VHMRightKnee,#VHMaleOrgans,VH_M_medial_condyle_of_right_femur_inf,Medial condyle of right femur,FMA:32862,http://purl.org/sig/ont/fma/fma32862,VH_M_Knee_R
+#VHMRightKnee,#VHMaleOrgans,VH_M_medial_condyle_of_right_femur_sup,Medial condyle of right femur,FMA:32862,http://purl.org/sig/ont/fma/fma32862,VH_M_Knee_R
 -,#VHMaleOrgans,VH_M_medial_epicondylar_enthesis_R,-,-,-,VH_M_Knee_R
 -,#VHMaleOrgans,VH_M_medial_perichondular_surface_R,-,-,-,VH_M_Knee_R
-#VHMRightKnee,#VHMaleOrgans,VH_M_patellar_surface_R,Patellar surface of right femur,FMA:43746,http://purl.obolibrary.org/obo/FMA_43746,VH_M_Knee_R
+#VHMRightKnee,#VHMaleOrgans,VH_M_patellar_surface_R,Patellar surface of right femur,FMA:43746,http://purl.org/sig/ont/fma/fma43746,VH_M_Knee_R
 #VHMRightKnee,#VHMaleOrgans,VH_M_meniscus_R,Articular disk of knee joint,FMA:64019,http://purl.org/sig/ont/fma/fma64019,VH_M_Knee_R
 -,#VHMaleOrgans,VH_M_lower_limb_L,-,-,-,VH_M_United
 -,#VHMaleOrgans,VH_M_ligaments_of_knee_L,-,-,-,VH_M_Ligaments_of_Knee_L
 #VHMLigamentsLeftKnee,#VHMaleOrgans,VH_M_anterolateral_ligament_of_knee_L,anterolateral ligament of knee,UBERON:0014899,http://purl.obolibrary.org/obo/UBERON_0014899,VH_M_Ligaments_of_Knee_L
-#VHMLigamentsLeftKnee,#VHMaleOrgans,VH_M_fibular_collateral_ligament_L,Left fibular collateral ligament,FMA:44610,http://purl.obolibrary.org/obo/FMA_44610,VH_M_Ligaments_of_Knee_L
-#VHMLigamentsLeftKnee,#VHMaleOrgans,VH_M_posterior_cruciate_ligament_of_knee_joint_L,Left posterior cruciate ligament,FMA:44619,http://purl.obolibrary.org/obo/FMA_44619,VH_M_Ligaments_of_Knee_L
-#VHMLigamentsLeftKnee,#VHMaleOrgans,VH_M_left_tibial_collateral_ligament,Left tibial collateral ligament,FMA:44602,http://purl.obolibrary.org/obo/FMA_44602,VH_M_Ligaments_of_Knee_L
-#VHMLigamentsLeftKnee,#VHMaleOrgans,VH_M_anterior_cruciate_ligament_of_knee_joint_L,Left anterior cruciate ligament,FMA:44616,http://purl.obolibrary.org/obo/FMA_44616,VH_M_Ligaments_of_Knee_L
-#VHMLigamentsLeftKnee,#VHMaleOrgans,VH_M_patellar_ligament_L,Left patellar ligament,FMA:44586,http://purl.obolibrary.org/obo/FMA_44586,VH_M_Ligaments_of_Knee_L
-#VHMLeftKnee,#VHMaleOrgans,VH_M_knee_L,Left knee,FMA:24978,http://purl.obolibrary.org/obo/FMA_24978,VH_M_Knee_L
+#VHMLigamentsLeftKnee,#VHMaleOrgans,VH_M_fibular_collateral_ligament_L,Left fibular collateral ligament,FMA:44610,http://purl.org/sig/ont/fma/fma44610,VH_M_Ligaments_of_Knee_L
+#VHMLigamentsLeftKnee,#VHMaleOrgans,VH_M_posterior_cruciate_ligament_of_knee_joint_L,Left posterior cruciate ligament,FMA:44619,http://purl.org/sig/ont/fma/fma44619,VH_M_Ligaments_of_Knee_L
+#VHMLigamentsLeftKnee,#VHMaleOrgans,VH_M_left_tibial_collateral_ligament,Left tibial collateral ligament,FMA:44602,http://purl.org/sig/ont/fma/fma44602,VH_M_Ligaments_of_Knee_L
+#VHMLigamentsLeftKnee,#VHMaleOrgans,VH_M_anterior_cruciate_ligament_of_knee_joint_L,Left anterior cruciate ligament,FMA:44616,http://purl.org/sig/ont/fma/fma44616,VH_M_Ligaments_of_Knee_L
+#VHMLigamentsLeftKnee,#VHMaleOrgans,VH_M_patellar_ligament_L,Left patellar ligament,FMA:44586,http://purl.org/sig/ont/fma/fma44586,VH_M_Ligaments_of_Knee_L
+#VHMLeftKnee,#VHMaleOrgans,VH_M_knee_L,Left knee,FMA:24978,http://purl.org/sig/ont/fma/fma24978,VH_M_Knee_L
 #VHMLeftKnee,#VHMaleOrgans,VH_M_meniscus_L,Articular disk of knee joint,FMA:64019,http://purl.org/sig/ont/fma/fma64019,VH_M_Knee_L
-#VHMLeftKnee,#VHMaleOrgans,VH_M_knee_joint_L,Left knee joint,FMA:35177,http://purl.obolibrary.org/obo/FMA_35177,VH_M_Knee_L
-#VHMLeftKnee,#VHMaleOrgans,VH_M_fibula_L,Left fibula,FMA:24481,http://purl.obolibrary.org/obo/FMA_24481,VH_M_Knee_L
-#VHMLeftKnee,#VHMaleOrgans,VH_M_femur_L,Left femur,FMA:24475,http://purl.obolibrary.org/obo/FMA_24475,VH_M_Knee_L
-#VHMLeftKnee,#VHMaleOrgans,VH_M_articular_cartilage_of_knee_L,Articular cartilage of distal epiphysis of left femur,FMA:33190,http://purl.obolibrary.org/obo/FMA_33190,VH_M_Knee_L
-#VHMLeftKnee,#VHMaleOrgans,VH_M_intercondylar_fossa_L,Intercondylar fossa of left femur,FMA:43750,http://purl.obolibrary.org/obo/FMA_43750,VH_M_Knee_L
+#VHMLeftKnee,#VHMaleOrgans,VH_M_knee_joint_L,Left knee joint,FMA:35177,http://purl.org/sig/ont/fma/fma35177,VH_M_Knee_L
+#VHMLeftKnee,#VHMaleOrgans,VH_M_fibula_L,Left fibula,FMA:24481,http://purl.org/sig/ont/fma/fma24481,VH_M_Knee_L
+#VHMLeftKnee,#VHMaleOrgans,VH_M_femur_L,Left femur,FMA:24475,http://purl.org/sig/ont/fma/fma24475,VH_M_Knee_L
+#VHMLeftKnee,#VHMaleOrgans,VH_M_articular_cartilage_of_knee_L,Articular cartilage of distal epiphysis of left femur,FMA:33190,http://purl.org/sig/ont/fma/fma33190,VH_M_Knee_L
+#VHMLeftKnee,#VHMaleOrgans,VH_M_intercondylar_fossa_L,Intercondylar fossa of left femur,FMA:43750,http://purl.org/sig/ont/fma/fma43750,VH_M_Knee_L
 -,#VHMaleOrgans,VH_M_anterior_cruciate_enthesis_L,-,-,-,VH_M_Knee_L
 -,#VHMaleOrgans,VH_M_posterior_cruciate_enthesis_L,-,-,-,VH_M_Knee_L
-#VHMLeftKnee,#VHMaleOrgans,VH_M_lateral_condyle_of_femur_frontal_L,Lateral condyle of left femur,FMA:32861,http://purl.obolibrary.org/obo/FMA_32861,VH_M_Knee_L
-#VHMLeftKnee,#VHMaleOrgans,VH_M_lateral_condyle_of_femur_inf_L,Lateral condyle of left femur,FMA:32861,http://purl.obolibrary.org/obo/FMA_32861,VH_M_Knee_L
-#VHMLeftKnee,#VHMaleOrgans,VH_M_lateral_condyle_of_femur_sup_L,Lateral condyle of left femur,FMA:32861,http://purl.obolibrary.org/obo/FMA_32861,VH_M_Knee_L
+#VHMLeftKnee,#VHMaleOrgans,VH_M_lateral_condyle_of_femur_frontal_L,Lateral condyle of left femur,FMA:32861,http://purl.org/sig/ont/fma/fma32861,VH_M_Knee_L
+#VHMLeftKnee,#VHMaleOrgans,VH_M_lateral_condyle_of_femur_inf_L,Lateral condyle of left femur,FMA:32861,http://purl.org/sig/ont/fma/fma32861,VH_M_Knee_L
+#VHMLeftKnee,#VHMaleOrgans,VH_M_lateral_condyle_of_femur_sup_L,Lateral condyle of left femur,FMA:32861,http://purl.org/sig/ont/fma/fma32861,VH_M_Knee_L
 -,#VHMaleOrgans,VH_M_lateral_epicondylar_enthesis_L,-,-,-,VH_M_Knee_L
 -,#VHMaleOrgans,VH_M_lateral_perichondular_surface_L,-,-,-,VH_M_Knee_L
 #VHMLeftKnee,#VHMaleOrgans,VH_M_distal_most_point_of_medial_condyle_of_femur_L,distal-most point of medial condyle of femur,UBERON:7500033,http://purl.obolibrary.org/obo/UBERON_7500033,VH_M_Knee_L
-#VHMLeftKnee,#VHMaleOrgans,VH_M_medial_condyle_of_left_femur_inf,Medial condyle of left femur,FMA:32863,http://purl.obolibrary.org/obo/FMA_32863,VH_M_Knee_L
-#VHMLeftKnee,#VHMaleOrgans,VH_M_medial_condyle_of_left_femur_sup,Medial condyle of left femur,FMA:32863,http://purl.obolibrary.org/obo/FMA_32863,VH_M_Knee_L
+#VHMLeftKnee,#VHMaleOrgans,VH_M_medial_condyle_of_left_femur_inf,Medial condyle of left femur,FMA:32863,http://purl.org/sig/ont/fma/fma32863,VH_M_Knee_L
+#VHMLeftKnee,#VHMaleOrgans,VH_M_medial_condyle_of_left_femur_sup,Medial condyle of left femur,FMA:32863,http://purl.org/sig/ont/fma/fma32863,VH_M_Knee_L
 -,#VHMaleOrgans,VH_M_medial_epicondylar_enthesis_L,-,-,-,VH_M_Knee_L
 -,#VHMaleOrgans,VH_M_medial_perichondular_surface_L,-,-,-,VH_M_Knee_L
-#VHMLeftKnee,#VHMaleOrgans,VH_M_patellar_surface_L,Patellar surface of left femur,FMA:43747,http://purl.obolibrary.org/obo/FMA_43747,VH_M_Knee_L
-#VHMLeftKnee,#VHMaleOrgans,VH_M_tibia_L,Left tibia,FMA:24478,http://purl.obolibrary.org/obo/FMA_24478,VH_M_Knee_L
-#VHMLeftKnee,#VHMaleOrgans,VH_M_patella_L,Left patella,FMA:24487,http://purl.obolibrary.org/obo/FMA_24487,VH_M_Knee_L
+#VHMLeftKnee,#VHMaleOrgans,VH_M_patellar_surface_L,Patellar surface of left femur,FMA:43747,http://purl.org/sig/ont/fma/fma43747,VH_M_Knee_L
+#VHMLeftKnee,#VHMaleOrgans,VH_M_tibia_L,Left tibia,FMA:24478,http://purl.org/sig/ont/fma/fma24478,VH_M_Knee_L
+#VHMLeftKnee,#VHMaleOrgans,VH_M_patella_L,Left patella,FMA:24487,http://purl.org/sig/ont/fma/fma24487,VH_M_Knee_L
 -,#VHMaleOrgans,VH_M_vertebrae,-,-,-,VH_M_United
 #VHMVertebrae,#VHMaleOrgans,VH_M_cervical_vertebra_1,vertebral bone 1,UBERON:0001092,http://purl.obolibrary.org/obo/UBERON_0001092,VH_M_Vertebrae
 #VHMVertebrae,#VHMaleOrgans,VH_M_cervical_vertebra_2,vertebral bone 2,UBERON:0001093,http://purl.obolibrary.org/obo/UBERON_0001093,VH_M_Vertebrae
@@ -1357,13 +1357,13 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHMProstate,#VHMaleOrgans,VH_M_male_reproductive_system,male reproductive system,UBERON:0000079,http://purl.obolibrary.org/obo/UBERON_0000079,VH_M_Prostate
 #VHMProstate,#VHMaleOrgans,VH_M_male_genital_duct,male genital duct,UBERON:0010140,http://purl.obolibrary.org/obo/UBERON_0006947,VH_M_Prostate
 -,#VHMaleOrgans,VH_M_vas_deferens,-,-,-,VH_M_Prostate
--,#VHMaleOrgans,VH_M_vas_deferens_L,Left deferent duct,FMA:19236,http://purl.obolibrary.org/obo/FMA_19236,-
--,#VHMaleOrgans,VH_M_vas_deferens_R,Right deferent duct,FMA:19235,http://purl.obolibrary.org/obo/FMA_19235,-
+-,#VHMaleOrgans,VH_M_vas_deferens_L,Left deferent duct,FMA:19236,http://purl.org/sig/ont/fma/fma19236,-
+-,#VHMaleOrgans,VH_M_vas_deferens_R,Right deferent duct,FMA:19235,http://purl.org/sig/ont/fma/fma19235,-
 #VHMProstate,#VHMaleOrgans,VH_M_seminal_vesicle,Right deferent duct,UBERON:0000998,http://purl.obolibrary.org/obo/UBERON_0000998,VH_M_Prostate
 #VHMProstate,#VHMaleOrgans,VH_M_ejaculatory_duct,ejaculatory duct,UBERON:0000999,http://purl.obolibrary.org/obo/UBERON_0000999,VH_M_Prostate
 #VHMProstate,#VHMaleOrgans,VH_M_prostate_gland,prostate gland,UBERON:0002367,http://purl.obolibrary.org/obo/UBERON_0002367,VH_M_Prostate
 #VHMProstate,#VHMaleOrgans,VH_M_prostatic_utricle,prostatic utricle,UBERON:0011199,http://purl.obolibrary.org/obo/UBERON_0011199,VH_M_Prostate
-#VHMProstate,#VHMaleOrgans,VH_M_seminal_colliculus,Verumontanum,FMA:19719,http://purl.obolibrary.org/obo/FMA_19719,VH_M_Prostate
+#VHMProstate,#VHMaleOrgans,VH_M_seminal_colliculus,Verumontanum,FMA:19719,http://purl.org/sig/ont/fma/fma19719,VH_M_Prostate
 -,#VHMaleOrgans,VH_M_prostate_duct,-,-,-,VH_M_Prostate
 #VHMProstate,#VHMaleOrgans,VH_M_prostate_duct_R,prostate duct,UBERON:0002485,http://purl.obolibrary.org/obo/UBERON_0002485,VH_M_Prostate
 #VHMProstate,#VHMaleOrgans,VH_M_prostate_duct_L,prostate duct,-,-,VH_M_Prostate
@@ -1379,20 +1379,20 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHMProstate,#VHMaleOrgans,VH_M_central_zone_of_prostate_R,central zone of prostate,UBERON:8410027,http://purl.obolibrary.org/obo/UBERON_8410027,VH_M_Prostate
 #VHMProstate,#VHMaleOrgans,VH_M_central_zone_of_prostate_L,central zone of prostate,UBERON:8410027,http://purl.obolibrary.org/obo/UBERON_8410027,VH_M_Prostate
 #VHMProstate,#VHMaleOrgans,VH_M_anterior_fibromuscular_stroma,-,-,-,VH_M_Prostate
-#VHMProstate,#VHMaleOrgans,VH_M_anterior_fibromuscular_stroma_L,Anterior fibromuscular stroma of prostate,FMA:74238,http://purl.obolibrary.org/obo/FMA_74238,VH_M_Prostate
-#VHMProstate,#VHMaleOrgans,VH_M_anterior_fibromuscular_stroma_R,Anterior fibromuscular stroma of prostate,FMA:74238,http://purl.obolibrary.org/obo/FMA_74238,VH_M_Prostate
+#VHMProstate,#VHMaleOrgans,VH_M_anterior_fibromuscular_stroma_L,Anterior fibromuscular stroma of prostate,FMA:74238,http://purl.org/sig/ont/fma/fma74238,VH_M_Prostate
+#VHMProstate,#VHMaleOrgans,VH_M_anterior_fibromuscular_stroma_R,Anterior fibromuscular stroma of prostate,FMA:74238,http://purl.org/sig/ont/fma/fma74238,VH_M_Prostate
 -,#VHMaleOrgans,VH_M_digestive_system,digestive system,UBERON:0001007,http://purl.obolibrary.org/obo/UBERON_0001007,VH_M_United
 #VHMLiver,#VHMaleOrgans,VH_M_liver,liver,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107,VH_M_Liver
 #VHMLiver,#VHMaleOrgans,VH_M_bare_area_of_liver,bare area of liver,UBERON:0001149,http://purl.obolibrary.org/obo/UBERON_0001149,VH_M_Liver
 #VHMLiver,#VHMaleOrgans,VH_M_liver_capsule,capsule of the liver,UBERON:0016479,http://purl.obolibrary.org/obo/UBERON_0016479,VH_M_Liver
-#VHMLiver,#VHMaleOrgans,VH_M_diaphragmatic_surface,diaphragmatic surface of liver,FMA:15729,http://purl.obolibrary.org/obo/FMA_15729,VH_M_Liver
-#VHMLiver,#VHMaleOrgans,VH_M_suprarenal_impression_of_liver,Suprarenal impression of liver,FMA:14489,http://purl.obolibrary.org/obo/FMA_14489,VH_M_Liver
-#VHMLiver,#VHMaleOrgans,VH_M_renal_impression_of_liver,renal impression of liver,FMA:14488,http://purl.obolibrary.org/obo/FMA_14488,VH_M_Liver
-#VHMLiver,#VHMaleOrgans,VH_M_gastric_impression_of_liver,gastric impression of liver,FMA:14487,http://purl.obolibrary.org/obo/FMA_14487,VH_M_Liver
-#VHMLiver,#VHMaleOrgans,VH_M_colic_impression_of_liver,colic impression of liver,FMA:14484,http://purl.obolibrary.org/obo/FMA_14484,VH_M_Liver
-#VHMLiver,#VHMaleOrgans,VH_M_esophageal_impression_of_liver,esophageal impression of liver,FMA:14486,http://purl.obolibrary.org/obo/FMA_14486,VH_M_Liver
-#VHMLiver,#VHMaleOrgans,VH_M_duodenal_impression_of_liver,duodenal impression of liver,FMA:14485,http://purl.obolibrary.org/obo/FMA_14485,VH_M_Liver
-#VHMLiver,#VHMaleOrgans,VH_M_porta_hepatis,porta hepatis,FMA:15758,http://purl.obolibrary.org/obo/FMA_15758,VH_M_Liver
+#VHMLiver,#VHMaleOrgans,VH_M_diaphragmatic_surface,diaphragmatic surface of liver,FMA:15729,http://purl.org/sig/ont/fma/fma15729,VH_M_Liver
+#VHMLiver,#VHMaleOrgans,VH_M_suprarenal_impression_of_liver,Suprarenal impression of liver,FMA:14489,http://purl.org/sig/ont/fma/fma14489,VH_M_Liver
+#VHMLiver,#VHMaleOrgans,VH_M_renal_impression_of_liver,renal impression of liver,FMA:14488,http://purl.org/sig/ont/fma/fma14488,VH_M_Liver
+#VHMLiver,#VHMaleOrgans,VH_M_gastric_impression_of_liver,gastric impression of liver,FMA:14487,http://purl.org/sig/ont/fma/fma14487,VH_M_Liver
+#VHMLiver,#VHMaleOrgans,VH_M_colic_impression_of_liver,colic impression of liver,FMA:14484,http://purl.org/sig/ont/fma/fma14484,VH_M_Liver
+#VHMLiver,#VHMaleOrgans,VH_M_esophageal_impression_of_liver,esophageal impression of liver,FMA:14486,http://purl.org/sig/ont/fma/fma14486,VH_M_Liver
+#VHMLiver,#VHMaleOrgans,VH_M_duodenal_impression_of_liver,duodenal impression of liver,FMA:14485,http://purl.org/sig/ont/fma/fma14485,VH_M_Liver
+#VHMLiver,#VHMaleOrgans,VH_M_porta_hepatis,porta hepatis,FMA:15758,http://purl.org/sig/ont/fma/fma15758,VH_M_Liver
 -,#VHMaleOrgans,VH_M_couinaud_liver_segment,-,-,-,VH_M_Liver
 #VHMLiver,#VHMaleOrgans,VH_M_caudate_lobe_of_liver,caudate lobe of liver,UBERON:0001117,http://purl.obolibrary.org/obo/UBERON_0001117,VH_M_Liver
 #VHMLiver,#VHMaleOrgans,VH_M_right_lobe_of_liver,right lobe of liver,UBERON:0001114,http://purl.obolibrary.org/obo/UBERON_0001114,VH_M_Liver
@@ -1419,7 +1419,7 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHMPancreas,#VHMaleOrgans,VH_M_body_of_pancreas,body of pancreas,UBERON:0001150,http://purl.obolibrary.org/obo/UBERON_0001150,VH_M_Pancreas
 #VHMPancreas,#VHMaleOrgans,VH_M_tail_of_pancreas,tail of pancreas,UBERON:0001151,http://purl.obolibrary.org/obo/UBERON_0001151,VH_M_Pancreas
 #VHMPancreas,#VHMaleOrgans,VH_M_head_of_pancreas,head of pancreas,UBERON:0001069,http://purl.obolibrary.org/obo/UBERON_0001069,VH_M_Pancreas
-#VHMPancreas,#VHMaleOrgans,VH_M_neck_of_pancreas,Neck of pancreas,FMA:14517,http://purl.obolibrary.org/obo/FMA_14517,VH_M_Pancreas
+#VHMPancreas,#VHMaleOrgans,VH_M_neck_of_pancreas,Neck of pancreas,FMA:14517,http://purl.org/sig/ont/fma/fma14517,VH_M_Pancreas
 #VHMPancreas,#VHMaleOrgans,VH_M_uncinate_process_of_the_pancreas,uncinate process of pancreas,UBERON:0010373,http://purl.obolibrary.org/obo/UBERON_0010373,VH_M_Pancreas
 #VHMBiliaryTree,#VHMaleOrgans,VH_M_biliary_tree,biliary tree,UBERON:0001173,http://purl.obolibrary.org/obo/UBERON_0001173,VH_M_Biliary_Tree
 #VHMDuctsPancreas,#VHMaleOrgans,VH_M_ducts_of_pancreas,-,-,-,VH_M_Ducts_of_Pancreas
@@ -1435,15 +1435,15 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHMDuctsGallbladder,#VHMaleOrgans,VH_M_cystic_duct,cystic duct,UBERON:0001152,http://purl.obolibrary.org/obo/UBERON_0001152,VH_M_Ducts_of_Gallbladder
 #VHMSmallIntestine,#VHMaleOrgans,VH_M_small_intestine,small intestine,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108,VH_M_Small_Intestine
 #VHMSmallIntestine,#VHMaleOrgans,VH_M_ileum,ileum,UBERON:0002116,http://purl.obolibrary.org/obo/UBERON_0002116,VH_M_Small_Intestine
-#VHMSmallIntestine,#VHMaleOrgans,VH_M_ileum_terminal,distal part of ileum,FMA:14966,http://purl.obolibrary.org/obo/FMA_14966,VH_M_Small_Intestine
+#VHMSmallIntestine,#VHMaleOrgans,VH_M_ileum_terminal,distal part of ileum,FMA:14966,http://purl.org/sig/ont/fma/fma14966,VH_M_Small_Intestine
 #VHMSmallIntestine,#VHMaleOrgans,VH_M_jejunum,jejunum,UBERON:0002115,http://purl.obolibrary.org/obo/UBERON_0002115,VH_M_Small_Intestine
 #VHMSmallIntestine,#VHMaleOrgans,VH_M_duodenum,duodenum,UBERON:0002114,http://purl.obolibrary.org/obo/UBERON_0002114,VH_M_Small_Intestine
-#VHMSmallIntestine,#VHMaleOrgans,VH_M_duodenum_ascending,ascending part of duodenum,FMA:14930,http://purl.obolibrary.org/obo/FMA_14930,VH_M_Small_Intestine
-#VHMSmallIntestine,#VHMaleOrgans,VH_M_duodenum_descending,descending part of duodenum,FMA:14928,http://purl.obolibrary.org/obo/FMA_14928,VH_M_Small_Intestine
-#VHMSmallIntestine,#VHMaleOrgans,VH_M_duodenum_horizonal,horizontal part of duodenum,FMA:14929,http://purl.obolibrary.org/obo/FMA_14929,VH_M_Small_Intestine
-#VHMSmallIntestine,#VHMaleOrgans,VH_M_duodenum_superior,superior part of duodenum,FMA:7206,http://purl.obolibrary.org/obo/FMA_14926,VH_M_Small_Intestine
+#VHMSmallIntestine,#VHMaleOrgans,VH_M_duodenum_ascending,ascending part of duodenum,FMA:14930,http://purl.org/sig/ont/fma/fma14930,VH_M_Small_Intestine
+#VHMSmallIntestine,#VHMaleOrgans,VH_M_duodenum_descending,descending part of duodenum,FMA:14928,http://purl.org/sig/ont/fma/fma14928,VH_M_Small_Intestine
+#VHMSmallIntestine,#VHMaleOrgans,VH_M_duodenum_horizonal,horizontal part of duodenum,FMA:14929,http://purl.org/sig/ont/fma/fma14929,VH_M_Small_Intestine
+#VHMSmallIntestine,#VHMaleOrgans,VH_M_duodenum_superior,superior part of duodenum,FMA:7206,http://purl.org/sig/ont/fma/fma14926,VH_M_Small_Intestine
 #VHMSmallIntestine,#VHMaleOrgans,VH_M_duodenal_ampulla,duodenal ampulla,UBERON:0013644,http://purl.obolibrary.org/obo/UBERON_0013644,VH_M_Small_Intestine
-#VHMSmallIntestine,#VHMaleOrgans,VH_M_sphincter_of_hepatopancreatic_ampulla,Sphincter of hepatopancreatic ampulla,FMA:15077,http://purl.obolibrary.org/obo/FMA_15077,VH_M_Small_Intestine
+#VHMSmallIntestine,#VHMaleOrgans,VH_M_sphincter_of_hepatopancreatic_ampulla,Sphincter of hepatopancreatic ampulla,FMA:15077,http://purl.org/sig/ont/fma/fma15077,VH_M_Small_Intestine
 #VHMSmallIntestine,#VHMaleOrgans,VH_M_papilla_of_santorini,duodenal papilla,UBERON:0004914,http://purl.obolibrary.org/obo/UBERON_0004914,VH_M_Small_Intestine
 #VHMColon,#VHMaleOrgans,VH_M_colon,large intestine,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059,SBU_M_Intestine_Large
 #VHMColon,#VHMaleOrgans,VH_M_ascending_colon,ascending colon,UBERON:0001156,http://purl.obolibrary.org/obo/UBERON_0001156,SBU_M_Intestine_Large
@@ -1521,8 +1521,8 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHMUrinaryBladder,#VHMaleOrgans,VH_M_fundus_of_urinary_bladder_dome,fundus of urinary bladder,UBERON:0006082,http://purl.obolibrary.org/obo/UBERON_0006082,VH_M_Urinary_Bladder
 #VHMUrinaryBladder,#VHMaleOrgans,VH_M_fundus_of_urinary_bladder,fundus of urinary bladder,UBERON:0006082,http://purl.obolibrary.org/obo/UBERON_0006082,VH_M_Urinary_Bladder
 #VHMUrinaryBladder,#VHMaleOrgans,VH_M_ureteral_orifice,-,-,-,VH_M_Urinary_Bladder
-#VHMUrinaryBladder,#VHMaleOrgans,VH_M_ureteral_orifice_R,Right ureteral orifice,FMA:15939,http://purl.obolibrary.org/obo/FMA_15939,VH_M_Urinary_Bladder
-#VHMUrinaryBladder,#VHMaleOrgans,VH_M_ureteral_orifice_L,Left ureteral orifice,FMA:15940,http://purl.obolibrary.org/obo/FMA_15940,VH_M_Urinary_Bladder
+#VHMUrinaryBladder,#VHMaleOrgans,VH_M_ureteral_orifice_R,Right ureteral orifice,FMA:15939,http://purl.org/sig/ont/fma/fma15939,VH_M_Urinary_Bladder
+#VHMUrinaryBladder,#VHMaleOrgans,VH_M_ureteral_orifice_L,Left ureteral orifice,FMA:15940,http://purl.org/sig/ont/fma/fma15940,VH_M_Urinary_Bladder
 #VHMUrinaryBladder,#VHMaleOrgans,VH_M_fundus_of_urinary_bladder_base1,fundus of urinary bladder,UBERON:0006082,http://purl.obolibrary.org/obo/UBERON_0006082,VH_M_Urinary_Bladder
 #VHMUrinaryBladder,#VHMaleOrgans,VH_M_trigone_of_urinary_bladder,trigone of urinary bladder,UBERON:0001257,http://purl.obolibrary.org/obo/UBERON_0001257,VH_M_Urinary_Bladder
 -,-,VH_M_renal_pelvis_ureter,-,-,-,
@@ -1903,86 +1903,86 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 -,#VHMaleOrgans,VH_M_nerves_of_eye,-,-,-,VH_M_United
 -,-,VH_M_nerves_of_eye_L,-,-,-,-
 #VHMNervesEye,#VHMaleOrgans,VH_M_dura_mater_left,dura mater,UBERON:0002363,http://purl.obolibrary.org/obo/UBERON_0002363,VH_M_Nerves_Eye
-#VHMNervesEye,#VHMaleOrgans,VH_M_left_optic_nerve,Left optic nerve,FMA:50878,http://purl.obolibrary.org/obo/FMA_50878,VH_M_Nerves_Eye
+#VHMNervesEye,#VHMaleOrgans,VH_M_left_optic_nerve,Left optic nerve,FMA:50878,http://purl.org/sig/ont/fma/fma50878,VH_M_Nerves_Eye
 -,-,VH_M_nerves_of_eye_R,-,-,-,-
-#VHMNervesEye,#VHMaleOrgans,VH_M_right_optic_nerve,Right optic nerve,FMA:50875,http://purl.obolibrary.org/obo/FMA_50875,VH_M_Nerves_Eye
+#VHMNervesEye,#VHMaleOrgans,VH_M_right_optic_nerve,Right optic nerve,FMA:50875,http://purl.org/sig/ont/fma/fma50875,VH_M_Nerves_Eye
 #VHMNervesEye,#VHMaleOrgans,VH_M_dura_mater_right,dura mater,UBERON:0002363,http://purl.obolibrary.org/obo/UBERON_0002363,VH_M_Nerves_Eye
 -,#VHMaleOrgans,VH_M_eyes,-,-,-,VH_M_United
 #VHMLeftEye,#VHMaleOrgans,VH_M_eye_L,left eye,UBERON:0004548,http://purl.obolibrary.org/obo/UBERON_0004548,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_bulbar_conjunctiva_L,Left bulbar conjunctiva,FMA:59029,http://purl.obolibrary.org/obo/FMA_59029,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_bulbar_conjunctiva_L,Left bulbar conjunctiva,FMA:59029,http://purl.org/sig/ont/fma/fma59029,VH_M_Eye_L
 -,-,VH_M_palpebral_conjunctiva_L,-,-,-,-
-#VHMLeftEye,#VHMaleOrgans,VH_M_palpebral_conjunctiva_of_upper_eyelid_L,Palpebral conjunctiva of left upper eyelid,FMA:223078,http://purl.obolibrary.org/obo/FMA_223078,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_palpebral_conjunctiva_of_lower_eyelid_L,Palpebral conjunctiva of left lower eyelid,FMA:223075,http://purl.obolibrary.org/obo/FMA_223075,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_ora_serrata_of_retina_L,Left ora serrata,FMA:58602,http://purl.obolibrary.org/obo/FMA_58602,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_corneo_scleral_junction_L,Left corneoscleral junction,FMA:58344,http://purl.obolibrary.org/obo/FMA_58344,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_palpebral_conjunctiva_of_upper_eyelid_L,Palpebral conjunctiva of left upper eyelid,FMA:223078,http://purl.org/sig/ont/fma/fma223078,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_palpebral_conjunctiva_of_lower_eyelid_L,Palpebral conjunctiva of left lower eyelid,FMA:223075,http://purl.org/sig/ont/fma/fma223075,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_ora_serrata_of_retina_L,Left ora serrata,FMA:58602,http://purl.org/sig/ont/fma/fma58602,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_corneo_scleral_junction_L,Left corneoscleral junction,FMA:58344,http://purl.org/sig/ont/fma/fma58344,VH_M_Eye_L
 #VHMLeftEye,#VHMaleOrgans,VH_M_pupil_L,left pupil,UBERON:0010223,http://purl.obolibrary.org/obo/UBERON_0010223,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_cornea_L,Left cornea,FMA:58240,http://purl.obolibrary.org/obo/FMA_58240,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_ciliary_body_L,Left ciliary body,FMA:58297,http://purl.obolibrary.org/obo/FMA_58297,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_ciliary_muscle_L,Left ciliary muscle,FMA:49153,http://purl.obolibrary.org/obo/FMA_49153,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_cornea_L,Left cornea,FMA:58240,http://purl.org/sig/ont/fma/fma58240,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_ciliary_body_L,Left ciliary body,FMA:58297,http://purl.org/sig/ont/fma/fma58297,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_ciliary_muscle_L,Left ciliary muscle,FMA:49153,http://purl.org/sig/ont/fma/fma49153,VH_M_Eye_L
 #VHMLeftEye,#VHMaleOrgans,VH_M_trabecular_meshwork_L,eye trabecular meshwork,UBERON:0005969,http://purl.obolibrary.org/obo/UBERON_0005969,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_aqueous_humor_L,Aqueous humor of left eyeball,FMA:58821,http://purl.obolibrary.org/obo/FMA_58821,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_schlemms_canal_L,Left scleral venous sinus,FMA:51875,http://purl.obolibrary.org/obo/FMA_51875,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_optic_choroid_L,Left choroid,FMA:58300,http://purl.obolibrary.org/obo/FMA_58300,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_iris_L,Left iris,FMA:58237,http://purl.obolibrary.org/obo/FMA_58237,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_lens_L,Left lens,FMA:58243,http://purl.obolibrary.org/obo/FMA_58243,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_vitreous_humor_L,Humor of left vitreous body,FMA:261238,http://purl.obolibrary.org/obo/FMA_261238,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_suspensory_ligament_of_lens_L,Suspensory ligament of left lens,FMA:58840,http://purl.obolibrary.org/obo/FMA_58840,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_aqueous_humor_L,Aqueous humor of left eyeball,FMA:58821,http://purl.org/sig/ont/fma/fma58821,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_schlemms_canal_L,Left scleral venous sinus,FMA:51875,http://purl.org/sig/ont/fma/fma51875,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_optic_choroid_L,Left choroid,FMA:58300,http://purl.org/sig/ont/fma/fma58300,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_iris_L,Left iris,FMA:58237,http://purl.org/sig/ont/fma/fma58237,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_lens_L,Left lens,FMA:58243,http://purl.org/sig/ont/fma/fma58243,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_vitreous_humor_L,Humor of left vitreous body,FMA:261238,http://purl.org/sig/ont/fma/fma261238,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_suspensory_ligament_of_lens_L,Suspensory ligament of left lens,FMA:58840,http://purl.org/sig/ont/fma/fma58840,VH_M_Eye_L
 #VHMLeftEye,#VHMaleOrgans,VH_M_ciliary_processes_L,ciliary processes,UBERON:0010427,http://purl.obolibrary.org/obo/UBERON_0010427,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_retina_L,Left retina,FMA:58303,http://purl.obolibrary.org/obo/FMA_58303,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_fovea_L,Left fovea centralis,FMA:58663,http://purl.obolibrary.org/obo/FMA_58663,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_macula_lutea_L,Left macula lutea,FMA:58639,http://purl.obolibrary.org/obo/FMA_58639,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_optic_disc_L,Left optic disc,FMA:58636,http://purl.obolibrary.org/obo/FMA_58636,VH_M_Eye_L
-#VHMLeftEye,#VHMaleOrgans,VH_M_sclera_L,Left sclera,FMA:58272,http://purl.obolibrary.org/obo/FMA_58272,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_retina_L,Left retina,FMA:58303,http://purl.org/sig/ont/fma/fma58303,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_fovea_L,Left fovea centralis,FMA:58663,http://purl.org/sig/ont/fma/fma58663,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_macula_lutea_L,Left macula lutea,FMA:58639,http://purl.org/sig/ont/fma/fma58639,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_optic_disc_L,Left optic disc,FMA:58636,http://purl.org/sig/ont/fma/fma58636,VH_M_Eye_L
+#VHMLeftEye,#VHMaleOrgans,VH_M_sclera_L,Left sclera,FMA:58272,http://purl.org/sig/ont/fma/fma58272,VH_M_Eye_L
 #VHMRightEye,#VHMaleOrgans,VH_M_eye_R,right eye,UBERON:0004549,http://purl.obolibrary.org/obo/UBERON_0004549,VH_M_Eye_R
 -,-,VH_M_palpebral_conjunctiva_R,-,-,-,-
-#VHMRightEye,#VHMaleOrgans,VH_M_palpebral_conjunctiva_of_upper_eyelid_R,Palpebral conjunctiva of right upper eyelid,FMA:223076,http://purl.obolibrary.org/obo/FMA_223076,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_palpebral_conjunctiva_of_lower_eyelid_R,Palpebral conjunctiva of right lower eyelid,FMA:223074,http://purl.obolibrary.org/obo/FMA_223074,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_bulbar_conjunctiva_R,Right bulbar conjunctiva,FMA:59028,http://purl.obolibrary.org/obo/FMA_59028,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_sclera_R,Right sclera,FMA:58271,http://purl.obolibrary.org/obo/FMA_58271,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_iris_R,Right iris,FMA:58236,http://purl.obolibrary.org/obo/FMA_58236,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_schlemms_canal_R,Right scleral venous sinus,FMA:51874,http://purl.obolibrary.org/obo/FMA_51874,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_palpebral_conjunctiva_of_upper_eyelid_R,Palpebral conjunctiva of right upper eyelid,FMA:223076,http://purl.org/sig/ont/fma/fma223076,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_palpebral_conjunctiva_of_lower_eyelid_R,Palpebral conjunctiva of right lower eyelid,FMA:223074,http://purl.org/sig/ont/fma/fma223074,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_bulbar_conjunctiva_R,Right bulbar conjunctiva,FMA:59028,http://purl.org/sig/ont/fma/fma59028,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_sclera_R,Right sclera,FMA:58271,http://purl.org/sig/ont/fma/fma58271,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_iris_R,Right iris,FMA:58236,http://purl.org/sig/ont/fma/fma58236,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_schlemms_canal_R,Right scleral venous sinus,FMA:51874,http://purl.org/sig/ont/fma/fma51874,VH_M_Eye_R
 #VHMRightEye,#VHMaleOrgans,VH_M_trabecular_meshwork_R,eye trabecular meshwork,UBERON:0005969,http://purl.obolibrary.org/obo/UBERON_0005969,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_optic_choroid_R,Right choroid,FMA:58299,http://purl.obolibrary.org/obo/FMA_58299,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_ciliary_body_R,Right ciliary body,FMA:58296,http://purl.obolibrary.org/obo/FMA_58296,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_ciliary_muscle_R,Right ciliary muscle,FMA:49152,http://purl.obolibrary.org/obo/FMA_49152,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_aqueous_humor_R,Aqueous humor of right eyeball,FMA:58820,http://purl.obolibrary.org/obo/FMA_58820,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_cornea_R,Right cornea,FMA:58239,http://purl.obolibrary.org/obo/FMA_58239,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_lens_R,Right lens,FMA:58242,http://purl.obolibrary.org/obo/FMA_58242,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_optic_choroid_R,Right choroid,FMA:58299,http://purl.org/sig/ont/fma/fma58299,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_ciliary_body_R,Right ciliary body,FMA:58296,http://purl.org/sig/ont/fma/fma58296,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_ciliary_muscle_R,Right ciliary muscle,FMA:49152,http://purl.org/sig/ont/fma/fma49152,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_aqueous_humor_R,Aqueous humor of right eyeball,FMA:58820,http://purl.org/sig/ont/fma/fma58820,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_cornea_R,Right cornea,FMA:58239,http://purl.org/sig/ont/fma/fma58239,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_lens_R,Right lens,FMA:58242,http://purl.org/sig/ont/fma/fma58242,VH_M_Eye_R
 #VHMRightEye,#VHMaleOrgans,VH_M_pupil_R,right pupil,UBERON:0010224,http://purl.obolibrary.org/obo/UBERON_0010224,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_corneo_scleral_junction_R,Right corneoscleral junction,FMA:58343,http://purl.obolibrary.org/obo/FMA_58343,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_ora_serrata_of_retina_R,Right ora serrata,FMA:58601,http://purl.obolibrary.org/obo/FMA_58601,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_suspensory_ligament_of_lens_R,Suspensory ligament of right lens,FMA:58839,http://purl.obolibrary.org/obo/FMA_58839,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_corneo_scleral_junction_R,Right corneoscleral junction,FMA:58343,http://purl.org/sig/ont/fma/fma58343,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_ora_serrata_of_retina_R,Right ora serrata,FMA:58601,http://purl.org/sig/ont/fma/fma58601,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_suspensory_ligament_of_lens_R,Suspensory ligament of right lens,FMA:58839,http://purl.org/sig/ont/fma/fma58839,VH_M_Eye_R
 #VHMRightEye,#VHMaleOrgans,VH_M_ciliary_processes_R,ciliary processes,UBERON:0010427,http://purl.obolibrary.org/obo/UBERON_0010427,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_retina_R,Right retina,FMA:58302,http://purl.obolibrary.org/obo/FMA_58302,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_fovea_R,Right fovea centralis,FMA:58661,http://purl.obolibrary.org/obo/FMA_58661,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_macula_lutea_R,Right macula lutea,FMA:58638,http://purl.obolibrary.org/obo/FMA_58638,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_optic_disc_R,Right optic disc,FMA:58635,http://purl.obolibrary.org/obo/FMA_58635,VH_M_Eye_R
-#VHMRightEye,#VHMaleOrgans,VH_M_vitreous_humor_R,Humor of right vitreous body,FMA:261236,http://purl.obolibrary.org/obo/FMA_261236,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_retina_R,Right retina,FMA:58302,http://purl.org/sig/ont/fma/fma58302,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_fovea_R,Right fovea centralis,FMA:58661,http://purl.org/sig/ont/fma/fma58661,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_macula_lutea_R,Right macula lutea,FMA:58638,http://purl.org/sig/ont/fma/fma58638,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_optic_disc_R,Right optic disc,FMA:58635,http://purl.org/sig/ont/fma/fma58635,VH_M_Eye_R
+#VHMRightEye,#VHMaleOrgans,VH_M_vitreous_humor_R,Humor of right vitreous body,FMA:261236,http://purl.org/sig/ont/fma/fma261236,VH_M_Eye_R
 -,#VHMaleOrgans,VH_M_muscular_system,muscle organ,UBERON:0001630,http://purl.obolibrary.org/obo/UBERON_0001630,VH_M_Eye_R
 -,#VHMaleOrgans,VH_M_muscles_of_eye,eye muscle,UBERON:0004277,http://purl.obolibrary.org/obo/UBERON_0004277,VH_M_United
-#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_ocular_muscles_L,Ocular muscle,FMA:49149,http://purl.obolibrary.org/obo/FMA_49149,VH_M_Muscles_Eye_L
-#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_superior_oblique_extraocular_muscle_L,Left superior oblique,FMA:49053,http://purl.obolibrary.org/obo/FMA_49053,VH_M_Muscles_Eye_L
-#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_lateral_rectus_extraocular_muscle_L,Left lateral rectus,FMA:49055,http://purl.obolibrary.org/obo/FMA_49055,VH_M_Muscles_Eye_L
-#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_inferior_oblique_extraocular_muscle_L,Left inferior oblique,FMA:49051,http://purl.obolibrary.org/obo/FMA_49051,VH_M_Muscles_Eye_L
-#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_inferior_rectus_extraocular_muscle_L,Left inferior rectus,FMA:49047,http://purl.obolibrary.org/obo/FMA_49047,VH_M_Muscles_Eye_L
-#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_superior_rectus_extraocular_muscle_L,Left superior rectus,FMA:49045,http://purl.obolibrary.org/obo/FMA_49045,VH_M_Muscles_Eye_L
-#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_levator_palpebrae_superioris_L,Left levator palpebrae superioris,FMA:49049,http://purl.obolibrary.org/obo/FMA_49049,VH_M_Muscles_Eye_L
-#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_medial_rectus_extraocular_muscle_L,Left medial rectus,FMA:49057,http://purl.obolibrary.org/obo/FMA_49057,VH_M_Muscles_Eye_L
+#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_ocular_muscles_L,Ocular muscle,FMA:49149,http://purl.org/sig/ont/fma/fma49149,VH_M_Muscles_Eye_L
+#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_superior_oblique_extraocular_muscle_L,Left superior oblique,FMA:49053,http://purl.org/sig/ont/fma/fma49053,VH_M_Muscles_Eye_L
+#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_lateral_rectus_extraocular_muscle_L,Left lateral rectus,FMA:49055,http://purl.org/sig/ont/fma/fma49055,VH_M_Muscles_Eye_L
+#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_inferior_oblique_extraocular_muscle_L,Left inferior oblique,FMA:49051,http://purl.org/sig/ont/fma/fma49051,VH_M_Muscles_Eye_L
+#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_inferior_rectus_extraocular_muscle_L,Left inferior rectus,FMA:49047,http://purl.org/sig/ont/fma/fma49047,VH_M_Muscles_Eye_L
+#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_superior_rectus_extraocular_muscle_L,Left superior rectus,FMA:49045,http://purl.org/sig/ont/fma/fma49045,VH_M_Muscles_Eye_L
+#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_levator_palpebrae_superioris_L,Left levator palpebrae superioris,FMA:49049,http://purl.org/sig/ont/fma/fma49049,VH_M_Muscles_Eye_L
+#VHMMusclesLeftEye,#VHMaleOrgans,VH_M_medial_rectus_extraocular_muscle_L,Left medial rectus,FMA:49057,http://purl.org/sig/ont/fma/fma49057,VH_M_Muscles_Eye_L
 -,#VHMaleOrgans,VH_M_ocular_muscles_R,-,-,-,VH_M_Muscles_Eye_R
-#VHMMusclesRightEye,#VHMaleOrgans,VH_M_medial_rectus_extraocular_muscle_R,Right medial rectus,FMA:49056,http://purl.obolibrary.org/obo/FMA_49056,VH_M_Muscles_Eye_R
-#VHMMusclesRightEye,#VHMaleOrgans,VH_M_levator_palpebrae_superioris_R,Right levator palpebrae superioris,FMA:49048,http://purl.obolibrary.org/obo/FMA_49048,VH_M_Muscles_Eye_R
-#VHMMusclesRightEye,#VHMaleOrgans,VH_M_superior_rectus_extraocular_muscle_R,Right superior rectus,FMA:49044,http://purl.obolibrary.org/obo/FMA_49044,VH_M_Muscles_Eye_R
-#VHMMusclesRightEye,#VHMaleOrgans,VH_M_inferior_rectus_extraocular_muscle_R,Right inferior rectus,FMA:49046,http://purl.obolibrary.org/obo/FMA_49046,VH_M_Muscles_Eye_R
-#VHMMusclesRightEye,#VHMaleOrgans,VH_M_inferior_oblique_extraocular_muscle_R,Right inferior oblique,FMA:49050,http://purl.obolibrary.org/obo/FMA_49050,VH_M_Muscles_Eye_R
-#VHMMusclesRightEye,#VHMaleOrgans,VH_M_lateral_rectus_extraocular_muscle_R,Right lateral rectus,FMA:49054,http://purl.obolibrary.org/obo/FMA_49054,VH_M_Muscles_Eye_R
-#VHMMusclesRightEye,#VHMaleOrgans,VH_M_superior_oblique_extraocular_muscle_R,Right superior oblique,FMA:49052,http://purl.obolibrary.org/obo/FMA_49052,VH_M_Muscles_Eye_R
+#VHMMusclesRightEye,#VHMaleOrgans,VH_M_medial_rectus_extraocular_muscle_R,Right medial rectus,FMA:49056,http://purl.org/sig/ont/fma/fma49056,VH_M_Muscles_Eye_R
+#VHMMusclesRightEye,#VHMaleOrgans,VH_M_levator_palpebrae_superioris_R,Right levator palpebrae superioris,FMA:49048,http://purl.org/sig/ont/fma/fma49048,VH_M_Muscles_Eye_R
+#VHMMusclesRightEye,#VHMaleOrgans,VH_M_superior_rectus_extraocular_muscle_R,Right superior rectus,FMA:49044,http://purl.org/sig/ont/fma/fma49044,VH_M_Muscles_Eye_R
+#VHMMusclesRightEye,#VHMaleOrgans,VH_M_inferior_rectus_extraocular_muscle_R,Right inferior rectus,FMA:49046,http://purl.org/sig/ont/fma/fma49046,VH_M_Muscles_Eye_R
+#VHMMusclesRightEye,#VHMaleOrgans,VH_M_inferior_oblique_extraocular_muscle_R,Right inferior oblique,FMA:49050,http://purl.org/sig/ont/fma/fma49050,VH_M_Muscles_Eye_R
+#VHMMusclesRightEye,#VHMaleOrgans,VH_M_lateral_rectus_extraocular_muscle_R,Right lateral rectus,FMA:49054,http://purl.org/sig/ont/fma/fma49054,VH_M_Muscles_Eye_R
+#VHMMusclesRightEye,#VHMaleOrgans,VH_M_superior_oblique_extraocular_muscle_R,Right superior oblique,FMA:49052,http://purl.org/sig/ont/fma/fma49052,VH_M_Muscles_Eye_R
 -,#VHMaleOrgans,VH_M_muscles_of_knee,-,-,-,VH_M_United
 -,-,VH_M_muscles_of_knee_L,-,-,-,-
-#VHMMusclesLeftKnee,#VHMaleOrgans,VH_M_rectus_femoris_L,Left rectus femoris,FMA:38929,http://purl.obolibrary.org/obo/FMA_38929,VH_M_Muscles_Knee_L
-#VHMMusclesLeftKnee,#VHMaleOrgans,VH_M_tendon_of_quadriceps_femoris_L,Tendon of left quadriceps femoris,FMA:46902,http://purl.obolibrary.org/obo/FMA_46902,VH_M_Muscles_Knee_L
+#VHMMusclesLeftKnee,#VHMaleOrgans,VH_M_rectus_femoris_L,Left rectus femoris,FMA:38929,http://purl.org/sig/ont/fma/fma38929,VH_M_Muscles_Knee_L
+#VHMMusclesLeftKnee,#VHMaleOrgans,VH_M_tendon_of_quadriceps_femoris_L,Tendon of left quadriceps femoris,FMA:46902,http://purl.org/sig/ont/fma/fma46902,VH_M_Muscles_Knee_L
 -,-,VH_M_muscles_of_knee_R,-,-,-,-
-#VHMMusclesRightKnee,#VHMaleOrgans,VH_M_rectus_femoris_R,Right rectus femoris,FMA:38928,http://purl.obolibrary.org/obo/FMA_38928,VH_M_Muscles_Knee_R
-#VHMMusclesRightKnee,#VHMaleOrgans,VH_M_tendon_of_quadriceps_femoris_R,Tendon of right quadriceps femoris,FMA:46901,http://purl.obolibrary.org/obo/FMA_46901,VH_M_Muscles_Knee_R
+#VHMMusclesRightKnee,#VHMaleOrgans,VH_M_rectus_femoris_R,Right rectus femoris,FMA:38928,http://purl.org/sig/ont/fma/fma38928,VH_M_Muscles_Knee_R
+#VHMMusclesRightKnee,#VHMaleOrgans,VH_M_tendon_of_quadriceps_femoris_R,Tendon of right quadriceps femoris,FMA:46901,http://purl.org/sig/ont/fma/fma46901,VH_M_Muscles_Knee_R
 #VHMLung,#VHMaleOrgans,VH_M_muscles_of_larynx,Muscle of larynx,FMA:46562,http://purl.org/sig/ont/fma/fma46562,VH_M_Lung
 #VHMLung,#VHMaleOrgans,VH_M_thyroepiglottideus,thyroepiglotticus muscle,UBERON:0010927,http://purl.obolibrary.org/obo/UBERON_0010927,VH_M_Lung
 #VHMLung,#VHMaleOrgans,VH_M_vocalis,vocalis muscle,UBERON:0008577,http://purl.obolibrary.org/obo/UBERON_0008577,VH_M_Lung
