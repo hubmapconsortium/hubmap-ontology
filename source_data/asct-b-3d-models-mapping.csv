@@ -1561,7 +1561,7 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 -,#VHMaleOrgans,VH_M_minor_calyx_L_h,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
 -,#VHMaleOrgans,VH_M_minor_calyx_L_i,minor calyx,UBERON:0001227,http://purl.obolibrary.org/obo/UBERON_0001227,VH_M_Ureter_L
 #VHMLeftUreter,#VHMaleOrgans,VH_M_ureter_L,left ureter,UBERON:0001223,http://purl.obolibrary.org/obo/UBERON_0001223,VH_M_Ureter_L
-#VHMMaleUrethra,#VHMaleOrgans,VH_M_urethra,male urethra,UBERON:0001333,http://purl.obolibrary.org/obo/UBERON_0001333,VH_M_Urethra
+#VHMUrethra,#VHMaleOrgans,VH_M_urethra,male urethra,UBERON:0001333,http://purl.obolibrary.org/obo/UBERON_0001333,VH_M_Urethra
 -,#VHMaleOrgans,VH_M_other_urethra,-,-,-,VH_M_Urethra
 #VHMProstate,#VHMaleOrgans,VH_M_prostatic_urethra,prostatic urethra,UBERON:0001335,http://purl.obolibrary.org/obo/UBERON_0001335,VH_M_Urethra
 -,#VHMaleOrgans,VH_M_lymphatic_system,lymphoid system,UBERON:0002465,http://purl.obolibrary.org/obo/UBERON_0002465,VH_M_United
