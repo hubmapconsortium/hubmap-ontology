@@ -2,15 +2,15 @@ source,object,@id,label,sex,side,rui_rank
 #VHMaleOrgans_Allen_brain,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/Allen_M_Brain.glb,#VHMAllenBrain,Brain,Male,,10
 #VHMaleOrgans_VH_M_colon,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/SBU_M_Intestine_Large.glb,#VHMColon,Large Intestine,Male,,20
 #VHMaleOrgans_VH_M_blood_vasculature,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Blood_Vasculature.glb,#VHMBloodVasculature,Blood Vasculature,Male,,30
-#VHMaleOrgans_VH_M_eye_L,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Eye_L.glb,#VHMLeftEye,Left Eye,Male,Left,40
-#VHMaleOrgans_VH_M_eye_R,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Eye_R.glb,#VHMRightEye,Right Eye,Male,Right,50
+#VHMaleOrgans_VH_M_eye_L,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-m-eye-l.glb,#VHMLeftEye,Left Eye,Male,Left,40
+#VHMaleOrgans_VH_M_eye_R,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-m-eye-r.glb,#VHMRightEye,Right Eye,Male,Right,50
 #VHMaleOrgans_VH_M_heart,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Heart.glb,#VHMHeart,Heart,Male,,70
 #VHMaleOrgans_VH_M_left_kidney,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Kidney_L.glb,#VHMLeftKidney,Left Kidney,Male,Left,80
 #VHMaleOrgans_VH_M_right_kidney,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Kidney_R.glb,#VHMRightKidney,Right Kidney,Male,Right,90
 #VHMaleOrgans_VH_M_knee_L,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Knee_L.glb,#VHMLeftKnee,Left Knee,Male,Left,100
 #VHMaleOrgans_VH_M_knee_R,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Knee_R.glb,#VHMRightKnee,Right Knee,Male,Right,110
 #VHMaleOrgans_VH_M_liver,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Liver.glb,#VHMLiver,Liver,Male,,120
-#VHMaleOrgans_VH_M_respiratory_system,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Lung.glb,#VHMLung,Lung,Male,,130
+#VHMaleOrgans_VH_M_respiratory_system,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-m-lung.glb,#VHMLungV1.1,Lung,Male,,130
 #VHMaleOrgans_Yao_lymph_node,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/NIH_M_Lymph_Node.glb,#VHMLymphNode,Lymph Node,Male,,140
 #VHMaleOrgans_VH_M_pancreas,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Pancreas.glb,#VHMPancreas,Pancreas,Male,,150
 #VHMaleOrgans_VH_M_pelvis,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Pelvis.glb,#VHMPelvis,Pelvis,Male,,160
@@ -24,12 +24,17 @@ source,object,@id,label,sex,side,rui_rank
 #VHMaleOrgans_VH_M_urethra,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Urethra.glb,#VHMUrethra,Urethra,Male,,240
 #VHMaleOrgans_VH_M_urinary_bladder,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Urinary_Bladder.glb,#VHMUrinaryBladder,Urinary Bladder,Male,,250
 #VHMaleOrgans_VH_M_spinal_cord,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Spinal_Cord.glb,#VHMSpinalCord,Spinal Cord,Male,,260
+#VHMaleOrgans_VH_M_larynx,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-m-larynx.glb,#VHMLarynx,Larynx,Male,,270
+#VHMaleOrgans_VH_M_main_bronchi,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-m-main-bronchus.glb,#VHMMainBronchus,Main Bronchus,Male,,280
+#VHMaleOrgans_VH_M_palatine_tonsil_L,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-m-palatine-tonsil-l.glb,#VHMLeftPalatineTonsil,Left Palatine Tonsil,Male,Left,290
+#VHMaleOrgans_VH_M_palatine_tonsil_R,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-m-palatine-tonsil-r.glb,#VHMRightPalatineTonsil,Right Palatine Tonsil,Male,Right,300
+#VHMaleOrgans_VH_M_trachea_of_respiratory_system,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-m-trachea.glb,#VHMTrachea,Trachea,Male,,310
 #VHFemaleOrgans_Allen_brain,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/Allen_F_Brain.glb,#VHFAllenBrain,Brain,Female,,10
 #VHFemaleOrgans_Yao_lymph_node,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/NIH_F_Lymph_Node.glb,#VHFLymphNode,Lymph Node,Female,,20
 #VHFemaleOrgans_VH_F_colon,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/SBU_F_Intestine_Large.glb,#VHFLargeIntestine,Large Intestine,Female,,30
 #VHFemaleOrgans_VH_F_blood_vasculature,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Blood_Vasculature.glb,#VHFBloodVasculature,Blood Vasculature,Female,,40
-#VHFemaleOrgans_VH_F_eye_L,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Eye_L.glb,#VHFLeftEye,Left Eye,Female,Left,50
-#VHFemaleOrgans_VH_F_eye_R,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Eye_R.glb,#VHFRightEye,Right Eye,Female,Right,60
+#VHFemaleOrgans_VH_F_eye_L,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-f-eye-l.glb,#VHFLeftEye,Left Eye,Female,Left,50
+#VHFemaleOrgans_VH_F_eye_R,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-f-eye-r.glb,#VHFRightEye,Right Eye,Female,Right,60
 #VHFemaleOrgans_VH_F_fallopian_tube_L,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Fallopian_Tube_L.glb,#VHFLeftFallopianTube,Left Fallopian Tube,Female,Left,70
 #VHFemaleOrgans_VH_F_fallopian_tube_R,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Fallopian_Tube_R.glb,#VHFRightFallopianTube,Right Fallopian Tube,Female,Right,80
 #VHFemaleOrgans_VH_F_heart,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Heart.glb,#VHFHeartV1.1,Heart,Female,,90
@@ -38,7 +43,7 @@ source,object,@id,label,sex,side,rui_rank
 #VHFemaleOrgans_VH_F_knee_L,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Knee_L.glb,#VHFLeftKnee,Left Knee,Female,Left,120
 #VHFemaleOrgans_VH_F_knee_R,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Knee_R.glb,#VHFRightKnee,Right Knee,Female,Right,130
 #VHFemaleOrgans_VH_F_liver,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Liver.glb,#VHFLiver,Liver,Female,,140
-#VHFemaleOrgans_VH_F_respiratory_system,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Lung.glb,#VHFLungV1.1,Lung,Female,,150
+#VHFemaleOrgans_VH_F_respiratory_system,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-f-lung.glb,#VHFLungV1.2,Lung,Female,,150
 #VHFemaleOrgans_VH_F_left_ovary,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Ovary_L.glb,#VHFLeftOvary,Left Ovary,Female,Left,160
 #VHFemaleOrgans_VH_F_right_ovary,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Ovary_R.glb,#VHFRightOvary,Right Ovary,Female,Right,170
 #VHFemaleOrgans_VH_F_pancreas,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Pancreas.glb,#VHFPancreas,Pancreas,Female,,180
@@ -55,3 +60,8 @@ source,object,@id,label,sex,side,rui_rank
 #VHFemaleOrgans_VH_F_spinal_cord,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Spinal_Cord.glb,#VHFSpinalCord,Spinal Cord,Female,,290
 #VHFemaleOrgans_VH_F_mammary_gland_L,https://ccf-ontology.hubmapconsortium.org/objects/v1.3/3d-vh-f-mammary-gland-l.glb,#VHFLeftMammaryGland,Left Mammary Gland,Female,Left,300
 #VHFemaleOrgans_VH_F_mammary_gland_R,https://ccf-ontology.hubmapconsortium.org/objects/v1.3/3d-vh-f-mammary-gland-r.glb,#VHFRightMammaryGland,Right Mammary Gland,Female,Right,310
+#VHFemaleOrgans_VH_F_larynx,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-f-larynx.glb,#VHFLarynx,Larynx,Female,,320
+#VHFemaleOrgans_VH_F_main_bronchi,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-f-main-bronchus.glb,#VHFMainBronchus,Main Bronchus,Female,,330
+#VHFemaleOrgans_VH_F_palatine_tonsil_L,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-f-palatine-tonsil-l.glb,#VHFLeftPalatineTonsil,Left Palatine Tonsil,Female,Left,340
+#VHFemaleOrgans_VH_F_palatine_tonsil_R,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-f-palatine-tonsil-r.glb,#VHFRightPalatineTonsil,Right Palatine Tonsil,Female,Right,350
+#VHFemaleOrgans_VH_F_trachea_of_respiratory_system,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-f-trachea.glb,#VHFTrachea,Trachea,Female,,360
