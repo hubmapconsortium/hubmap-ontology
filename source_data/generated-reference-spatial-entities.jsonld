@@ -249,7 +249,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "##VHFTracheaLandmarks",
+    "@id": "#VHFTracheaLandmarks",
     "@type": "ExtractionSet",
     "label": "Landmarks",
     "extraction_set_for": "#VHFTrachea",
@@ -481,7 +481,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "##VHMTracheaLandmarks",
+    "@id": "#VHMTracheaLandmarks",
     "@type": "ExtractionSet",
     "label": "Landmarks",
     "extraction_set_for": "#VHMTrachea",
@@ -93767,7 +93767,7 @@
         "translation_units": "millimeter"
       }
     ],
-    "extraction_set": "##VHFTracheaLandmarks",
+    "extraction_set": "#VHFTracheaLandmarks",
     "rui_rank": 2900
   },
   {
@@ -93829,7 +93829,7 @@
         "translation_units": "millimeter"
       }
     ],
-    "extraction_set": "##VHFTracheaLandmarks",
+    "extraction_set": "#VHFTracheaLandmarks",
     "rui_rank": 2910
   },
   {
@@ -106539,7 +106539,7 @@
         "translation_units": "millimeter"
       }
     ],
-    "extraction_set": "##VHMTracheaLandmarks",
+    "extraction_set": "#VHMTracheaLandmarks",
     "rui_rank": 5780
   },
   {
@@ -106601,7 +106601,7 @@
         "translation_units": "millimeter"
       }
     ],
-    "extraction_set": "##VHMTracheaLandmarks",
+    "extraction_set": "#VHMTracheaLandmarks",
     "rui_rank": 5790
   },
   {
@@ -106663,7 +106663,7 @@
         "translation_units": "millimeter"
       }
     ],
-    "extraction_set": "##VHMTracheaLandmarks",
+    "extraction_set": "#VHMTracheaLandmarks",
     "rui_rank": 5800
   },
   {
