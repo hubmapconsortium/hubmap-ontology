@@ -12,8 +12,10 @@ API_URL_JSON = 'https://mmpyikxkcp.us-east-2.awsapprunner.com/v2/csv?output=json
 GOOGLE_SHEET = 'https://docs.google.com/spreadsheets/d/{0}/export?format=csv&gid={1}'
 
 # ASCTB_SHEET_CONFIGS = 'https://raw.githubusercontent.com/hubmapconsortium/ccf-asct-reporter/develop/projects/v2/src/assets/sheet-config.json'
-ASCTB_SHEET_CONFIGS = 'https://ccf-asct-reporter.netlify.app/assets/sheet-config.json'
-HRA_VERSION = 'v1.3'
+# ASCTB_SHEET_CONFIGS = 'https://ccf-asct-reporter.netlify.app/assets/sheet-config.json'
+ASCTB_SHEET_CONFIGS = 'https://hubmapconsortium.github.io/ccf-asct-reporter/assets/sheet-config.json'
+
+HRA_VERSION = 'v1.4'
 
 config = requests.get(ASCTB_SHEET_CONFIGS).json()
 
