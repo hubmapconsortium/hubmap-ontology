@@ -1713,8 +1713,6 @@ anatomical_structure_of,source_spatial_entity,node_name,label,OntologyID,represe
 #VHMUrinaryBladder,#VHMaleOrgans,VH_M_ureteral_orifice_L,Left ureteral orifice,FMA:15940,http://purl.org/sig/ont/fma/fma15940,VH_M_Urinary_Bladder
 #VHMUrinaryBladder,#VHMaleOrgans,VH_M_fundus_of_urinary_bladder_base1,fundus of urinary bladder,UBERON:0006082,http://purl.obolibrary.org/obo/UBERON_0006082,VH_M_Urinary_Bladder
 #VHMUrinaryBladder,#VHMaleOrgans,VH_M_trigone_of_urinary_bladder,trigone of urinary bladder,UBERON:0001257,http://purl.obolibrary.org/obo/UBERON_0001257,VH_M_Urinary_Bladder
-#VHMUrethra,#VHMaleOrgans,VH_M_urethra,male urethra,UBERON:0001333,http://purl.obolibrary.org/obo/UBERON_0001333,VH_M_Urethra
--,#VHMaleOrgans,VH_M_other_urethra,-,-,-,VH_M_Urethra
 #VHMProstate,#VHMaleOrgans,VH_M_prostatic_urethra,prostatic urethra,UBERON:0001335,http://purl.obolibrary.org/obo/UBERON_0001335,VH_M_Urethra
 -,#VHMaleOrgans,VH_M_circulatory_system,circulatory system,UBERON:0001009,http://purl.obolibrary.org/obo/UBERON_0001009,3d-vh-m-united
 #VHMHeart,#VHMaleOrgans,VH_M_heart,heart,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948,VH_M_Heart
