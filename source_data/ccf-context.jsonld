@@ -1,168 +1,116 @@
 {
   "@context": {
-    "@base": "http://purl.org/ccf/latest/ccf.owl#",
-    "@vocab": "http://purl.org/ccf/latest/ccf.owl#",
-    "ccf": "http://purl.org/ccf/latest/ccf.owl#",
+    "@base": "http://purl.org/ccf/",
+    "@vocab": "http://purl.org/ccf/",
+    "ccf": "http://purl.org/ccf/",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "obo": "http://purl.obolibrary.org/obo/",
-    "owl": "http://www.w3.org/2002/07/owl#",
-    "dc": "http://purl.org/dc/elements/1.1/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
 
     "label": "rdfs:label",
-    "comment": "rdfs:comment",
-    "creator": "dc:creator",
-    "creation_date": {
-      "@id": "creation_date",
-      "@type": "xsd:date"
+    "description": "rdfs:comment",
+    "link": "ccf:url",
+    "sex": "ccf:sex",
+    "age": "ccf:age",
+    "bmi": "ccf:bmi",
+    "consortium_name": "ccf:consortium_name",
+    "provider_name": "ccf:tissue_provider_name",
+    "provider_uuid": "ccf:tissue_provider_uuid",
+    "donor": {
+      "@id": "ccf:comes_from",
+      "@type": "@id"
     },
-    "updated_date": {
-      "@id": "updated_date",
-      "@type": "xsd:date"
+    "samples": {
+      "@reverse": "donor"
     },
-    "representation_of": {
-      "@id": "ccf_representation_of",
+    "sections": {
+      "@id": "ccf:subdivided_into_sections",
+      "@type": "@id"
+    },
+    "datasets": {
+      "@id": "ccf:generates_dataset",
+      "@type": "@id"
+    },
+    "sample_type": "ccf:sample_type",
+    "section_count": "ccf:section_count",
+    "section_size": "ccf:section_size",
+    "section_units": "ccf:section_size_unit",
+    "section_number": "ccf:section_number",
+    "rui_location": {
+      "@id": "ccf:has_registration_location",
       "@type": "@id"
     },
     "ccf_annotations": {
-      "@id": "ccf_annotation",
+      "@id": "ccf:collides_with",
       "@type": "@id",
       "@container": "@set"
     },
-    "freetext_annotations": {
-      "@id": "ccf_freetext_annotation",
-      "@type": "xsd:string",
-      "@container": "@set"
+    "representation_of": {
+      "@id": "ccf:representation_of",
+      "@type": "@id"
     },
-
     "reference_organ": {
-      "@id": "anatomical_structure_of",
+      "@id": "ccf:has_reference_organ",
       "@type": "@id"
     },
     "extraction_set_for": {
-      "@id": "extraction_set_for",
+      "@id": "ccf:extraction_set_for",
       "@type": "@id"
     },
     "extraction_set": {
-      "@id": "extraction_site_for",
+      "@id": "ccf:has_extraction_set",
       "@type": "@id"
     },
-    "sex": {
-      "@id": "has_sex",
-      "@type": "xsd:string"
-    },
-    "side": {
-      "@id": "has_side",
-      "@type": "xsd:string"
-    },
-    "rui_rank": {
-      "@id": "ccf_rui_rank",
-      "@type": "xsd:integer"
-    },
-    "slice_thickness": {
-      "@id": "ccf_slice_thickness",
-      "@type": "xsd:integer"
-    },
-    "slice_count": {
-      "@id": "ccf_slice_count",
-      "@type": "xsd:integer"
-    },
-
+    "organ_owner_sex": "ccf:organ_owner_sex",
+    "side": "ccf:organ_side",
+    "rui_rank": "ccf:rui_rank",
+    "slice_thickness": "ccf:slice_thickness",
+    "slice_count": "ccf:slice_count",
     "object": {
-      "@id": "has_object_reference"
+      "@id": "ccf:has_object_reference",
+      "@type": "@id"
     },
-    "file": {
-      "@id": "has_object_file"
-    },
-    "file_format": {
-      "@id": "has_object_file_format"
-    },
-    "file_subpath": {
-      "@id": "has_object_file_subpath"
-    },
-
+    "creation_date": "dcterms:created",
+    "updated_date": "ccf:updated_date",
+    "creator": "dcterms:creator",
+    "creator_first_name": "ccf:creator_first_name",
+    "creator_last_name": "ccf:creator_last_name",
     "placement": {
-      "@reverse": "has_placement_source"
+      "@reverse": "ccf:placement_for"
     },
+    "placement_date": "dcterms:created",
+    "rotation_order": "ccf:rotation_order",
+    "dimension_units": "ccf:dimension_unit",
+    "rotation_units": "ccf:rotation_unit",
+    "scaling_units": "ccf:scaling_unit",
+    "translation_units": "ccf:translation_unit",
     "source": {
-      "@id": "has_placement_source",
+      "@id": "ccf:placement_for",
       "@type": "@id"
     },
     "target": {
-      "@id": "has_placement_target",
+      "@id": "ccf:placement_relative_to",
       "@type": "@id"
     },
-    "placement_date": {
-      "@id": "has_placement_date",
-      "@type": "xsd:date"
+    "x_rotation": "ccf:x_rotation",
+    "y_rotation": "ccf:y_rotation",
+    "z_rotation": "ccf:z_rotation",
+    "x_scaling": "ccf:x_scaling",
+    "y_scaling": "ccf:y_scaling",
+    "z_scaling": "ccf:z_scaling",
+    "x_translation": "ccf:x_translation",
+    "y_translation": "ccf:y_translation",
+    "z_translation": "ccf:z_translation",
+    "x_dimension": "ccf:x_dimension",
+    "y_dimension": "ccf:y_dimension",
+    "z_dimension": "ccf:z_dimension",
+    "ontology_terms": {
+      "@id": "ccf:has_ontology_term",
+      "@type": "@id"
     },
-
-    "x_dimension": { 
-      "@id": "has_x_dimension",
-      "@type": "xsd:float"
-    },
-    "y_dimension": { 
-      "@id": "has_y_dimension",
-      "@type": "xsd:float"
-    },
-    "z_dimension": { 
-      "@id": "has_z_dimension",
-      "@type": "xsd:float"
-    },
-    "dimension_units": {
-      "@id": "has_dimension_units"
-    },
-
-    "x_scaling": { 
-      "@id": "has_x_scaling",
-      "@type": "xsd:float"
-    },
-    "y_scaling": { 
-      "@id": "has_y_scaling",
-      "@type": "xsd:float"
-    },
-    "z_scaling": { 
-      "@id": "has_z_scaling",
-      "@type": "xsd:float"
-    },
-
-    "x_rotation": { 
-      "@id": "has_x_rotation",
-      "@type": "xsd:float"
-    },
-    "y_rotation": { 
-      "@id": "has_y_rotation",
-      "@type": "xsd:float"
-    },
-    "z_rotation": { 
-      "@id": "has_z_rotation",
-      "@type": "xsd:float"
-    },
-    "w_rotation": { 
-      "@id": "has_theta_rotation",
-      "@type": "xsd:float"
-    },
-    "rotation_order": {
-      "@id": "has_rotation_order"
-    },
-    "rotation_units": {
-      "@id": "has_rotation_units"
-    },
-
-    "x_translation": { 
-      "@id": "has_x_translation",
-      "@type": "xsd:float"
-    },
-    "y_translation": { 
-      "@id": "has_y_translation",
-      "@type": "xsd:float"
-    },
-    "z_translation": { 
-      "@id": "has_z_translation",
-      "@type": "xsd:float"
-    },
-    "translation_units": {
-      "@id": "has_translation_units"
-    }
+    "technology": "ccf:technology",
+    "thumbnail": "ccf:thumbnail",
+    "file": "ccf:file_url",
+    "file_format": "ccf:file_format",
+    "file_subpath": "ccf:file_subpath"
   }
 }
