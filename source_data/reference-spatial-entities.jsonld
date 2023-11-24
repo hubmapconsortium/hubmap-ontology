@@ -1255,7 +1255,6 @@
         "translation_units": "millimeter"
       }
     ],
-    "reference_organ": "#VHFLungV1.1",
     "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001004",
     "rui_rank": 150,
     "sex": "Female"
@@ -1319,7 +1318,6 @@
         "translation_units": "millimeter"
       }
     ],
-    "reference_organ": "#VHMLungV1.0",
     "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001004",
     "rui_rank": 130,
     "sex": "Male"
