@@ -1,5 +1,5 @@
 source,object,@id,label,sex,side,rui_rank
-#VHMaleOrgans_Allen_brain,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/Allen_M_Brain.glb,#VHMAllenBrain,Brain,Male,,10
+#VHMaleOrgans_Allen_brain,https://ccf-ontology.hubmapconsortium.org/objects/v2.0/3d-vh-m-allen-brain.glb,#VHMAllenBrain,Brain,Male,,10
 #VHMaleOrgans_VH_M_colon,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/SBU_M_Intestine_Large.glb,#VHMColon,Large Intestine,Male,,20
 #VHMaleOrgans_VH_M_blood_vasculature,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Blood_Vasculature.glb,#VHMBloodVasculature,Blood Vasculature,Male,,30
 #VHMaleOrgans_VH_M_eye_L,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-m-eye-l.glb,#VHMLeftEye,Left Eye,Male,Left,40
@@ -12,7 +12,7 @@ source,object,@id,label,sex,side,rui_rank
 #VHMaleOrgans_VH_M_liver,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Liver.glb,#VHMLiver,Liver,Male,,120
 #VHMaleOrgans_VH_M_respiratory_system,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-m-lung.glb,#VHMLungV1.1,Lung,Male,,130
 #VHMaleOrgans_Yao_lymph_node,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/NIH_M_Lymph_Node.glb,#VHMLymphNode,Lymph Node,Male,,140
-#VHMaleOrgans_VH_M_pancreas,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Pancreas.glb,#VHMPancreas,Pancreas,Male,,150
+#VHMaleOrgans_VH_M_pancreas,https://ccf-ontology.hubmapconsortium.org/objects/v2.0/3d-vh-m-pancreas.glb,#VHMPancreas,Pancreas,Male,,150
 #VHMaleOrgans_VH_M_pelvis,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Pelvis.glb,#VHMPelvis,Pelvis,Male,,160
 #VHMaleOrgans_VH_M_male_reproductive_system,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Prostate.glb,#VHMProstate,Prostate,Male,,170
 #VHMaleOrgans_VH_M_skin,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Skin.glb,#VHMSkinV1.1,Skin,Male,,180
@@ -28,7 +28,7 @@ source,object,@id,label,sex,side,rui_rank
 #VHMaleOrgans_VH_M_palatine_tonsil_L,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-m-palatine-tonsil-l.glb,#VHMLeftPalatineTonsil,Left Palatine Tonsil,Male,Left,290
 #VHMaleOrgans_VH_M_palatine_tonsil_R,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-m-palatine-tonsil-r.glb,#VHMRightPalatineTonsil,Right Palatine Tonsil,Male,Right,300
 #VHMaleOrgans_VH_M_trachea_of_respiratory_system,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-m-trachea.glb,#VHMTrachea,Trachea,Male,,310
-#VHFemaleOrgans_Allen_brain,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/Allen_F_Brain.glb,#VHFAllenBrain,Brain,Female,,10
+#VHFemaleOrgans_Allen_brain,https://ccf-ontology.hubmapconsortium.org/objects/v2.0/3d-vh-f-allen-brain.glb,#VHFAllenBrain,Brain,Female,,10
 #VHFemaleOrgans_Yao_lymph_node,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/NIH_F_Lymph_Node.glb,#VHFLymphNode,Lymph Node,Female,,20
 #VHFemaleOrgans_VH_F_colon,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/SBU_F_Intestine_Large.glb,#VHFLargeIntestine,Large Intestine,Female,,30
 #VHFemaleOrgans_VH_F_blood_vasculature,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Blood_Vasculature.glb,#VHFBloodVasculature,Blood Vasculature,Female,,40
@@ -45,7 +45,7 @@ source,object,@id,label,sex,side,rui_rank
 #VHFemaleOrgans_VH_F_respiratory_system,https://ccf-ontology.hubmapconsortium.org/objects/v1.4/3d-vh-f-lung.glb,#VHFLungV1.2,Lung,Female,,150
 #VHFemaleOrgans_VH_F_left_ovary,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Ovary_L.glb,#VHFLeftOvary,Left Ovary,Female,Left,160
 #VHFemaleOrgans_VH_F_right_ovary,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Ovary_R.glb,#VHFRightOvary,Right Ovary,Female,Right,170
-#VHFemaleOrgans_VH_F_pancreas,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Pancreas.glb,#VHFPancreas,Pancreas,Female,,180
+#VHFemaleOrgans_VH_F_pancreas,https://ccf-ontology.hubmapconsortium.org/objects/v2.0/3d-vh-f-pancreas.glb,#VHFPancreas,Pancreas,Female,,180
 #VHFemaleOrgans_VH_F_pelvis,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Pelvis.glb,#VHFPelvis,Pelvis,Female,,190
 #VHFemaleOrgans_VH_F_skin,https://ccf-ontology.hubmapconsortium.org/objects/v1.3/3d-vh-f-skin.glb,#VHFSkinV1.1,Skin,Female,,200
 #VHFemaleOrgans_VH_F_small_intestine,https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Small_Intestine.glb,#VHFSmallIntestine,Small Intestine,Female,,210
