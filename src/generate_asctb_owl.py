@@ -15,7 +15,7 @@ GOOGLE_SHEET = 'https://docs.google.com/spreadsheets/d/{0}/export?format=csv&gid
 # ASCTB_SHEET_CONFIGS = 'https://ccf-asct-reporter.netlify.app/assets/sheet-config.json'
 ASCTB_SHEET_CONFIGS = 'https://hubmapconsortium.github.io/ccf-asct-reporter/assets/sheet-config.json'
 
-HRA_VERSION = 'v1.4'
+HRA_VERSION = 'v2.0'
 
 config = requests.get(ASCTB_SHEET_CONFIGS).json()
 
